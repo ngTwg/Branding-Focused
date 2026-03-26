@@ -1,4 +1,4 @@
-﻿from typing import List
+from typing import List
 
 
 def string_xor(a: str, b: str) -> str:
@@ -14,4 +14,3 @@ def string_xor(a: str, b: str) -> str:
         else:
             result.append('1')
     return ''.join(result)
-

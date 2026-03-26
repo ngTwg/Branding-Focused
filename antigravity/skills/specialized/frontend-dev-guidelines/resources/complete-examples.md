@@ -1,4 +1,4 @@
-﻿# Complete Examples
+# Complete Examples
 
 Full working examples combining all modern patterns: React.FC, lazy loading, Suspense, useSuspenseQuery, styling, routing, and error handling.
 
@@ -870,4 +870,3 @@ export const useToggleUserStatus = () => {
 8. **Styling**: Inline <100 lines, sx prop, MUI v7 syntax
 
 **See other resources for detailed explanations of each pattern.**
-

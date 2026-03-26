@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 import sys
 import time
 import random
@@ -50,5 +50,3 @@ def diagnose_bug(bug_description):
 if __name__ == "__main__":
     report = " ".join(sys.argv[1:]) if len(sys.argv) > 1 else "Chạy local thì mượt mà lên Prod thì màn hình trắng, nút bấm không chạy."
     diagnose_bug(report)
-
-

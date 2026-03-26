@@ -1,4 +1,4 @@
-﻿---
+---
 name: python-fastapi
 description: FastAPI REST API template principles. SQLAlchemy, Pydantic, Alembic.
 ---
@@ -81,5 +81,3 @@ project-name/
 - SQLAlchemy 2.0 async sessions
 - Alembic for migrations
 - pytest-asyncio for tests
-
-

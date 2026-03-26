@@ -1,4 +1,4 @@
-﻿# HumanEval/143
+# HumanEval/143
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -38,4 +38,3 @@ def words_in_sentence(sentence):
     words = sentence.split()
     prime_words = [word for word in words if is_prime(len(word))]
     return " ".join(prime_words)
-

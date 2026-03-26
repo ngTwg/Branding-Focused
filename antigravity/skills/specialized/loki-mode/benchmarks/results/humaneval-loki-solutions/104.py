@@ -1,4 +1,4 @@
-﻿# HumanEval/104
+# HumanEval/104
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -21,4 +21,3 @@ def unique_digits(x):
         if not any(d in even_digits for d in str(num)):
             result.append(num)
     return sorted(result)
-

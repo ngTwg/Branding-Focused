@@ -1,4 +1,4 @@
-﻿# HumanEval/136
+# HumanEval/136
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -22,4 +22,3 @@ def largest_smallest_integers(lst):
     smallest_positive = min(positives) if positives else None
     
     return (largest_negative, smallest_positive)
-

@@ -1,4 +1,4 @@
-﻿def pairs_sum_to_zero(l):
+def pairs_sum_to_zero(l):
     """
     pairs_sum_to_zero takes a list of integers as an input.
     it returns True if there are two distinct elements in the list that
@@ -20,4 +20,3 @@
             return True
         seen.add(num)
     return False
-

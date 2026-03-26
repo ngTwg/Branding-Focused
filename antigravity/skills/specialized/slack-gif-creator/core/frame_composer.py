@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Frame Composer - Utilities for composing visual elements into frames.
 
@@ -174,5 +174,3 @@ def draw_star(
     draw.polygon(points, fill=fill_color, outline=outline_color, width=outline_width)
 
     return frame
-
-

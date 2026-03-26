@@ -1,4 +1,4 @@
-﻿# Building Generic Components
+# Building Generic Components
 
 Reducing nesting and complexity is achieved by breaking down views into generic, reusable components.
 
@@ -39,5 +39,3 @@ Avoid deep nesting. Deeply nested XAML is hard to read and can impact performanc
 - **Organisms**: Higher-level sections of a page.
 
 Aim for components that are generic enough to be reused but specific enough to simplify the parent view significantly.
-
-

@@ -1,4 +1,4 @@
-﻿# Avalonia, Zafiro & Reactive Rules
+# Avalonia, Zafiro & Reactive Rules
 
 ## Avalonia UI Rules
 
@@ -47,5 +47,3 @@ Use `WhereNotNull()` in reactive pipelines.
 ```csharp
 this.WhenAnyValue(x => x.DurationPreset).WhereNotNull()
 ```
-
-

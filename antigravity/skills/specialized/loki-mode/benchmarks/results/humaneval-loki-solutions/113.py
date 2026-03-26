@@ -1,4 +1,4 @@
-﻿# HumanEval/113
+# HumanEval/113
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -23,4 +23,3 @@ def odd_count(lst):
         formatted = template.replace('i', count_str)
         result.append(formatted)
     return result
-

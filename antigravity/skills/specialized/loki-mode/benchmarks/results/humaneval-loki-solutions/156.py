@@ -1,4 +1,4 @@
-﻿# HumanEval/156
+# HumanEval/156
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -37,4 +37,3 @@ def int_to_mini_roman(number):
             number -= value
     
     return result
-

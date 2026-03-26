@@ -1,4 +1,4 @@
-﻿# Routing and Controllers - Best Practices
+# Routing and Controllers - Best Practices
 
 Complete guide to clean route definitions and controller patterns.
 
@@ -754,5 +754,3 @@ export class ActionRepository {
 - [SKILL.md](SKILL.md) - Main guide
 - [services-and-repositories.md](services-and-repositories.md) - Service layer details
 - [complete-examples.md](complete-examples.md) - Full refactoring examples
-
-

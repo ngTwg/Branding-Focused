@@ -1,4 +1,4 @@
-﻿from typing import List
+from typing import List
 
 
 def parse_music(music_string: str) -> List[int]:
@@ -25,4 +25,3 @@ def parse_music(music_string: str) -> List[int]:
     
     notes = music_string.split()
     return [note_map[note] for note in notes]
-

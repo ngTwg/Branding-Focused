@@ -1,4 +1,4 @@
-﻿# Wizards & Flows
+# Wizards & Flows
 
 Complex multi-step processes are handled using the `SlimWizard` pattern. This provides a declarative way to define steps, navigation logic, and final results.
 
@@ -45,5 +45,3 @@ public async Task CreateSomething()
 
 > [!NOTE]
 > The `SlimWizard` handles the "Back" command automatically, providing a consistent user experience across different flows.
-
-

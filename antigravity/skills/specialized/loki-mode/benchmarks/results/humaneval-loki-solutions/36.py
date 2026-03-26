@@ -1,4 +1,4 @@
-﻿# HumanEval/36
+# HumanEval/36
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -17,4 +17,3 @@ def fizz_buzz(n: int):
         if i % 11 == 0 or i % 13 == 0:
             count += str(i).count('7')
     return count
-

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Index JSONB Columns for Efficient Querying
 impact: MEDIUM
 impactDescription: 10-100x faster JSONB queries with proper indexing
@@ -47,5 +47,3 @@ create index idx2 on products using gin (attributes jsonb_path_ops);
 ```
 
 Reference: [JSONB Indexes](https://www.postgresql.org/docs/current/datatype-json.html#JSON-INDEXING)
-
-

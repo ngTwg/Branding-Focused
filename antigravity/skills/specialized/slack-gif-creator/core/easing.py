@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Easing Functions - Timing functions for smooth animations.
 
@@ -232,5 +232,3 @@ EASING_FUNCTIONS.update(
         "overshoot": ease_back_out,  # Alias
     }
 )
-
-

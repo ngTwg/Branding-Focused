@@ -1,4 +1,4 @@
-﻿# HumanEval/76
+# HumanEval/76
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -23,4 +23,3 @@ def is_simple_power(x, n):
     while power < x:
         power *= n
     return power == x
-

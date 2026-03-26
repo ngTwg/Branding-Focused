@@ -1,4 +1,4 @@
-﻿# HumanEval/146
+# HumanEval/146
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -19,4 +19,3 @@ def specialFilter(nums):
             if s[0] in odd_digits and s[-1] in odd_digits:
                 count += 1
     return count
-

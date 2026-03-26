@@ -1,4 +1,4 @@
-﻿---
+---
 title: Configure Idle Connection Timeouts
 impact: HIGH
 impactDescription: Reclaim 30-50% of connection slots from idle clients
@@ -44,5 +44,3 @@ client_idle_timeout = 300
 ```
 
 Reference: [Connection Timeouts](https://www.postgresql.org/docs/current/runtime-config-client.html#GUC-IDLE-IN-TRANSACTION-SESSION-TIMEOUT)
-
-

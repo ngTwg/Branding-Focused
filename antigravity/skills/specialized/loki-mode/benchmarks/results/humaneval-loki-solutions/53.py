@@ -1,4 +1,4 @@
-﻿# HumanEval/53
+# HumanEval/53
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -11,4 +11,3 @@ def add(x: int, y: int):
     12
     """
     return x + y
-

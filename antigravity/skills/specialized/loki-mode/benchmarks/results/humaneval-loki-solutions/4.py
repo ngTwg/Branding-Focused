@@ -1,4 +1,4 @@
-﻿# HumanEval/4
+# HumanEval/4
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -21,4 +21,3 @@ def mean_absolute_deviation(numbers: List[float]) -> float:
     mean = sum(numbers) / len(numbers)
     absolute_deviations = [abs(x - mean) for x in numbers]
     return sum(absolute_deviations) / len(absolute_deviations)
-

@@ -1,4 +1,4 @@
-﻿# HumanEval/8
+# HumanEval/8
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -22,4 +22,3 @@ def sum_product(numbers: List[int]) -> Tuple[int, int]:
         total_product *= num
     
     return (total_sum, total_product)
-

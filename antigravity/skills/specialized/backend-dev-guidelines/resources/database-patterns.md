@@ -1,4 +1,4 @@
-﻿# Database Patterns - Prisma Best Practices
+# Database Patterns - Prisma Best Practices
 
 Complete guide to database access patterns using Prisma in backend microservices.
 
@@ -222,5 +222,3 @@ try {
 - [SKILL.md](SKILL.md)
 - [services-and-repositories.md](services-and-repositories.md)
 - [async-and-errors.md](async-and-errors.md)
-
-

@@ -1,4 +1,4 @@
-﻿import unittest
+import unittest
 import json
 import io
 from check_bounding_boxes import get_bounding_box_messages
@@ -224,5 +224,3 @@ class TestGetBoundingBoxMessages(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-
-

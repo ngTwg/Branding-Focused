@@ -1,4 +1,4 @@
-﻿# HumanEval/133
+# HumanEval/133
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -19,4 +19,3 @@ def sum_squares(lst):
 
     """
     return sum(math.ceil(x)**2 for x in lst)
-

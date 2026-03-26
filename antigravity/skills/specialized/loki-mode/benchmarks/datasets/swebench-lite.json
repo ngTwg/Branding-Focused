@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "SWE-bench Lite",
   "version": "1.0",
   "description": "300 real-world GitHub issues for evaluation",
@@ -8,4 +8,3 @@
   "install_command": "pip install swebench",
   "run_command": "python -m swebench.harness.run_evaluation"
 }
-

@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env node
+#!/usr/bin/env node
 const puppeteer = require('puppeteer');
 const path = require('path');
 const fs = require('fs');
@@ -53,4 +53,3 @@ async function takeScreenshots() {
 }
 
 takeScreenshots().catch(console.error);
-

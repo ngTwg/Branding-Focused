@@ -1,4 +1,4 @@
-﻿# Examples: Planning with Files in Action
+# Examples: Planning with Files in Action
 
 ## Example 1: Research Task
 
@@ -200,5 +200,3 @@ Success!
 ```
 
 This is why Manus can handle ~50 tool calls without losing track. The plan file acts as a "goal refresh" mechanism.
-
-

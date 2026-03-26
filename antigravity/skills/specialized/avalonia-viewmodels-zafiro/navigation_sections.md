@@ -1,4 +1,4 @@
-﻿# Navigation & Sections
+# Navigation & Sections
 
 Zafiro provides powerful abstractions for managing application-wide navigation and modular UI sections.
 
@@ -51,5 +51,3 @@ shellViewModel.SetSection("Browse");
 
 > [!IMPORTANT]
 > The `icon` parameter in the `[Section]` attribute supports FontAwesome icons (e.g., `fa-home`) when configured with `ProjektankerIconControlProvider`.
-
-

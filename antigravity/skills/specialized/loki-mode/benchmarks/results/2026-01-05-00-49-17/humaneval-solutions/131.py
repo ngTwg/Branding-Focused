@@ -1,4 +1,4 @@
-﻿def digits(n):
+def digits(n):
     """Given a positive integer n, return the product of the odd digits.
     Return 0 if all digits are even.
     For example:
@@ -16,4 +16,3 @@
             has_odd = True
     
     return product if has_odd else 0
-

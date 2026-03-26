@@ -1,4 +1,4 @@
-﻿# Brand Voice & Style Guidelines
+# Brand Voice & Style Guidelines
 
 ## Brand Voice Framework
 
@@ -197,5 +197,3 @@ Before publishing any content, verify:
 - [ ] Mobile-friendly formatting
 - [ ] Accessible to all audiences
 - [ ] Proofread and fact-checked
-
-

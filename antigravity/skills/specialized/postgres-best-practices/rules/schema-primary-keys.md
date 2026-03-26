@@ -1,4 +1,4 @@
-﻿---
+---
 title: Select Optimal Primary Key Strategy
 impact: HIGH
 impactDescription: Better index locality, reduced fragmentation
@@ -59,5 +59,3 @@ Guidelines:
 
 Reference:
 [Identity Columns](https://www.postgresql.org/docs/current/sql-createtable.html#SQL-CREATETABLE-PARMS-GENERATED-IDENTITY)
-
-

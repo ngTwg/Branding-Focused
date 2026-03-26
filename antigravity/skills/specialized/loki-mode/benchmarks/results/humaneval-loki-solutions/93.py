@@ -1,4 +1,4 @@
-﻿# HumanEval/93
+# HumanEval/93
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -28,4 +28,3 @@ def encode(message):
             result.append(swapped)
     
     return ''.join(result)
-

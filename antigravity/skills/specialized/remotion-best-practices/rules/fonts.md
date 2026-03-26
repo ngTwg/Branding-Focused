@@ -1,4 +1,4 @@
-﻿---
+---
 name: fonts
 description: Loading Google Fonts and local fonts in Remotion
 metadata:
@@ -150,5 +150,3 @@ export const Title: React.FC<{ text: string }> = ({ text }) => {
   );
 };
 ```
-
-

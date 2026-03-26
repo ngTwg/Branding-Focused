@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 SEO Checker - Search Engine Optimization Audit
 Checks HTML/JSX/TSX pages for SEO best practices.
@@ -217,5 +217,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-

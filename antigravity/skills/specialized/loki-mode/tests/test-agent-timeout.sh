@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 # Test: Agent Timeout and Stuck Process Handling
 # Tests timeout mechanisms for long-running commands like npm build
 
@@ -346,4 +346,3 @@ else
     echo -e "${RED}Some tests failed!${NC}"
     exit 1
 fi
-

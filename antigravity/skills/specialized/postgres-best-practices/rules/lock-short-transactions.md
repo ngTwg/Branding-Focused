@@ -1,4 +1,4 @@
-﻿---
+---
 title: Keep Transactions Short to Reduce Lock Contention
 impact: MEDIUM-HIGH
 impactDescription: 3-5x throughput improvement, fewer deadlocks
@@ -48,5 +48,3 @@ set local statement_timeout = '5s';
 ```
 
 Reference: [Transaction Management](https://www.postgresql.org/docs/current/tutorial-transactions.html)
-
-

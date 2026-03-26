@@ -1,4 +1,4 @@
-﻿# GIT WORKFLOW
+# GIT WORKFLOW
 
 > **Khi nào tải skill này:** Git, Commit, Branch, Merge, Rebase, Version
 
@@ -272,5 +272,3 @@ git rebase --abort
 | `git push -u origin` | Push and track |
 | `git fetch --prune` | Clean stale remotes |
 | `git reflog` | Recovery history |
-
-

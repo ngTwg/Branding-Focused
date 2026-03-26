@@ -1,4 +1,4 @@
-﻿"""
+"""
 Validation modules for Word document processing.
 """
 
@@ -13,5 +13,3 @@ __all__ = [
     "PPTXSchemaValidator",
     "RedliningValidator",
 ]
-
-

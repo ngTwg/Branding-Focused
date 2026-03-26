@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 GIF Builder - Core module for assembling frames into GIFs optimized for Slack.
 
@@ -267,5 +267,3 @@ class GIFBuilder:
     def clear(self):
         """Clear all frames (useful for creating multiple GIFs)."""
         self.frames = []
-
-

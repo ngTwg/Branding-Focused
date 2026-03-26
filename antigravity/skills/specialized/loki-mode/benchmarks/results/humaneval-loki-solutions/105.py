@@ -1,4 +1,4 @@
-﻿# HumanEval/105
+# HumanEval/105
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -32,4 +32,3 @@ def by_length(arr):
     filtered.reverse()
     
     return [names[x - 1] for x in filtered]
-

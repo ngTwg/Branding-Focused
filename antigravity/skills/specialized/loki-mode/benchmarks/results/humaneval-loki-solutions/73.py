@@ -1,4 +1,4 @@
-﻿# HumanEval/73
+# HumanEval/73
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -20,4 +20,3 @@ def smallest_change(arr):
         if arr[i] != arr[n - 1 - i]:
             changes += 1
     return changes
-

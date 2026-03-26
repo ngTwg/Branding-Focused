@@ -1,4 +1,4 @@
-﻿---
+---
 title: Apply Principle of Least Privilege
 impact: MEDIUM
 impactDescription: Reduced attack surface, better audit trail
@@ -52,5 +52,3 @@ revoke all on all tables in schema public from public;
 ```
 
 Reference: [Roles and Privileges](https://supabase.com/blog/postgres-roles-and-privileges)
-
-

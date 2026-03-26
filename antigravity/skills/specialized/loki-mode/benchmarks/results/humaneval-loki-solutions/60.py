@@ -1,4 +1,4 @@
-﻿# HumanEval/60
+# HumanEval/60
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -17,4 +17,3 @@ def sum_to_n(n: int):
     1
     """
     return n * (n + 1) // 2
-

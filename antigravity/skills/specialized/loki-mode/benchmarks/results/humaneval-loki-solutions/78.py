@@ -1,4 +1,4 @@
-﻿# HumanEval/78
+# HumanEval/78
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -27,4 +27,3 @@ def hex_key(num):
         if char in prime_hex_digits:
             count += 1
     return count
-

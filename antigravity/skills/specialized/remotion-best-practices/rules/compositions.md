@@ -1,4 +1,4 @@
-﻿---
+---
 name: compositions
 description: Defining compositions, stills, folders, default props and dynamic metadata
 metadata:
@@ -144,4 +144,3 @@ export const RemotionRoot = () => {
 ```
 
 The function can return `props`, `durationInFrames`, `width`, `height`, `fps`, and codec-related defaults. It runs once before rendering begins.
-

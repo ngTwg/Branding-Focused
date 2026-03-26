@@ -1,4 +1,4 @@
-﻿def is_palindrome(text: str):
+def is_palindrome(text: str):
     """
     Checks if given string is a palindrome
     >>> is_palindrome('')
@@ -11,4 +11,3 @@
     False
     """
     return text == text[::-1]
-

@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 # Loki Mode Auto Demo - Non-interactive version for recording
 # Usage: ./demo/run-demo-auto.sh
 
@@ -291,4 +291,3 @@ echo ""
 echo "github.com/asklokesh/loki-mode"
 echo ""
 sleep 3
-

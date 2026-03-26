@@ -1,4 +1,4 @@
-﻿def bf(planet1, planet2):
+def bf(planet1, planet2):
     '''
     There are eight planets in our solar system: the closerst to the Sun 
     is Mercury, the next one is Venus, then Earth, Mars, Jupiter, Saturn, 
@@ -26,4 +26,3 @@
         idx1, idx2 = idx2, idx1
     
     return planets[idx1 + 1:idx2]
-

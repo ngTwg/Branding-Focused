@@ -1,4 +1,4 @@
-﻿---
+---
 name: multiplayer
 description: Multiplayer game development principles. Architecture, networking, synchronization.
 allowed-tools: Read, Write, Edit, Glob, Grep, Bash
@@ -130,5 +130,3 @@ Server: Validate → did projectile actually hit?
 ---
 
 > **Remember:** Never trust the client. The server is the source of truth.
-
-

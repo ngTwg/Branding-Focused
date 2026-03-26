@@ -1,4 +1,4 @@
-﻿# HumanEval/19
+# HumanEval/19
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -32,4 +32,3 @@ def sort_numbers(numbers: str) -> str:
     words = numbers.split()
     sorted_words = sorted(words, key=lambda w: word_to_num[w])
     return ' '.join(sorted_words)
-

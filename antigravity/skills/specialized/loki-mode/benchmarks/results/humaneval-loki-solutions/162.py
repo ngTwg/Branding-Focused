@@ -1,4 +1,4 @@
-﻿# HumanEval/162
+# HumanEval/162
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -14,4 +14,3 @@ def string_to_md5(text):
         return None
     import hashlib
     return hashlib.md5(text.encode()).hexdigest()
-

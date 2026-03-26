@@ -1,4 +1,4 @@
-﻿def fix_spaces(text):
+def fix_spaces(text):
     """
     Given a string text, replace all spaces in it with underscores, 
     and if a string has more than 2 consecutive spaces, 
@@ -28,4 +28,3 @@
             result.append(text[i])
             i += 1
     return ''.join(result)
-

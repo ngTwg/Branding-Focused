@@ -1,4 +1,4 @@
-﻿# HumanEval/128
+# HumanEval/128
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -29,4 +29,3 @@ def prod_signs(arr):
         magnitude_sum += abs(num)
     
     return sign_product * magnitude_sum
-

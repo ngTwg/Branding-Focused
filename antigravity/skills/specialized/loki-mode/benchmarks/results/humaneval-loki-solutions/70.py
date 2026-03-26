@@ -1,4 +1,4 @@
-﻿# HumanEval/70
+# HumanEval/70
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -33,4 +33,3 @@ def strange_sort_list(lst):
         pick_min = not pick_min
     
     return result
-

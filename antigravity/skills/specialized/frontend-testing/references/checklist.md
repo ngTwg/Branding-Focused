@@ -1,4 +1,4 @@
-﻿# Test Generation Checklist
+# Test Generation Checklist
 
 Use this checklist when generating or reviewing tests for Dify frontend components.
 
@@ -203,5 +203,3 @@ pnpm analyze-component path/to/component.tsx
 # Review existing test
 pnpm analyze-component path/to/component.tsx --review
 ```
-
-

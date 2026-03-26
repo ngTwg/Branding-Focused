@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Environment Setup for NotebookLM Skill
 Manages virtual environment and dependencies automatically
@@ -202,4 +202,3 @@ def main():
 
 if __name__ == "__main__":
     sys.exit(main() or 0)
-

@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Rearrange PowerPoint slides based on a sequence of indices.
 
@@ -229,5 +229,3 @@ def rearrange_presentation(template_path, output_path, slide_sequence):
 
 if __name__ == "__main__":
     main()
-
-

@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Simple NotebookLM Question Interface
 Based on MCP server implementation - simplified without sessions
@@ -254,5 +254,3 @@ def main():
 
 if __name__ == "__main__":
     sys.exit(main())
-
-

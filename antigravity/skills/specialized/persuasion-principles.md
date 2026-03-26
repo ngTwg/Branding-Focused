@@ -1,4 +1,4 @@
-﻿# Persuasion Principles for Skill Design
+# Persuasion Principles for Skill Design
 
 ## Overview
 
@@ -185,5 +185,3 @@ When designing a skill, ask:
 3. **Which principle(s) apply?** (Usually authority + commitment for discipline)
 4. **Am I combining too many?** (Don't use all seven)
 5. **Is this ethical?** (Serves user's genuine interests?)
-
-

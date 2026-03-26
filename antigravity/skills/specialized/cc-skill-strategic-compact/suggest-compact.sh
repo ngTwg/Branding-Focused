@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 # Strategic Compact Suggester
 # Runs on PreToolUse or periodically to suggest manual compaction at logical intervals
 #
@@ -50,4 +50,3 @@ fi
 if [ "$count" -gt "$THRESHOLD" ] && [ $((count % 25)) -eq 0 ]; then
   echo "[StrategicCompact] $count tool calls - good checkpoint for /compact if context is stale" >&2
 fi
-

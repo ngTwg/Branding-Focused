@@ -1,4 +1,4 @@
-﻿{
+{
   "timeSeries": [
     { "date": "2024-01-01", "value": 120, "category": "A" },
     { "date": "2024-02-01", "value": 135, "category": "A" },
@@ -113,5 +113,3 @@
     { "category": "Item H", "value": 14 }
   ]
 }
-
-

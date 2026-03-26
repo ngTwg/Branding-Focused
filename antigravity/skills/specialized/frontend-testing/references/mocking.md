@@ -1,4 +1,4 @@
-﻿# Mocking Guide for Dify Frontend Tests
+# Mocking Guide for Dify Frontend Tests
 
 ## ⚠️ Important: What NOT to Mock
 
@@ -321,7 +321,7 @@ import type { User, Project } from '@/types'
 export const createMockUser = (overrides: Partial<User> = {}): User => ({
   id: 'user-1',
   name: 'Test User',
-  email: '[HIDDEN_EMAIL]',
+  email: 'test@example.com',
   role: 'member',
   createdAt: new Date().toISOString(),
   ...overrides,
@@ -347,5 +347,3 @@ it('should display project owner', () => {
   expect(screen.getByText('John Doe')).toBeInTheDocument()
 })
 ```
-
-

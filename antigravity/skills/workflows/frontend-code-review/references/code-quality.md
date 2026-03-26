@@ -1,4 +1,4 @@
-﻿# Rule Catalog — Code Quality
+# Rule Catalog — Code Quality
 
 ## Conditional class names use utility function
 
@@ -42,5 +42,3 @@ const Button = ({ className }) => {
   return <div className={cn('bg-primary-600', className)}></div>
 }
 ```
-
-

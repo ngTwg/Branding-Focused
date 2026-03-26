@@ -1,4 +1,4 @@
-﻿# HumanEval/74
+# HumanEval/74
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -24,4 +24,3 @@ def total_match(lst1, lst2):
         return lst1
     else:
         return lst2
-

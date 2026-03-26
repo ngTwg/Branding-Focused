@@ -1,4 +1,4 @@
-﻿# HumanEval/132
+# HumanEval/132
 # Loki Mode Multi-Agent Solution
 # Attempts: 2
 # Passed: True
@@ -30,4 +30,3 @@ def is_nested(string):
                 if depth == 0:
                     max_depth = 0
     return False
-

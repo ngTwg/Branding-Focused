@@ -1,4 +1,4 @@
-﻿# HumanEval/106
+# HumanEval/106
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -24,4 +24,3 @@ def f(n):
             # Odd i: compute sum from 1 to i
             result.append(i * (i + 1) // 2)
     return result
-

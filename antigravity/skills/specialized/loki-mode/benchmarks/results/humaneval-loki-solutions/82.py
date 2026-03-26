@@ -1,4 +1,4 @@
-﻿# HumanEval/82
+# HumanEval/82
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -19,4 +19,3 @@ def prime_length(string):
         if n % i == 0:
             return False
     return True
-

@@ -1,4 +1,4 @@
-﻿def iscube(a):
+def iscube(a):
     '''
     Write a function that takes an integer a and returns True 
     if this ingeger is a cube of some integer number.
@@ -15,4 +15,3 @@
         return True
     cube_root = round(abs(a) ** (1/3))
     return cube_root ** 3 == abs(a)
-

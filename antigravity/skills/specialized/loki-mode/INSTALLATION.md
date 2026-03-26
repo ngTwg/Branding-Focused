@@ -1,4 +1,4 @@
-﻿# Loki Mode Installation Guide
+# Loki Mode Installation Guide
 
 Complete installation instructions for all platforms and use cases.
 
@@ -382,5 +382,3 @@ After installation:
 ---
 
 **Happy Building!**
-
-

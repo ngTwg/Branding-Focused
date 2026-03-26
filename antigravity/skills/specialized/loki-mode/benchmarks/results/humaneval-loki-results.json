@@ -1,4 +1,4 @@
-﻿{
+{
   "benchmark": "HumanEval-LokiMode",
   "mode": "multi-agent",
   "version": "1.0",
@@ -999,4 +999,3 @@
   "avg_attempts": 1.0365853658536586,
   "elapsed_time": 2704.4724848270416
 }
-

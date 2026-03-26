@@ -1,4 +1,4 @@
-﻿# Office Open XML Technical Reference
+# Office Open XML Technical Reference
 
 **Important: Read this entire document before starting.** This document covers:
 - [Technical Guidelines](#technical-guidelines) - Schema compliance rules and validation requirements
@@ -608,4 +608,3 @@ The validator checks that the document text matches the original after reverting
   <w:r><w:t>within 30 days</w:t></w:r>
 </w:ins>
 ```
-

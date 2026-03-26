@@ -1,4 +1,4 @@
-﻿# HumanEval/138
+# HumanEval/138
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -11,4 +11,3 @@ def is_equal_to_sum_even(n):
     is_equal_to_sum_even(8) == True
     """
     return n >= 8 and n % 2 == 0
-

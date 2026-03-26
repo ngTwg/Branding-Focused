@@ -1,4 +1,4 @@
-﻿# Data Fetching Patterns
+# Data Fetching Patterns
 
 Modern data fetching using TanStack Query with Suspense boundaries, cache-first strategies, and centralized API services.
 
@@ -765,4 +765,3 @@ useSuspenseQuery({
 - [component-patterns.md](component-patterns.md) - Suspense integration
 - [loading-and-error-states.md](loading-and-error-states.md) - SuspenseLoader usage
 - [complete-examples.md](complete-examples.md) - Full working examples
-

@@ -1,4 +1,4 @@
-﻿def hex_key(num):
+def hex_key(num):
     """You have been tasked to write a function that receives 
     a hexadecimal number as a string and counts the number of hexadecimal 
     digits that are primes (prime number, or a prime, is a natural number 
@@ -22,4 +22,3 @@
         if digit in prime_hex_digits:
             count += 1
     return count
-

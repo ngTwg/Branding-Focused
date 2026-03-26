@@ -1,4 +1,4 @@
-﻿# HumanEval/103
+# HumanEval/103
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -20,4 +20,3 @@ def rounded_avg(n, m):
     total = count * (n + m) // 2
     avg = round(total / count)
     return bin(avg)
-

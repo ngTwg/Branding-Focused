@@ -1,4 +1,4 @@
-﻿# HumanEval/39
+# HumanEval/39
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -38,4 +38,3 @@ def prime_fib(n: int):
             count += 1
     
     return fib_curr
-

@@ -1,4 +1,4 @@
-﻿# Postgres Best Practices
+# Postgres Best Practices
 
 **Version 1.0.0**
 Supabase
@@ -199,7 +199,7 @@ Covering indexes include all columns needed by a query, enabling index-only scan
 create index users_email_idx on users (email);
 
 -- Must fetch name and created_at from table heap
-select email, name, created_at from users where email = '[HIDDEN_EMAIL]';
+select email, name, created_at from users where email = 'user@example.com';
 ```
 
 **Correct (index-only scan with INCLUDE):**
@@ -209,7 +209,7 @@ select email, name, created_at from users where email = '[HIDDEN_EMAIL]';
 create index users_email_idx on users (email) include (name, created_at);
 
 -- All columns served from index, no table access needed
-select email, name, created_at from users where email = '[HIDDEN_EMAIL]';
+select email, name, created_at from users where email = 'user@example.com';
 -- Searching by status, but also need customer_id and total
 create index orders_status_idx on orders (status) include (customer_id, total);
 
@@ -235,7 +235,7 @@ Partial indexes only include rows matching a WHERE condition, making them smalle
 create index users_email_idx on users (email);
 
 -- Query always filters active users
-select * from users where email = '[HIDDEN_EMAIL]' and deleted_at is null;
+select * from users where email = 'user@example.com' and deleted_at is null;
 ```
 
 **Correct (partial index matches query filter):**
@@ -246,7 +246,7 @@ create index users_active_email_idx on users (email)
 where deleted_at is null;
 
 -- Query uses the smaller, faster index
-select * from users where email = '[HIDDEN_EMAIL]' and deleted_at is null;
+select * from users where email = 'user@example.com' and deleted_at is null;
 -- Only pending orders (status rarely changes once completed)
 create index orders_pending_idx on orders (created_at)
 where status = 'pending';
@@ -1488,5 +1488,3 @@ Reference: https://supabase.com/docs/guides/database/full-text-search
 - https://wiki.postgresql.org/wiki/Performance_Optimization
 - https://supabase.com/docs/guides/database/overview
 - https://supabase.com/docs/guides/auth/row-level-security
-
-

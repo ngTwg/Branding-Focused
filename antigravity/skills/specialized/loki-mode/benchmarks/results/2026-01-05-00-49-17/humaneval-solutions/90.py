@@ -1,4 +1,4 @@
-﻿def next_smallest(lst):
+def next_smallest(lst):
     """
     You are given a list of integers.
     Write a function next_smallest() that returns the 2nd smallest element of the list.
@@ -18,4 +18,3 @@
         return None
     
     return unique_sorted[1]
-

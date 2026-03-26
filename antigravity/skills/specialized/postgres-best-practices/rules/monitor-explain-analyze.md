@@ -1,4 +1,4 @@
-﻿---
+---
 title: Use EXPLAIN ANALYZE to Diagnose Slow Queries
 impact: LOW-MEDIUM
 impactDescription: Identify exact bottlenecks in query execution
@@ -43,5 +43,3 @@ Key things to look for:
 ```
 
 Reference: [EXPLAIN](https://supabase.com/docs/guides/database/inspect)
-
-

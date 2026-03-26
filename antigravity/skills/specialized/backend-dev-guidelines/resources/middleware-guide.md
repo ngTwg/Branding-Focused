@@ -1,4 +1,4 @@
-﻿# Middleware Guide - Express Middleware Patterns
+# Middleware Guide - Express Middleware Patterns
 
 Complete guide to creating and using middleware in backend microservices.
 
@@ -211,5 +211,3 @@ app.use(Sentry.Handlers.errorHandler());
 - [SKILL.md](SKILL.md)
 - [routing-and-controllers.md](routing-and-controllers.md)
 - [async-and-errors.md](async-and-errors.md)
-
-

@@ -1,4 +1,4 @@
-﻿# HumanEval/155
+# HumanEval/155
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -18,4 +18,3 @@ def even_odd_count(num):
         else:
             odd_count += 1
     return (even_count, odd_count)
-

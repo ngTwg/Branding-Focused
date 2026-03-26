@@ -1,4 +1,4 @@
-﻿# Domain-Specific Component Testing
+# Domain-Specific Component Testing
 
 This guide covers testing patterns for Dify's domain-specific components.
 
@@ -521,5 +521,3 @@ describe('AppConfigForm', () => {
   })
 })
 ```
-
-

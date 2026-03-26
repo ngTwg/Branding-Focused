@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Universal runner for NotebookLM skill scripts
 Ensures all scripts run with the correct virtual environment
@@ -100,4 +100,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

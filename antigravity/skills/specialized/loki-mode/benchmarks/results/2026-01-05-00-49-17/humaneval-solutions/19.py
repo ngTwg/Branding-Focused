@@ -1,4 +1,4 @@
-﻿from typing import List
+from typing import List
 
 
 def sort_numbers(numbers: str) -> str:
@@ -19,4 +19,3 @@ def sort_numbers(numbers: str) -> str:
     words = numbers.split()
     sorted_words = sorted(words, key=lambda x: word_to_num[x])
     return ' '.join(sorted_words)
-

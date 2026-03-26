@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Brand Voice Analyzer - Analyzes content to establish and maintain brand voice consistency
 """
@@ -183,5 +183,3 @@ if __name__ == "__main__":
         print(analyze_content(content, output_format))
     else:
         print("Usage: python brand_voice_analyzer.py <file> [json|text]")
-
-

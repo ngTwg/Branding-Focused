@@ -1,4 +1,4 @@
-﻿# Agent Type Definitions
+# Agent Type Definitions
 
 Complete specifications for all 37 specialized agent types in the Loki Mode multi-agent system.
 
@@ -1041,5 +1041,3 @@ Update after every task completion.
   "timestamp": "ISO"
 }
 ```
-
-

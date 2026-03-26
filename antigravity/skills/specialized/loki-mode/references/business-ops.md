@@ -1,4 +1,4 @@
-﻿# Business Operations Reference
+# Business Operations Reference
 
 Workflows and procedures for business swarm agents.
 
@@ -548,5 +548,3 @@ Post-Launch:
 ## Next Update
 [Time of next update or "Resolved"]
 ```
-
-

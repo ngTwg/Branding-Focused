@@ -1,4 +1,4 @@
-﻿# NotebookLM Skill Usage Patterns
+# NotebookLM Skill Usage Patterns
 
 Advanced patterns for using the NotebookLM skill effectively.
 
@@ -336,4 +336,3 @@ run.py cleanup_manager.py ...          # Clean up
 ```
 
 **Remember:** When in doubt, use run.py and ask the user for notebook details!
-

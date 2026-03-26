@@ -1,4 +1,4 @@
-﻿{
+{
   "benchmark": "SWE-bench Lite",
   "version": "1.0",
   "timestamp": "2026-01-05T01:24:20.186422",
@@ -589,7 +589,7 @@
     },
     {
       "instance_id": "django__django-16873",
-      "model_patch": "This repository doesn't contain the Django source code. Based on my knowledge of Django's codebase and the issue description, I can provide the fix. The issue is in the `join` filter in `django/template/defaultfilters.py`. \n\nLooking at the Django source code and the issue:\n1. The `join` filter always escapes the joining string using `conditional_escape(arg)` \n2. But when `autoescape` is off, the joining string should not be escaped\n\nThe current implementation looks something like:\n```python\[HIDDEN_EMAIL](is_safe=True, needs_autoescape=True)\ndef join(value, arg, autoescape=True):\n    \"\"\"Join a list with a string, like Python's ``str.join(list)``.\"\"\"\n    try:\n        if autoescape:\n            value = [conditional_escape(v) for v in value]\n        data = conditional_escape(arg).join(value)\n    except TypeError:  # Fail silently if arg isn't iterable.\n        return value\n    return mark_safe(data)\n```\n\nThe bug is that `conditional_escape(arg)` is called unconditionally regardless of the `autoescape` parameter. When `autoescape` is `off`, the joining string should not be escaped.\n\nHere's the fix:\n\n--- a/django/template/defaultfilters.py\n+++ b/django/template/defaultfilters.py\n@@ -586,7 +586,10 @@ def join(value, arg, autoescape=True):\n     try:\n         if autoescape:\n             value = [conditional_escape(v) for v in value]\n-        data = conditional_escape(arg).join(value)\n+            data = conditional_escape(arg).join(value)\n+        else:\n+            data = arg.join(value)\n     except TypeError:  # Fail silently if arg isn't iterable.\n         return value\n     return mark_safe(data)",
+      "model_patch": "This repository doesn't contain the Django source code. Based on my knowledge of Django's codebase and the issue description, I can provide the fix. The issue is in the `join` filter in `django/template/defaultfilters.py`. \n\nLooking at the Django source code and the issue:\n1. The `join` filter always escapes the joining string using `conditional_escape(arg)` \n2. But when `autoescape` is off, the joining string should not be escaped\n\nThe current implementation looks something like:\n```python\n@register.filter(is_safe=True, needs_autoescape=True)\ndef join(value, arg, autoescape=True):\n    \"\"\"Join a list with a string, like Python's ``str.join(list)``.\"\"\"\n    try:\n        if autoescape:\n            value = [conditional_escape(v) for v in value]\n        data = conditional_escape(arg).join(value)\n    except TypeError:  # Fail silently if arg isn't iterable.\n        return value\n    return mark_safe(data)\n```\n\nThe bug is that `conditional_escape(arg)` is called unconditionally regardless of the `autoescape` parameter. When `autoescape` is `off`, the joining string should not be escaped.\n\nHere's the fix:\n\n--- a/django/template/defaultfilters.py\n+++ b/django/template/defaultfilters.py\n@@ -586,7 +586,10 @@ def join(value, arg, autoescape=True):\n     try:\n         if autoescape:\n             value = [conditional_escape(v) for v in value]\n-        data = conditional_escape(arg).join(value)\n+            data = conditional_escape(arg).join(value)\n+        else:\n+            data = arg.join(value)\n     except TypeError:  # Fail silently if arg isn't iterable.\n         return value\n     return mark_safe(data)",
       "model_name_or_path": "loki-mode-opus"
     },
     {
@@ -1514,4 +1514,3 @@
   "predictions_file": "/Users/lokesh/git/loki-mode/benchmarks/results/2026-01-05-01-24-17/swebench-predictions.json",
   "next_step": "Run: python -m swebench.harness.run_evaluation --predictions /Users/lokesh/git/loki-mode/benchmarks/results/2026-01-05-01-24-17/swebench-predictions.json"
 }
-

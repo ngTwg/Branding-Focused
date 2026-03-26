@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Shopify Project Initialization Script
 
@@ -439,5 +439,3 @@ def main() -> None:
 
 if __name__ == '__main__':
     main()
-
-

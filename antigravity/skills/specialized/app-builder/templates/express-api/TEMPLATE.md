@@ -1,4 +1,4 @@
-﻿---
+---
 name: express-api
 description: Express.js REST API template principles. TypeScript, Prisma, JWT.
 ---
@@ -81,5 +81,3 @@ project-name/
 - Centralized error handling
 - Environment-based config
 - Use Prisma for type-safe DB access
-
-

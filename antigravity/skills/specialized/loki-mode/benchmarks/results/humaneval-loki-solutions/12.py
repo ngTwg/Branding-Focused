@@ -1,4 +1,4 @@
-﻿# HumanEval/12
+# HumanEval/12
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -25,4 +25,3 @@ def longest(strings: List[str]) -> Optional[str]:
             longest_str = s
     
     return longest_str
-

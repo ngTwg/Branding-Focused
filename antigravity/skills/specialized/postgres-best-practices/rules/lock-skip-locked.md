@@ -1,4 +1,4 @@
-﻿---
+---
 title: Use SKIP LOCKED for Non-Blocking Queue Processing
 impact: MEDIUM-HIGH
 impactDescription: 10x throughput for worker queues
@@ -52,5 +52,3 @@ returning *;
 ```
 
 Reference: [SELECT FOR UPDATE SKIP LOCKED](https://www.postgresql.org/docs/current/sql-select.html#SQL-FOR-UPDATE-SHARE)
-
-

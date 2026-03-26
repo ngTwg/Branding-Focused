@@ -1,4 +1,4 @@
-﻿# HumanEval/25
+# HumanEval/25
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -27,4 +27,3 @@ def factorize(n: int) -> List[int]:
     if n > 1:
         factors.append(n)
     return factors
-

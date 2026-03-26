@@ -1,4 +1,4 @@
-﻿---
+---
 name: astro-static
 description: Astro static site template principles. Content-focused websites, blogs, documentation.
 ---
@@ -74,5 +74,3 @@ project-name/
 - Leverage static generation
 - Add islands only where needed
 - Optimize images with Astro Image
-
-

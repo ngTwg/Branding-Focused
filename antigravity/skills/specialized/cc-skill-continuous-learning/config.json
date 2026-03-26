@@ -1,4 +1,4 @@
-﻿{
+{
   "min_session_length": 10,
   "extraction_threshold": "medium",
   "auto_approve": false,
@@ -16,5 +16,3 @@
     "external_api_issues"
   ]
 }
-
-

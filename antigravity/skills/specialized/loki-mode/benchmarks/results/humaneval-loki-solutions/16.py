@@ -1,4 +1,4 @@
-﻿# HumanEval/16
+# HumanEval/16
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -11,4 +11,3 @@ def count_distinct_characters(string: str) -> int:
     4
     """
     return len(set(string.lower()))
-

@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 #===============================================================================
 # Prepare SWE-bench Submission
 # Converts benchmark results to official SWE-bench submission format
@@ -213,4 +213,3 @@ echo "  5. Create pull request"
 echo "======================================================================"
 
 log_success "Submission preparation complete!"
-

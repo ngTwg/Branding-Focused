@@ -1,4 +1,4 @@
-﻿def minPath(grid, k):
+def minPath(grid, k):
     """
     Given a grid with N rows and N columns (N >= 2) and a positive integer k, 
     each cell of the grid contains a value. Every integer in the range [1, N * N]
@@ -59,4 +59,3 @@
             result.append(min_neighbor)
     
     return result
-

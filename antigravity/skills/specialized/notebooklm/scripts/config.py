@@ -1,4 +1,4 @@
-﻿"""
+"""
 Configuration for NotebookLM Skill
 Centralizes constants, selectors, and paths
 """
@@ -42,5 +42,3 @@ USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
 LOGIN_TIMEOUT_MINUTES = 10
 QUERY_TIMEOUT_SECONDS = 120
 PAGE_LOAD_TIMEOUT = 30000
-
-

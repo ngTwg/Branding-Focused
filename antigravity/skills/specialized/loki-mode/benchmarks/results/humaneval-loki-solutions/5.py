@@ -1,4 +1,4 @@
-﻿# HumanEval/5
+# HumanEval/5
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -23,4 +23,3 @@ def intersperse(numbers: List[int], delimeter: int) -> List[int]:
             result.append(delimeter)
     
     return result
-

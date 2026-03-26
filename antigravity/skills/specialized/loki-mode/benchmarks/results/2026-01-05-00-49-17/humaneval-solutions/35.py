@@ -1,4 +1,4 @@
-﻿def max_element(l: list):
+def max_element(l: list):
     """Return maximum element in the list.
     >>> max_element([1, 2, 3])
     3
@@ -6,4 +6,3 @@
     123
     """
     return max(l)
-

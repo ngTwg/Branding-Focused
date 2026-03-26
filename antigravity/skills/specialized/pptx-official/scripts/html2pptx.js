@@ -1,4 +1,4 @@
-﻿/**
+/**
  * html2pptx - Convert HTML slide to pptxgenjs slide with positioned elements
  *
  * USAGE:

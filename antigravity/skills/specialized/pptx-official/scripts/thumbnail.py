@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Create thumbnail grids from PowerPoint presentation slides.
 
@@ -448,5 +448,3 @@ def create_grid(
 
 if __name__ == "__main__":
     main()
-
-

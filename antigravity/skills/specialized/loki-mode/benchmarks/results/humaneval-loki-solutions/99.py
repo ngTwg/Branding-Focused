@@ -1,4 +1,4 @@
-﻿# HumanEval/99
+# HumanEval/99
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -34,4 +34,3 @@ def closest_integer(value):
             return floor(num)
     else:
         return round(num)
-

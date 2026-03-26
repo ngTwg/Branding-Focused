@@ -1,4 +1,4 @@
-﻿def sort_array(arr):
+def sort_array(arr):
     """
     In this Kata, you have to sort an array of non-negative integers according to
     number of ones in their binary representation in ascending order.
@@ -10,4 +10,3 @@
     >>> sort_array([1, 0, 2, 3, 4]) [0, 1, 2, 3, 4]
     """
     return sorted(arr, key=lambda x: (bin(x).count('1'), x))
-

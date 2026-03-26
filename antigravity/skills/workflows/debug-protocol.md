@@ -1,4 +1,4 @@
-﻿# DEBUG PROTOCOL
+# DEBUG PROTOCOL
 
 > **Khi nào tải skill này:** Debug, Bug, Error, Fix, Troubleshoot, Issue
 
@@ -280,5 +280,3 @@ async function deleteUser(id: string) {
 | Race condition | Async timing issue |
 | CORS error | Server config |
 | 404 on refresh | SPA routing |
-
-

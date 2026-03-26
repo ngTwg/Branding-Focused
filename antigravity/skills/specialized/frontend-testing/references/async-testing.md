@@ -1,4 +1,4 @@
-﻿# Async Testing Guide
+# Async Testing Guide
 
 ## Core Async Patterns
 
@@ -54,11 +54,11 @@ it('should submit form', async () => {
   render(<Form onSubmit={onSubmit} />)
   
   // userEvent methods are async
-  await user.type(screen.getByLabelText('Email'), '[HIDDEN_EMAIL]')
+  await user.type(screen.getByLabelText('Email'), 'test@example.com')
   await user.click(screen.getByRole('button', { name: /submit/i }))
   
   await waitFor(() => {
-    expect(onSubmit).toHaveBeenCalledWith({ email: '[HIDDEN_EMAIL]' })
+    expect(onSubmit).toHaveBeenCalledWith({ email: 'test@example.com' })
   })
 })
 ```
@@ -343,5 +343,3 @@ render(<Component />)
 vi.runAllTimers()
 expect(screen.getByText('Data')).toBeInTheDocument()
 ```
-
-

@@ -1,4 +1,4 @@
-﻿# HumanEval/29
+# HumanEval/29
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -14,4 +14,3 @@ def filter_by_prefix(strings: List[str], prefix: str) -> List[str]:
     ['abc', 'array']
     """
     return [s for s in strings if s.startswith(prefix)]
-

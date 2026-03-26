@@ -1,4 +1,4 @@
-﻿def unique_digits(x):
+def unique_digits(x):
     """Given a list of positive integers x. return a sorted list of all 
     elements that hasn't any even digit.
 
@@ -20,4 +20,3 @@
     
     result = [num for num in x if not has_even_digit(num)]
     return sorted(result)
-

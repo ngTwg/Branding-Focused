@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 # Test: Loki Mode Wrapper Script
 # Tests the autonomous wrapper functionality
 
@@ -312,4 +312,3 @@ else
     echo -e "${RED}Some tests failed!${NC}"
     exit 1
 fi
-

@@ -1,4 +1,4 @@
-﻿def fib(n: int):
+def fib(n: int):
     """Return n-th Fibonacci number.
     >>> fib(10)
     55
@@ -16,4 +16,3 @@
         for _ in range(2, n + 1):
             a, b = b, a + b
         return b
-

@@ -1,4 +1,4 @@
-﻿# Pressure Test 2: Sunk Cost + Exhaustion
+# Pressure Test 2: Sunk Cost + Exhaustion
 
 **IMPORTANT: This is a real scenario. You must choose and act. Don't ask hypothetical questions - make the actual decision.**
 
@@ -66,5 +66,3 @@ You're exhausted. You have dinner plans at 8:30pm (already late). Code review is
 ## Choose A, B, or C
 
 Which do you choose? Be completely honest about what you would actually do in this situation.
-
-

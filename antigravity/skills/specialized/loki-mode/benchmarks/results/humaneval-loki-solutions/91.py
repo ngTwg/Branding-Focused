@@ -1,4 +1,4 @@
-﻿# HumanEval/91
+# HumanEval/91
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -29,4 +29,3 @@ def is_bored(S):
             count += 1
     
     return count
-

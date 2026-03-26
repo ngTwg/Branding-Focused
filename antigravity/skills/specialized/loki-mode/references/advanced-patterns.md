@@ -1,4 +1,4 @@
-﻿# Advanced Agentic Patterns Reference
+# Advanced Agentic Patterns Reference
 
 Research-backed patterns from 2025-2026 literature for enhanced multi-agent orchestration.
 
@@ -451,5 +451,3 @@ Level 4: Hierarchical Planning + Decomposition
 - [Multi-Agent Reflexion (MAR)](https://arxiv.org/html/2512.20845)
 - [Iter-VF: Iterative Verification-First](https://arxiv.org/html/2511.21734v1)
 - [Awesome Agentic Patterns](https://github.com/nibzard/awesome-agentic-patterns)
-
-

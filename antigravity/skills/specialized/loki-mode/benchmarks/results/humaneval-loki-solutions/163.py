@@ -1,4 +1,4 @@
-﻿# HumanEval/163
+# HumanEval/163
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -16,4 +16,3 @@ def generate_integers(a, b):
     low, high = min(a, b), max(a, b)
     even_digits = [2, 4, 6, 8]
     return [d for d in even_digits if low <= d <= high]
-

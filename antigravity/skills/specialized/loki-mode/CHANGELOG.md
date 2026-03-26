@@ -1,4 +1,4 @@
-﻿# Changelog
+# Changelog
 
 All notable changes to Loki Mode will be documented in this file.
 
@@ -1820,5 +1820,3 @@ Instead of "degrade gracefully through compression", Loki Mode now uses "reset c
 [1.1.0]: https://github.com/asklokesh/loki-mode/compare/v1.0.1...v1.1.0
 [1.0.1]: https://github.com/asklokesh/loki-mode/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/asklokesh/loki-mode/releases/tag/v1.0.0
-
-

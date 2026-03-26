@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 # Loki Mode Demo Runner
 # Usage: ./demo/run-demo.sh [simple-todo|full-stack]
 
@@ -321,4 +321,3 @@ echo ""
 # Cleanup prompt
 echo -e "${YELLOW}Demo workspace at: $DEMO_WORKSPACE${NC}"
 echo -e "${YELLOW}Run 'rm -rf $DEMO_WORKSPACE' to clean up${NC}"
-

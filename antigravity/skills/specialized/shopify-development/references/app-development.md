@@ -1,4 +1,4 @@
-﻿# App Development Reference
+# App Development Reference
 
 Guide for building Shopify apps with OAuth, GraphQL/REST APIs, webhooks, and billing.
 
@@ -576,5 +576,3 @@ async function graphqlWithRetry(shop, token, query, retries = 3) {
 - Handle customer data deletion requests
 - Provide data export functionality
 - Follow data retention policies
-
-

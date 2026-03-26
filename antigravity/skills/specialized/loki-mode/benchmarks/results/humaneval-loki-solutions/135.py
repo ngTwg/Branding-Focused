@@ -1,4 +1,4 @@
-﻿# HumanEval/135
+# HumanEval/135
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -18,4 +18,3 @@ def can_arrange(arr):
         if arr[i] < arr[i - 1]:
             result = i
     return result
-

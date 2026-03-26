@@ -1,4 +1,4 @@
-﻿# Testing Guide - Backend Testing Strategies
+# Testing Guide - Backend Testing Strategies
 
 Complete guide to testing backend services with Jest and best practices.
 
@@ -47,7 +47,7 @@ describe('UserService', () => {
             mockRepository.findByEmail.mockResolvedValue({ id: '123' } as any);
 
             await expect(
-                service.create({ email: '[HIDDEN_EMAIL]' })
+                service.create({ email: 'test@test.com' })
             ).rejects.toThrow('Email already in use');
         });
 
@@ -56,7 +56,7 @@ describe('UserService', () => {
             mockRepository.create.mockResolvedValue({ id: '123' } as any);
 
             const user = await service.create({
-                email: '[HIDDEN_EMAIL]',
+                email: 'test@test.com',
                 firstName: 'John',
                 lastName: 'Doe',
             });
@@ -64,7 +64,7 @@ describe('UserService', () => {
             expect(user).toBeDefined();
             expect(mockRepository.create).toHaveBeenCalledWith(
                 expect.objectContaining({
-                    email: '[HIDDEN_EMAIL]'
+                    email: 'test@test.com'
                 })
             );
         });
@@ -88,7 +88,7 @@ describe('UserService Integration', () => {
         // Create test data
         testUser = await PrismaService.main.user.create({
             data: {
-                email: '[HIDDEN_EMAIL]',
+                email: 'test@test.com',
                 profile: { create: { firstName: 'Test', lastName: 'User' } },
             },
         });
@@ -100,9 +100,9 @@ describe('UserService Integration', () => {
     });
 
     it('should find user by email', async () => {
-        const user = await userService.findByEmail('[HIDDEN_EMAIL]');
+        const user = await userService.findByEmail('test@test.com');
         expect(user).toBeDefined();
-        expect(user?.email).toBe('[HIDDEN_EMAIL]');
+        expect(user?.email).toBe('test@test.com');
     });
 });
 ```
@@ -191,7 +191,7 @@ describe('PermissionService', () => {
 node scripts/test-auth-route.js http://localhost:3002/form/api/users
 
 # Test with POST data
-node scripts/test-auth-route.js http://localhost:3002/form/api/users POST '{"email":"[HIDDEN_EMAIL]"}'
+node scripts/test-auth-route.js http://localhost:3002/form/api/users POST '{"email":"test@test.com"}'
 ```
 
 ### Mock Authentication in Tests
@@ -233,5 +233,3 @@ npm test -- --coverage
 - [SKILL.md](SKILL.md)
 - [services-and-repositories.md](services-and-repositories.md)
 - [complete-examples.md](complete-examples.md)
-
-

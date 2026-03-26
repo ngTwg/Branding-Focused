@@ -1,4 +1,4 @@
-﻿---
+---
 name: nextjs-saas
 description: Next.js SaaS template principles. Auth, payments, email.
 ---
@@ -98,5 +98,3 @@ project-name/
 - Stripe webhooks for subscription sync
 - NextAuth with Prisma adapter
 - Email templates with React Email
-
-

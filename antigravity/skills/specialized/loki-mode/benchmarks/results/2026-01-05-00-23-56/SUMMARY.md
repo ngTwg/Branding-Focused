@@ -1,4 +1,4 @@
-﻿# Loki Mode Benchmark Results
+# Loki Mode Benchmark Results
 
 ## Overview
 
@@ -46,5 +46,3 @@ Loki Mode uses its multi-agent architecture to solve each problem:
 4. **Review Agent** checks code quality
 
 This mirrors real-world software development more accurately than single-agent approaches.
-
-

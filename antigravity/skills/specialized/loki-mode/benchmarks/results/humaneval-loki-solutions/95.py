@@ -1,4 +1,4 @@
-﻿# HumanEval/95
+# HumanEval/95
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -30,4 +30,3 @@ def check_dict_case(dict):
             all_upper = False
     
     return all_lower or all_upper
-

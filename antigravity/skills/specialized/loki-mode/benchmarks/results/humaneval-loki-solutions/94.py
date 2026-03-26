@@ -1,4 +1,4 @@
-﻿# HumanEval/94
+# HumanEval/94
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -30,4 +30,3 @@ def skjkasdkd(lst):
     primes = [x for x in lst if is_prime(x)]
     largest_prime = max(primes)
     return sum(int(d) for d in str(largest_prime))
-

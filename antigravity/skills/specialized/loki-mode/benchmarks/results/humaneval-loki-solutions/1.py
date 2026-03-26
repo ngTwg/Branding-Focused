@@ -1,4 +1,4 @@
-﻿# HumanEval/1
+# HumanEval/1
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -34,4 +34,3 @@ def separate_paren_groups(paren_string: str) -> List[str]:
                 current_group = []
     
     return result
-

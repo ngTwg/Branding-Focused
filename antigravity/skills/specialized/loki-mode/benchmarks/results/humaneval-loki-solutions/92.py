@@ -1,4 +1,4 @@
-﻿# HumanEval/92
+# HumanEval/92
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -27,4 +27,3 @@ def any_int(x, y, z):
     
     # Check if any one equals the sum of the other two
     return x == y + z or y == x + z or z == x + y
-

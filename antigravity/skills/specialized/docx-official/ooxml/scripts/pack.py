@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Tool to pack a directory into a .docx, .pptx, or .xlsx file with XML formatting undone.
 
@@ -157,5 +157,3 @@ def condense_xml(xml_file):
 
 if __name__ == "__main__":
     main()
-
-

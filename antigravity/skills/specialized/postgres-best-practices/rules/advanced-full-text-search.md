@@ -1,4 +1,4 @@
-﻿---
+---
 title: Use tsvector for Full-Text Search
 impact: MEDIUM
 impactDescription: 100x faster than LIKE, with ranking support
@@ -53,5 +53,3 @@ to_tsquery('post:*')
 ```
 
 Reference: [Full Text Search](https://supabase.com/docs/guides/database/full-text-search)
-
-

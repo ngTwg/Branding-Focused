@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Skill: performance-profiling
 Script: lighthouse_audit.py
@@ -74,5 +74,3 @@ if __name__ == "__main__":
     
     result = run_lighthouse(sys.argv[1])
     print(json.dumps(result, indent=2))
-
-

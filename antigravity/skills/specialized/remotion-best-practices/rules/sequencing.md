@@ -1,4 +1,4 @@
-﻿---
+---
 name: sequencing
 description: Sequencing patterns for Remotion - delay, trim, limit duration of items
 metadata:
@@ -104,5 +104,3 @@ Sequences can be nested for complex timing:
   </Sequence>
 </Sequence>
 ```
-
-

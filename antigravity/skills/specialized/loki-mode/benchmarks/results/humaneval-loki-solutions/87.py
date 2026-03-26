@@ -1,4 +1,4 @@
-﻿# HumanEval/87
+# HumanEval/87
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -29,4 +29,3 @@ def get_row(lst, x):
             if lst[row][col] == x:
                 result.append((row, col))
     return result
-

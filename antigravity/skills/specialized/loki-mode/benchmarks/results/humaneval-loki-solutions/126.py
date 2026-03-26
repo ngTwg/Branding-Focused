@@ -1,4 +1,4 @@
-﻿# HumanEval/126
+# HumanEval/126
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -32,4 +32,3 @@ def is_sorted(lst):
             return False
     
     return True
-

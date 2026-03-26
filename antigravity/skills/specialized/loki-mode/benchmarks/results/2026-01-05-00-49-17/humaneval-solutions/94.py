@@ -1,4 +1,4 @@
-﻿def skjkasdkd(lst):
+def skjkasdkd(lst):
     """You are given a list of integers.
     You need to find the largest prime value and return the sum of its digits.
 
@@ -31,4 +31,3 @@
         return 0
     
     return sum(int(d) for d in str(largest_prime))
-

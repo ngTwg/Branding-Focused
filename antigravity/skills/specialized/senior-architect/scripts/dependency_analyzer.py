@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Dependency Analyzer
 Automated tool for senior architect tasks
@@ -112,5 +112,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-

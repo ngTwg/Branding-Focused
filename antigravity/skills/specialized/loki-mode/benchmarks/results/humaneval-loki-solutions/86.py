@@ -1,4 +1,4 @@
-﻿# HumanEval/86
+# HumanEval/86
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -19,4 +19,3 @@ def anti_shuffle(s):
     words = s.split(' ')
     sorted_words = [''.join(sorted(word)) for word in words]
     return ' '.join(sorted_words)
-

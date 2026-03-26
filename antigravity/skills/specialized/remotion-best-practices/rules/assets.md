@@ -1,4 +1,4 @@
-﻿---
+---
 name: assets
 description: Importing images, videos, audio, and fonts into Remotion
 metadata:
@@ -76,5 +76,3 @@ Remote URLs can be used directly without `staticFile()`:
 
 - Remotion components (`<Img>`, `<Video>`, `<Audio>`) ensure assets are fully loaded before rendering
 - Special characters in filenames (`#`, `?`, `&`) are automatically encoded
-
-

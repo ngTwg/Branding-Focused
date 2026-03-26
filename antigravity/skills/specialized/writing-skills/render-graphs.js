@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env node
+#!/usr/bin/env node
 
 /**
  * Render graphviz diagrams from a skill's SKILL.md to SVG files.
@@ -166,4 +166,3 @@ function main() {
 }
 
 main();
-

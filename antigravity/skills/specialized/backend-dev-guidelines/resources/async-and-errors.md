@@ -1,4 +1,4 @@
-﻿# Async Patterns and Error Handling
+# Async Patterns and Error Handling
 
 Complete guide to async/await patterns and custom error handling.
 
@@ -305,5 +305,3 @@ process.on('uncaughtException', (error) => {
 - [SKILL.md](SKILL.md)
 - [sentry-and-monitoring.md](sentry-and-monitoring.md)
 - [complete-examples.md](complete-examples.md)
-
-

@@ -1,4 +1,4 @@
-﻿# HumanEval/117
+# HumanEval/117
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -28,4 +28,3 @@ def select_words(s, n):
             result.append(word)
     
     return result
-

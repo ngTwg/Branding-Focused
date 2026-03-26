@@ -1,4 +1,4 @@
-﻿# HumanEval/58
+# HumanEval/58
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -12,4 +12,3 @@ def common(l1: list, l2: list):
 
     """
     return sorted(set(l1) & set(l2))
-

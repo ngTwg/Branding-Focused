@@ -1,4 +1,4 @@
-﻿# Architecture Overview - Backend Services
+# Architecture Overview - Backend Services
 
 Complete guide to the layered architecture pattern used in backend microservices.
 
@@ -449,5 +449,3 @@ async findByEmail(email: string): Promise<User | null> {
 - [SKILL.md](SKILL.md) - Main guide
 - [routing-and-controllers.md](routing-and-controllers.md) - Routes and controllers details
 - [services-and-repositories.md](services-and-repositories.md) - Service and repository patterns
-
-

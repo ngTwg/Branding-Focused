@@ -1,4 +1,4 @@
-﻿---
+---
 name: cli-tool
 description: Node.js CLI tool template principles. Commander.js, interactive prompts.
 ---
@@ -86,5 +86,3 @@ npm publish
 - Use consistent output styling
 - Validate inputs with Zod
 - Exit with proper codes (0 success, 1 error)
-
-

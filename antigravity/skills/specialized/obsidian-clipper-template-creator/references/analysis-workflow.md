@@ -1,4 +1,4 @@
-﻿# Analysis Workflow: Validating Variables
+# Analysis Workflow: Validating Variables
 
 To ensure your template works correctly, you must validate that the target page actually contains the data you want to extract.
 
@@ -65,5 +65,3 @@ If Schema and Meta tags are missing, look for HTML structure (classes and IDs) t
 Compare the available data from your analysis with the properties required by the user's Base (see `references/bases-workflow.md`).
 
 *   If the Base requires `ingredients` but the page has no Schema or clear list structure, warn the user that this field might need manual entry or a prompt variable.
-
-

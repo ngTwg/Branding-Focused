@@ -1,4 +1,4 @@
-﻿---
+---
 name: 3d-games
 description: 3D game development principles. Rendering, shaders, physics, cameras.
 allowed-tools: Read, Write, Edit, Glob, Grep
@@ -133,5 +133,3 @@ allowed-tools: Read, Write, Edit, Glob, Grep
 ---
 
 > **Remember:** 3D is about illusion. Create the impression of detail, not the detail itself.
-
-

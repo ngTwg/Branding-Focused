@@ -1,4 +1,4 @@
-﻿# Content Calendar Template - [Month Year]
+# Content Calendar Template - [Month Year]
 
 ## Monthly Goals
 - **Traffic Goal**: 
@@ -97,5 +97,3 @@
 - Asset Library: [Link]
 - Analytics Dashboard: [Link]
 - Team Calendar: [Link]
-
-

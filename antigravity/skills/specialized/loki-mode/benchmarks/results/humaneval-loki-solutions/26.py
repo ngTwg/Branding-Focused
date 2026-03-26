@@ -1,4 +1,4 @@
-﻿# HumanEval/26
+# HumanEval/26
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -15,4 +15,3 @@ def remove_duplicates(numbers: List[int]) -> List[int]:
     """
     counts = Counter(numbers)
     return [num for num in numbers if counts[num] == 1]
-

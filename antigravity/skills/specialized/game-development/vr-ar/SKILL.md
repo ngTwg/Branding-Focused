@@ -1,4 +1,4 @@
-﻿---
+---
 name: vr-ar
 description: VR/AR development principles. Comfort, interaction, performance requirements.
 allowed-tools: Read, Write, Edit, Glob, Grep
@@ -121,5 +121,3 @@ allowed-tools: Read, Write, Edit, Glob, Grep
 ---
 
 > **Remember:** Comfort is not optional. Sick players don't play.
-
-

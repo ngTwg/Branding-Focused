@@ -1,4 +1,4 @@
-﻿# Sentry Integration and Monitoring
+# Sentry Integration and Monitoring
 
 Complete guide to error tracking and performance monitoring with Sentry v8.
 
@@ -334,5 +334,3 @@ async function good() {
 - [SKILL.md](SKILL.md)
 - [routing-and-controllers.md](routing-and-controllers.md)
 - [async-and-errors.md](async-and-errors.md)
-
-

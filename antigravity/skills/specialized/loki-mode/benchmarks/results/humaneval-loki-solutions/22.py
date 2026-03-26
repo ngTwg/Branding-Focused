@@ -1,4 +1,4 @@
-﻿# HumanEval/22
+# HumanEval/22
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -14,4 +14,3 @@ def filter_integers(values: List[Any]) -> List[int]:
     [1, 2, 3]
     """
     return [x for x in values if isinstance(x, int) and not isinstance(x, bool)]
-

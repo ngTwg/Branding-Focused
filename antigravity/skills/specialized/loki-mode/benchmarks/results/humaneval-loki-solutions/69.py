@@ -1,4 +1,4 @@
-﻿# HumanEval/69
+# HumanEval/69
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -24,4 +24,3 @@ def search(lst):
             result = max(result, num)
     
     return result
-

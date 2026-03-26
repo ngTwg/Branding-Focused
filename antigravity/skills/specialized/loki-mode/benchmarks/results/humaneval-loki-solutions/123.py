@@ -1,4 +1,4 @@
-﻿# HumanEval/123
+# HumanEval/123
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -33,4 +33,3 @@ def get_odd_collatz(n):
             n = 3 * n + 1
     
     return sorted(odd_numbers)
-

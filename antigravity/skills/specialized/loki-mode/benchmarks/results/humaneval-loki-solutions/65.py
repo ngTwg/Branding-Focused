@@ -1,4 +1,4 @@
-﻿# HumanEval/65
+# HumanEval/65
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -16,4 +16,3 @@ def circular_shift(x, shift):
     if shift > len(digits):
         return digits[::-1]
     return digits[-shift:] + digits[:-shift]
-

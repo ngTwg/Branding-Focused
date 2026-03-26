@@ -1,4 +1,4 @@
-﻿---
+---
 name: game-design
 description: Game design principles. GDD structure, balancing, player psychology, progression.
 allowed-tools: Read, Glob, Grep
@@ -127,5 +127,3 @@ Just Right → Flow → Engagement
 ---
 
 > **Remember:** Fun is discovered through iteration, not designed on paper.
-
-

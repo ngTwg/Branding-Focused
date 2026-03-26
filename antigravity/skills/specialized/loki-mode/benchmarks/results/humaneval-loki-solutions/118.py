@@ -1,4 +1,4 @@
-﻿# HumanEval/118
+# HumanEval/118
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -29,4 +29,3 @@ def get_closest_vowel(word):
                 return word[i]
     
     return ""
-

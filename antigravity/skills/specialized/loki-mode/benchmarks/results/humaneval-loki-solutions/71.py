@@ -1,4 +1,4 @@
-﻿# HumanEval/71
+# HumanEval/71
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -27,4 +27,3 @@ def triangle_area(a, b, c):
     area = (s * (s - a) * (s - b) * (s - c)) ** 0.5
     
     return round(area, 2)
-

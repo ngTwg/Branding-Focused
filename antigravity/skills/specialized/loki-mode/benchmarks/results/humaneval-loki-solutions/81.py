@@ -1,4 +1,4 @@
-﻿# HumanEval/81
+# HumanEval/81
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -59,4 +59,3 @@ def numerical_letter_grade(grades):
             letter_grades.append('E')
     
     return letter_grades
-

@@ -1,4 +1,4 @@
-﻿# Testing Workflow Guide
+# Testing Workflow Guide
 
 This guide defines the workflow for generating tests, especially for complex components or directories with multiple files.
 
@@ -267,5 +267,3 @@ After completion:
 - [ ] Full directory test run passes
 - [ ] Coverage goals met
 - [ ] Todo list shows all complete
-
-

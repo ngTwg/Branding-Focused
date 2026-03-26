@@ -1,4 +1,4 @@
-﻿# Configuration Management - UnifiedConfig Pattern
+# Configuration Management - UnifiedConfig Pattern
 
 Complete guide to managing configuration in backend microservices.
 
@@ -273,5 +273,3 @@ const jwtSecret = config.tokens.jwt;
 **Related Files:**
 - [SKILL.md](SKILL.md)
 - [testing-guide.md](testing-guide.md)
-
-

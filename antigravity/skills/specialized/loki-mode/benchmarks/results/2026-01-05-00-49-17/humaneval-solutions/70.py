@@ -1,4 +1,4 @@
-﻿def strange_sort_list(lst):
+def strange_sort_list(lst):
     '''
     Given list of integers, return list in strange order.
     Strange sorting, is when you start with the minimum value,
@@ -24,4 +24,3 @@
         take_min = not take_min
     
     return result
-

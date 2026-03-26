@@ -1,4 +1,4 @@
-﻿def minSubArraySum(nums):
+def minSubArraySum(nums):
     """
     Given an array of integers nums, find the minimum sum of any non-empty sub-array
     of nums.
@@ -14,4 +14,3 @@
         min_sum = min(min_sum, current_sum)
     
     return min_sum
-

@@ -1,4 +1,4 @@
-﻿# HumanEval/57
+# HumanEval/57
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -25,4 +25,3 @@ def monotonic(l: list):
             increasing = False
     
     return increasing or decreasing
-

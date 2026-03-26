@@ -1,4 +1,4 @@
-﻿# HumanEval/32
+# HumanEval/32
 # Loki Mode Multi-Agent Solution
 # Attempts: 3
 # Passed: False
@@ -35,4 +35,3 @@ def find_zero(xs: list):
             low = mid
     
     return (low + high) / 2
-

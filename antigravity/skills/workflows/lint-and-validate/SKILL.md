@@ -1,4 +1,4 @@
-﻿---
+---
 name: lint-and-validate
 description: "Automatic quality control, linting, and static analysis procedures. Use after every code modification to ensure syntax correctness and project standards. Triggers onKeywords: lint, format, check, validate, types, static analysis."
 allowed-tools: Read, Glob, Grep, Bash
@@ -42,6 +42,4 @@ allowed-tools: Read, Glob, Grep, Bash
 |--------|---------|---------|
 | `scripts/lint_runner.py` | Unified lint check | `python scripts/lint_runner.py <project_path>` |
 | `scripts/type_coverage.py` | Type coverage analysis | `python scripts/type_coverage.py <project_path>` |
-
-
 

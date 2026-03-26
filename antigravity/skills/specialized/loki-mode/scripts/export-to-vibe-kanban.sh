@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 # Export Loki Mode tasks to Vibe Kanban format
 # Usage: ./scripts/export-to-vibe-kanban.sh [export_dir]
 
@@ -176,4 +176,3 @@ EOF
 
 log_info "Exported $TOTAL tasks total"
 log_info "Summary written to $EXPORT_DIR/_loki_summary.json"
-

@@ -1,4 +1,4 @@
-﻿# HumanEval/108
+# HumanEval/108
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -25,4 +25,3 @@ def count_nums(arr):
         if sum(digits) > 0:
             count += 1
     return count
-

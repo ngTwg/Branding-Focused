@@ -1,4 +1,4 @@
-﻿---
+---
 name: monorepo-turborepo
 description: Turborepo monorepo template principles. pnpm workspaces, shared packages.
 ---
@@ -88,5 +88,3 @@ project-name/
 - Shared types in packages/types
 - Internal packages with `workspace:*`
 - Use Turbo remote caching for CI
-
-

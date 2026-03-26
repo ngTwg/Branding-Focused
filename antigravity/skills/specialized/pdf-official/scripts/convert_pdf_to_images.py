@@ -1,4 +1,4 @@
-﻿import os
+import os
 import sys
 
 from pdf2image import convert_from_path
@@ -33,5 +33,3 @@ if __name__ == "__main__":
     pdf_path = sys.argv[1]
     output_directory = sys.argv[2]
     convert(pdf_path, output_directory)
-
-

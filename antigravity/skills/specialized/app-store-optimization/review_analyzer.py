@@ -1,4 +1,4 @@
-﻿"""
+"""
 Review analysis module for App Store Optimization.
 Analyzes user reviews for sentiment, issues, and feature requests.
 """
@@ -712,5 +712,3 @@ def analyze_reviews(
         'issues_identified': analyzer.identify_issues(reviews),
         'feature_requests': analyzer.find_feature_requests(reviews)
     }
-
-

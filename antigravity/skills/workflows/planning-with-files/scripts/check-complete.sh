@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 # Check if all phases in task_plan.md are complete
 # Exit 0 if complete, exit 1 if incomplete
 # Used by Stop hook to verify task completion
@@ -42,4 +42,3 @@ else
     echo "Do not stop until all phases are complete."
     exit 1
 fi
-

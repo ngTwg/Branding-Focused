@@ -1,4 +1,4 @@
-﻿# Loki Mode Benchmark Results
+# Loki Mode Benchmark Results
 
 **Generated:** 2026-01-05 14:15:24
 
@@ -30,5 +30,3 @@ This mirrors real-world software development more accurately than single-agent a
 # Use different model
 ./benchmarks/run-benchmarks.sh humaneval --execute --model opus
 ```
-
-

@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 # Test: Circuit Breaker Functionality
 # Tests circuit breaker states, transitions, and recovery
 
@@ -387,4 +387,3 @@ else
     echo -e "${RED}Some tests failed!${NC}"
     exit 1
 fi
-

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Index Foreign Key Columns
 impact: HIGH
 impactDescription: 10-100x faster JOINs and CASCADE operations
@@ -57,5 +57,3 @@ where c.contype = 'f'
 ```
 
 Reference: [Foreign Keys](https://www.postgresql.org/docs/current/ddl-constraints.html#DDL-CONSTRAINTS-FK)
-
-

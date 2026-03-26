@@ -1,4 +1,4 @@
-﻿# Testing Anti-Patterns
+# Testing Anti-Patterns
 
 **Load this reference when:** writing or changing tests, adding mocks, or tempted to add test-only methods to production code.
 
@@ -297,5 +297,3 @@ TDD cycle:
 If TDD reveals you're testing mock behavior, you've gone wrong.
 
 Fix: Test real behavior or question why you're mocking at all.
-
-

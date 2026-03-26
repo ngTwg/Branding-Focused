@@ -1,4 +1,4 @@
-﻿---
+---
 name: electron-desktop
 description: Electron desktop app template principles. Cross-platform, React, TypeScript.
 ---
@@ -86,5 +86,3 @@ project-name/
 - Custom title bar for native feel
 - Handle window state (maximize, minimize)
 - Auto-updates with electron-updater
-
-

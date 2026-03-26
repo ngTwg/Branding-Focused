@@ -1,4 +1,4 @@
-﻿# CODE REVIEW PATTERNS
+# CODE REVIEW PATTERNS
 
 > **Khi nào tải skill này:** Review, Code Review, PR, Quality, Feedback
 
@@ -236,5 +236,3 @@ await prisma.order.findMany({
 | 50-200 lines | 15-30 min |
 | 200-500 lines | 30-60 min |
 | > 500 lines | Split it! |
-
-

@@ -1,4 +1,4 @@
-﻿# HumanEval/31
+# HumanEval/31
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -32,4 +32,3 @@ def is_prime(n):
             return False
         i += 2
     return True
-

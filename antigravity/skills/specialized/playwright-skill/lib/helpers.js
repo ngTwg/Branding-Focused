@@ -1,4 +1,4 @@
-﻿// playwright-helpers.js
+// playwright-helpers.js
 // Reusable utility functions for Playwright automation
 
 const { chromium, firefox, webkit } = require('playwright');
@@ -439,4 +439,3 @@ module.exports = {
   detectDevServers,
   getExtraHeadersFromEnv
 };
-

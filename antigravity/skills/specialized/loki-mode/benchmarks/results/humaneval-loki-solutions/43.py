@@ -1,4 +1,4 @@
-﻿# HumanEval/43
+# HumanEval/43
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -25,4 +25,3 @@ def pairs_sum_to_zero(l):
             return True
         seen.add(num)
     return False
-

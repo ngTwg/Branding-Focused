@@ -1,4 +1,4 @@
-﻿from typing import List, Any
+from typing import List, Any
 
 
 def filter_integers(values: List[Any]) -> List[int]:
@@ -9,4 +9,3 @@ def filter_integers(values: List[Any]) -> List[int]:
     [1, 2, 3]
     """
     return [x for x in values if isinstance(x, int) and not isinstance(x, bool)]
-

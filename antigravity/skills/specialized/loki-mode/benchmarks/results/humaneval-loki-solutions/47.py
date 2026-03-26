@@ -1,4 +1,4 @@
-﻿# HumanEval/47
+# HumanEval/47
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -17,4 +17,3 @@ def median(l: list):
         return sorted_l[mid]
     else:
         return (sorted_l[mid - 1] + sorted_l[mid]) / 2
-

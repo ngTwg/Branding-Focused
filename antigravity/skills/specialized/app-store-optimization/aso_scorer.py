@@ -1,4 +1,4 @@
-﻿"""
+"""
 ASO scoring module for App Store Optimization.
 Calculates comprehensive ASO health score across multiple dimensions.
 """
@@ -480,5 +480,3 @@ def calculate_aso_score(
         keyword_performance,
         conversion
     )
-
-

@@ -1,4 +1,4 @@
-﻿# HumanEval/144
+# HumanEval/144
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -22,4 +22,3 @@ def simplify(x, n):
     denominator = x_den * n_den
     
     return numerator % denominator == 0
-

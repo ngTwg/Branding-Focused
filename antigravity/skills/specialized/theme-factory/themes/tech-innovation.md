@@ -1,4 +1,4 @@
-﻿# Tech Innovation
+# Tech Innovation
 
 A bold and modern theme with high-contrast colors perfect for cutting-edge technology presentations.
 
@@ -17,5 +17,3 @@ A bold and modern theme with high-contrast colors perfect for cutting-edge techn
 ## Best Used For
 
 Tech startups, software launches, innovation showcases, AI/ML presentations, digital transformation content.
-
-

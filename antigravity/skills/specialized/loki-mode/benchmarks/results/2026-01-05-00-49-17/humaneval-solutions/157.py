@@ -1,4 +1,4 @@
-﻿def right_angle_triangle(a, b, c):
+def right_angle_triangle(a, b, c):
     '''
     Given the lengths of the three sides of a triangle. Return True if the three
     sides form a right-angled triangle, False otherwise.
@@ -10,4 +10,3 @@
     '''
     sides = sorted([a, b, c])
     return sides[0]**2 + sides[1]**2 == sides[2]**2
-

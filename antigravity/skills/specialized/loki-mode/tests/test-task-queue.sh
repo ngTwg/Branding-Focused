@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 # Test: Distributed Task Queue Functionality
 # Tests task creation, claiming, completion, and failure handling
 
@@ -394,4 +394,3 @@ else
     echo -e "${RED}Some tests failed!${NC}"
     exit 1
 fi
-

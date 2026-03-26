@@ -1,4 +1,4 @@
-﻿# HumanEval/3
+# HumanEval/3
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -21,4 +21,3 @@ def below_zero(operations: List[int]) -> bool:
         if balance < 0:
             return True
     return False
-

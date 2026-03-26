@@ -1,4 +1,4 @@
-﻿# HumanEval/37
+# HumanEval/37
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -17,4 +17,3 @@ def sort_even(l: list):
     for i, val in enumerate(even_elements):
         result[i * 2] = val
     return result
-

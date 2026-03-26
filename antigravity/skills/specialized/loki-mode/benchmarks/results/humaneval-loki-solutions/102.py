@@ -1,4 +1,4 @@
-﻿# HumanEval/102
+# HumanEval/102
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -19,4 +19,3 @@ def choose_num(x, y):
     if y - 1 >= x:
         return y - 1
     return -1
-

@@ -1,4 +1,4 @@
-﻿# HumanEval/10
+# HumanEval/10
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -28,4 +28,3 @@ def make_palindrome(string: str) -> str:
             return string + string[:i][::-1]
     
     return string
-

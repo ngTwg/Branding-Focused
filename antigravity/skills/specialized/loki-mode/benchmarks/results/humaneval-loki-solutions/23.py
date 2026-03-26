@@ -1,4 +1,4 @@
-﻿# HumanEval/23
+# HumanEval/23
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -11,4 +11,3 @@ def strlen(string: str) -> int:
     3
     """
     return len(string)
-

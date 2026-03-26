@@ -1,4 +1,4 @@
-﻿"""
+"""
 Validator for PowerPoint presentation XML files against XSD schemas.
 """
 
@@ -313,5 +313,3 @@ class PPTXSchemaValidator(BaseSchemaValidator):
 
 if __name__ == "__main__":
     raise RuntimeError("This module should not be run directly.")
-
-

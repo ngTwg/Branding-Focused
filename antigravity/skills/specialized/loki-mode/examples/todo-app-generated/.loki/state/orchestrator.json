@@ -1,4 +1,4 @@
-﻿{
+{
   "version": "2.16.0",
   "startupId": "loki-test-20260102-234138",
   "phase": "completed",
@@ -39,5 +39,3 @@
   "pausedAt": null,
   "pauseReason": null
 }
-
-

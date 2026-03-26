@@ -1,4 +1,4 @@
-﻿# 🏢 ENTERPRISE GOVERNANCE & OPERATIONS — MASTER INVENTORY (v4.0.0)
+# 🏢 ENTERPRISE GOVERNANCE & OPERATIONS — MASTER INVENTORY (v4.0.0)
 
 > **Chuyên mục:** EA, EB, EC, ED, EE, EF, EG, EH, EI, EJ, EK, EL  
 > **Mục tiêu:** Biến App/Web thành Nền tảng Sinh thái, chống chịu thảm họa, vận hành 24/7
@@ -638,5 +638,3 @@ Agent Kho (Inventory Agent):
           → Agent Tài chính (Finance Agent):
               Xử lý thanh toán tự động
 ```
-
-

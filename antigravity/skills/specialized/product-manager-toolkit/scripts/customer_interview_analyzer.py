@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Customer Interview Analyzer
 Extracts insights, patterns, and opportunities from user interviews
@@ -439,5 +439,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-

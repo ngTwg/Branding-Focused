@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Browser Session Management for NotebookLM
 Individual browser session for persistent NotebookLM conversations
@@ -253,4 +253,3 @@ if __name__ == "__main__":
     # Example usage
     print("Browser Session Module - Use ask_question.py for main interface")
     print("This module provides low-level browser session management.")
-

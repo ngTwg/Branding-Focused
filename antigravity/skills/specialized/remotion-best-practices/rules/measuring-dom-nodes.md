@@ -1,4 +1,4 @@
-﻿---
+---
 name: measuring-dom-nodes
 description: Measuring DOM element dimensions in Remotion
 metadata:
@@ -32,6 +32,4 @@ export const MyComponent = () => {
   return <div ref={ref}>Content to measure</div>;
 };
 ```
-
-
 

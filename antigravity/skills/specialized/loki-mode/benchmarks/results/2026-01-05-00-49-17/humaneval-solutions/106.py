@@ -1,4 +1,4 @@
-﻿def f(n):
+def f(n):
     """ Implement the function f that takes n as a parameter,
     and returns a list of size n, such that the value of the element at index i is the factorial of i if i is even
     or the sum of numbers from 1 to i otherwise.
@@ -19,4 +19,3 @@
             # sum of numbers from 1 to i
             result.append(sum(range(1, i + 1)))
     return result
-

@@ -1,4 +1,4 @@
-﻿# HumanEval/9
+# HumanEval/9
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -23,4 +23,3 @@ def rolling_max(numbers: List[int]) -> List[int]:
         result.append(current_max)
     
     return result
-

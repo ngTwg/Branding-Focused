@@ -1,4 +1,4 @@
-﻿---
+---
 name: react-native-app
 description: React Native mobile app template principles. Expo, TypeScript, navigation.
 ---
@@ -91,5 +91,3 @@ project-name/
 - NativeWind for consistent styling
 - Expo SecureStore for tokens
 - Test on both iOS and Android
-
-

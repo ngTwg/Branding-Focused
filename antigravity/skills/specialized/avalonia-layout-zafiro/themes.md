@@ -1,4 +1,4 @@
-﻿# Theme Organization and Shared Styles
+# Theme Organization and Shared Styles
 
 Efficient theme organization is key to avoiding redundant XAML and ensuring visual consistency.
 
@@ -49,5 +49,3 @@ Centralize icon definitions and other shared resources in `Icons.axaml` and incl
     </ResourceDictionary>
 </Application.Resources>
 ```
-
-

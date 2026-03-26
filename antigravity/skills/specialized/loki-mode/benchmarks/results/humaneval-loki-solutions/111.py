@@ -1,4 +1,4 @@
-﻿# HumanEval/111
+# HumanEval/111
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -32,4 +32,3 @@ def histogram(test):
     max_count = max(counts.values())
     
     return {letter: count for letter, count in counts.items() if count == max_count}
-

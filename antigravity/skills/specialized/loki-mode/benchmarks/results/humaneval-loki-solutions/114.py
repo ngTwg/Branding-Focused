@@ -1,4 +1,4 @@
-﻿# HumanEval/114
+# HumanEval/114
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -22,4 +22,3 @@ def minSubArraySum(nums):
         min_so_far = min(min_so_far, min_ending_here)
     
     return min_so_far
-

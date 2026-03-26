@@ -1,4 +1,4 @@
-﻿# HumanEval/120
+# HumanEval/120
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -31,4 +31,3 @@ def maximum(arr, k):
     if k == 0:
         return []
     return sorted(arr)[-k:]
-

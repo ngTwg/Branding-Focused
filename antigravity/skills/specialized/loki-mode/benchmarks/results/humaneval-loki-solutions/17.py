@@ -1,4 +1,4 @@
-﻿# HumanEval/17
+# HumanEval/17
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -25,4 +25,3 @@ def parse_music(music_string: str) -> List[int]:
     note_beats = {'o': 4, 'o|': 2, '.|': 1}
     tokens = music_string.split()
     return [note_beats[token] for token in tokens if token]
-

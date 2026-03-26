@@ -1,4 +1,4 @@
-﻿# PRD: Simple Todo App
+# PRD: Simple Todo App
 
 ## Overview
 A minimal todo application for testing Loki Mode with a simple, well-defined scope.
@@ -58,5 +58,3 @@ Individual users who want a simple way to track tasks.
 ---
 
 **Purpose:** This PRD is intentionally simple to allow quick testing of Loki Mode's core functionality without waiting for complex builds or deployments.
-
-

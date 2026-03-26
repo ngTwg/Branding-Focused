@@ -1,4 +1,4 @@
-﻿# skill-rules.json - Complete Reference
+# skill-rules.json - Complete Reference
 
 Complete schema and configuration reference for `.claude/skills/skill-rules.json`.
 
@@ -313,5 +313,3 @@ If valid, jq will pretty-print the JSON. If invalid, it will show the error.
 - [SKILL.md](SKILL.md) - Main skill guide
 - [TRIGGER_TYPES.md](TRIGGER_TYPES.md) - Complete trigger documentation
 - [TROUBLESHOOTING.md](TROUBLESHOOTING.md) - Debugging configuration issues
-
-

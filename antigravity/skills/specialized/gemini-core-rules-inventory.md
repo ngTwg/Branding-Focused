@@ -1,4 +1,4 @@
-﻿# 🏛️ Gemini Core Rules Inventory (177+ Legacy Rules)
+# 🏛️ Gemini Core Rules Inventory (177+ Legacy Rules)
 
 > **Trích xuất nguyên bản toàn bộ các quy tắc, protocols, và chuyên mục từ GEMINI.md cũ của User nhằm bảo toàn 100% tài nguyên và đảm bảo không thất thoát bất kỳ kỹ năng nào.**
 
@@ -1504,7 +1504,7 @@ return { user: { id, email, name } };
 4. 
 NEVER return overly detailed error messages that enable enumeration
 javascriptDownloadCopy code// ❌ WRONG - Reveals if email exists:
-return { error: 'User with email [HIDDEN_EMAIL] not found' };
+return { error: 'User with email user@example.com not found' };
 
 // ✅ CORRECT:
 return { error: 'Invalid email or password' };
@@ -2527,7 +2527,7 @@ javascriptDownloadCopy code// ❌ WRONG:
 'Invalid input'
 
 // ✅ CORRECT:
-'Email must be a valid format ([HIDDEN_EMAIL])'
+'Email must be a valid format (example@domain.com)'
 
 6. 
 ALWAYS keep forms short or use multi-step for long forms
@@ -4550,7 +4550,7 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
      export default function() {
        // Test login endpoint:
        const loginRes = http.post('https://api.example.com/auth/login', {
-         email: '[HIDDEN_EMAIL]',
+         email: 'test@test.com',
          password: 'wrongpassword'
        });
        
@@ -4696,7 +4696,7 @@ PHẦN 9: EMAIL & NOTIFICATION SYSTEM
 1. 
 ALWAYS validate email format strictly (prevent injection)
 javascriptDownloadCopy code// ❌ WRONG - Email injection:
-const to = userInput; // "[HIDDEN_EMAIL]\nBcc: [HIDDEN_EMAIL]"
+const to = userInput; // "victim@test.com\nBcc: attacker@evil.com"
 
 // ✅ CORRECT - Validate strictly:
 const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -20105,7 +20105,7 @@ class APIFuzzer {
         '@test.com',
         'test@test',
         'a'.repeat(100) + '@test.com',
-        '[HIDDEN_EMAIL]',
+        'test+tag@test.com',
         'test%40test.com',
       ],
       url: [
@@ -24874,7 +24874,7 @@ return { user: { id, email, name } };
 4. 
 NEVER return overly detailed error messages that enable enumeration
 javascriptDownloadCopy code// ❌ WRONG - Reveals if email exists:
-return { error: 'User with email [HIDDEN_EMAIL] not found' };
+return { error: 'User with email user@example.com not found' };
 
 // ✅ CORRECT:
 return { error: 'Invalid email or password' };
@@ -26269,5 +26269,3 @@ SOFTWARE.
 
 
 *Tài liệu này là hướng dẫn toàn diện cho việc phát triển dự án an toàn và hiệu quả.*
-
-

@@ -1,4 +1,4 @@
-﻿# HumanEval/149
+# HumanEval/149
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -20,4 +20,3 @@ def sorted_list_sum(lst):
     """
     filtered = [s for s in lst if len(s) % 2 == 0]
     return sorted(filtered, key=lambda x: (len(x), x))
-

@@ -1,4 +1,4 @@
-﻿{
+{
   "benchmark": "HumanEval",
   "version": "1.0",
   "timestamp": "2026-01-05T00:24:04.904083",
@@ -13,4 +13,3 @@
     "HumanEval/4"
   ]
 }
-

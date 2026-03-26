@@ -1,4 +1,4 @@
-﻿# HumanEval/110
+# HumanEval/110
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -23,4 +23,3 @@ def exchange(lst1, lst2):
         return "YES"
     else:
         return "NO"
-

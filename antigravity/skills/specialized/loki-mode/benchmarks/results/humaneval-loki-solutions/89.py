@@ -1,4 +1,4 @@
-﻿# HumanEval/89
+# HumanEval/89
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -23,4 +23,3 @@ def encrypt(s):
         else:
             result.append(c)
     return ''.join(result)
-

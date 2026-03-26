@@ -1,4 +1,4 @@
-﻿---
+---
 title: Choose the Right Index Type for Your Data
 impact: HIGH
 impactDescription: 10-100x improvement with correct index type
@@ -43,5 +43,3 @@ create index sessions_token_idx on sessions using hash (token);
 ```
 
 Reference: [Index Types](https://www.postgresql.org/docs/current/indexes-types.html)
-
-

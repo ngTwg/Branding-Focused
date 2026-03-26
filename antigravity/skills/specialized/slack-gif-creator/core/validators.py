@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Validators - Check if GIFs meet Slack's requirements.
 
@@ -134,5 +134,3 @@ def is_slack_ready(
     """
     passes, _ = validate_gif(gif_path, is_emoji, verbose)
     return passes
-
-

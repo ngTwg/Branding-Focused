@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 i18n Checker - Detects hardcoded strings and missing translations.
 Scans for untranslated text in React, Vue, and Python files.
@@ -239,5 +239,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-

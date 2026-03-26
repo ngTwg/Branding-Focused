@@ -1,4 +1,4 @@
-﻿# Project Scaffolding
+# Project Scaffolding
 
 > Directory structure and core files for new projects.
 
@@ -116,5 +116,3 @@ project-name/
 | Reusable button/input | `shared/components/ui/` |
 | Database query | `server/db/` |
 | External API call | `server/services/` |
-
-

@@ -1,4 +1,4 @@
-﻿# HumanEval/56
+# HumanEval/56
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -25,4 +25,3 @@ def correct_bracketing(brackets: str):
         if counter < 0:
             return False
     return counter == 0
-

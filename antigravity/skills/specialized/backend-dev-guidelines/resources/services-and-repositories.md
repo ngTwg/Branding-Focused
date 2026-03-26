@@ -1,4 +1,4 @@
-﻿# Services and Repositories - Business Logic Layer
+# Services and Repositories - Business Logic Layer
 
 Complete guide to organizing business logic with services and data access with repositories.
 
@@ -741,7 +741,7 @@ describe('UserService', () => {
         it('should create user when email does not exist', async () => {
             // Arrange
             const userData = {
-                email: '[HIDDEN_EMAIL]',
+                email: 'test@example.com',
                 name: 'Test User',
                 roles: ['user'],
             };
@@ -765,7 +765,7 @@ describe('UserService', () => {
         it('should throw ConflictError when email exists', async () => {
             // Arrange
             const userData = {
-                email: '[HIDDEN_EMAIL]',
+                email: 'existing@example.com',
                 name: 'Test User',
                 roles: ['user'],
             };
@@ -787,5 +787,3 @@ describe('UserService', () => {
 - [routing-and-controllers.md](routing-and-controllers.md) - Controllers that use services
 - [database-patterns.md](database-patterns.md) - Prisma and repository patterns
 - [complete-examples.md](complete-examples.md) - Full service/repository examples
-
-

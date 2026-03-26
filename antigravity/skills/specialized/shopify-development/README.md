@@ -1,4 +1,4 @@
-﻿# Shopify Development Skill
+# Shopify Development Skill
 
 Comprehensive skill for building on Shopify platform: apps, extensions, themes, and API integrations.
 
@@ -58,5 +58,3 @@ Current: **2026-01** (Quarterly releases with 12-month support)
 ## License
 
 MIT
-
-

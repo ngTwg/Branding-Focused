@@ -1,4 +1,4 @@
-﻿# HumanEval/159
+# HumanEval/159
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -34,4 +34,3 @@ def eat(number, need, remaining):
     """
     actual_eaten = min(need, remaining)
     return [number + actual_eaten, remaining - actual_eaten]
-

@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 # Loki Mode Wrapper Script
 # Provides true autonomy by auto-resuming on rate limits or interruptions
 #
@@ -279,4 +279,3 @@ fi
 
 # Run main
 main "$@"
-

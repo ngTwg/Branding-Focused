@@ -1,4 +1,4 @@
-﻿def int_to_mini_roman(number):
+def int_to_mini_roman(number):
     """
     Given a positive integer, obtain its roman numeral equivalent as a string,
     and return it in lowercase.
@@ -30,4 +30,3 @@
             number -= val[i]
         i += 1
     return roman_num
-

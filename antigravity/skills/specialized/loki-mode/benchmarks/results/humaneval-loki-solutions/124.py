@@ -1,4 +1,4 @@
-﻿# HumanEval/124
+# HumanEval/124
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -56,4 +56,3 @@ def valid_date(date):
         return False
     
     return True
-

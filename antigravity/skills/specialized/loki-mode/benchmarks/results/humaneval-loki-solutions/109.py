@@ -1,4 +1,4 @@
-﻿# HumanEval/109
+# HumanEval/109
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -51,4 +51,3 @@ def move_one_ball(arr):
         return True
     
     return False
-

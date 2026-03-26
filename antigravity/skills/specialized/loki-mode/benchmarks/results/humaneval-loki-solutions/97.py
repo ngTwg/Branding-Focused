@@ -1,4 +1,4 @@
-﻿# HumanEval/97
+# HumanEval/97
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -14,4 +14,3 @@ def multiply(a, b):
     multiply(14,-15) should return 20.
     """
     return (abs(a) % 10) * (abs(b) % 10)
-

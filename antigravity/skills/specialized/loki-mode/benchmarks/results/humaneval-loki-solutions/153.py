@@ -1,4 +1,4 @@
-﻿# HumanEval/153
+# HumanEval/153
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -30,4 +30,3 @@ def Strongest_Extension(class_name, extensions):
             strongest_ext = ext
     
     return f"{class_name}.{strongest_ext}"
-

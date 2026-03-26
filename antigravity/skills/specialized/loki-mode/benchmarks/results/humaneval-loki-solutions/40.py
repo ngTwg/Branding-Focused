@@ -1,4 +1,4 @@
-﻿# HumanEval/40
+# HumanEval/40
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -41,4 +41,3 @@ def triples_sum_to_zero(l: list):
                 right -= 1
     
     return False
-

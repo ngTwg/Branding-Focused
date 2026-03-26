@@ -1,4 +1,4 @@
-﻿# Writing Guidelines for Postgres Rules
+# Writing Guidelines for Postgres Rules
 
 This document provides guidelines for creating effective Postgres best
 practice rules that work well with AI agents and LLMs.
@@ -169,5 +169,3 @@ Before submitting a rule:
 - [ ] Reference links included
 - [ ] `npm run validate` passes
 - [ ] `npm run build` generates correct output
-
-

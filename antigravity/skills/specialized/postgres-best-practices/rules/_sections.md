@@ -1,4 +1,4 @@
-﻿# Section Definitions
+# Section Definitions
 
 This file defines the rule categories for Postgres best practices. Rules are automatically assigned to sections based on their filename prefix.
 
@@ -37,5 +37,3 @@ Take the examples below as pure demonstrative. Replace each section with the act
 ## 8. Advanced Features (advanced)
 **Impact:** LOW
 **Description:** Full-text search, JSONB optimization, PostGIS, extensions, and advanced Postgres features.
-
-

@@ -1,4 +1,4 @@
-﻿# HumanEval/150
+# HumanEval/150
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -24,4 +24,3 @@ def x_or_y(n, x, y):
             return y
         i += 2
     return x
-

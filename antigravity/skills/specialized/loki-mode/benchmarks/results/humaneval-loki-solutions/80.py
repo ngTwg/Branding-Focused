@@ -1,4 +1,4 @@
-﻿# HumanEval/80
+# HumanEval/80
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -24,4 +24,3 @@ def is_happy(s):
             return False
     
     return True
-

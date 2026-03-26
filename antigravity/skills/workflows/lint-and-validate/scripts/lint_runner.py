@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Lint Runner - Unified linting and type checking
 Runs appropriate linters based on project type.
@@ -170,5 +170,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-

@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 # Initialize planning files for a new session
 # Usage: ./init-session.sh [project-name]
 
@@ -118,4 +118,3 @@ fi
 echo ""
 echo "Planning files initialized!"
 echo "Files: task_plan.md, findings.md, progress.md"
-

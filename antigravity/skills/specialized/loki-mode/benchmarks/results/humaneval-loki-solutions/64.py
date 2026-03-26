@@ -1,4 +1,4 @@
-﻿# HumanEval/64
+# HumanEval/64
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -27,4 +27,3 @@ def vowels_count(s):
         count += 1
     
     return count
-

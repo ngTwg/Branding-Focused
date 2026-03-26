@@ -1,4 +1,4 @@
-﻿# Loki Mode Demo
+# Loki Mode Demo
 
 Video demonstration of Loki Mode - Multi-agent autonomous startup system.
 
@@ -135,5 +135,3 @@ Complete demonstration including:
 3. Combine in video editor (iMovie, DaVinci Resolve)
 4. Add intro/outro cards
 5. Export as MP4
-
-

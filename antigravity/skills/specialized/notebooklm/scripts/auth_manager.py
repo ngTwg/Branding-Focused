@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Authentication Manager for NotebookLM
 Handles Google login and browser state persistence
@@ -356,4 +356,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

@@ -1,4 +1,4 @@
-﻿def fib4(n: int):
+def fib4(n: int):
     """The Fib4 number sequence is a sequence similar to the Fibbonacci sequnece that's defined as follows:
     fib4(0) -> 0
     fib4(1) -> 0
@@ -21,4 +21,3 @@
         a, b, c, d = b, c, d, a + b + c + d
     
     return d
-

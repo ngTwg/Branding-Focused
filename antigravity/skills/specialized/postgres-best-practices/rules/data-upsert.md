@@ -1,4 +1,4 @@
-﻿---
+---
 title: Use UPSERT for Insert-or-Update Operations
 impact: MEDIUM
 impactDescription: Atomic operation, eliminates race conditions
@@ -48,5 +48,3 @@ on conflict (page_id, user_id) do nothing;
 ```
 
 Reference: [INSERT ON CONFLICT](https://www.postgresql.org/docs/current/sql-insert.html#SQL-ON-CONFLICT)
-
-

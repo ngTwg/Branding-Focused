@@ -1,4 +1,4 @@
-﻿# Progress Log
+# Progress Log
 <!-- 
   WHAT: Your session log - a chronological record of what you did, when, and what happened.
   WHY: Answers "What have I done?" in the 5-Question Reboot Test. Helps you resume after breaks.
@@ -112,5 +112,3 @@
   - Include timestamps for errors to track when issues occurred
 -->
 *Update after completing each phase or encountering errors*
-
-

@@ -1,4 +1,4 @@
-﻿"""
+"""
 Localization helper module for App Store Optimization.
 Manages multi-language ASO optimization strategies.
 """
@@ -586,5 +586,3 @@ def plan_localization_strategy(
         'target_markets': target_markets,
         'roi_analysis': roi_analysis
     }
-
-

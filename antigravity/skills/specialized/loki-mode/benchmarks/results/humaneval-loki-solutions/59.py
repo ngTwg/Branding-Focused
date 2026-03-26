@@ -1,4 +1,4 @@
-﻿# HumanEval/59
+# HumanEval/59
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -30,4 +30,3 @@ def largest_prime_factor(n: int):
         largest = n
     
     return largest
-

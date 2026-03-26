@@ -1,4 +1,4 @@
-﻿# HumanEval/18
+# HumanEval/18
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -21,4 +21,3 @@ def how_many_times(string: str, substring: str) -> int:
             count += 1
     
     return count
-

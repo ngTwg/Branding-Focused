@@ -1,4 +1,4 @@
-﻿---
+---
 title: Use Lowercase Identifiers for Compatibility
 impact: MEDIUM
 impactDescription: Avoid case-sensitivity bugs with tools, ORMs, and AI assistants
@@ -53,5 +53,3 @@ CREATE VIEW users AS SELECT "userId" AS user_id, "firstName" AS first_name FROM 
 ```
 
 Reference: [Identifiers and Key Words](https://www.postgresql.org/docs/current/sql-syntax-lexical.html#SQL-SYNTAX-IDENTIFIERS)
-
-

@@ -1,4 +1,4 @@
-﻿# HumanEval/20
+# HumanEval/20
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -25,4 +25,3 @@ def find_closest_elements(numbers: List[float]) -> Tuple[float, float]:
             closest_pair = (sorted_numbers[i], sorted_numbers[i + 1])
     
     return closest_pair
-

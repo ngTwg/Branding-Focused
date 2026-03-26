@@ -1,4 +1,4 @@
-﻿---
+---
 title: Enable pg_stat_statements for Query Analysis
 impact: LOW-MEDIUM
 impactDescription: Identify top resource-consuming queries
@@ -53,5 +53,3 @@ order by mean_exec_time desc;
 ```
 
 Reference: [pg_stat_statements](https://supabase.com/docs/guides/database/extensions/pg_stat_statements)
-
-

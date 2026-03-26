@@ -1,4 +1,4 @@
-﻿# Obsidian Web Clipper JSON Schema
+# Obsidian Web Clipper JSON Schema
 
 The Obsidian Web Clipper imports templates via JSON files.
 
@@ -69,5 +69,3 @@ The `properties` array defines the YAML frontmatter of the note.
 *   **`name`**: The key in the YAML frontmatter.
 *   **`value`**: The value to populate. Can contain variables.
 *   **`type`**: One of the types listed above.
-
-

@@ -1,4 +1,4 @@
-﻿# HumanEval/75
+# HumanEval/75
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -40,4 +40,3 @@ def is_multiply_prime(a):
             break
     
     return prime_factor_count == 3
-

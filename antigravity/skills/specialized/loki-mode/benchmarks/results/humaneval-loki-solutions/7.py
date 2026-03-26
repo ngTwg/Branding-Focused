@@ -1,4 +1,4 @@
-﻿# HumanEval/7
+# HumanEval/7
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -14,4 +14,3 @@ def filter_by_substring(strings: List[str], substring: str) -> List[str]:
     ['abc', 'bacd', 'array']
     """
     return [s for s in strings if substring in s]
-

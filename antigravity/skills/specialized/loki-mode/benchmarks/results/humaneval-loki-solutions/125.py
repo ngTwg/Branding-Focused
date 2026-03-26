@@ -1,4 +1,4 @@
-﻿# HumanEval/125
+# HumanEval/125
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -23,4 +23,3 @@ def split_words(txt):
             if char.islower() and (ord(char) - ord('a')) % 2 == 1:
                 count += 1
         return count
-

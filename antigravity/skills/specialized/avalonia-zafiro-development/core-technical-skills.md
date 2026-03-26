@@ -1,4 +1,4 @@
-﻿# Core Technical Skills & Architecture
+# Core Technical Skills & Architecture
 
 ## Mandatory Expertise
 
@@ -17,5 +17,3 @@ The developer must possess strong expertise in:
 - **Inward Dependency Flow**: Abstractions must not depend on implementations.
 - **Immutability**: Prefer immutable structures where practical to ensure predictability.
 - **Stable Public APIs**: Design APIs carefully to ensure long-term stability and clarity.
-
-

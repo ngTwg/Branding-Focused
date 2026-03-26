@@ -1,4 +1,4 @@
-﻿# HumanEval/151
+# HumanEval/151
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -20,4 +20,3 @@ def double_the_difference(lst):
         if isinstance(n, int) and not isinstance(n, bool) and n > 0 and n % 2 != 0:
             total += n * n
     return total
-

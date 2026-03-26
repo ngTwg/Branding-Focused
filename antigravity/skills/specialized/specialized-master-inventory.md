@@ -1,4 +1,4 @@
-﻿# Specialized Consolidated Skills
+# Specialized Consolidated Skills
 
 ## 📋 Table of Contents
 
@@ -9654,7 +9654,7 @@ curl -X POST -d "comment=<div style='color:red'>Malicious Content</div>" \
      http://target.com/submit
 
 # Form field injection
-curl -X POST -d "name=<script>alert(1)</script>&email=[HIDDEN_EMAIL]" \
+curl -X POST -d "name=<script>alert(1)</script>&email=test@test.com" \
      http://target.com/register
 ```
 
@@ -25316,7 +25316,7 @@ const getMockUser = (overrides?: Partial<User>): User => {
   return {
     id: '123',
     name: 'John Doe',
-    email: '[HIDDEN_EMAIL]',
+    email: 'john@example.com',
     role: 'user',
     ...overrides,
   };
@@ -25415,7 +25415,7 @@ it('should submit form on button click', async () => {
   const onSubmit = jest.fn();
   renderWithTheme(<LoginForm onSubmit={onSubmit} />);
 
-  fireEvent.changeText(screen.getByLabelText('Email'), '[HIDDEN_EMAIL]');
+  fireEvent.changeText(screen.getByLabelText('Email'), 'user@example.com');
   fireEvent.changeText(screen.getByLabelText('Password'), 'password123');
   fireEvent.press(screen.getByTestId('login-button'));
 
@@ -25442,10 +25442,10 @@ expect(screen.getByText('John Doe')).toBeTruthy();
 ```typescript
 // Bad - duplicated, inconsistent test data
 it('test 1', () => {
-  const user = { id: '1', name: 'John', email: '[HIDDEN_EMAIL]', role: 'user' };
+  const user = { id: '1', name: 'John', email: 'john@test.com', role: 'user' };
 });
 it('test 2', () => {
-  const user = { id: '2', name: 'Jane', email: '[HIDDEN_EMAIL]' }; // Missing role!
+  const user = { id: '2', name: 'Jane', email: 'jane@test.com' }; // Missing role!
 });
 
 // Good - reusable factory
@@ -27194,6 +27194,4 @@ runas /user:Administrator cmd.exe
 | Token impersonation fails | Wrong privilege/version | Check `whoami /priv`; verify Windows version compatibility |
 | Can't find kernel exploit | System patched | Run Windows Exploit Suggester: `python wes.py systeminfo.txt` |
 | PowerShell blocked | Execution policy/AMSI | Use `powershell -ep bypass -c "cmd"` or `-enc <base64>` |
-
-
 

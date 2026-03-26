@@ -1,4 +1,4 @@
-﻿# Lab Research Patterns Reference
+# Lab Research Patterns Reference
 
 Research-backed patterns from Google DeepMind and Anthropic for enhanced multi-agent orchestration and safety.
 
@@ -532,5 +532,3 @@ combined_approach:
 - [Visible Extended Thinking](https://www.anthropic.com/research/visible-extended-thinking)
 - [Computer Use Safety](https://www.anthropic.com/news/3-5-models-and-computer-use)
 - [Sabotage Evaluations](https://www.anthropic.com/research/sabotage-evaluations-for-frontier-models)
-
-

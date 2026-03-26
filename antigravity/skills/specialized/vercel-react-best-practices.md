@@ -1,4 +1,4 @@
-﻿# React & Vercel Best Practices
+# React & Vercel Best Practices
 
 ## 📋 Table of Contents
 
@@ -2464,6 +2464,4 @@ function Profile({ name }: { name: string }) {
 ```
 
 ---
-
-
 

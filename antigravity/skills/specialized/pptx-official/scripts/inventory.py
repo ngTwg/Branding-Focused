@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Extract structured text content from PowerPoint presentations.
 
@@ -1018,5 +1018,3 @@ def save_inventory(inventory: InventoryData, output_path: Path) -> None:
 
 if __name__ == "__main__":
     main()
-
-

@@ -1,4 +1,4 @@
-﻿def match_parens(lst):
+def match_parens(lst):
     '''
     You are given a list of two strings, both strings consist of open
     parentheses '(' or close parentheses ')' only.
@@ -28,4 +28,3 @@
     if is_balanced(s1 + s2) or is_balanced(s2 + s1):
         return 'Yes'
     return 'No'
-

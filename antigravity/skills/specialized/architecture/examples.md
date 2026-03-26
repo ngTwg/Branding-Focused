@@ -1,4 +1,4 @@
-﻿# Architecture Examples
+# Architecture Examples
 
 > Real-world architecture decisions by project type.
 
@@ -92,5 +92,3 @@ Operational Requirements:
   - Circuit breakers (Resilience4j)
   - Kubernetes/Helm
 ```
-
-

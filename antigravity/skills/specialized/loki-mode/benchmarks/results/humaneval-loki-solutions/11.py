@@ -1,4 +1,4 @@
-﻿# HumanEval/11
+# HumanEval/11
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -19,4 +19,3 @@ def string_xor(a: str, b: str) -> str:
         else:
             result.append('1')
     return ''.join(result)
-

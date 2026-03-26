@@ -1,4 +1,4 @@
-﻿# Effort Parameter (Beta)
+# Effort Parameter (Beta)
 
 **Add effort set to `"high"` during migration.** This is the default configuration for best performance with Opus 4.5.
 
@@ -68,5 +68,3 @@ Effort is independent of thinking budget:
 2. Best performance: high effort + high thinking budget
 3. Cost/latency optimization: medium effort
 4. Simple high-volume queries: low effort
-
-

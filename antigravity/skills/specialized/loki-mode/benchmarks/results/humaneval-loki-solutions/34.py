@@ -1,4 +1,4 @@
-﻿# HumanEval/34
+# HumanEval/34
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -9,4 +9,3 @@ def unique(l: list):
     [0, 2, 3, 5, 9, 123]
     """
     return sorted(set(l))
-

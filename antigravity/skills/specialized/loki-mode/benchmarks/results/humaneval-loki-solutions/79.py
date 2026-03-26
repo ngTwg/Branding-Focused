@@ -1,4 +1,4 @@
-﻿# HumanEval/79
+# HumanEval/79
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -16,4 +16,3 @@ def decimal_to_binary(decimal):
     decimal_to_binary(32)   # returns "db100000db"
     """
     return "db" + bin(decimal)[2:] + "db"
-

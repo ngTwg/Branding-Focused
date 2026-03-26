@@ -1,4 +1,4 @@
-﻿# Architecture Patterns Reference
+# Architecture Patterns Reference
 
 > Quick reference for common patterns with usage guidance.
 
@@ -48,5 +48,3 @@
 - You can always add patterns later
 - Removing complexity is MUCH harder than adding it
 - When in doubt, choose simpler option
-
-

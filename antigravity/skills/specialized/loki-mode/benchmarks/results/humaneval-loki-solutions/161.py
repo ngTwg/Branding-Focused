@@ -1,4 +1,4 @@
-﻿# HumanEval/161
+# HumanEval/161
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -27,4 +27,3 @@ def solve(s):
             result.append(c)
     
     return ''.join(result)
-

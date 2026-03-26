@@ -1,4 +1,4 @@
-﻿def triangle_area(a, b, c):
+def triangle_area(a, b, c):
     '''
     Given the lengths of the three sides of a triangle. Return the area of
     the triangle rounded to 2 decimal points if the three sides form a valid triangle. 
@@ -15,4 +15,3 @@
     s = (a + b + c) / 2
     area = (s * (s - a) * (s - b) * (s - c)) ** 0.5
     return round(area, 2)
-

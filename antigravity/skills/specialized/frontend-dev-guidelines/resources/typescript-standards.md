@@ -1,4 +1,4 @@
-﻿# TypeScript Standards
+# TypeScript Standards
 
 TypeScript best practices for type safety and maintainability in React frontend code.
 
@@ -204,7 +204,7 @@ type UserPreview = Pick<User, 'id' | 'name' | 'email'>;
 const preview: UserPreview = {
     id: 1,
     name: 'John',
-    email: '[HIDDEN_EMAIL]',
+    email: 'john@example.com',
     // Other User properties not allowed
 };
 ```
@@ -218,7 +218,7 @@ type UserWithoutPassword = Omit<User, 'password' | 'passwordHash'>;
 const publicUser: UserWithoutPassword = {
     id: 1,
     name: 'John',
-    email: '[HIDDEN_EMAIL]',
+    email: 'john@example.com',
     // password and passwordHash not allowed
 };
 ```
@@ -416,4 +416,3 @@ if (data) {
 **See Also:**
 - [component-patterns.md](component-patterns.md) - Component typing
 - [data-fetching.md](data-fetching.md) - API typing
-

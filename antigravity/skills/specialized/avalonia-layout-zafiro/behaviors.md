@@ -1,4 +1,4 @@
-﻿# Interactions and Logic
+# Interactions and Logic
 
 To keep XAML clean and maintainable, minimize logic in views and avoid excessive use of converters.
 
@@ -33,5 +33,3 @@ Only use them when the conversion is purely visual and highly reusable across di
 ## 🧩 Simplified Interactions
 
 If you find yourself needing a complex converter or behavior, consider if the component can be simplified or if the data model can be adjusted to make the view binding more direct.
-
-

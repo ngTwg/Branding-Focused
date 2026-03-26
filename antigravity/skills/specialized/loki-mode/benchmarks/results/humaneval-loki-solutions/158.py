@@ -1,4 +1,4 @@
-﻿# HumanEval/158
+# HumanEval/158
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -14,4 +14,3 @@ def find_max(words):
     find_max(["aaaaaaa", "bb" ,"cc"]) == ""aaaaaaa"
     """
     return sorted(words, key=lambda w: (-len(set(w)), w))[0]
-

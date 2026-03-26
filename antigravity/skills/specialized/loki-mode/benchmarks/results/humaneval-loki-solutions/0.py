@@ -1,4 +1,4 @@
-﻿# HumanEval/0
+# HumanEval/0
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -19,4 +19,3 @@ def has_close_elements(numbers: List[float], threshold: float) -> bool:
             if abs(numbers[i] - numbers[j]) < threshold:
                 return True
     return False
-

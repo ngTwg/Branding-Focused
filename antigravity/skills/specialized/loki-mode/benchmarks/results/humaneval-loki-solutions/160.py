@@ -1,4 +1,4 @@
-﻿# HumanEval/160
+# HumanEval/160
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -32,4 +32,3 @@ def do_algebra(operator, operand):
     for i, op in enumerate(operator):
         expression += op + str(operand[i + 1])
     return eval(expression)
-

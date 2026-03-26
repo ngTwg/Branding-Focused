@@ -1,4 +1,4 @@
-﻿# HumanEval/119
+# HumanEval/119
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -33,4 +33,3 @@ def match_parens(lst):
     if is_balanced(lst[0] + lst[1]) or is_balanced(lst[1] + lst[0]):
         return 'Yes'
     return 'No'
-

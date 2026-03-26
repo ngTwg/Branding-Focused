@@ -1,4 +1,4 @@
-﻿def fruit_distribution(s,n):
+def fruit_distribution(s,n):
     """
     In this task, you will be given a string that represents a number of apples and oranges 
     that are distributed in a basket of fruit this basket contains 
@@ -14,4 +14,3 @@
     words = s.split()
     numbers = [int(word) for word in words if word.isdigit()]
     return n - sum(numbers)
-

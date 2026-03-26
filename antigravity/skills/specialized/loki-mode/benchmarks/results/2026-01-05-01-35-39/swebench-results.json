@@ -1,4 +1,4 @@
-﻿{
+{
   "benchmark": "SWE-bench Lite",
   "version": "1.0",
   "timestamp": "2026-01-05T01:35:46.147332",
@@ -264,4 +264,3 @@
   "predictions_file": "/Users/lokesh/git/loki-mode/benchmarks/results/2026-01-05-01-35-39/swebench-predictions.json",
   "next_step": "Run: python -m swebench.harness.run_evaluation --predictions /Users/lokesh/git/loki-mode/benchmarks/results/2026-01-05-01-35-39/swebench-predictions.json"
 }
-

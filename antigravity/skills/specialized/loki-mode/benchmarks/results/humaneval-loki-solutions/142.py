@@ -1,4 +1,4 @@
-﻿# HumanEval/142
+# HumanEval/142
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -23,4 +23,3 @@ def sum_squares(lst):
         else:
             result += lst[i]
     return result
-

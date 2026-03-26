@@ -1,4 +1,4 @@
-﻿from typing import List, Tuple
+from typing import List, Tuple
 
 
 def find_closest_elements(numbers: List[float]) -> Tuple[float, float]:
@@ -20,4 +20,3 @@ def find_closest_elements(numbers: List[float]) -> Tuple[float, float]:
             closest_pair = (sorted_numbers[i], sorted_numbers[i + 1])
     
     return closest_pair
-

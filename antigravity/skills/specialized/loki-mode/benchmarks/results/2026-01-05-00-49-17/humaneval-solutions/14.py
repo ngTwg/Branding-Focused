@@ -1,4 +1,4 @@
-﻿from typing import List
+from typing import List
 
 
 def all_prefixes(string: str) -> List[str]:
@@ -7,4 +7,3 @@ def all_prefixes(string: str) -> List[str]:
     ['a', 'ab', 'abc']
     """
     return [string[:i+1] for i in range(len(string))]
-

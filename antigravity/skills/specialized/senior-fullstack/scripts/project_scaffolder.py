@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Project Scaffolder
 Automated tool for senior fullstack tasks
@@ -112,5 +112,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-

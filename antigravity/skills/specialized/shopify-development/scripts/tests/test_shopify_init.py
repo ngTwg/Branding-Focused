@@ -1,4 +1,4 @@
-﻿"""
+"""
 Tests for shopify_init.py
 
 Run with: pytest test_shopify_init.py -v --cov=shopify_init --cov-report=term-missing
@@ -377,5 +377,3 @@ class TestEnvConfig:
         assert config.shopify_api_secret == "secret"
         assert config.shop_domain == "test.myshopify.com"
         assert config.scopes == "read_products"
-
-

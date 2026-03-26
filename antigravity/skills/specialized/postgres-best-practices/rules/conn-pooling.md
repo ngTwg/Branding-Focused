@@ -1,4 +1,4 @@
-﻿---
+---
 title: Use Connection Pooling for All Applications
 impact: CRITICAL
 impactDescription: Handle 10-100x more concurrent users
@@ -39,5 +39,3 @@ Pool modes:
 - **Session mode**: connection held for entire session (needed for prepared statements, temp tables)
 
 Reference: [Connection Pooling](https://supabase.com/docs/guides/database/connecting-to-postgres#connection-pooler)
-
-

@@ -1,4 +1,4 @@
-﻿import json
+import json
 import sys
 
 from pypdf import PdfReader, PdfWriter
@@ -106,4 +106,3 @@ if __name__ == "__main__":
     output_pdf = sys.argv[3]
     
     fill_pdf_form(input_pdf, fields_json, output_pdf)
-

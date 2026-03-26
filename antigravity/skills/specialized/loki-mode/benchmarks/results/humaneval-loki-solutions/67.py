@@ -1,4 +1,4 @@
-﻿# HumanEval/67
+# HumanEval/67
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -20,4 +20,3 @@ def fruit_distribution(s,n):
     numbers = re.findall(r'\d+', s)
     apples_and_oranges = sum(int(num) for num in numbers)
     return n - apples_and_oranges
-

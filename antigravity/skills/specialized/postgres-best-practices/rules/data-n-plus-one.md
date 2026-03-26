@@ -1,4 +1,4 @@
-﻿---
+---
 title: Eliminate N+1 Queries with Batch Loading
 impact: MEDIUM-HIGH
 impactDescription: 10-100x fewer database round trips
@@ -51,5 +51,3 @@ select * from orders where user_id = any($1::bigint[]);
 ```
 
 Reference: [N+1 Query Problem](https://supabase.com/docs/guides/database/query-optimization)
-
-

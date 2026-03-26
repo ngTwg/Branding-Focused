@@ -1,4 +1,4 @@
-﻿{
+{
   "request_type": "keyword_research",
   "app_info": {
     "name": "TaskFlow Pro",
@@ -28,5 +28,3 @@
   "platform": "both",
   "language": "en-US"
 }
-
-

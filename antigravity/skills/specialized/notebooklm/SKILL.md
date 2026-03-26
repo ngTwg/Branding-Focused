@@ -1,4 +1,4 @@
-﻿---
+---
 name: notebooklm
 description: Use this skill to query your Google NotebookLM notebooks directly from Claude Code for source-grounded, citation-backed answers from Gemini. Browser automation, library management, persistent auth. Drastically reduced hallucinations through document-only responses.
 ---
@@ -267,5 +267,3 @@ Synthesize and respond to user
   - `usage_patterns.md` - Best practices and workflow examples
 - `.venv/` - Isolated Python environment (auto-created on first run)
 - `.gitignore` - Protects sensitive data from being committed
-
-

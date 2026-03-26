@@ -1,4 +1,4 @@
-﻿# HumanEval/24
+# HumanEval/24
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -12,4 +12,3 @@ def largest_divisor(n: int) -> int:
         if n % i == 0:
             return i
     return 1
-

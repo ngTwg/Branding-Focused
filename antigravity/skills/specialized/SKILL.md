@@ -1,4 +1,4 @@
-﻿---
+---
 name: seo-review
 description: Perform a focused SEO audit on JavaScript concept pages to maximize search visibility, featured snippet optimization, and ranking potential
 ---
@@ -949,5 +949,3 @@ When auditing a concept page for SEO:
 8. **Generate report** — Document score, issues, and prioritized fixes
 
 **Remember:** SEO isn't about gaming search engines — it's about making content easy to find for developers who need it. Every optimization should also improve the reader experience.
-
-

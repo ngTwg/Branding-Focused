@@ -1,4 +1,4 @@
-﻿# PRD: REST API Service
+# PRD: REST API Service
 
 ## Overview
 A simple REST API for managing notes. Tests Loki Mode's backend-only capabilities.
@@ -77,5 +77,3 @@ GET /health → 200 + status object
 ---
 
 **Purpose:** Tests backend agent capabilities, code review, and QA without frontend complexity.
-
-

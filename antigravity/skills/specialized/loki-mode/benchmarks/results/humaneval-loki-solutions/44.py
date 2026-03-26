@@ -1,4 +1,4 @@
-﻿# HumanEval/44
+# HumanEval/44
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -23,4 +23,3 @@ def change_base(x: int, base: int):
         x //= base
     
     return ''.join(reversed(digits))
-

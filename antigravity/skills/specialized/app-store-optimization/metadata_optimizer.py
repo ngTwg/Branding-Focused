@@ -1,4 +1,4 @@
-﻿"""
+"""
 Metadata optimization module for App Store Optimization.
 Optimizes titles, descriptions, and keyword fields with platform-specific character limit validation.
 """
@@ -579,5 +579,3 @@ def optimize_app_metadata(
             target_keywords
         ) if platform == 'apple' else None
     }
-
-

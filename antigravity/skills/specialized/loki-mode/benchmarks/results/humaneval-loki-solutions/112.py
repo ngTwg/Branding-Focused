@@ -1,4 +1,4 @@
-﻿# HumanEval/112
+# HumanEval/112
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -18,4 +18,3 @@ def reverse_delete(s,c):
     result = ''.join(char for char in s if char not in chars_to_delete)
     is_palindrome = result == result[::-1]
     return (result, is_palindrome)
-

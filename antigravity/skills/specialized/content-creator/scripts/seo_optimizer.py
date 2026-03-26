@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 SEO Content Optimizer - Analyzes and optimizes content for SEO
 """
@@ -417,5 +417,3 @@ if __name__ == "__main__":
         print(optimize_content(content, keyword, secondary))
     else:
         print("Usage: python seo_optimizer.py <file> [primary_keyword] [secondary_keywords]")
-
-

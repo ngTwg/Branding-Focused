@@ -1,4 +1,4 @@
-﻿# HumanEval/35
+# HumanEval/35
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -11,4 +11,3 @@ def max_element(l: list):
     123
     """
     return max(l)
-

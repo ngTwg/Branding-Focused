@@ -1,4 +1,4 @@
-﻿# HumanEval/147
+# HumanEval/147
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -30,4 +30,3 @@ def get_max_triples(n):
                     count += 1
     
     return count
-

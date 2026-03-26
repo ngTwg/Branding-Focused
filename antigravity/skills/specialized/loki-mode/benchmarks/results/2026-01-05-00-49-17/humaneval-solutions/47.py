@@ -1,4 +1,4 @@
-﻿def median(l: list):
+def median(l: list):
     """Return median of elements in the list l.
     >>> median([3, 1, 2, 4, 5])
     3
@@ -12,4 +12,3 @@
         return sorted_l[mid]
     else:
         return (sorted_l[mid - 1] + sorted_l[mid]) / 2
-

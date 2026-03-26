@@ -1,4 +1,4 @@
-﻿# Loki Mode Voice-Over Script
+# Loki Mode Voice-Over Script
 
 Complete narration for Loki Mode demo video.
 
@@ -244,5 +244,3 @@ Complete narration for Loki Mode demo video.
 | CTA | 14:00 | 30s |
 
 **Total: ~14.5 minutes**
-
-

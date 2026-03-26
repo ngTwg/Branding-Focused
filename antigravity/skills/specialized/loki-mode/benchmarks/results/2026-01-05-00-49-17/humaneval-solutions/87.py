@@ -1,4 +1,4 @@
-﻿def get_row(lst, x):
+def get_row(lst, x):
     """
     You are given a 2 dimensional data, as a nested lists,
     which is similar to matrix, however, unlike matrices,
@@ -27,4 +27,3 @@
         row_matches.sort(key=lambda coord: coord[1], reverse=True)
         result.extend(row_matches)
     return result
-

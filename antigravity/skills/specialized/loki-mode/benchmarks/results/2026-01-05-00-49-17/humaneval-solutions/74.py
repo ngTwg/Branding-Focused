@@ -1,4 +1,4 @@
-﻿def total_match(lst1, lst2):
+def total_match(lst1, lst2):
     '''
     Write a function that accepts two lists of strings and returns the list that has 
     total number of chars in the all strings of the list less than the other list.
@@ -19,4 +19,3 @@
         return lst1
     else:
         return lst2
-

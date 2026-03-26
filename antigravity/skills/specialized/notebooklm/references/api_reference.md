@@ -1,4 +1,4 @@
-﻿# NotebookLM Skill API Reference
+# NotebookLM Skill API Reference
 
 Complete API documentation for all NotebookLM skill modules.
 
@@ -307,4 +307,3 @@ def batch_research(questions, notebook_id):
 3. **Handle rate limits** - Implement retries
 4. **Include context** - Questions are independent
 5. **Clean sessions** - Use cleanup_manager
-

@@ -1,4 +1,4 @@
-﻿# Core Workflow Reference
+# Core Workflow Reference
 
 Full RARV cycle, CONTINUITY.md template, and autonomy rules.
 
@@ -273,5 +273,3 @@ move_tasks_to_pending after_task=$last_good_task_id
 3. If fix subagent fails 3x, move to dead letter queue
 4. Open circuit breaker for that agent type
 5. Alert orchestrator for human review
-
-

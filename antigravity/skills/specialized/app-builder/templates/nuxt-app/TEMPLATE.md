@@ -1,4 +1,4 @@
-﻿---
+---
 name: nuxt-app
 description: Nuxt 3 full-stack template. Vue 3, Pinia, Tailwind, Prisma.
 ---
@@ -99,5 +99,3 @@ project-name/
 - Auto-import for clean code
 - TypeScript for type safety
 - See `@[skills/vue-expert]` for Vue patterns
-
-

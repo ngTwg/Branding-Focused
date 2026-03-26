@@ -1,4 +1,4 @@
-﻿# Loki Mode - Multi-Agent System for SWE-bench
+# Loki Mode - Multi-Agent System for SWE-bench
 
 ## Overview
 
@@ -109,5 +109,3 @@ evaluation/lite/20260105_loki_mode/
 ## Contact
 
 - GitHub: [@asklokesh](https://github.com/asklokesh)
-
-

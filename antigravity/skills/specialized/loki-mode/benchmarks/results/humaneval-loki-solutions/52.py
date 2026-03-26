@@ -1,4 +1,4 @@
-﻿# HumanEval/52
+# HumanEval/52
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -11,4 +11,3 @@ def below_threshold(l: list, t: int):
     False
     """
     return all(x < t for x in l)
-

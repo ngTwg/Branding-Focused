@@ -1,4 +1,4 @@
-﻿# Rule Catalog — Business Logic
+# Rule Catalog — Business Logic
 
 ## Can't use workflowStore in Node components
 
@@ -13,5 +13,3 @@ Node components are also used when creating a RAG Pipe from a template, but in t
 ### Suggested Fix
 
 Use `import { useNodes } from 'reactflow'` instead of `import useNodes from '@/app/components/workflow/store/workflow/use-nodes'`.
-
-

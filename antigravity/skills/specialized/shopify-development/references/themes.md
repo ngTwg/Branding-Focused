@@ -1,4 +1,4 @@
-﻿# Themes Reference
+# Themes Reference
 
 Guide for developing Shopify themes with Liquid templating.
 
@@ -496,5 +496,3 @@ Access custom data:
 - Liquid Reference: https://shopify.dev/docs/api/liquid
 - Dawn Theme: https://github.com/Shopify/dawn
 - Theme Check: https://shopify.dev/docs/themes/tools/theme-check
-
-

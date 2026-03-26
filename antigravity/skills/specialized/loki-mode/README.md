@@ -1,4 +1,4 @@
-﻿# Loki Mode
+# Loki Mode
 
 **The First Truly Autonomous Multi-Agent Startup System**
 
@@ -546,5 +546,3 @@ git clone https://github.com/asklokesh/loki-mode.git ~/.claude/skills/loki-mode
 ---
 
 **Keywords:** claude-code, claude-skills, ai-agents, autonomous-development, multi-agent-system, sdlc-automation, startup-automation, devops, mlops, deployment-automation, self-healing, perpetual-improvement
-
-

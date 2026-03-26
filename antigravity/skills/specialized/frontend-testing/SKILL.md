@@ -1,4 +1,4 @@
-﻿---
+---
 name: frontend-testing
 description: Generate Vitest + React Testing Library tests for Dify frontend components, hooks, and utilities. Triggers on testing, spec files, coverage, Vitest, RTL, unit tests, integration tests, or write/review test requests.
 ---
@@ -320,5 +320,3 @@ For more detailed information, refer to:
 - `web/vitest.setup.ts` - Test environment setup
 - `web/scripts/analyze-component.js` - Component analysis tool
 - Modules are not mocked automatically. Global mocks live in `web/vitest.setup.ts` (for example `react-i18next`, `next/image`); mock other modules like `ky` or `mime` locally in test files.
-
-

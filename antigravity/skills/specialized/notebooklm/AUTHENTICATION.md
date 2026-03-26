@@ -1,4 +1,4 @@
-﻿# Authentication Architecture
+# Authentication Architecture
 
 ## Overview
 
@@ -152,5 +152,3 @@ context = playwright.chromium.launch_persistent_context(
 ```
 
 Until then, our hybrid approach is the most reliable solution.
-
-

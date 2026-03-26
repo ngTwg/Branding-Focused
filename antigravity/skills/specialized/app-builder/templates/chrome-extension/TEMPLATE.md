@@ -1,4 +1,4 @@
-﻿---
+---
 name: chrome-extension
 description: Chrome Extension template principles. Manifest V3, React, TypeScript.
 ---
@@ -90,5 +90,3 @@ project-name/
 - Wrap Chrome APIs in promises
 - Minimize permissions
 - Handle offline gracefully
-
-

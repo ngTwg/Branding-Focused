@@ -1,4 +1,4 @@
-﻿"""
+"""
 Browser Utilities for NotebookLM Skill
 Handles browser launching, stealth features, and common interactions
 """
@@ -105,5 +105,3 @@ class StealthUtils:
         StealthUtils.random_delay(100, 300)
         element.click()
         StealthUtils.random_delay(100, 300)
-
-

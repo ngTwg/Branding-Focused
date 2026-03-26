@@ -1,4 +1,4 @@
-﻿# HumanEval/55
+# HumanEval/55
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -18,4 +18,3 @@ def fib(n: int):
     for _ in range(n - 2):
         a, b = b, a + b
     return b
-

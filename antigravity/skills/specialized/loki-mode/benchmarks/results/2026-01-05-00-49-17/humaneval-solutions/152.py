@@ -1,4 +1,4 @@
-﻿def compare(game,guess):
+def compare(game,guess):
     """I think we all remember that feeling when the result of some long-awaited
     event is finally known. The feelings and thoughts you have at that moment are
     definitely worth noting down and comparing.
@@ -14,4 +14,3 @@
     compare([0,5,0,0,0,4],[4,1,1,0,0,-2]) -> [4,4,1,0,0,6]
     """
     return [abs(g - s) for g, s in zip(guess, game)]
-

@@ -1,4 +1,4 @@
-﻿def multiply(a, b):
+def multiply(a, b):
     """Complete the function that takes two integers and returns 
     the product of their unit digits.
     Assume the input is always valid.
@@ -11,4 +11,3 @@
     unit_a = abs(a) % 10
     unit_b = abs(b) % 10
     return unit_a * unit_b
-

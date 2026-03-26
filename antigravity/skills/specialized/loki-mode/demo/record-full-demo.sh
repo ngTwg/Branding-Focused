@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 #===============================================================================
 # Record Full Loki Mode End-to-End Demo
 #
@@ -130,7 +130,7 @@ cd "$DEMO_WORKSPACE"
 
 # Initialize git
 git init -q
-git config user.email "opensource@antigravity-system.io"
+git config user.email "demo@loki-mode.local"
 git config user.name "Loki Demo"
 
 # Copy PRD
@@ -206,4 +206,3 @@ LOKI_MAX_ITERATIONS=10 \
 
 # Demo complete
 cleanup
-

@@ -1,4 +1,4 @@
-﻿# HumanEval/49
+# HumanEval/49
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -24,4 +24,3 @@ def modp(n: int, p: int):
         n = n // 2
         base = (base * base) % p
     return result
-

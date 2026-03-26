@@ -1,4 +1,4 @@
-﻿# Task Plan: [Brief Description]
+# Task Plan: [Brief Description]
 <!-- 
   WHAT: This is your roadmap for the entire task. Think of it as your "working memory on disk."
   WHY: After 50+ tool calls, your original goals can get forgotten. This file keeps them fresh.
@@ -130,5 +130,3 @@ Phase 1
 - Update phase status as you progress: pending → in_progress → complete
 - Re-read this plan before major decisions (attention manipulation)
 - Log ALL errors - they help avoid repetition
-
-

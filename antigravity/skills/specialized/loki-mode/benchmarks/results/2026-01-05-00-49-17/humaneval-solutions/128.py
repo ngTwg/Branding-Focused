@@ -1,4 +1,4 @@
-﻿def prod_signs(arr):
+def prod_signs(arr):
     """
     You are given an array arr of integers and you need to return
     sum of magnitudes of integers multiplied by product of all signs
@@ -23,4 +23,3 @@
             sign_product *= -1
     
     return sum_magnitudes * sign_product
-

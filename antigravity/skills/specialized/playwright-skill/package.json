@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "playwright-skill",
   "version": "4.1.0",
   "description": "General-purpose browser automation with Playwright for Claude Code with auto-detection and smart test management",
@@ -24,5 +24,3 @@
   },
   "license": "MIT"
 }
-
-

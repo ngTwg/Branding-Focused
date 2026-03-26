@@ -1,4 +1,4 @@
-﻿---
+---
 title: Choose Appropriate Data Types
 impact: HIGH
 impactDescription: 50% storage reduction, faster comparisons
@@ -44,5 +44,3 @@ Key guidelines:
 ```
 
 Reference: [Data Types](https://www.postgresql.org/docs/current/datatype.html)
-
-

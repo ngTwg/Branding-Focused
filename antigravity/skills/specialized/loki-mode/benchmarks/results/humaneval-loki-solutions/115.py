@@ -1,4 +1,4 @@
-﻿# HumanEval/115
+# HumanEval/115
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -39,4 +39,3 @@ def max_fill(grid, capacity):
         * 1 <= capacity <= 10
     """
     return sum(math.ceil(sum(row) / capacity) for row in grid if sum(row) > 0)
-

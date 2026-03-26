@@ -1,4 +1,4 @@
-﻿# HumanEval/21
+# HumanEval/21
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -16,4 +16,3 @@ def rescale_to_unit(numbers: List[float]) -> List[float]:
     max_val = max(numbers)
     range_val = max_val - min_val
     return [(x - min_val) / range_val for x in numbers]
-

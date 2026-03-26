@@ -1,4 +1,4 @@
-﻿# HumanEval/131
+# HumanEval/131
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -22,4 +22,3 @@ def digits(n):
         n //= 10
     
     return product if has_odd else 0
-

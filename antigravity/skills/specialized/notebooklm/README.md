@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 # NotebookLM Claude Code Skill
 
@@ -410,5 +410,3 @@ Built as a Claude Code Skill adaptation of my [NotebookLM MCP Server](https://gi
 For source-grounded, document-based research directly in Claude Code
 
 </div>
-
-

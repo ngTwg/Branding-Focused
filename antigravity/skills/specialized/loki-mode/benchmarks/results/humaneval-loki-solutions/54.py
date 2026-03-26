@@ -1,4 +1,4 @@
-﻿# HumanEval/54
+# HumanEval/54
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -20,4 +20,3 @@ def same_chars(s0: str, s1: str):
     False
     """
     return set(s0) == set(s1)
-

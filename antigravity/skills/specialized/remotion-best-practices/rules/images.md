@@ -1,4 +1,4 @@
-﻿---
+---
 name: images
 description: Embedding images in Remotion using the <Img> component
 metadata:
@@ -128,5 +128,3 @@ const calculateMetadata: CalculateMetadataFunction = async () => {
   };
 };
 ```
-
-

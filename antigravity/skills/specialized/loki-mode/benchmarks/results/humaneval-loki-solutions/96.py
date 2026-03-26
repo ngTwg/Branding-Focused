@@ -1,4 +1,4 @@
-﻿# HumanEval/96
+# HumanEval/96
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -36,4 +36,3 @@ def count_up_to(n):
         if is_prime(num):
             primes.append(num)
     return primes
-

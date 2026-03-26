@@ -1,4 +1,4 @@
-﻿# HumanEval/98
+# HumanEval/98
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -18,4 +18,3 @@ def count_upper(s):
         if s[i] in uppercase_vowels:
             count += 1
     return count
-

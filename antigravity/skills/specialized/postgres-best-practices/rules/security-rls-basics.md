@@ -1,4 +1,4 @@
-﻿---
+---
 title: Enable Row Level Security for Multi-Tenant Data
 impact: CRITICAL
 impactDescription: Database-enforced tenant isolation, prevent data leaks
@@ -48,5 +48,3 @@ create policy orders_user_policy on orders
 ```
 
 Reference: [Row Level Security](https://supabase.com/docs/guides/database/postgres/row-level-security)
-
-

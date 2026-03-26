@@ -1,4 +1,4 @@
-﻿# Styling Guide
+# Styling Guide
 
 Modern styling patterns for using MUI v7 sx prop, inline styles, and theme integration.
 
@@ -426,4 +426,3 @@ const styles = {
 **See Also:**
 - [component-patterns.md](component-patterns.md) - Component structure
 - [complete-examples.md](complete-examples.md) - Full styling examples
-

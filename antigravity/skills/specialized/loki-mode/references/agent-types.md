@@ -1,4 +1,4 @@
-﻿# Agent Types Reference
+# Agent Types Reference
 
 Complete definitions and capabilities for all 37 specialized agent types.
 
@@ -186,5 +186,3 @@ SPAWN -> INITIALIZE -> POLL_QUEUE -> CLAIM_TASK -> EXECUTE -> REPORT -> POLL_QUE
 3. Log all new decisions to own context file
 4. Reference lineage in all commits
 5. Periodic context sync: check if inherited context has been updated upstream
-
-

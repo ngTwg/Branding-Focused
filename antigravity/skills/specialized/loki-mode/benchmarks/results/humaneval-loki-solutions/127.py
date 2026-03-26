@@ -1,4 +1,4 @@
-﻿# HumanEval/127
+# HumanEval/127
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -39,4 +39,3 @@ def intersection(interval1, interval2):
             return "NO"
     
     return "YES"
-

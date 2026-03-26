@@ -1,4 +1,4 @@
-﻿# HumanEval/116
+# HumanEval/116
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -15,4 +15,3 @@ def sort_array(arr):
     >>> sort_array([1, 0, 2, 3, 4]) [0, 1, 2, 3, 4]
     """
     return sorted(arr, key=lambda x: (bin(x).count('1'), x))
-

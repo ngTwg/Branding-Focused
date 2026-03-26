@@ -1,4 +1,4 @@
-﻿# Rule Catalog — Performance
+# Rule Catalog — Performance
 
 ## React Flow data usage
 
@@ -43,5 +43,3 @@ const config = useMemo(() => ({
     config={config}
 />
 ```
-
-

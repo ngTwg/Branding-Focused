@@ -1,4 +1,4 @@
-﻿---
+---
 name: avalonia-layout-zafiro
 description: Guidelines for modern Avalonia UI layout using Zafiro.Avalonia, emphasizing shared styles, generic components, and avoiding XAML redundancy.
 allowed-tools: Read, Write, Edit, Glob, Grep
@@ -57,5 +57,3 @@ For a real-world example, refer to the **Angor** project:
 - Use `DynamicResource` for colors and brushes.
 - Extract repeated layouts into generic components.
 - Leverage `Zafiro.Avalonia` specific panels like `EdgePanel` for common UI patterns.
-
-

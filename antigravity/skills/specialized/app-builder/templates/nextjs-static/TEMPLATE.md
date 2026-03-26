@@ -1,4 +1,4 @@
-﻿---
+---
 name: nextjs-static
 description: Next.js static site template principles. Landing pages, portfolios, marketing.
 ---
@@ -104,5 +104,3 @@ const nextConfig = {
 - Framer Motion for premium animations
 - Responsive mobile-first design
 - SEO metadata on every page
-
-

@@ -1,4 +1,4 @@
-﻿# HumanEval/72
+# HumanEval/72
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -22,4 +22,3 @@ def will_it_fly(q,w):
     # 3 is less than the maximum possible weight, and it's balanced.
     '''
     return q == q[::-1] and sum(q) <= w
-

@@ -1,4 +1,4 @@
-﻿# App Store Optimization (ASO) Skill
+# App Store Optimization (ASO) Skill
 
 **Version**: 1.0.0
 **Last Updated**: November 7, 2025
@@ -428,5 +428,3 @@ This skill is provided as-is for use with Claude Code and Claude Apps. Customize
 **Ready to optimize your app?** Start with keyword research, then move to metadata optimization, and finally implement A/B testing for continuous improvement. The skill handles everything from pre-launch planning to ongoing optimization.
 
 For detailed usage examples, see [HOW_TO_USE.md](HOW_TO_USE.md).
-
-

@@ -1,4 +1,4 @@
-﻿---
+---
 name: planning-with-files
 version: "2.1.2"
 description: Implements Manus-style file-based planning for complex tasks. Creates task_plan.md, findings.md, and progress.md. Use when starting complex multi-step tasks, research projects, or any task requiring >5 tool calls.
@@ -209,5 +209,3 @@ Helper scripts for automation:
 | Start executing immediately | Create plan file FIRST |
 | Repeat failed actions | Track attempts, mutate approach |
 | Create files in skill directory | Create files in your project |
-
-

@@ -1,4 +1,4 @@
-﻿def strlen(string: str) -> int:
+def strlen(string: str) -> int:
     """ Return length of given string
     >>> strlen('')
     0
@@ -6,4 +6,3 @@
     3
     """
     return len(string)
-

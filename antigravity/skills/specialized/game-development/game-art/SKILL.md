@@ -1,4 +1,4 @@
-﻿---
+---
 name: game-art
 description: Game art principles. Visual style selection, asset pipeline, animation workflow.
 allowed-tools: Read, Glob, Grep
@@ -183,5 +183,3 @@ assets/
 ---
 
 > **Remember:** Art serves gameplay. If it doesn't help the player, it's decoration.
-
-

@@ -1,4 +1,4 @@
-﻿# Findings & Decisions
+# Findings & Decisions
 <!-- 
   WHAT: Your knowledge base for the task. Stores everything you discover and decide.
   WHY: Context windows are limited. This file is your "external memory" - persistent and unlimited.
@@ -93,5 +93,3 @@
 -->
 *Update this file after every 2 view/browser/search operations*
 *This prevents visual information from being lost*
-
-

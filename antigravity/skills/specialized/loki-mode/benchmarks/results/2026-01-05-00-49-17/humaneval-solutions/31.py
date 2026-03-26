@@ -1,4 +1,4 @@
-﻿def is_prime(n):
+def is_prime(n):
     """Return true if a given number is prime, and false otherwise.
     >>> is_prime(6)
     False
@@ -25,4 +25,3 @@
         if n % i == 0:
             return False
     return True
-

@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 set -e
 
 # Default commit message if none provided
@@ -17,4 +17,3 @@ BRANCH=$(git rev-parse --abbrev-ref HEAD)
 git push -u origin "$BRANCH"
 
 echo "✅ Successfully pushed to $BRANCH"
-

@@ -1,4 +1,4 @@
-﻿"""
+"""
 A/B testing module for App Store Optimization.
 Plans and tracks A/B tests for metadata and visual assets.
 """
@@ -660,5 +660,3 @@ def plan_ab_test(
         'test_design': test_design,
         'sample_size_requirements': sample_size
     }
-
-

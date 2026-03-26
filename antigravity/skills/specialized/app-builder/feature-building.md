@@ -1,4 +1,4 @@
-﻿# Feature Building
+# Feature Building
 
 > How to analyze and implement new features.
 
@@ -51,5 +51,3 @@ Analysis:
 4. Suggest alternative
 5. Rollback if necessary
 ```
-
-

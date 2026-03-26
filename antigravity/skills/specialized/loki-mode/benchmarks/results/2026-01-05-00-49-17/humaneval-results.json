@@ -1,4 +1,4 @@
-﻿{
+{
   "benchmark": "HumanEval",
   "version": "1.0",
   "timestamp": "2026-01-05T00:49:17.745476",
@@ -998,4 +998,3 @@
   "pass_rate": 98.17,
   "elapsed_seconds": 1263.46
 }
-

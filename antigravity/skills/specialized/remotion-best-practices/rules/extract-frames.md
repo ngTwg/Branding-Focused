@@ -1,4 +1,4 @@
-﻿---
+---
 name: extract-frames
 description: Extract frames from videos at specific timestamps using Mediabunny
 metadata:
@@ -227,5 +227,3 @@ try {
   console.error("Frame extraction was aborted or failed:", error);
 }
 ```
-
-

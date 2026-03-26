@@ -1,4 +1,4 @@
-﻿# HumanEval/90
+# HumanEval/90
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -19,4 +19,3 @@ def next_smallest(lst):
         return None
     sorted_unique = sorted(unique_values)
     return sorted_unique[1]
-

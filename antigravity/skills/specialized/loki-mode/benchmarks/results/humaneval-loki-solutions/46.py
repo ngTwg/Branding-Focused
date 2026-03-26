@@ -1,4 +1,4 @@
-﻿# HumanEval/46
+# HumanEval/46
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -33,4 +33,3 @@ def fib4(n: int):
         a, b, c, d = b, c, d, a + b + c + d
     
     return d
-

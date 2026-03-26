@@ -1,4 +1,4 @@
-﻿# Validation Patterns - Input Validation with Zod
+# Validation Patterns - Input Validation with Zod
 
 Complete guide to input validation using Zod schemas for type-safe validation.
 
@@ -752,5 +752,3 @@ router.post('/users',
 - [routing-and-controllers.md](routing-and-controllers.md) - Using validation in controllers
 - [services-and-repositories.md](services-and-repositories.md) - Using DTOs in services
 - [async-and-errors.md](async-and-errors.md) - Error handling patterns
-
-

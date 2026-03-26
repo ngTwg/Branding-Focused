@@ -1,4 +1,4 @@
-﻿---
+---
 title: Partition Large Tables for Better Performance
 impact: MEDIUM-HIGH
 impactDescription: 5-20x faster queries and maintenance on large tables
@@ -53,5 +53,3 @@ When to partition:
 - Need to efficiently drop old data
 
 Reference: [Table Partitioning](https://www.postgresql.org/docs/current/ddl-partitioning.html)
-
-

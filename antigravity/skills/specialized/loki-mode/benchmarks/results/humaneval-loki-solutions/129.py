@@ -1,4 +1,4 @@
-﻿# HumanEval/129
+# HumanEval/129
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -60,4 +60,3 @@ def minPath(grid, k):
             result.append(min_neighbor)
     
     return result
-

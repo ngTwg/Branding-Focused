@@ -1,4 +1,4 @@
-﻿# HumanEval/66
+# HumanEval/66
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -21,4 +21,3 @@ def digitSum(s):
         if char.isupper():
             total += ord(char)
     return total
-

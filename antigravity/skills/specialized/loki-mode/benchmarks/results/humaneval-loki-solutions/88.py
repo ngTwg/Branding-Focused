@@ -1,4 +1,4 @@
-﻿# HumanEval/88
+# HumanEval/88
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -27,4 +27,3 @@ def sort_array(array):
         return sorted(array)
     else:
         return sorted(array, reverse=True)
-

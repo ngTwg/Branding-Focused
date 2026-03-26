@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Library for working with Word documents: comments, tracked changes, and editing.
 
@@ -1274,5 +1274,3 @@ class Document:
                 f'<Override PartName="{part_name}" ContentType="{content_type}"/>'
             )
             editor.append_to(root, override_xml)
-
-

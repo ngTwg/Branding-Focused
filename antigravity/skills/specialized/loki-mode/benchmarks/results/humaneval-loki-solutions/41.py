@@ -1,4 +1,4 @@
-﻿# HumanEval/41
+# HumanEval/41
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -16,4 +16,3 @@ def car_race_collision(n: int):
     This function outputs the number of such collisions.
     """
     return n * n
-

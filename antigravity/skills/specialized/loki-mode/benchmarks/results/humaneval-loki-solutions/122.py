@@ -1,4 +1,4 @@
-﻿# HumanEval/122
+# HumanEval/122
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -22,4 +22,3 @@ def add_elements(arr, k):
         if -99 <= element <= 99:
             total += element
     return total
-

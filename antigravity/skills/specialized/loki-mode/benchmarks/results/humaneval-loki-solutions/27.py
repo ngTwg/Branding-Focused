@@ -1,4 +1,4 @@
-﻿# HumanEval/27
+# HumanEval/27
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -9,4 +9,3 @@ def flip_case(string: str) -> str:
     'hELLO'
     """
     return string.swapcase()
-

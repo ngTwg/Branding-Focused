@@ -1,4 +1,4 @@
-﻿"""
+"""
 Competitor analysis module for App Store Optimization.
 Analyzes top competitors' ASO strategies and identifies opportunities.
 """
@@ -575,5 +575,3 @@ def analyze_competitor_set(
     """
     analyzer = CompetitorAnalyzer(category, platform)
     return analyzer.compare_competitors(competitors_data)
-
-

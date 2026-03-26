@@ -1,4 +1,4 @@
-﻿# HumanEval/84
+# HumanEval/84
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -19,4 +19,3 @@ def solve(N):
     """
     digit_sum = sum(int(d) for d in str(N))
     return bin(digit_sum)[2:]
-

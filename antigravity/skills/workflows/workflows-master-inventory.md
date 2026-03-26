@@ -1,4 +1,4 @@
-﻿# Workflows Consolidated Skills
+# Workflows Consolidated Skills
 
 ## 📋 Table of Contents
 
@@ -791,11 +791,11 @@ To manage multiple GitHub accounts (Work vs Personal) without mixing identities:
    ```bash
    # Set correctly in each local repo
    git config user.name "Your Name"
-   git config user.email "[HIDDEN_EMAIL]"
+   git config user.email "account@email.com"
    ```
 3. **Cloning with Alias:** Use the alias Host defined in SSH config.
    ```bash
-   git clone [HIDDEN_EMAIL]-work:user/repo.git
+   git clone git@github.com-work:user/repo.git
    ```
 
 ---
@@ -3304,6 +3304,4 @@ After saving the plan, offer execution choice:
 **If Parallel Session chosen:**
 - Guide them to open new session in worktree
 - **REQUIRED SUB-SKILL:** New session uses superpowers:executing-plans
-
-
 

@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 #===============================================================================
 # Loki Mode - Autonomous Runner
 # Single script that handles prerequisites, setup, and autonomous execution
@@ -1989,4 +1989,3 @@ main() {
 
 # Run main
 main "$@"
-

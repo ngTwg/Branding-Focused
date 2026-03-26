@@ -1,4 +1,4 @@
-﻿# CRYPTOGRAPHY PATTERNS
+# CRYPTOGRAPHY PATTERNS
 
 > **Khi nào tải skill này:** Encryption, Hashing, Crypto, Secret, Password, Key
 
@@ -295,5 +295,3 @@ Math.random().toString(36);
 | IV/Nonce | Initialization vector (unique per message) |
 | Tag | Authentication tag (GCM) |
 | KDF | Key derivation function |
-
-

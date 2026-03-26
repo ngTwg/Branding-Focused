@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env node
+#!/usr/bin/env node
 /**
  * Universal Playwright Executor for Claude Code
  *
@@ -226,4 +226,3 @@ main().catch(error => {
   console.error('❌ Fatal error:', error.message);
   process.exit(1);
 });
-

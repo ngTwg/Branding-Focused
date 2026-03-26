@@ -1,4 +1,4 @@
-﻿# HumanEval/101
+# HumanEval/101
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -15,4 +15,3 @@ def words_string(s):
     if not s:
         return []
     return s.replace(",", " ").split()
-

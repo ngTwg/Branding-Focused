@@ -1,4 +1,4 @@
-﻿def smallest_change(arr):
+def smallest_change(arr):
     """
     Given an array arr of integers, find the minimum number of elements that
     need to be changed to make the array palindromic. A palindromic array is an array that
@@ -15,4 +15,3 @@
         if arr[i] != arr[n - 1 - i]:
             changes += 1
     return changes
-

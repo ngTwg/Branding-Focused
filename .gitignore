@@ -1,0 +1,8 @@
+node_modules/
+.cache/
+*.log
+.env
+push.bat
+temp_status.txt
+.DS_Store
+Thumbs.db

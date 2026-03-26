@@ -1,4 +1,4 @@
-﻿def encode(message):
+def encode(message):
     """
     Write a function that takes a message, and encodes in such a 
     way that it swaps case of all letters, replaces all vowels in 
@@ -32,4 +32,3 @@
             result.append(char)
     
     return ''.join(result)
-

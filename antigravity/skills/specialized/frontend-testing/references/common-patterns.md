@@ -1,4 +1,4 @@
-﻿# Common Testing Patterns
+# Common Testing Patterns
 
 ## Query Priority
 
@@ -283,12 +283,12 @@ describe('LoginForm', () => {
     
     render(<LoginForm onSubmit={onSubmit} />)
     
-    await user.type(screen.getByLabelText(/email/i), '[HIDDEN_EMAIL]')
+    await user.type(screen.getByLabelText(/email/i), 'test@example.com')
     await user.type(screen.getByLabelText(/password/i), 'password123')
     await user.click(screen.getByRole('button', { name: /sign in/i }))
     
     expect(onSubmit).toHaveBeenCalledWith({
-      email: '[HIDDEN_EMAIL]',
+      email: 'test@example.com',
       password: 'password123',
     })
   })
@@ -322,7 +322,7 @@ describe('LoginForm', () => {
     
     render(<LoginForm onSubmit={onSubmit} />)
     
-    await user.type(screen.getByLabelText(/email/i), '[HIDDEN_EMAIL]')
+    await user.type(screen.getByLabelText(/email/i), 'test@example.com')
     await user.type(screen.getByLabelText(/password/i), 'password123')
     await user.click(screen.getByRole('button', { name: /sign in/i }))
     
@@ -447,5 +447,3 @@ expect(screen.getByText('Error')).not.toBeInTheDocument() // Error!
 // Good - use queryBy for absence assertions
 expect(screen.queryByText('Error')).not.toBeInTheDocument()
 ```
-
-

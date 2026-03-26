@@ -1,4 +1,4 @@
-﻿# HumanEval/6
+# HumanEval/6
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -31,4 +31,3 @@ def parse_nested_parens(paren_string: str) -> List[int]:
         result.append(max_depth)
     
     return result
-

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Use Partial Indexes for Filtered Queries
 impact: HIGH
 impactDescription: 5-20x smaller indexes, faster writes and queries
@@ -16,7 +16,7 @@ Partial indexes only include rows matching a WHERE condition, making them smalle
 create index users_email_idx on users (email);
 
 -- Query always filters active users
-select * from users where email = '[HIDDEN_EMAIL]' and deleted_at is null;
+select * from users where email = 'user@example.com' and deleted_at is null;
 ```
 
 **Correct (partial index matches query filter):**
@@ -27,7 +27,7 @@ create index users_active_email_idx on users (email)
 where deleted_at is null;
 
 -- Query uses the smaller, faster index
-select * from users where email = '[HIDDEN_EMAIL]' and deleted_at is null;
+select * from users where email = 'user@example.com' and deleted_at is null;
 ```
 
 Common use cases for partial indexes:
@@ -43,5 +43,3 @@ where sku is not null;
 ```
 
 Reference: [Partial Indexes](https://www.postgresql.org/docs/current/indexes-partial.html)
-
-

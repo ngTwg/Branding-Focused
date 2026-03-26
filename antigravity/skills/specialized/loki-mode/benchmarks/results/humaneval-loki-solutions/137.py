@@ -1,4 +1,4 @@
-﻿# HumanEval/137
+# HumanEval/137
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -29,4 +29,3 @@ def compare_one(a, b):
         return a
     else:
         return b
-

@@ -100,6 +100,11 @@ Với kho 250+ skills, AI cần tuân thủ quy trình truy xuất "2 Tầng":
 **Last Updated:** 2024-03-24  
 **Maintained by:** Antigravity AI Skills Brain
 
+### 🚨 QUY TẮC DỌN DẸP (CLEANUP-BY-DEFAULT)
+**MỆNH LỆNH TỐI CAO:** {ANTIGRAVITY_ROOT}/skills/workflows/CLEANUP_PROTOCOL.md
+
+Một Agent chuyên nghiệp không để lại file rác. Agent PHẢI chủ động dọn dẹp các tệp tạm, script test, và log trung gian ngay sau khi xác nhận task thành công. "Xong việc là phải Sạch".
+
 ### 7. ENTERPRISE GOVERNANCE & OPERATIONS (12 Domains)
 - **SIÊU CẨM NANG (EA-EL):** specialized/enterprise-ops-master-inventory.md
   - Plugin Sandboxing, Webhook HMAC, API Versioning (EA)
@@ -125,5 +130,4 @@ Với kho 250+ skills, AI cần tuân thủ quy trình truy xuất "2 Tầng":
   - Computer Use, Visual QA, OS Navigation, Hardware-in-the-loop (EQ, EX)
   - Financial Autonomy, Price Arbitrage, Predictive Cache (ER, FA, EV, FB)
 - **Common Tags:** [Cognition, Evolution, Swarm, Memory, Safety, Economics, Predictive]
-
 

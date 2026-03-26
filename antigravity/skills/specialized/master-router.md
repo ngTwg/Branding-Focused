@@ -1,4 +1,4 @@
-﻿# 👑 THE ARCHITECT - MASTER ROUTER (MATRIX OF STANDARDS)
+# 👑 THE ARCHITECT - MASTER ROUTER (MATRIX OF STANDARDS)
 
 Đây là "Màng lọc Nhận thức" (Cognitive Filter) cao nhất để điều phối Agent.
 
@@ -89,5 +89,3 @@
 - **[plasma-physics-fusion](./plasma-physics-fusion/SKILL.md)**: DI: Plasma Physics & Fusion Reactor Control.
 - **[cognitive-security](./cognitive-security/SKILL.md)**: DJ: Cognitive Security & Memetic Warfare.
 - **[planetary-geoengineering](./planetary-geoengineering/SKILL.md)**: DK: Planetary Geoengineering & Biosphere Orchestration.
-
-

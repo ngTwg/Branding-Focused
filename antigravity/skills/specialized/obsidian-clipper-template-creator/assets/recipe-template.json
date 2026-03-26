@@ -1,4 +1,4 @@
-﻿{
+{
 	"schemaVersion": "0.1.0",
 	"name": "Recipe",
 	"behavior": "create",
@@ -46,5 +46,3 @@
 	"noteNameFormat": "{{schema:Recipe:name}}",
 	"path": "Recipes/"
 }
-
-

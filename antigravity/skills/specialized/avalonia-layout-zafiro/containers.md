@@ -1,4 +1,4 @@
-﻿# Semantic Containers
+# Semantic Containers
 
 Using the right container for the data type simplifies XAML and improves maintainability. `Zafiro.Avalonia` provides specialized controls for common layout patterns.
 
@@ -48,5 +48,3 @@ A simple container for grouping related information, often used inside `Headered
 
 - Use `Classes` to apply themed variants (e.g., `Classes="Section"`, `Classes="Highlight"`).
 - Customize internal parts of the containers using templates in your styles when necessary, rather than nesting more controls.
-
-

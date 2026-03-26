@@ -1,4 +1,4 @@
-﻿---
+---
 name: shopify-development
 description: |
   Build Shopify apps, extensions, themes using GraphQL Admin API, Shopify CLI, Polaris UI, and Liquid.
@@ -364,5 +364,3 @@ For detailed implementation guides, read these files:
 - Polaris Design System: https://polaris.shopify.com
 
 API Version: 2026-01 (quarterly releases, 12-month deprecation window)
-
-

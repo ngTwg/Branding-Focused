@@ -1,4 +1,4 @@
-﻿# HumanEval/2
+# HumanEval/2
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -13,4 +13,3 @@ def truncate_number(number: float) -> float:
     0.5
     """
     return number - int(number)
-

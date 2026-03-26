@@ -1,4 +1,4 @@
-﻿# HumanEval/154
+# HumanEval/154
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -23,4 +23,3 @@ def cycpattern_check(a , b):
         if rotation in a:
             return True
     return False
-

@@ -1,4 +1,4 @@
-﻿# HumanEval/77
+# HumanEval/77
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -23,4 +23,3 @@ def iscube(a):
     cube_root = round(abs_a ** (1/3))
     
     return cube_root ** 3 == abs_a
-

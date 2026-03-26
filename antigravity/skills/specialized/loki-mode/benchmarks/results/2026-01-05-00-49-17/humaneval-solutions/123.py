@@ -1,4 +1,4 @@
-﻿def get_odd_collatz(n):
+def get_odd_collatz(n):
     """
     Given a positive integer n, return a sorted list that has the odd numbers in collatz sequence.
 
@@ -29,4 +29,3 @@
     odd_numbers.append(1)
     
     return sorted(odd_numbers)
-

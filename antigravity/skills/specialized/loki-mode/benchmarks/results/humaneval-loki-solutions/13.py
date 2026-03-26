@@ -1,4 +1,4 @@
-﻿# HumanEval/13
+# HumanEval/13
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -15,4 +15,3 @@ def greatest_common_divisor(a: int, b: int) -> int:
     while b:
         a, b = b, a % b
     return a
-

@@ -1,4 +1,4 @@
-﻿# HumanEval/148
+# HumanEval/148
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -31,4 +31,3 @@ def bf(planet1, planet2):
         idx1, idx2 = idx2, idx1
     
     return planets[idx1 + 1:idx2]
-

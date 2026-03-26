@@ -1,4 +1,4 @@
-﻿# D3.js Visualisation Patterns
+# D3.js Visualisation Patterns
 
 This reference provides detailed code patterns for common d3.js visualisation types.
 
@@ -867,4 +867,3 @@ useEffect(() => {
     
 }, [data1, data2]);
 ```
-

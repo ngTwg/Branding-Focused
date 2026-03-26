@@ -1,4 +1,4 @@
-﻿# Tool Orchestration Patterns Reference
+# Tool Orchestration Patterns Reference
 
 Research-backed patterns inspired by NVIDIA ToolOrchestra, OpenAI Agents SDK, and multi-agent coordination research.
 
@@ -689,5 +689,3 @@ Based on [Measurement Imbalance research (arXiv 2506.02064)](https://arxiv.org/a
 - [Chain of Thought Monitoring](https://openai.com/index/chain-of-thought-monitoring/) - CoT monitorability for safety
 - [Agent Builder Safety](https://platform.openai.com/docs/guides/agent-builder-safety) - Human-in-loop patterns
 - [Agentic AI Foundation](https://openai.com/index/agentic-ai-foundation/) - Industry standards (MCP, AGENTS.md, goose)
-
-

@@ -1,4 +1,4 @@
-﻿# HumanEval/157
+# HumanEval/157
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -26,4 +26,3 @@ def right_angle_triangle(a, b, c):
         return True
     
     return False
-

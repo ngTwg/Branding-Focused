@@ -1,4 +1,4 @@
-﻿---
+---
 title: Batch INSERT Statements for Bulk Data
 impact: MEDIUM
 impactDescription: 10-50x faster bulk inserts
@@ -52,5 +52,3 @@ copy events (user_id, action) from stdin with (format csv);
 ```
 
 Reference: [COPY](https://www.postgresql.org/docs/current/sql-copy.html)
-
-

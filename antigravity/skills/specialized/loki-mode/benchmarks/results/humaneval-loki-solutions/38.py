@@ -1,4 +1,4 @@
-﻿# HumanEval/38
+# HumanEval/38
 # Loki Mode Multi-Agent Solution
 # Attempts: 2
 # Passed: True
@@ -23,4 +23,3 @@ def decode_cyclic(s: str):
     # cycle elements in each group back to original. Unless group has fewer elements than 3.
     groups = [(group[-1] + group[:-1]) if len(group) == 3 else group for group in groups]
     return "".join(groups)
-

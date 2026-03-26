@@ -1,4 +1,4 @@
-﻿---
+---
 title: Maintain Table Statistics with VACUUM and ANALYZE
 impact: MEDIUM
 impactDescription: 2-10x better query plans with accurate statistics
@@ -53,5 +53,3 @@ select * from pg_stat_progress_vacuum;
 ```
 
 Reference: [VACUUM](https://supabase.com/docs/guides/database/database-size#vacuum-operations)
-
-

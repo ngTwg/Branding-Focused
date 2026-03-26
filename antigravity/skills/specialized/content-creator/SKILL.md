@@ -1,4 +1,4 @@
-﻿---
+---
 name: content-creator
 description: Create SEO-optimized marketing content with consistent brand voice. Includes brand voice analyzer, SEO optimizer, content frameworks, and social media templates. Use when writing blog posts, creating social media content, analyzing brand voice, optimizing SEO, planning content calendars, or when user mentions content creation, brand voice, SEO optimization, social media marketing, or content strategy.
 license: MIT
@@ -246,5 +246,3 @@ grep -f references/brand_guidelines.md content.txt
 # Create monthly calendar
 cp assets/content_calendar_template.md this_month_calendar.md
 ```
-
-

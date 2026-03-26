@@ -1,4 +1,4 @@
-﻿---
+---
 name: gif
 description: Displaying GIFs, APNG, AVIF and WebP in Remotion
 metadata:
@@ -136,5 +136,3 @@ export const MyComposition = () => {
 ```
 
 The `<Gif>` component has the same props as `<AnimatedImage>` but only supports GIF files.
-
-

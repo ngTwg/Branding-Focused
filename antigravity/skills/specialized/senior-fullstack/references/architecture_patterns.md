@@ -1,4 +1,4 @@
-﻿# Architecture Patterns
+# Architecture Patterns
 
 ## Overview
 
@@ -101,5 +101,3 @@ What not to do and why.
 ## Conclusion
 
 Key takeaways for using this reference guide effectively.
-
-

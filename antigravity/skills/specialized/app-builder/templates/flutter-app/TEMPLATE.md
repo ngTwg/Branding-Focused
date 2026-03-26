@@ -1,4 +1,4 @@
-﻿---
+---
 name: flutter-app
 description: Flutter mobile app template principles. Riverpod, Go Router, clean architecture.
 ---
@@ -88,5 +88,3 @@ project_name/
 - Freezed for immutable data classes
 - Go Router for declarative navigation
 - Material 3 theming
-
-

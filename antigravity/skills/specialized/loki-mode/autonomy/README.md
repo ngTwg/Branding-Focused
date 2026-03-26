@@ -1,4 +1,4 @@
-﻿# Loki Mode - Autonomous Runner
+# Loki Mode - Autonomous Runner
 
 Single script that handles everything: prerequisites, setup, Vibe Kanban monitoring, and autonomous execution with auto-resume.
 
@@ -199,5 +199,3 @@ cat .loki/state/orchestrator.json
 # Increase retries
 LOKI_MAX_RETRIES=200 ./autonomy/run.sh ./docs/prd.md
 ```
-
-

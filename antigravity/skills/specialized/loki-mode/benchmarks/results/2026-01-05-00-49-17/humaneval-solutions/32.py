@@ -1,4 +1,4 @@
-﻿import math
+import math
 
 
 def poly(xs: list, x: float):
@@ -48,4 +48,3 @@ def find_zero(xs: list):
             lo = mid
     
     return (lo + hi) / 2.0
-

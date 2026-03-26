@@ -1,4 +1,4 @@
-﻿---
+---
 name: nextjs-fullstack
 description: Next.js full-stack template principles. App Router, Prisma, Tailwind.
 ---
@@ -80,5 +80,3 @@ project-name/
 - Prisma for type-safe DB
 - Zod for validation
 - Edge runtime where possible
-
-

@@ -1,4 +1,4 @@
-﻿# ViewModels & Commands
+# ViewModels & Commands
 
 In a Zafiro-based application, ViewModels should be functional, reactive, and resilient.
 
@@ -66,5 +66,3 @@ public class MyViewModel : ReactiveObject, IDisposable
 
 > [!TIP]
 > Use `.DisposeWith(disposables)` on any observable subscription or command to ensure proper cleanup.
-
-

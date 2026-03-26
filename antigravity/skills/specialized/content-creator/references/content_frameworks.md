@@ -1,4 +1,4 @@
-﻿# Content Creation Frameworks & Templates
+# Content Creation Frameworks & Templates
 
 ## Content Types & Templates
 
@@ -532,5 +532,3 @@ Original: Blog Post (2000 words)
 - [ ] Scannable format (bullets, headers)
 - [ ] Engaging hook in introduction
 - [ ] Clear conclusion and next steps
-
-

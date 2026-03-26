@@ -1,4 +1,4 @@
-﻿# Obsidian Web Clipper Variables
+# Obsidian Web Clipper Variables
 
 **Official Docs:** [help.obsidian.md/web-clipper/variables](https://help.obsidian.md/web-clipper/variables)
 
@@ -57,5 +57,3 @@ Examples:
 - `{{schema:Recipe:recipeIngredient}}`
 - `{{schema:author.name}}`
 - `{{schema:Article:headline}}`
-
-

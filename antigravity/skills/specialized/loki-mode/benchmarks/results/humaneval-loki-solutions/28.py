@@ -1,4 +1,4 @@
-﻿# HumanEval/28
+# HumanEval/28
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -14,4 +14,3 @@ def concatenate(strings: List[str]) -> str:
     'abc'
     """
     return ''.join(strings)
-

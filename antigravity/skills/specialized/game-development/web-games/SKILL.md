@@ -1,4 +1,4 @@
-﻿---
+---
 name: web-games
 description: Web browser game development principles. Framework selection, WebGPU, optimization, PWA.
 allowed-tools: Read, Write, Edit, Glob, Grep
@@ -148,5 +148,3 @@ What type of game?
 ---
 
 > **Remember:** Browser is the most accessible platform. Respect its constraints.
-
-

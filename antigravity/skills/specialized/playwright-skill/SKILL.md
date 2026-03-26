@@ -1,4 +1,4 @@
-﻿---
+---
 name: playwright-skill
 description: Complete browser automation with Playwright. Auto-detects dev servers, writes clean test scripts to /tmp. Test pages, fill forms, take screenshots, check responsive design, validate UX, test login flows, check links, automate any browser task. Use when user wants to test websites, automate browser interactions, validate web functionality, or perform any browser-based testing.
 ---
@@ -131,7 +131,7 @@ const TARGET_URL = 'http://localhost:3001'; // Auto-detected
 
   await page.goto(`${TARGET_URL}/login`);
 
-  await page.fill('input[name="email"]', '[HIDDEN_EMAIL]');
+  await page.fill('input[name="email"]', 'test@example.com');
   await page.fill('input[name="password"]', 'password123');
   await page.click('button[type="submit"]');
 
@@ -158,7 +158,7 @@ const TARGET_URL = 'http://localhost:3001'; // Auto-detected
   await page.goto(`${TARGET_URL}/contact`);
 
   await page.fill('input[name="name"]', 'John Doe');
-  await page.fill('input[name="email"]', '[HIDDEN_EMAIL]');
+  await page.fill('input[name="email"]', 'john@example.com');
   await page.fill('textarea[name="message"]', 'Test message');
   await page.click('button[type="submit"]');
 
@@ -451,5 +451,3 @@ User: "Use 3001"
 - Test scripts written to `/tmp` for automatic cleanup (no clutter)
 - Code executes reliably with proper module resolution via `run.js`
 - Progressive disclosure - API_REFERENCE.md loaded only when advanced features needed
-
-

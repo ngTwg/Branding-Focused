@@ -1,4 +1,4 @@
-﻿---
+---
 name: audio
 description: Using audio and sound in Remotion - importing, trimming, volume, speed, pitch
 metadata:
@@ -170,5 +170,3 @@ Use `toneFrequency` to adjust the pitch without affecting speed. Values range fr
 ```
 
 Pitch shifting only works during server-side rendering, not in the Remotion Studio preview or in the `<Player />`.
-
-

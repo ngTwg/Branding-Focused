@@ -1,4 +1,4 @@
-﻿# HumanEval/121
+# HumanEval/121
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -13,4 +13,3 @@ def solution(lst):
     solution([30, 13, 24, 321]) ==>0
     """
     return sum(x for x in lst[::2] if x % 2 == 1)
-

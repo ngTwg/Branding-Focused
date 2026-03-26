@@ -1,4 +1,4 @@
-﻿from typing import List
+from typing import List
 
 
 def intersperse(numbers: List[int], delimeter: int) -> List[int]:
@@ -17,4 +17,3 @@ def intersperse(numbers: List[int], delimeter: int) -> List[int]:
         result.append(num)
     
     return result
-

@@ -1,4 +1,4 @@
-﻿# Context Discovery
+# Context Discovery
 
 > Before suggesting any architecture, gather context.
 
@@ -41,5 +41,3 @@
 │ Example      │ Next.js API   │ NestJS       │ Microservices│
 └─────────────────────────────────────────────────────────────┘
 ```
-
-

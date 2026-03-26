@@ -1,4 +1,4 @@
-﻿# Root Cause Tracing
+# Root Cause Tracing
 
 ## Overview
 
@@ -167,5 +167,3 @@ From debugging session (2025-10-03):
 - Fixed at source (getter validation)
 - Added 4 layers of defense
 - 1847 tests passed, zero pollution
-
-

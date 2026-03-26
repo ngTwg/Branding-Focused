@@ -1,4 +1,4 @@
-﻿# HumanEval/48
+# HumanEval/48
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -16,4 +16,3 @@ def is_palindrome(text: str):
     False
     """
     return text == text[::-1]
-

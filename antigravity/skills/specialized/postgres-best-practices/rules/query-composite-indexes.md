@@ -1,4 +1,4 @@
-﻿---
+---
 title: Create Composite Indexes for Multi-Column Queries
 impact: HIGH
 impactDescription: 5-10x faster multi-column queries
@@ -42,5 +42,3 @@ create index idx on orders (status, created_at);
 ```
 
 Reference: [Multicolumn Indexes](https://www.postgresql.org/docs/current/indexes-multicolumn.html)
-
-

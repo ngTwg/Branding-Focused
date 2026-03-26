@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Skill Initializer - Creates a new skill from template
 
@@ -301,5 +301,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-

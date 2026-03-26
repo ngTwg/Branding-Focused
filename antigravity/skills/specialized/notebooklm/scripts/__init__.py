@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 NotebookLM Skill Scripts Package
 Provides automatic environment management for all scripts
@@ -79,4 +79,3 @@ def ensure_venv_and_run():
 
 # Check environment when module is imported
 ensure_venv_and_run()
-

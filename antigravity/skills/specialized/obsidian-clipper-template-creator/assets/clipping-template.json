@@ -1,4 +1,4 @@
-﻿{
+{
 	"schemaVersion": "0.1.0",
 	"name": "General Clipping",
 	"behavior": "create",
@@ -49,5 +49,3 @@
 	"noteNameFormat": "{{title}}",
 	"path": "Clippings/"
 }
-
-

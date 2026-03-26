@@ -1,4 +1,4 @@
-﻿from typing import List
+from typing import List
 
 
 def concatenate(strings: List[str]) -> str:
@@ -9,4 +9,3 @@ def concatenate(strings: List[str]) -> str:
     'abc'
     """
     return ''.join(strings)
-

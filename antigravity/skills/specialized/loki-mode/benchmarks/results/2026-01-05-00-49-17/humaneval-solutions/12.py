@@ -1,4 +1,4 @@
-﻿from typing import List, Optional
+from typing import List, Optional
 
 
 def longest(strings: List[str]) -> Optional[str]:
@@ -19,4 +19,3 @@ def longest(strings: List[str]) -> Optional[str]:
         if len(s) > len(longest_str):
             longest_str = s
     return longest_str
-

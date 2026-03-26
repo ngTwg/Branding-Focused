@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 # Record Loki Mode demo with asciinema
 # Usage: ./demo/record-demo.sh [simple-todo|full-stack]
 
@@ -67,4 +67,3 @@ echo ""
 # Create symlink to latest
 ln -sf "$(basename "$OUTPUT_FILE")" "$SCRIPT_DIR/recordings/latest.cast"
 echo "Latest recording linked to: $SCRIPT_DIR/recordings/latest.cast"
-

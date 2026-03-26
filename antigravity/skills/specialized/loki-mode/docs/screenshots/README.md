@@ -1,4 +1,4 @@
-﻿# Dashboard Screenshots
+# Dashboard Screenshots
 
 This directory contains screenshots for the Loki Mode README.
 
@@ -147,5 +147,3 @@ This gives you polished screenshots without waiting for a full Loki Mode run.
 - Cluttered or confusing data
 
 The goal is to show potential users what the dashboard looks like during normal operation.
-
-

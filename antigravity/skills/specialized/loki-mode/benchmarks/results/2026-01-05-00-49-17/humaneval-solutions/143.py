@@ -1,4 +1,4 @@
-﻿def words_in_sentence(sentence):
+def words_in_sentence(sentence):
     """
     You are given a string representing a sentence,
     the sentence contains some words separated by a space,
@@ -33,4 +33,3 @@
     words = sentence.split()
     prime_words = [word for word in words if is_prime(len(word))]
     return " ".join(prime_words)
-

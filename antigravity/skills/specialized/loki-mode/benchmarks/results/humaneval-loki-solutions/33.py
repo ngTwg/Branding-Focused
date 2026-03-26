@@ -1,4 +1,4 @@
-﻿# HumanEval/33
+# HumanEval/33
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -17,4 +17,3 @@ def sort_third(l: list):
     for idx, val in enumerate(third_indices_values):
         result[idx * 3] = val
     return result
-

@@ -1,4 +1,4 @@
-﻿# AI Agent Prompts & System Instructions
+# AI Agent Prompts & System Instructions
 
 ## 📋 Table of Contents
 
@@ -477,6 +477,4 @@ Task tool (general-purpose):
 
 
 ---
-
-
 

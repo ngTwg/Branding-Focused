@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 # Continuous Learning - Session Evaluator
 # Runs on Stop hook to extract reusable patterns from Claude Code sessions
 #
@@ -58,4 +58,3 @@ fi
 # Signal to Claude that session should be evaluated for extractable patterns
 echo "[ContinuousLearning] Session has $message_count messages - evaluate for extractable patterns" >&2
 echo "[ContinuousLearning] Save learned skills to: $LEARNED_SKILLS_PATH" >&2
-

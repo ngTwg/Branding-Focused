@@ -1,4 +1,4 @@
-﻿# HTML to PowerPoint Guide
+# HTML to PowerPoint Guide
 
 Convert HTML slides to PowerPoint presentations with accurate positioning using the `html2pptx.js` library.
 
@@ -623,4 +623,3 @@ Common table options:
 - `valign` - Vertical alignment: "top", "middle", "bottom"
 - `fontSize` - Text size
 - `autoPage` - Auto-create new slides if content overflows
-

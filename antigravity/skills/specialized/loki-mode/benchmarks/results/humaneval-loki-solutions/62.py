@@ -1,4 +1,4 @@
-﻿# HumanEval/62
+# HumanEval/62
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -13,4 +13,3 @@ def derivative(xs: list):
     [2, 6]
     """
     return [xs[i] * i for i in range(1, len(xs))]
-

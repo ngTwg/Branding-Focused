@@ -1,4 +1,4 @@
-﻿---
+---
 title: Use Prepared Statements Correctly with Pooling
 impact: HIGH
 impactDescription: Avoid prepared statement conflicts in pooled environments
@@ -44,5 +44,3 @@ Check your driver settings:
 ```
 
 Reference: [Prepared Statements with Pooling](https://supabase.com/docs/guides/database/connecting-to-postgres#connection-pool-modes)
-
-

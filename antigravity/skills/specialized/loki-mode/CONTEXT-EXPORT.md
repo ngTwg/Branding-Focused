@@ -1,4 +1,4 @@
-﻿# Loki Mode - Conversation Context Export
+# Loki Mode - Conversation Context Export
 
 **Date:** 2025-12-28
 **Version:** 2.5.0
@@ -204,5 +204,3 @@ When starting a new session, read these files:
 - **Latest Commit:** (pending push)
 - **Tests:** All 53 passing
 - **Features Added:** Real-time streaming output via stream-json, web dashboard with Anthropic design
-
-

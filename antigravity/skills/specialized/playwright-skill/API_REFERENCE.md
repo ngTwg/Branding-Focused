@@ -1,4 +1,4 @@
-﻿# Playwright Skill - Complete API Reference
+# Playwright Skill - Complete API Reference
 
 This document contains the comprehensive Playwright API reference and advanced patterns. For quick-start execution patterns, see [SKILL.md](SKILL.md).
 
@@ -141,7 +141,7 @@ await page.locator('[data-cy="user-input"]').fill('text');
 
 // GOOD: Role-based selectors (accessible)
 await page.getByRole('button', { name: 'Submit' }).click();
-await page.getByRole('textbox', { name: 'Email' }).fill('[HIDDEN_EMAIL]');
+await page.getByRole('textbox', { name: 'Email' }).fill('user@example.com');
 await page.getByRole('heading', { level: 1 }).click();
 
 // GOOD: Text content (for unique text)
@@ -150,7 +150,7 @@ await page.getByText(/welcome back/i).click();
 
 // OK: Semantic HTML
 await page.locator('button[type="submit"]').click();
-await page.locator('input[name="email"]').fill('[HIDDEN_EMAIL]');
+await page.locator('input[name="email"]').fill('test@test.com');
 
 // AVOID: Classes and IDs (can change frequently)
 await page.locator('.btn-primary').click();  // Avoid
@@ -185,7 +185,7 @@ await row.locator('button.edit').click();
 
 ```javascript
 // Text input
-await page.getByLabel('Email').fill('[HIDDEN_EMAIL]');
+await page.getByLabel('Email').fill('user@example.com');
 await page.getByPlaceholder('Enter your name').fill('John Doe');
 
 // Clear and type
@@ -322,7 +322,7 @@ await expect(page.locator('.message')).toContainText('success');
 await expect(page.locator('.items')).toHaveText(['Item 1', 'Item 2']);
 
 // Input values
-await expect(page.locator('input')).toHaveValue('[HIDDEN_EMAIL]');
+await expect(page.locator('input')).toHaveValue('test@example.com');
 await expect(page.locator('input')).toBeEmpty();
 
 // Attributes
@@ -373,7 +373,7 @@ class LoginPage {
 test('login with valid credentials', async ({ page }) => {
   const loginPage = new LoginPage(page);
   await loginPage.navigate();
-  await loginPage.login('[HIDDEN_EMAIL]', 'password123');
+  await loginPage.login('user@example.com', 'password123');
   await expect(page).toHaveURL('/dashboard');
 });
 ```
@@ -651,5 +651,3 @@ npx playwright show-report
 - [Playwright Documentation](https://playwright.dev/docs/intro)
 - [API Reference](https://playwright.dev/docs/api/class-playwright)
 - [Best Practices](https://playwright.dev/docs/best-practices)
-
-

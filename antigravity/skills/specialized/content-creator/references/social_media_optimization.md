@@ -1,4 +1,4 @@
-﻿# Social Media Optimization Guide
+# Social Media Optimization Guide
 
 ## Platform-Specific Best Practices
 
@@ -315,5 +315,3 @@ Sunday: Curated Content/Rest
 - Have crisis management plan
 - Monitor brand mentions
 - Establish posting permissions
-
-

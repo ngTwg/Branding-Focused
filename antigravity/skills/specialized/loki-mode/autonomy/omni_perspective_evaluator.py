@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 import sys
 import time
 
@@ -37,5 +37,3 @@ def evaluate_task(task_description):
 if __name__ == "__main__":
     task = " ".join(sys.argv[1:]) if len(sys.argv) > 1 else "Autonomously Optimize the System"
     evaluate_task(task)
-
-

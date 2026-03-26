@@ -1,4 +1,4 @@
-﻿def starts_one_ends(n):
+def starts_one_ends(n):
     """
     Given a positive integer n, return the count of the numbers of n-digit
     positive integers that start or end with 1.
@@ -19,4 +19,3 @@
     both = 10 ** (n - 2)  # starts with 1 and ends with 1
     
     return starts_with_1 + ends_with_1 - both
-

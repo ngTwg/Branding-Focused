@@ -1,4 +1,4 @@
-﻿# HumanEval/145
+# HumanEval/145
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -22,4 +22,3 @@ def order_by_points(nums):
             return sum(int(d) for d in s)
     
     return sorted(nums, key=digit_sum)
-

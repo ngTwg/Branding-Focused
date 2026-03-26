@@ -1,4 +1,4 @@
-﻿# Desert Rose
+# Desert Rose
 
 A soft and sophisticated theme with dusty, muted tones perfect for elegant presentations.
 
@@ -17,5 +17,3 @@ A soft and sophisticated theme with dusty, muted tones perfect for elegant prese
 ## Best Used For
 
 Fashion presentations, beauty brands, wedding planning, interior design, boutique businesses.
-
-

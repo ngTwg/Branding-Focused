@@ -1,4 +1,4 @@
-﻿# HumanEval/68
+# HumanEval/68
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -53,4 +53,3 @@ def pluck(arr):
         return []
     
     return [min_even, min_index]
-

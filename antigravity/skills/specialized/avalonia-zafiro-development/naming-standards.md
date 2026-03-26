@@ -1,4 +1,4 @@
-﻿# Naming & Coding Standards
+# Naming & Coding Standards
 
 ## General Standards
 
@@ -13,5 +13,3 @@
 - **Result & Maybe**: Use types from **CSharpFunctionalExtensions** for flow control and error handling.
 - **Exceptions**: Reserved strictly for truly exceptional, unrecoverable situations.
 - **Boundaries**: Never allow exceptions to leak across architectural boundaries.
-
-

@@ -1,4 +1,4 @@
-﻿# HumanEval/141
+# HumanEval/141
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -40,4 +40,3 @@ def file_name_check(file_name):
         return 'No'
     
     return 'Yes'
-

@@ -1,4 +1,4 @@
-﻿# HumanEval/14
+# HumanEval/14
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -12,4 +12,3 @@ def all_prefixes(string: str) -> List[str]:
     ['a', 'ab', 'abc']
     """
     return [string[:i] for i in range(1, len(string) + 1)]
-

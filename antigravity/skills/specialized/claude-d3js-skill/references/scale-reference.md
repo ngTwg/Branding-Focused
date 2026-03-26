@@ -1,4 +1,4 @@
-﻿# D3.js Scale Reference
+# D3.js Scale Reference
 
 Comprehensive guide to all d3 scale types with examples and use cases.
 
@@ -507,4 +507,3 @@ const colourScale = d3.scaleOrdinal()
   .range(['#2ecc71', '#f39c12', '#e74c3c'])
   .unknown('#95a5a6'); // Fallback for unknown values
 ```
-

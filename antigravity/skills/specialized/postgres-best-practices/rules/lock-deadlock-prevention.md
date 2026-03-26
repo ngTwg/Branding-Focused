@@ -1,4 +1,4 @@
-﻿---
+---
 title: Prevent Deadlocks with Consistent Lock Ordering
 impact: MEDIUM-HIGH
 impactDescription: Eliminate deadlock errors, improve reliability
@@ -66,5 +66,3 @@ set deadlock_timeout = '1s';
 
 Reference:
 [Deadlocks](https://www.postgresql.org/docs/current/explicit-locking.html#LOCKING-DEADLOCKS)
-
-

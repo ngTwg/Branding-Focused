@@ -1,4 +1,4 @@
-﻿"""
+"""
 Keyword analysis module for App Store Optimization.
 Analyzes keyword search volume, competition, and relevance for app discovery.
 """
@@ -404,5 +404,3 @@ def analyze_keyword_set(keywords_data: List[Dict[str, Any]]) -> Dict[str, Any]:
     """
     analyzer = KeywordAnalyzer()
     return analyzer.compare_keywords(keywords_data)
-
-

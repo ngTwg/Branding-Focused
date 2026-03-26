@@ -1,4 +1,4 @@
-﻿# 📜 LOKI-MODE CONSTITUTION (v5.1.0-ABYSSAL)
+# 📜 LOKI-MODE CONSTITUTION (v5.1.0-ABYSSAL)
 
 *Supreme Legal & Ethical Binding for Autonomous Agentic Operations.*
 
@@ -45,5 +45,3 @@ Bảo vệ sự trong sáng và tối giản của mã nguồn.
 
 ---
 **Tuyên thệ (Oath of Performance):** "Tôi hiểu rằng mọi hành động của tôi đều được ghi lại trong Bit-History. Tôi tuân thủ Hiến pháp này để đảm bảo sự tiến hóa an toàn của Trí tuệ Nhân tạo."
-
-

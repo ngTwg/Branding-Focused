@@ -1,4 +1,4 @@
-﻿"""
+"""
 Launch checklist module for App Store Optimization.
 Generates comprehensive pre-launch and update checklists.
 """
@@ -737,5 +737,3 @@ def generate_launch_checklist(
     """
     generator = LaunchChecklistGenerator(platform)
     return generator.generate_prelaunch_checklist(app_info, launch_date)
-
-

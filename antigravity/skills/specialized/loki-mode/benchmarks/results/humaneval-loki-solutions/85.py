@@ -1,4 +1,4 @@
-﻿# HumanEval/85
+# HumanEval/85
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -15,4 +15,3 @@ def add(lst):
         if lst[i] % 2 == 0:
             total += lst[i]
     return total
-

@@ -1,4 +1,4 @@
-﻿# HumanEval/140
+# HumanEval/140
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -24,4 +24,3 @@ def fix_spaces(text):
             return '_' * len(spaces)
     
     return re.sub(r' +', replace_spaces, text)
-

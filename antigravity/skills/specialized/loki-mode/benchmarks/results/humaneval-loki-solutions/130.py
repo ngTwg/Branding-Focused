@@ -1,4 +1,4 @@
-﻿# HumanEval/130
+# HumanEval/130
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -33,4 +33,3 @@ def tri(n):
             result.append(result[i - 1] + result[i - 2] + next_even)
     
     return result
-

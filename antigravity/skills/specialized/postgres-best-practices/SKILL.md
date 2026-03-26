@@ -1,4 +1,4 @@
-﻿---
+---
 name: supabase-postgres-best-practices
 description: Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations.
 license: MIT
@@ -55,5 +55,3 @@ Each rule file contains:
 ## Full Compiled Document
 
 For the complete guide with all rules expanded: `AGENTS.md`
-
-

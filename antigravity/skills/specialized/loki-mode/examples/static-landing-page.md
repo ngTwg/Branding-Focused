@@ -1,4 +1,4 @@
-﻿# PRD: Static Landing Page
+# PRD: Static Landing Page
 
 ## Overview
 A simple static landing page for a fictional SaaS product. Tests Loki Mode's frontend and marketing agent capabilities.
@@ -71,5 +71,3 @@ Marketing teams needing a quick landing page.
 ---
 
 **Purpose:** Tests frontend agent, marketing agent (copy), and design patterns without backend complexity.
-
-

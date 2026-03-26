@@ -1,4 +1,4 @@
-﻿def do_algebra(operator, operand):
+def do_algebra(operator, operand):
     """
     Given two lists operator, and operand. The first list has basic algebra operations, and 
     the second list is a list of integers. Use the two given lists to build the algebric 
@@ -27,4 +27,3 @@
     for i, op in enumerate(operator):
         expression += ' ' + op + ' ' + str(operand[i + 1])
     return eval(expression)
-

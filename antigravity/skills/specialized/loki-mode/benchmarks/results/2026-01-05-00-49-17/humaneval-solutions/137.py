@@ -1,4 +1,4 @@
-﻿def compare_one(a, b):
+def compare_one(a, b):
     """
     Create a function that takes integers, floats, or strings representing
     real numbers, and returns the larger variable in its given variable type.
@@ -24,4 +24,3 @@
         return a
     else:
         return b
-

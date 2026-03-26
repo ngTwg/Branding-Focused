@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 # Test: Bootstrap Script Functionality
 # Tests the .loki directory initialization and state management
 
@@ -194,4 +194,3 @@ else
     echo -e "${RED}Some tests failed!${NC}"
     exit 1
 fi
-

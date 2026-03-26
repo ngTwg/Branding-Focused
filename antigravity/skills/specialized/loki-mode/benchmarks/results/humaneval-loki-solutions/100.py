@@ -1,4 +1,4 @@
-﻿# HumanEval/100
+# HumanEval/100
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -21,4 +21,3 @@ def make_a_pile(n):
     for _ in range(n - 1):
         result.append(result[-1] + 2)
     return result
-

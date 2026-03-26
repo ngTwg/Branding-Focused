@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 # Test: State Recovery and Checkpoint Functionality
 # Tests checkpoint creation, recovery, and rate limit handling
 
@@ -391,4 +391,3 @@ else
     echo -e "${RED}Some tests failed!${NC}"
     exit 1
 fi
-

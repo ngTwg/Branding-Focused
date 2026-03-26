@@ -1,4 +1,4 @@
-﻿def tri(n):
+def tri(n):
     """Everyone knows Fibonacci sequence, it was studied deeply by mathematicians in 
     the last couple centuries. However, what people don't know is Tribonacci sequence.
     Tribonacci sequence is defined by the recurrence:
@@ -27,4 +27,3 @@
             result.append(result[i - 1] + result[i - 2] + (1 + (i + 1) // 2))
     
     return result
-

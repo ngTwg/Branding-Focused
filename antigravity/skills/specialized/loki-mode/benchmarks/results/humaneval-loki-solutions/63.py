@@ -1,4 +1,4 @@
-﻿# HumanEval/63
+# HumanEval/63
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -28,4 +28,3 @@ def fibfib(n: int):
     for _ in range(3, n + 1):
         a, b, c = b, c, a + b + c
     return c
-

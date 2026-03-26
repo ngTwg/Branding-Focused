@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Cleanup Manager for NotebookLM Skill
 Manages cleanup of skill data and browser state
@@ -300,4 +300,3 @@ Examples:
 
 if __name__ == "__main__":
     main()
-

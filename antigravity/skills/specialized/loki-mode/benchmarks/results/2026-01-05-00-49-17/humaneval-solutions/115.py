@@ -1,4 +1,4 @@
-﻿def max_fill(grid, capacity):
+def max_fill(grid, capacity):
     import math
     """
     You are given a rectangular grid of wells. Each row represents a single well,
@@ -39,4 +39,3 @@
         if water_units > 0:
             total_lowerings += math.ceil(water_units / capacity)
     return total_lowerings
-

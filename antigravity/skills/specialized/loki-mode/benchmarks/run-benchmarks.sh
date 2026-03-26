@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 #===============================================================================
 # Loki Mode Benchmark Runner
 # Run HumanEval and SWE-bench benchmarks to validate multi-agent performance
@@ -1946,4 +1946,3 @@ main() {
 }
 
 main "$@"
-

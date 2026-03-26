@@ -1,4 +1,4 @@
-﻿# HumanEval/139
+# HumanEval/139
 # Loki Mode Multi-Agent Solution
 # Attempts: 1
 # Passed: True
@@ -21,4 +21,3 @@ def special_factorial(n):
         current_factorial *= k
         result *= current_factorial
     return result
-

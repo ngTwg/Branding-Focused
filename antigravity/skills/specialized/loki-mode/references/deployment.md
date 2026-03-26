@@ -1,4 +1,4 @@
-﻿# Deployment Reference
+# Deployment Reference
 
 Infrastructure provisioning and deployment instructions for all supported platforms.
 
@@ -602,5 +602,3 @@ vault kv get -field=database-url secret/app
 ```
 
 All production secrets must be in a secrets manager, never in code or environment files.
-
-

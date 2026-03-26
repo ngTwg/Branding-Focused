@@ -1,4 +1,4 @@
-﻿# Advanced Testing Strategies & Anti-patterns
+# Advanced Testing Strategies & Anti-patterns
 
 ## 📋 Table of Contents
 
@@ -986,7 +986,7 @@ describe('UserService', () => {
   describe('createUser', () => {
     it('should create user with hashed password', async () => {
       // Arrange
-      const input = { email: '[HIDDEN_EMAIL]', password: 'secret123' };
+      const input = { email: 'test@example.com', password: 'secret123' };
 
       // Act
       const user = await userService.createUser(input);
@@ -999,11 +999,11 @@ describe('UserService', () => {
 
     it('should throw on duplicate email', async () => {
       // Arrange
-      mockUserRepo.findByEmail.mockResolvedValue({ id: '1', email: '[HIDDEN_EMAIL]' });
+      mockUserRepo.findByEmail.mockResolvedValue({ id: '1', email: 'test@example.com' });
 
       // Act & Assert
       await expect(
-        userService.createUser({ email: '[HIDDEN_EMAIL]', password: 'test' })
+        userService.createUser({ email: 'test@example.com', password: 'test' })
       ).rejects.toThrow('Email already exists');
     });
   });
@@ -1057,14 +1057,14 @@ describe('POST /api/users', () => {
     const res = await request(app)
       .post('/api/users')
       .send({
-        email: '[HIDDEN_EMAIL]',
+        email: 'test@example.com',
         name: 'Test User',
         password: 'password123',
       })
       .expect(201);
 
     expect(res.body.data).toMatchObject({
-      email: '[HIDDEN_EMAIL]',
+      email: 'test@example.com',
       name: 'Test User',
     });
     expect(res.body.data.password).toBeUndefined();
@@ -1099,7 +1099,7 @@ describe('OrderRepository', () => {
     ]);
 
     await prisma.user.create({
-      data: { id: 'user-1', email: '[HIDDEN_EMAIL]', name: 'Test' },
+      data: { id: 'user-1', email: 'test@test.com', name: 'Test' },
     });
   });
 
@@ -1199,7 +1199,7 @@ test.describe('Authentication', () => {
   test('should login successfully', async ({ page }) => {
     const loginPage = new LoginPage(page);
     await loginPage.goto();
-    await loginPage.login('[HIDDEN_EMAIL]', 'password123');
+    await loginPage.login('user@example.com', 'password123');
 
     await expect(page).toHaveURL('/dashboard');
     await expect(page.getByText('Welcome')).toBeVisible();
@@ -1208,7 +1208,7 @@ test.describe('Authentication', () => {
   test('should show error for invalid credentials', async ({ page }) => {
     const loginPage = new LoginPage(page);
     await loginPage.goto();
-    await loginPage.login('[HIDDEN_EMAIL]', 'wrongpassword');
+    await loginPage.login('user@example.com', 'wrongpassword');
 
     expect(await loginPage.getErrorMessage()).toContain('Invalid credentials');
   });
@@ -1257,12 +1257,12 @@ export default defineConfig({
 export const testUsers = {
   admin: {
     id: 'admin-1',
-    email: '[HIDDEN_EMAIL]',
+    email: 'admin@test.com',
     role: 'admin',
   },
   user: {
     id: 'user-1',
-    email: '[HIDDEN_EMAIL]',
+    email: 'user@test.com',
     role: 'user',
   },
 } as const;
@@ -1313,6 +1313,4 @@ test('should update user', async () => {
 
 
 ---
-
-
 

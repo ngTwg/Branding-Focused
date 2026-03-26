@@ -1,4 +1,4 @@
-﻿def count_up_to(n):
+def count_up_to(n):
     """Implement a function that takes an non-negative integer and returns an array of the first n
     integers that are prime numbers and less than n.
     for example:
@@ -26,4 +26,3 @@
         if is_prime(i):
             primes.append(i)
     return primes
-
