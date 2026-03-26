@@ -1,0 +1,54 @@
+{
+  "mcpServers": {
+    "perplexity-ask": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "server-perplexity-ask"
+      ],
+      "env": {
+        "PERPLEXITY_API_KEY": "YOUR_PERPLEXITY_API_KEY_HERE"
+      }
+    },
+    "netlify": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@netlify/mcp"
+      ],
+      "env": {
+        "NETLIFY_PERSONAL_ACCESS_TOKEN": "YOUR_NETLIFY_TOKEN_HERE"
+      }
+    },
+    "notebooklm-mcp-server": {
+      "command": "python",
+      "args": [
+        "-u",
+        "-W",
+        "ignore",
+        "C:/Code/notebooklm/run_mcp.py"
+      ],
+      "env": {
+        "PYTHONUNBUFFERED": "1",
+        "PYTHONWARNINGS": "ignore"
+      }
+    },
+    "stitch": {
+      "serverUrl": "https://stitch.googleapis.com/mcp",
+      "headers": {
+        "X-Goog-Api-Key": "YOUR_STITCH_API_KEY_HERE"
+      }
+    },
+    "grapuco": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://api.grapuco.com/mcp",
+        "--header",
+        "X-Api-Key: YOUR_GRAPUCO_API_KEY_HERE"
+      ],
+      "disabled": true
+    }
+  }
+}
