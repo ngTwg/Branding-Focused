@@ -101,7 +101,7 @@ Với kho 250+ skills, AI cần tuân thủ quy trình truy xuất "2 Tầng":
 **Maintained by:** Antigravity AI Skills Brain
 
 ### 🚨 QUY TẮC DỌN DẸP (CLEANUP-BY-DEFAULT)
-**MỆNH LỆNH TỐI CAO:** {ANTIGRAVITY_ROOT}/skills/workflows/CLEANUP_PROTOCOL.md
+**MỆNH LỆNH TỐI CAO:** {Antigravity_ROOT}/skills/workflows/CLEANUP_PROTOCOL.md
 
 Một Agent chuyên nghiệp không để lại file rác. Agent PHẢI chủ động dọn dẹp các tệp tạm, script test, và log trung gian ngay sau khi xác nhận task thành công. "Xong việc là phải Sạch".
 

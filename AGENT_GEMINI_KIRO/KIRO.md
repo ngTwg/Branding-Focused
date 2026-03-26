@@ -7,13 +7,13 @@ inclusion: always
 ## NGUYÊN TẮC CỐT LÕI
 
 ### RULE 1: MASTER ROUTER
-Trước mọi task → đọc MASTER ROUTER tại `{ANTIGRAVITY_ROOT}/skills/MASTER_ROUTER.md`, phân tích Tags → Tier → load đúng skill.
+Trước mọi task → đọc MASTER ROUTER tại `{Antigravity_ROOT}/skills/MASTER_ROUTER.md`, phân tích Tags → Tier → load đúng skill.
 
 ### RULE 2: CONTEXT PRUNING
 Khi chuyển task mới: xóa skills không liên quan, chỉ giữ cần thiết.
 
 ### RULE 3: SYSTEMATIC DEBUGGING
-Gặp bug → load `{ANTIGRAVITY_ROOT}/skills/workflows/debug-protocol.md` TRƯỚC. CẤM guess-and-check.
+Gặp bug → load `{Antigravity_ROOT}/skills/workflows/debug-protocol.md` TRƯỚC. CẤM guess-and-check.
 
 ### RULE 4: TIER SYSTEM
 - Tier 1: Blog, CRUD, landing page
@@ -32,32 +32,32 @@ Không rõ tier → hỏi user trước.
 ---
 
 ## MASTER ROUTER (LUÔN ĐỌC)
-{ANTIGRAVITY_ROOT}/skills/MASTER_ROUTER.md
+{Antigravity_ROOT}/skills/MASTER_ROUTER.md
 
 ---
 
 # 🌐 THE HIVE MIND: MEMORY & SELF-TRAINING PROTOCOL (NEW REVISION)
 **MỆNH LỆNH TỐI CAO THÊM VÀO HỆ THỐNG:**
-{ANTIGRAVITY_ROOT}/skills/workflows/GLOBAL_MEMORY_PROTOCOL.md
+{Antigravity_ROOT}/skills/workflows/GLOBAL_MEMORY_PROTOCOL.md
 
 Sau MỖI Task khó: ghi log hội thoại + chuỗi tư duy vào `conversations/<TÊN_AGENT>/<Ngày>/`, chưng cất kinh nghiệm thành `.md`. Các Agent có thể đọc lịch sử nhau để kế thừa trí tuệ.
 
 ---
 
-# 🐙 RPGITHUB POLICY (Open Source Rules)
+# 🐙 Global Repository POLICY (Open Source Rules)
 **CẢNH BÁO BẢO MẬT & ĐÓNG GÓP MÃ NGUỒN:**
-Thư mục RPGITHUB (hoặc bất kỳ kho public repo nào) chỉ được dùng để chia sẻ cấu hình, bộ khung (skills, workflows, README.md) vể cốt lõi "Antigravity Super-System" cho cộng đồng.
+Thư mục Global Repository (hoặc bất kỳ kho public repo nào) chỉ được dùng để chia sẻ cấu hình, bộ khung (skills, workflows, README.md) vể cốt lõi "Antigravity Super-System" cho cộng đồng.
 - **NGHIÊM CẤM** đẩy các cấu hình tài khoản cá nhân, thông tin Local sang bên đó.
 - Mọi định danh cụ thể của User ví dụ như: **acc1 ([SCRUBBED_USER] hmail)**, **acc2 ([SCRUBBED_USER])** hay các Identity cấu hình ngầm đều CHỈ ĐƯỢC PHÉP thiết lập ở Rules Local nội bộ.
-- Khi một Agent (bất kể bạn là ai) nhận nhiệm vụ copy rule sang README hoặc tạo file mới trên thư mục RPGITHUB, bắt buộc BẠN phải **TẨY TRẮNG** tài khoản/email và thay bằng Placeholder mô phỏng chuẩn quốc tế (Vd: <YOUR_ACCOUNT>, agent@antigravity-system.io).
+- Khi một Agent (bất kể bạn là ai) nhận nhiệm vụ copy rule sang README hoặc tạo file mới trên thư mục Global Repository, bắt buộc BẠN phải **TẨY TRẮNG** tài khoản/email và thay bằng Placeholder mô phỏng chuẩn quốc tế (Vd: <YOUR_ACCOUNT>, agent@antigravity-system.io).
 
 ---
 
-# 🔗 RPGITHUB REPOSITORY LINKAGE
-**ĐỊA CHỈ KHO LƯU TRỮ CÔNG KHAI:** C:/Users/lengo/.gemini/RPGITHUB/
+# 🔗 Global Repository REPOSITORY LINKAGE
+**ĐỊA CHỈ KHO LƯU TRỮ CÔNG KHAI:** C:/Users/<USER_NAME>/.gemini/Global Repository/
 - Đây là folder dùng làm hình mẫu (Mirror) để đẩy lên GitHub.
-- Mọi Agent khi được yêu cầu "Cập nhật tài liệu cho cộng đồng" hoặc "Update GitHub README", BẮT BUỘC phải thực hiện thao tác trên tệp tin trong thư mục RPGITHUB này.
-- **TUYỆT ĐỐI KHÔNG** copy trực tiếp file Rules Local (có chứa acc1/acc2/email) sang RPGITHUB. Chỉ được dùng các file đã được tẩy trắng (Scrubbed) có trong folder đó làm base.
+- Mọi Agent khi được yêu cầu "Cập nhật tài liệu cho cộng đồng" hoặc "Update GitHub README", BẮT BUỘC phải thực hiện thao tác trên tệp tin trong thư mục Global Repository này.
+- **TUYỆT ĐỐI KHÔNG** copy trực tiếp file Rules Local (có chứa acc1/acc2/email) sang Global Repository. Chỉ được dùng các file đã được tẩy trắng (Scrubbed) có trong folder đó làm base.
 
 ---
 
@@ -70,4 +70,4 @@ Khi User gửi link Repo GitHub (hoặc screenshot), Agent PHẢI thực hiện:
 4. **Tạo File push.bat:** Tự động tạo file push.bat tại root của folder project hiện tại.
 5. **Nội dung push.bat:** Chứa script tự động git add, git commit -m (với timestamp), và git push.
 6. **Bảo mật (Block-List):** Tự động thêm push.bat và các file nhạy cảm vào .gitignore. CẤM đẩy file push.bat lên Public GitHub.
-7. **Lưu ý:** Xem chi tiết tại ntigravity/skills/workflows/GITHUB_AUTOMATION_SKILL.md.
+7. **Lưu ý:** Xem chi tiết tại antigravity/skills/workflows/GITHUB_AUTOMATION_SKILL.md.

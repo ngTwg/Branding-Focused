@@ -11,7 +11,7 @@ from pathlib import Path
 import re
 
 # Thêm antigravity root vào path để import
-PROJECT_ROOT = Path(r"c:\Users\lengo\.gemini\antigravity")
+PROJECT_ROOT = Path(r"c:\Users\<USER_NAME>\.gemini\antigravity")
 sys.path.insert(0, str(PROJECT_ROOT))
 
 # Import Adapter & Schema

@@ -48,6 +48,8 @@ cp AIDER.md ./CONVENTIONS.md
 3. **Systematic Debugging** — không guess-and-check
 4. **E2E Autonomous Loop** v6.2.0 — tự phát hiện và sửa lỗi
 5. **Test trước khi báo hoàn thành**
+6. **Git Persistence** — tự lưu và Discovery link.git
+6. **Git Persistence** — tự lưu và Discovery link.git
 
 ---
 
@@ -63,9 +65,10 @@ cp AIDER.md ./CONVENTIONS.md
 ## 🌐 Liên Kết
 
 - **Brain chung:** `../antigravity/skills/MASTER_ROUTER.md`
-- **Core Rules:** `../ANTIGRAVITY_CORE_RULES.md`
+- **Core Rules:** `../Antigravity_CORE_RULES.md`
 - **Aider Docs:** https://aider.chat/docs
 
 ---
 
 > **Version:** 6.2.0 (Solid-State) | **Last Updated:** 2026-03-26
+

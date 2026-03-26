@@ -1,9 +1,9 @@
-# RPGITHUB SYNC SUMMARY
+# Global Repository SYNC SUMMARY
 
 **Version:** 6.2.0
 **Date:** 1774529898.2440429
 **Source:** Local Workspace
-**Target:** RPGITHUB (Public Repository)
+**Target:** Global Repository (Public Repository)
 
 ## Changes
 - ✅ All PII scrubbed (emails, usernames, paths)
@@ -13,7 +13,7 @@
 
 ## Ready for GitHub Push
 ```bash
-cd C:\Users\<YOUR_USERNAME>\RPGITHUB
+cd C:\Users\<YOUR_USERNAME>\Global Repository
 git add .
 git commit -m "chore: sync v6.2.0 - scrubbed release"
 git push origin main

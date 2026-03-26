@@ -28,7 +28,7 @@
 - Deterministic Fallback: Sử dụng FailureMemory khi LLM gặp ảo giác
 
 **2. Hive-Mind Synchronization (Đồng bộ Hóa Hive-Mind)**
-- Tự động tẩy trắng PII khi sync sang RPGITHUB
+- Tự động tẩy trắng PII khi sync sang Global Repository
 - Cross-Agent Rule Injection: Đồng bộ rules giữa 10+ agents
 - Project Mapping: Lưu trữ trạng thái PUBLIC vs PRIVATE
 
@@ -54,7 +54,7 @@ graph TD
     G -->|Fail| H[Self-Healing Loop: Analyze & Retry]
     H --> F
     G -->|Pass| I[Context Pruning & Clean Up]
-    I --> J[Hive-Sync: RPGITHUB Sync & Documentation]
+    I --> J[Hive-Sync: Global Repository Sync & Documentation]
     J --> K[Task Completed]
 ```
 
@@ -69,27 +69,27 @@ graph LR
 
     subgraph "Orchestration Layer"
         MASTER_ROUTER[MASTER_ROUTER.md]
-        CORE_RULES[ANTIGRAVITY_CORE_RULES.md]
+        CORE_RULES[Antigravity_CORE_RULES.md]
         GEMINI[GEMINI.md]
     end
 
     subgraph "Global Repository (Public)"
-        RPGITHUB[ngTwg/Branding-Focused-Skills]
+        Global Repository[ngTwg/Branding-Focused-Skills]
     end
 
     Local -->|Injects Awareness| MASTER_ROUTER
     MASTER_ROUTER -->|Syncs Rules| CORE_RULES
     CORE_RULES -->|Propagates| GEMINI
-    CORE_RULES -->|Triggers| RPGITHUB
-    RPGITHUB -->|Mirroring & PII Scrubbing| RPGITHUB
+    CORE_RULES -->|Triggers| Global Repository
+    Global Repository -->|Mirroring & PII Scrubbing| Global Repository
 ```
 
 ### 📦 Project Structure
 
 ```text
-📦 antigravity-ai-skills (RPGITHUB - Public Mirror)
+📦 antigravity-ai-skills (Global Repository - Public Mirror)
  ┣ 📜 README.md                          ← (Bạn đang đọc file này)
- ┣ 📜 ANTIGRAVITY_CORE_RULES.md          ← Core rules tổng hợp
+ ┣ 📜 Antigravity_CORE_RULES.md          ← Core rules tổng hợp
  ┣ 📜 MASTER_PLAN.md                      ← Kế hoạch phát triển hệ thống
  ┣ 📜 SKILLS_GUIDE.md                     ← Hướng dẫn sử dụng skills
  ┣ 📂 antigravity/                        ← Bộ não cốt lõi (Shared Brain)
@@ -135,7 +135,7 @@ graph LR
 ### Rule Khởi Động (Copy vào config của AI)
 
 ```markdown
-# ANTIGRAVITY SOLID-STATE v6.2.0 - INITIALIZATION PROTOCOL
+# Antigravity SOLID-STATE v6.2.0 - INITIALIZATION PROTOCOL
 
 TRƯỚC KHI làm BẤT KỲ task nào:
 1. ĐỌC: antigravity/skills/MASTER_ROUTER.md
@@ -192,6 +192,11 @@ TRƯỚC KHI làm BẤT KỲ task nào:
 - **PII Scrubbing:** Tự động tẩy trắng thông tin cá nhân
 - **Cross-Agent Rules:** Đồng bộ GEMINI.md → tất cả agent configs
 - **Project Mapping:** Lưu trữ trạng thái PUBLIC vs PRIVATE
+
+### 📡 SD: Git Remote Persistence
+- **Auto-Extraction:** Tự trích xuất link.git từ Terminal logs/Git commands
+- **Screenshot OCR:** Tự động bóc tách repository link từ ảnh chụp màn hình
+- **Self-Healing Remote:** Tự động Discovery và cấu hình remote origin trong phiên mới
 
 ### 🛡️ Loki-Mode v6.2.0 - Enhanced Fault Tolerance
 - **Sandbox Isolation:** Cô lập Terminal commands

@@ -21,7 +21,7 @@ How it works:
     4. Agent Flow watches the output .jsonl file via 'agentVisualizer.eventLogPath'
     
 Setup:
-    In VS Code settings: "agentVisualizer.eventLogPath": "C:\\Users\\lengo\\.gemini\\antigravity\\agent_flow_events.jsonl"
+    In VS Code settings: "agentVisualizer.eventLogPath": "C:\\Users\\<USER_NAME>\\.gemini\\antigravity\\agent_flow_events.jsonl"
 """
 
 import json
@@ -38,12 +38,12 @@ from typing import Optional
 
 # ─── Config ──────────────────────────────────────────────────────────────────
 
-ANTIGRAVITY_DIR = Path(os.environ.get("ANTIGRAVITY_DIR", r"C:\Users\lengo\.gemini\antigravity"))
-DAEMON_DIR = ANTIGRAVITY_DIR / "daemon"
+Antigravity_DIR = Path(os.environ.get("Antigravity_DIR", r"C:\Users\<USER_NAME>\.gemini\antigravity"))
+DAEMON_DIR = Antigravity_DIR / "daemon"
 
 # Output path — MUST match VS Code setting "agentVisualizer.eventLogPath"
 # The extension watches this file for live events.
-OUTPUT_PATH = ANTIGRAVITY_DIR / "agent_flow_events.jsonl"
+OUTPUT_PATH = Antigravity_DIR / "agent_flow_events.jsonl"
 
 # ─── AgentEvent Helpers ───────────────────────────────────────────────────────
 
@@ -62,7 +62,7 @@ class AgentFlowEmitter:
         # Fake a Claude Code "cwd" line so the extension's SessionWatcher authenticates it
         init_event = {
             "type": "message",
-            "cwd": str(ANTIGRAVITY_DIR),
+            "cwd": str(Antigravity_DIR),
             "message": {"role": "user", "content": "Antigravity Bridge Init"}
         }
         with self._lock:
@@ -376,7 +376,7 @@ def run_demo(emitter: AgentFlowEmitter):
     time.sleep(0.3)
     
     # Write bridge script
-    emitter.tool_call_start("write_to_file", "C:/Users/lengo/.gemini/antigravity/scripts/agent_flow_bridge.py")
+    emitter.tool_call_start("write_to_file", "C:/Users/<USER_NAME>/.gemini/antigravity/scripts/agent_flow_bridge.py")
     time.sleep(1.2)
     emitter.tool_call_end("write_to_file", "Created 250-line Python bridge script", token_cost=450)
     

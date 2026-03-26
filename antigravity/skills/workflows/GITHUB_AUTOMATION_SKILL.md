@@ -31,13 +31,13 @@ chcp 65001 >nul
 setlocal enabledelayedexpansion
 
 REM =============================================
-REM ANTIGRAVITY - AUTO GIT PUSH SCRIPT
+REM Antigravity - AUTO GIT PUSH SCRIPT
 REM Tu dong commit va push code len GitHub
 REM =============================================
 
 echo.
 echo ==============================================================
-echo     ANTIGRAVITY - AUTO GIT PUSH
+echo     Antigravity - AUTO GIT PUSH
 echo     Tu dong luu code len GitHub
 echo ==============================================================
 echo.
