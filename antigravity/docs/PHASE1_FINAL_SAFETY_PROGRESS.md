@@ -1,7 +1,7 @@
 # Phase 1 Final Safety Layer - Progress Report
 
-> **Sprint:** 2-3 tuần  
-> **Started:** 2026-03-26  
+> **Sprint:** 2-3 tuần
+> **Started:** 2026-03-26
 > **Status:** 🟢 IN PROGRESS (33% complete)
 
 ---
@@ -14,8 +14,8 @@
 | 2. SLMRouter Properties | P0 | ⏳ TODO | 1h | - |
 | 3. Learning Convergence Test | P0 | ⏳ TODO | 1h | - |
 
-**Total:** 1/3 tasks complete (33%)  
-**Time spent:** 2/4 hours (50%)  
+**Total:** 1/3 tasks complete (33%)
+**Time spent:** 2/4 hours (50%)
 **Estimated completion:** Today (2026-03-26)
 
 ---
@@ -94,5 +94,5 @@ Start Task 2: SLMRouter Properties (1 hour)
 
 ---
 
-**Last Updated:** 2026-03-26  
+**Last Updated:** 2026-03-26
 **By:** Kiro AI Assistant

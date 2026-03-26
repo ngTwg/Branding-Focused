@@ -51,7 +51,7 @@ cp CLAUDE.md ~/.claude/CLAUDE.md
 - Load MASTER_ROUTER, phân tích task, tạo plan
 - Inject plan vào Claude prompt
 
-**Claude (Executor + Reviewer)**  
+**Claude (Executor + Reviewer)**
 - Thực thi plan từ Gemini
 - Self-audit kết quả trước khi return
 - Report issues ngược lại Gemini nếu plan có lỗi

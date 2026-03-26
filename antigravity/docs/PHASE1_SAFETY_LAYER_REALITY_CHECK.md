@@ -1,6 +1,6 @@
 # Phase 1 Final Safety Layer - Reality Check
 
-> **Date:** 2026-03-26  
+> **Date:** 2026-03-26
 > **Issue:** Property tests mismatch với implementation thực tế
 
 ---

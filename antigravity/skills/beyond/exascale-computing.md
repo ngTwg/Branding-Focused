@@ -1,7 +1,7 @@
 # EXASCALE COMPUTING & SUPERCOMPUTING
 
-> **Tier:** 4 (Deep/System-level)  
-> **Tags:** `[Exascale, Supercomputing, MPI, HPC, Parallel, Cluster]`  
+> **Tier:** 4 (Deep/System-level)
+> **Tags:** `[Exascale, Supercomputing, MPI, HPC, Parallel, Cluster]`
 > **Khi nào dùng:** Lập trình cho siêu máy tính, cụm 100,000+ CPU/GPU, mô phỏng khoa học
 
 ---
@@ -25,15 +25,15 @@ Ngách viết phần mềm chạy trên cụm (cluster) gồm hàng chục ngàn
 
 int main(int argc, char** argv) {
     MPI_Init(&argc, &argv);
-    
+
     int world_size, world_rank;
     MPI_Comm_size(MPI_COMM_WORLD, &world_size);
     MPI_Comm_rank(MPI_COMM_WORLD, &world_rank);
-    
+
     printf("Process %d of %d\n", world_rank, world_size);
-    
+
     // Your parallel computation here
-    
+
     MPI_Finalize();
     return 0;
 }
@@ -187,7 +187,7 @@ MPI_Send(data, N, MPI_DOUBLE, dest, tag, MPI_COMM_WORLD);
 **PERF-002.** Overlap computation and communication:
 ```c
 // Start non-blocking communication
-MPI_Isend(boundary_data, size, MPI_DOUBLE, neighbor, tag, 
+MPI_Isend(boundary_data, size, MPI_DOUBLE, neighbor, tag,
           MPI_COMM_WORLD, &request);
 
 // Compute interior points (don't need boundary data yet)
@@ -256,7 +256,7 @@ for (int i = 0; i < N; i++) {
 // Create file with parallel access
 hid_t plist_id = H5Pcreate(H5P_FILE_ACCESS);
 H5Pset_fapl_mpio(plist_id, MPI_COMM_WORLD, MPI_INFO_NULL);
-hid_t file_id = H5Fcreate("output.h5", H5F_ACC_TRUNC, 
+hid_t file_id = H5Fcreate("output.h5", H5F_ACC_TRUNC,
                           H5P_DEFAULT, plist_id);
 
 // Each process writes its own chunk
@@ -307,11 +307,11 @@ if (iteration % checkpoint_interval == 0) {
     // Each process saves its state
     char filename[256];
     sprintf(filename, "checkpoint_%d_rank_%d.dat", iteration, rank);
-    
+
     FILE* fp = fopen(filename, "wb");
     fwrite(local_data, sizeof(double), local_size, fp);
     fclose(fp);
-    
+
     // Synchronize
     MPI_Barrier(MPI_COMM_WORLD);
 }
@@ -386,5 +386,5 @@ for (int i = 0; i < N; i++) {
 - `deep-tech/compiler-tools.md` - Compiler optimization
 - `beyond/green-computing.md` - Energy efficiency
 
-**Version:** 1.0.0  
+**Version:** 1.0.0
 **Last Updated:** 2024-01-15

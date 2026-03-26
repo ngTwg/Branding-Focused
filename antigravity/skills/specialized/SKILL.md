@@ -434,9 +434,9 @@ Use these pre-built keyword clusters for each concept.
 ```markdown
 ## What is a Closure in JavaScript?
 
-A **closure** is a function that retains access to variables from its outer 
-(enclosing) scope, even after that outer function has finished executing. 
-Closures are created every time a function is created in JavaScript, allowing 
+A **closure** is a function that retains access to variables from its outer
+(enclosing) scope, even after that outer function has finished executing.
+Closures are created every time a function is created in JavaScript, allowing
 inner functions to "remember" and access their lexical environment.
 ```
 
@@ -467,12 +467,12 @@ inner functions to "remember" and access their lexical environment.
 ```markdown
 <!-- In Prerequisites (Warning box) -->
 <Warning>
-**Prerequisite:** This guide assumes you understand [Promises](/concepts/promises) 
+**Prerequisite:** This guide assumes you understand [Promises](/concepts/promises)
 and the [Event Loop](/concepts/event-loop). Read those first if needed.
 </Warning>
 
 <!-- In Body Content (natural context) -->
-When the callback finishes, it's added to the task queue — managed by 
+When the callback finishes, it's added to the task queue — managed by
 the [event loop](/concepts/event-loop).
 
 <!-- In Related Concepts Section -->

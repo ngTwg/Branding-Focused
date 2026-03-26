@@ -25,7 +25,7 @@ flowchart TD
     classDef repair fill:#ef4444,stroke:#dc2839,stroke-width:2px,color:#fff
 
     USER["👤 USER INPUT<br/>(e.g., 'Sửa lỗi is not defined ở App.js')"]:::user
-    
+
     %% Memory
     STORE["🧠 SKILL STORE (Hippocampus)<br/>Hybrid Retrieval (Intent / Errors)"]:::memory
     BLUEPRINT["📜 Blueprint Template<br/>(Actionable Macro + Success Criteria)"]:::memory
@@ -61,18 +61,18 @@ flowchart TD
 
     CHECKER -- [Errors] --> REPAIR
     CHECKER -- [Pass] --> SUCCESS((🏁 SUCCESS))
-    
+
     REPAIR --> STAGNATION
     STAGNATION -- NO --> STORE
     STAGNATION -- YES --> HALT((🛑 HARD HALT))
 ```
 
 ## 4. Phase 3: Actionable Intelligence (Zero Hallucination)
-The critical breakthrough of Antigravity is treating the RAG (Retrieval-Augmented Generation) mechanism not as a knowledge base, but as an **Execution Constraint Base**. 
+The critical breakthrough of Antigravity is treating the RAG (Retrieval-Augmented Generation) mechanism not as a knowledge base, but as an **Execution Constraint Base**.
 
 When the `SkillStore` detects a pattern (like an NPM missing dependency), it does not merely feed the LLM a document describing the fix. It directly injects an `ExecutionPlan` blueprint (e.g., *Action 1: Run NPM Install, Action 2: Check Exit Code*) and forces the Planner to instantiate this proven template. This fundamentally alters the architecture from an unconstrained generative loop into a **Surgical Execution System**.
 
 ## 5. Security & Verification Guardrails
 - **Path Sandboxing**: The `ActionRunner` mathematically blocks execution traversing out of the defined workspace (`c:\Users\<YOUR_USERNAME>\.gemini\antigravity`).
-- **Command Whitelisting**: Only deterministic command strings explicitly formatted are dispatched. 
+- **Command Whitelisting**: Only deterministic command strings explicitly formatted are dispatched.
 - **Ground Truth Grounding**: The system never asks the LLM "Did you finish this?". It asks the OS "Does this file exist and does `npm run build` exit code 0?".

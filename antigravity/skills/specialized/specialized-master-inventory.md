@@ -1680,7 +1680,7 @@ BusyBox is a single binary that implements many common Unix tools.
 
 Use this skill only on Windows. If you are on UNIX, then stop here.
 
-Run the following steps only if you cannot find a `busybox.exe` file in the same directory as this document is. 
+Run the following steps only if you cannot find a `busybox.exe` file in the same directory as this document is.
 These are PowerShell commands, if you have a classic `cmd.exe` terminal, then you must use `powershell -Command "..."` to run them.
 1. Print the type of CPU: `Get-CimInstance -ClassName Win32_Processor | Select-Object Name, NumberOfCores, MaxClockSpeed`
 2. Print the OS versions: `Get-ItemProperty "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion" | Select-Object ProductName, DisplayVersion, CurrentBuild`
@@ -9724,7 +9724,7 @@ Website appearance manipulation:
 </body>
 
 <!-- Image injection -->
-<img src="http://attacker.com/defaced.jpg" 
+<img src="http://attacker.com/defaced.jpg"
      style="position:fixed;top:0;left:0;width:100%;height:100%;z-index:9999">
 
 <!-- Marquee injection (visible movement) -->
@@ -9858,7 +9858,7 @@ payloads = [
 for payload in payloads:
     encoded = urllib.parse.quote(payload)
     url = f"{target}?{param}={encoded}"
-    
+
     try:
         response = requests.get(url, timeout=5)
         if payload.lower() in response.text.lower():
@@ -14705,7 +14705,7 @@ Does it need...?
 ├── Direct data fetching, no interactivity
 │   └── Server Component (default)
 │
-└── Both? 
+└── Both?
     └── Split: Server parent + Client child
 ```
 
@@ -17517,7 +17517,7 @@ AI: I'll scan your entire codebase and transform it to production-grade quality.
 
 Found 127 issues:
 - 🔴 CRITICAL: 8 issues
-- 🟠 HIGH: 23 issues  
+- 🟠 HIGH: 23 issues
 - 🟡 MEDIUM: 41 issues
 - 🔵 LOW: 55 issues
 
@@ -22084,9 +22084,9 @@ Use these pre-built keyword clusters for each concept.
 ```markdown
 ## What is a Closure in JavaScript?
 
-A **closure** is a function that retains access to variables from its outer 
-(enclosing) scope, even after that outer function has finished executing. 
-Closures are created every time a function is created in JavaScript, allowing 
+A **closure** is a function that retains access to variables from its outer
+(enclosing) scope, even after that outer function has finished executing.
+Closures are created every time a function is created in JavaScript, allowing
 inner functions to "remember" and access their lexical environment.
 ```
 
@@ -22117,12 +22117,12 @@ inner functions to "remember" and access their lexical environment.
 ```markdown
 <!-- In Prerequisites (Warning box) -->
 <Warning>
-**Prerequisite:** This guide assumes you understand [Promises](/concepts/promises) 
+**Prerequisite:** This guide assumes you understand [Promises](/concepts/promises)
 and the [Event Loop](/concepts/event-loop). Read those first if needed.
 </Warning>
 
 <!-- In Body Content (natural context) -->
-When the callback finishes, it's added to the task queue — managed by 
+When the callback finishes, it's added to the task queue — managed by
 the [event loop](/concepts/event-loop).
 
 <!-- In Related Concepts Section -->
@@ -23055,28 +23055,28 @@ def recon_organization(org_name):
         # Search for organization
         query = f'org:"{org_name}"'
         results = api.search(query)
-        
+
         print(f"[*] Found {results['total']} hosts for {org_name}")
-        
+
         # Collect unique IPs and ports
         hosts = {}
         for result in results['matches']:
             ip = result['ip_str']
             port = result['port']
             product = result.get('product', 'unknown')
-            
+
             if ip not in hosts:
                 hosts[ip] = []
             hosts[ip].append({'port': port, 'product': product})
-        
+
         # Output findings
         for ip, services in hosts.items():
             print(f"\n[+] {ip}")
             for svc in services:
                 print(f"    - {svc['port']}/tcp ({svc['product']})")
-        
+
         return hosts
-        
+
     except shodan.APIError as e:
         print(f"Error: {e}")
         return None
@@ -23339,7 +23339,7 @@ def handle_ticket_command(ack, body, client):
                     "element": {
                         "type": "static_select",
                         "action_id": "priority_select",
-   
+
 ```
 
 ### Block Kit UI Pattern
@@ -26393,7 +26393,7 @@ def menu_selection():
 
     elif digit == "3":
         # Voicemail
-        response.say("Please leave a message after 
+        response.say("Please leave a message after
 ```
 
 ## ⚠️ Sharp Edges
@@ -27194,4 +27194,3 @@ runas /user:Administrator cmd.exe
 | Token impersonation fails | Wrong privilege/version | Check `whoami /priv`; verify Windows version compatibility |
 | Can't find kernel exploit | System patched | Run Windows Exploit Suggester: `python wes.py systeminfo.txt` |
 | PowerShell blocked | Execution policy/AMSI | Use `powershell -ep bypass -c "cmd"` or `-enc <base64>` |
-

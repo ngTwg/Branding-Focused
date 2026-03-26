@@ -1,7 +1,7 @@
 # 📚 HƯỚNG DẪN SỬ DỤNG HỆ THỐNG SKILLS
 
-> **Dành cho:** Users và AI Agents  
-> **Version:** 2.0.0  
+> **Dành cho:** Users và AI Agents
+> **Version:** 2.0.0
 > **Last Updated:** 2024-01-15
 
 ---
@@ -396,6 +396,6 @@ KHI code:
 
 ---
 
-**Maintained by:** Antigravity Skills System  
-**Questions?** Check `MASTER_ROUTER.md` or individual skill files  
+**Maintained by:** Antigravity Skills System
+**Questions?** Check `MASTER_ROUTER.md` or individual skill files
 **Contributing:** Follow skill creation guidelines

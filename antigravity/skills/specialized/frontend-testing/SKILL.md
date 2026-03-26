@@ -97,10 +97,10 @@ describe('ComponentName', () => {
     it('should render without crashing', () => {
       // Arrange
       const props = { title: 'Test' }
-      
+
       // Act
       render(<Component {...props} />)
-      
+
       // Assert
       expect(screen.getByText('Test')).toBeInTheDocument()
     })
@@ -119,9 +119,9 @@ describe('ComponentName', () => {
     it('should handle click events', () => {
       const handleClick = vi.fn()
       render(<Component onClick={handleClick} />)
-      
+
       fireEvent.click(screen.getByRole('button'))
-      
+
       expect(handleClick).toHaveBeenCalledTimes(1)
     })
   })

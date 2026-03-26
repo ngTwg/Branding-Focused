@@ -71,4 +71,3 @@ Khi User gửi link Repo GitHub (hoặc screenshot), Agent PHẢI thực hiện:
 5. **Nội dung push.bat:** Chứa script tự động git add, git commit -m (với timestamp), và git push.
 6. **Bảo mật (Block-List):** Tự động thêm push.bat và các file nhạy cảm vào .gitignore. CẤM đẩy file push.bat lên Public GitHub.
 7. **Lưu ý:** Xem chi tiết tại ntigravity/skills/workflows/GITHUB_AUTOMATION_SKILL.md.
-

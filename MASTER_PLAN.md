@@ -1,7 +1,7 @@
 ﻿# 📋 MASTER PLAN - KẾ HOẠCH HOÀN THIỆN HỆ THỐNG SKILLS
 
-> **Mục tiêu:** Tổng hợp TẤT CẢ skills vào một hệ thống thống nhất, dễ quản lý, tiết kiệm token  
-> **Timeline:** Thực hiện từng bước một cách có hệ thống  
+> **Mục tiêu:** Tổng hợp TẤT CẢ skills vào một hệ thống thống nhất, dễ quản lý, tiết kiệm token
+> **Timeline:** Thực hiện từng bước một cách có hệ thống
 > **Status:** READY TO EXECUTE
 
 ---
@@ -226,8 +226,8 @@ Ví dụ:
 ```markdown
 # SKILL NAME
 
-> **Tier:** 1-4  
-> **Tags:** `[tag1, tag2, tag3]`  
+> **Tier:** 1-4
+> **Tags:** `[tag1, tag2, tag3]`
 > **Khi nào dùng:** Description
 
 ---
@@ -261,7 +261,7 @@ Table or list
 - skill1.md
 - skill2.md
 
-**Version:** 1.0.0  
+**Version:** 1.0.0
 **Last Updated:** 2024-01-15
 ```
 
@@ -275,7 +275,7 @@ Table or list
 ```markdown
 # GEMINI.md - QUY TẮC DỰ ÁN
 
-> **Phiên bản:** 3.0.0 - REFACTORED  
+> **Phiên bản:** 3.0.0 - REFACTORED
 > **Nguyên tắc:** Gọn nhẹ, chỉ chứa rules cơ bản
 
 ---
@@ -380,8 +380,8 @@ Tất cả skills được tổ chức trong `.ai-skills/`
 
 ---
 
-**Version:** 3.0.0  
-**Last Updated:** 2024-01-15  
+**Version:** 3.0.0
+**Last Updated:** 2024-01-15
 **Total Lines:** ~200 (vs 25,167 trước đây)
 ```
 
@@ -609,9 +609,7 @@ Hệ thống được coi là HOÀN THÀNH khi:
 
 ---
 
-**Created by:** Kiro AI Assistant  
-**Date:** 2024-01-15  
-**Status:** READY TO EXECUTE  
+**Created by:** Kiro AI Assistant
+**Date:** 2024-01-15
+**Status:** READY TO EXECUTE
 **Next Action:** Run inventory script
-
-

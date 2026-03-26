@@ -1,6 +1,6 @@
 # Tasks: Antigravity Final Polish v6.3.0
 
-> **Sprint:** 2-3 tuần  
+> **Sprint:** 2-3 tuần
 > **Focus:** Phase 1 Final Safety → Production Readiness
 
 ---
@@ -8,8 +8,8 @@
 ## 🚨 PHASE 1 FINAL SAFETY (P0 - BLOCKING)
 
 ### Task 1: HybridRetriever Properties ✅ COMPLETE
-**Priority:** P0  
-**Effort:** 2 hours (actual)  
+**Priority:** P0
+**Effort:** 2 hours (actual)
 **Blocking:** Phase 2 evolution
 
 **Subtasks:**
@@ -17,30 +17,30 @@
   - [x] Write Hypothesis test: results sorted by score
   - [x] Test with 50 random queries
   - [x] PASS - No violations
-  
+
 - [x] 1.2: Property P2 - Determinism ✅
   - [x] Write Hypothesis test: same query → same results
   - [x] Test score identity (< 1e-6 difference)
   - [x] PASS - Perfect determinism
-  
+
 - [x] 1.3: Property P3 - Top-k Correctness ✅
   - [x] Write Hypothesis test: returns at most top_k
   - [x] Test with k=1 to k=10
   - [x] PASS - Always respects limit
-  
+
 - [x] 1.4: Property P4 - Score Bounds ✅
   - [x] Write Hypothesis test: all scores in [0,1]
   - [x] Test bm25_norm, cosine_norm, final_score
   - [x] PASS - All normalized
-  
+
 - [x] 1.5: Property P5 - Non-empty Results ✅
   - [x] Test reasonable queries return results
   - [x] PASS - Never empty
-  
+
 - [x] 1.6: Property P6 - Domain Filter ✅
   - [x] Test domain filtering works
   - [x] PASS - Correct filtering
-  
+
 - [x] 1.7: Integration Test ✅
   - [x] All properties together
   - [x] PASS - System coherent
@@ -59,8 +59,8 @@
 ---
 
 ### Task 2: SLMRouter Properties ⏳ TODO
-**Priority:** P0  
-**Effort:** 1 hour  
+**Priority:** P0
+**Effort:** 1 hour
 **Blocking:** Phase 2 evolution
 
 **Subtasks:**
@@ -68,7 +68,7 @@
   - [ ] Write Hypothesis test: never exceed budget
   - [ ] Test with various budget constraints
   - [ ] Verify estimated_cost <= budget
-  
+
 - [x] 2.2: Property P2 - Quality Degradation Bounds
   - [ ] Write Hypothesis test: graceful quality tradeoff
   - [ ] Budget cut 50% → quality drop < 30%
@@ -86,8 +86,8 @@
 ---
 
 ### Task 3: Integration Test - Learning Convergence ⏳ TODO
-**Priority:** P0  
-**Effort:** 1 hour  
+**Priority:** P0
+**Effort:** 1 hour
 **Blocking:** Phase 2 evolution
 
 **Subtasks:**
@@ -95,12 +95,12 @@
   - [ ] Generate random patterns
   - [ ] Create test tasks
   - [ ] Mock feedback system
-  
+
 - [x] 3.2: Test learning loop
   - [ ] Run 5 tasks with feedback
   - [ ] Track pattern rankings
   - [ ] Verify successful patterns move up
-  
+
 - [x] 3.3: Test convergence
   - [ ] Run 20 iterations
   - [ ] Verify rankings stabilize
@@ -119,8 +119,8 @@
 ## 🔧 PRODUCTION READINESS (P1)
 
 ### Task 4: Tree-sitter Integration ⏳ TODO
-**Priority:** P1  
-**Effort:** 1-2 days  
+**Priority:** P1
+**Effort:** 1-2 days
 **Impact:** Better code verification
 
 **Subtasks:**
@@ -128,18 +128,18 @@
   - [ ] `pip install tree-sitter tree-sitter-python tree-sitter-javascript`
   - [ ] Build language parsers
   - [ ] Test basic parsing
-  
+
 - [x] 4.2: Create ASTAnalyzer
   - [ ] Parse Python code
   - [ ] Parse JavaScript/TypeScript code
   - [ ] Extract function signatures
   - [ ] Extract imports
-  
+
 - [x] 4.3: Integrate with Checker
   - [ ] Add `verify_python_ast()` method
   - [ ] Add `verify_js_ast()` method
   - [ ] Structured JSON output
-  
+
 - [x] 4.4: Write tests
   - [ ] Test valid code parsing
   - [ ] Test invalid code detection
@@ -159,8 +159,8 @@
 ---
 
 ### Task 5: SLM Model Benchmark ⏳ TODO
-**Priority:** P1  
-**Effort:** 1 day  
+**Priority:** P1
+**Effort:** 1 day
 **Impact:** Optimize routing
 
 **Subtasks:**
@@ -169,17 +169,17 @@
   - [ ] Pull Qwen2.5-3B-Instruct
   - [ ] Pull Llama-3.2-3B
   - [ ] Pull SmolLM2-1.7B
-  
+
 - [x] 5.2: Create benchmark suite
   - [ ] 100 routing tasks (varied complexity)
   - [ ] Ground truth labels
   - [ ] Evaluation metrics
-  
+
 - [x] 5.3: Run benchmarks
   - [ ] Measure accuracy
   - [ ] Measure latency
   - [ ] Measure memory usage
-  
+
 - [x] 5.4: Analyze results
   - [ ] Compare models
   - [ ] Choose best model
@@ -199,8 +199,8 @@
 ## 🚀 ADVANCED FEATURES (P2)
 
 ### Task 6: Reasoning Models Integration ⏳ TODO
-**Priority:** P2  
-**Effort:** 2-3 days  
+**Priority:** P2
+**Effort:** 2-3 days
 **Impact:** Handle complex tasks
 
 **Subtasks:**
@@ -208,17 +208,17 @@
   - [ ] Integrate o1-mini
   - [ ] Integrate o3-mini (when available)
   - [ ] Test API calls
-  
+
 - [x] 6.2: Implement cascading logic
   - [ ] Complexity scorer
   - [ ] Route simple → Sonnet
   - [ ] Route complex → o1
-  
+
 - [x] 6.3: Cost tracking
   - [ ] Track o1 usage
   - [ ] Compare costs
   - [ ] Optimize thresholds
-  
+
 - [x] 6.4: Write tests
   - [ ] Test cascading logic
   - [ ] Test cost tracking
@@ -286,6 +286,6 @@
 
 ---
 
-**Created:** 2026-03-26  
-**Sprint Start:** 2026-03-26  
+**Created:** 2026-03-26
+**Sprint Start:** 2026-03-26
 **Target Completion:** 2026-04-16

@@ -1,7 +1,7 @@
 # 📊 BÁO CÁO TIẾN ĐỘ: ĐỐI CHIẾU VỚI BẢN ĐÁNH GIÁ KIẾN TRÚC
 
-> **Ngày:** 2026-03-26  
-> **Version:** v6.2.0-SOLID-STATE  
+> **Ngày:** 2026-03-26
+> **Version:** v6.2.0-SOLID-STATE
 > **Mục đích:** Đối chiếu những gì đã code với bản review kiến trúc khắt khe
 
 ---
@@ -34,7 +34,7 @@ class HybridRetriever:
     2. Intent Semantic Match (dense embedding)
     3. Metadata filtering (domain tags)
     """
-    
+
     def retrieve(self, query: str, error_context: Optional[str]) -> List[Skill]:
         # Không đổ raw text vào prompt
         # Mà trả về Actionable Blueprint
@@ -100,7 +100,7 @@ class LLMClient:
     def __init__(self):
         # Wrap client với Instructor
         self.client = instructor.from_anthropic(anthropic.Anthropic())
-    
+
     def structured_call(self, prompt: str, response_model: Type[BaseModel]):
         """Bắt buộc trả về Pydantic model"""
         return self.client.chat.completions.create(
@@ -145,7 +145,7 @@ class TracingService:
     Unified tracing interface
     Hỗ trợ: Console, Langfuse, Phoenix
     """
-    
+
     def start_session(self, task_description: str) -> str:
         session_id = generate_ulid()
         self.active_sessions[session_id] = {
@@ -154,8 +154,8 @@ class TracingService:
             "runs": []
         }
         return session_id
-    
-    def log_llm_call(self, session_id: str, model: str, 
+
+    def log_llm_call(self, session_id: str, model: str,
                      prompt_tokens: int, completion_tokens: int):
         """Track mọi LLM call"""
         pass
@@ -200,31 +200,31 @@ LANGFUSE_SECRET_KEY = "sk-..."
 class Orchestrator:
     """
     Custom orchestrator - KHÔNG dùng LangGraph
-    
+
     Lý do:
     1. Cyclic workflow đơn giản: Execute → Check → Repair
     2. Zero technical debt
     3. 1/10 độ trễ so với framework
     4. Hoàn toàn kiểm soát được
     """
-    
+
     def execute_task(self, task: Task) -> Result:
         repair_attempts = 0
-        
+
         while repair_attempts <= MAX_REPAIR_ATTEMPTS:
             # 1. Execute
             result = self._execute(task)
-            
+
             # 2. Check (Deterministic)
             issues = self.checker.verify(result)
-            
+
             if not issues:
                 return result  # ← Success
-            
+
             # 3. Repair
             task = self._create_repair_task(issues)
             repair_attempts += 1
-        
+
         return self._fallback(task)
 ```
 
@@ -258,13 +258,13 @@ class Orchestrator:
 class SLMRouter:
     """
     Lightweight router - chạy local
-    
+
     Hỗ trợ:
     - Qwen2.5-3B-Instruct (recommended)
     - Llama-3.2-3B
     - SmolLM2-1.7B
     """
-    
+
     def route(self, task: str) -> RouteDecision:
         # Structured output qua Instructor
         return self.client.structured_call(
@@ -279,7 +279,7 @@ class SLMRouter:
 class LLMClient:
     """
     Abstract adapter - dễ dàng swap models
-    
+
     Providers:
     - Anthropic (Claude 3.5 Sonnet)
     - OpenAI (o1-mini, o3-mini)
@@ -314,17 +314,17 @@ class LLMClient:
 class DeterministicChecker:
     """
     Hiện tại: OS check, Bash check, File exist
-    
+
     Sẵn sàng plug-and-play:
     - py-tree-sitter (AST parsing)
     - Semgrep (pattern matching)
     """
-    
+
     def verify_bash_command(self, cmd: str) -> List[Issue]:
         """Kiểm tra syntax bash"""
         # Đã code xong
         pass
-    
+
     def verify_python_ast(self, code: str) -> List[Issue]:
         """TODO: Tree-sitter integration"""
         # Cổng đã mở sẵn
@@ -367,7 +367,7 @@ class LLMClient:
            - MASTER_ROUTER (~300 tokens)
            - Core principles (~200 tokens)
            Total: ~1000 tokens ← Đủ ngưỡng cache
-        
+
         2. Dynamic Suffix:
            - Task description
            - Retrieved skills
@@ -375,10 +375,10 @@ class LLMClient:
         """
         return f"""
         {self.STATIC_PREFIX}  # ← Cached
-        
+
         ## Current Task
         {task.description}  # ← Dynamic
-        
+
         ## Relevant Skills
         {self._format_skills(skills)}  # ← Dynamic
         """
@@ -581,6 +581,6 @@ Chúng ta đã code thực thi thành công **gần như toàn bộ những mũi
 
 ---
 
-**Maintained by:** Antigravity Architecture Team  
-**Last Updated:** 2026-03-26  
+**Maintained by:** Antigravity Architecture Team
+**Last Updated:** 2026-03-26
 **Version:** v6.2.0-SOLID-STATE

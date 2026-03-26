@@ -1,6 +1,6 @@
 # Phase 1 Final Safety Layer
 
-> **Status:** IN PROGRESS  
+> **Status:** IN PROGRESS
 > **Goal:** Protect the learning loop from noise and bias before Phase 2 evolution
 
 ---
@@ -9,7 +9,7 @@
 
 Phase 2 introduces:
 - Pattern mutation
-- Pattern deletion  
+- Pattern deletion
 - Pattern splitting
 
 If retrieval/routing is even slightly off, we get **self-reinforcing wrong patterns**—the system looks like it's learning but is actually drifting.
@@ -36,7 +36,7 @@ def test_better_match_not_worse_score(query, patterns):
     # Then score(A) >= score(B)
 ```
 
-#### P2: Stability  
+#### P2: Stability
 ```python
 @given(query=text(), small_variation=text())
 def test_small_input_small_ranking_change(query, small_variation):
@@ -100,17 +100,17 @@ def test_quality_degrades_gracefully(budget):
 ```python
 def test_learning_loop_convergence():
     """Pattern used → success → score increases"""
-    
+
     # 1. Start with random patterns
     initial_patterns = generate_random_patterns(10)
-    
+
     # 2. Run 5 tasks, mark successes
     for task in tasks:
         pattern = retriever.get_best(task)
         result = execute(pattern, task)
         if result.success:
             feedback.record_success(pattern.id, task.id)
-    
+
     # 3. Verify: successful patterns rank higher
     final_rankings = retriever.get_rankings()
     assert successful_patterns_moved_up(final_rankings)
@@ -121,7 +121,7 @@ def test_learning_loop_convergence():
 ## Implementation Order
 
 1. **HybridRetriever P1-P4** (2-3 hours)
-2. **SLMRouter P1-P2** (1 hour)  
+2. **SLMRouter P1-P2** (1 hour)
 3. **Integration test** (1 hour)
 
 **Total:** ~5 hours to bulletproof the foundation.
@@ -130,8 +130,8 @@ def test_learning_loop_convergence():
 
 ## Success Criteria
 
-✅ All 6 properties pass with Hypothesis  
-✅ Integration test shows learning convergence  
+✅ All 6 properties pass with Hypothesis
+✅ Integration test shows learning convergence
 ✅ No flaky failures over 100 runs
 
 **Then and only then:** Phase 2 is safe.

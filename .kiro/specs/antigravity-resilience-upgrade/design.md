@@ -58,7 +58,7 @@ class IndexManager:
     Lifecycle management cho HybridRetriever index.
     Prevents silent quality degradation.
     """
-    
+
     def __init__(
         self,
         skills_dir: Path,
@@ -71,33 +71,33 @@ class IndexManager:
         self._index_version = 0
         self._checksums: dict[str, str] = {}  # file -> SHA-256
         self._last_index_time: datetime | None = None
-    
+
     def detect_changes(self) -> list[str]:
         """
         Scan skills_dir và detect changed files.
         Returns: list of changed file paths.
         """
         ...
-    
+
     def mark_stale(self, file_paths: list[str]) -> None:
         """Mark embeddings as stale for given files."""
         ...
-    
+
     def get_stale_ratio(self) -> float:
         """Return ratio of stale embeddings (0.0-1.0)."""
         ...
-    
+
     def should_reindex(self) -> bool:
         """Check if re-index needed based on stale_threshold."""
         ...
-    
+
     def reindex(self, retriever: HybridRetriever) -> None:
         """
         Trigger incremental re-index.
         Only re-embed changed files.
         """
         ...
-    
+
     def get_health_metrics(self) -> dict:
         """
         Return index health metrics:
@@ -110,11 +110,11 @@ class IndexManager:
         }
         """
         ...
-    
+
     def save_checkpoint(self) -> None:
         """Save current index state to disk."""
         ...
-    
+
     def rollback_index(self, version: int) -> None:
         """Rollback to previous index version."""
         ...
@@ -178,13 +178,13 @@ class ErrorPrioritizer:
     Intelligent error prioritization và clustering.
     Prevents LLM context overload.
     """
-    
+
     PRIORITY_WEIGHTS = {
         "SyntaxError": 1,      # Highest priority
         "RuntimeError": 2,
         "LintWarning": 3       # Lowest priority
     }
-    
+
     def prioritize_errors(
         self,
         errors: list[str],
@@ -192,7 +192,7 @@ class ErrorPrioritizer:
     ) -> list[PrioritizedError]:
         """
         Sort errors by priority và return top-k.
-        
+
         Returns:
             List of PrioritizedError with:
             - error_text: str
@@ -201,26 +201,26 @@ class ErrorPrioritizer:
             - dependent_errors: list[str]
         """
         ...
-    
+
     def detect_error_chains(
         self,
         errors: list[str]
     ) -> dict[str, list[str]]:
         """
         Detect dependency chains: error A → causes error B.
-        
+
         Returns:
             {root_error: [dependent_errors]}
         """
         ...
-    
+
     def cluster_errors(
         self,
         errors: list[str]
     ) -> list[ErrorCluster]:
         """
         Group similar errors together.
-        
+
         Returns:
             List of ErrorCluster with:
             - cluster_type: str (e.g., "undefined_name")
@@ -228,7 +228,7 @@ class ErrorPrioritizer:
             - representative: str (example error)
         """
         ...
-    
+
     def estimate_context_size(
         self,
         errors: list[str]
@@ -243,25 +243,25 @@ class ErrorPrioritizer:
 def _classify_error(error_text: str) -> tuple[str, int]:
     """
     Classify error và assign priority.
-    
+
     Returns: (error_type, priority)
     """
     if "SyntaxError" in error_text or "invalid syntax" in error_text:
         return ("SyntaxError", 1)
-    
+
     if any(kw in error_text for kw in ["RuntimeError", "Exception", "Traceback"]):
         return ("RuntimeError", 2)
-    
+
     return ("LintWarning", 3)
 
 def _detect_import_chain(errors: list[str]) -> dict:
     """
     Detect: missing import → undefined name chain.
-    
+
     Example:
         Error 1: "ModuleNotFoundError: No module named 'foo'"
         Error 2: "NameError: name 'foo' is not defined"
-    
+
     → Error 1 is root cause, Error 2 is dependent
     """
     ...
@@ -273,25 +273,25 @@ def _detect_import_chain(errors: list[str]) -> dict:
 # In ASTAnalyzer.analyze()
 def analyze(self, targets: list[tuple[str, int]]) -> ASTContract:
     # ... existing code ...
-    
+
     # NEW: Prioritize errors
     prioritizer = ErrorPrioritizer()
     all_errors = [node.error_text for node in affected_nodes if node.error_text]
-    
+
     prioritized = prioritizer.prioritize_errors(all_errors, max_errors=3)
-    
+
     # Only include top-priority errors in contract
     contract.affected_nodes = [
-        node for node in affected_nodes 
+        node for node in affected_nodes
         if node.error_text in [p.error_text for p in prioritized]
     ]
-    
+
     contract.error_priority_info = {
         "total_errors": len(all_errors),
         "included_errors": len(prioritized),
         "root_causes": [p.error_text for p in prioritized if p.is_root_cause]
     }
-    
+
     return contract
 ```
 
@@ -310,7 +310,7 @@ class FailureMemory:
     Persistent memory of failed patches.
     Enables learning loop.
     """
-    
+
     def __init__(
         self,
         storage_path: Path,
@@ -321,7 +321,7 @@ class FailureMemory:
         self._ttl = timedelta(hours=ttl_hours)
         self._max_entries = max_entries
         self._memory: dict[str, FailureEntry] = {}
-    
+
     def record_failure(
         self,
         patch_content: str,
@@ -330,11 +330,11 @@ class FailureMemory:
     ) -> str:
         """
         Record a failed patch.
-        
+
         Returns: failure_id (hash of patch)
         """
         ...
-    
+
     def search_similar(
         self,
         current_error: str,
@@ -345,7 +345,7 @@ class FailureMemory:
         Uses cosine similarity on error embeddings.
         """
         ...
-    
+
     def extract_pattern(
         self,
         patch_content: str,
@@ -353,21 +353,21 @@ class FailureMemory:
     ) -> str:
         """
         Extract failure pattern from patch.
-        
+
         Examples:
         - "missing closing bracket in list comprehension"
         - "forgot to import module before use"
         - "incorrect indentation in function definition"
         """
         ...
-    
+
     def format_for_prompt(
         self,
         similar_failures: list[FailureEntry]
     ) -> str:
         """
         Format failure memory for LLM prompt injection.
-        
+
         Returns:
             [FAILURE MEMORY]
             Previous failed attempts:
@@ -375,15 +375,15 @@ class FailureMemory:
               Pattern: missing closing bracket
             - Patch Y caused RuntimeError: undefined variable
               Pattern: forgot to import module
-            
+
             AVOID similar patterns in your repair.
         """
         ...
-    
+
     def purge_expired(self) -> int:
         """Remove entries older than TTL. Returns count removed."""
         ...
-    
+
     def get_statistics(self) -> dict:
         """
         Return memory statistics:
@@ -395,11 +395,11 @@ class FailureMemory:
         }
         """
         ...
-    
+
     def persist(self) -> None:
         """Save memory to disk (JSON)."""
         ...
-    
+
     def load(self) -> None:
         """Load memory from disk."""
         ...
@@ -425,11 +425,11 @@ class FailureEntry:
 def _extract_syntax_pattern(error_text: str) -> str:
     """
     Extract pattern from syntax errors.
-    
+
     Examples:
         "SyntaxError: invalid syntax at line 12"
         → "invalid syntax"
-        
+
         "SyntaxError: unmatched ']' at line 5"
         → "unmatched closing bracket"
     """
@@ -439,17 +439,17 @@ def _extract_syntax_pattern(error_text: str) -> str:
         r"invalid syntax": "invalid syntax",
         r"unexpected indent": "incorrect indentation"
     }
-    
+
     for regex, pattern in patterns.items():
         if re.search(regex, error_text):
             return pattern
-    
+
     return "unknown syntax error"
 
 def _extract_semantic_pattern(patch_content: str, error_text: str) -> str:
     """
     Extract semantic pattern from patch + error.
-    
+
     Example:
         Patch adds: "result = foo.bar()"
         Error: "NameError: name 'foo' is not defined"
@@ -472,24 +472,24 @@ def replan_repair(
     # NEW: Record failure
     patch_content = self._extract_patch_from_plan(failed_plan)
     self.failure_memory.record_failure(patch_content, error_delta, self.session_id)
-    
+
     # NEW: Search similar failures
     similar_failures = self.failure_memory.search_similar(
         error_delta.errors_introduced[0] if error_delta.errors_introduced else "",
         top_k=3
     )
-    
+
     # NEW: Inject failure memory into prompt
     failure_context = self.failure_memory.format_for_prompt(similar_failures)
-    
+
     system_prompt = f'''You are the Targeted Repair Planner.
-    
+
 {failure_context}
 
 [ERROR DELTA ANALYSIS]
 ...
 '''
-    
+
     # ... rest of existing code ...
 ```
 
@@ -507,7 +507,7 @@ class BudgetStrategy:
     """
     Strategy pattern for budget-aware behavior.
     """
-    
+
     @dataclass
     class StrategyConfig:
         top_k_skills: int
@@ -515,7 +515,7 @@ class BudgetStrategy:
         max_prompt_tokens: int
         enable_repair_loop: bool
         prefer_slm: bool
-    
+
     STRATEGIES = {
         "green": StrategyConfig(
             top_k_skills=5,
@@ -539,7 +539,7 @@ class BudgetStrategy:
             prefer_slm=True
         )
     }
-    
+
     def __init__(
         self,
         budget_guard: BudgetGuard,
@@ -549,26 +549,26 @@ class BudgetStrategy:
         self._budget_guard = budget_guard
         self._yellow_threshold = yellow_threshold
         self._red_threshold = red_threshold
-    
+
     def get_current_zone(self) -> Literal["green", "yellow", "red"]:
         """Determine current budget zone."""
         status = self._budget_guard.get_status()
-        
+
         # Check token budget
         token_remaining_ratio = status.tokens_remaining / self._budget_guard._max_tokens
-        
+
         if token_remaining_ratio <= self._red_threshold:
             return "red"
         elif token_remaining_ratio <= self._yellow_threshold:
             return "yellow"
         else:
             return "green"
-    
+
     def get_strategy(self) -> StrategyConfig:
         """Get strategy config for current zone."""
         zone = self.get_current_zone()
         return self.STRATEGIES[zone]
-    
+
     def log_zone_transition(self, old_zone: str, new_zone: str) -> None:
         """Log when zone changes."""
         logger.warning(
@@ -591,30 +591,30 @@ def route_task(self, task_description, span) -> RouteDecision:
     if new_zone != self._current_zone:
         self.budget_strategy.log_zone_transition(self._current_zone, new_zone)
         self._current_zone = new_zone
-    
+
     strategy = self.budget_strategy.get_strategy()
-    
+
     # Apply strategy
     if strategy.prefer_slm and self.slm_router:
         # Try SLM first
         ...
-    
+
     # ... rest of routing logic ...
 
 # In Orchestrator.plan_execution()
 def plan_execution(self, task_description, route, span) -> ExecutionPlan:
     strategy = self.budget_strategy.get_strategy()
-    
+
     # Adjust retrieval based on strategy
     if strategy.enable_retrieval_expansion:
         skill = self.skill_store.retrieve(task_description, top_k=strategy.top_k_skills)
     else:
         skill = None  # Skip retrieval in degraded mode
-    
+
     # Truncate prompt if needed
     if len(system_prompt) > strategy.max_prompt_tokens * 4:  # rough estimate
         system_prompt = system_prompt[:strategy.max_prompt_tokens * 4]
-    
+
     # ... rest of planning logic ...
 ```
 
@@ -633,7 +633,7 @@ class HealthMonitor:
     Compute health score và derived metrics.
     Enable self-evaluation.
     """
-    
+
     def __init__(
         self,
         window_size: int = 10,  # last N tasks
@@ -647,7 +647,7 @@ class HealthMonitor:
         }
         self._task_history: deque[TaskMetrics] = deque(maxlen=window_size)
         self._baseline: BaselineMetrics | None = None
-    
+
     def record_task(
         self,
         success: bool,
@@ -658,11 +658,11 @@ class HealthMonitor:
     ) -> None:
         """Record metrics for completed task."""
         ...
-    
+
     def compute_health_score(self) -> float:
         """
         Compute system health score (0-100).
-        
+
         Formula:
             health_score = (
                 success_rate * 100
@@ -672,7 +672,7 @@ class HealthMonitor:
             )
         """
         ...
-    
+
     def get_derived_metrics(self) -> DerivedMetrics:
         """
         Compute derived metrics:
@@ -685,7 +685,7 @@ class HealthMonitor:
         }
         """
         ...
-    
+
     def categorize_health(self, score: float) -> str:
         """
         Categorize health score:
@@ -695,30 +695,30 @@ class HealthMonitor:
         - Poor: 0-39
         """
         ...
-    
+
     def detect_anomalies(self) -> list[str]:
         """
         Detect performance anomalies.
-        
+
         Returns: list of anomaly descriptions
         """
         ...
-    
+
     def suggest_actions(self) -> list[str]:
         """
         Suggest concrete improvement actions.
-        
+
         Examples:
         - "Consider re-indexing skills (stale_ratio=25%)"
         - "Review failed patches in session X"
         - "Budget entering Red zone frequently - increase limits?"
         """
         ...
-    
+
     def generate_report(self) -> str:
         """
         Generate self-evaluation report.
-        
+
         Format:
             [SELF-EVAL] Performance Report
             - Health Score: 78 (Good)
@@ -727,7 +727,7 @@ class HealthMonitor:
             - Top Strength: Low token usage (avg 2000/task)
         """
         ...
-    
+
     def establish_baseline(self) -> None:
         """
         Compute baseline from first 50 successful tasks.
@@ -780,18 +780,18 @@ finally:
         tokens_used=self.budget_guard._tokens_used,
         no_op_patch=no_op_detected
     )
-    
+
     # Compute health score every 10 tasks
     if self.health_monitor._task_history.count() % 10 == 0:
         score = self.health_monitor.compute_health_score()
         category = self.health_monitor.categorize_health(score)
         logger.info(f"[HEALTH] Score: {score:.1f} ({category})")
-        
+
         # Check for anomalies
         anomalies = self.health_monitor.detect_anomalies()
         if anomalies:
             logger.warning(f"[HEALTH] Anomalies detected: {anomalies}")
-        
+
         # Suggest actions
         suggestions = self.health_monitor.suggest_actions()
         if suggestions:
@@ -888,6 +888,6 @@ finally:
 
 ---
 
-**Version:** v6.2.0-RESILIENCE-UPGRADE  
-**Philosophy:** Observable → Self-Evaluable → Self-Improving  
+**Version:** v6.2.0-RESILIENCE-UPGRADE
+**Philosophy:** Observable → Self-Evaluable → Self-Improving
 **Target:** Autonomous debugging runtime with learning capability

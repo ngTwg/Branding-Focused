@@ -25,7 +25,7 @@ cp KIRO.md .kiro/steering/antigravity.md
 Gemini CLI → High-level plan
   ↓
 Kiro → Chuyển thành spec (Requirements → Design → Tasks)
-  ↓  
+  ↓
 Kiro Agent → Implement từng task
   ↓
 Gemini CLI → Review và verify

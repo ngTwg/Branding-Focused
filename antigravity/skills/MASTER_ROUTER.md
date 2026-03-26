@@ -1,6 +1,6 @@
 ﻿# 🧭 MASTER SKILLS ROUTER - SIÊU ĐIỀU PHỐI (250+ SKILLS)
- 
-> **MỤC ĐÍCH:** Bộ não trung tâm điều phối và truy cập kho trí tuệ 250+ kỹ năng.  
+
+> **MỤC ĐÍCH:** Bộ não trung tâm điều phối và truy cập kho trí tuệ 250+ kỹ năng.
 > **QUY TẮC:** AI PHẢI đọc file này TRƯỚC khi thực hiện bất kỳ task nào.
 > **CẬP NHẬT:** 2024-03-24 (v4.0.0 - SUPER-ROUTER)
 
@@ -96,8 +96,8 @@ Với kho 250+ skills, AI cần tuân thủ quy trình truy xuất "2 Tầng":
 
 ---
 
-**Version:** 4.0.0 (Super-Router)  
-**Last Updated:** 2024-03-24  
+**Version:** 4.0.0 (Super-Router)
+**Last Updated:** 2024-03-24
 **Maintained by:** Antigravity AI Skills Brain
 
 ### 🚨 QUY TẮC DỌN DẸP (CLEANUP-BY-DEFAULT)
@@ -130,4 +130,3 @@ Một Agent chuyên nghiệp không để lại file rác. Agent PHẢI chủ đ
   - Computer Use, Visual QA, OS Navigation, Hardware-in-the-loop (EQ, EX)
   - Financial Autonomy, Price Arbitrage, Predictive Cache (ER, FA, EV, FB)
 - **Common Tags:** [Cognition, Evolution, Swarm, Memory, Safety, Economics, Predictive]
-

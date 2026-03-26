@@ -41,6 +41,51 @@
 
 ## 🏗️ KIẾN TRÚC HỆ THỐNG (SYSTEM ARCHITECTURE)
 
+### 🔄 E2E Autonomous Loop Closure (Chu trình Hoạt động)
+```mermaid
+graph TD
+    A[User Request / Error Detection] --> B[Master Router: Logic & Tier Analysis]
+    B --> C{Decision Engine}
+    C -->|Complex| D[Decompose: sub-tasks & planning]
+    C -->|Simple| E[Direct Execution]
+    D --> F[Execute: Code / Fix / Creative]
+    E --> F
+    F --> G[Verification: Lint / Test / Proof]
+    G -->|Fail| H[Self-Healing Loop: Analyze & Retry]
+    H --> F
+    G -->|Pass| I[Context Pruning & Clean Up]
+    I --> J[Hive-Sync: RPGITHUB Sync & Documentation]
+    J --> K[Task Completed]
+```
+
+### 🌐 Hive-Mind Synchronization Architecture
+```mermaid
+graph LR
+    subgraph "Local Environment (Private)"
+        Cursor[.cursorrules]
+        Claude[CLAUDE.md]
+        Roo[ROO.md]
+    end
+
+    subgraph "Orchestration Layer"
+        MASTER_ROUTER[MASTER_ROUTER.md]
+        CORE_RULES[ANTIGRAVITY_CORE_RULES.md]
+        GEMINI[GEMINI.md]
+    end
+
+    subgraph "Global Repository (Public)"
+        RPGITHUB[ngTwg/Branding-Focused-Skills]
+    end
+
+    Local -->|Injects Awareness| MASTER_ROUTER
+    MASTER_ROUTER -->|Syncs Rules| CORE_RULES
+    CORE_RULES -->|Propagates| GEMINI
+    CORE_RULES -->|Triggers| RPGITHUB
+    RPGITHUB -->|Mirroring & PII Scrubbing| RPGITHUB
+```
+
+### 📦 Project Structure
+
 ```text
 📦 antigravity-ai-skills (RPGITHUB - Public Mirror)
  ┣ 📜 README.md                          ← (Bạn đang đọc file này)
@@ -195,16 +240,16 @@ MIT License — Xem chi tiết tại [LICENSE](LICENSE).
 
 <div align="center">
 
-**Maintained by:** Antigravity Skills System 🌌  
-**Version:** 6.2.0 (Solid-State)  
-**Last Updated:** 2026-03-26  
+**Maintained by:** Antigravity Skills System 🌌
+**Version:** 6.2.0 (Solid-State)
+**Last Updated:** 2026-03-26
 **Total Skills:** 250+ | **Agents Supported:** 10+
 
 *"Don't chat with AI. Give it a proper Brain with E2E Autonomy."*
 
 ---
 
-**⭐ Star this repo if you find it useful!**  
+**⭐ Star this repo if you find it useful!**
 **🔄 Fork it to customize for your team!**
 
 </div>

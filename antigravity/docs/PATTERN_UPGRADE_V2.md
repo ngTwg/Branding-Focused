@@ -241,7 +241,7 @@ class FailureEntry:
     pattern: FailurePattern
     lesson: FailureLesson
     frequency: int = 1
-    
+
     # v2: Effectiveness tracking
     times_injected: int = 0  # How many times this lesson was shown
     times_helped: int = 0    # How many times it prevented same error

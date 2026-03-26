@@ -1,6 +1,6 @@
 # FailureMemory Design - Data Shape Definition
 
-**Critical:** This document defines the **shape** of learning loop, not just architecture.  
+**Critical:** This document defines the **shape** of learning loop, not just architecture.
 **Philosophy:** Structured learning system, NOT log storage.
 
 ---
@@ -12,7 +12,7 @@ Raw Logs → Patterns → Lessons → LLM Injection
    ❌         ✅         ✅          ✅
 ```
 
-**Wrong:** Store patch + error message (LLM learns nothing)  
+**Wrong:** Store patch + error message (LLM learns nothing)
 **Right:** Extract semantic patterns + strategic lessons (LLM learns to avoid)
 
 ---
@@ -43,20 +43,20 @@ class FailureSurface:
 @dataclass
 class FailurePattern:
     """Extracted semantic pattern - why it failed"""
-    
+
     # Pattern identification
     pattern_type: Literal[
         "syntax_error",
-        "runtime_error", 
+        "runtime_error",
         "no_op_patch",
         "import_missing",
         "type_mismatch",
         "logic_error"
     ]
-    
+
     # Root cause
     cause: str  # e.g., "missing import", "incorrect indentation"
-    
+
     # Location context
     location: Literal[
         "top_of_file",      # imports, globals
@@ -64,13 +64,13 @@ class FailurePattern:
         "class_definition",
         "end_of_file"
     ]
-    
+
     # Action that caused failure
     action: str  # e.g., "added function without import dependency"
-    
+
     # Affected symbols
     symbols: list[str]  # e.g., ["foo", "bar"]
-    
+
     # Pattern signature (for dedup)
     signature: str  # hash of (pattern_type, cause, location)
 ```
@@ -87,16 +87,16 @@ Without this → learning loop is useless.
 @dataclass
 class FailureLesson:
     """Strategic lesson - what to do differently"""
-    
+
     # What to avoid
     avoid: str  # e.g., "adding new symbol without checking imports"
-    
+
     # What to prefer instead
     prefer: str  # e.g., "modify existing function instead of adding new one"
-    
+
     # Confidence (based on frequency)
     confidence: float  # 0.0-1.0
-    
+
     # Applicability context
     applies_to: list[str]  # e.g., ["python", "import_statements"]
 ```
@@ -115,14 +115,14 @@ class PatternExtractor:
     Extract semantic patterns from raw failures.
     Rule-based first, ML later.
     """
-    
+
     def extract(
         self,
         surface: FailureSurface
     ) -> FailurePattern:
         """
         Main extraction pipeline.
-        
+
         Pipeline:
             1. Classify error type
             2. Extract cause
@@ -132,25 +132,25 @@ class PatternExtractor:
             6. Compute signature
         """
         error_text = surface.error_delta.errors_introduced[0] if surface.error_delta.errors_introduced else ""
-        
+
         # Step 1: Classify
         pattern_type = self._classify_error_type(error_text)
-        
+
         # Step 2: Extract cause
         cause = self._extract_cause(error_text, pattern_type)
-        
+
         # Step 3: Determine location
         location = self._determine_location(surface.patch_diff, error_text)
-        
+
         # Step 4: Identify action
         action = self._identify_action(surface.patch_diff, pattern_type)
-        
+
         # Step 5: Extract symbols
         symbols = self._extract_symbols(surface.patch_diff, error_text)
-        
+
         # Step 6: Compute signature
         signature = self._compute_signature(pattern_type, cause, location)
-        
+
         return FailurePattern(
             pattern_type=pattern_type,
             cause=cause,
@@ -178,7 +178,7 @@ def _rule_missing_import(error_text: str, patch_diff: str) -> FailurePattern | N
         match = re.search(r"name '(\w+)' is not defined", error_text)
         if match:
             symbol = match.group(1)
-            
+
             # Check if symbol appears in patch but no import added
             if symbol in patch_diff and "import" not in patch_diff:
                 return FailurePattern(
@@ -216,7 +216,7 @@ def _rule_unmatched_bracket(error_text: str, patch_diff: str) -> FailurePattern 
             bracket_type = "parenthesis"
         else:
             bracket_type = "bracket"
-        
+
         return FailurePattern(
             pattern_type="syntax_error",
             cause=f"unmatched {bracket_type}",
@@ -484,7 +484,7 @@ class FailureMemoryRetriever:
     Intelligent retrieval of relevant failures.
     Similar to HybridRetriever but for patterns.
     """
-    
+
     def search_relevant(
         self,
         current_task: str,
@@ -493,17 +493,17 @@ class FailureMemoryRetriever:
     ) -> list[tuple[FailurePattern, FailureLesson, float]]:
         """
         Search for relevant past failures.
-        
+
         Ranking factors:
         1. Pattern type match (syntax vs runtime)
         2. Cause similarity (keyword matching)
         3. Recency (newer = more relevant)
         4. Frequency (common patterns = more important)
-        
+
         Returns: [(pattern, lesson, relevance_score)]
         """
         candidates = []
-        
+
         for entry in self._memory.values():
             score = self._compute_relevance(
                 entry.pattern,
@@ -511,12 +511,12 @@ class FailureMemoryRetriever:
                 current_error
             )
             candidates.append((entry.pattern, entry.lesson, score))
-        
+
         # Sort by relevance score descending
         candidates.sort(key=lambda x: x[2], reverse=True)
-        
+
         return candidates[:top_k]
-    
+
     def _compute_relevance(
         self,
         pattern: FailurePattern,
@@ -525,7 +525,7 @@ class FailureMemoryRetriever:
     ) -> float:
         """
         Compute relevance score (0.0-1.0).
-        
+
         Factors:
         - Pattern type match: +0.4
         - Cause keyword match: +0.3
@@ -533,25 +533,25 @@ class FailureMemoryRetriever:
         - Recency: +0.1
         """
         score = 0.0
-        
+
         # Pattern type match
         if pattern.pattern_type in error.lower():
             score += 0.4
-        
+
         # Cause keyword match
         cause_keywords = pattern.cause.lower().split()
         if any(kw in error.lower() for kw in cause_keywords):
             score += 0.3
-        
+
         # Symbol overlap
         if pattern.symbols:
             task_words = set(task.lower().split())
             symbol_overlap = len(set(pattern.symbols) & task_words)
             score += 0.2 * (symbol_overlap / len(pattern.symbols))
-        
+
         # Recency (placeholder - would use timestamp)
         score += 0.1
-        
+
         return min(score, 1.0)
 ```
 
@@ -566,7 +566,7 @@ class FailureMemoryStore:
     """
     Persistent storage with TTL, dedup, and frequency tracking.
     """
-    
+
     def __init__(
         self,
         storage_path: Path,
@@ -576,11 +576,11 @@ class FailureMemoryStore:
         self._storage_path = storage_path
         self._ttl = timedelta(days=ttl_days)
         self._max_entries = max_entries
-        
+
         # In-memory index
         self._by_signature: dict[str, FailureEntry] = {}  # dedup
         self._by_frequency: dict[str, int] = {}           # count
-    
+
     def store(
         self,
         surface: FailureSurface,
@@ -594,7 +594,7 @@ class FailureMemoryStore:
         if pattern.signature in self._by_signature:
             # Increment frequency
             self._by_frequency[pattern.signature] += 1
-            
+
             # Update lesson confidence based on frequency
             existing = self._by_signature[pattern.signature]
             existing.lesson.confidence = min(
@@ -610,11 +610,11 @@ class FailureMemoryStore:
             )
             self._by_signature[pattern.signature] = entry
             self._by_frequency[pattern.signature] = 1
-        
+
         # Enforce max entries (LRU eviction)
         if len(self._by_signature) > self._max_entries:
             self._evict_oldest()
-    
+
     def purge_expired(self) -> int:
         """Remove entries older than TTL."""
         now = datetime.now()
@@ -622,11 +622,11 @@ class FailureMemoryStore:
             sig for sig, entry in self._by_signature.items()
             if now - entry.surface.timestamp > self._ttl
         ]
-        
+
         for sig in expired:
             del self._by_signature[sig]
             del self._by_frequency[sig]
-        
+
         return len(expired)
 ```
 
@@ -642,23 +642,23 @@ def format_for_prompt(
 ) -> str:
     """
     Format failures for LLM prompt injection.
-    
+
     Focus on LESSONS, not raw data.
     """
     if not relevant_failures:
         return ""
-    
+
     lines = ["[FAILURE MEMORY - LEARN FROM PAST MISTAKES]"]
     lines.append("Previous failed attempts with similar patterns:\n")
-    
+
     for i, (pattern, lesson, score) in enumerate(relevant_failures, 1):
         lines.append(f"{i}. Pattern: {pattern.cause} ({pattern.pattern_type})")
         lines.append(f"   ❌ AVOID: {lesson.avoid}")
         lines.append(f"   ✅ PREFER: {lesson.prefer}")
         lines.append(f"   Confidence: {lesson.confidence:.0%}\n")
-    
+
     lines.append("Apply these lessons to your repair strategy.")
-    
+
     return "\n".join(lines)
 ```
 
@@ -774,7 +774,7 @@ LLM Repair (learns from past)
 
 ---
 
-**Status:** SHAPE LOCKED ✅  
-**Ready to code:** YES  
-**Risk of refactor:** MINIMAL (shape is correct)  
+**Status:** SHAPE LOCKED ✅
+**Ready to code:** YES
+**Risk of refactor:** MINIMAL (shape is correct)
 **Next:** Implement Day 1-2 (Core Pipeline)

@@ -1,8 +1,8 @@
 # RPGITHUB SYNC SUMMARY
 
-**Version:** 6.2.0  
-**Date:** 1774529898.2440429  
-**Source:** Local Workspace  
+**Version:** 6.2.0
+**Date:** 1774529898.2440429
+**Source:** Local Workspace
 **Target:** RPGITHUB (Public Repository)
 
 ## Changes

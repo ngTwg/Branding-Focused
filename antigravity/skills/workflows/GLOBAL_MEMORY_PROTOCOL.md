@@ -26,7 +26,7 @@
 ---
 
 ## 3. CROSS-AGENT SWARM LINKAGE (Liên Minh Đặc Vụ)
-- **Kế thừa trạng thái (Hand-off):** Mọi Agent (dù chạy trong Cursor, VS Code, hay Terminal) đang dùng chung một hệ thống thư mục não bộ bộ `antigravity`. 
+- **Kế thừa trạng thái (Hand-off):** Mọi Agent (dù chạy trong Cursor, VS Code, hay Terminal) đang dùng chung một hệ thống thư mục não bộ bộ `antigravity`.
 - Khi Agent A (vd: Copilot) không giải quyết được vấn đề, Agent B (vd: Claude/Cline) có thể được gọi vào. Agent B chỉ cần đọc file Log gần nhất của Agent A tại `conversations/<Agent_A>/...` để nắm bắt y hệt bối cảnh mà không cần User phải copy/paste giải thích lại từ đầu.
 
 *Quy tắc này biến tất cả các công cụ AI rời rạc trên máy tính thành một Siêu Máy Tính Thống Nhất (Singularity Node).*

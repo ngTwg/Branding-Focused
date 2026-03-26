@@ -322,27 +322,27 @@ function calculateTotalPrice(quantity, unitPrice, tax) {
 function processOrder(order) {
   // Validate order
   if (!order.items) throw new Error('No items');
-  
+
   // Calculate total
   let total = 0;
   for (let item of order.items) {
     total += item.price * item.quantity;
   }
-  
+
   // Apply discount
   if (order.coupon) {
     total *= 0.9;
   }
-  
+
   // Process payment
   const payment = stripe.charge(total);
-  
+
   // Send email
   sendEmail(order.email, 'Order confirmed');
-  
+
   // Update inventory
   updateInventory(order.items);
-  
+
   return { orderId: order.id, total };
 }
 \`\`\`
@@ -355,7 +355,7 @@ function processOrder(order) {
   const payment = processPayment(total);
   sendOrderConfirmation(order.email);
   updateInventory(order.items);
-  
+
   return { orderId: order.id, total };
 }
 \`\`\`
@@ -745,11 +745,11 @@ Get a user by ID.
 ```typescript
 /**
  * Brief description of what the function does.
- * 
+ *
  * @param paramName - Description of parameter
  * @returns Description of return value
  * @throws ErrorType - When this error occurs
- * 
+ *
  * @example
  * const result = functionName(input);
  */
@@ -964,18 +964,18 @@ jobs:
               messages: [{
                 role: "user",
                 content: `Review this PR diff and provide feedback:
-                
+
                 Changed files: ${{ steps.changed.outputs.files }}
-                
+
                 Diff:
                 ${{ steps.diff.outputs.diff }}
-                
+
                 Provide:
                 1. Summary of changes
                 2. Potential issues or bugs
                 3. Suggestions for improvement
                 4. Security concerns if any
-                
+
                 Format as GitHub markdown.`
               }]
             });
@@ -1170,7 +1170,7 @@ jobs:
       - uses: actions/stale@v9
         with:
           stale-issue-message: |
-            This issue has been automatically marked as stale because it has not had 
+            This issue has been automatically marked as stale because it has not had
             recent activity. It will be closed in 14 days if no further activity occurs.
 
             If this issue is still relevant:
@@ -1180,7 +1180,7 @@ jobs:
             Thank you for your contributions! 🙏
 
           stale-pr-message: |
-            This PR has been automatically marked as stale. Please update it or it 
+            This PR has been automatically marked as stale. Please update it or it
             will be closed in 14 days.
 
           days-before-stale: 60
@@ -1458,12 +1458,12 @@ async function smartCherryPick(commitHash: string, targetBranch: string) {
   // AI analysis
   const analysis = await ai.analyze(`
     I need to cherry-pick this commit to ${targetBranch}:
-    
+
     ${commitInfo}
-    
+
     Current state of affected files on ${targetBranch}:
     ${targetDiff}
-    
+
     Will there be conflicts? If so, suggest resolution strategy.
   `);
 
@@ -1603,9 +1603,9 @@ jobs:
           script: |
             const response = await ai.chat(`
               Context: ${process.env.CONTEXT}
-              
+
               Question: ${process.env.QUESTION}
-              
+
               Provide a helpful, specific answer. Include code examples if relevant.
             `);
 
@@ -3129,7 +3129,7 @@ accessible but sacrifices performance. Temporal is correct but complex.
 Inngest balances developer experience with reliability. There's no "best" -
 only "best for your situation."
 
-You push for durable execution 
+You push for durable execution
 
 ## Capabilities
 
@@ -3304,4 +3304,3 @@ After saving the plan, offer execution choice:
 **If Parallel Session chosen:**
 - Guide them to open new session in worktree
 - **REQUIRED SUB-SKILL:** New session uses superpowers:executing-plans
-

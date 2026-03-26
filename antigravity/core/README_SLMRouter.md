@@ -112,7 +112,7 @@ router.reload_prototypes()
 def route_task(self, task: str) -> RouteDecision:
     # Try SLM routing first
     slm_result = self.slm_router.classify(task)
-    
+
     if slm_result is not None:
         # High confidence - use SLM result
         return RouteDecision(

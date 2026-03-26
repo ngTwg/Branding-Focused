@@ -1,7 +1,7 @@
 # GREEN COMPUTING & CARBON-AWARE SCHEDULING
 
-> **Tier:** 3-4 (Advanced/Deep)  
-> **Tags:** `[Green Computing, Carbon-Aware, Energy, Sustainability, Power]`  
+> **Tier:** 3-4 (Advanced/Deep)
+> **Tags:** `[Green Computing, Carbon-Aware, Energy, Sustainability, Power]`
 > **Khi nào dùng:** Tối ưu tiêu thụ điện năng, carbon-aware workloads, battery optimization
 
 ---
@@ -116,7 +116,7 @@ async function getCarbonIntensity(location: string): Promise<CarbonIntensity> {
 class CarbonAwareScheduler {
   async scheduleJob(job: Job) {
     const regions = ['us-west', 'eu-west', 'asia-east'];
-    
+
     // Get carbon intensity for all regions
     const intensities = await Promise.all(
       regions.map(r => getCarbonIntensity(r))
@@ -225,7 +225,7 @@ class BatteryAwareSync {
     while (true) {
       try {
         await this.syncData();
-        
+
         // Success - reset interval
         this.syncInterval = 60 * 1000;
       } catch (error) {
@@ -244,7 +244,7 @@ class BatteryAwareSync {
     // Check battery level before sync
     if ('getBattery' in navigator) {
       const battery = await (navigator as any).getBattery();
-      
+
       if (battery.level < 0.2 && !battery.charging) {
         // Low battery - skip non-critical sync
         console.log('Low battery - skipping sync');
@@ -290,10 +290,10 @@ class AdaptiveBehavior {
   private enablePowerSavingMode() {
     // Reduce animation
     document.body.classList.add('power-saving');
-    
+
     // Reduce sync frequency
     this.syncInterval = 10 * 60 * 1000; // 10 minutes
-    
+
     // Disable auto-play videos
     this.disableAutoPlay();
   }
@@ -364,11 +364,11 @@ interface EnergyMetrics {
 }
 
 function calculateCarbonEmissions(metrics: EnergyMetrics): number {
-  const totalEnergyKWh = 
+  const totalEnergyKWh =
     (metrics.cpuEnergyJoules + metrics.gpuEnergyJoules) / 3600000;
-  
+
   const carbonGrams = totalEnergyKWh * metrics.carbonIntensity;
-  
+
   return carbonGrams;
 }
 
@@ -439,5 +439,5 @@ Consider:
 - `devops/cloud-services.md` - Cloud auto-scaling
 - `frontend/web-performance.md` - Frontend optimization
 
-**Version:** 1.0.0  
+**Version:** 1.0.0
 **Last Updated:** 2024-01-15
