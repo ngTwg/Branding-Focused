@@ -34,15 +34,32 @@ class LLMClient:
     }
     
     def __init__(self, tracer, provider_client=None):
+        from dotenv import load_dotenv
+        load_dotenv()
         self.tracer = tracer
         if provider_client:
             self.client = provider_client
+        elif os.environ.get("GOOGLE_API_KEY"):
+            # Native Google Gemini support if API key found (Requirement 5.9)
+            import google.generativeai as genai
+            self.api_key = os.environ.get("GOOGLE_API_KEY")
+            genai.configure(api_key=os.environ.get("GOOGLE_API_KEY"))
+            # Use instructor wrapper for gemini (structured output support)
+            try:
+                self.client = instructor.from_gemini(
+                    client=genai.GenerativeModel(
+                        model_name=os.environ.get("GEMINI_MODEL", "gemini-1.5-flash-latest")
+                    )
+                )
+            except Exception as e:
+                print(f"[LLM_CLIENT] Warning: Failed to hook instructor to gemini: {e}")
+                self.client = None
         elif instructor and OpenAI:
             # Fallback to default OpenAI setup mapped through Instructor
             self.client = instructor.from_openai(OpenAI())
         else:
             self.client = None
-            print("[LLM_CLIENT] Warning: openai or instructor package not found.")
+            print("[LLM_CLIENT] Warning: No LLM Provider (Google/OpenAI/Anthropic) available.")
         
         # Prefix caching support (Requirement 5)
         self._static_prefix: str | None = None

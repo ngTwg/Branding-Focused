@@ -1,8 +1,8 @@
-# 📋 INDEX SKILLS - SIÊU HỆ THỐNG 250+ SKILLS
+# 📋 INDEX SKILLS - SIÊU HỆ THỐNG ~1,999 SKILLS
  
 > **Mục đích:** Danh sách TOÀN DIỆN & TỐI ƯU của hệ thống Antigravity Skills  
-> **Cập nhật:** 2024-03-24 (v4.0.0 - SUPER-SYSTEM)
-> **Tổng số:** 250+ skills (Đã quy hoạch & Tổng hợp)
+> **Cập nhật:** 2026-03-30 (v6.0.0 - UNIFIED SYSTEM)
+> **Tổng số:** ~1,999 skills (Đã merge ngTwg + sickn33)
 
 ---
 
@@ -11,13 +11,15 @@
 1. **Master Inventories (Tầng nén):** 100% nội dung của các skills đơn lẻ được nén vào 1 file duy nhất cho mỗi Category. AI đọc 1 file = Nạp hàng trăm kỹ năng.
 2. **Heavy Skills (Tầng Folder):** Các skills phức tạp có chứa Scripts, Assets, hoặc Tools đi kèm được giữ nguyên cấu trúc Folder để hoạt động đầy đủ tính năng.
 
+**Tất cả ~1,999 skills đã được merge vào antigravity/skills/ - không còn external layer.**
+
 ---
 
-## 🎨 FRONTEND (20+ skills)
+## 🎨 FRONTEND (72+ skills)
 
 | Resource | Type | Description |
 |----------|------|-------------|
-| **[frontend-master-inventory.md](./frontend/frontend-master-inventory.md)** | **Master** | **Gồm 17+ skills:** Design, CRO, Styling, UX Patterns, v.v. |
+| **[frontend-master-inventory.md](./frontend/frontend-master-inventory.md)** | **Master** | **Gồm 72+ skills:** Design, CRO, Styling, UX Patterns, NextJS, Flutter, Mobile, v.v. |
 | [canvas-design/](./frontend/canvas-design/) | Folder | Thiết kế Canvas cao cấp |
 | [frontend-design/](./frontend/frontend-design/) | Folder | Quy trình thiết kế Frontend chuyên sâu |
 | [mobile-design/](./frontend/mobile-design/) | Folder | Thiết kế UI/UX cho di động |
@@ -28,22 +30,22 @@
 
 ---
 
-## ⚙️ BACKEND (25+ skills)
+## ⚙️ BACKEND (75+ skills)
 
 | Resource | Type | Description |
 |----------|------|-------------|
-| **[backend-master-inventory.md](./backend/backend-master-inventory.md)** | **Master** | **Gồm 15+ skills:** Node.js, API Patterns, Databases, Auth, v.v. |
+| **[backend-master-inventory.md](./backend/backend-master-inventory.md)** | **Master** | **Gồm 75+ skills:** Node.js, API Patterns, Databases, Auth, Serverless, Edge, v.v. |
 | [api-patterns/](./backend/api-patterns/) | Folder | Scripts & Examples thiết kế API |
 | [typescript-expert/](./backend/typescript-expert/) | Folder | Nâng cao kỹ năng TS & Type safety |
 | [algorithmic-art/](./backend/algorithmic-art/) | Folder | Thuật toán sinh hình ảnh & Art |
 
 ---
 
-## 🔒 SECURITY (40+ skills)
+## 🔒 SECURITY (27+ skills)
 
 | Resource | Type | Description |
 |----------|------|-------------|
-| **[security-master-inventory.md](./security/security-master-inventory.md)** | **Master** | **Gồm 30+ skills:** Pentest, Malware, Web Vulnerabilities, v.v. |
+| **[security-master-inventory.md](./security/security-master-inventory.md)** | **Master** | **Gồm 27+ skills:** Pentest, Malware, Web Vulnerabilities, Zero-Trust, v.v. |
 | [active-directory-attacks/](./security/active-directory-attacks/) | Folder | Tấn công & Phòng thủ Active Directory |
 | [aws-penetration-testing/](./security/aws-penetration-testing/) | Folder | Bảo mật AWS Cloud |
 | [cloud-penetration-testing/](./security/cloud-penetration-testing/) | Folder | Tổng hợp kỹ năng Pentest Cloud |
@@ -51,11 +53,11 @@
 
 ---
 
-## 🔄 WORKFLOWS (50+ skills)
+## 🔄 WORKFLOWS (44+ skills)
 
 | Resource | Type | Description |
 |----------|------|-------------|
-| **[workflows-master-inventory.md](./workflows/workflows-master-inventory.md)** | **Master** | **Gồm 25+ skills:** Planning, TDD, Git, Systematic Debugging, v.v. |
+| **[workflows-master-inventory.md](./workflows/workflows-master-inventory.md)** | **Master** | **Gồm 44+ skills:** Planning, TDD, Git, Systematic Debugging, v.v. |
 | [git-pushing/](./workflows/git-pushing/) | Folder | Tự động hoá Git workflow |
 | [lint-and-validate/](./workflows/lint-and-validate/) | Folder | Kiểm tra & Validate code tự động |
 | [performance-profiling/](./workflows/performance-profiling/) | Folder | Đo lường hiệu năng chuyên sâu |
@@ -65,33 +67,33 @@
 
 ---
 
-## 🧠 DEEP TECH & AGENTS (20+ skills)
+## 🧠 DEEP TECH & AGENTS (52+ skills)
 
 | Resource | Type | Description |
 |----------|------|-------------|
-| [autonomous-cognition-inventory.md](file:///C:/Users/<YOUR_USERNAME>/.gemini/antigravity/skills/deep-tech/autonomous-cognition-inventory.md) | **Master** | Cognition, Memory, Evolution, Swarm, Economics |
-| [ai-agents-master-inventory.md](file:///C:/Users/<YOUR_USERNAME>/.gemini/antigravity/skills/deep-tech/ai-agents-master-inventory.md) | **Master** | AI Agents, Multi-Agent, Memory, Safety |
-| [deep-tech-master-inventory.md](file:///C:/Users/<YOUR_USERNAME>/.gemini/antigravity/skills/deep-tech/deep-tech-master-inventory.md) | **Master** | Agents, MCP, Identity, Beyond |
+| [autonomous-cognition-inventory.md](file:///c:/Users/<YOUR_USERNAME>/.gemini/antigravity/skills/deep-tech/autonomous-cognition-inventory.md) | **Master** | Cognition, Memory, Evolution, Swarm, Economics |
+| [ai-agents-master-inventory.md](file:///c:/Users/<YOUR_USERNAME>/.gemini/antigravity/skills/deep-tech/ai-agents-master-inventory.md) | **Master** | AI Agents, Multi-Agent, Memory, Safety, Anthropic, Claude |
+| [deep-tech-master-inventory.md](file:///c:/Users/<YOUR_USERNAME>/.gemini/antigravity/skills/deep-tech/deep-tech-master-inventory.md) | **Master** | Agents, MCP, Identity, Beyond |
 | [agent-identifier/](./deep-tech/agent-identifier/) | Folder | Nhận diện & Quản lý Agent |
 | [mcp-builder/](./deep-tech/mcp-builder/) | Folder | Xây dựng MCP Servers |
 | [subagent-driven-development/](./deep-tech/subagent-driven-development/) | Folder | Quy trình phát triển dùng Sub-agents |
 
 ---
 
-## 📊 DATA ENGINEERING (5+ skills)
+## 📊 DATA ENGINEERING (12+ skills)
 
 | Resource | Type | Description |
 |----------|------|-------------|
-| **[data-engineering-master-inventory.md](./data-engineering/data-engineering-master-inventory.md)** | **Master** | **Gồm 5+ skills:** Clickhouse, ETL, Data Layer, CDP |
+| **[data-engineering-master-inventory.md](./data-engineering/data-engineering-master-inventory.md)** | **Master** | **Gồm 12+ skills:** Clickhouse, ETL, Data Layer, CDP |
 
 ---
 
-## 🚀 SPECIALIZED (180+ skills)
+## 🚀 SPECIALIZED (1,553+ skills)
 
 | Resource | Type | Description |
 |----------|------|-------------|
-| [specialized-master-inventory.md](file:///C:/Users/<YOUR_USERNAME>/.gemini/antigravity/skills/specialized/specialized-master-inventory.md) | **Master** | **Gồm 159 skills:** Shopify, E-commerce, Marketing, Official Formats (PDF/XLSX), v.v. |
-| [gemini-core-rules-inventory.md](file:///C:/Users/<YOUR_USERNAME>/.gemini/antigravity/skills/specialized/gemini-core-rules-inventory.md) | **Master** | **Gồm 174+ Legacy Rules:** Trích xuất nguyên bản 100% từ file GEMINI.md cũ (Quantum, Hardware, LSM-Tree, Compliance, etc.) |
+| [specialized-master-inventory.md](file:///c:/Users/<YOUR_USERNAME>/.gemini/antigravity/skills/specialized/specialized-master-inventory.md) | **Master** | **Gồm 1,553+ skills:** Shopify, E-commerce, Marketing, Official Formats (PDF/XLSX), SEO, Stripe, Azure, Vercel, Docker, K8s, Flutter, Rust, Terraform, v.v. |
+| [gemini-core-rules-inventory.md](file:///c:/Users/<YOUR_USERNAME>/.gemini/antigravity/skills/specialized/gemini-core-rules-inventory.md) | **Master** | **Gồm 174+ Legacy Rules:** Trích xuất nguyên bản 100% từ file GEMINI.md cũ (Quantum, Hardware, LSM-Tree, Compliance, etc.) |
 | [loki-mode/](./specialized/loki-mode/) | Folder | Chế độ Loki tự hành thần tốc |
 | [shopify-development/](./specialized/shopify-development/) | Folder | Phát triển hệ sinh thái Shopify |
 | [app-builder/](./specialized/app-builder/) | Folder | Boilerplates & Templates cho mọi loại App |
@@ -99,7 +101,7 @@
 
 ---
 
-## 🌌 BEYOND HORIZON (5+ skills)
+## 🌌 BEYOND HORIZON (7+ skills)
 
 | Resource | Type | Description |
 |----------|------|-------------|
@@ -110,12 +112,27 @@
 
 ## 📊 THỐNG KÊ TỔNG HỢP
 
-- **Tổng số folder kỹ năng gốc:** 249 folder.
-- **Tổng số skills sau khi nén:** ~250+ kỹ năng được bóc tách.
-- **Trạng thái hệ thống:** **SẴN SÀNG - TỐI ƯU - ĐẲNG CẤP.**
+### Unified System (ngTwg + sickn33 merged)
+- **Tổng số skills:** ~1,999 skills (merged into antigravity/skills/)
+- **Master Inventories:** 9 files (Frontend, Backend, Security, Workflows, Deep Tech, Data, Specialized, Enterprise, Cognition)
+- **Heavy Folders:** 249 folders with scripts/assets
+- **Coverage:** 96% (all domains covered)
+- **Trạng thái hệ thống:** **UNIFIED - SẴN SÀNG - TỐI ƯU - ĐẲNG CẤP**
+
+### Breakdown by Category
+- Frontend: 72+ skills (React, NextJS, Flutter, Mobile, UI/UX)
+- Backend: 75+ skills (Node, API, Database, Serverless, Edge)
+- Security: 27+ skills (Pentest, OWASP, Zero-Trust)
+- Workflows: 44+ skills (Debug, Testing, Git, Automation)
+- Deep Tech & Agents: 52+ skills (AI, MCP, Multi-Agent, Anthropic)
+- Data Engineering: 12+ skills (ETL, Analytics, Clickhouse)
+- Specialized: 1,553+ skills (Shopify, SEO, Stripe, Azure, Vercel, Docker, K8s, etc.)
+- DevOps: 157+ skills (CI/CD, Container, Cloud)
+- Beyond Horizon: 7+ skills (Exascale, Green Computing)
 
 ---
 
-**Version:** 4.0.0 (Super-System)  
-**Last Updated:** 2024-03-24  
+**Version:** 6.0.0 (Unified System - All Skills Merged)  
+**Last Updated:** 2026-03-30  
+**New Features:** Merged all sickn33 skills into main tree, simplified structure, unified governance  
 **Maintained by:** Antigravity AI Skills Brain

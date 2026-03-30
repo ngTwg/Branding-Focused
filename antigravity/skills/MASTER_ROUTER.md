@@ -1,13 +1,13 @@
-﻿# 🧭 MASTER SKILLS ROUTER - SIÊU ĐIỀU PHỐI (250+ SKILLS)
+﻿# 🧭 MASTER SKILLS ROUTER - SIÊU ĐIỀU PHỐI (~1,999 SKILLS)
  
-> **MỤC ĐÍCH:** Bộ não trung tâm điều phối và truy cập kho trí tuệ 250+ kỹ năng.  
+> **MỤC ĐÍCH:** Bộ não trung tâm điều phối và truy cập kho trí tuệ ~1,999 kỹ năng.  
 > **QUY TẮC:** AI PHẢI đọc file này TRƯỚC khi thực hiện bất kỳ task nào.
-> **CẬP NHẬT:** 2024-03-24 (v4.0.0 - SUPER-ROUTER)
+> **CẬP NHẬT:** 2026-03-30 (v6.0.0 - UNIFIED SYSTEM)
 
 ---
 
 ## 📋 CHIẾN LƯỢC TRUY XUẤT SIÊU TỐC
-Với kho 250+ skills, AI cần tuân thủ quy trình truy xuất "2 Tầng":
+Với kho ~1,999 skills (đã merge ngTwg + sickn33), AI cần tuân thủ quy trình truy xuất "2 Tầng":
 
 1. **Tầng 1: Nhận diện Category & Master Inventory**
    - Xác định Domain (Frontend, Backend, Security, specialized, etc.)
@@ -32,29 +32,29 @@ Với kho 250+ skills, AI cần tuân thủ quy trình truy xuất "2 Tầng":
 
 ## 🗂️ BẢN ĐỒ SIÊU HỆ THỐNG (MAPPING)
 
-### 1. FRONTEND & UI (21+ Skills) ✨ UPDATED
+### 1. FRONTEND & UI (72+ Skills) ✨ UPDATED
 - **Cẩm nang tổng hợp:** `frontend/frontend-master-inventory.md`
 - **Heavy Folders:** `frontend-design/`, `react-best-practices/`, `ui-ux-pro-max/`, `vercel-react-best-practices/`
 - **Công cụ Core:**
   - **NEW:** `frontend/state-classification.md` - 7 state types (UI, Form, Server, Global, URL, Realtime, Persistent)
-- **Common Tags:** `[React, CSS, Tailwind, UI, UX, CRO, Performance, State-Management, Hooks, Context]`
+- **Common Tags:** `[React, CSS, Tailwind, UI, UX, CRO, Performance, State-Management, Hooks, Context, NextJS, Flutter, Mobile]`
 
-### 2. BACKEND & API (28+ Skills) ✨ UPDATED
+### 2. BACKEND & API (75+ Skills) ✨ UPDATED
 - **Cẩm nang tổng hợp:** `backend/backend-master-inventory.md`
 - **Heavy Folders:** `api-patterns/`, `typescript-expert/`, `algorithmic-art/`
 - **Công cụ Core:**
   - **NEW:** `backend/api-design-standards.md` - REST best practices, pagination, versioning, OpenAPI
   - **NEW:** `backend/database-standards.md` - Schema design, migrations, indexes, soft delete
-- **Common Tags:** `[Nodejs, API, Database, Auth, Typescript, Python, GraphQL, REST, Schema, Migrations, Indexes]`
+- **Common Tags:** `[Nodejs, API, Database, Auth, Typescript, Python, GraphQL, REST, Schema, Migrations, Indexes, Serverless, Edge]`
 
-### 3. SECURITY & PENTEST (41+ Skills) ✨ UPDATED
+### 3. SECURITY & PENTEST (27+ Skills) ✨ UPDATED
 - **Cẩm nang tổng hợp:** `security/security-master-inventory.md`
 - **Heavy Folders:** `active-directory-attacks/`, `aws-penetration-testing/`, `cloud-penetration-testing/`, `vulnerability-scanner/`
 - **Công cụ Core:**
   - **NEW:** `security/security-middleware-stack.md` - 7-layer defense (Helmet, CORS, Rate Limiting, CSRF, Input Sanitization)
-- **Common Tags:** `[Pentest, XSS, SQLi, Cloud-Security, Red-Team, Audit, OWASP, Middleware, Defense-in-Depth]`
+- **Common Tags:** `[Pentest, XSS, SQLi, Cloud-Security, Red-Team, Audit, OWASP, Middleware, Defense-in-Depth, Zero-Trust]`
 
-### 4. WORKFLOWS & DEBUG (65+ Skills) ✨ UPDATED
+### 4. WORKFLOWS & DEBUG (44+ Skills) ✨ UPDATED
 - **Cẩm nang tổng hợp:** `workflows/workflows-master-inventory.md` (Gồm TDD, Planning, Git rules)
 - **Heavy Folders:** `git-pushing/`, `lint-and-validate/`, `skill-creator/`, `performance-profiling/`
 - **Công cụ Core:** 
@@ -73,17 +73,17 @@ Với kho 250+ skills, AI cần tuân thủ quy trình truy xuất "2 Tầng":
   - **NEW:** `workflows/meta-rules.md` - Rule governance
 - **Common Tags:** `[Debug, Testing, Git, Workflow, Automation, Root-Cause, Naming, Hallucination, Documentation, Error-Handling, Edge-Cases, Refactoring, Concurrency, Cleanup, Logging, Environment]`
 
-### 5. AI, AGENTS & DEEP TECH (25+ Skills)
+### 5. AI, AGENTS & DEEP TECH (52+ Skills)
 - **SIÊU CẨM NĂNG AGENT:** `deep-tech/ai-agents-master-inventory.md` (Gồm AC, AD, AE, AF, AG)
 - **Cẩm nang tổng hợp:** `deep-tech/deep-tech-master-inventory.md` (Agents, MCP, Identity)
 - **Heavy Folders:** `agent-identifier/`, `mcp-builder/`, `subagent-driven-development/`
-- **Common Tags:** `[AI-Agent, Multi-Agent, RAG, MCP, LLM, Memory, Safety]`
+- **Common Tags:** `[AI-Agent, Multi-Agent, RAG, MCP, LLM, Memory, Safety, Anthropic, Claude]`
 
-### 6. SPECIALIZED & LEGACY DOMAINS (350+ Skills)
+### 6. SPECIALIZED & LEGACY DOMAINS (1,553+ Skills)
 - **SIÊU CẨM NANG (750KB):** `specialized/specialized-master-inventory.md`
 - **DI SẢN NGUYÊN BẢN (174 Rules):** `specialized/gemini-core-rules-inventory.md` (Chứa 100% kho tàng từ file GEMINI.md cũ: Quantum, Hardware, LSM-Tree, Compliance, Security Vectors...)
 - **Heavy Folders:** `loki-mode/`, `shopify-development/`, `game-development/`, `app-builder/`
-- **Common Tags:** `[Shopify, E-commerce, Legacy-Rules, Hardware, Audio, Payment, PDF, XLSX]`
+- **Common Tags:** `[Shopify, E-commerce, Legacy-Rules, Hardware, Audio, Payment, PDF, XLSX, SEO, Stripe, Azure, Vercel]`
 
 ---
 
@@ -245,9 +245,65 @@ Additional skills referenced in workflows:
 
 ---
 
-**Version:** 4.1.0 (Super-Router + AI Rules Integration)  
+---
+
+## 🎯 ROUTING DECISION TREE v6.0.0
+
+```javascript
+// UNIFIED SYSTEM - All skills merged into antigravity/skills/
+// No more external layer - direct access to all ~1,999 skills
+
+// STEP 1: Identify Category
+if (tag in [React, NextJS, Flutter, Mobile, UI, UX]) {
+  → LOAD antigravity/skills/frontend/MASTER_INVENTORY.md (72+ skills)
+}
+
+if (tag in [API, Database, Auth, Serverless, Edge, Backend]) {
+  → LOAD antigravity/skills/backend/MASTER_INVENTORY.md (75+ skills)
+}
+
+if (tag in [Security, Pentest, OWASP, Zero-Trust]) {
+  → LOAD antigravity/skills/security/MASTER_INVENTORY.md (27+ skills)
+}
+
+if (tag in [Debug, Testing, Git, Workflow]) {
+  → LOAD antigravity/skills/workflows/MASTER_INVENTORY.md (44+ skills)
+}
+
+if (tag in [AI-Agent, MCP, LLM, Anthropic, Claude]) {
+  → LOAD antigravity/skills/deep-tech/MASTER_INVENTORY.md (52+ skills)
+}
+
+if (tag in [Shopify, SEO, Stripe, Azure, Vercel, E-commerce]) {
+  → LOAD antigravity/skills/specialized/MASTER_INVENTORY.md (1,553+ skills)
+}
+
+if (tag in [DevOps, Docker, K8s, Terraform, CI/CD]) {
+  → LOAD antigravity/skills/devops/MASTER_INVENTORY.md (157+ skills)
+}
+
+if (tag in [Data, ETL, Analytics, Clickhouse]) {
+  → LOAD antigravity/skills/data-engineering/MASTER_INVENTORY.md (12+ skills)
+}
+
+if (tag in [Exascale, Green-Computing, Beyond]) {
+  → LOAD antigravity/skills/beyond/MASTER_INVENTORY.md (7+ skills)
+}
+
+// STEP 2: Execute with unified governance
+→ APPLY GEMINI.md rules (RULE 1-12)
+→ APPLY KIRO.md steering
+→ EXECUTE task
+→ VERIFY with evidence
+→ RETURN
+```
+
+---
+
+**Version:** 6.0.0 (Unified System - All Skills Merged)  
 **Last Updated:** 2026-03-30  
-**New Skills:** 15 core skills added (96% coverage)  
+**New Features:** Merged sickn33 skills into main tree, simplified routing, unified governance  
+**Total Skills:** ~1,999 (ngTwg + sickn33 merged - 14 duplicates removed)  
 **Maintained by:** Antigravity AI Skills Brain
 
 ### 🚨 QUY TẮC DỌN DẸP (CLEANUP-BY-DEFAULT)

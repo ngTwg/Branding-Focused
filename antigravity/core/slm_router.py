@@ -6,6 +6,7 @@ Operates with <100ms latency on CPU and gracefully degrades if sentence-transfor
 
 Validates Requirements: 4.1, 4.2, 4.3, 4.4, 4.5, 4.6, 4.7, 4.8
 Task 6.2: Cascading logic for reasoning models
+Task 2 (Final Polish): Budget-aware routing with graceful degradation
 """
 
 from __future__ import annotations
@@ -14,7 +15,8 @@ import logging
 from pathlib import Path
 from typing import Optional, Literal
 
-from core.schemas import SLMRouteDecision
+from core.schemas import SLMRouteDecision, ModelCandidate, BudgetAwareRoutingDecision
+from core.budget_guard import BudgetGuard, BudgetExceededError
 
 logger = logging.getLogger(__name__)
 
@@ -31,6 +33,7 @@ class SLMRouter:
     - <100ms latency on CPU
     - Idempotent: classify(x) == classify(classify(x).chosen)
     - Task 6.2: Cascading logic for reasoning models
+    - Task 2: Budget-aware routing with graceful degradation
     """
     
     # Task 6.2: Complexity thresholds for cascading
@@ -47,6 +50,32 @@ class SLMRouter:
         "performance", "security", "complex", "difficult", "tricky",
         "multi-step", "reasoning", "logic", "proof", "verify",
     ]
+    
+    # Task 2: Model cost estimates (tokens per call)
+    MODEL_COSTS = {
+        "o1-mini": {
+            "estimated_tokens": 5000,
+            "quality_tier": "high",
+            "is_local": False,
+        },
+        "claude-3-5-sonnet-20241022": {
+            "estimated_tokens": 2000,
+            "quality_tier": "high",
+            "is_local": False,
+        },
+        "qwen2.5:3b-instruct": {
+            "estimated_tokens": 1000,
+            "quality_tier": "medium",
+            "is_local": True,
+        },
+    }
+    
+    # Task 2: Model ranking by complexity (best to worst for each tier)
+    MODEL_RANKING = {
+        "complex": ["o1-mini", "claude-3-5-sonnet-20241022", "qwen2.5:3b-instruct"],
+        "moderate": ["claude-3-5-sonnet-20241022", "qwen2.5:3b-instruct"],
+        "simple": ["claude-3-5-sonnet-20241022", "qwen2.5:3b-instruct"],
+    }
 
     def __init__(
         self,
@@ -253,6 +282,97 @@ class SLMRouter:
             return "o1-mini"
         else:
             return "claude-3-5-sonnet-20241022"
+    
+    def route_with_budget(
+        self,
+        query: str,
+        budget_guard: BudgetGuard,
+        confidence: float | None = None,
+    ) -> BudgetAwareRoutingDecision:
+        """
+        Route to model that fits within budget with graceful degradation.
+        
+        Args:
+            query: User query string
+            budget_guard: BudgetGuard instance to check remaining budget
+            confidence: Classification confidence (if available)
+            
+        Returns:
+            BudgetAwareRoutingDecision with chosen model and metadata
+            
+        Raises:
+            BudgetExceededError: If no model fits within budget
+            
+        Validates: Task 2 - Budget-aware routing
+        
+        Properties:
+        - P1 (Budget Respect): chosen model always has estimated_cost <= remaining_budget
+        - P2 (Graceful Degradation): fallback to cheaper models when budget constrained
+        - P3 (Quality Monotonicity): prefer expensive models for complex tasks unless budget forces fallback
+        """
+        # 1. Assess complexity
+        complexity = self.assess_complexity(query)
+        
+        # 2. Get remaining budget
+        budget_status = budget_guard.get_status()
+        remaining_tokens = budget_status.tokens_remaining
+        
+        # 3. Rank models by preference for this complexity
+        candidates_ranked = self.MODEL_RANKING.get(complexity, self.MODEL_RANKING["moderate"])
+        
+        # 4. Build candidate list with cost info
+        candidates = []
+        for model_name in candidates_ranked:
+            if model_name in self.MODEL_COSTS:
+                cost_info = self.MODEL_COSTS[model_name]
+                candidates.append(
+                    ModelCandidate(
+                        name=model_name,
+                        estimated_tokens=cost_info["estimated_tokens"],
+                        quality_tier=cost_info["quality_tier"],
+                        is_local=cost_info["is_local"],
+                    )
+                )
+        
+        # 5. Select first model that fits budget
+        for i, candidate in enumerate(candidates):
+            if candidate.estimated_tokens <= remaining_tokens:
+                is_fallback = i > 0  # Fallback if not the first choice
+                
+                reason = f"{complexity} task"
+                if is_fallback:
+                    reason += f", budget-constrained fallback (remaining: {remaining_tokens} tokens)"
+                else:
+                    reason += f", optimal choice (remaining: {remaining_tokens} tokens)"
+                
+                logger.info(
+                    f"Budget-aware routing: {candidate.name} "
+                    f"(cost: {candidate.estimated_tokens}, remaining: {remaining_tokens}, "
+                    f"complexity: {complexity}, fallback: {is_fallback})"
+                )
+                
+                return BudgetAwareRoutingDecision(
+                    model=candidate.name,
+                    reason=reason,
+                    estimated_cost=candidate.estimated_tokens,
+                    is_fallback=is_fallback,
+                    complexity=complexity,
+                    candidates_considered=candidates,
+                )
+        
+        # 6. No model fits budget - raise error
+        cheapest = candidates[-1] if candidates else None
+        if cheapest:
+            raise BudgetExceededError(
+                f"Budget exhausted: need {cheapest.estimated_tokens} tokens, "
+                f"only {remaining_tokens} remaining",
+                "tokens"
+            )
+        else:
+            raise BudgetExceededError(
+                f"No models available for complexity '{complexity}'",
+                "tokens"
+            )
 
     def classify(self, query: str) -> Optional[SLMRouteDecision]:
         """

@@ -164,6 +164,24 @@ class SLMRouteDecision(BaseModel):
     llm_fallback_triggered: bool = False
 
 
+class ModelCandidate(BaseModel):
+    """Model candidate with cost estimation."""
+    name: str
+    estimated_tokens: int
+    quality_tier: Literal["high", "medium", "low"]
+    is_local: bool = False
+
+
+class BudgetAwareRoutingDecision(BaseModel):
+    """Budget-aware routing decision from SLMRouter."""
+    model: str
+    reason: str
+    estimated_cost: int
+    is_fallback: bool = False
+    complexity: Literal["simple", "moderate", "complex"]
+    candidates_considered: list[ModelCandidate] = []
+
+
 class BudgetStatus(BaseModel):
     """For BudgetGuard."""
     steps_used: int
