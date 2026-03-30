@@ -1,4 +1,4 @@
-﻿# 📚 HƯỚNG DẪN SỬ DỤNG HỆ THỐNG SKILLS
+# 📚 HƯỚNG DẪN SỬ DỤNG HỆ THỐNG SKILLS
 
 > **Dành cho:** Users và AI Agents
 > **Version:** 2.0.0
@@ -372,7 +372,7 @@ KHI code:
 
 ### Đọc thêm:
 - `antigravity/skills/MASTER_ROUTER.md` - Hiểu routing logic
-- `antigravity/skills/README.md` - Overview hệ thống
+- `antigravity/skills/index-skills.md` - Overview hệ thống
 - Individual skill files - Deep dive vào từng topic
 
 ### Practice:

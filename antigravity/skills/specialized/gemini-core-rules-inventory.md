@@ -652,7 +652,7 @@ pause
        for = "/assets/*"
        [headers.values]
          Cache-Control = "public, max-age=31536000, immutable"
-
+     
      [[headers]]
        for = "/*.html"
        [headers.values]
@@ -706,13 +706,13 @@ pause
        FOR SELECT USING (auth.uid() = id);
      CREATE POLICY "Users update own profile" ON profiles
        FOR UPDATE USING (auth.uid() = id);
-
+     
      -- Orders table
      CREATE POLICY "Users view own orders" ON orders
        FOR SELECT USING (auth.uid() = user_id);
      CREATE POLICY "Users create own orders" ON orders
        FOR INSERT WITH CHECK (auth.uid() = user_id);
-
+     
      -- Products (public read)
      CREATE POLICY "Anyone can view products" ON products
        FOR SELECT USING (true);
@@ -720,13 +720,13 @@ pause
        FOR ALL USING (
          EXISTS (SELECT 1 FROM profiles WHERE id = auth.uid() AND role = 'admin')
        );
-
+     
      -- Keys (user sees own keys only)
      CREATE POLICY "Users view purchased keys" ON keys
        FOR SELECT USING (
          EXISTS (SELECT 1 FROM orders WHERE id = keys.order_id AND user_id = auth.uid())
        );
-
+     
      -- Wallets
      CREATE POLICY "Users view own wallet" ON wallets
        FOR SELECT USING (auth.uid() = user_id);
@@ -741,26 +741,26 @@ pause
        if (!['https://yourdomain.com'].includes(origin)) {
          return new Response('Forbidden', { status: 403 });
        }
-
+       
        // 2. Verify JWT for protected endpoints
        const authHeader = req.headers.get('Authorization');
        const token = authHeader?.replace('Bearer ', '');
        const { data: { user }, error } = await supabase.auth.getUser(token);
        if (error || !user) {
-         return new Response(JSON.stringify({ error: 'Unauthorized' }), {
+         return new Response(JSON.stringify({ error: 'Unauthorized' }), { 
            status: 401,
            headers: { 'Content-Type': 'application/json' }
          });
        }
-
+       
        // 3. Use user.id from verified token
        const userId = user.id;
-
+       
        // 4. Business logic here...
-
+       
        // 5. Return proper response
        return new Response(JSON.stringify({ success: true, data }), {
-         headers: {
+         headers: { 
            'Content-Type': 'application/json',
            'Access-Control-Allow-Origin': 'https://yourdomain.com'
          }
@@ -773,10 +773,10 @@ pause
      -- Private bucket - users can only access own files
      CREATE POLICY "Users access own files" ON storage.objects
        FOR ALL USING (
-         bucket_id = 'private' AND
+         bucket_id = 'private' AND 
          auth.uid()::text = (storage.foldername(name))[1]
        );
-
+     
      -- Public bucket - anyone can read
      CREATE POLICY "Public read" ON storage.objects
        FOR SELECT USING (bucket_id = 'public');
@@ -806,7 +806,7 @@ pause
     // ❌ WRONG:
     supabase.from('products').select('*').eq('id', userInput)
     // If userInput is "1 OR 1=1", it may expose all data
-
+    
     // ✅ CORRECT:
     const id = parseInt(userInput, 10);
     if (isNaN(id)) return { error: 'Invalid ID' };
@@ -817,7 +817,7 @@ pause
     ```javascript
     // ❌ WRONG:
     .select('*')
-
+    
     // ✅ CORRECT:
     .select('id, name, price, description')
     ```
@@ -850,7 +850,7 @@ pause
     ```typescript
     // ❌ WRONG - getSession can be spoofed:
     const { data: { session } } = await supabase.auth.getSession();
-
+    
     // ✅ CORRECT - getUser verifies with server:
     const { data: { user }, error } = await supabase.auth.getUser(token);
     if (error || !user) {
@@ -866,7 +866,7 @@ pause
     // ❌ WRONG:
     const order = await db.orders.findById(req.params.orderId);
     return order; // Anyone can see any order!
-
+    
     // ✅ CORRECT:
     const order = await db.orders.findById(req.params.orderId);
     if (order.user_id !== currentUser.id) {
@@ -896,7 +896,7 @@ pause
     ```javascript
     // ❌ CRITICAL:
     const supabase = createClient(url, 'service_role_key_here');
-
+    
     // ✅ CORRECT - Only in Edge Functions:
     const adminClient = createClient(url, Deno.env.get('SUPABASE_SERVICE_ROLE_KEY'));
     ```
@@ -927,13 +927,13 @@ pause
 ## PHẦN 1: BACKEND CRITICAL ISSUES
 
 #### SQL Injection & Data Injection
-Khi tra cứu bắt buộc tra cứu bằng perplixity thông qua mcp.
+Khi tra cứu bắt buộc tra cứu bằng perplixity thông qua mcp. 
 ưu tiên test web bằng tools test browers
 1. NEVER use raw query with user input without sanitization
 2. NEVER use string concatenation for queries, always use parameterized queries
 3. In Supabase, use .filter() instead of query string directly
 4. NEVER trust user input in .eq(), .filter() without validation
-   - Example WRONG: supabase.from('products').select('*').eq('id', userInput)
+   - Example WRONG: supabase.from('products').select('*').eq('id', userInput) 
    - If userInput is "1 OR 1=1", it may expose all data
 5. NEVER use .select('*') wildcard - it may expose sensitive columns
    - Example CORRECT: .select('id, name, price, description') - only needed fields
@@ -952,7 +952,7 @@ Khi tra cứu bắt buộc tra cứu bằng perplixity thông qua mcp.
     // ❌ WRONG:
     element.innerHTML = userReview;
     // Attacker can inject: <img src=x onerror=alert('xss')>
-
+    
     // ✅ CORRECT:
     element.textContent = userReview;
     ```
@@ -963,7 +963,7 @@ Khi tra cứu bắt buộc tra cứu bằng perplixity thông qua mcp.
     // ❌ WRONG:
     const html = `<div>${userInput}</div>`;
     element.innerHTML = html;
-
+    
     // ✅ CORRECT:
     const div = document.createElement('div');
     div.textContent = userInput;
@@ -986,14 +986,14 @@ Khi tra cứu bắt buộc tra cứu bằng perplixity thông qua mcp.
    // ❌ WRONG:
    element.innerHTML = userReview;
    // Attacker can inject: <img src=x onerror=alert('xss')>
-
+   
    // ✅ CORRECT:
    element.textContent = userReview;
 
-1.
+1. 
 NEVER render user-generated content (reviews, comments) directly without sanitization
 
-2.
+2. 
 NEVER use template literals to insert unsanitized data into HTML
 javascriptDownloadCopy code// ❌ WRONG:
 const html = `<div>${userInput}</div>`;
@@ -1002,13 +1002,13 @@ const html = `<div>${userInput}</div>`;
 const div = document.createElement('div');
 div.textContent = userInput;
 
-3.
+3. 
 ALWAYS use .textContent instead of .innerHTML for untrusted data
 
-4.
+4. 
 NEVER use window.location.hash or query string directly in DOM without sanitization (DOM-based XSS)
 
-5.
+5. 
 If HTML formatting is needed, ALWAYS use DOMPurify library:
 javascriptDownloadCopy codeimport DOMPurify from 'dompurify';
 element.innerHTML = DOMPurify.sanitize(userContent);
@@ -1016,19 +1016,19 @@ element.innerHTML = DOMPurify.sanitize(userContent);
 
 Authentication & Token Management
 
-1.
+1. 
 ALWAYS verify JWT signature completely, not just decode
 
-2.
+2. 
 NEVER store JWT in localStorage (vulnerable to XSS), prefer httpOnly cookies
 
-3.
+3. 
 ALWAYS include expiration time (exp claim) in tokens
 
-4.
+4. 
 ALWAYS check token expiration on backend before processing requests
 
-5.
+5. 
 ALWAYS implement refresh token logic properly
 javascriptDownloadCopy code// Check if access token expired
 if (isTokenExpired(accessToken)) {
@@ -1039,15 +1039,15 @@ if (isTokenExpired(accessToken)) {
   }
 }
 
-6.
+6. 
 ALWAYS clear token on backend when user logs out (blacklist or revoke)
 
-7.
+7. 
 ALWAYS set cookie flags: Secure, HttpOnly, SameSite
 javascriptDownloadCopy code// ✅ CORRECT cookie settings:
 Set-Cookie: token=xxx; HttpOnly; Secure; SameSite=Strict; Path=/
 
-8.
+8. 
 In Supabase, ALWAYS verify token in Edge Functions using supabase.auth.getUser(token), not just getSession()
 typescriptDownloadCopy code// ❌ WRONG - getSession can be spoofed:
 const { data: { session } } = await supabase.auth.getSession();
@@ -1061,7 +1061,7 @@ if (error || !user) {
 
 Authorization Flaws (IDOR - Insecure Direct Object Reference)
 
-1.
+1. 
 ALWAYS verify user ownership before accessing any resource
 javascriptDownloadCopy code// ❌ WRONG:
 const order = await db.orders.findById(req.params.orderId);
@@ -1074,20 +1074,20 @@ if (order.user_id !== currentUser.id) {
 }
 return order;
 
-2.
+2. 
 ALWAYS check role/permission before allowing API actions
 javascriptDownloadCopy code// Check if user can perform admin action
 if (currentUser.role !== 'admin') {
   return { error: 'Forbidden', status: 403 };
 }
 
-3.
+3. 
 NEVER allow direct object reference in URLs without verification
 
 URL /users/999/orders should NOT be accessible by user 123
 
 
-4.
+4. 
 In Supabase, ALWAYS enable RLS on tables and create specific policies
 sqlDownloadCopy code-- ❌ WRONG - Too permissive:
 CREATE POLICY "Allow all" ON orders USING (true);
@@ -1096,22 +1096,22 @@ CREATE POLICY "Allow all" ON orders USING (true);
 CREATE POLICY "Users view own orders" ON orders
   FOR SELECT USING (auth.uid() = user_id);
 
-5.
+5. 
 ALWAYS check admin routes (/admin/*) for proper role verification
 
-6.
+6. 
 For coupon apply, ALWAYS verify user can only apply coupons to their own orders
 
-7.
+7. 
 For affiliate system, ALWAYS verify commission_users to prevent referrer spoofing
 
 
 API Key & Secrets Exposure
 
-1.
+1. 
 Supabase anon key CAN be in frontend (it's public) BUT requires strict RLS
 
-2.
+2. 
 NEVER expose Supabase service_role_key in frontend - this is CRITICAL!
 javascriptDownloadCopy code// ❌ CRITICAL ERROR:
 const supabase = createClient(url, 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6...SERVICE_ROLE_KEY');
@@ -1119,26 +1119,26 @@ const supabase = createClient(url, 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3M
 // ✅ CORRECT - Only in Edge Functions:
 const adminClient = createClient(url, Deno.env.get('SUPABASE_SERVICE_ROLE_KEY'));
 
-3.
+3. 
 NEVER expose database URL with password in public code
 
-4.
+4. 
 NEVER hardcode JWT secret in code
 
-5.
+5. 
 ALWAYS put API keys in .env file and add .env to .gitignore
 
-6.
+6. 
 NEVER use console.log(token), console.log(response) with sensitive data in production
 
-7.
+7. 
 ALWAYS scan git history for accidentally committed secrets
 bashDownloadCopy code# Use these tools to scan:
 git secrets --scan
 trufflehog git file://. --only-verified
 gitleaks detect --source=. --verbose
 
-8.
+8. 
 NEVER expose environment variables in Netlify settings that should be private
 
 NEXT_PUBLIC_* and VITE_* prefixes EXPOSE variables to frontend!
@@ -1150,7 +1150,7 @@ NEXT_PUBLIC_* and VITE_* prefixes EXPOSE variables to frontend!
 
 CORS & CSP Issues
 
-1.
+1. 
 NEVER use Access-Control-Allow-Origin: * in production
 javascriptDownloadCopy code// ❌ WRONG:
 headers: { 'Access-Control-Allow-Origin': '*' }
@@ -1158,24 +1158,24 @@ headers: { 'Access-Control-Allow-Origin': '*' }
 // ✅ CORRECT:
 headers: { 'Access-Control-Allow-Origin': 'https://yourdomain.com' }
 
-2.
+2. 
 ALWAYS configure Content-Security-Policy header
 Content-Security-Policy: default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; ...
 
 
-3.
+3. 
 NEVER use wildcard subdomains in trusted origins
 
-4.
+4. 
 ALWAYS handle preflight (OPTIONS) requests correctly for CORS
 
-5.
+5. 
 ALWAYS add X-Content-Type-Options: nosniff header
 
 
 Rate Limiting & Brute Force
 
-1.
+1. 
 ALWAYS implement rate limiting for login/register endpoints
 
 Risk without: attacker can brute force passwords
@@ -1187,16 +1187,16 @@ javascriptDownloadCopy codeconst RATE_LIMITS = {
   '/api/auth/forgot-password': { max: 2, windowMs: 60000 }, // 2 per minute
 };
 
-2.
+2. 
 ALWAYS implement rate limiting for checkout/payment endpoints
 
 Risk without: DDoS, transaction spam
 
 
-3.
+3. 
 ALWAYS implement CAPTCHA or bot detection for public forms
 
-4.
+4. 
 ALWAYS rate limit password reset endpoint
 
 Risk without: email enumeration, spam
@@ -1215,7 +1215,7 @@ Set-Cookie: session=xxx; SameSite=Strict
 
 File Upload Security
 
-1.
+1. 
 ALWAYS validate file type by checking magic bytes, not just extension
 javascriptDownloadCopy code// ❌ WRONG - Only check extension:
 if (file.name.endsWith('.jpg')) { accept(); }
@@ -1228,7 +1228,7 @@ if (header[0] === 0xFF && header[1] === 0xD8 && header[2] === 0xFF) {
   accept();
 }
 
-2.
+2. 
 ALWAYS sanitize filename before saving
 
 Risk: path traversal attack (upload ../../../etc/passwd)
@@ -1237,19 +1237,19 @@ javascriptDownloadCopy code// ✅ Sanitize filename:
 const safeName = filename.replace(/[^a-zA-Z0-9.-]/g, '_');
 const uniqueName = `${uuid()}_${safeName}`;
 
-3.
+3. 
 ALWAYS limit file size to prevent DoS and storage spam
 
-4.
+4. 
 NEVER allow upload of executable files (PHP, JS, EXE)
 
-5.
+5. 
 ALWAYS store files with unique random names, not predictable paths
 
 
 Third-party Integrations
 
-1.
+1. 
 ALWAYS validate webhook signatures from payment gateways (Stripe, PayPal)
 javascriptDownloadCopy code// ✅ Stripe webhook verification:
 const sig = req.headers['stripe-signature'];
@@ -1262,20 +1262,20 @@ const event = stripe.webhooks.constructEvent(
 Risk without: fake payment notification → order without payment
 
 
-2.
+2. 
 ALWAYS verify webhook endpoint signatures/secrets
 
-3.
+3. 
 ALWAYS validate responses from shipping APIs
 
-4.
+4. 
 NEVER expose email service API keys
 
 
 1.2 DATABASE & DATA INTEGRITY
 Race Conditions & Concurrency
 
-1.
+1. 
 For checkout with concurrent users, ALWAYS use atomic operations to prevent overselling
 sqlDownloadCopy code-- ❌ WRONG (race condition):
 SELECT inventory FROM products WHERE id = 1; -- User A gets 1
@@ -1284,12 +1284,12 @@ UPDATE products SET inventory = inventory - 1 WHERE id = 1;
 -- Both users succeed, inventory becomes -1!
 
 -- ✅ CORRECT (atomic):
-UPDATE products SET inventory = inventory - 1
+UPDATE products SET inventory = inventory - 1 
 WHERE id = 1 AND inventory > 0
 RETURNING *;
 -- If no rows returned, out of stock
 
-2.
+2. 
 For wallet balance updates, ALWAYS use transactions or atomic updates
 javascriptDownloadCopy code// ❌ WRONG (read-modify-write):
 const wallet = await getWallet(userId);
@@ -1301,28 +1301,28 @@ await db.query(
   [amount, userId]
 );
 
-3.
+3. 
 For coupon redemption, ALWAYS use atomic increment to prevent duplicate use
-sqlDownloadCopy codeUPDATE coupons
-SET times_used = times_used + 1
+sqlDownloadCopy codeUPDATE coupons 
+SET times_used = times_used + 1 
 WHERE code = \$1 AND times_used < usage_limit
 RETURNING *;
 
-4.
+4. 
 For affiliate commission, ALWAYS prevent multiple referrers claiming same commission
 
-5.
+5. 
 ALWAYS test race conditions: Open 2 checkout tabs, buy last item, only 1 should succeed
 
 
 Data Validation & Constraints
 
-1.
+1. 
 NEVER accept negative quantity in cart
 sqlDownloadCopy code-- Add constraint:
 ALTER TABLE cart_items ADD CONSTRAINT positive_quantity CHECK (quantity > 0);
 
-2.
+2. 
 NEVER trust price from client - ALWAYS calculate on backend
 javascriptDownloadCopy code// ❌ WRONG - Trust client price:
 const { productId, price, quantity, total } = req.body;
@@ -1334,7 +1334,7 @@ const product = await db.products.findById(productId);
 const total = product.price * quantity; // Backend calculates!
 await createOrder({ productId, price: product.price, quantity, total });
 
-3.
+3. 
 ALWAYS validate email/phone format on backend with regex
 javascriptDownloadCopy codeconst emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 const phoneRegex = /^(0|\+84)[0-9]{9,10}$/;
@@ -1343,10 +1343,10 @@ if (!emailRegex.test(email)) {
   return { error: 'Invalid email format' };
 }
 
-4.
+4. 
 ALWAYS check age restrictions if selling restricted items
 
-5.
+5. 
 ALWAYS validate discount percentage is between 0 and 100
 javascriptDownloadCopy codeif (discount < 0 || discount > 100) {
   return { error: 'Invalid discount' };
@@ -1355,7 +1355,7 @@ javascriptDownloadCopy codeif (discount < 0 || discount > 100) {
 
 Transaction Integrity
 
-1.
+1. 
 ALWAYS wrap order creation in a transaction
 sqlDownloadCopy code-- ❌ WRONG - Separate queries:
 INSERT INTO orders (...);
@@ -1370,23 +1370,23 @@ BEGIN;
   UPDATE products SET inventory = inventory - 1 WHERE ...;
 COMMIT;
 
-2.
+2. 
 When payment confirms, ALWAYS update inventory in same transaction
 
-3.
+3. 
 When refund, ALWAYS rollback order status and restore inventory
 
-4.
+4. 
 For coupon apply, ALWAYS prevent duplicate application in transaction
 
 
 Foreign Key & Referential Integrity
 
-1.
+1. 
 When deleting product, ALWAYS handle order_items references
 sqlDownloadCopy code-- Option 1: Prevent delete if referenced
-ALTER TABLE order_items
-ADD CONSTRAINT fk_product
+ALTER TABLE order_items 
+ADD CONSTRAINT fk_product 
 FOREIGN KEY (product_id) REFERENCES products(id) ON DELETE RESTRICT;
 
 -- Option 2: Cascade delete (careful!)
@@ -1395,16 +1395,16 @@ ON DELETE CASCADE;
 -- Option 3: Set null
 ON DELETE SET NULL;
 
-2.
+2. 
 When deleting user, ALWAYS handle orders references
 
-3.
+3. 
 When deleting affiliate, ALWAYS handle commissions references
 
 
 Database Indexing
 
-1.
+1. 
 ALWAYS create indexes for frequently queried columns
 sqlDownloadCopy code-- Check query plan:
 EXPLAIN ANALYZE SELECT * FROM products WHERE category_id = 5;
@@ -1412,15 +1412,15 @@ EXPLAIN ANALYZE SELECT * FROM products WHERE category_id = 5;
 -- Create index:
 CREATE INDEX idx_products_category ON products(category_id);
 
-2.
+2. 
 AVOID full table scans on large tables (1M+ rows)
 
-3.
+3. 
 ALWAYS create composite indexes for multi-column WHERE clauses
 sqlDownloadCopy code-- For query: WHERE user_id = ? AND created_at > ?
 CREATE INDEX idx_orders_user_date ON orders(user_id, created_at);
 
-4.
+4. 
 AVOID indexing columns with low cardinality (few unique values)
 
 
@@ -1434,7 +1434,7 @@ Backup & Recovery
 1.3 API DESIGN FLAWS
 Error Handling & Logging
 
-1.
+1. 
 NEVER return generic error messages that don't help debugging
 javascriptDownloadCopy code// ❌ WRONG:
 return { error: 'Error occurred' };
@@ -1442,7 +1442,7 @@ return { error: 'Error occurred' };
 // ✅ CORRECT:
 return { error: 'Failed to update product: SKU already exists', code: 'DUPLICATE_SKU' };
 
-2.
+2. 
 NEVER expose stack traces to client
 javascriptDownloadCopy code// ❌ WRONG:
 return { error: error.message, stack: error.stack };
@@ -1451,7 +1451,7 @@ return { error: error.message, stack: error.stack };
 console.error('Internal error:', error.stack); // Log server-side
 return { error: 'An error occurred', code: 'INTERNAL_ERROR' };
 
-3.
+3. 
 ALWAYS use proper HTTP status codes
 javascriptDownloadCopy code// ❌ WRONG - All errors return 200:
 return { status: 200, error: 'Not found' };
@@ -1464,10 +1464,10 @@ return { status: 200, error: 'Not found' };
 // 429 - Too Many Requests (rate limited)
 // 500 - Internal Server Error
 
-4.
+4. 
 ALWAYS log errors on backend for debugging
 
-5.
+5. 
 NEVER log sensitive data (passwords, tokens)
 javascriptDownloadCopy code// ❌ WRONG:
 console.log('Login attempt:', { email, password });
@@ -1478,16 +1478,16 @@ console.log('Login attempt:', { email, timestamp: new Date() });
 
 Response Structure & Data Leakage
 
-1.
+1. 
 ALWAYS use consistent response format across all endpoints
 javascriptDownloadCopy code// ✅ CORRECT - Consistent format:
 // Success: { success: true, data: {...} }
 // Error: { success: false, error: 'message', code: 'ERROR_CODE' }
 
-2.
+2. 
 NEVER return unnecessary nested data (N+1 problem in response)
 
-3.
+3. 
 NEVER return sensitive data in response:
 
 Password hash
@@ -1501,7 +1501,7 @@ return { user: { id, email, password_hash, stripe_customer_id } };
 // ✅ CORRECT:
 return { user: { id, email, name } };
 
-4.
+4. 
 NEVER return overly detailed error messages that enable enumeration
 javascriptDownloadCopy code// ❌ WRONG - Reveals if email exists:
 return { error: 'User with email user@example.com not found' };
@@ -1512,10 +1512,10 @@ return { error: 'Invalid email or password' };
 
 Pagination & Query Limits
 
-1.
+1. 
 NEVER load all items at once (e.g., 10,000+ products)
 
-2.
+2. 
 ALWAYS limit query results to prevent DoS
 javascriptDownloadCopy code// ❌ WRONG - Attacker can request 1M rows:
 const limit = req.query.limit; // Could be 999999
@@ -1524,7 +1524,7 @@ const limit = req.query.limit; // Could be 999999
 const MAX_LIMIT = 100;
 const limit = Math.min(parseInt(req.query.limit) || 20, MAX_LIMIT);
 
-3.
+3. 
 For large datasets, use keyset pagination instead of offset
 sqlDownloadCopy code-- ❌ WRONG - Offset 1M scans 1M rows:
 SELECT * FROM products ORDER BY id LIMIT 100 OFFSET 1000000;
@@ -1532,40 +1532,40 @@ SELECT * FROM products ORDER BY id LIMIT 100 OFFSET 1000000;
 -- ✅ CORRECT - Keyset pagination:
 SELECT * FROM products WHERE id > \$last_id ORDER BY id LIMIT 100;
 
-4.
+4. 
 ALWAYS validate limit parameter from client
 
 
 Caching & Cache Invalidation
 
-1.
+1. 
 ALWAYS cache static data (categories, settings)
 
-2.
+2. 
 ALWAYS invalidate cache when data changes
 javascriptDownloadCopy code// After updating product:
 await cache.delete(`product:${productId}`);
 await cache.delete('products:list');
 
-3.
+3. 
 ALWAYS implement stale-while-revalidate for better UX
 
-4.
+4. 
 NEVER use same cache key for different languages/contexts
 
-5.
+5. 
 NEVER set TTL too long for frequently changing data
 
 
 API Versioning & Deprecation
 
-1.
+1. 
 ALWAYS version APIs to prevent breaking changes
 /api/v1/products
 /api/v2/products
 
 
-2.
+2. 
 ALWAYS warn about deprecated endpoints before removing
 
 
@@ -1575,7 +1575,7 @@ PHẦN 3: BUSINESS LOGIC FLAWS
 3.1 CHECKOUT & PAYMENT FLOW
 Price & Cost Calculation - CRITICAL!
 
-1.
+1. 
 NEVER accept price, total, or discount from client
 javascriptDownloadCopy code// ❌ CRITICAL BUG:
 const order = {
@@ -1595,10 +1595,10 @@ const subtotal = price * quantity;
 const discount = await calculateDiscount(couponCode, subtotal);
 const total = subtotal - discount;
 
-2.
+2. 
 ALWAYS calculate discount on backend from coupon rules
 
-3.
+3. 
 ALWAYS verify total on backend matches calculation
 javascriptDownloadCopy codeconst calculatedTotal = calculateTotal(items, coupon);
 // Optionally verify if client sends total:
@@ -1606,10 +1606,10 @@ if (req.body.total && req.body.total !== calculatedTotal) {
   return { error: 'Price mismatch. Please refresh and try again.' };
 }
 
-4.
+4. 
 ALWAYS recalculate shipping/tax if they can change
 
-5.
+5. 
 NEVER accept negative prices or quantities
 javascriptDownloadCopy codeif (quantity <= 0 || price < 0) {
   return { error: 'Invalid quantity or price' };
@@ -1618,7 +1618,7 @@ javascriptDownloadCopy codeif (quantity <= 0 || price < 0) {
 
 Inventory & Overselling
 
-1.
+1. 
 ALWAYS use atomic updates to prevent overselling
 sqlDownloadCopy code-- ❌ WRONG (race condition):
 SELECT inventory FROM products WHERE id = 1; -- Returns 1
@@ -1627,8 +1627,8 @@ UPDATE products SET inventory = inventory - 1 WHERE id = 1;
 -- Both succeed, inventory = -1!
 
 -- ✅ CORRECT (atomic):
-UPDATE products
-SET inventory = inventory - 1
+UPDATE products 
+SET inventory = inventory - 1 
 WHERE id = 1 AND inventory > 0
 RETURNING *;
 -- If no rows returned → out of stock!
@@ -1639,10 +1639,10 @@ SELECT * FROM products WHERE id = 1 FOR UPDATE;
 UPDATE products SET inventory = inventory - 1 WHERE id = 1;
 COMMIT;
 
-2.
+2. 
 Consider reserving inventory when added to cart (with expiration)
 
-3.
+3. 
 ALWAYS handle concurrent checkout for same variant
 
 Test: 2 users checkout Size S (qty 1) simultaneously
@@ -1662,30 +1662,30 @@ Coupon & Discount System
 javascriptDownloadCopy code// Complete coupon validation:
 async function validateCoupon(code, orderId, userId) {
   const coupon = await db.coupons.findOne({ code: code.toUpperCase() });
-
+  
   if (!coupon) return { error: 'Invalid coupon' };
   if (new Date(coupon.expires_at) < new Date()) return { error: 'Coupon expired' };
   if (coupon.times_used >= coupon.usage_limit) return { error: 'Coupon limit reached' };
-
+  
   const order = await db.orders.findById(orderId);
   if (order.subtotal < coupon.min_order_value) {
     return { error: `Minimum order: ${coupon.min_order_value}` };
   }
-
+  
   if (coupon.once_per_user) {
     const used = await db.couponUsages.findOne({ coupon_id: coupon.id, user_id: userId });
     if (used) return { error: 'You already used this coupon' };
   }
-
+  
   if (order.coupon_id) return { error: 'Only one coupon per order' };
-
+  
   return { success: true, coupon };
 }
 
 
 Payment Flow & Idempotency
 
-1.
+1. 
 ALWAYS prevent double payment submission
 javascriptDownloadCopy code// Disable button on click:
 payButton.addEventListener('click', async () => {
@@ -1699,7 +1699,7 @@ payButton.addEventListener('click', async () => {
   }
 });
 
-2.
+2. 
 ALWAYS handle webhook idempotency (webhook can deliver multiple times)
 javascriptDownloadCopy code// Check if webhook already processed:
 const existing = await db.webhookLogs.findOne({ webhook_id: event.id });
@@ -1713,7 +1713,7 @@ await db.transaction(async (trx) => {
   await trx.orders.update({ id: orderId, status: 'paid' });
 });
 
-3.
+3. 
 ALWAYS verify webhook signatures
 javascriptDownloadCopy code// Stripe example:
 const sig = req.headers['stripe-signature'];
@@ -1728,10 +1728,10 @@ try {
   return { error: 'Invalid signature', status: 400 };
 }
 
-4.
+4. 
 NEVER use test keys in production
 
-5.
+5. 
 ALWAYS update order status atomically after payment confirmation
 
 
@@ -1745,7 +1745,7 @@ Refund & Cancellation
 3.2 USER ACCOUNT & PROFILE
 Registration
 
-1.
+1. 
 ALWAYS require email verification before account is fully active
 javascriptDownloadCopy code// POST /register:
 await db.users.create({ email, password, status: 'unverified' });
@@ -1754,7 +1754,7 @@ await sendVerificationEmail(email, token);
 // User clicks link:
 await db.users.update({ id, status: 'verified' });
 
-2.
+2. 
 ALWAYS enforce password strength
 javascriptDownloadCopy codefunction validatePassword(password) {
   if (password.length < 8) return 'Min 8 characters';
@@ -1764,10 +1764,10 @@ javascriptDownloadCopy codefunction validatePassword(password) {
   return null;
 }
 
-3.
+3. 
 ALWAYS check for duplicate email with UNIQUE constraint
 
-4.
+4. 
 NEVER reveal if email exists (prevents enumeration)
 javascriptDownloadCopy code// ❌ WRONG:
 if (emailExists) return { error: 'Email already registered' };
@@ -1775,7 +1775,7 @@ if (emailExists) return { error: 'Email already registered' };
 // ✅ CORRECT:
 return { message: 'If this email is not registered, you will receive a verification link.' };
 
-5.
+5. 
 ALWAYS use CAPTCHA to prevent bot registration
 
 
@@ -1787,7 +1787,7 @@ Login & Session
 
 Password Reset - CRITICAL!
 
-1.
+1. 
 ALWAYS expire reset tokens quickly (15-30 minutes)
 javascriptDownloadCopy codeconst token = crypto.randomBytes(32).toString('hex');
 const expires = new Date(Date.now() + 15 * 60 * 1000); // 15 min
@@ -1798,7 +1798,7 @@ await db.passwordResets.create({
   used: false
 });
 
-2.
+2. 
 ALWAYS use cryptographically random tokens
 javascriptDownloadCopy code// ❌ WRONG - Predictable:
 const token = `reset_${userId}`; // Attacker can guess!
@@ -1806,26 +1806,26 @@ const token = `reset_${userId}`; // Attacker can guess!
 // ✅ CORRECT - Random:
 const token = crypto.randomBytes(32).toString('hex');
 
-3.
+3. 
 NEVER reveal if email exists in password reset
 javascriptDownloadCopy code// Always show same message:
 return { message: 'If email exists, reset link sent.' };
 
-4.
+4. 
 ALWAYS invalidate all sessions after password reset
 javascriptDownloadCopy code// After password change:
 await db.sessions.deleteMany({ user_id: userId });
 
-5.
+5. 
 ALWAYS mark reset token as used after successful reset
 
 
 Profile Update
 
-1.
+1. 
 ALWAYS require verification when changing email
 
-2.
+2. 
 NEVER allow users to change their role via profile update
 javascriptDownloadCopy code// ❌ WRONG - User can become admin:
 await db.users.update(userId, req.body);
@@ -1841,20 +1841,20 @@ allowed.forEach(field => {
 });
 await db.users.update(userId, updateData);
 
-3.
+3. 
 NEVER allow admin to change user password without proper verification
 
 
 3.3 AFFILIATE & REFERRAL SYSTEM
 Commission Calculation
 
-1.
+1. 
 ALWAYS prevent self-referral
 javascriptDownloadCopy codeif (referrerId === newUserId) {
   return { error: 'Cannot refer yourself' };
 }
 
-2.
+2. 
 ALWAYS handle commission for cancelled orders
 javascriptDownloadCopy code// When order cancelled:
 await db.commissions.update({
@@ -1862,7 +1862,7 @@ await db.commissions.update({
   status: 'cancelled'
 });
 
-3.
+3. 
 ALWAYS set referral cookie server-side (not client-side)
 javascriptDownloadCopy code// ❌ WRONG - Client can set any referrer:
 document.cookie = `ref=${anyCode}`;
@@ -1870,13 +1870,13 @@ document.cookie = `ref=${anyCode}`;
 // ✅ CORRECT - Server sets httpOnly cookie:
 res.setHeader('Set-Cookie', `ref=${code}; HttpOnly; Secure; SameSite=Strict`);
 
-4.
+4. 
 ALWAYS prevent race condition in commission payment
 
 
 Payout System
 
-1.
+1. 
 ALWAYS prevent withdrawal more than balance
 sqlDownloadCopy code-- Atomic check and update:
 UPDATE wallets
@@ -1885,10 +1885,10 @@ WHERE user_id = \$2 AND balance >= \$1
 RETURNING *;
 -- If no rows, insufficient balance
 
-2.
+2. 
 NEVER allow negative balance
 
-3.
+3. 
 ALWAYS prevent concurrent withdrawal race condition
 javascriptDownloadCopy code// Use transaction with lock:
 await db.transaction(async (trx) => {
@@ -1896,15 +1896,15 @@ await db.transaction(async (trx) => {
     .where({ user_id: userId })
     .forUpdate()
     .first();
-
+  
   if (wallet.balance < amount) {
     throw new Error('Insufficient balance');
   }
-
+  
   await trx.wallets.update(userId, {
     balance: wallet.balance - amount
   });
-
+  
   await trx.withdrawals.create({ user_id: userId, amount });
 });
 
@@ -1912,7 +1912,7 @@ await db.transaction(async (trx) => {
 3.4 ADMIN OPERATIONS
 Admin Authorization
 
-1.
+1. 
 ALWAYS verify admin role on backend for all admin endpoints
 javascriptDownloadCopy code// Middleware:
 async function requireAdmin(req, res, next) {
@@ -1923,7 +1923,7 @@ async function requireAdmin(req, res, next) {
   next();
 }
 
-2.
+2. 
 ALWAYS log all admin actions for audit trail
 javascriptDownloadCopy codeawait db.adminLogs.create({
   admin_id: currentAdmin.id,
@@ -1935,13 +1935,13 @@ javascriptDownloadCopy codeawait db.adminLogs.create({
   timestamp: new Date()
 });
 
-3.
+3. 
 ALWAYS prevent horizontal privilege escalation (Admin A editing Admin B's data)
 
-4.
+4. 
 ALWAYS require re-authentication for super admin actions
 
-5.
+5. 
 ALWAYS implement admin impersonation logging
 
 
@@ -1960,14 +1960,14 @@ PHẦN 11: SUPABASE SPECIFIC
 ═══════════════════════════════════════════════════════════════════════════
 11.1 Row Level Security (RLS)
 
-1.
+1. 
 ALWAYS enable RLS on every table:
 sqlDownloadCopy codeALTER TABLE orders ENABLE ROW LEVEL SECURITY;
 ALTER TABLE profiles ENABLE ROW LEVEL SECURITY;
 ALTER TABLE products ENABLE ROW LEVEL SECURITY;
 -- ... all tables
 
-2.
+2. 
 NEVER create overly permissive policies:
 sqlDownloadCopy code-- ❌ WRONG:
 CREATE POLICY "Allow all" ON orders FOR ALL USING (true);
@@ -1978,35 +1978,35 @@ CREATE POLICY "Users view own orders" ON orders
 CREATE POLICY "Users create own orders" ON orders
   FOR INSERT WITH CHECK (auth.uid() = user_id);
 
-3.
+3. 
 ALWAYS create separate policies for SELECT, INSERT, UPDATE, DELETE
 
-4.
+4. 
 NEVER use service_role_key in frontend - CRITICAL!
 
 
 11.2 Edge Functions Security
 
-1.
+1. 
 ALWAYS verify JWT in Edge Functions:
 typescriptDownloadCopy codeDeno.serve(async (req) => {
   const authHeader = req.headers.get('Authorization');
   const token = authHeader?.replace('Bearer ', '');
-
+  
   const { data: { user }, error } = await supabase.auth.getUser(token);
   if (error || !user) {
     return new Response(JSON.stringify({ error: 'Unauthorized' }), {
       status: 401
     });
   }
-
+  
   // Use user.id from verified token
 });
 
-2.
+2. 
 ALWAYS use Deno.env.get() for secrets in Edge Functions
 
-3.
+3. 
 ALWAYS set specific CORS origins in Edge Functions
 
 
@@ -2017,7 +2017,7 @@ ALWAYS set specific CORS origins in Edge Functions
 
 11.4 Storage Security
 
-1.
+1. 
 ALWAYS create specific storage bucket policies
 sqlDownloadCopy code-- ❌ WRONG:
 CREATE POLICY "Public access" ON storage.objects FOR ALL USING (true);
@@ -2026,10 +2026,10 @@ CREATE POLICY "Public access" ON storage.objects FOR ALL USING (true);
 CREATE POLICY "Users manage own files" ON storage.objects
   FOR ALL USING (auth.uid()::text = (storage.foldername(name))[1]);
 
-2.
+2. 
 ALWAYS validate file types (prevent .exe, .php uploads)
 
-3.
+3. 
 ALWAYS sanitize filenames to prevent path traversal
 
 
@@ -2105,7 +2105,7 @@ PHẦN 2: FRONTEND CRITICAL ISSUES
 2.1 STATE MANAGEMENT & SYNC
 Cart State Management
 
-1.
+1. 
 ALWAYS sync cart between browser tabs
 javascriptDownloadCopy code// Listen for storage changes:
 window.addEventListener('storage', (e) => {
@@ -2114,16 +2114,16 @@ window.addEventListener('storage', (e) => {
   }
 });
 
-2.
+2. 
 ALWAYS persist cart to localStorage or server (don't lose on refresh)
 
-3.
+3. 
 ALWAYS handle cart conflict when user logs in/out
 
 Anonymous cart + login → merge or replace?
 
 
-4.
+4. 
 ALWAYS sync cart quantity with backend inventory
 javascriptDownloadCopy code// Periodically verify cart items are still available:
 const verifiedCart = await api.verifyCart(cart);
@@ -2135,10 +2135,10 @@ if (verifiedCart.hasChanges) {
 
 Authentication State
 
-1.
+1. 
 ALWAYS persist login state properly (token + refresh token)
 
-2.
+2. 
 ALWAYS clear ALL data when logging out
 javascriptDownloadCopy codefunction logout() {
   localStorage.removeItem('token');
@@ -2149,7 +2149,7 @@ javascriptDownloadCopy codefunction logout() {
   // Clear any cached data
 }
 
-3.
+3. 
 NEVER rely only on frontend to protect routes
 javascriptDownloadCopy code// ❌ WRONG - Only hide UI:
 if (!isLoggedIn) {
@@ -2161,7 +2161,7 @@ if (!isLoggedIn) {
 // Frontend hides UI for UX
 // Backend ALWAYS verifies token and permissions
 
-4.
+4. 
 ALWAYS implement proper token refresh logic
 javascriptDownloadCopy code// When API returns 401:
 if (response.status === 401) {
@@ -2183,7 +2183,7 @@ User Data Sync
 
 UI State Management
 
-1.
+1. 
 ALWAYS show loading state to prevent multiple clicks
 javascriptDownloadCopy code// ❌ WRONG:
 <button onclick="submit()">Submit</button>
@@ -2201,13 +2201,13 @@ async function submit() {
   }
 }
 
-2.
+2. 
 ALWAYS show error state when something fails
 
-3.
+3. 
 ALWAYS show empty state when no data
 
-4.
+4. 
 ALWAYS rollback optimistic updates when API fails
 javascriptDownloadCopy code// ❌ WRONG - Optimistic without rollback:
 cart.items.push(newItem); // Update UI immediately
@@ -2227,7 +2227,7 @@ try {
 2.2 JAVASCRIPT COMMON BUGS
 Async/Await & Promise Issues
 
-1.
+1. 
 NEVER forget await keyword for async functions
 javascriptDownloadCopy code// ❌ WRONG:
 const orders = api.getOrders(); // Returns Promise, not data!
@@ -2237,7 +2237,7 @@ orders.forEach(...); // Error: forEach is not a function
 const orders = await api.getOrders();
 orders.forEach(...);
 
-2.
+2. 
 ALWAYS handle Promise rejections
 javascriptDownloadCopy code// ❌ WRONG:
 fetch('/api/data').then(r => r.json()).then(d => use(d));
@@ -2253,7 +2253,7 @@ try {
   handleError(error);
 }
 
-3.
+3. 
 ALWAYS handle race conditions in UI updates
 javascriptDownloadCopy code// ❌ WRONG - Race condition:
 const orderPromise = fetch('/api/order');
@@ -2270,7 +2270,7 @@ const [order, payment] = await Promise.all([
   fetch('/api/payment')
 ]);
 
-4.
+4. 
 ALWAYS debounce rapid API calls (e.g., search)
 javascriptDownloadCopy code// ❌ WRONG - API call on every keystroke:
 input.addEventListener('input', () => api.search(input.value));
@@ -2285,7 +2285,7 @@ input.addEventListener('input', () => {
 
 Event Listener & Memory Leaks
 
-1.
+1. 
 ALWAYS remove event listeners when no longer needed
 javascriptDownloadCopy code// ❌ WRONG - Listeners stack up:
 function setupCart() {
@@ -2300,10 +2300,10 @@ function setupCart() {
 }
 // Or use { once: true } for one-time listeners
 
-2.
+2. 
 ALWAYS clean up listeners when component unmounts/re-renders
 
-3.
+3. 
 ALWAYS avoid closures that hold unnecessary large references
 javascriptDownloadCopy code// ❌ WRONG - largeData stays in memory:
 const largeData = getHugeArray(); // 100MB
@@ -2320,7 +2320,7 @@ setTimeout(() => console.log('done'), 10000);
 
 DOM Manipulation
 
-1.
+1. 
 ALWAYS check for null before using querySelector result
 javascriptDownloadCopy code// ❌ WRONG:
 const btn = document.querySelector('.submit-btn');
@@ -2334,13 +2334,13 @@ if (btn) {
 // Or use optional chaining:
 btn?.addEventListener('click', ...);
 
-2.
+2. 
 NEVER get element by ID before it's rendered (DOMContentLoaded)
 
-3.
+3. 
 NEVER use innerHTML with untrusted content (XSS!) - use textContent
 
-4.
+4. 
 NEVER modify DOM while iterating over it
 javascriptDownloadCopy code// ❌ WRONG:
 items.forEach(item => {
@@ -2358,7 +2358,7 @@ Array.from(items).forEach(item => {
 
 Type Coercion & Logic Bugs
 
-1.
+1. 
 ALWAYS handle falsy values correctly
 javascriptDownloadCopy code// ❌ WRONG:
 if (quantity) { process(); }
@@ -2369,7 +2369,7 @@ if (quantity != null) { process(); }
 // Or:
 if (typeof quantity === 'number') { process(); }
 
-2.
+2. 
 ALWAYS be aware of string coercion
 javascriptDownloadCopy code// ❌ WRONG:
 '10' + 5 // Results in '105' (string concat), not 15!
@@ -2378,7 +2378,7 @@ javascriptDownloadCopy code// ❌ WRONG:
 parseInt('10', 10) + 5 // Results in 15
 Number('10') + 5 // Results in 15
 
-3.
+3. 
 ALWAYS use proper comparison for arrays/objects
 javascriptDownloadCopy code// ❌ WRONG:
 [1, 2] == [1, 2] // false! (reference comparison)
@@ -2387,7 +2387,7 @@ javascriptDownloadCopy code// ❌ WRONG:
 JSON.stringify(arr1) === JSON.stringify(arr2)
 // Or use deep comparison library
 
-4.
+4. 
 ALWAYS use === instead of == for comparisons
 javascriptDownloadCopy code// ❌ WRONG:
 if (status == 'success') // status = 0 or '' could match!
@@ -2398,7 +2398,7 @@ if (status === 'success')
 
 Global Scope Pollution
 
-1.
+1. 
 ALWAYS use const/let, never implicit globals
 javascriptDownloadCopy code// ❌ WRONG:
 x = 10; // Creates global variable window.x!
@@ -2407,28 +2407,28 @@ x = 10; // Creates global variable window.x!
 const x = 10;
 let y = 20;
 
-2.
+2. 
 ALWAYS avoid function name collisions across scripts
 
 
 2.3 RESPONSIVE & COMPATIBILITY
 Mobile & Touch Issues
 
-1.
+1. 
 ALWAYS handle touch events properly
 cssDownloadCopy code/* Fix double-tap zoom issues: */
 button {
   touch-action: manipulation;
 }
 
-2.
+2. 
 ALWAYS include proper viewport meta tag
 htmlDownloadCopy code<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-3.
+3. 
 ALWAYS ensure fixed headers/footers don't cover content
 
-4.
+4. 
 ALWAYS use font-size >= 16px for inputs to prevent iOS zoom
 cssDownloadCopy codeinput, select, textarea {
   font-size: 16px; /* Prevents auto-zoom on iOS */
@@ -2444,11 +2444,11 @@ Browser Compatibility
 
 Accessibility (a11y)
 
-1.
+1. 
 ALWAYS support keyboard navigation
 javascriptDownloadCopy code// Test: Can you complete checkout using only Tab and Enter?
 
-2.
+2. 
 ALWAYS include ARIA labels for non-text elements
 htmlDownloadCopy code<!-- ❌ WRONG: -->
 <button>×</button>
@@ -2456,13 +2456,13 @@ htmlDownloadCopy code<!-- ❌ WRONG: -->
 <!-- ✅ CORRECT: -->
 <button aria-label="Close">×</button>
 
-3.
+3. 
 ALWAYS ensure color contrast ratio >= 4.5:1 for text
 
 Test: https://www.tpgi.com/color-contrast-checker/
 
 
-4.
+4. 
 ALWAYS make content screen reader compatible
 htmlDownloadCopy code<img src="product.jpg" alt="Red Nike Running Shoes Size 42">
 <button aria-label="Add to cart"><i class="icon-cart"></i></button>
@@ -2470,14 +2470,14 @@ htmlDownloadCopy code<img src="product.jpg" alt="Red Nike Running Shoes Size 42"
 
 Performance & Loading
 
-1.
+1. 
 ALWAYS optimize images (WebP, responsive sizes, lazy load)
 htmlDownloadCopy code<img src="product.jpg" loading="lazy" alt="...">
 
-2.
+2. 
 ALWAYS minify CSS/JS in production
 
-3.
+3. 
 ALWAYS lazy load below-the-fold content
 javascriptDownloadCopy code// Use Intersection Observer for lazy loading
 const observer = new IntersectionObserver((entries) => {
@@ -2489,7 +2489,7 @@ const observer = new IntersectionObserver((entries) => {
   });
 });
 
-4.
+4. 
 ALWAYS use defer or async for non-critical scripts
 htmlDownloadCopy code<!-- ❌ WRONG - Blocks rendering: -->
 <script src="heavy-lib.js"></script>
@@ -2497,10 +2497,10 @@ htmlDownloadCopy code<!-- ❌ WRONG - Blocks rendering: -->
 <!-- ✅ CORRECT: -->
 <script src="heavy-lib.js" defer></script>
 
-5.
+5. 
 ALWAYS remove unused CSS/JS from bundle
 
-6.
+6. 
 ALWAYS use HTTP/2 for multiplexing if available
 
 
@@ -2509,19 +2509,19 @@ PHẦN 5: UX/UI & USABILITY
 ═══════════════════════════════════════════════════════════════════════════
 5.1 NAVIGATION & FORMS
 
-1.
+1. 
 ALWAYS show breadcrumbs and highlight current page
 
-2.
+2. 
 ALWAYS handle browser back button correctly
 
-3.
+3. 
 ALWAYS support deep linking (share URL should work)
 
-4.
+4. 
 ALWAYS validate forms in real-time, not just on submit
 
-5.
+5. 
 ALWAYS show clear, specific error messages
 javascriptDownloadCopy code// ❌ WRONG:
 'Invalid input'
@@ -2529,36 +2529,36 @@ javascriptDownloadCopy code// ❌ WRONG:
 // ✅ CORRECT:
 'Email must be a valid format (example@domain.com)'
 
-6.
+6. 
 ALWAYS keep forms short or use multi-step for long forms
 
-7.
+7. 
 ALWAYS use input masks for formatted data (phone, date)
 
-8.
+8. 
 ALWAYS support browser autofill
 htmlDownloadCopy code<input type="email" autocomplete="email">
 <input type="tel" autocomplete="tel">
 
-9.
+9. 
 ALWAYS mark required fields clearly
 
 
 5.2 FEEDBACK & CONFIRMATION
 
-1.
+1. 
 ALWAYS confirm destructive actions
 javascriptDownloadCopy codeif (confirm('Delete this order? This cannot be undone.')) {
   await deleteOrder(orderId);
 }
 
-2.
+2. 
 ALWAYS show loading indicators during async operations
 
-3.
+3. 
 ALWAYS show success/error notifications (toasts)
 
-4.
+4. 
 ALWAYS show empty states when no data
 
 
@@ -2590,33 +2590,33 @@ PHẦN 4: PERFORMANCE ISSUES
 ═══════════════════════════════════════════════════════════════════════════
 4.1 FRONTEND PERFORMANCE
 
-1.
+1. 
 ALWAYS keep bundle size under 500KB (code split, tree shake)
 
-2.
+2. 
 ALWAYS lazy load non-critical features
 javascriptDownloadCopy code// Dynamic import:
 const AdminPanel = await import('./admin-panel.js');
 
-3.
+3. 
 ALWAYS use defer/async for non-critical scripts
 
-4.
+4. 
 ALWAYS avoid expensive re-renders (use React.memo, useMemo if React)
 
-5.
+5. 
 ALWAYS check for memory leaks in Chrome DevTools
 
-6.
+6. 
 ALWAYS use requestAnimationFrame for scroll animations
 
-7.
+7. 
 ALWAYS debounce expensive operations
 
-8.
+8. 
 ALWAYS reduce HTTP requests (bundling, sprite sheets)
 
-9.
+9. 
 ALWAYS batch API calls when possible
 javascriptDownloadCopy code// ❌ WRONG - 10 sequential calls:
 for (const id of ids) {
@@ -2631,7 +2631,7 @@ await Promise.all(ids.map(id => api.getProduct(id)));
 
 4.2 BACKEND PERFORMANCE
 
-1.
+1. 
 ALWAYS avoid N+1 query problem
 javascriptDownloadCopy code// ❌ WRONG - N+1:
 const orders = await db.orders.findAll();
@@ -2644,22 +2644,22 @@ const orders = await supabase
   .from('orders')
   .select('*, order_items(*)'); // 1 query
 
-2.
+2. 
 ALWAYS add indexes for WHERE clause columns
 
-3.
+3. 
 ALWAYS use keyset pagination for large datasets
 
-4.
+4. 
 ALWAYS add composite indexes for multi-column queries
 
-5.
+5. 
 ALWAYS implement caching for frequently accessed data
 
-6.
+6. 
 ALWAYS handle cache stampede (lock or probabilistic early expiration)
 
-7.
+7. 
 ALWAYS invalidate cache correctly when data changes
 
 
@@ -2668,7 +2668,7 @@ PHẦN 6: CODE QUALITY & MAINTAINABILITY
 ═══════════════════════════════════════════════════════════════════════════
 6.1 ARCHITECTURE & ORGANIZATION
 
-1.
+1. 
 ALWAYS separate concerns (API, business logic, UI)
 /api/         - API calls
 /utils/       - Utility functions
@@ -2676,13 +2676,13 @@ ALWAYS separate concerns (API, business logic, UI)
 /services/    - Business logic
 
 
-2.
+2. 
 ALWAYS follow DRY - extract repeated code
 
-3.
+3. 
 ALWAYS break down large functions (single responsibility)
 
-4.
+4. 
 ALWAYS use meaningful, consistent naming
 javascriptDownloadCopy code// ❌ WRONG:
 const x = user.p.a;
@@ -2690,7 +2690,7 @@ const x = user.p.a;
 // ✅ CORRECT:
 const userPhoneAreaCode = user.phone.areaCode;
 
-5.
+5. 
 ALWAYS avoid magic numbers/strings
 javascriptDownloadCopy code// ❌ WRONG:
 if (status === 3) { ... }
@@ -2699,19 +2699,19 @@ if (status === 3) { ... }
 const ORDER_STATUS = { PENDING: 1, PROCESSING: 2, SHIPPED: 3 };
 if (status === ORDER_STATUS.SHIPPED) { ... }
 
-6.
+6. 
 ALWAYS document complex logic with comments
 
-7.
+7. 
 ALWAYS write API documentation
 
-8.
+8. 
 ALWAYS write comprehensive README
 
 
 6.2 ERROR HANDLING & RESILIENCE
 
-1.
+1. 
 NEVER have empty catch blocks
 javascriptDownloadCopy code// ❌ WRONG:
 try { await doSomething(); } catch (e) { }
@@ -2724,7 +2724,7 @@ try {
   showError('Operation failed');
 }
 
-2.
+2. 
 ALWAYS handle empty arrays before accessing elements
 javascriptDownloadCopy code// ❌ WRONG:
 const first = orders[0].id; // Error if orders is empty!
@@ -2732,10 +2732,10 @@ const first = orders[0].id; // Error if orders is empty!
 // ✅ CORRECT:
 const first = orders.length > 0 ? orders[0].id : null;
 
-3.
+3. 
 ALWAYS check for null/undefined before accessing properties
 
-4.
+4. 
 ALWAYS implement request timeouts
 javascriptDownloadCopy codeconst controller = new AbortController();
 const timeout = setTimeout(() => controller.abort(), 5000);
@@ -2750,19 +2750,19 @@ try {
   clearTimeout(timeout);
 }
 
-5.
+5. 
 ALWAYS implement retry logic with exponential backoff
 
 
 6.3 TESTING & QA
 
-1.
+1. 
 ALWAYS write tests for critical functions (auth, payment, calculation)
 
-2.
+2. 
 ALWAYS test complete user flows (login → cart → checkout → order)
 
-3.
+3. 
 ALWAYS test these security scenarios:
 
 XSS: Submit <script>alert('xss')</script> in inputs
@@ -2772,10 +2772,10 @@ Race condition: Checkout same item in 2 tabs
 Auth bypass: Access protected route without token
 
 
-4.
+4. 
 ALWAYS run load tests before launch
 
-5.
+5. 
 ALWAYS run Lighthouse for performance scoring
 
 
@@ -2790,18 +2790,18 @@ ALWAYS run Lighthouse for performance scoring
 PHẦN 10: SEARCH & DATA RETRIEVAL
 ═══════════════════════════════════════════════════════════════════════════
 
-1.
+1. 
 ALWAYS sanitize search queries
 javascriptDownloadCopy code// Escape special characters: & | ! ( ) : ' *
 const safeQuery = query.replace(/[&|!():'"*]/g, '');
 
-2.
+2. 
 NEVER expose admin users or internal data in search results
 
-3.
+3. 
 ALWAYS rate limit autocomplete/search endpoints
 
-4.
+4. 
 ALWAYS whitelist allowed filter fields
 javascriptDownloadCopy codeconst ALLOWED_FILTERS = ['price', 'category', 'brand'];
 const filters = {};
@@ -2809,7 +2809,7 @@ ALLOWED_FILTERS.forEach(field => {
   if (req.query[field]) filters[field] = req.query[field];
 });
 
-5.
+5. 
 ALWAYS validate report parameters (date ranges, user IDs)
 
 
@@ -2884,7 +2884,7 @@ ALWAYS validate report parameters (date ranges, user IDs)
     ```javascript
     // ❌ WRONG:
     headers: { 'Access-Control-Allow-Origin': '*' }
-
+    
     // ✅ CORRECT:
     headers: { 'Access-Control-Allow-Origin': 'https://yourdomain.com' }
     ```
@@ -3166,8 +3166,8 @@ Potential risks addressed:
 103. For checkout, ALWAYS use atomic operations:
      ```sql
      -- Use Supabase MCP to run:
-     UPDATE products
-     SET inventory = inventory - 1
+     UPDATE products 
+     SET inventory = inventory - 1 
      WHERE id = \$1 AND inventory > 0
      RETURNING *;
      ```
@@ -3179,8 +3179,8 @@ Potential risks addressed:
 
 105. For coupon, ALWAYS use atomic increment:
      ```sql
-     UPDATE coupons
-     SET times_used = times_used + 1
+     UPDATE coupons 
+     SET times_used = times_used + 1 
      WHERE code = \$1 AND times_used < usage_limit
      RETURNING *;
      ```
@@ -3224,8 +3224,8 @@ Potential risks addressed:
 
 114. Use Supabase MCP to verify foreign key constraints:
      ```sql
-     ALTER TABLE order_items
-     ADD CONSTRAINT fk_product
+     ALTER TABLE order_items 
+     ADD CONSTRAINT fk_product 
      FOREIGN KEY (product_id) REFERENCES products(id);
      ```
 
@@ -3258,7 +3258,7 @@ Potential risks addressed:
      ```javascript
      // ❌ WRONG:
      return { error: error.message, stack: error.stack };
-
+     
      // ✅ CORRECT:
      console.error('Internal error:', error);
      return { error: 'An error occurred', code: 'INTERNAL_ERROR' };
@@ -3282,7 +3282,7 @@ Potential risks addressed:
      ```javascript
      // ❌ WRONG:
      return { error: 'User with email xxx not found' };
-
+     
      // ✅ CORRECT:
      return { error: 'Invalid email or password' };
      ```
@@ -3362,7 +3362,7 @@ Potential risks addressed:
        security: (message, context = {}) => log('SECURITY', message, context),
        audit: (message, context = {}) => log('AUDIT', message, context)
      };
-
+     
      function log(level, message, context) {
        const logEntry = {
          timestamp: new Date().toISOString(),
@@ -3375,14 +3375,14 @@ Potential risks addressed:
          ip_address: context.ip,
          ...context
        };
-
+       
        // Never log sensitive data:
        delete logEntry.password;
        delete logEntry.token;
        delete logEntry.apiKey;
-
+       
        console.log(JSON.stringify(logEntry));
-
+       
        // Send to log aggregator:
        sendToLogService(logEntry);
      }
@@ -3409,7 +3409,7 @@ Potential risks addressed:
        DATA_EXPORT: 'User data exported',
        DATA_DELETED: 'User data deleted'
      };
-
+     
      function logSecurityEvent(event, userId, details = {}) {
        logger.security(SECURITY_EVENTS[event] || event, {
          event_type: event,
@@ -3441,7 +3441,7 @@ Potential risks addressed:
          }
        });
      }
-
+     
      // Usage:
      await createAuditLog('ORDER_STATUS_CHANGED', {
        actorId: adminId,
@@ -3465,10 +3465,10 @@ Potential risks addressed:
      -- Audit logs: Insert only, no update/delete
      CREATE POLICY "Audit logs are append only" ON audit_logs
        FOR INSERT WITH CHECK (true);
-
+     
      -- No update policy = cannot update
      -- No delete policy = cannot delete
-
+     
      -- Only service role can read for compliance:
      CREATE POLICY "Only admins can read audit logs" ON audit_logs
        FOR SELECT USING (
@@ -3487,18 +3487,18 @@ Potential risks addressed:
          'SECURITY': 365 * 2, // 2 years
          'AUDIT': 365 * 7    // 7 years for compliance
        };
-
+       
        for (const [level, days] of Object.entries(retentionDays)) {
          const cutoffDate = new Date(Date.now() - days * 24 * 60 * 60 * 1000);
-
+         
          // Archive to cold storage:
          const oldLogs = await db.logs.find({
            level,
            timestamp: { \$lt: cutoffDate }
          });
-
+         
          await archiveToS3(oldLogs, `logs/${level}/${cutoffDate.toISOString()}`);
-
+         
          // Delete from hot storage:
          await db.logs.deleteMany({
            level,
@@ -3557,10 +3557,10 @@ PHẦN 7: INFRASTRUCTURE & DEVOPS
 ═══════════════════════════════════════════════════════════════════════════
 7.1 DEPLOYMENT & HOSTING
 
-1.
+1. 
 ALWAYS use HTTPS (never HTTP in production)
 
-2.
+2. 
 ALWAYS configure these security headers:
 X-Frame-Options: DENY
 X-Content-Type-Options: nosniff
@@ -3570,16 +3570,16 @@ Strict-Transport-Security: max-age=31536000; includeSubDomains
 Content-Security-Policy: default-src 'self'; ...
 
 
-3.
+3. 
 NEVER commit secrets to source code or git
 
-4.
+4. 
 ALWAYS use environment variables for secrets
 
-5.
+5. 
 ALWAYS use CDN for static assets
 
-6.
+6. 
 ALWAYS set correct cache headers
 Static assets (images, fonts): Cache-Control: max-age=31536000, immutable
 HTML files: Cache-Control: no-cache
@@ -3689,12 +3689,12 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
      ```javascript
      // Max 3 active sessions per user:
      const MAX_SESSIONS = 3;
-
+     
      const activeSessions = await db.sessions.count({ user_id: userId });
      if (activeSessions >= MAX_SESSIONS) {
        // Option 1: Reject new login
        return { error: 'Max sessions reached. Please logout from another device.' };
-
+       
        // Option 2: Remove oldest session
        const oldest = await db.sessions.findOne({ user_id: userId }).orderBy('created_at', 'asc');
        await db.sessions.delete(oldest.id);
@@ -3722,28 +3722,28 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
          user_id: userId,
          created_at: { \$gt: new Date(Date.now() - 24 * 60 * 60 * 1000) }
        });
-
+       
        const currentLocation = await getGeoLocation(req.ip);
        const lastLogin = recentLogins[0];
-
+       
        // Check impossible travel:
        if (lastLogin) {
          const distance = calculateDistance(lastLogin.location, currentLocation);
          const timeDiff = Date.now() - lastLogin.created_at.getTime();
          const maxPossibleSpeed = 1000; // km/h (airplane)
-
+         
          if (distance / (timeDiff / 3600000) > maxPossibleSpeed) {
            return { suspicious: true, reason: 'impossible_travel' };
          }
        }
-
+       
        // Check new device:
        const knownDevices = await db.userDevices.find({ user_id: userId });
        const currentFingerprint = generateFingerprint(req);
        if (!knownDevices.some(d => d.fingerprint === currentFingerprint)) {
          return { suspicious: true, reason: 'new_device' };
        }
-
+       
        return { suspicious: false };
      }
      ```
@@ -3759,17 +3759,17 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
        'delete_account',
        'view_api_keys'
      ];
-
+     
      async function requireReauth(req, action) {
        if (!SENSITIVE_ACTIONS.includes(action)) return true;
-
+       
        const lastAuth = await getLastAuthTime(req.user.id);
        const maxAge = 5 * 60 * 1000; // 5 minutes
-
+       
        if (Date.now() - lastAuth > maxAge) {
          return { error: 'Please re-enter your password', code: 'REAUTH_REQUIRED' };
        }
-
+       
        return true;
      }
      ```
@@ -3778,14 +3778,14 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
      ```javascript
      const MAX_FAILED_ATTEMPTS = 5;
      const LOCKOUT_DURATION = 15 * 60 * 1000; // 15 minutes
-
+     
      async function checkAccountLockout(email) {
        const attempts = await db.loginAttempts.find({
          email,
          success: false,
          created_at: { \$gt: new Date(Date.now() - LOCKOUT_DURATION) }
        });
-
+       
        if (attempts.length >= MAX_FAILED_ATTEMPTS) {
          const lockoutEnds = new Date(attempts[0].created_at.getTime() + LOCKOUT_DURATION);
          return {
@@ -3794,7 +3794,7 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
            message: `Account locked. Try again at ${lockoutEnds.toISOString()}`
          };
        }
-
+       
        return { locked: false, remaining_attempts: MAX_FAILED_ATTEMPTS - attempts.length };
      }
      ```
@@ -3810,11 +3810,11 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
          'suspicious_activity_detected',
          'admin_force_logout'
        ];
-
+       
        if (INVALIDATE_EVENTS.includes(event)) {
          await db.sessions.deleteMany({ user_id: userId });
          await db.refreshTokens.deleteMany({ user_id: userId });
-
+         
          // Notify user:
          await sendSecurityEmail(userId, event);
        }
@@ -3827,19 +3827,19 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
      async function createRememberToken(userId) {
        const token = crypto.randomBytes(64).toString('hex');
        const hashedToken = await bcrypt.hash(token, 10);
-
+       
        await db.rememberTokens.create({
          user_id: userId,
          token_hash: hashedToken,
          expires_at: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000), // 30 days
          series: crypto.randomBytes(16).toString('hex') // For theft detection
        });
-
+       
        return token;
      }
-
+     
      // Set as httpOnly cookie:
-     res.setHeader('Set-Cookie',
+     res.setHeader('Set-Cookie', 
        `remember=${token}; HttpOnly; Secure; SameSite=Strict; Max-Age=${30 * 24 * 60 * 60}; Path=/`
      );
      ```
@@ -3869,17 +3869,17 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
            error: 'Weekly limit reached.'
          }
        ];
-
+       
        for (const rule of rules) {
          const recentTx = await db.transactions.find({
            user_id: userId,
            created_at: { \$gt: new Date(Date.now() - rule.window) }
          });
-
+         
          if (rule.maxCount && recentTx.length >= rule.maxCount) {
            return { blocked: true, reason: rule.error };
          }
-
+         
          if (rule.maxAmount) {
            const total = recentTx.reduce((sum, tx) => sum + tx.amount, 0);
            if (total + amount > rule.maxAmount) {
@@ -3887,7 +3887,7 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
            }
          }
        }
-
+       
        return { blocked: false };
      }
      ```
@@ -3897,46 +3897,46 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
      function calculateFraudScore(order, user, req) {
        let score = 0;
        const factors = [];
-
+       
        // New account ordering high value
        if (user.created_at > Date.now() - 24 * 60 * 60 * 1000 && order.total > 500) {
          score += 30;
          factors.push('new_account_high_value');
        }
-
+       
        // Shipping address different from billing
        if (order.shipping_address !== order.billing_address) {
          score += 10;
          factors.push('address_mismatch');
        }
-
+       
        // Multiple failed payment attempts
        const failedAttempts = await getRecentFailedPayments(user.id);
        if (failedAttempts > 2) {
          score += 20;
          factors.push('multiple_failed_payments');
        }
-
+       
        // Proxy/VPN detected
        if (await isProxyOrVPN(req.ip)) {
          score += 25;
          factors.push('proxy_detected');
        }
-
+       
        // Email domain suspicious
        const emailDomain = user.email.split('@')[1];
        if (SUSPICIOUS_DOMAINS.includes(emailDomain)) {
          score += 15;
          factors.push('suspicious_email_domain');
        }
-
+       
        // Unusual purchase time (late night)
        const hour = new Date().getHours();
        if (hour >= 2 && hour <= 5) {
          score += 10;
          factors.push('unusual_time');
        }
-
+       
        return { score, factors, action: score > 50 ? 'review' : score > 75 ? 'block' : 'allow' };
      }
      ```
@@ -3945,19 +3945,19 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
      ```javascript
      async function processOrder(order) {
        const fraudResult = calculateFraudScore(order, user, req);
-
+       
        if (fraudResult.action === 'block') {
          await db.orders.update(order.id, { status: 'blocked', fraud_score: fraudResult.score });
          await notifySecurityTeam('Order blocked', { order, fraudResult });
          return { error: 'Order cannot be processed. Contact support.' };
        }
-
+       
        if (fraudResult.action === 'review') {
          await db.orders.update(order.id, { status: 'pending_review', fraud_score: fraudResult.score });
          await notifySecurityTeam('Order needs review', { order, fraudResult });
          return { message: 'Order is being reviewed. You will be notified.' };
        }
-
+       
        // Process normally
        return processNormalOrder(order);
      }
@@ -3972,28 +3972,28 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
          fingerprint: { \$in: userFingerprints.map(f => f.fingerprint) },
          user_id: { \$ne: userId }
        });
-
+       
        if (relatedUsers.length > 0) {
          const relatedCouponUsage = await db.couponUsages.find({
            user_id: { \$in: relatedUsers.map(u => u.user_id) },
            coupon_code: couponCode
          });
-
+         
          if (relatedCouponUsage.length > 0) {
            return { abusive: true, reason: 'multi_account_abuse' };
          }
        }
-
+       
        // Check rapid coupon usage:
        const recentUsage = await db.couponUsages.find({
          user_id: userId,
          created_at: { \$gt: new Date(Date.now() - 60 * 60 * 1000) } // Last hour
        });
-
+       
        if (recentUsage.length >= 3) {
          return { abusive: true, reason: 'rapid_usage' };
        }
-
+       
        return { abusive: false };
      }
      ```
@@ -4003,18 +4003,18 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
      // Track and respond to chargebacks:
      async function handleChargeback(chargebackEvent) {
        const order = await db.orders.findOne({ payment_id: chargebackEvent.payment_id });
-
+       
        // Flag user account:
        await db.users.update(order.user_id, {
          chargeback_count: { \$inc: 1 },
          risk_level: 'high'
        });
-
+       
        // Block future orders from this user:
        if (await getChargebackCount(order.user_id) >= 2) {
          await db.users.update(order.user_id, { blocked: true, block_reason: 'chargebacks' });
        }
-
+       
        // Log for dispute:
        await db.chargebackLogs.create({
          order_id: order.id,
@@ -4023,7 +4023,7 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
          reason: chargebackEvent.reason,
          evidence: await gatherChargebackEvidence(order)
        });
-
+       
        // Revoke digital goods:
        if (order.has_digital_goods) {
          await revokeDigitalGoods(order.id);
@@ -4037,9 +4037,9 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
      ```html
      <!-- ❌ WRONG: -->
      <script src="https://cdn.example.com/lib.js"></script>
-
+     
      <!-- ✅ CORRECT: -->
-     <script
+     <script 
        src="https://cdn.example.com/lib.js"
        integrity="sha384-oqVuAfXRKap7fdgcCY5uykM6+R9GqQ8K/uxXXXXXXXX"
        crossorigin="anonymous">
@@ -4054,12 +4054,12 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
        { domain: 'js.stripe.com', purpose: 'Payment' },
        { domain: 'www.google-analytics.com', purpose: 'Analytics' }
      ];
-
+     
      // CSP to enforce:
      const csp = `
-       script-src 'self'
-         https://cdn.jsdelivr.net
-         https://js.stripe.com
+       script-src 'self' 
+         https://cdn.jsdelivr.net 
+         https://js.stripe.com 
          https://www.google-analytics.com;
      `;
      ```
@@ -4068,24 +4068,24 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
      ```javascript
      async function callExternalAPI(url, options) {
        const response = await fetch(url, options);
-
+       
        // Validate response structure:
        const data = await response.json();
-
+       
        // Check for expected fields:
        if (!data || typeof data !== 'object') {
          throw new Error('Invalid API response format');
        }
-
+       
        // Validate specific fields:
        const schema = getSchemaForEndpoint(url);
        const isValid = validateSchema(data, schema);
-
+       
        if (!isValid) {
          logger.warn('Unexpected API response structure', { url, data });
          throw new Error('API response validation failed');
        }
-
+       
        return data;
      }
      ```
@@ -4097,7 +4097,7 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
          { name: 'stripe', client: stripeClient, priority: 1 },
          { name: 'paypal', client: paypalClient, priority: 2 }
        ];
-
+       
        for (const provider of providers.sort((a, b) => a.priority - b.priority)) {
          try {
            const isHealthy = await provider.client.healthCheck();
@@ -4106,7 +4106,7 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
            logger.warn(`Payment provider ${provider.name} unhealthy`, { error });
          }
        }
-
+       
        throw new Error('No payment providers available');
      }
      ```
@@ -4115,10 +4115,10 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
      ```bash
      # Add to CI/CD pipeline:
      npm audit --audit-level=high
-
+     
      # Or use Snyk:
      snyk test
-
+     
      # Schedule weekly checks:
      # .github/workflows/security.yml
      ```
@@ -4129,7 +4129,7 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
          - cron: '0 0 * * 0' # Weekly
        push:
          branches: [main]
-
+     
      jobs:
        audit:
          runs-on: ubuntu-latest
@@ -4153,7 +4153,7 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
        '/images/',
        '/fonts/'
      ];
-
+     
      // NEVER cache:
      const NEVER_CACHE = [
        '/api/',
@@ -4161,15 +4161,15 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
        '/account/',
        '/checkout/'
      ];
-
+     
      self.addEventListener('fetch', (event) => {
        const url = new URL(event.request.url);
-
+       
        // Skip caching for sensitive paths:
        if (NEVER_CACHE.some(path => url.pathname.startsWith(path))) {
          return; // Let browser handle normally
        }
-
+       
        // Only cache allowed paths:
        if (CACHEABLE_PATHS.some(path => url.pathname.startsWith(path))) {
          event.respondWith(
@@ -4185,19 +4185,19 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
        // Clear all storage:
        localStorage.clear();
        sessionStorage.clear();
-
+       
        // Clear IndexedDB:
        const databases = await indexedDB.databases();
        for (const db of databases) {
          indexedDB.deleteDatabase(db.name);
        }
-
+       
        // Clear Service Worker cache:
        const cacheNames = await caches.keys();
        for (const name of cacheNames) {
          await caches.delete(name);
        }
-
+       
        // Unregister Service Worker (optional):
        const registrations = await navigator.serviceWorker.getRegistrations();
        for (const reg of registrations) {
@@ -4211,22 +4211,22 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
      // Handle deep links securely:
      function handleDeepLink(url) {
        const parsed = new URL(url);
-
+       
        // Validate origin:
        if (parsed.origin !== 'https://yourdomain.com') {
          return { error: 'Invalid origin' };
        }
-
+       
        // Validate path:
        const allowedPaths = ['/product/', '/order/', '/reset-password'];
        if (!allowedPaths.some(p => parsed.pathname.startsWith(p))) {
          return { error: 'Invalid path' };
        }
-
+       
        // Validate and sanitize parameters:
        const params = Object.fromEntries(parsed.searchParams);
        const sanitized = sanitizeParams(params);
-
+       
        return { success: true, path: parsed.pathname, params: sanitized };
      }
      ```
@@ -4238,24 +4238,24 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
      // Only collect what's necessary:
      const REQUIRED_FIELDS = ['email', 'name'];
      const OPTIONAL_FIELDS = ['phone', 'address'];
-
+     
      function validateUserData(data) {
        // Remove unnecessary fields:
        const cleaned = {};
-
+       
        for (const field of REQUIRED_FIELDS) {
          if (!data[field]) {
            throw new Error(`${field} is required`);
          }
          cleaned[field] = data[field];
        }
-
+       
        for (const field of OPTIONAL_FIELDS) {
          if (data[field]) {
            cleaned[field] = data[field];
          }
        }
-
+       
        // Remove any extra fields:
        return cleaned;
      }
@@ -4266,27 +4266,27 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
      const DATA_RETENTION = {
        // User data: Keep until deletion request
        users: null,
-
+       
        // Orders: 7 years (tax compliance)
        orders: 7 * 365,
-
+       
        // Sessions: 30 days
        sessions: 30,
-
+       
        // Logs: Based on type (see log retention)
        logs: null,
-
+       
        // Abandoned carts: 30 days
        abandoned_carts: 30,
-
+       
        // Password reset tokens: 1 day
        password_resets: 1
      };
-
+     
      async function cleanupExpiredData() {
        for (const [table, retentionDays] of Object.entries(DATA_RETENTION)) {
          if (retentionDays === null) continue;
-
+         
          const cutoff = new Date(Date.now() - retentionDays * 24 * 60 * 60 * 1000);
          await db[table].deleteMany({ created_at: { \$lt: cutoff } });
        }
@@ -4303,21 +4303,21 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
          communications: await db.emails.find({ user_id: userId }),
          activityLog: await db.auditLogs.find({ actor_id: userId })
        };
-
+       
        // Mask sensitive internal data:
        delete userData.profile.password_hash;
        delete userData.profile.verification_token;
-
+       
        // Generate downloadable file:
        const exportFile = {
          exported_at: new Date().toISOString(),
          user_id: userId,
          data: userData
        };
-
+       
        // Log the export:
        await logSecurityEvent('DATA_EXPORT', userId, { ip: req.ip });
-
+       
        return exportFile;
      }
      ```
@@ -4326,10 +4326,10 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
      ```javascript
      async function deleteUserData(userId, options = {}) {
        const { keepOrdersForTax = true } = options;
-
+       
        // Verify ownership:
        await requireReauth(req, 'delete_account');
-
+       
        await db.transaction(async (trx) => {
          // Delete or anonymize personal data:
          await trx.users.update(userId, {
@@ -4339,18 +4339,18 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
            address: null,
            deleted_at: new Date()
          });
-
+         
          // Delete sessions:
          await trx.sessions.deleteMany({ user_id: userId });
-
+         
          // Delete cart:
          await trx.carts.deleteMany({ user_id: userId });
-
+         
          // Anonymize orders (keep for tax but remove PII):
          if (keepOrdersForTax) {
            await trx.orders.updateMany(
              { user_id: userId },
-             {
+             { 
                shipping_address: '[REDACTED]',
                billing_address: '[REDACTED]',
                customer_name: 'Deleted User'
@@ -4359,12 +4359,12 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
          } else {
            await trx.orders.deleteMany({ user_id: userId });
          }
-
+         
          // Delete from third parties:
          await deleteFromMailingList(userId);
          await deleteFromAnalytics(userId);
        });
-
+       
        // Log deletion:
        await logSecurityEvent('DATA_DELETED', userId, { ip: req.ip });
      }
@@ -4377,20 +4377,20 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
        analytics: { required: false, description: 'Help us improve the site' },
        marketing: { required: false, description: 'Personalized offers and updates' }
      };
-
+     
      async function updateConsent(userId, consents) {
        // Validate consent structure:
        for (const [type, value] of Object.entries(consents)) {
          if (!CONSENT_TYPES[type]) {
            throw new Error(`Unknown consent type: ${type}`);
          }
-
+         
          // Essential cannot be declined:
          if (CONSENT_TYPES[type].required && !value) {
            throw new Error(`${type} consent is required`);
          }
        }
-
+       
        // Store with timestamp:
        await db.userConsents.upsert({
          user_id: userId,
@@ -4399,12 +4399,12 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
          user_agent: req.headers['user-agent'],
          updated_at: new Date()
        });
-
+       
        // Update tracking based on consent:
        if (!consents.analytics) {
          await disableAnalytics(userId);
        }
-
+       
        if (!consents.marketing) {
          await unsubscribeFromMarketing(userId);
        }
@@ -4422,54 +4422,54 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
            const maliciousReview = '<script>alert("xss")</script>';
            const response = await api.createReview({ content: maliciousReview });
            const displayedReview = await page.getReviewContent(response.id);
-
+           
            expect(displayedReview).not.toContain('<script>');
            expect(displayedReview).toContain('&lt;script&gt;');
          });
        });
-
+       
        describe('IDOR Prevention', () => {
          test('should not allow accessing other user orders', async () => {
            const userA = await createTestUser();
            const userB = await createTestUser();
            const orderA = await createOrder(userA.id);
-
+           
            // Login as user B:
            await loginAs(userB);
-
+           
            // Try to access user A's order:
            const response = await api.getOrder(orderA.id);
            expect(response.status).toBe(403);
          });
        });
-
+       
        describe('Price Manipulation', () => {
          test('should calculate price on server', async () => {
            const product = await db.products.create({ price: 100 });
-
+           
            // Try to send manipulated price:
            const response = await api.checkout({
              items: [{ productId: product.id, quantity: 1, price: 1 }]
            });
-
+           
            // Verify server calculated correct price:
            expect(response.order.total).toBe(100);
          });
        });
-
+       
        describe('Race Condition', () => {
          test('should prevent overselling', async () => {
            const product = await db.products.create({ inventory: 1 });
-
+           
            // Attempt concurrent purchases:
            const results = await Promise.all([
              api.checkout({ items: [{ productId: product.id, quantity: 1 }] }),
              api.checkout({ items: [{ productId: product.id, quantity: 1 }] })
            ]);
-
+           
            const successes = results.filter(r => r.success);
            expect(successes.length).toBe(1);
-
+           
            const product_after = await db.products.findById(product.id);
            expect(product_after.inventory).toBe(0);
          });
@@ -4481,12 +4481,12 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
      ```yaml
      # .github/workflows/security.yml
      name: Security Pipeline
-
+     
      on:
        push:
          branches: [main, develop]
        pull_request:
-
+     
      jobs:
        secret-scan:
          runs-on: ubuntu-latest
@@ -4500,7 +4500,7 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
                path: ./
                base: main
                extra_args: --only-verified
-
+       
        dependency-audit:
          runs-on: ubuntu-latest
          steps:
@@ -4509,7 +4509,7 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
            - uses: snyk/actions/node@master
              env:
                SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
-
+       
        sast-scan:
          runs-on: ubuntu-latest
          steps:
@@ -4521,7 +4521,7 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
                  p/security-audit
                  p/secrets
                  p/owasp-top-ten
-
+       
        security-tests:
          runs-on: ubuntu-latest
          steps:
@@ -4534,7 +4534,7 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
      // k6 load test script:
      import http from 'k6/http';
      import { check, sleep } from 'k6';
-
+     
      export const options = {
        stages: [
          { duration: '1m', target: 100 }, // Ramp up
@@ -4546,18 +4546,18 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
          http_req_failed: ['rate<0.01']    // <1% errors
        }
      };
-
+     
      export default function() {
        // Test login endpoint:
        const loginRes = http.post('https://api.example.com/auth/login', {
          email: 'test@test.com',
          password: 'wrongpassword'
        });
-
+       
        check(loginRes, {
          'rate limited after threshold': (r) => r.status === 429 || r.status === 401
        });
-
+       
        sleep(1);
      }
      ```
@@ -4566,19 +4566,19 @@ If asked to violate any rule, REFUSE and explain the security risk, then suggest
 PHẦN 14: SECRET MANAGEMENT & GIT SECURITY
 ═══════════════════════════════════════════════════════════════════════════
 
-1.
+1. 
 ALWAYS scan codebase for secrets before committing:
 bashDownloadCopy codegrep -rn "sk_live\|sk_test\|service_role\|secret\|password\|api_key" --include="*.js" --include="*.ts"
 
-2.
+2. 
 ALWAYS scan git history for leaked secrets:
 bashDownloadCopy codetrufflehog git file://. --only-verified
 gitleaks detect --source=. --verbose
 
-3.
+3. 
 If secret found in git history, ALWAYS rotate that key immediately
 
-4.
+4. 
 ALWAYS use pre-commit hooks to prevent secret commits:
 bashDownloadCopy code# .husky/pre-commit
 if git diff --cached | grep -E "sk_live|service_role|BEGIN RSA PRIVATE KEY"; then
@@ -4586,14 +4586,14 @@ if git diff --cached | grep -E "sk_live|service_role|BEGIN RSA PRIVATE KEY"; the
   exit 1
 fi
 
-5.
+5. 
 NEVER use NEXT_PUBLIC_ or VITE_ prefix for secrets (they get bundled!)
 
-6.
+6. 
 ALWAYS check build output for leaked secrets:
 bashDownloadCopy codegrep -rn "sk_live\|service_role" ./dist/ ./build/
 
-7.
+7. 
 ALWAYS implement secret rotation schedule
 
 
@@ -4607,8 +4607,8 @@ ALWAYS implement secret rotation schedule
 188. ALWAYS use atomic key assignment:
      ```sql
      BEGIN;
-     SELECT id FROM keys
-     WHERE product_id = \$1 AND status = 'available'
+     SELECT id FROM keys 
+     WHERE product_id = \$1 AND status = 'available' 
      FOR UPDATE SKIP LOCKED LIMIT 1;
      UPDATE keys SET status = 'assigned', order_id = \$2 WHERE id = \$3;
      COMMIT;
@@ -4635,33 +4635,33 @@ PHẦN 8: DIGITAL PRODUCT & KEY MANAGEMENT
 
 8.2 Key Delivery
 
-1.
+1. 
 ALWAYS use atomic key assignment to prevent duplicates
 sqlDownloadCopy codeBEGIN;
-SELECT id FROM keys
-WHERE product_id = \$1 AND status = 'available'
-LIMIT 1
+SELECT id FROM keys 
+WHERE product_id = \$1 AND status = 'available' 
+LIMIT 1 
 FOR UPDATE SKIP LOCKED;
 
 UPDATE keys SET status = 'assigned', order_id = \$2 WHERE id = \$3;
 COMMIT;
 
-2.
+2. 
 NEVER show keys in URL (e.g., /order?key=XXXXX)
 
-3.
+3. 
 NEVER put full key in email subject line
 
-4.
+4. 
 Consider masking partial key in UI (XXXXX-XXXXX-XXX**-*****)
 
-5.
+5. 
 ALWAYS log key access for audit trail
 
-6.
+6. 
 ALWAYS verify ownership before resending key
 
-7.
+7. 
 ALWAYS rate limit key resend requests
 
 
@@ -4673,19 +4673,19 @@ ALWAYS rate limit key resend requests
 
 8.4 Download Security
 
-1.
+1. 
 ALWAYS use signed URLs with expiration for downloads
 ❌ WRONG: https://cdn.example.com/software.zip (anyone can download!)
 ✅ CORRECT: https://cdn.example.com/software.zip?token=xxx&expires=123456
 
 
-2.
+2. 
 ALWAYS track download count server-side
 
-3.
+3. 
 ALWAYS verify file integrity (checksum)
 
-4.
+4. 
 ALWAYS scan uploads for malware
 
 
@@ -4693,7 +4693,7 @@ ALWAYS scan uploads for malware
 PHẦN 9: EMAIL & NOTIFICATION SYSTEM
 ═══════════════════════════════════════════════════════════════════════════
 
-1.
+1. 
 ALWAYS validate email format strictly (prevent injection)
 javascriptDownloadCopy code// ❌ WRONG - Email injection:
 const to = userInput; // "victim@test.com\nBcc: attacker@evil.com"
@@ -4704,25 +4704,25 @@ if (!emailRegex.test(to)) {
   return { error: 'Invalid email' };
 }
 
-2.
+2. 
 ALWAYS sanitize user input in email templates
 
-3.
+3. 
 AVOID putting full sensitive data in emails
 
-4.
+4. 
 ALWAYS configure SPF, DKIM, DMARC for email
 
-5.
+5. 
 ALWAYS expire OTPs (5-10 minutes)
 
-6.
+6. 
 ALWAYS limit OTP attempts (prevent brute force)
 
-7.
+7. 
 ALWAYS verify webhook endpoints with authentication
 
-8.
+8. 
 ALWAYS implement webhook retry limits
 
 
@@ -4731,7 +4731,7 @@ PHẦN 12: THIRD-PARTY INTEGRATIONS
 ═══════════════════════════════════════════════════════════════════════════
 12.1 Payment Gateway
 
-1.
+1. 
 NEVER pass amount from client to payment API - calculate server-side
 javascriptDownloadCopy code// ❌ WRONG:
 const intent = await stripe.paymentIntents.create({
@@ -4743,28 +4743,28 @@ const order = await getOrder(orderId);
 const amount = calculateTotal(order.items);
 const intent = await stripe.paymentIntents.create({ amount });
 
-2.
+2. 
 ALWAYS verify webhook signatures
 
-3.
+3. 
 ALWAYS use idempotency keys for payment operations
 
 
 12.2 Social Login (OAuth)
 
-1.
+1. 
 ALWAYS use state parameter to prevent CSRF
 ❌ WRONG: /auth/google/callback?code=xxx
 ✅ CORRECT: /auth/google/callback?code=xxx&state=random_csrf_token
 
 
-2.
+2. 
 NEVER expose authorization codes in logs
 
-3.
+3. 
 ALWAYS store access tokens securely
 
-4.
+4. 
 ALWAYS verify email before linking social accounts
 
 
@@ -4827,7 +4827,7 @@ PHẦN 13: COMPLIANCE & LEGAL
      require(success);
      balances[msg.sender] -= amount; // State updated AFTER external call!
    }
-
+   
    // ✅ CORRECT — CEI pattern:
    function withdraw(uint amount) public {
      require(balances[msg.sender] >= amount);
@@ -4840,7 +4840,7 @@ PHẦN 13: COMPLIANCE & LEGAL
 2. ALWAYS use ReentrancyGuard (OpenZeppelin):
    ```solidity
    import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
-
+   
    contract MyContract is ReentrancyGuard {
      function withdraw() external nonReentrant {
        // Safe from reentrancy
@@ -23456,15 +23456,15 @@ const PRIVATE_IP_RANGES = [
 
 async function validateAndFetchUrl(userUrl) {
   const parsed = new URL(userUrl);
-
+  
   if (parsed.protocol !== 'https:') {
     throw new Error('Only HTTPS URLs are allowed');
   }
-
+  
   if (!ALLOWED_DOMAINS.includes(parsed.hostname)) {
     throw new Error('Domain not in allowlist');
   }
-
+  
   const dns = await Deno.resolveDns(parsed.hostname, 'A');
   for (const ip of dns) {
     for (const range of PRIVATE_IP_RANGES) {
@@ -23473,12 +23473,12 @@ async function validateAndFetchUrl(userUrl) {
       }
     }
   }
-
+  
   const response = await fetch(userUrl, {
     redirect: 'error',
     signal: AbortSignal.timeout(5000),
   });
-
+  
   return response;
 }
 ```
@@ -23519,12 +23519,12 @@ const DANGEROUS_KEYS = new Set([
 
 function safeMerge(target, source) {
   if (typeof source !== 'object' || source === null) return target;
-
+  
   const result = { ...target };
-
+  
   for (const key of Object.keys(source)) {
     if (DANGEROUS_KEYS.has(key)) continue;
-
+    
     const value = source[key];
     if (typeof value === 'object' && value !== null) {
       result[key] = safeMerge(result[key] || {}, value);
@@ -23532,7 +23532,7 @@ function safeMerge(target, source) {
       result[key] = value;
     }
   }
-
+  
   return result;
 }
 ```
@@ -23572,11 +23572,11 @@ Khi Cloudflare và Supabase Edge Functions xử lý HTTP headers khác nhau, att
 Deno.serve(async (req: Request) => {
   const hasContentLength = req.headers.has('content-length');
   const hasTransferEncoding = req.headers.has('transfer-encoding');
-
+  
   if (hasContentLength && hasTransferEncoding) {
     return new Response('Bad Request: ambiguous encoding', { status: 400 });
   }
-
+  
   // Process normally
 });
 ```
@@ -23694,12 +23694,12 @@ URL redirect parameter không validate → phishing attacks.
 function validateRedirectUrl(redirectUrl) {
   const ALLOWED_PATHS = ['/', '/dashboard', '/orders', '/profile'];
   if (ALLOWED_PATHS.includes(redirectUrl)) return redirectUrl;
-
+  
   if (!redirectUrl.startsWith('/')) return '/';
   if (redirectUrl.startsWith('//')) return '/';
   if (redirectUrl.includes('://')) return '/';
   if (redirectUrl.includes('\')) return '/';
-
+  
   return redirectUrl;
 }
 ```
@@ -23973,7 +23973,7 @@ PROJECT_MAP.md
     // ❌ WRONG:
     supabase.from('products').select('*').eq('id', userInput)
     // If userInput is "1 OR 1=1", it may expose all data
-
+    
     // ✅ CORRECT:
     const id = parseInt(userInput, 10);
     if (isNaN(id)) return { error: 'Invalid ID' };
@@ -23984,7 +23984,7 @@ PROJECT_MAP.md
     ```javascript
     // ❌ WRONG:
     .select('*')
-
+    
     // ✅ CORRECT:
     .select('id, name, price, description')
     ```
@@ -23996,7 +23996,7 @@ PROJECT_MAP.md
     // ❌ WRONG:
     element.innerHTML = userReview;
     // Attacker can inject: <img src=x onerror=alert('xss')>
-
+    
     // ✅ CORRECT:
     element.textContent = userReview;
     ```
@@ -24007,7 +24007,7 @@ PROJECT_MAP.md
     // ❌ WRONG:
     const html = `<div>${userInput}</div>`;
     element.innerHTML = html;
-
+    
     // ✅ CORRECT:
     const div = document.createElement('div');
     div.textContent = userInput;
@@ -24049,7 +24049,7 @@ PROJECT_MAP.md
     ```typescript
     // ❌ WRONG - getSession can be spoofed:
     const { data: { session } } = await supabase.auth.getSession();
-
+    
     // ✅ CORRECT - getUser verifies with server:
     const { data: { user }, error } = await supabase.auth.getUser(token);
     if (error || !user) {
@@ -24064,7 +24064,7 @@ PROJECT_MAP.md
     // ❌ WRONG:
     const order = await db.orders.findById(req.params.orderId);
     return order; // Anyone can see any order!
-
+    
     // ✅ CORRECT:
     const order = await db.orders.findById(req.params.orderId);
     if (order.user_id !== currentUser.id) {
@@ -24093,7 +24093,7 @@ PROJECT_MAP.md
     ```javascript
     // ❌ CRITICAL:
     const supabase = createClient(url, 'service_role_key_here');
-
+    
     // ✅ CORRECT - Only in Edge Functions:
     const adminClient = createClient(url, Deno.env.get('SUPABASE_SERVICE_ROLE_KEY'));
     ```
@@ -24123,7 +24123,7 @@ PROJECT_MAP.md
     ```javascript
     // ❌ WRONG:
     headers: { 'Access-Control-Allow-Origin': '*' }
-
+    
     // ✅ CORRECT:
     headers: { 'Access-Control-Allow-Origin': 'https://yourdomain.com' }
     ```
@@ -24199,8 +24199,8 @@ PROJECT_MAP.md
 103. For checkout, ALWAYS use atomic operations:
      ```sql
      -- Use Supabase MCP to run:
-     UPDATE products
-     SET inventory = inventory - 1
+     UPDATE products 
+     SET inventory = inventory - 1 
      WHERE id = \$1 AND inventory > 0
      RETURNING *;
      ```
@@ -24212,8 +24212,8 @@ PROJECT_MAP.md
 
 105. For coupon, ALWAYS use atomic increment:
      ```sql
-     UPDATE coupons
-     SET times_used = times_used + 1
+     UPDATE coupons 
+     SET times_used = times_used + 1 
      WHERE code = \$1 AND times_used < usage_limit
      RETURNING *;
      ```
@@ -24254,8 +24254,8 @@ PROJECT_MAP.md
 
 114. Use Supabase MCP to verify foreign key constraints:
      ```sql
-     ALTER TABLE order_items
-     ADD CONSTRAINT fk_product
+     ALTER TABLE order_items 
+     ADD CONSTRAINT fk_product 
      FOREIGN KEY (product_id) REFERENCES products(id);
      ```
 
@@ -24287,7 +24287,7 @@ PROJECT_MAP.md
      ```javascript
      // ❌ WRONG:
      return { error: error.message, stack: error.stack };
-
+     
      // ✅ CORRECT:
      console.error('Internal error:', error);
      return { error: 'An error occurred', code: 'INTERNAL_ERROR' };
@@ -24310,7 +24310,7 @@ PROJECT_MAP.md
      ```javascript
      // ❌ WRONG:
      return { error: 'User with email xxx not found' };
-
+     
      // ✅ CORRECT:
      return { error: 'Invalid email or password' };
      ```
@@ -24338,13 +24338,13 @@ PROJECT_MAP.md
 ### 1.1 BẢO MẬT (Security) - NGHIÊM TRỌNG NHẤT
 
 #### SQL Injection & Data Injection
-Khi tra cứu bắt buộc tra cứu bằng perplixity thông qua mcp.
+Khi tra cứu bắt buộc tra cứu bằng perplixity thông qua mcp. 
 ưu tiên test web bằng tools test browers
 1. NEVER use raw query with user input without sanitization
 2. NEVER use string concatenation for queries, always use parameterized queries
 3. In Supabase, use .filter() instead of query string directly
 4. NEVER trust user input in .eq(), .filter() without validation
-   - Example WRONG: supabase.from('products').select('*').eq('id', userInput)
+   - Example WRONG: supabase.from('products').select('*').eq('id', userInput) 
    - If userInput is "1 OR 1=1", it may expose all data
 5. NEVER use .select('*') wildcard - it may expose sensitive columns
    - Example CORRECT: .select('id, name, price, description') - only needed fields
@@ -24356,14 +24356,14 @@ Khi tra cứu bắt buộc tra cứu bằng perplixity thông qua mcp.
    // ❌ WRONG:
    element.innerHTML = userReview;
    // Attacker can inject: <img src=x onerror=alert('xss')>
-
+   
    // ✅ CORRECT:
    element.textContent = userReview;
 
-1.
+1. 
 NEVER render user-generated content (reviews, comments) directly without sanitization
 
-2.
+2. 
 NEVER use template literals to insert unsanitized data into HTML
 javascriptDownloadCopy code// ❌ WRONG:
 const html = `<div>${userInput}</div>`;
@@ -24372,13 +24372,13 @@ const html = `<div>${userInput}</div>`;
 const div = document.createElement('div');
 div.textContent = userInput;
 
-3.
+3. 
 ALWAYS use .textContent instead of .innerHTML for untrusted data
 
-4.
+4. 
 NEVER use window.location.hash or query string directly in DOM without sanitization (DOM-based XSS)
 
-5.
+5. 
 If HTML formatting is needed, ALWAYS use DOMPurify library:
 javascriptDownloadCopy codeimport DOMPurify from 'dompurify';
 element.innerHTML = DOMPurify.sanitize(userContent);
@@ -24386,19 +24386,19 @@ element.innerHTML = DOMPurify.sanitize(userContent);
 
 Authentication & Token Management
 
-1.
+1. 
 ALWAYS verify JWT signature completely, not just decode
 
-2.
+2. 
 NEVER store JWT in localStorage (vulnerable to XSS), prefer httpOnly cookies
 
-3.
+3. 
 ALWAYS include expiration time (exp claim) in tokens
 
-4.
+4. 
 ALWAYS check token expiration on backend before processing requests
 
-5.
+5. 
 ALWAYS implement refresh token logic properly
 javascriptDownloadCopy code// Check if access token expired
 if (isTokenExpired(accessToken)) {
@@ -24409,15 +24409,15 @@ if (isTokenExpired(accessToken)) {
   }
 }
 
-6.
+6. 
 ALWAYS clear token on backend when user logs out (blacklist or revoke)
 
-7.
+7. 
 ALWAYS set cookie flags: Secure, HttpOnly, SameSite
 javascriptDownloadCopy code// ✅ CORRECT cookie settings:
 Set-Cookie: token=xxx; HttpOnly; Secure; SameSite=Strict; Path=/
 
-8.
+8. 
 In Supabase, ALWAYS verify token in Edge Functions using supabase.auth.getUser(token), not just getSession()
 typescriptDownloadCopy code// ❌ WRONG - getSession can be spoofed:
 const { data: { session } } = await supabase.auth.getSession();
@@ -24431,7 +24431,7 @@ if (error || !user) {
 
 Authorization Flaws (IDOR - Insecure Direct Object Reference)
 
-1.
+1. 
 ALWAYS verify user ownership before accessing any resource
 javascriptDownloadCopy code// ❌ WRONG:
 const order = await db.orders.findById(req.params.orderId);
@@ -24444,20 +24444,20 @@ if (order.user_id !== currentUser.id) {
 }
 return order;
 
-2.
+2. 
 ALWAYS check role/permission before allowing API actions
 javascriptDownloadCopy code// Check if user can perform admin action
 if (currentUser.role !== 'admin') {
   return { error: 'Forbidden', status: 403 };
 }
 
-3.
+3. 
 NEVER allow direct object reference in URLs without verification
 
 URL /users/999/orders should NOT be accessible by user 123
 
 
-4.
+4. 
 In Supabase, ALWAYS enable RLS on tables and create specific policies
 sqlDownloadCopy code-- ❌ WRONG - Too permissive:
 CREATE POLICY "Allow all" ON orders USING (true);
@@ -24466,22 +24466,22 @@ CREATE POLICY "Allow all" ON orders USING (true);
 CREATE POLICY "Users view own orders" ON orders
   FOR SELECT USING (auth.uid() = user_id);
 
-5.
+5. 
 ALWAYS check admin routes (/admin/*) for proper role verification
 
-6.
+6. 
 For coupon apply, ALWAYS verify user can only apply coupons to their own orders
 
-7.
+7. 
 For affiliate system, ALWAYS verify commission_users to prevent referrer spoofing
 
 
 API Key & Secrets Exposure
 
-1.
+1. 
 Supabase anon key CAN be in frontend (it's public) BUT requires strict RLS
 
-2.
+2. 
 NEVER expose Supabase service_role_key in frontend - this is CRITICAL!
 javascriptDownloadCopy code// ❌ CRITICAL ERROR:
 const supabase = createClient(url, 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6...SERVICE_ROLE_KEY');
@@ -24489,26 +24489,26 @@ const supabase = createClient(url, 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3M
 // ✅ CORRECT - Only in Edge Functions:
 const adminClient = createClient(url, Deno.env.get('SUPABASE_SERVICE_ROLE_KEY'));
 
-3.
+3. 
 NEVER expose database URL with password in public code
 
-4.
+4. 
 NEVER hardcode JWT secret in code
 
-5.
+5. 
 ALWAYS put API keys in .env file and add .env to .gitignore
 
-6.
+6. 
 NEVER use console.log(token), console.log(response) with sensitive data in production
 
-7.
+7. 
 ALWAYS scan git history for accidentally committed secrets
 bashDownloadCopy code# Use these tools to scan:
 git secrets --scan
 trufflehog git file://. --only-verified
 gitleaks detect --source=. --verbose
 
-8.
+8. 
 NEVER expose environment variables in Netlify settings that should be private
 
 NEXT_PUBLIC_* and VITE_* prefixes EXPOSE variables to frontend!
@@ -24520,7 +24520,7 @@ NEXT_PUBLIC_* and VITE_* prefixes EXPOSE variables to frontend!
 
 CORS & CSP Issues
 
-1.
+1. 
 NEVER use Access-Control-Allow-Origin: * in production
 javascriptDownloadCopy code// ❌ WRONG:
 headers: { 'Access-Control-Allow-Origin': '*' }
@@ -24528,24 +24528,24 @@ headers: { 'Access-Control-Allow-Origin': '*' }
 // ✅ CORRECT:
 headers: { 'Access-Control-Allow-Origin': 'https://yourdomain.com' }
 
-2.
+2. 
 ALWAYS configure Content-Security-Policy header
 Content-Security-Policy: default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; ...
 
 
-3.
+3. 
 NEVER use wildcard subdomains in trusted origins
 
-4.
+4. 
 ALWAYS handle preflight (OPTIONS) requests correctly for CORS
 
-5.
+5. 
 ALWAYS add X-Content-Type-Options: nosniff header
 
 
 Rate Limiting & Brute Force
 
-1.
+1. 
 ALWAYS implement rate limiting for login/register endpoints
 
 Risk without: attacker can brute force passwords
@@ -24557,16 +24557,16 @@ javascriptDownloadCopy codeconst RATE_LIMITS = {
   '/api/auth/forgot-password': { max: 2, windowMs: 60000 }, // 2 per minute
 };
 
-2.
+2. 
 ALWAYS implement rate limiting for checkout/payment endpoints
 
 Risk without: DDoS, transaction spam
 
 
-3.
+3. 
 ALWAYS implement CAPTCHA or bot detection for public forms
 
-4.
+4. 
 ALWAYS rate limit password reset endpoint
 
 Risk without: email enumeration, spam
@@ -24585,7 +24585,7 @@ Set-Cookie: session=xxx; SameSite=Strict
 
 File Upload Security
 
-1.
+1. 
 ALWAYS validate file type by checking magic bytes, not just extension
 javascriptDownloadCopy code// ❌ WRONG - Only check extension:
 if (file.name.endsWith('.jpg')) { accept(); }
@@ -24598,7 +24598,7 @@ if (header[0] === 0xFF && header[1] === 0xD8 && header[2] === 0xFF) {
   accept();
 }
 
-2.
+2. 
 ALWAYS sanitize filename before saving
 
 Risk: path traversal attack (upload ../../../etc/passwd)
@@ -24607,19 +24607,19 @@ javascriptDownloadCopy code// ✅ Sanitize filename:
 const safeName = filename.replace(/[^a-zA-Z0-9.-]/g, '_');
 const uniqueName = `${uuid()}_${safeName}`;
 
-3.
+3. 
 ALWAYS limit file size to prevent DoS and storage spam
 
-4.
+4. 
 NEVER allow upload of executable files (PHP, JS, EXE)
 
-5.
+5. 
 ALWAYS store files with unique random names, not predictable paths
 
 
 Third-party Integrations
 
-1.
+1. 
 ALWAYS validate webhook signatures from payment gateways (Stripe, PayPal)
 javascriptDownloadCopy code// ✅ Stripe webhook verification:
 const sig = req.headers['stripe-signature'];
@@ -24632,20 +24632,20 @@ const event = stripe.webhooks.constructEvent(
 Risk without: fake payment notification → order without payment
 
 
-2.
+2. 
 ALWAYS verify webhook endpoint signatures/secrets
 
-3.
+3. 
 ALWAYS validate responses from shipping APIs
 
-4.
+4. 
 NEVER expose email service API keys
 
 
 1.2 DATABASE & DATA INTEGRITY
 Race Conditions & Concurrency
 
-1.
+1. 
 For checkout with concurrent users, ALWAYS use atomic operations to prevent overselling
 sqlDownloadCopy code-- ❌ WRONG (race condition):
 SELECT inventory FROM products WHERE id = 1; -- User A gets 1
@@ -24654,12 +24654,12 @@ UPDATE products SET inventory = inventory - 1 WHERE id = 1;
 -- Both users succeed, inventory becomes -1!
 
 -- ✅ CORRECT (atomic):
-UPDATE products SET inventory = inventory - 1
+UPDATE products SET inventory = inventory - 1 
 WHERE id = 1 AND inventory > 0
 RETURNING *;
 -- If no rows returned, out of stock
 
-2.
+2. 
 For wallet balance updates, ALWAYS use transactions or atomic updates
 javascriptDownloadCopy code// ❌ WRONG (read-modify-write):
 const wallet = await getWallet(userId);
@@ -24671,28 +24671,28 @@ await db.query(
   [amount, userId]
 );
 
-3.
+3. 
 For coupon redemption, ALWAYS use atomic increment to prevent duplicate use
-sqlDownloadCopy codeUPDATE coupons
-SET times_used = times_used + 1
+sqlDownloadCopy codeUPDATE coupons 
+SET times_used = times_used + 1 
 WHERE code = \$1 AND times_used < usage_limit
 RETURNING *;
 
-4.
+4. 
 For affiliate commission, ALWAYS prevent multiple referrers claiming same commission
 
-5.
+5. 
 ALWAYS test race conditions: Open 2 checkout tabs, buy last item, only 1 should succeed
 
 
 Data Validation & Constraints
 
-1.
+1. 
 NEVER accept negative quantity in cart
 sqlDownloadCopy code-- Add constraint:
 ALTER TABLE cart_items ADD CONSTRAINT positive_quantity CHECK (quantity > 0);
 
-2.
+2. 
 NEVER trust price from client - ALWAYS calculate on backend
 javascriptDownloadCopy code// ❌ WRONG - Trust client price:
 const { productId, price, quantity, total } = req.body;
@@ -24704,7 +24704,7 @@ const product = await db.products.findById(productId);
 const total = product.price * quantity; // Backend calculates!
 await createOrder({ productId, price: product.price, quantity, total });
 
-3.
+3. 
 ALWAYS validate email/phone format on backend with regex
 javascriptDownloadCopy codeconst emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 const phoneRegex = /^(0|\+84)[0-9]{9,10}$/;
@@ -24713,10 +24713,10 @@ if (!emailRegex.test(email)) {
   return { error: 'Invalid email format' };
 }
 
-4.
+4. 
 ALWAYS check age restrictions if selling restricted items
 
-5.
+5. 
 ALWAYS validate discount percentage is between 0 and 100
 javascriptDownloadCopy codeif (discount < 0 || discount > 100) {
   return { error: 'Invalid discount' };
@@ -24725,7 +24725,7 @@ javascriptDownloadCopy codeif (discount < 0 || discount > 100) {
 
 Transaction Integrity
 
-1.
+1. 
 ALWAYS wrap order creation in a transaction
 sqlDownloadCopy code-- ❌ WRONG - Separate queries:
 INSERT INTO orders (...);
@@ -24740,23 +24740,23 @@ BEGIN;
   UPDATE products SET inventory = inventory - 1 WHERE ...;
 COMMIT;
 
-2.
+2. 
 When payment confirms, ALWAYS update inventory in same transaction
 
-3.
+3. 
 When refund, ALWAYS rollback order status and restore inventory
 
-4.
+4. 
 For coupon apply, ALWAYS prevent duplicate application in transaction
 
 
 Foreign Key & Referential Integrity
 
-1.
+1. 
 When deleting product, ALWAYS handle order_items references
 sqlDownloadCopy code-- Option 1: Prevent delete if referenced
-ALTER TABLE order_items
-ADD CONSTRAINT fk_product
+ALTER TABLE order_items 
+ADD CONSTRAINT fk_product 
 FOREIGN KEY (product_id) REFERENCES products(id) ON DELETE RESTRICT;
 
 -- Option 2: Cascade delete (careful!)
@@ -24765,16 +24765,16 @@ ON DELETE CASCADE;
 -- Option 3: Set null
 ON DELETE SET NULL;
 
-2.
+2. 
 When deleting user, ALWAYS handle orders references
 
-3.
+3. 
 When deleting affiliate, ALWAYS handle commissions references
 
 
 Database Indexing
 
-1.
+1. 
 ALWAYS create indexes for frequently queried columns
 sqlDownloadCopy code-- Check query plan:
 EXPLAIN ANALYZE SELECT * FROM products WHERE category_id = 5;
@@ -24782,15 +24782,15 @@ EXPLAIN ANALYZE SELECT * FROM products WHERE category_id = 5;
 -- Create index:
 CREATE INDEX idx_products_category ON products(category_id);
 
-2.
+2. 
 AVOID full table scans on large tables (1M+ rows)
 
-3.
+3. 
 ALWAYS create composite indexes for multi-column WHERE clauses
 sqlDownloadCopy code-- For query: WHERE user_id = ? AND created_at > ?
 CREATE INDEX idx_orders_user_date ON orders(user_id, created_at);
 
-4.
+4. 
 AVOID indexing columns with low cardinality (few unique values)
 
 
@@ -24804,7 +24804,7 @@ Backup & Recovery
 1.3 API DESIGN FLAWS
 Error Handling & Logging
 
-1.
+1. 
 NEVER return generic error messages that don't help debugging
 javascriptDownloadCopy code// ❌ WRONG:
 return { error: 'Error occurred' };
@@ -24812,7 +24812,7 @@ return { error: 'Error occurred' };
 // ✅ CORRECT:
 return { error: 'Failed to update product: SKU already exists', code: 'DUPLICATE_SKU' };
 
-2.
+2. 
 NEVER expose stack traces to client
 javascriptDownloadCopy code// ❌ WRONG:
 return { error: error.message, stack: error.stack };
@@ -24821,7 +24821,7 @@ return { error: error.message, stack: error.stack };
 console.error('Internal error:', error.stack); // Log server-side
 return { error: 'An error occurred', code: 'INTERNAL_ERROR' };
 
-3.
+3. 
 ALWAYS use proper HTTP status codes
 javascriptDownloadCopy code// ❌ WRONG - All errors return 200:
 return { status: 200, error: 'Not found' };
@@ -24834,10 +24834,10 @@ return { status: 200, error: 'Not found' };
 // 429 - Too Many Requests (rate limited)
 // 500 - Internal Server Error
 
-4.
+4. 
 ALWAYS log errors on backend for debugging
 
-5.
+5. 
 NEVER log sensitive data (passwords, tokens)
 javascriptDownloadCopy code// ❌ WRONG:
 console.log('Login attempt:', { email, password });
@@ -24848,16 +24848,16 @@ console.log('Login attempt:', { email, timestamp: new Date() });
 
 Response Structure & Data Leakage
 
-1.
+1. 
 ALWAYS use consistent response format across all endpoints
 javascriptDownloadCopy code// ✅ CORRECT - Consistent format:
 // Success: { success: true, data: {...} }
 // Error: { success: false, error: 'message', code: 'ERROR_CODE' }
 
-2.
+2. 
 NEVER return unnecessary nested data (N+1 problem in response)
 
-3.
+3. 
 NEVER return sensitive data in response:
 
 Password hash
@@ -24871,7 +24871,7 @@ return { user: { id, email, password_hash, stripe_customer_id } };
 // ✅ CORRECT:
 return { user: { id, email, name } };
 
-4.
+4. 
 NEVER return overly detailed error messages that enable enumeration
 javascriptDownloadCopy code// ❌ WRONG - Reveals if email exists:
 return { error: 'User with email user@example.com not found' };
@@ -24882,10 +24882,10 @@ return { error: 'Invalid email or password' };
 
 Pagination & Query Limits
 
-1.
+1. 
 NEVER load all items at once (e.g., 10,000+ products)
 
-2.
+2. 
 ALWAYS limit query results to prevent DoS
 javascriptDownloadCopy code// ❌ WRONG - Attacker can request 1M rows:
 const limit = req.query.limit; // Could be 999999
@@ -24894,7 +24894,7 @@ const limit = req.query.limit; // Could be 999999
 const MAX_LIMIT = 100;
 const limit = Math.min(parseInt(req.query.limit) || 20, MAX_LIMIT);
 
-3.
+3. 
 For large datasets, use keyset pagination instead of offset
 sqlDownloadCopy code-- ❌ WRONG - Offset 1M scans 1M rows:
 SELECT * FROM products ORDER BY id LIMIT 100 OFFSET 1000000;
@@ -24902,40 +24902,40 @@ SELECT * FROM products ORDER BY id LIMIT 100 OFFSET 1000000;
 -- ✅ CORRECT - Keyset pagination:
 SELECT * FROM products WHERE id > \$last_id ORDER BY id LIMIT 100;
 
-4.
+4. 
 ALWAYS validate limit parameter from client
 
 
 Caching & Cache Invalidation
 
-1.
+1. 
 ALWAYS cache static data (categories, settings)
 
-2.
+2. 
 ALWAYS invalidate cache when data changes
 javascriptDownloadCopy code// After updating product:
 await cache.delete(`product:${productId}`);
 await cache.delete('products:list');
 
-3.
+3. 
 ALWAYS implement stale-while-revalidate for better UX
 
-4.
+4. 
 NEVER use same cache key for different languages/contexts
 
-5.
+5. 
 NEVER set TTL too long for frequently changing data
 
 
 API Versioning & Deprecation
 
-1.
+1. 
 ALWAYS version APIs to prevent breaking changes
 /api/v1/products
 /api/v2/products
 
 
-2.
+2. 
 ALWAYS warn about deprecated endpoints before removing
 
 
@@ -24945,7 +24945,7 @@ PHẦN 3: BUSINESS LOGIC FLAWS
 3.1 CHECKOUT & PAYMENT FLOW
 Price & Cost Calculation - CRITICAL!
 
-1.
+1. 
 NEVER accept price, total, or discount from client
 javascriptDownloadCopy code// ❌ CRITICAL BUG:
 const order = {
@@ -24965,10 +24965,10 @@ const subtotal = price * quantity;
 const discount = await calculateDiscount(couponCode, subtotal);
 const total = subtotal - discount;
 
-2.
+2. 
 ALWAYS calculate discount on backend from coupon rules
 
-3.
+3. 
 ALWAYS verify total on backend matches calculation
 javascriptDownloadCopy codeconst calculatedTotal = calculateTotal(items, coupon);
 // Optionally verify if client sends total:
@@ -24976,10 +24976,10 @@ if (req.body.total && req.body.total !== calculatedTotal) {
   return { error: 'Price mismatch. Please refresh and try again.' };
 }
 
-4.
+4. 
 ALWAYS recalculate shipping/tax if they can change
 
-5.
+5. 
 NEVER accept negative prices or quantities
 javascriptDownloadCopy codeif (quantity <= 0 || price < 0) {
   return { error: 'Invalid quantity or price' };
@@ -24988,7 +24988,7 @@ javascriptDownloadCopy codeif (quantity <= 0 || price < 0) {
 
 Inventory & Overselling
 
-1.
+1. 
 ALWAYS use atomic updates to prevent overselling
 sqlDownloadCopy code-- ❌ WRONG (race condition):
 SELECT inventory FROM products WHERE id = 1; -- Returns 1
@@ -24997,8 +24997,8 @@ UPDATE products SET inventory = inventory - 1 WHERE id = 1;
 -- Both succeed, inventory = -1!
 
 -- ✅ CORRECT (atomic):
-UPDATE products
-SET inventory = inventory - 1
+UPDATE products 
+SET inventory = inventory - 1 
 WHERE id = 1 AND inventory > 0
 RETURNING *;
 -- If no rows returned → out of stock!
@@ -25009,10 +25009,10 @@ SELECT * FROM products WHERE id = 1 FOR UPDATE;
 UPDATE products SET inventory = inventory - 1 WHERE id = 1;
 COMMIT;
 
-2.
+2. 
 Consider reserving inventory when added to cart (with expiration)
 
-3.
+3. 
 ALWAYS handle concurrent checkout for same variant
 
 Test: 2 users checkout Size S (qty 1) simultaneously
@@ -25032,30 +25032,30 @@ Coupon & Discount System
 javascriptDownloadCopy code// Complete coupon validation:
 async function validateCoupon(code, orderId, userId) {
   const coupon = await db.coupons.findOne({ code: code.toUpperCase() });
-
+  
   if (!coupon) return { error: 'Invalid coupon' };
   if (new Date(coupon.expires_at) < new Date()) return { error: 'Coupon expired' };
   if (coupon.times_used >= coupon.usage_limit) return { error: 'Coupon limit reached' };
-
+  
   const order = await db.orders.findById(orderId);
   if (order.subtotal < coupon.min_order_value) {
     return { error: `Minimum order: ${coupon.min_order_value}` };
   }
-
+  
   if (coupon.once_per_user) {
     const used = await db.couponUsages.findOne({ coupon_id: coupon.id, user_id: userId });
     if (used) return { error: 'You already used this coupon' };
   }
-
+  
   if (order.coupon_id) return { error: 'Only one coupon per order' };
-
+  
   return { success: true, coupon };
 }
 
 
 Payment Flow & Idempotency
 
-1.
+1. 
 ALWAYS prevent double payment submission
 javascriptDownloadCopy code// Disable button on click:
 payButton.addEventListener('click', async () => {
@@ -25069,7 +25069,7 @@ payButton.addEventListener('click', async () => {
   }
 });
 
-2.
+2. 
 ALWAYS handle webhook idempotency (webhook can deliver multiple times)
 javascriptDownloadCopy code// Check if webhook already processed:
 const existing = await db.webhookLogs.findOne({ webhook_id: event.id });
@@ -25083,7 +25083,7 @@ await db.transaction(async (trx) => {
   await trx.orders.update({ id: orderId, status: 'paid' });
 });
 
-3.
+3. 
 ALWAYS verify webhook signatures
 javascriptDownloadCopy code// Stripe example:
 const sig = req.headers['stripe-signature'];
@@ -25098,10 +25098,10 @@ try {
   return { error: 'Invalid signature', status: 400 };
 }
 
-4.
+4. 
 NEVER use test keys in production
 
-5.
+5. 
 ALWAYS update order status atomically after payment confirmation
 
 
@@ -25115,7 +25115,7 @@ Refund & Cancellation
 3.2 USER ACCOUNT & PROFILE
 Registration
 
-1.
+1. 
 ALWAYS require email verification before account is fully active
 javascriptDownloadCopy code// POST /register:
 await db.users.create({ email, password, status: 'unverified' });
@@ -25124,7 +25124,7 @@ await sendVerificationEmail(email, token);
 // User clicks link:
 await db.users.update({ id, status: 'verified' });
 
-2.
+2. 
 ALWAYS enforce password strength
 javascriptDownloadCopy codefunction validatePassword(password) {
   if (password.length < 8) return 'Min 8 characters';
@@ -25134,10 +25134,10 @@ javascriptDownloadCopy codefunction validatePassword(password) {
   return null;
 }
 
-3.
+3. 
 ALWAYS check for duplicate email with UNIQUE constraint
 
-4.
+4. 
 NEVER reveal if email exists (prevents enumeration)
 javascriptDownloadCopy code// ❌ WRONG:
 if (emailExists) return { error: 'Email already registered' };
@@ -25145,7 +25145,7 @@ if (emailExists) return { error: 'Email already registered' };
 // ✅ CORRECT:
 return { message: 'If this email is not registered, you will receive a verification link.' };
 
-5.
+5. 
 ALWAYS use CAPTCHA to prevent bot registration
 
 
@@ -25157,7 +25157,7 @@ Login & Session
 
 Password Reset - CRITICAL!
 
-1.
+1. 
 ALWAYS expire reset tokens quickly (15-30 minutes)
 javascriptDownloadCopy codeconst token = crypto.randomBytes(32).toString('hex');
 const expires = new Date(Date.now() + 15 * 60 * 1000); // 15 min
@@ -25168,7 +25168,7 @@ await db.passwordResets.create({
   used: false
 });
 
-2.
+2. 
 ALWAYS use cryptographically random tokens
 javascriptDownloadCopy code// ❌ WRONG - Predictable:
 const token = `reset_${userId}`; // Attacker can guess!
@@ -25176,26 +25176,26 @@ const token = `reset_${userId}`; // Attacker can guess!
 // ✅ CORRECT - Random:
 const token = crypto.randomBytes(32).toString('hex');
 
-3.
+3. 
 NEVER reveal if email exists in password reset
 javascriptDownloadCopy code// Always show same message:
 return { message: 'If email exists, reset link sent.' };
 
-4.
+4. 
 ALWAYS invalidate all sessions after password reset
 javascriptDownloadCopy code// After password change:
 await db.sessions.deleteMany({ user_id: userId });
 
-5.
+5. 
 ALWAYS mark reset token as used after successful reset
 
 
 Profile Update
 
-1.
+1. 
 ALWAYS require verification when changing email
 
-2.
+2. 
 NEVER allow users to change their role via profile update
 javascriptDownloadCopy code// ❌ WRONG - User can become admin:
 await db.users.update(userId, req.body);
@@ -25211,20 +25211,20 @@ allowed.forEach(field => {
 });
 await db.users.update(userId, updateData);
 
-3.
+3. 
 NEVER allow admin to change user password without proper verification
 
 
 3.3 AFFILIATE & REFERRAL SYSTEM
 Commission Calculation
 
-1.
+1. 
 ALWAYS prevent self-referral
 javascriptDownloadCopy codeif (referrerId === newUserId) {
   return { error: 'Cannot refer yourself' };
 }
 
-2.
+2. 
 ALWAYS handle commission for cancelled orders
 javascriptDownloadCopy code// When order cancelled:
 await db.commissions.update({
@@ -25232,7 +25232,7 @@ await db.commissions.update({
   status: 'cancelled'
 });
 
-3.
+3. 
 ALWAYS set referral cookie server-side (not client-side)
 javascriptDownloadCopy code// ❌ WRONG - Client can set any referrer:
 document.cookie = `ref=${anyCode}`;
@@ -25240,13 +25240,13 @@ document.cookie = `ref=${anyCode}`;
 // ✅ CORRECT - Server sets httpOnly cookie:
 res.setHeader('Set-Cookie', `ref=${code}; HttpOnly; Secure; SameSite=Strict`);
 
-4.
+4. 
 ALWAYS prevent race condition in commission payment
 
 
 Payout System
 
-1.
+1. 
 ALWAYS prevent withdrawal more than balance
 sqlDownloadCopy code-- Atomic check and update:
 UPDATE wallets
@@ -25255,10 +25255,10 @@ WHERE user_id = \$2 AND balance >= \$1
 RETURNING *;
 -- If no rows, insufficient balance
 
-2.
+2. 
 NEVER allow negative balance
 
-3.
+3. 
 ALWAYS prevent concurrent withdrawal race condition
 javascriptDownloadCopy code// Use transaction with lock:
 await db.transaction(async (trx) => {
@@ -25266,15 +25266,15 @@ await db.transaction(async (trx) => {
     .where({ user_id: userId })
     .forUpdate()
     .first();
-
+  
   if (wallet.balance < amount) {
     throw new Error('Insufficient balance');
   }
-
+  
   await trx.wallets.update(userId, {
     balance: wallet.balance - amount
   });
-
+  
   await trx.withdrawals.create({ user_id: userId, amount });
 });
 
@@ -25282,7 +25282,7 @@ await db.transaction(async (trx) => {
 3.4 ADMIN OPERATIONS
 Admin Authorization
 
-1.
+1. 
 ALWAYS verify admin role on backend for all admin endpoints
 javascriptDownloadCopy code// Middleware:
 async function requireAdmin(req, res, next) {
@@ -25293,7 +25293,7 @@ async function requireAdmin(req, res, next) {
   next();
 }
 
-2.
+2. 
 ALWAYS log all admin actions for audit trail
 javascriptDownloadCopy codeawait db.adminLogs.create({
   admin_id: currentAdmin.id,
@@ -25305,13 +25305,13 @@ javascriptDownloadCopy codeawait db.adminLogs.create({
   timestamp: new Date()
 });
 
-3.
+3. 
 ALWAYS prevent horizontal privilege escalation (Admin A editing Admin B's data)
 
-4.
+4. 
 ALWAYS require re-authentication for super admin actions
 
-5.
+5. 
 ALWAYS implement admin impersonation logging
 
 
@@ -25330,14 +25330,14 @@ PHẦN 11: SUPABASE SPECIFIC
 ═══════════════════════════════════════════════════════════════════════════
 11.1 Row Level Security (RLS)
 
-1.
+1. 
 ALWAYS enable RLS on every table:
 sqlDownloadCopy codeALTER TABLE orders ENABLE ROW LEVEL SECURITY;
 ALTER TABLE profiles ENABLE ROW LEVEL SECURITY;
 ALTER TABLE products ENABLE ROW LEVEL SECURITY;
 -- ... all tables
 
-2.
+2. 
 NEVER create overly permissive policies:
 sqlDownloadCopy code-- ❌ WRONG:
 CREATE POLICY "Allow all" ON orders FOR ALL USING (true);
@@ -25348,35 +25348,35 @@ CREATE POLICY "Users view own orders" ON orders
 CREATE POLICY "Users create own orders" ON orders
   FOR INSERT WITH CHECK (auth.uid() = user_id);
 
-3.
+3. 
 ALWAYS create separate policies for SELECT, INSERT, UPDATE, DELETE
 
-4.
+4. 
 NEVER use service_role_key in frontend - CRITICAL!
 
 
 11.2 Edge Functions Security
 
-1.
+1. 
 ALWAYS verify JWT in Edge Functions:
 typescriptDownloadCopy codeDeno.serve(async (req) => {
   const authHeader = req.headers.get('Authorization');
   const token = authHeader?.replace('Bearer ', '');
-
+  
   const { data: { user }, error } = await supabase.auth.getUser(token);
   if (error || !user) {
     return new Response(JSON.stringify({ error: 'Unauthorized' }), {
       status: 401
     });
   }
-
+  
   // Use user.id from verified token
 });
 
-2.
+2. 
 ALWAYS use Deno.env.get() for secrets in Edge Functions
 
-3.
+3. 
 ALWAYS set specific CORS origins in Edge Functions
 
 
@@ -25387,7 +25387,7 @@ ALWAYS set specific CORS origins in Edge Functions
 
 11.4 Storage Security
 
-1.
+1. 
 ALWAYS create specific storage bucket policies
 sqlDownloadCopy code-- ❌ WRONG:
 CREATE POLICY "Public access" ON storage.objects FOR ALL USING (true);
@@ -25396,10 +25396,10 @@ CREATE POLICY "Public access" ON storage.objects FOR ALL USING (true);
 CREATE POLICY "Users manage own files" ON storage.objects
   FOR ALL USING (auth.uid()::text = (storage.foldername(name))[1]);
 
-2.
+2. 
 ALWAYS validate file types (prevent .exe, .php uploads)
 
-3.
+3. 
 ALWAYS sanitize filenames to prevent path traversal
 
 ---
@@ -25455,7 +25455,7 @@ ALWAYS sanitize filenames to prevent path traversal
 162. NEVER accept negative prices or quantities
 163. ALWAYS use atomic inventory updates:
      ```sql
-     UPDATE products SET inventory = inventory - 1
+     UPDATE products SET inventory = inventory - 1 
      WHERE id = \$1 AND inventory > 0 RETURNING *;
      ```
 
@@ -25485,7 +25485,7 @@ ALWAYS sanitize filenames to prevent path traversal
 180. ALWAYS set referral cookie server-side (httpOnly)
 181. ALWAYS prevent withdrawal more than balance:
      ```sql
-     UPDATE wallets SET balance = balance - \$1
+     UPDATE wallets SET balance = balance - \$1 
      WHERE user_id = \$2 AND balance >= \$1 RETURNING *;
      ```
 
@@ -25504,7 +25504,7 @@ ALWAYS sanitize filenames to prevent path traversal
      ```javascript
      // ❌ WRONG:
      const data = api.getData(); // Promise!
-
+     
      // ✅ CORRECT:
      const data = await api.getData();
      ```
@@ -25522,7 +25522,7 @@ ALWAYS sanitize filenames to prevent path traversal
      ```javascript
      // ❌ WRONG:
      if (quantity) process(); // 0 is falsy!
-
+     
      // ✅ CORRECT:
      if (quantity != null) process();
      ```
@@ -25564,7 +25564,7 @@ ALWAYS sanitize filenames to prevent path traversal
      // Edge Function with timeout:
      const controller = new AbortController();
      const timeout = setTimeout(() => controller.abort(), 10000); // 10s
-
+     
      try {
        const response = await fetch(url, { signal: controller.signal });
      } finally {
@@ -25597,13 +25597,13 @@ ALWAYS sanitize filenames to prevent path traversal
      const signature = crypto.createHmac('sha256', secret)
        .update(`${timestamp}:${payload}`)
        .digest('hex');
-
+     
      // Verify signature on server:
      const expectedSig = generateSignature(timestamp, payload, secret);
      if (signature !== expectedSig) {
        return { error: 'Invalid signature' };
      }
-
+     
      // Check timestamp is recent (prevent replay attacks):
      if (Date.now() - timestamp > 5 * 60 * 1000) { // 5 min
        return { error: 'Request expired' };
@@ -25614,13 +25614,13 @@ ALWAYS sanitize filenames to prevent path traversal
      ```javascript
      // Client sends unique idempotency key:
      const idempotencyKey = req.headers.get('x-idempotency-key');
-
+     
      // Check if already processed:
      const existing = await db.idempotencyKeys.findOne({ key: idempotencyKey });
      if (existing) {
        return existing.response; // Return cached response
      }
-
+     
      // Process and store:
      const result = await processRequest(req);
      await db.idempotencyKeys.create({
@@ -25634,7 +25634,7 @@ ALWAYS sanitize filenames to prevent path traversal
      ```javascript
      // ❌ WRONG:
      return { error: error.message, code: error.code, sqlState: '42P01' };
-
+     
      // ✅ CORRECT:
      const errorMap = {
        '23505': { message: 'Item already exists', code: 'DUPLICATE' },
@@ -25654,7 +25654,7 @@ ALWAYS sanitize filenames to prevent path traversal
          this.lastFailure = null;
          this.state = 'CLOSED'; // CLOSED, OPEN, HALF_OPEN
        }
-
+       
        async call(fn) {
          if (this.state === 'OPEN') {
            if (Date.now() - this.lastFailure > this.timeout) {
@@ -25663,7 +25663,7 @@ ALWAYS sanitize filenames to prevent path traversal
              throw new Error('Circuit breaker is OPEN');
            }
          }
-
+         
          try {
            const result = await fn();
            this.onSuccess();
@@ -25673,12 +25673,12 @@ ALWAYS sanitize filenames to prevent path traversal
            throw error;
          }
        }
-
+       
        onSuccess() {
          this.failures = 0;
          this.state = 'CLOSED';
        }
-
+       
        onFailure() {
          this.failures++;
          this.lastFailure = Date.now();
@@ -25697,7 +25697,7 @@ ALWAYS sanitize filenames to prevent path traversal
            return await fn();
          } catch (error) {
            if (i === maxRetries - 1) throw error;
-
+           
            const delay = Math.min(1000 * Math.pow(2, i), 10000); // Max 10s
            await new Promise(r => setTimeout(r, delay));
          }
@@ -25711,12 +25711,12 @@ ALWAYS sanitize filenames to prevent path traversal
      const requestHash = crypto.createHash('sha256')
        .update(`${userId}:${endpoint}:${JSON.stringify(body)}`)
        .digest('hex');
-
+     
      const recentRequest = await cache.get(`dedup:${requestHash}`);
      if (recentRequest) {
        return { error: 'Duplicate request', code: 'DUPLICATE_REQUEST' };
      }
-
+     
      await cache.set(`dedup:${requestHash}`, true, { ttl: 5 }); // 5 seconds
      ```
 
@@ -25726,41 +25726,41 @@ ALWAYS sanitize filenames to prevent path traversal
      ```javascript
      // Encrypt PII before storing:
      const crypto = require('crypto');
-
+     
      const ENCRYPTION_KEY = process.env.DATA_ENCRYPTION_KEY; // 32 bytes
      const IV_LENGTH = 16;
-
+     
      function encrypt(text) {
        const iv = crypto.randomBytes(IV_LENGTH);
        const cipher = crypto.createCipheriv('aes-256-gcm', Buffer.from(ENCRYPTION_KEY, 'hex'), iv);
-
+       
        let encrypted = cipher.update(text, 'utf8', 'hex');
        encrypted += cipher.final('hex');
-
+       
        const authTag = cipher.getAuthTag();
-
+       
        return {
          iv: iv.toString('hex'),
          data: encrypted,
          tag: authTag.toString('hex')
        };
      }
-
+     
      function decrypt(encrypted) {
        const decipher = crypto.createDecipheriv(
          'aes-256-gcm',
          Buffer.from(ENCRYPTION_KEY, 'hex'),
          Buffer.from(encrypted.iv, 'hex')
        );
-
+       
        decipher.setAuthTag(Buffer.from(encrypted.tag, 'hex'));
-
+       
        let decrypted = decipher.update(encrypted.data, 'hex', 'utf8');
        decrypted += decipher.final('utf8');
-
+       
        return decrypted;
      }
-
+     
      // Usage:
      const encryptedSSN = encrypt(user.ssn);
      await db.users.update(userId, { ssn_encrypted: encryptedSSN });
@@ -25770,17 +25770,17 @@ ALWAYS sanitize filenames to prevent path traversal
      ```javascript
      // For comparing tokens, use constant-time comparison:
      const crypto = require('crypto');
-
+     
      function secureCompare(a, b) {
        if (a.length !== b.length) {
          return false;
        }
        return crypto.timingSafeEqual(Buffer.from(a), Buffer.from(b));
      }
-
+     
      // For passwords, use bcrypt or argon2:
      const argon2 = require('argon2');
-
+     
      async function hashPassword(password) {
        return argon2.hash(password, {
          type: argon2.argon2id,
@@ -25799,21 +25799,21 @@ ALWAYS sanitize filenames to prevent path traversal
        'v2': process.env.ENCRYPTION_KEY_V2, // Current
      };
      const CURRENT_KEY_VERSION = 'v2';
-
+     
      function encryptWithVersion(text) {
        const encrypted = encrypt(text, ENCRYPTION_KEYS[CURRENT_KEY_VERSION]);
        return { ...encrypted, version: CURRENT_KEY_VERSION };
      }
-
+     
      function decryptWithVersion(encrypted) {
        const key = ENCRYPTION_KEYS[encrypted.version];
        return decrypt(encrypted, key);
      }
-
+     
      // Background job to re-encrypt old data:
      async function rotateEncryption() {
        const oldRecords = await db.users.find({ 'ssn_encrypted.version': 'v1' });
-
+       
        for (const record of oldRecords) {
          const decrypted = decryptWithVersion(record.ssn_encrypted);
          const reEncrypted = encryptWithVersion(decrypted);
@@ -25826,11 +25826,11 @@ ALWAYS sanitize filenames to prevent path traversal
      ```javascript
      // ❌ WRONG:
      const token = Math.random().toString(36).substring(2);
-
+     
      // ✅ CORRECT:
      const crypto = require('crypto');
      const token = crypto.randomBytes(32).toString('hex');
-
+     
      // For browser:
      const array = new Uint8Array(32);
      crypto.getRandomValues(array);
@@ -25841,31 +25841,31 @@ ALWAYS sanitize filenames to prevent path traversal
      ```javascript
      function maskSensitiveData(data) {
        const masked = { ...data };
-
+       
        // Mask email: j***@example.com
        if (masked.email) {
          const [local, domain] = masked.email.split('@');
          masked.email = `${local[0]}***@${domain}`;
        }
-
+       
        // Mask phone: +84***789
        if (masked.phone) {
          masked.phone = masked.phone.slice(0, 3) + '***' + masked.phone.slice(-3);
        }
-
+       
        // Mask card: ****1234
        if (masked.card_number) {
          masked.card_number = '****' + masked.card_number.slice(-4);
        }
-
+       
        // Remove sensitive fields entirely:
        delete masked.password;
        delete masked.ssn;
        delete masked.api_key;
-
+       
        return masked;
      }
-
+     
      // Use in logging:
      console.log('User data:', maskSensitiveData(userData));
      ```

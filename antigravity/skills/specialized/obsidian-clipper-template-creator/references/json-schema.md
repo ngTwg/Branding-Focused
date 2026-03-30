@@ -6,14 +6,14 @@ The Obsidian Web Clipper imports templates via JSON files.
 
 ```json
 {
-    "schemaVersion": "0.1.0",
-    "name": "Template Name",
-    "behavior": "create",
-    "noteContentFormat": "Markdown content here...",
-    "properties": [],
-    "triggers": [],
-    "noteNameFormat": "{{title}}",
-    "path": "Inbox/"
+	"schemaVersion": "0.1.0",
+	"name": "Template Name",
+	"behavior": "create",
+	"noteContentFormat": "Markdown content here...",
+	"properties": [],
+	"triggers": [],
+	"noteNameFormat": "{{title}}",
+	"path": "Inbox/"
 }
 ```
 

@@ -1616,7 +1616,7 @@ class AnthropicComputerUse:
             subprocess.run(["scrot", "/tmp/screenshot.png"])
 
             with open("/tmp/screenshot.png", "rb") as f:
-
+            
 ```
 
 ## ⚠️ Sharp Edges
@@ -3102,3 +3102,4 @@ Harder to optimize.
 ## Related Skills
 
 Works well with: `langgraph`, `structured-output`, `langfuse`
+

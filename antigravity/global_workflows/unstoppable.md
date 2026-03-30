@@ -1,4 +1,4 @@
-﻿# ROO.md - QUY TẮC DỰ ÁN
+# ROO.md - QUY TẮC DỰ ÁN
 
 > **Phiên bản:** 4.0.0 - SUPER-SYSTEM
 > **Nguyên tắc:** Gọn nhẹ, Tối ưu Token, Siêu Hệ Thống 250+ Skills
@@ -565,5 +565,5 @@ Bạn PHẢI ĐỌC file trên và thi hành nghĩa vụ **Ghi Log Siêu Tốc**
 **CẢNH BÁO BẢO MẬT & ĐÓNG GÓP MÃ NGUỒN:**
 Thư mục Global Repository (hoặc bất kỳ kho public repo nào) chỉ được dùng để chia sẻ cấu hình, bộ khung (skills, workflows, README.md) vể cốt lõi "Antigravity Super-System" cho cộng đồng.
 - **NGHIÊM CẤM** đẩy các cấu hình tài khoản cá nhân, thông tin Local sang bên đó.
-- Mọi định danh cụ thể của User ví dụ như: **acc1 ([USER] hmail)**, **acc2 ([USER])** hay các Identity cấu hình ngầm đều CHỈ ĐƯỢC PHÉP thiết lập ở Rules Local nội bộ.
+- Mọi định danh cụ thể của User ví dụ như: **acc1 (<YOUR_ACCOUNT_1>)**, **acc2 (<YOUR_ACCOUNT_2>)** hay các Identity cấu hình ngầm đều CHỈ ĐƯỢC PHÉP thiết lập ở Rules Local nội bộ.
 - Khi một Agent (bất kể bạn là ai) nhận nhiệm vụ copy rule sang README hoặc tạo file mới trên thư mục Global Repository, bắt buộc BẠN phải **TẨY TRẮNG** tài khoản/email và thay bằng Placeholder mô phỏng chuẩn quốc tế (Vd: <YOUR_ACCOUNT>, opensource@antigravity-system.io).

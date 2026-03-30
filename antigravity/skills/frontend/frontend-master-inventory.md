@@ -5235,13 +5235,13 @@ allowed-tools: Read, Write, Edit, Glob, Grep
   --color-primary: oklch(0.7 0.15 250);
   --color-surface: oklch(0.98 0 0);
   --color-surface-dark: oklch(0.15 0 0);
-
+  
   /* Spacing scale */
   --spacing-xs: 0.25rem;
   --spacing-sm: 0.5rem;
   --spacing-md: 1rem;
   --spacing-lg: 2rem;
-
+  
   /* Typography */
   --font-sans: 'Inter', system-ui, sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
@@ -5615,10 +5615,10 @@ Measure impact of changes:
 <picture>
   <source srcset="/hero.avif" type="image/avif">
   <source srcset="/hero.webp" type="image/webp">
-  <img
-    src="/hero.jpg"
+  <img 
+    src="/hero.jpg" 
     alt="Hero"
-    width="1200"
+    width="1200" 
     height="600"
     loading="eager"
     fetchpriority="high"
@@ -5687,10 +5687,10 @@ npm install date-fns
 <img src="/product.jpg" alt="Product">
 
 <!-- After: With dimensions -->
-<img
-  src="/product.jpg"
+<img 
+  src="/product.jpg" 
   alt="Product"
-  width="400"
+  width="400" 
   height="300"
   style="aspect-ratio: 4/3;"
 >
@@ -5871,17 +5871,17 @@ const path = require('path');
 
 async function optimizeImage(inputPath, outputDir) {
   const filename = path.basename(inputPath, path.extname(inputPath));
-
+  
   // Generate WebP
   await sharp(inputPath)
     .webp({ quality: 80 })
     .toFile(path.join(outputDir, \`\${filename}.webp\`));
-
+  
   // Generate AVIF (best compression)
   await sharp(inputPath)
     .avif({ quality: 70 })
     .toFile(path.join(outputDir, \`\${filename}.avif\`));
-
+  
   // Generate optimized JPEG fallback
   await sharp(inputPath)
     .jpeg({ quality: 80, progressive: true })
@@ -5901,7 +5901,7 @@ images.forEach(img => {
 <!-- Responsive images with modern formats -->
 <picture>
   <!-- AVIF for browsers that support it (best compression) -->
-  <source
+  <source 
     srcset="
       /images/hero-400.avif 400w,
       /images/hero-800.avif 800w,
@@ -5910,9 +5910,9 @@ images.forEach(img => {
     type="image/avif"
     sizes="(max-width: 768px) 100vw, 50vw"
   >
-
+  
   <!-- WebP for browsers that support it -->
-  <source
+  <source 
     srcset="
       /images/hero-400.webp 400w,
       /images/hero-800.webp 800w,
@@ -5921,9 +5921,9 @@ images.forEach(img => {
     type="image/webp"
     sizes="(max-width: 768px) 100vw, 50vw"
   >
-
+  
   <!-- JPEG fallback -->
-  <img
+  <img 
     src="/images/hero-800.jpg"
     srcset="
       /images/hero-400.jpg 400w,
@@ -5943,8 +5943,8 @@ images.forEach(img => {
 
 \`\`\`html
 <!-- Native lazy loading -->
-<img
-  src="/image.jpg"
+<img 
+  src="/image.jpg" 
   alt="Description"
   loading="lazy"
   width="800"
@@ -5952,8 +5952,8 @@ images.forEach(img => {
 >
 
 <!-- Eager loading for above-the-fold images -->
-<img
-  src="/hero.jpg"
+<img 
+  src="/hero.jpg" 
   alt="Hero"
   loading="eager"
   fetchpriority="high"
@@ -6184,7 +6184,7 @@ export const HoverCard = ({ children }) => (
 
 #### 2. Kết hợp Shadcn/UI + Custom Themes
 - Sử dụng CSS Variables cho theming.
-- Tự động hóa Dark Mode với
+- Tự động hóa Dark Mode với 
 ext-themes.
 
 ### C+.2 — PERFORMANCE OPTIMIZATION (Core Web Vitals)

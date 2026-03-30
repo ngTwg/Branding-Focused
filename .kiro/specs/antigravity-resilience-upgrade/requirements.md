@@ -100,7 +100,7 @@ Hệ thống Antigravity v6.1.0 đã đạt **production-grade** về mặt engi
      Pattern: missing closing bracket in list comprehension
    - Patch Y caused RuntimeError: undefined variable
      Pattern: forgot to import module
-
+   
    AVOID similar patterns in your repair.
    ```
 
@@ -306,6 +306,6 @@ Nâng cấp v6.2 biến Antigravity từ:
 
 ---
 
-**Version:** v6.2.0-RESILIENCE-UPGRADE
-**Target:** Self-healing autonomous debugging runtime
+**Version:** v6.2.0-RESILIENCE-UPGRADE  
+**Target:** Self-healing autonomous debugging runtime  
 **Philosophy:** "Observable" → "Self-evaluable" → "Self-improving"

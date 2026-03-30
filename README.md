@@ -96,15 +96,14 @@ graph LR
  ┣ 📜 Antigravity_CORE_RULES.md          ← Core rules tổng hợp
  ┣ 📜 MASTER_PLAN.md                      ← Kế hoạch phát triển hệ thống
  ┣ 📜 SKILLS_GUIDE.md                     ← Hướng dẫn sử dụng skills
- ┣ 📂 antigravity/                        ← Bộ não cốt lõi (Shared Brain)
- ┃  ┗ 📂 skills/
- ┃    ┣ 📜 MASTER_ROUTER.md               ← [BẮT BUỘC] Điều phối 250+ skills
- ┃    ┣ 📂 frontend/                      ← 20+ Skills
- ┃    ┣ 📂 backend/                       ← 25+ Skills
- ┃    ┣ 📂 security/                      ← 40+ Skills
- ┃    ┣ 📂 workflows/                     ← 50+ Skills
- ┃    ┣ 📂 deep-tech/                     ← 20+ Skills (Agents, RAG, MCP)
- ┃    ┗ 📂 specialized/                   ← 180+ Skills
+ ┣ 📂 antigravity/skills/                        ← Bộ não cốt lõi (Shared Brain)
+ ┃  ┣ 📜 MASTER_ROUTER.md               ← [BẮT BUỘC] Điều phối 250+ skills
+ ┃  ┣ 📂 frontend/                      ← 20+ Skills
+ ┃  ┣ 📂 backend/                       ← 25+ Skills
+ ┃  ┣ 📂 security/                      ← 40+ Skills
+ ┃  ┣ 📂 workflows/                     ← 50+ Skills
+ ┃  ┣ 📂 deep-tech/                     ← 20+ Skills (Agents, RAG, MCP)
+ ┃  ┗ 📂 specialized/                   ← 180+ Skills
  ┣ 📂 AGENT_CLAUDE/                       ← Claude Code / Claude Desktop
  ┣ 📂 AGENT_CURSOR/                       ← Cursor IDE
  ┣ 📂 AGENT_KIRO/                         ← Kiro IDE (Amazon)

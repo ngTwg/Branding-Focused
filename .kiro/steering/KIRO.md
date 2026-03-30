@@ -2,7 +2,7 @@
 inclusion: always
 ---
 
-# QUY TẮC DỰ ÁN - KIRO STEERING (v 6.2.0)
+# QUY TẮC DỰ ÁN - KIRO STEERING (v4.0.0)
 
 ## NGUYÊN TẮC CỐT LÕI
 
@@ -24,10 +24,84 @@ Gặp bug → load `C:/Users/<YOUR_USERNAME>/.gemini/antigravity/skills/workflow
 Không rõ tier → hỏi user trước.
 
 ### RULE 5: PROJECT PROTOCOLS
-- New project: tạo `PROJECT_MAP.md`, `.gitignore`, `README.md`
+- New project: tạo `PROJECT_MAP.md`, `.gitignore`, `README.md`, `docs/ADR-001.md`
+- Architecture changes: tạo ADR mới (Architecture Decision Records)
 - Git commit: `type(scope): description`
 - JUST DO IT — không hỏi "would you like me to...?"
 - Test Before Claim Complete
+- **Document Before Merge** - Update docs nếu có thay đổi
+
+### RULE 6: SECURITY-FIRST CODING
+```
+TRƯỚC KHI commit code:
+1. SCAN secrets: Không hardcode API keys, passwords
+2. VALIDATE input: Mọi user input phải được validate
+3. CHECK OWASP: SQL injection, XSS, CSRF protection
+4. VERIFY auth: Mọi endpoint có authentication/authorization
+5. TEST security: Try to bypass security measures
+```
+Chi tiết: `antigravity/skills/security/security-middleware-stack.md`
+
+### RULE 7: ANTI-HALLUCINATION PROTOCOL
+```
+TRƯỚC KHI sử dụng thư viện/API:
+1. VERIFY library exists: npm view <package> hoặc pip show <package>
+2. CHECK version: Đảm bảo version tương thích
+3. READ docs: Xác nhận API signature đúng
+4. TEST import: Chạy thử import trước khi viết code
+5. NEVER guess: Nếu không chắc, search documentation
+```
+Chi tiết: `antigravity/skills/workflows/anti-hallucination-v2.md`
+
+### RULE 8: NAMING CONVENTIONS ENFORCEMENT
+```
+AI PHẢI tuân thủ naming conventions:
+- JavaScript/TypeScript: camelCase (variables), PascalCase (classes), UPPER_SNAKE_CASE (constants)
+- Python: snake_case (variables), PascalCase (classes), UPPER_SNAKE_CASE (constants)
+- SQL: snake_case (tables, columns), plural tables
+- Boolean: is/has/should prefix
+
+CHẠY formatter TRƯỚC KHI claim "done":
+- JS/TS: npx eslint --fix && npx prettier --write
+- Python: ruff check --fix && black .
+```
+Chi tiết: `antigravity/skills/workflows/naming-conventions.md`
+
+### RULE 9: ERROR HANDLING MANDATORY
+```
+MỌI function có thể fail PHẢI có error handling:
+1. INPUT validation: Check null/undefined/invalid
+2. TRY-CATCH: Wrap external calls
+3. SPECIFIC errors: Throw custom error classes, not generic Error
+4. CLEANUP: Use finally for resource cleanup
+5. LOG errors: With context (userId, requestId, etc.)
+```
+Chi tiết: `antigravity/skills/workflows/error-handling-patterns.md`
+
+### RULE 10: EDGE CASE COVERAGE
+```
+TRƯỚC KHI claim "feature complete":
+1. CHECK catalog: Review antigravity/skills/workflows/edge-case-catalog.md
+2. TEST edge cases: Empty, null, undefined, max, min, special chars
+3. VERIFY boundaries: 0, -1, MAX_INT, empty string, null array
+4. HANDLE errors: Network timeout, DB down, file not found
+5. DOCUMENT assumptions: What inputs are valid/invalid
+```
+Chi tiết: `antigravity/skills/workflows/edge-case-catalog.md`
+
+### RULE 11: REFACTORING DISCIPLINE
+```
+REFACTOR KHI gặp bất kỳ trigger nào:
+1. Rule of Three: Code lặp lại 3 lần → Extract function
+2. Function > 50 lines → Split into smaller functions
+3. File > 300 lines → Split into modules
+4. Cyclomatic Complexity > 10 → Simplify logic
+5. Nested Depth > 3 → Extract nested logic
+6. Code Smells: Long parameter list, data clumps, etc.
+
+TOOLS: ESLint (max-lines, complexity), SonarQube, Radon
+```
+Chi tiết: `antigravity/skills/workflows/refactoring-triggers.md`
 
 ---
 
@@ -61,7 +135,7 @@ Thư mục RPGITHUB (hoặc bất kỳ kho public repo nào) chỉ được dùn
 
 ---
 
-# 🚀 GITHUB AUTOMATION PROTOCOL (v 6.2.0)
+# 🚀 GITHUB AUTOMATION PROTOCOL (v1.0.0)
 **CƠ CHẾ TỰ ĐỘNG NHẬN DIỆN REPO & PUSH CODE:**
 Khi User gửi link Repo GitHub (hoặc screenshot), Agent PHẢI thực hiện:
 1. **Trích xuất link:** Tự động lấy URL GitHub.

@@ -19,7 +19,7 @@ class LokiUnlimitedShield:
         self.target_script = target_script
         self.consecutive_failures = 0
         self.start_time = time.time()
-        self.constitution_path = "C:/Users/<USER_NAME>/.gemini/antigravity/skills/specialized/loki-mode/autonomy/CONSTITUTION.md"
+        self.constitution_path = "C:/Users/<YOUR_USERNAME>/.gemini/antigravity/skills/specialized/loki-mode/autonomy/CONSTITUTION.md"
 
     def _run_command(self, cmd, capture=True):
         try:

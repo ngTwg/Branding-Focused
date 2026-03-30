@@ -190,7 +190,7 @@ Update status as you complete each:
 ```
 # BAD: Writing all files then testing
 Write component-a.spec.tsx
-Write component-b.spec.tsx
+Write component-b.spec.tsx  
 Write component-c.spec.tsx
 Write component-d.spec.tsx
 Run pnpm test  ← Multiple failures, hard to debug

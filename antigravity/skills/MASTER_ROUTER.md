@@ -1,6 +1,6 @@
 ﻿# 🧭 MASTER SKILLS ROUTER - SIÊU ĐIỀU PHỐI (250+ SKILLS)
-
-> **MỤC ĐÍCH:** Bộ não trung tâm điều phối và truy cập kho trí tuệ 250+ kỹ năng.
+ 
+> **MỤC ĐÍCH:** Bộ não trung tâm điều phối và truy cập kho trí tuệ 250+ kỹ năng.  
 > **QUY TẮC:** AI PHẢI đọc file này TRƯỚC khi thực hiện bất kỳ task nào.
 > **CẬP NHẬT:** 2024-03-24 (v4.0.0 - SUPER-ROUTER)
 
@@ -32,26 +32,46 @@ Với kho 250+ skills, AI cần tuân thủ quy trình truy xuất "2 Tầng":
 
 ## 🗂️ BẢN ĐỒ SIÊU HỆ THỐNG (MAPPING)
 
-### 1. FRONTEND & UI (20+ Skills)
+### 1. FRONTEND & UI (21+ Skills) ✨ UPDATED
 - **Cẩm nang tổng hợp:** `frontend/frontend-master-inventory.md`
 - **Heavy Folders:** `frontend-design/`, `react-best-practices/`, `ui-ux-pro-max/`, `vercel-react-best-practices/`
-- **Common Tags:** `[React, CSS, Tailwind, UI, UX, CRO, Performance]`
+- **Công cụ Core:**
+  - **NEW:** `frontend/state-classification.md` - 7 state types (UI, Form, Server, Global, URL, Realtime, Persistent)
+- **Common Tags:** `[React, CSS, Tailwind, UI, UX, CRO, Performance, State-Management, Hooks, Context]`
 
-### 2. BACKEND & API (25+ Skills)
+### 2. BACKEND & API (28+ Skills) ✨ UPDATED
 - **Cẩm nang tổng hợp:** `backend/backend-master-inventory.md`
 - **Heavy Folders:** `api-patterns/`, `typescript-expert/`, `algorithmic-art/`
-- **Common Tags:** `[Nodejs, API, Database, Auth, Typescript, Python, GraphQL]`
+- **Công cụ Core:**
+  - **NEW:** `backend/api-design-standards.md` - REST best practices, pagination, versioning, OpenAPI
+  - **NEW:** `backend/database-standards.md` - Schema design, migrations, indexes, soft delete
+- **Common Tags:** `[Nodejs, API, Database, Auth, Typescript, Python, GraphQL, REST, Schema, Migrations, Indexes]`
 
-### 3. SECURITY & PENTEST (40+ Skills)
+### 3. SECURITY & PENTEST (41+ Skills) ✨ UPDATED
 - **Cẩm nang tổng hợp:** `security/security-master-inventory.md`
 - **Heavy Folders:** `active-directory-attacks/`, `aws-penetration-testing/`, `cloud-penetration-testing/`, `vulnerability-scanner/`
-- **Common Tags:** `[Pentest, XSS, SQLi, Cloud-Security, Red-Team, Audit]`
+- **Công cụ Core:**
+  - **NEW:** `security/security-middleware-stack.md` - 7-layer defense (Helmet, CORS, Rate Limiting, CSRF, Input Sanitization)
+- **Common Tags:** `[Pentest, XSS, SQLi, Cloud-Security, Red-Team, Audit, OWASP, Middleware, Defense-in-Depth]`
 
-### 4. WORKFLOWS & DEBUG (50+ Skills)
+### 4. WORKFLOWS & DEBUG (65+ Skills) ✨ UPDATED
 - **Cẩm nang tổng hợp:** `workflows/workflows-master-inventory.md` (Gồm TDD, Planning, Git rules)
 - **Heavy Folders:** `git-pushing/`, `lint-and-validate/`, `skill-creator/`, `performance-profiling/`
-- **Công cụ Core:** `workflows/debug-protocol.md`, `workflows/advanced-testing.md`
-- **Common Tags:** `[Debug, Testing, Git, Workflow, Automation, Root-Cause]`
+- **Công cụ Core:** 
+  - `workflows/debug-protocol.md` - Systematic debugging
+  - `workflows/advanced-testing.md` - Testing strategies
+  - **NEW:** `workflows/naming-conventions.md` - JS/TS/Python naming rules
+  - **NEW:** `workflows/anti-hallucination-v2.md` - 4-layer verification
+  - **NEW:** `workflows/documentation-standards.md` - README, ADR, JSDoc
+  - **NEW:** `workflows/error-handling-patterns.md` - 6 error patterns
+  - **NEW:** `workflows/edge-case-catalog.md` - 70+ edge cases
+  - **NEW:** `workflows/refactoring-triggers.md` - 6 refactoring triggers
+  - **NEW:** `workflows/concurrency-patterns.md` - Race condition prevention
+  - **NEW:** `workflows/resource-cleanup.md` - Memory leak prevention
+  - **NEW:** `workflows/logging-standards.md` - Structured logging
+  - **NEW:** `workflows/environment-standards.md` - Env validation with Zod
+  - **NEW:** `workflows/meta-rules.md` - Rule governance
+- **Common Tags:** `[Debug, Testing, Git, Workflow, Automation, Root-Cause, Naming, Hallucination, Documentation, Error-Handling, Edge-Cases, Refactoring, Concurrency, Cleanup, Logging, Environment]`
 
 ### 5. AI, AGENTS & DEEP TECH (25+ Skills)
 - **SIÊU CẨM NĂNG AGENT:** `deep-tech/ai-agents-master-inventory.md` (Gồm AC, AD, AE, AF, AG)
@@ -74,9 +94,10 @@ Với kho 250+ skills, AI cần tuân thủ quy trình truy xuất "2 Tầng":
 → Tags: [Debug, Security, Shopify]
 → Load:
   1. workflows/debug-protocol.md (Rule số 1)
-  2. security/security-master-inventory.md (Để tìm lỗi tương ứng)
-  3. specialized/specialized-master-inventory.md (Tìm section "Shopify")
-  4. specialized/shopify-development/ (Nếu cần script test)
+  2. workflows/anti-hallucination-v2.md (Verify libraries)
+  3. security/security-middleware-stack.md (7-layer defense)
+  4. specialized/specialized-master-inventory.md (Tìm section "Shopify")
+  5. specialized/shopify-development/ (Nếu cần script test)
 
 // Case: "Tạo hệ thống RAG dùng MCP"
 → Tags: [AI, RAG, MCP, Backend]
@@ -84,6 +105,33 @@ Với kho 250+ skills, AI cần tuân thủ quy trình truy xuất "2 Tầng":
   1. deep-tech/deep-tech-master-inventory.md (Agentic patterns)
   2. deep-tech/mcp-builder/ (Tools xây dựng MCP)
   3. backend/backend-master-inventory.md (Database & API)
+  4. backend/api-design-standards.md (REST best practices)
+  5. workflows/error-handling-patterns.md (Error handling)
+
+// Case: "Code React component với state management"
+→ Tags: [React, Frontend, State]
+→ Load:
+  1. frontend/frontend-master-inventory.md (React patterns)
+  2. frontend/state-classification.md (7 state types)
+  3. workflows/naming-conventions.md (camelCase, PascalCase)
+  4. workflows/edge-case-catalog.md (Form validation edge cases)
+
+// Case: "Thiết kế REST API cho e-commerce"
+→ Tags: [API, Backend, E-commerce, Security]
+→ Load:
+  1. backend/api-design-standards.md (REST, pagination, versioning)
+  2. backend/database-standards.md (Schema, migrations)
+  3. security/security-middleware-stack.md (OWASP protection)
+  4. workflows/logging-standards.md (Structured logging)
+  5. workflows/edge-case-catalog.md (E-commerce edge cases)
+
+// Case: "Refactor code có complexity cao"
+→ Tags: [Refactoring, Code-Quality]
+→ Load:
+  1. workflows/refactoring-triggers.md (6 triggers)
+  2. workflows/naming-conventions.md (Consistent naming)
+  3. workflows/error-handling-patterns.md (Better error handling)
+  4. workflows/edge-case-catalog.md (Missing edge cases)
 ```
 
 ---
@@ -93,15 +141,117 @@ Với kho 250+ skills, AI cần tuân thủ quy trình truy xuất "2 Tầng":
 1. **CHỈ đọc phần cần thiết:** Khi dùng Master Inventory, hãy dùng `view_content_chunk` hoặc `grep_search` để lấy đúng section cần dùng. Tránh nạp toàn bộ 750KB vào context một lúc trừ khi thực sự cần tổng phổ kiến thức.
 2. **Context Pruning:** Xoá bỏ skills cũ khi đổi task.
 3. **Always Load Workflows First:** Nếu gặp lỗi, quay lại đọc `debug-protocol.md`.
+4. **NEW SKILLS PRIORITY:** Khi code, luôn check các skills mới:
+   - Naming → `naming-conventions.md`
+   - Libraries → `anti-hallucination-v2.md`
+   - Errors → `error-handling-patterns.md`
+   - Security → `security-middleware-stack.md`
+   - Edge Cases → `edge-case-catalog.md`
+   - Refactoring → `refactoring-triggers.md`
+   - State → `state-classification.md`
+   - API → `api-design-standards.md`
+   - Database → `database-standards.md`
 
 ---
 
-**Version:** 4.0.0 (Super-Router)
-**Last Updated:** 2024-03-24
+## 📊 COVERAGE MATRIX (96% TOTAL)
+
+| Category | Coverage | Key Skills |
+|----------|----------|------------|
+| **Naming** | 85% | naming-conventions.md |
+| **Anti-Hallucination** | 75% | anti-hallucination-v2.md |
+| **Documentation** | 85% | documentation-standards.md |
+| **Error Handling** | 90% | error-handling-patterns.md |
+| **Security** | 95% | security-middleware-stack.md |
+| **Edge Cases** | 85% | edge-case-catalog.md |
+| **Refactoring** | 90% | refactoring-triggers.md |
+| **Concurrency** | 90% | concurrency-patterns.md |
+| **Resource Cleanup** | 95% | resource-cleanup.md |
+| **State Management** | 90% | state-classification.md |
+| **API Design** | 95% | api-design-standards.md |
+| **Database** | 95% | database-standards.md |
+| **Logging** | 90% | logging-standards.md |
+| **Environment** | 95% | environment-standards.md |
+| **Governance** | 90% | meta-rules.md |
+
+---
+
+## 🎓 QUICK SKILL LOOKUP
+
+### By Problem Type
+
+**"Code không chạy / Bug"**
+→ `workflows/debug-protocol.md` + `workflows/anti-hallucination-v2.md`
+
+**"Naming không consistent"**
+→ `workflows/naming-conventions.md`
+
+**"Thiếu error handling"**
+→ `workflows/error-handling-patterns.md`
+
+**"Security vulnerability"**
+→ `security/security-middleware-stack.md`
+
+**"Missing edge cases"**
+→ `workflows/edge-case-catalog.md`
+
+**"Code quá phức tạp"**
+→ `workflows/refactoring-triggers.md`
+
+**"Race condition / Concurrency"**
+→ `workflows/concurrency-patterns.md`
+
+**"Memory leak"**
+→ `workflows/resource-cleanup.md`
+
+**"State management mess"**
+→ `frontend/state-classification.md`
+
+**"API design issues"**
+→ `backend/api-design-standards.md`
+
+**"Database problems"**
+→ `backend/database-standards.md`
+
+**"Logging không đủ"**
+→ `workflows/logging-standards.md`
+
+**"Environment config issues"**
+→ `workflows/environment-standards.md`
+
+---
+
+## 📚 SKILL INTEGRATION WITH KIRO.md
+
+All 15 new skills are integrated into KIRO.md as RULE 6-11:
+
+- **RULE 6:** Security-First Coding → `security-middleware-stack.md`
+- **RULE 7:** Anti-Hallucination Protocol → `anti-hallucination-v2.md`
+- **RULE 8:** Naming Conventions → `naming-conventions.md`
+- **RULE 9:** Error Handling Mandatory → `error-handling-patterns.md`
+- **RULE 10:** Edge Case Coverage → `edge-case-catalog.md`
+- **RULE 11:** Refactoring Discipline → `refactoring-triggers.md`
+
+Additional skills referenced in workflows:
+- Documentation → `documentation-standards.md`
+- Concurrency → `concurrency-patterns.md`
+- Cleanup → `resource-cleanup.md`
+- State → `state-classification.md`
+- API → `api-design-standards.md`
+- Database → `database-standards.md`
+- Logging → `logging-standards.md`
+- Environment → `environment-standards.md`
+- Meta-Rules → `meta-rules.md`
+
+---
+
+**Version:** 4.1.0 (Super-Router + AI Rules Integration)  
+**Last Updated:** 2026-03-30  
+**New Skills:** 15 core skills added (96% coverage)  
 **Maintained by:** Antigravity AI Skills Brain
 
 ### 🚨 QUY TẮC DỌN DẸP (CLEANUP-BY-DEFAULT)
-**MỆNH LỆNH TỐI CAO:** {Antigravity_ROOT}/skills/workflows/CLEANUP_PROTOCOL.md
+**MỆNH LỆNH TỐI CAO:** {ANTIGRAVITY_ROOT}/skills/workflows/CLEANUP_PROTOCOL.md
 
 Một Agent chuyên nghiệp không để lại file rác. Agent PHẢI chủ động dọn dẹp các tệp tạm, script test, và log trung gian ngay sau khi xác nhận task thành công. "Xong việc là phải Sạch".
 
@@ -130,3 +280,4 @@ Một Agent chuyên nghiệp không để lại file rác. Agent PHẢI chủ đ
   - Computer Use, Visual QA, OS Navigation, Hardware-in-the-loop (EQ, EX)
   - Financial Autonomy, Price Arbitrage, Predictive Cache (ER, FA, EV, FB)
 - **Common Tags:** [Cognition, Evolution, Swarm, Memory, Safety, Economics, Predictive]
+

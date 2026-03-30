@@ -1,7 +1,7 @@
 # Requirements: Antigravity Final Polish v6.3.0
 
-> **Goal:** Hoàn thiện 3 mục còn thiếu để đạt 10/10
-> **Timeline:** 2-3 tuần
+> **Goal:** Hoàn thiện 3 mục còn thiếu để đạt 10/10  
+> **Timeline:** 2-3 tuần  
 > **Priority:** HIGH
 
 ---
@@ -11,8 +11,8 @@
 Dựa trên Architecture Review Progress Report, cần hoàn thành:
 
 ### 1. HybridRetriever Properties (CRITICAL - Phase 1 Final Safety)
-**Priority:** P0 (BLOCKING Phase 2)
-**Effort:** 2-3 hours
+**Priority:** P0 (BLOCKING Phase 2)  
+**Effort:** 2-3 hours  
 **Impact:** Prevents self-reinforcing wrong patterns
 
 **Requirements:**
@@ -22,8 +22,8 @@ Dựa trên Architecture Review Progress Report, cần hoàn thành:
 - Diversity preservation: top-k không collapse
 
 ### 2. SLMRouter Properties (CRITICAL - Phase 1 Final Safety)
-**Priority:** P0 (BLOCKING Phase 2)
-**Effort:** 1 hour
+**Priority:** P0 (BLOCKING Phase 2)  
+**Effort:** 1 hour  
 **Impact:** Prevents cost explosion & quality degradation
 
 **Requirements:**
@@ -31,8 +31,8 @@ Dựa trên Architecture Review Progress Report, cần hoàn thành:
 - Quality degradation bounds: graceful tradeoff
 
 ### 3. Integration Test (CRITICAL - Phase 1 Final Safety)
-**Priority:** P0 (BLOCKING Phase 2)
-**Effort:** 1 hour
+**Priority:** P0 (BLOCKING Phase 2)  
+**Effort:** 1 hour  
 **Impact:** Proves learning convergence
 
 **Requirements:**
@@ -41,8 +41,8 @@ Dựa trên Architecture Review Progress Report, cần hoàn thành:
 - No silent regression
 
 ### 4. Tree-sitter Integration (HIGH PRIORITY)
-**Priority:** P1
-**Effort:** 1-2 days
+**Priority:** P1  
+**Effort:** 1-2 days  
 **Impact:** Better code verification
 
 **Requirements:**
@@ -52,8 +52,8 @@ Dựa trên Architecture Review Progress Report, cần hoàn thành:
 - Structured AST output (JSON schema)
 
 ### 5. SLM Model Benchmark (HIGH PRIORITY)
-**Priority:** P1
-**Effort:** 1 day
+**Priority:** P1  
+**Effort:** 1 day  
 **Impact:** Optimize routing cost/quality
 
 **Requirements:**
@@ -62,8 +62,8 @@ Dựa trên Architecture Review Progress Report, cần hoàn thành:
 - Choose best model for routing
 
 ### 6. Reasoning Models Integration (MEDIUM PRIORITY)
-**Priority:** P2
-**Effort:** 2-3 days
+**Priority:** P2  
+**Effort:** 2-3 days  
 **Impact:** Handle complex tasks better
 
 **Requirements:**
@@ -127,6 +127,6 @@ Dựa trên Architecture Review Progress Report, cần hoàn thành:
 
 ---
 
-**Created:** 2026-03-26
-**Owner:** Antigravity Team
+**Created:** 2026-03-26  
+**Owner:** Antigravity Team  
 **Status:** READY TO START

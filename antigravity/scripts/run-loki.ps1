@@ -1,4 +1,4 @@
-﻿$task = if ($args.Count -eq 0) { "implement database module with security auth" } else { $args -join " " }
+$task = if ($args.Count -eq 0) { "implement database module with security auth" } else { $args -join " " }
 # run-loki.ps1 (v5.3.0-OMNI)
 $omniPath = "C:/Users/<USER_NAME>/.gemini/antigravity/skills/specialized/loki-mode/autonomy/omni_perspective_evaluator.py"
 $shieldPath = "C:/Users/<USER_NAME>/.gemini/antigravity/skills/specialized/loki-mode/autonomy/loki_shield.py"

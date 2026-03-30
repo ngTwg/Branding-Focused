@@ -1,4 +1,4 @@
-﻿# 📋 MASTER PLAN - KẾ HOẠCH HOÀN THIỆN HỆ THỐNG SKILLS
+# 📋 MASTER PLAN - KẾ HOẠCH HOÀN THIỆN HỆ THỐNG SKILLS
 
 > **Mục tiêu:** Tổng hợp TẤT CẢ skills vào một hệ thống thống nhất, dễ quản lý, tiết kiệm token
 > **Timeline:** Thực hiện từng bước một cách có hệ thống
@@ -10,14 +10,14 @@
 
 ### Hiện trạng:
 - ✅ Có `antigravity/skills/` với 25+ skills hiện có
-- ✅ Có `.ai-skills/` với 19 skills đã được di chuyển
+- ✅ Có `antigravity/skills/` với 19 skills đã di chuyển và tổng hợp
 - ✅ Có `GEMINI.md` với rules tổng thể (25,167 dòng - QUÁ LỚN!)
-- ✅ Có `MASTER_ROUTER.md` đã tạo
+- ✅ Có `antigravity/skills/MASTER_ROUTER.md` đã tạo
 - ⚠️ Skills rải rác, chưa tổng hợp
 - ⚠️ GEMINI.md quá lớn, AI không thể load hết
 
 ### Mục tiêu cuối cùng:
-1. **Tổng hợp TẤT CẢ skills** vào `.ai-skills/` (thư mục chuẩn)
+1. **Tổng hợp TẤT CẢ skills** vào `antigravity/skills/` (thư mục chuẩn)
 2. **GEMINI.md gọn nhẹ** - chỉ chứa rules cơ bản + hướng dẫn chọn skill
 3. **Master Router thông minh** - tự động tìm đúng skill
 4. **Dễ quản lý** - user và agent đều dễ sử dụng
@@ -30,9 +30,9 @@
 ### Step 1.1: Liệt kê TẤT CẢ skills hiện có
 ```bash
 # Quét antigravity/skills/
-find antigravity/skills -name "*.md" -o -name "skill.md"
+find .ai-skills -name "*.md" -o -name "skill.md"
 
-# Quét .ai-skills/
+# Quét antigravity/skills/
 find .ai-skills -name "*.md"
 
 # Tạo inventory file
@@ -57,8 +57,8 @@ Categories:
 ### Step 1.3: Xác định skills trùng lặp
 ```
 Ví dụ:
-- antigravity/skills/systematic-debugging/skill.md
-- .ai-skills/workflows/debug-protocol.md
+- antigravity/skills/workflows/systematic-debugging.md
+- antigravity/skills/workflows/debug-protocol.md
 → Merge thành một skill duy nhất
 ```
 
@@ -68,9 +68,9 @@ Ví dụ:
 
 ## 📦 PHASE 2: TÁI CẤU TRÚC THƯ MỤC (1 giờ)
 
-### Step 2.1: Tạo cấu trúc chuẩn `.ai-skills/`
+### Step 2.1: Tạo cấu trúc chuẩn `antigravity/skills/`
 ```
-.ai-skills/
+antigravity/skills/
 ├── index-skills.md              # Master index
 ├── MASTER_ROUTER.md             # Router thông minh
 │
@@ -82,7 +82,7 @@ Ví dụ:
 │   ├── pwa-offline.md
 │   ├── web-components.md
 │   ├── accessibility-theme.md
-│   └── frontend-design.md       # Từ antigravity/skills/
+│   └── frontend-design.md       # Từ antigravity/skills/ (Migrated)
 │
 ├── backend/
 │   ├── api-design.md
@@ -178,9 +178,9 @@ Ví dụ:
 ```python
 # migrate_all_skills.py
 """
-1. Đọc antigravity/skills/
+1. Đọc antigravity/skills/ (Source of truth)
 2. Phân loại theo category
-3. Di chuyển vào .ai-skills/ đúng thư mục
+3. Di chuyển vào antigravity/skills/ đúng thư mục
 4. Merge skills trùng lặp
 5. Cập nhật references
 """
@@ -285,7 +285,7 @@ Table or list
 ### RULE 1: LUÔN LOAD MASTER ROUTER TRƯỚC
 ```
 TRƯỚC KHI làm BẤT KỲ task nào:
-1. ĐỌC: .ai-skills/MASTER_ROUTER.md
+1. ĐỌC: antigravity/skills/MASTER_ROUTER.md
 2. PHÂN TÍCH: User request → Tags → Tier
 3. LOAD: Skills phù hợp
 4. THỰC THI: Theo rules trong skills
@@ -320,11 +320,9 @@ KHI user không rõ tier:
 
 ## 📚 HỆ THỐNG SKILLS
 
-Tất cả skills được tổ chức trong `.ai-skills/`
+Tất cả skills được tổ chức trong `antigravity/skills/`
 
-**Cách sử dụng:**
-1. Đọc `.ai-skills/MASTER_ROUTER.md`
-2. Tìm skill phù hợp theo tags
+**Cách sử dụng:**Bước 4:** Đảm bảo AI đọc `antigravity/skills/MASTER_ROUTER.md` trước tiên. Tìm skill phù hợp theo tags
 3. Load skill và follow rules
 
 **Categories:**
@@ -344,8 +342,8 @@ Tất cả skills được tổ chức trong `.ai-skills/`
 
 ## 🔗 LIÊN KẾT
 
-- **[Master Router](.ai-skills/MASTER_ROUTER.md)** - Bộ điều phối
-- **[Skills Index](.ai-skills/index-skills.md)** - Danh sách đầy đủ
+- **[Master Router](antigravity/skills/MASTER_ROUTER.md)** - Bộ điều phối
+- **[Skills Index](antigravity/skills/index-skills.md)** - Danh sách đầy đủ
 - **[Skills Guide](SKILLS_GUIDE.md)** - Hướng dẫn sử dụng
 
 ---
@@ -481,7 +479,7 @@ Yêu cầu AI:
 ### Step 8.1: Cập nhật README files
 ```
 - Project root README.md
-- .ai-skills/README.md
+- antigravity/skills/README.md
 - Mỗi category README.md
 ```
 
@@ -493,13 +491,13 @@ Yêu cầu AI:
 
 ### Major Changes
 - ✅ Refactored GEMINI.md (25,167 → 200 lines)
-- ✅ Consolidated all skills into .ai-skills/
+- ✅ Consolidated all skills into antigravity/skills/
 - ✅ Created Master Router system
 - ✅ Added 40+ new skills
 - ✅ Implemented tier system
 
 ### Migration
-- Moved antigravity/skills/ → .ai-skills/
+- Moved antigravity/skills/ (Final structure verified)
 - Merged duplicate skills
 - Standardized format
 
@@ -600,7 +598,7 @@ Yêu cầu AI:
 
 Hệ thống được coi là HOÀN THÀNH khi:
 - ✅ GEMINI.md <300 lines
-- ✅ 80+ skills trong .ai-skills/
+- ✅ 80+ skills trong antigravity/skills/
 - ✅ Master Router hoạt động
 - ✅ AI load đúng skills
 - ✅ User dễ quản lý

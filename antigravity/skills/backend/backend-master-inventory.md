@@ -495,7 +495,7 @@ Tokens expire after 1 hour. Use the refresh token to get a new access token:
 
 ### Problem: Documentation Gets Out of Sync
 **Symptoms:** Examples don't work, parameters are wrong, endpoints return different data
-**Solution:**
+**Solution:** 
 - Generate docs from code comments/annotations
 - Use tools like Swagger/OpenAPI
 - Add API tests that validate documentation
@@ -711,7 +711,7 @@ URL?id=<LEGIT>&id=<VICTIM>
 
 ```json
 {"id":"56456"}                    → OK
-{"id":"56456 AND 1=1#"}           → OK
+{"id":"56456 AND 1=1#"}           → OK  
 {"id":"56456 AND 1=2#"}           → OK
 {"id":"56456 AND 1=3#"}           → ERROR (vulnerable!)
 {"id":"56456 AND sleep(15)#"}     → SLEEP 15 SEC
@@ -2846,9 +2846,9 @@ use external_single_structure;
 use external_value;
 
 class your_api_name extends external_api {
-
+    
     // Three required methods will go here
-
+    
 }
 ```
 
@@ -2920,7 +2920,7 @@ public static function execute($userid, $courseid, $options = []) {
             WHERE userid = :userid
               AND courseid = :courseid
             LIMIT :limit";
-
+    
     $records = $DB->get_records_sql($sql, [
         'userid' => $params['userid'],
         'courseid' => $params['courseid'],
@@ -3033,7 +3033,7 @@ public static function execute($userid, $courseid) {
 
     try {
         self::log_debug("API called: userid=$userid, courseid=$courseid");
-
+        
         // Validate parameters
         $params = self::validate_parameters(self::execute_parameters(), [
             'userid' => $userid,
@@ -3041,7 +3041,7 @@ public static function execute($userid, $courseid) {
         ]);
 
         // Your logic here
-
+        
         self::log_debug("API completed successfully");
         return $result;
 
@@ -3080,10 +3080,10 @@ $transaction = $DB->start_delegated_transaction();
 try {
     // Insert record
     $recordid = $DB->insert_record('your_table', $dataobject);
-
+    
     // Update related records
     $DB->set_field('another_table', 'status', 1, ['recordid' => $recordid]);
-
+    
     // Commit transaction
     $transaction->allow_commit();
 } catch (\Exception $e) {
@@ -3167,7 +3167,7 @@ $DB->set_field('course_modules', 'availability', json_encode($restriction), ['id
 ```php
 private static function get_random_questions($categoryid, $tagname, $limit) {
     global $DB;
-
+    
     $sql = "SELECT q.id
             FROM {question} q
             INNER JOIN {question_versions} qv ON qv.questionid = q.id
@@ -3179,12 +3179,12 @@ private static function get_random_questions($categoryid, $tagname, $limit) {
               AND qc.id = :categoryid
               AND ti.itemtype = 'question'
               AND q.qtype = 'multichoice'";
-
+    
     $qids = $DB->get_fieldset_sql($sql, [
         'categoryid' => $categoryid,
         'tagname' => strtolower($tagname)
     ]);
-
+    
     shuffle($qids);
     return array_slice($qids, 0, $limit);
 }
@@ -3240,7 +3240,7 @@ require(['core/ajax'], function(ajax) {
 ## Common Pitfalls & Solutions
 
 ### 1. "Function not found" Error
-**Solution**:
+**Solution**: 
 - Purge caches: **Site administration > Development > Purge all caches**
 - Verify function name in services.php matches exactly
 - Check namespace and class name are correct
@@ -3487,10 +3487,10 @@ You are an expert in Nest.js with deep knowledge of enterprise-grade Node.js app
 
 0. If a more specialized expert fits better, recommend switching and stop:
    - Pure TypeScript type issues → typescript-type-expert
-   - Database query optimization → database-expert
+   - Database query optimization → database-expert  
    - Node.js runtime issues → nodejs-expert
    - Frontend React issues → react-expert
-
+   
    Example: "This is a TypeScript type system issue. Use the typescript-type-expert subagent. Stopping here."
 
 1. Detect Nest.js project setup using internal tools first (Read, Grep, Glob)
@@ -3629,7 +3629,7 @@ npm run test:e2e       # 3. Run e2e tests if needed
 **Real Examples**: GitHub #3186, #886, #2359 | SO 75483101
 When encountering this error:
 1. Check if provider is in module's providers array
-2. Verify module exports if crossing boundaries
+2. Verify module exports if crossing boundaries  
 3. Check for typos in provider names (GitHub #598 - misleading error)
 4. Review import order in barrel exports (GitHub #9095)
 
@@ -3652,7 +3652,7 @@ Proven testing solutions:
 4. For Bazel users: Special configuration needed (SO 62942112)
 
 ### 4. "[TypeOrmModule] Unable to connect to the database"
-**Frequency**: MEDIUM | **Complexity**: HIGH
+**Frequency**: MEDIUM | **Complexity**: HIGH  
 **Real Examples**: GitHub typeorm#1151, #520, #2692
 Key insight - this error is often misleading:
 1. Check entity configuration - @Column() not @Column('description')
@@ -3794,7 +3794,7 @@ export class FeatureModule {}
 ### Custom Decorator Pattern
 ```typescript
 // Combine multiple decorators
-export const Auth = (...roles: Role[]) =>
+export const Auth = (...roles: Role[]) => 
   applyDecorators(
     UseGuards(JwtAuthGuard, RolesGuard),
     Roles(...roles),
@@ -3814,7 +3814,7 @@ beforeEach(async () => {
       },
     ],
   }).compile();
-
+  
   service = module.get<ServiceUnderTest>(ServiceUnderTest);
 });
 ```
@@ -4507,10 +4507,10 @@ model User {
   email     String   @unique
   posts     Post[]   @relation("UserPosts")
   profile   Profile? @relation("UserProfile")
-
+  
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
-
+  
   @@index([email])
   @@map("users")
 }
@@ -4520,7 +4520,7 @@ model Post {
   title    String
   author   User   @relation("UserPosts", fields: [authorId], references: [id], onDelete: Cascade)
   authorId String
-
+  
   @@index([authorId])
   @@map("posts")
 }
@@ -4720,16 +4720,16 @@ const [user, profile] = await prisma.$transaction([
 // Interactive transaction with manual control
 const result = await prisma.$transaction(async (tx) => {
   const user = await tx.user.create({ data: userData });
-
+  
   // Business logic validation
   if (user.email.endsWith('@blocked.com')) {
     throw new Error('Email domain blocked');
   }
-
+  
   const profile = await tx.profile.create({
     data: { ...profileData, userId: user.id }
   });
-
+  
   return { user, profile };
 }, {
   maxWait: 5000,  // Wait for transaction slot
@@ -4739,7 +4739,7 @@ const result = await prisma.$transaction(async (tx) => {
 
 // Optimistic concurrency control
 const updateWithVersion = await prisma.post.update({
-  where: {
+  where: { 
     id: postId,
     version: currentVersion  // Only update if version matches
   },
@@ -5314,3 +5314,4 @@ Different actions based on conditions
 ## Related Skills
 
 Works well with: `workflow-automation`, `agent-tool-builder`, `backend`, `api-designer`
+
