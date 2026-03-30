@@ -47,15 +47,29 @@ Nâng cấp kiến trúc Antigravity từ v6.0.0-SOLID-STATE lên 3-layer archit
   - Idempotent: backup cùng file trong cùng `operation_id` → overwrite
   - _Requirements: 3.3, 3.6, 3.7, 3.8_
 
-  - [ ]* 3.1 Write property test cho rollback round-trip invariant
+  - [ ] 3.1 Write property test cho rollback round-trip invariant
     - **Property 10: Rollback Round-Trip Invariant**
     - **Validates: Requirements 3.3, 3.8**
-    - `@given(file_content=st.text(...), patch_content=st.text(...))` — verify SHA-256 sau rollback == trước patch
+    - File: `antigravity/tests/test_backup_manager_properties.py`
+    - `@given(file_content=st.text(min_size=1, max_size=1000), patch_content=st.text(min_size=1, max_size=1000))`
+    - Steps:
+      1. Tạo temp file với `file_content`
+      2. Backup file với `create_backup()`
+      3. Ghi đè file với `patch_content`
+      4. Gọi `rollback()`
+      5. Verify SHA-256 hash của file == hash ban đầu
+    - Assert: `hashlib.sha256(restored_content).hexdigest() == original_hash`
 
-  - [ ]* 3.2 Write property test cho backup idempotence
+  - [ ] 3.2 Write property test cho backup idempotence
     - **Property 11: Backup Idempotence**
     - **Validates: Requirements 3.7**
-    - Verify gọi `create_backup()` nhiều lần với cùng `operation_id` → số files trong backup dir == số unique files
+    - File: `antigravity/tests/test_backup_manager_properties.py`
+    - `@given(n_backups=st.integers(min_value=2, max_value=10), file_paths=st.lists(st.text(), min_size=1, max_size=5))`
+    - Steps:
+      1. Tạo temp files
+      2. Gọi `create_backup()` với cùng `operation_id` n lần
+      3. Đếm số files trong backup dir
+    - Assert: `len(backup_files) == len(unique_file_paths)`
 
 - [x] 4. DeterministicChecker nâng cấp — ErrorDelta + severity scoring + no-op detection
   - Sửa `antigravity/core/checker.py`: thay đổi `examine()` để trả về `ErrorDelta` thay vì `list[str]`
@@ -66,10 +80,16 @@ Nâng cấp kiến trúc Antigravity từ v6.0.0-SOLID-STATE lên 3-layer archit
   - Set `net_improvement = new_error_score <= old_error_score`
   - _Requirements: 3.1, 3.2, 3.4, 3.5_
 
-  - [ ]* 4.1 Write property test cho error normalization stability
+  - [ ] 4.1 Write property test cho error normalization stability
     - **Property 12: Error Normalization Stability**
     - **Validates: Requirements 3.5**
-    - Verify `_normalize_errors([e1]) == _normalize_errors([e2])` khi e1, e2 cùng root cause nhưng khác path/timestamp
+    - File: `antigravity/tests/test_checker_properties.py`
+    - `@given(error_msg=st.text(min_size=10), path1=st.text(), path2=st.text(), timestamp1=st.datetimes(), timestamp2=st.datetimes())`
+    - Steps:
+      1. Tạo 2 error messages với cùng root cause nhưng khác path/timestamp
+      2. Format: `"{path}:{line}: {error_type}: {message} (at {timestamp})"`
+      3. Gọi `_normalize_errors([e1])` và `_normalize_errors([e2])`
+    - Assert: `normalized_e1 == normalized_e2` (cùng signature)
 
 - [x] 5. BudgetGuard — Pre-call enforcement
   - Tạo `antigravity/core/budget_guard.py`
@@ -81,20 +101,39 @@ Nâng cấp kiến trúc Antigravity từ v6.0.0-SOLID-STATE lên 3-layer archit
   - Tạo `BudgetExceededError` exception với `termination_reason` field
   - _Requirements: 7.1, 7.2, 7.3, 7.4, 7.5, 7.6, 7.7, 7.8_
 
-  - [ ]* 5.1 Write property test cho budget pre-call enforcement
+  - [ ] 5.1 Write property test cho budget pre-call enforcement
     - **Property 17: Budget Pre-Call Enforcement**
     - **Validates: Requirements 7.7**
-    - `@given(tokens_used, estimated_input, max_output)` — verify raise `BudgetExceededError` khi `remaining < estimated_cost`
+    - File: `antigravity/tests/test_budget_guard_properties.py`
+    - `@given(tokens_used=st.integers(0, 90000), estimated_input=st.integers(1000, 5000), max_output=st.integers(1000, 5000))`
+    - Assume: `max_tokens=100000`
+    - Steps:
+      1. Tạo BudgetGuard với `max_tokens=100000`
+      2. Record `tokens_used` tokens
+      3. Gọi `check_pre_call(estimated_input, max_output)`
+    - Assert: Raise `BudgetExceededError` khi `tokens_used + estimated_input + max_output > 100000`
 
-  - [ ]* 5.2 Write property test cho budget termination với reason
+  - [ ] 5.2 Write property test cho budget termination với reason
     - **Property 18: Budget Termination với Reason**
     - **Validates: Requirements 7.2**
-    - Verify `BudgetStatus.termination_reason` chỉ rõ dimension bị vượt (steps/tokens/repairs)
+    - File: `antigravity/tests/test_budget_guard_properties.py`
+    - `@given(limit_type=st.sampled_from(['steps', 'tokens', 'repairs']))`
+    - Steps:
+      1. Tạo BudgetGuard với limits
+      2. Vượt quá limit tương ứng
+      3. Gọi `get_status()`
+    - Assert: `status.termination_reason` chứa đúng dimension bị vượt
 
-  - [ ]* 5.3 Write property test cho token accumulation additivity
+  - [ ] 5.3 Write property test cho token accumulation additivity
     - **Property 19: Token Accumulation Additivity**
     - **Validates: Requirements 7.3**
-    - `@given(token_counts=st.lists(...))` — verify `_tokens_used == sum(token_counts)`
+    - File: `antigravity/tests/test_budget_guard_properties.py`
+    - `@given(token_counts=st.lists(st.integers(100, 1000), min_size=2, max_size=20))`
+    - Steps:
+      1. Tạo BudgetGuard
+      2. Gọi `record_call(tokens)` cho mỗi token count
+      3. Lấy `status.tokens_used`
+    - Assert: `status.tokens_used == sum(token_counts)`
 
 - [x] 6. ASTAnalyzer — Tree-sitter JSON contract
   - Tạo `antigravity/core/ast_analyzer.py`
@@ -135,25 +174,50 @@ Nâng cấp kiến trúc Antigravity từ v6.0.0-SOLID-STATE lên 3-layer archit
   - Index tất cả `.md` files trong `antigravity/skills/` theo domain tag từ đường dẫn
   - _Requirements: 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9, 1.10, 1.11_
 
-  - [ ]* 8.1 Write property test cho score normalization và ranking invariant
+  - [ ] 8.1 Write property test cho score normalization và ranking invariant
     - **Property 1: Score Normalization và Ranking Invariant**
     - **Validates: Requirements 1.2, 1.3**
-    - `@given(query=st.text(...), alpha=st.floats(0,1), beta=st.floats(0,1))` — verify scores trong [0,1] và sorted desc
+    - File: `antigravity/tests/test_hybrid_retriever_properties.py`
+    - `@given(query=st.text(min_size=3, max_size=100), alpha=st.floats(0, 1), beta=st.floats(0, 1))`
+    - Steps:
+      1. Index sample skills
+      2. Gọi `retrieve(query, top_k=5)` với alpha, beta
+      3. Kiểm tra scores của results
+    - Assert: 
+      - `all(0 <= skill.final_score <= 1 for skill in results)`
+      - `results == sorted(results, key=lambda x: x.final_score, reverse=True)`
 
-  - [ ]* 8.2 Write property test cho alpha/beta monotonicity
+  - [ ] 8.2 Write property test cho alpha/beta monotonicity
     - **Property 2: Monotonicity của Alpha/Beta Weights**
     - **Validates: Requirements 1.9**
-    - `@given(alpha1 in [0,0.5], alpha2 in [0.5,1])` — verify `alpha2 * bm25_norm >= alpha1 * bm25_norm`
+    - File: `antigravity/tests/test_hybrid_retriever_properties.py`
+    - `@given(query=st.text(min_size=3), alpha1=st.floats(0, 0.5), alpha2=st.floats(0.5, 1))`
+    - Assume: `beta = 1 - alpha`
+    - Steps:
+      1. Retrieve với `alpha=alpha1`
+      2. Retrieve với `alpha=alpha2`
+      3. So sánh contribution của BM25 scores
+    - Assert: Contribution tăng khi alpha tăng
 
-  - [ ]* 8.3 Write property test cho domain filter containment
+  - [ ] 8.3 Write property test cho domain filter containment
     - **Property 3: Domain Filter Containment**
     - **Validates: Requirements 1.4**
-    - Verify tất cả skills trong kết quả có `domain_filter` trong `domain_tags`
+    - File: `antigravity/tests/test_hybrid_retriever_properties.py`
+    - `@given(domain=st.sampled_from(['frontend', 'backend', 'security', 'workflows']))`
+    - Steps:
+      1. Index skills với domain tags
+      2. Gọi `retrieve(query, domain_filter=domain)`
+    - Assert: `all(domain in skill.domain_tags for skill in results)`
 
-  - [ ]* 8.4 Write property test cho deterministic tie-breaking
+  - [ ] 8.4 Write property test cho deterministic tie-breaking
     - **Property 4: Deterministic Tie-Breaking**
     - **Validates: Requirements 1.11**
-    - Verify gọi `retrieve()` nhiều lần với cùng inputs → cùng thứ tự
+    - File: `antigravity/tests/test_hybrid_retriever_properties.py`
+    - `@given(query=st.text(min_size=3), n_runs=st.integers(2, 5))`
+    - Steps:
+      1. Gọi `retrieve(query)` n lần
+      2. So sánh thứ tự kết quả
+    - Assert: `all(run1 == run2 for run1, run2 in zip(runs[:-1], runs[1:]))`
 
 - [x] 9. SLMRouter — Intent classification
   - Tạo `antigravity/core/slm_router.py`
@@ -164,15 +228,28 @@ Nâng cấp kiến trúc Antigravity từ v6.0.0-SOLID-STATE lên 3-layer archit
   - Log routing decisions theo format `{"chosen": ..., "confidence": ..., "top_k": [...]}`
   - _Requirements: 4.1, 4.2, 4.3, 4.4, 4.5, 4.6, 4.7, 4.8_
 
-  - [ ]* 9.1 Write property test cho SLM routing idempotence
+  - [ ] 9.1 Write property test cho SLM routing idempotence
     - **Property 13: SLM Routing Idempotence**
     - **Validates: Requirements 4.8**
-    - `@given(query=st.text(...))` — verify `classify(classify(i).chosen).chosen == classify(i).chosen`
+    - File: `antigravity/tests/test_slm_router_properties.py`
+    - `@given(query=st.text(min_size=5, max_size=200))`
+    - Steps:
+      1. Gọi `classify(query)` → result1
+      2. Nếu result1 không None, gọi `classify(result1.chosen)` → result2
+    - Assert: `result2.chosen == result1.chosen` (idempotent)
 
-  - [ ]* 9.2 Write property test cho SLM confidence threshold routing
+  - [ ] 9.2 Write property test cho SLM confidence threshold routing
     - **Property 14: SLM Confidence Threshold Routing**
     - **Validates: Requirements 4.2, 4.3**
-    - Verify khi `confidence >= threshold` → LLMClient không được gọi; khi `< threshold` → LLMClient được gọi
+    - File: `antigravity/tests/test_slm_router_properties.py`
+    - `@given(threshold=st.floats(0.5, 0.95))`
+    - Steps:
+      1. Tạo SLMRouter với `confidence_threshold=threshold`
+      2. Mock LLMClient để track calls
+      3. Gọi `classify()` với queries khác nhau
+    - Assert: 
+      - Khi `confidence >= threshold` → LLMClient không được gọi
+      - Khi `confidence < threshold` → LLMClient được gọi
 
 - [x] 10. LLMClient nâng cấp — Prefix caching
   - Sửa `antigravity/core/llm_client.py`: thêm `set_static_prefix(content: str)` method
@@ -182,10 +259,17 @@ Nâng cấp kiến trúc Antigravity từ v6.0.0-SOLID-STATE lên 3-layer archit
   - `static_prefix` được load một lần khi khởi tạo, reuse across all calls trong session
   - _Requirements: 5.1, 5.2, 5.3, 5.4, 5.5, 5.6, 5.7, 5.8_
 
-  - [ ]* 10.1 Write property test cho static prefix invariant
+  - [ ] 10.1 Write property test cho static prefix invariant
     - **Property 15: Static Prefix Invariant**
     - **Validates: Requirements 5.6, 5.8**
-    - Verify hai calls c1, c2 trong cùng session với cùng `static_prefix` → phần prefix trong system message identical byte-for-byte
+    - File: `antigravity/tests/test_llm_client_properties.py`
+    - `@given(static_prefix=st.text(min_size=100, max_size=1000), dynamic1=st.text(), dynamic2=st.text())`
+    - Steps:
+      1. Tạo LLMClient và set `static_prefix`
+      2. Build prompt với `dynamic1`
+      3. Build prompt với `dynamic2`
+      4. Extract prefix portion từ cả 2 prompts
+    - Assert: `prefix1 == prefix2` (byte-for-byte identical)
 
 - [x] 11. TracingService nâng cấp — Langfuse integration
   - Sửa `antigravity/core/tracing.py`: kích hoạt Langfuse khi `LANGFUSE_PUBLIC_KEY` và `LANGFUSE_SECRET_KEY` có trong env
@@ -199,10 +283,21 @@ Nâng cấp kiến trúc Antigravity từ v6.0.0-SOLID-STATE lên 3-layer archit
   - Graceful degradation: NoOp nếu credentials missing/invalid
   - _Requirements: 6.1, 6.2, 6.3, 6.4, 6.5, 6.6, 6.7, 6.8, 6.9_
 
-  - [ ]* 11.1 Write property test cho trace fields completeness
+  - [ ] 11.1 Write property test cho trace fields completeness
     - **Property 16: Trace Fields Completeness**
     - **Validates: Requirements 6.2, 6.5**
-    - Verify mọi generation span chứa đủ `model`, `input_tokens`, `output_tokens`, `latency_ms`, `task_name` (kể cả khi `None`)
+    - File: `antigravity/tests/test_tracing_properties.py`
+    - `@given(model=st.text(), input_tokens=st.integers(0, 10000) | st.none(), output_tokens=st.integers(0, 10000) | st.none(), latency_ms=st.floats(0, 10000) | st.none())`
+    - Steps:
+      1. Mock Langfuse client
+      2. Gọi `log_generation(model, input_tokens, output_tokens, latency_ms, task_name)`
+      3. Inspect logged span
+    - Assert: Span chứa đủ fields (kể cả khi `None`):
+      - `model` (required)
+      - `input_tokens` (optional)
+      - `output_tokens` (optional)
+      - `latency_ms` (optional)
+      - `task_name` (required)
 
 - [x] 12. Checkpoint — Ensure all tests pass
   - Ensure all tests pass, ask the user if questions arise.
@@ -221,16 +316,44 @@ Nâng cấp kiến trúc Antigravity từ v6.0.0-SOLID-STATE lên 3-layer archit
   - Reject externally-provided IDs không phải UUIDv7/ULID, generate compliant replacement, log `invalid_id_format`
   - _Requirements: 1.6, 2.6, 3.2, 3.3, 3.4, 3.6, 3.9, 4.2, 4.3, 5.1, 6.3, 6.8, 7.1, 7.2, 7.4, 7.7, 8.2_
 
-  - [ ]* 13.1 Write integration test cho budget terminates before LLM call
-    - Test `budget_guard.check_pre_call()` được gọi trước LLM call và terminate đúng khi budget exceeded
+  - [ ] 13.1 Write integration test cho budget terminates before LLM call
+    - File: `antigravity/tests/integration/test_orchestrator_budget.py`
+    - Setup:
+      1. Tạo Orchestrator với `max_tokens=5000`
+      2. Mock LLMClient để track calls
+    - Steps:
+      1. Record 4500 tokens used
+      2. Attempt task requiring 1000 tokens
+    - Assert: 
+      - `BudgetExceededError` raised
+      - LLMClient không được gọi
     - _Requirements: 7.7_
 
-  - [ ]* 13.2 Write integration test cho regression triggers rollback và replan
-    - Test khi `ErrorDelta.net_improvement=False` → rollback được trigger và `replan_repair()` nhận ErrorDelta context
+  - [ ] 13.2 Write integration test cho regression triggers rollback và replan
+    - File: `antigravity/tests/integration/test_orchestrator_rollback.py`
+    - Setup:
+      1. Tạo test file với known good state
+      2. Mock patch tạo regression (new_error_score > old_error_score)
+    - Steps:
+      1. Execute task
+      2. Patch applied
+      3. Checker detects regression
+    - Assert:
+      - `rollback()` được gọi
+      - File restored to original state
+      - `replan_repair()` nhận ErrorDelta context
     - _Requirements: 3.2, 3.4_
 
-  - [ ]* 13.3 Write integration test cho full execution loop
-    - Test route → plan → execute → check → complete với tất cả components wired
+  - [ ] 13.3 Write integration test cho full execution loop
+    - File: `antigravity/tests/integration/test_orchestrator_full_loop.py`
+    - Setup: Real components (không mock)
+    - Steps:
+      1. Route task → verify SLMRouter hoặc LLMClient called
+      2. Plan execution → verify skills retrieved
+      3. Execute → verify backup created
+      4. Check → verify ErrorDelta computed
+      5. Complete → verify trace flushed
+    - Assert: All components wired correctly
     - _Requirements: 1.6, 2.6, 4.2_
 
 - [x] 14. Final checkpoint — Ensure all tests pass

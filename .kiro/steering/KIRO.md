@@ -2,7 +2,7 @@
 inclusion: always
 ---
 
-# QUY TẮC DỰ ÁN - KIRO STEERING (v 6.2.0)
+# QUY TẮC DỰ ÁN - KIRO STEERING (v 6.4.0)
 
 ## NGUYÊN TẮC CỐT LÕI
 
@@ -158,7 +158,7 @@ Thư mục RPGITHUB (hoặc bất kỳ kho public repo nào) chỉ được dùn
 
 ---
 
-# 🚀 GITHUB AUTOMATION PROTOCOL (v 6.2.0)
+# 🚀 GITHUB AUTOMATION PROTOCOL (v 6.4.0)
 **CƠ CHẾ TỰ ĐỘNG NHẬN DIỆN REPO & PUSH CODE:**
 Khi User gửi link Repo GitHub (hoặc screenshot), Agent PHẢI thực hiện:
 1. **Trích xuất link:** Tự động lấy URL GitHub.
