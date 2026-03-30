@@ -91,6 +91,9 @@ logs/
 *.temp
 temp/
 
+# Private
+user/
+
 # Git push scripts (security)
 push.bat
 push.sh
