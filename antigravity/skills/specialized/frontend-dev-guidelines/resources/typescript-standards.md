@@ -1,3 +1,14 @@
+---
+name: "TypeScript Standards"
+tags: ["antigravity", "any", "c:", "configuration", "dev", "explicit", "frontend", "gemini", "guidelines", "<YOUR_USERNAME>", "mode", "resources", "return", "rule", "specialized", "standards", "strict", "the", "type", "types"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2097
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.93
+---
 # TypeScript Standards
 
 TypeScript best practices for type safety and maintainability in React frontend code.

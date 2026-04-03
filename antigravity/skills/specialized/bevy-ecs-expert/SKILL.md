@@ -1,11 +1,17 @@
 ---
-name: bevy-ecs-expert
-description: "Master Bevy's Entity Component System (ECS) in Rust, covering Systems, Queries, Resources, and parallel scheduling."
-risk: safe
-source: community
+name: "bevy-ecs-expert"
+tags: ["antigravity", "bevy", "c:", "components", "defining", "ecs", "expert", "frontend", "gemini", "guide", "<YOUR_USERNAME>", "overview", "skill", "specialized", "step", "systems", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 843
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.86
 date_added: "2026-02-27"
+description: "Master Bevy's Entity Component System (ECS) in Rust, covering Systems, Queries, Resources, and parallel scheduling."
+source: "community"
 ---
-
 # Bevy ECS Expert
 
 ## Overview

@@ -1,3 +1,14 @@
+---
+name: "Visual Companion Guide"
+tags: ["52341", "antigravity", "c:", "companion", "frontend", "gemini", "guide", "how", "http", "<YOUR_USERNAME>", "localhost", "mockups", "persistence", "port", "project", "returns", "saved", "server", "session", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2955
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Visual Companion Guide
 
 Browser-based visual brainstorming companion for showing mockups, diagrams, and options.

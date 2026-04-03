@@ -1,0 +1,66 @@
+{
+  "timestamp": "2026-04-01T19:18:20.854449+00:00",
+  "suite": "stable",
+  "dry_run": false,
+  "config": "C:/Users/<YOUR_USERNAME>/.gemini/antigravity/config/benchmark_pack.json",
+  "total": 6,
+  "ok": 6,
+  "failed": 0,
+  "duration_sec": 42.891,
+  "steps": [
+    {
+      "step_id": "integration_tests",
+      "description": "Run integration suite baseline.",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe -m pytest antigravity/tests/integration -q",
+      "status": "ok",
+      "exit_code": 0,
+      "duration_sec": 24.567,
+      "output_excerpt": ".................................................                        [100%]\n49 passed in 23.83s"
+    },
+    {
+      "step_id": "targeted_regressions",
+      "description": "Run focused regression suite for critical subsystems.",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe -m pytest antigravity/tests/test_schemas.py antigravity/tests/test_failure_memory.py antigravity/tests/test_hybrid_retriever_properties.py antigravity/tests/test_hybrid_retriever_properties_v3.py antigravity/tests/test_llm_client_properties.py antigravity/tests/test_llm_client_properties_v2.py antigravity/tests/test_slm_router_properties.py antigravity/tests/test_tracing_properties.py antigravity/tests/test_tracing_properties_v2.py -q",
+      "status": "ok",
+      "exit_code": 0,
+      "duration_sec": 3.603,
+      "output_excerpt": "........................................................................ [ 98%]\n.                                                                        [100%]\n73 passed in 2.82s"
+    },
+    {
+      "step_id": "security_gate_external_skills",
+      "description": "Run external security gate and verify no blocked files.",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/security_gate_external_skills.py",
+      "status": "ok",
+      "exit_code": 0,
+      "duration_sec": 11.976,
+      "output_excerpt": "Security gate status: WARN\nScanned markdown files: 22469 (skipped: 6)\nFindings: 281\nBlocked files: 0\nWarn files: 152\nReport: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\security_gate_external_skills.json"
+    },
+    {
+      "step_id": "generate_unified_inventory",
+      "description": "Regenerate unified inventory with security-gated imports.",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/generate_unified_inventory.py",
+      "status": "ok",
+      "exit_code": 0,
+      "duration_sec": 1.796,
+      "output_excerpt": "Scanning internal skills...\n  Found 2749 internal skill records\nSecurity status: WARN (fail_files=0, warn_files=152)\nScanning external skills with gate filters...\n  Imported external records: 2786\n  Blocked by FAIL gate: 0\nUnified inventory generated successfully.\n  Markdown: C:\\Users\\lengo\\.gemini\\antigravity\\external\\UNIFIED_SKILL_INVENTORY.md\n  JSON: C:\\Users\\lengo\\.gemini\\antigravity\\external\\UNIFIED_SKILL_INVENTORY.json\n  Total records: 5535"
+    },
+    {
+      "step_id": "generate_skill_catalog",
+      "description": "Regenerate searchable skill catalog artifacts.",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/generate_skill_catalog.py",
+      "status": "ok",
+      "exit_code": 0,
+      "duration_sec": 0.898,
+      "output_excerpt": "Skill catalog generated successfully.\n  Records: 5535\n  JSON: C:\\Users\\lengo\\.gemini\\antigravity\\external\\SKILL_CATALOG.json\n  Markdown: C:\\Users\\lengo\\.gemini\\antigravity\\docs\\SKILL_CATALOG_2026-04-02.md"
+    },
+    {
+      "step_id": "validate_community_surface",
+      "description": "Validate OSS contribution and template surface.",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/validate_community_surface.py",
+      "status": "ok",
+      "exit_code": 0,
+      "duration_sec": 0.051,
+      "output_excerpt": "Community surface status: PASS\nReport JSON: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\community_surface_report.json\nReport MD: C:\\Users\\lengo\\.gemini\\antigravity\\docs\\COMMUNITY_SURFACE_REPORT_2026-04-02.md"
+    }
+  ]
+}

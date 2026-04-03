@@ -1,3 +1,14 @@
+---
+name: "Caching Reference"
+tags: ["antigravity", "api", "behavior", "browser", "c:", "cache", "caching", "contents", "default", "frontend", "gemini", "js", "<YOUR_USERNAME>", "overview", "reference", "references", "specialized", "table", "the", "transformers"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2296
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Caching Reference
 
 Complete guide to caching strategies for Transformers.js models across different environments.

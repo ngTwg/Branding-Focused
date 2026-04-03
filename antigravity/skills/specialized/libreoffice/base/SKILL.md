@@ -1,12 +1,18 @@
 ---
-name: base
-description: "Database management, forms, reports, and data operations with LibreOffice Base."
-category: database-processing
-risk: safe
-source: personal
+name: "base"
+tags: ["antigravity", "base", "c:", "capabilities", "core", "creation", "data", "database", "frontend", "gemini", "<YOUR_USERNAME>", "libreoffice", "operations", "overview", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1072
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.88
+category: "database-processing"
 date_added: "2026-02-27"
+description: "Database management, forms, reports, and data operations with LibreOffice Base."
+source: "personal"
 ---
-
 # LibreOffice Base
 
 ## Overview

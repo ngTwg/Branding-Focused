@@ -1,3 +1,14 @@
+---
+name: "Examples"
+tags: ["antigravity", "c:", "component", "examples", "from", "frontend", "gemini", "isolate", "<YOUR_USERNAME>", "list", "long", "performance", "react", "references", "ticking", "timer", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 595
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.59
+---
 # Examples
 
 ## Isolate a ticking timer from a long list

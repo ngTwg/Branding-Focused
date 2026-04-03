@@ -1,11 +1,17 @@
 ---
-name: obsidian-cli
-description: "Use the Obsidian CLI to read, create, search, and manage vault content, or to develop and debug Obsidian plugins and themes from the command line."
-risk: unknown
-source: "https://github.com/kepano/obsidian-skills"
+name: "obsidian-cli"
+tags: ["antigravity", "c:", "cli", "command", "file", "frontend", "gemini", "<YOUR_USERNAME>", "obsidian", "reference", "specialized", "syntax", "targeting", "use", "users", "vault", "when"]
+tier: 1
+risk: "medium"
+estimated_tokens: 798
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
 date_added: "2026-03-21"
+description: "Use the Obsidian CLI to read, create, search, and manage vault content, or to develop and debug Obsidian plugins and themes from the command line."
+source: "https://github.com/kepano/obsidian-skills"
 ---
-
 # Obsidian CLI
 
 Use the `obsidian` CLI to interact with a running Obsidian instance. Requires Obsidian to be open.

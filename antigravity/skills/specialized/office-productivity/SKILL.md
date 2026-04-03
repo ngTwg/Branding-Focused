@@ -1,12 +1,18 @@
 ---
-name: office-productivity
-description: "Office productivity workflow covering document creation, spreadsheet automation, presentation generation, and integration with LibreOffice and Microsoft Office formats."
-category: workflow-bundle
-risk: safe
-source: personal
+name: "office-productivity"
+tags: ["antigravity", "automation", "bundle", "c:", "creation", "document", "frontend", "gemini", "<YOUR_USERNAME>", "office", "overview", "phase", "phases", "productivity", "specialized", "spreadsheet", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1155
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.88
+category: "workflow-bundle"
 date_added: "2026-02-27"
+description: "Office productivity workflow covering document creation, spreadsheet automation, presentation generation, and integration with LibreOffice and Microsoft Office formats."
+source: "personal"
 ---
-
 # Office Productivity Workflow Bundle
 
 ## Overview

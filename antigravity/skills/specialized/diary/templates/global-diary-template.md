@@ -1,3 +1,14 @@
+---
+name: "📔 YYYY-MM-DD 全域進度總覽"
+tags: ["antigravity", "auto", "backend", "c:", "cafe", "diary", "editor", "gemini", "global", "gss", "learned", "<YOUR_USERNAME>", "lessons", "soul", "specialized", "stickman", "template", "templates", "users", "video"]
+tier: 2
+risk: "medium"
+estimated_tokens: 156
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.60
+---
 # 📔 YYYY-MM-DD 全域進度總覽
 
 > 🌟 **今日亮點 (Daily Highlight)**

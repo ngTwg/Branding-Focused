@@ -1,3 +1,14 @@
+---
+name: "skill-rules.json - Complete Reference"
+tags: ["antigravity", "c:", "complete", "contents", "developer", "field", "file", "frontend", "gemini", "guide", "json", "<YOUR_USERNAME>", "level", "location", "reference", "rules", "schema", "skill", "specialized", "table"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2168
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.91
+---
 # skill-rules.json - Complete Reference
 
 Complete schema and configuration reference for `.claude/skills/skill-rules.json`.

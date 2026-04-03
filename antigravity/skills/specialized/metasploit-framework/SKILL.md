@@ -1,12 +1,18 @@
 ---
-name: metasploit-framework
-description: "⚠️ AUTHORIZED USE ONLY > This skill is for educational purposes or authorized security assessments only. > You must have explicit, written permission from the system owner before using this tool. > Misuse of this tool is illegal and strictly prohibited."
-risk: offensive
-source: community
-author: zebbern
+name: "metasploit-framework"
+tags: ["already", "antigravity", "before", "c:", "framework", "frontend", "gemini", "installed", "kali", "<YOUR_USERNAME>", "linux", "metasploit", "must", "preinstalled", "prerequisites", "purpose", "required", "ships", "skill", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3481
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+author: "zebbern"
 date_added: "2026-02-27"
+description: "⚠️ AUTHORIZED USE ONLY > This skill is for educational purposes or authorized security assessments only. > You must have explicit, written permission from the system owner before using this tool. > Misuse of this tool is illegal and strictly prohibited."
+source: "community"
 ---
-
 # Metasploit Framework
 
 > **⚠️ AUTHORIZED USE ONLY**

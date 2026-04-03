@@ -1,11 +1,17 @@
 ---
-name: tdd-orchestrator
-description: Master TDD orchestrator specializing in red-green-refactor discipline, multi-agent workflow coordination, and comprehensive test-driven development practices.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "tdd-orchestrator"
+tags: ["antigravity", "c:", "capabilities", "cycle", "discipline", "expert", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "management", "not", "orchestrator", "purpose", "skill", "specialized", "tdd", "this", "use", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2568
+tools_needed: ["markdown", "pytest"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+date_added: "2026-02-27"
+description: "Master TDD orchestrator specializing in red-green-refactor discipline, multi-agent workflow coordination, and comprehensive test-driven development practices."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on tdd orchestrator tasks or workflows

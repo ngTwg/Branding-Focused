@@ -1,12 +1,18 @@
 ---
-name: security-audit
-description: "Comprehensive security auditing workflow covering web application testing, API security, penetration testing, vulnerability scanning, and security hardening."
-category: workflow-bundle
-risk: safe
-source: personal
+name: "security-audit"
+tags: ["antigravity", "audit", "auditing", "bundle", "c:", "frontend", "gemini", "<YOUR_USERNAME>", "overview", "phase", "phases", "reconnaissance", "scanning", "security", "this", "use", "users", "vulnerability", "when", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1298
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.89
+category: "workflow-bundle"
 date_added: "2026-02-27"
+description: "Comprehensive security auditing workflow covering web application testing, API security, penetration testing, vulnerability scanning, and security hardening."
+source: "personal"
 ---
-
 # Security Auditing Workflow Bundle
 
 ## Overview

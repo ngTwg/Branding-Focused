@@ -1,11 +1,17 @@
 ---
-name: github-issue-creator
-description: "Transform messy input (error logs, voice notes, screenshots) into clean, actionable GitHub issues."
-risk: unknown
-source: community
+name: "github-issue-creator"
+tags: ["antigravity", "behavior", "c:", "creator", "environment", "expected", "frontend", "gemini", "github", "issue", "<YOUR_USERNAME>", "output", "reproduction", "steps", "summary", "template", "users", "workflows"]
+tier: 2
+risk: "medium"
+estimated_tokens: 902
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.86
 date_added: "2026-02-27"
+description: "Transform messy input (error logs, voice notes, screenshots) into clean, actionable GitHub issues."
+source: "community"
 ---
-
 # GitHub Issue Creator
 
 Transform messy input (error logs, voice notes, screenshots) into clean, actionable GitHub issues.

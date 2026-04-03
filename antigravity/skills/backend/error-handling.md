@@ -1,3 +1,14 @@
+---
+name: "ERROR HANDLING PATTERNS"
+tags: ["antigravity", "async", "backend", "c:", "class", "error", "frontend", "gemini", "global", "handler", "handling", "hierarchy", "<YOUR_USERNAME>", "pattern", "patterns", "result", "retry", "users", "wrapper"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1822
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.90
+---
 # ERROR HANDLING PATTERNS
 
 > **Khi nào tải skill này:** Error, Exception, Handling, Recovery, Try, Catch

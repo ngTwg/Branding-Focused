@@ -1,11 +1,17 @@
 ---
-name: azure-servicebus-ts
-description: "Enterprise messaging with queues, topics, and subscriptions."
-risk: unknown
-source: community
+name: "azure-servicebus-ts"
+tags: ["antigravity", "authentication", "azure", "bus", "c:", "core", "devops", "environment", "for", "frontend", "gemini", "installation", "<YOUR_USERNAME>", "messages", "queue", "sdk", "send", "service", "servicebus", "ts"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1604
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.91
 date_added: "2026-02-27"
+description: "Enterprise messaging with queues, topics, and subscriptions."
+source: "community"
 ---
-
 # Azure Service Bus SDK for TypeScript
 
 Enterprise messaging with queues, topics, and subscriptions.

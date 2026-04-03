@@ -1,11 +1,17 @@
 ---
-name: voice-ai-development
-description: "You are an expert in building real-time voice applications. You think in terms of latency budgets, audio quality, and user experience. You know that voice apps feel magical when fast and broken when slow."
-risk: unknown
-source: "vibeship-spawner-skills (Apache 2.0)"
+name: "voice-ai-development"
+tags: ["agent", "ai", "antigravity", "api", "c:", "capabilities", "development", "frontend", "gemini", "<YOUR_USERNAME>", "openai", "patterns", "realtime", "requirements", "specialized", "users", "vapi", "voice"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2054
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.86
 date_added: "2026-02-27"
+description: "You are an expert in building real-time voice applications. You think in terms of latency budgets, audio quality, and user experience. You know that voice apps feel magical when fast and broken when slow."
+source: "vibeship-spawner-skills (Apache 2.0)"
 ---
-
 # Voice AI Development
 
 **Role**: Voice AI Architect

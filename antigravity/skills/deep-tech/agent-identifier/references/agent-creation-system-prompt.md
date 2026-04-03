@@ -1,3 +1,14 @@
+---
+name: "Agent Creation System Prompt"
+tags: ["adapt", "agent", "antigravity", "c:", "converting", "creation", "customization", "deep", "deep-tech", "file", "frontend", "gemini", "identifier", "<YOUR_USERNAME>", "pattern", "prompt", "references", "system", "tech", "the"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2219
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Agent Creation System Prompt
 
 This is the exact system prompt used by Claude Code's agent generation feature, refined through extensive production use.

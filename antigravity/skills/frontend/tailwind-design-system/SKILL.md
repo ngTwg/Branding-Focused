@@ -1,11 +1,17 @@
 ---
-name: tailwind-design-system
-description: "Build production-ready design systems with Tailwind CSS, including design tokens, component variants, responsive patterns, and accessibility."
-risk: safe
-source: community
+name: "tailwind-design-system"
+tags: ["antigravity", "c:", "design", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "resources", "skill", "system", "tailwind", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 296
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
 date_added: "2026-02-27"
+description: "Build production-ready design systems with Tailwind CSS, including design tokens, component variants, responsive patterns, and accessibility."
+source: "community"
 ---
-
 # Tailwind Design System
 
 Build production-ready design systems with Tailwind CSS, including design tokens, component variants, responsive patterns, and accessibility.

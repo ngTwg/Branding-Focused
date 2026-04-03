@@ -1,10 +1,16 @@
 ---
+name: "hugging-face-gradio"
+tags: ["160", "antigravity", "autofocus", "autoscroll", "bool", "button", "buttons", "c:", "callable", "component", "container", "copy", "core", "elem_classes", "elem_id", "email", "every", "face", "false", "float"]
+tier: 3
+risk: "medium"
+estimated_tokens: 6220
+tools_needed: ["git", "markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+description: "Build or edit Gradio apps, layouts, components, and chat interfaces in Python."
 source: "https://github.com/huggingface/skills/tree/main/skills/huggingface-gradio"
-name: hugging-face-gradio
-description: Build or edit Gradio apps, layouts, components, and chat interfaces in Python.
-risk: unknown
 ---
-
 # Gradio
 
 ## When to Use

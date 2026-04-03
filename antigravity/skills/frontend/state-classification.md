@@ -1,3 +1,14 @@
+---
+name: "STATE CLASSIFICATION - QUẢN LÝ STATE ĐÚNG CÁCH"
+tags: ["antigravity", "c:", "classification", "component", "concept", "cách", "frontend", "gemini", "<YOUR_USERNAME>", "local", "overview", "quản", "state", "table", "type", "use", "users", "usestate", "đúng"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4242
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # STATE CLASSIFICATION - QUẢN LÝ STATE ĐÚNG CÁCH
 
 > **Tier:** 2-3  

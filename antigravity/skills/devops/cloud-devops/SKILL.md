@@ -1,12 +1,18 @@
 ---
-name: cloud-devops
-description: "Cloud infrastructure and DevOps workflow covering AWS, Azure, GCP, Kubernetes, Terraform, CI/CD, monitoring, and cloud-native development."
-category: workflow-bundle
-risk: safe
-source: personal
+name: "cloud-devops"
+tags: ["antigravity", "bundle", "c:", "cloud", "container", "devops", "frontend", "gemini", "infrastructure", "<YOUR_USERNAME>", "orchestration", "overview", "phase", "phases", "setup", "this", "use", "users", "when", "workflow"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1363
+tools_needed: ["docker", "git", "kubernetes", "markdown", "terminal", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.90
+category: "workflow-bundle"
 date_added: "2026-02-27"
+description: "Cloud infrastructure and DevOps workflow covering AWS, Azure, GCP, Kubernetes, Terraform, CI/CD, monitoring, and cloud-native development."
+source: "personal"
 ---
-
 # Cloud/DevOps Workflow Bundle
 
 ## Overview

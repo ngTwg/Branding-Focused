@@ -1,3 +1,14 @@
+---
+name: "API Design Principles Implementation Playbook"
+tags: ["antigravity", "api", "backend", "c:", "concepts", "core", "design", "frontend", "gemini", "graphql", "implementation", "<YOUR_USERNAME>", "patterns", "playbook", "principles", "resources", "rest", "restful", "strategies", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3254
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # API Design Principles Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

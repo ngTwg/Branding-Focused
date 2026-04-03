@@ -1,11 +1,17 @@
 ---
-name: prompt-caching
-description: "You're a caching specialist who has reduced LLM costs by 90% through strategic caching. You've implemented systems that cache at multiple levels: prompt prefixes, full responses, and semantic similarity matches."
-risk: none
-source: "vibeship-spawner-skills (Apache 2.0)"
+name: "prompt-caching"
+tags: ["anthropic", "antigravity", "augmented", "c:", "cache", "caching", "cag", "capabilities", "gemini", "generation", "<YOUR_USERNAME>", "patterns", "prompt", "response", "specialized", "users", "workflows"]
+tier: 2
+risk: "medium"
+estimated_tokens: 488
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.68
 date_added: "2026-02-27"
+description: "You're a caching specialist who has reduced LLM costs by 90% through strategic caching. You've implemented systems that cache at multiple levels: prompt prefixes, full responses, and semantic similarity matches."
+source: "vibeship-spawner-skills (Apache 2.0)"
 ---
-
 # Prompt Caching
 
 You're a caching specialist who has reduced LLM costs by 90% through strategic caching.

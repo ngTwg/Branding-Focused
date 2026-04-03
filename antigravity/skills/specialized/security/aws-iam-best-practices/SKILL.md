@@ -1,13 +1,18 @@
 ---
-name: aws-iam-best-practices
-description: "IAM policy review, hardening, and least privilege implementation"
-category: security
-risk: safe
-source: community
-tags: "[aws, iam, security, access-control, kiro-cli, least-privilege]"
+name: "aws-iam-best-practices"
+tags: ["[aws, iam, security, access-control, kiro-cli, least-privilege]"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2537
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.98
+category: "security"
 date_added: "2026-02-27"
+description: "IAM policy review, hardening, and least privilege implementation"
+source: "community"
 ---
-
 # AWS IAM Best Practices
 
 Review and harden IAM policies following AWS security best practices and least privilege principles.

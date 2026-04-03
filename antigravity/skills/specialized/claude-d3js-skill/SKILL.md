@@ -1,11 +1,17 @@
 ---
-name: claude-d3js-skill
-description: "This skill provides guidance for creating sophisticated, interactive data visualisations using d3.js."
-risk: unknown
-source: community
+name: "claude-d3js-skill"
+tags: ["antigravity", "c:", "choose", "claude", "core", "d3js", "frontend", "gemini", "integration", "<YOUR_USERNAME>", "overview", "pattern", "set", "specialized", "the", "use", "users", "visualisation", "when", "workflow"]
+tier: 3
+risk: "medium"
+estimated_tokens: 5373
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "This skill provides guidance for creating sophisticated, interactive data visualisations using d3.js."
+source: "community"
 ---
-
 # D3.js Visualisation
 
 ## Overview

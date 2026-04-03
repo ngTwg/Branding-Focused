@@ -1,10 +1,17 @@
 ---
-title: Use Cursor-Based Pagination Instead of OFFSET
-impact: MEDIUM-HIGH
-impactDescription: Consistent O(1) performance regardless of page depth
-tags: pagination, cursor, keyset, offset, performance
+name: "Use Cursor-Based Pagination Instead of OFFSET"
+tags: ["pagination, cursor, keyset, offset, performance"]
+tier: 2
+risk: "medium"
+estimated_tokens: 339
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.61
+impact: "MEDIUM-HIGH"
+impactDescription: "Consistent O(1) performance regardless of page depth"
+title: "Use Cursor-Based Pagination Instead of OFFSET"
 ---
-
 ## Use Cursor-Based Pagination Instead of OFFSET
 
 OFFSET-based pagination scans all skipped rows, getting slower on deeper pages. Cursor pagination is O(1).

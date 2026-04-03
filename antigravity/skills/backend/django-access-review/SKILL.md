@@ -1,10 +1,16 @@
 ---
-name: django-access-review
-description: django-access-review
-risk: unknown
-source: community
+name: "django-access-review"
+tags: ["access", "antigravity", "auth", "authorization", "backend", "c:", "commands", "control", "django", "done", "enforced", "find", "frontend", "gemini", "how", "idor", "investigation", "<YOUR_USERNAME>", "matching", "model"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2560
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+description: "django-access-review"
+source: "community"
 ---
-
 ---
 name: django-access-review
 description: Django access control and IDOR security review. Use when reviewing Django views, DRF viewsets, ORM queries, or any Python/Django code handling user authorization. Trigger keywords: "IDOR", "access control", "authorization", "Django permissions", "object permissions", "tenant...

@@ -1,11 +1,17 @@
 ---
-name: api-design-principles
-description: "Master REST and GraphQL API design principles to build intuitive, scalable, and maintainable APIs that delight developers and stand the test of time."
-risk: safe
-source: community
+name: "api-design-principles"
+tags: ["antigravity", "api", "backend", "c:", "design", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "principles", "resources", "skill", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 368
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.61
 date_added: "2026-02-27"
+description: "Master REST and GraphQL API design principles to build intuitive, scalable, and maintainable APIs that delight developers and stand the test of time."
+source: "community"
 ---
-
 # API Design Principles
 
 Master REST and GraphQL API design principles to build intuitive, scalable, and maintainable APIs that delight developers and stand the test of time.

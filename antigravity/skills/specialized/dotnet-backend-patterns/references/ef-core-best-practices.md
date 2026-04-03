@@ -1,3 +1,14 @@
+---
+name: "Entity Framework Core Best Practices"
+tags: ["antigravity", "asnotracking", "avoid", "backend", "best", "c:", "columns", "core", "dotnet", "eager", "ef", "entity", "for", "framework", "gemini", "includes", "large", "<YOUR_USERNAME>", "loading", "needed"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2227
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.92
+---
 # Entity Framework Core Best Practices
 
 Performance optimization and best practices for EF Core in production applications.

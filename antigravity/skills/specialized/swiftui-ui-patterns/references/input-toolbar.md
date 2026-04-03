@@ -1,3 +1,14 @@
+---
+name: "Input toolbar (bottom anchored)"
+tags: ["anchored", "antigravity", "bottom", "c:", "choices", "core", "design", "example", "frontend", "gemini", "input", "intent", "keep", "<YOUR_USERNAME>", "patterns", "pitfalls", "references", "scroll", "specialized", "swiftui"]
+tier: 2
+risk: "medium"
+estimated_tokens: 362
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.63
+---
 # Input toolbar (bottom anchored)
 
 ## Intent

@@ -1,9 +1,16 @@
 ---
-name: architect-review
-description: "Master software architect specializing in modern architecture"
-risk: unknown
-source: community
+name: "architect-review"
+tags: ["antigravity", "architect", "c:", "capabilities", "expert", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "purpose", "review", "safety", "skill", "specialized", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2062
+tools_needed: ["docker", "git", "kubernetes", "markdown", "sql", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.80
 date_added: "2026-02-27"
+description: "Master software architect specializing in modern architecture"
+source: "community"
 ---
 You are a master software architect specializing in modern software architecture patterns, clean architecture principles, and distributed systems design.
 

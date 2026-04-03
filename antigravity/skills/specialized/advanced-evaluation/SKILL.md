@@ -1,11 +1,17 @@
 ---
-name: advanced-evaluation
-description: This skill should be used when the user asks to "implement LLM-as-judge", "compare model outputs", "create evaluation rubrics", "mitigate evaluation bias", or mentions direct scoring, pairwise comparison, position bias, evaluation pipelines, or automated quality assessment.
-risk: safe
-source: community
-date_added: 2026-03-18
+name: "advanced-evaluation"
+tags: ["advanced", "antigravity", "bias", "c:", "concepts", "core", "evaluation", "framework", "frontend", "gemini", "landscape", "<YOUR_USERNAME>", "metric", "selection", "specialized", "taxonomy", "the", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 4154
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+date_added: "2026-03-18"
+description: "This skill should be used when the user asks to \"implement LLM-as-judge\", \"compare model outputs\", \"create evaluation rubrics\", \"mitigate evaluation bias\", or mentions direct scoring, pairwise comparison, position bias, evaluation pipelines, or automated quality assessment."
+source: "community"
 ---
-
 # Advanced Evaluation
 
 This skill covers production-grade techniques for evaluating LLM outputs using LLMs as judges. It synthesizes research from academic papers, industry practices, and practical implementation experience into actionable patterns for building reliable evaluation systems.

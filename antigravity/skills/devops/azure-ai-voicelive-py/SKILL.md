@@ -1,11 +1,17 @@
 ---
-name: azure-ai-voicelive-py
-description: "Build real-time voice AI applications with bidirectional WebSocket communication."
-risk: unknown
-source: community
+name: "azure-ai-voicelive-py"
+tags: ["ai", "antigravity", "api", "auth", "authentication", "azure", "c:", "devops", "environment", "for", "frontend", "gemini", "installation", "key", "<YOUR_USERNAME>", "live", "not", "production", "py", "quick"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2213
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.94
 date_added: "2026-02-27"
+description: "Build real-time voice AI applications with bidirectional WebSocket communication."
+source: "community"
 ---
-
 # Azure AI Voice Live SDK
 
 Build real-time voice AI applications with bidirectional WebSocket communication.

@@ -1,11 +1,17 @@
 ---
-name: web-performance-optimization
-description: "Optimize website and web application performance including loading speed, Core Web Vitals, bundle size, caching strategies, and runtime performance"
-risk: unknown
-source: community
+name: "web-performance-optimization"
+tags: ["antigravity", "c:", "current", "frontend", "gemini", "how", "identify", "issues", "<YOUR_USERNAME>", "measure", "optimization", "overview", "performance", "skill", "step", "this", "use", "users", "web", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4025
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Optimize website and web application performance including loading speed, Core Web Vitals, bundle size, caching strategies, and runtime performance"
+source: "community"
 ---
-
 # Web Performance Optimization
 
 ## Overview

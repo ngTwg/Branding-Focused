@@ -1,10 +1,16 @@
 ---
-name: context-optimization
+name: "context-optimization"
+tags: ["antigravity", "c:", "compaction", "concepts", "context", "core", "detailed", "frontend", "gemini", "<YOUR_USERNAME>", "masking", "observation", "optimization", "specialized", "strategies", "techniques", "topics", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2100
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.90
 description: "Context optimization extends the effective capacity of limited context windows through strategic compression, masking, caching, and partitioning. The goal is not to magically increase context windows but to make better use of available capacity."
-risk: unknown
-source: community
+source: "community"
 ---
-
 # Context Optimization Techniques
 
 Context optimization extends the effective capacity of limited context windows through strategic compression, masking, caching, and partitioning. The goal is not to magically increase context windows but to make better use of available capacity. Effective optimization can double or triple effective context capacity without requiring larger models or longer contexts.

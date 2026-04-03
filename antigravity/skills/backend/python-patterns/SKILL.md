@@ -1,11 +1,17 @@
 ---
-name: python-patterns
-description: "Python development principles and decision-making. Framework selection, async patterns, type hints, project structure. Teaches thinking, not copying."
-risk: unknown
-source: community
+name: "python-patterns"
+tags: ["2025", "antigravity", "backend", "c:", "comparison", "decision", "framework", "frontend", "gemini", "how", "<YOUR_USERNAME>", "patterns", "principles", "python", "selection", "skill", "this", "tree", "use", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2200
+tools_needed: ["markdown", "pytest", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.96
 date_added: "2026-02-27"
+description: "Python development principles and decision-making. Framework selection, async patterns, type hints, project structure. Teaches thinking, not copying."
+source: "community"
 ---
-
 # Python Patterns
 
 > Python development principles and decision-making for 2025.

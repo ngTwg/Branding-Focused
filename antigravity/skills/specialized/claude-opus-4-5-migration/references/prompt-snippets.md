@@ -1,3 +1,14 @@
+---
+name: "Prompt Snippets for Opus 4.5"
+tags: ["4", "5", "antigravity", "c:", "claude", "code", "design", "engineering", "exploration", "for", "frontend", "gemini", "<YOUR_USERNAME>", "migration", "opus", "over", "overtriggering", "prevention", "prompt", "quality"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1534
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.85
+---
 # Prompt Snippets for Opus 4.5
 
 Only apply these snippets if the user explicitly requests them or reports a specific issue. By default, the migration should only update model strings.

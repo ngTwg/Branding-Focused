@@ -1,4 +1,15 @@
 ---
+name: "ADVOGADO CRIMINALISTA SENIOR — ESPECIALISTA EM DIREITO PENAL E MARIA DA PENHA"
+tags: ["advogado", "antigravity", "c:", "criminal", "criminalista", "direito", "especialista", "frontend", "gemini", "how", "identificar", "<YOUR_USERNAME>", "maria", "not", "overview", "penal", "penha", "senior", "skill", "solicitacao"]
+tier: 2
+risk: "medium"
+estimated_tokens: 9630
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
+---
 name: advogado-criminal
 description: Advogado criminalista especializado em Maria da Penha, violencia domestica, feminicidio, direito penal brasileiro, medidas protetivas, inquerito policial e acao penal.
 risk: safe

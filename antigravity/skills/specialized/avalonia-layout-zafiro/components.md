@@ -1,3 +1,14 @@
+---
+name: "Building Generic Components"
+tags: ["antigravity", "avalonia", "building", "c:", "component", "components", "example", "flattening", "frontend", "gemini", "generic", "granularity", "item", "layout", "layouts", "<YOUR_USERNAME>", "specialized", "summary", "users", "zafiro"]
+tier: 2
+risk: "medium"
+estimated_tokens: 354
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.64
+---
 # Building Generic Components
 
 Reducing nesting and complexity is achieved by breaking down views into generic, reusable components.

@@ -1,3 +1,14 @@
+---
+name: "Lead Magnet Format Guide"
+tags: ["antigravity", "c:", "cheat", "checklists", "contents", "ebooks", "format", "frontend", "gemini", "guide", "guides", "lead", "<YOUR_USERNAME>", "magnet", "magnets", "references", "sheets", "specialized", "spreadsheets", "templates"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1450
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.74
+---
 # Lead Magnet Format Guide
 
 Detailed creation guidance for each lead magnet format.

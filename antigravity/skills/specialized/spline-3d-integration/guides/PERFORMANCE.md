@@ -1,3 +1,14 @@
+---
+name: "Performance & Mobile Optimization"
+tags: ["3d", "antigravity", "before", "c:", "check", "checklist", "even", "fallback", "file", "frontend", "gemini", "guides", "integrate", "integration", "<YOUR_USERNAME>", "loading", "mobile", "optimization", "performance", "pre"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1283
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.89
+---
 # Performance & Mobile Optimization
 
 Spline scenes are WebGL — they run on the GPU. A poorly optimized scene will tank your PageSpeed score, lag on mid-range devices, and drain mobile batteries. Treat them like video files, not images.

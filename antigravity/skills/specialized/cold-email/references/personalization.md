@@ -1,3 +1,14 @@
+---
+name: "Personalization at Scale"
+tags: ["antigravity", "basic", "c:", "cold", "email", "four", "frontend", "gemini", "gold", "individual", "industry", "<YOUR_USERNAME>", "level", "levels", "merge", "personalization", "references", "role", "scale", "segment"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1097
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.71
+---
 # Personalization at Scale
 
 Personalization drives **50–250% more replies** (Lavender). The key insight: **if your personalization has nothing to do with the problem you solve, it's just an attention hack** (Clay).

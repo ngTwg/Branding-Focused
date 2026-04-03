@@ -1,11 +1,17 @@
 ---
-name: lightning-architecture-review
-description: Review Bitcoin Lightning Network protocol designs, compare channel factory approaches, and analyze Layer 2 scaling tradeoffs. Covers trust models, on-chain footprint, consensus requirements, HTLC/PTLC compatibility, liveness, and watchtower support.
-risk: safe
-source: community
-date_added: '2026-03-03'
+name: "lightning-architecture-review"
+tags: ["antigravity", "architecture", "c:", "frontend", "gemini", "instructions", "key", "<YOUR_USERNAME>", "lightning", "not", "purpose", "references", "review", "skill", "specialized", "this", "topics", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 553
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.64
+date_added: "2026-03-03"
+description: "Review Bitcoin Lightning Network protocol designs, compare channel factory approaches, and analyze Layer 2 scaling tradeoffs. Covers trust models, on-chain footprint, consensus requirements, HTLC/PTLC compatibility, liveness, and watchtower support."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Reviewing Bitcoin Lightning Network protocol designs or architecture

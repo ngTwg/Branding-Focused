@@ -1,11 +1,17 @@
 ---
-name: blockrun
-description: "BlockRun works with Claude Code and Google Antigravity."
-risk: unknown
-source: community
+name: "blockrun"
+tags: ["antigravity", "before", "blockrun", "budget", "c:", "call", "check", "control", "each", "end", "frontend", "gemini", "<YOUR_USERNAME>", "optional", "philosophy", "report", "specialized", "spending", "the", "use"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2203
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "BlockRun works with Claude Code and Google Antigravity."
+source: "community"
 ---
-
 # BlockRun
 
 **BlockRun works with Claude Code and Google Antigravity.**

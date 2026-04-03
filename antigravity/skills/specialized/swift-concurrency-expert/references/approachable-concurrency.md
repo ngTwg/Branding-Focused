@@ -1,3 +1,14 @@
+---
+name: "Approachable Concurrency (Swift 6.2) - project mode quick guide"
+tags: ["antigravity", "apply", "approachable", "behavior", "c:", "changes", "common", "concurrency", "detect", "expect", "expert", "fixes", "frontend", "gemini", "guide", "how", "<YOUR_USERNAME>", "mode", "offload", "opt"]
+tier: 2
+risk: "medium"
+estimated_tokens: 617
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.67
+---
 ## Approachable Concurrency (Swift 6.2) - project mode quick guide
 
 Use this reference when the project has opted into the Swift 6.2 approachable

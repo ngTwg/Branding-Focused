@@ -1,12 +1,17 @@
 ---
-name: fp-pipe-ref
-description: Quick reference for pipe and flow. Use when user needs to chain functions, compose operations, or build data pipelines in fp-ts.
-risk: unknown
-source: community
-version: 1.0.0
-tags: [fp-ts, pipe, flow, composition, quick-reference]
+name: "fp-pipe-ref"
+tags: ["[fp-ts, pipe, flow, composition, quick-reference]"]
+tier: 1
+risk: "medium"
+estimated_tokens: 392
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.76
+description: "Quick reference for pipe and flow. Use when user needs to chain functions, compose operations, or build data pipelines in fp-ts."
+source: "community"
+version: "1.0.0"
 ---
-
 # pipe & flow Quick Reference
 
 ## pipe - Transform a Value

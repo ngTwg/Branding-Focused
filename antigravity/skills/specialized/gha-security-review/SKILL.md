@@ -1,11 +1,17 @@
 ---
-name: gha-security-review
+name: "gha-security-review"
+tags: ["actions", "antigravity", "c:", "confidence", "files", "frontend", "gemini", "gha", "github", "<YOUR_USERNAME>", "model", "out", "review", "scope", "security", "specialized", "threat", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2029
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.84
+date_added: "2026-03-16"
 description: "Find exploitable vulnerabilities in GitHub Actions workflows. Every finding MUST include a concrete exploitation scenario — if you can't build the attack, don't report it."
-risk: safe
-source: community
-date_added: 2026-03-16
+source: "community"
 ---
-
 <!--
 Attack patterns and real-world examples sourced from the HackerBot Claw campaign analysis
 by StepSecurity (2025): https://www.stepsecurity.io/blog/hackerbot-claw-github-actions-exploitation

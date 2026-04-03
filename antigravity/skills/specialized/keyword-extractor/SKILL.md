@@ -1,12 +1,17 @@
 ---
-name: keyword-extractor
-description: >
-  Extracts up to 50 highly relevant SEO keywords from text. Use when user wants to generate or extract keywords for given text.
-risk: safe
-source: original
+name: "keyword-extractor"
+tags: ["antigravity", "c:", "core", "extractor", "frontend", "gemini", "keyword", "<YOUR_USERNAME>", "mandate", "quality", "quick", "rules", "specialized", "start", "use", "users", "when", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 977
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.78
 date_added: "2026-03-11"
+description: ">"
+source: "original"
 ---
-
 # Keyword Extractor
 
 Extracts **max 50 relevant keywords** from text and formats them in a strict machine-ready structure.

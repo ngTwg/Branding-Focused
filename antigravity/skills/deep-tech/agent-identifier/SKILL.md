@@ -1,9 +1,16 @@
 ---
-name: Agent Development
-description: This skill should be used when the user asks to "create an agent", "add an agent", "write a subagent", "agent frontmatter", "when to use description", "agent examples", "agent tools", "agent colors", "autonomous agent", or needs guidance on agent structure, system prompts, triggering conditions, or agent development best practices for Claude Code plugins.
-version: 0.1.0
+name: "Agent Development"
+tags: ["agent", "antigravity", "c:", "claude", "code", "complete", "deep", "deep-tech", "development", "fields", "file", "for", "format", "frontend", "frontmatter", "gemini", "identifier", "<YOUR_USERNAME>", "name", "overview"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2593
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.96
+description: "This skill should be used when the user asks to \"create an agent\", \"add an agent\", \"write a subagent\", \"agent frontmatter\", \"when to use description\", \"agent examples\", \"agent tools\", \"agent colors\", \"autonomous agent\", or needs guidance on agent structure, system prompts, triggering conditions, or agent development best practices for Claude Code plugins."
+version: "0.1.0"
 ---
-
 # Agent Development for Claude Code Plugins
 
 ## Overview

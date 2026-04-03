@@ -1,10 +1,17 @@
 ---
-title: Choose the Right Index Type for Your Data
-impact: HIGH
-impactDescription: 10-100x improvement with correct index type
-tags: indexes, btree, gin, brin, hash, index-types
+name: "Choose the Right Index Type for Your Data"
+tags: ["indexes, btree, gin, brin, hash, index-types"]
+tier: 2
+risk: "medium"
+estimated_tokens: 346
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
+impact: "HIGH"
+impactDescription: "10-100x improvement with correct index type"
+title: "Choose the Right Index Type for Your Data"
 ---
-
 ## Choose the Right Index Type for Your Data
 
 Different index types excel at different query patterns. The default B-tree isn't always optimal.

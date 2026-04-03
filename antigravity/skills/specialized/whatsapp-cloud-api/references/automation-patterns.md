@@ -1,3 +1,14 @@
+---
+name: "Padroes de Automacao de Atendimento - WhatsApp Cloud API"
+tags: ["antigravity", "api", "arquitetura", "ate", "atendimento", "automacao", "automation", "botoes", "c:", "cloud", "com", "frontend", "gemini", "indice", "interativo", "<YOUR_USERNAME>", "lista", "menu", "opcoes", "padroes"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4841
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Padroes de Automacao de Atendimento - WhatsApp Cloud API
 
 Guia completo para implementar automacao de atendimento profissional via WhatsApp, incluindo chatbots, filas de atendimento, state machines e integracao com IA.

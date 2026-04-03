@@ -1,4 +1,15 @@
 ---
+name: "Stability AI — Gerador de Imagens Profissional"
+tags: ["ai", "antigravity", "c:", "esta", "frontend", "gemini", "gerador", "how", "image", "imagens", "<YOUR_USERNAME>", "not", "overview", "profissional", "quando", "skill", "specialized", "stability", "studio", "this"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1951
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+---
+---
 name: stability-ai
 description: Geracao de imagens via Stability AI (SD3.5, Ultra, Core). Text-to-image, img2img, inpainting, upscale, remove-bg, search-replace. 15 estilos artisticos.
 risk: safe

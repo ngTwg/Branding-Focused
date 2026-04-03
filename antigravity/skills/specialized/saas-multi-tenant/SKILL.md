@@ -1,13 +1,18 @@
 ---
-name: saas-multi-tenant
-description: "Design and implement multi-tenant SaaS architectures with row-level security, tenant-scoped queries, shared-schema isolation, and safe cross-tenant admin patterns in PostgreSQL and TypeScript."
-risk: safe
-source: community
+name: "saas-multi-tenant"
+tags: ["[multi-tenancy, saas, row-level-security, postgresql, tenant-isolation]"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3147
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.91
 date_added: "2026-03-28"
-tags: [multi-tenancy, saas, row-level-security, postgresql, tenant-isolation]
-tools: [claude, cursor, gemini]
+description: "Design and implement multi-tenant SaaS architectures with row-level security, tenant-scoped queries, shared-schema isolation, and safe cross-tenant admin patterns in PostgreSQL and TypeScript."
+source: "community"
+tools: "[claude, cursor, gemini]"
 ---
-
 # SaaS Multi-Tenant Architecture
 
 ## When to Use This Skill

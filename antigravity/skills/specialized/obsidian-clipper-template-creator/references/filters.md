@@ -1,3 +1,14 @@
+---
+name: "Obsidian Web Clipper Filters"
+tags: ["and", "antigravity", "arrays", "backend", "c:", "clipper", "creator", "dates", "filters", "formatting", "gemini", "html", "<YOUR_USERNAME>", "numbers", "objects", "obsidian", "processing", "references", "specialized", "template"]
+tier: 2
+risk: "medium"
+estimated_tokens: 386
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.60
+---
 # Obsidian Web Clipper Filters
 
 **Official Docs:** [help.obsidian.md/web-clipper/filters](https://help.obsidian.md/web-clipper/filters)

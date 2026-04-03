@@ -1,4 +1,15 @@
 ---
+name: "Use this skill when"
+tags: ["antigravity", "approach", "areas", "c:", "focus", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "output", "php", "pro", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 655
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.63
+---
+---
 name: php-pro
 description: 'Write idiomatic PHP code with generators, iterators, SPL data
 

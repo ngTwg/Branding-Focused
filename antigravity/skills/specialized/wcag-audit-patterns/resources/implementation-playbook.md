@@ -1,3 +1,14 @@
+---
+name: "WCAG Audit Patterns Implementation Playbook"
+tags: ["antigravity", "audit", "c:", "checklist", "common", "concepts", "conformance", "core", "frontend", "gemini", "impact", "implementation", "<YOUR_USERNAME>", "levels", "patterns", "playbook", "pour", "principles", "resources", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2972
+tools_needed: ["markdown", "playwright", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # WCAG Audit Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

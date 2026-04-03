@@ -1,11 +1,17 @@
 ---
-name: linear-automation
-description: "Automate Linear tasks via Rube MCP (Composio): issues, projects, cycles, teams, labels. Always search tools first for current schemas."
-risk: critical
-source: community
+name: "linear-automation"
+tags: ["antigravity", "automation", "c:", "core", "frontend", "gemini", "issues", "<YOUR_USERNAME>", "linear", "manage", "mcp", "prerequisites", "projects", "rube", "setup", "specialized", "users", "via", "workflows"]
+tier: 2
+risk: "critical"
+estimated_tokens: 1513
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 date_added: "2026-02-27"
+description: "Automate Linear tasks via Rube MCP (Composio): issues, projects, cycles, teams, labels. Always search tools first for current schemas."
+source: "community"
 ---
-
 # Linear Automation via Rube MCP
 
 Automate Linear operations through Composio's Linear toolkit via Rube MCP.

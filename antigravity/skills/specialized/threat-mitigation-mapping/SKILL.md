@@ -1,11 +1,17 @@
 ---
-name: threat-mitigation-mapping
-description: "Map identified threats to appropriate security controls and mitigations. Use when prioritizing security investments, creating remediation plans, or validating control effectiveness."
-risk: safe
-source: community
+name: "threat-mitigation-mapping"
+tags: ["antigravity", "c:", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "mapping", "mitigation", "not", "resources", "skill", "specialized", "this", "threat", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 269
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.59
 date_added: "2026-02-27"
+description: "Map identified threats to appropriate security controls and mitigations. Use when prioritizing security investments, creating remediation plans, or validating control effectiveness."
+source: "community"
 ---
-
 # Threat Mitigation Mapping
 
 Connect threats to controls for effective security planning.

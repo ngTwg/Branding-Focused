@@ -1,10 +1,17 @@
 ---
-title: Use Durable Sleep for Delayed Execution
-impact: MEDIUM
-impactDescription: Survives restarts and can span days or weeks
-tags: sleep, delay, schedule, durable
+name: "Use Durable Sleep for Delayed Execution"
+tags: ["sleep, delay, schedule, durable"]
+tier: 2
+risk: "medium"
+estimated_tokens: 344
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.63
+impact: "MEDIUM"
+impactDescription: "Survives restarts and can span days or weeks"
+title: "Use Durable Sleep for Delayed Execution"
 ---
-
 ## Use Durable Sleep for Delayed Execution
 
 Use `DBOS.sleep()` for durable delays that survive restarts. The wakeup time is persisted in the database.

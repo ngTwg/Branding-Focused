@@ -1,9 +1,16 @@
 ---
-name: web-artifacts-builder
-description: Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.
-license: Complete terms in LICENSE.txt
+name: "web-artifacts-builder"
+tags: ["antigravity", "artifact", "artifacts", "builder", "bundle", "c:", "design", "develop", "file", "frontend", "gemini", "guidelines", "html", "initialize", "<YOUR_USERNAME>", "project", "quick", "single", "specialized", "start"]
+tier: 2
+risk: "medium"
+estimated_tokens: 768
+tools_needed: ["markdown", "playwright", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.76
+description: "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts."
+license: "Complete terms in LICENSE.txt"
 ---
-
 # Web Artifacts Builder
 
 To build powerful frontend claude.ai artifacts, follow these steps:

@@ -1,11 +1,17 @@
 ---
-name: computer-use-agents
-description: "The fundamental architecture of computer use agents: observe screen, reason about next action, execute action, repeat. This loop integrates vision models with action execution through an iterative pipeline."
-risk: unknown
-source: "vibeship-spawner-skills (Apache 2.0)"
+name: "computer-use-agents"
+tags: ["action", "agents", "anthropic", "antigravity", "based", "c:", "computer", "dockerfile", "environment", "for", "frontend", "gemini", "implementation", "<YOUR_USERNAME>", "loop", "pattern", "patterns", "perception", "reasoning", "reference"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2340
+tools_needed: ["docker", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.90
 date_added: "2026-02-27"
+description: "The fundamental architecture of computer use agents: observe screen, reason about next action, execute action, repeat. This loop integrates vision models with action execution through an iterative pipeline."
+source: "vibeship-spawner-skills (Apache 2.0)"
 ---
-
 # Computer Use Agents
 
 ## Patterns

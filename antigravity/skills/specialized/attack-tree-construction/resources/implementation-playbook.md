@@ -1,3 +1,14 @@
+---
+name: "Attack Tree Construction Implementation Playbook"
+tags: ["antigravity", "attack", "attributes", "c:", "concepts", "construction", "core", "frontend", "gemini", "implementation", "<YOUR_USERNAME>", "node", "playbook", "resources", "specialized", "structure", "templates", "tree", "types", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 5453
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.94
+---
 # Attack Tree Construction Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

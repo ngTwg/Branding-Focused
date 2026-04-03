@@ -1,11 +1,17 @@
 ---
-name: seo-content-writer
-description: Writes SEO-optimized content based on provided keywords and topic briefs. Creates engaging, comprehensive content following best practices. Use PROACTIVELY for content creation tasks.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "seo-content-writer"
+tags: ["antigravity", "approach", "areas", "c:", "content", "creation", "focus", "framework", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "seo", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 648
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.67
+date_added: "2026-02-27"
+description: "Writes SEO-optimized content based on provided keywords and topic briefs. Creates engaging, comprehensive content following best practices. Use PROACTIVELY for content creation tasks."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on seo content writer tasks or workflows

@@ -1,10 +1,17 @@
 ---
-title: Control Which Queues a Worker Listens To
-impact: HIGH
-impactDescription: Enables heterogeneous worker pools
-tags: queue, listen, worker, process, configuration
+name: "Control Which Queues a Worker Listens To"
+tags: ["queue, listen, worker, process, configuration"]
+tier: 1
+risk: "medium"
+estimated_tokens: 333
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
+impact: "HIGH"
+impactDescription: "Enables heterogeneous worker pools"
+title: "Control Which Queues a Worker Listens To"
 ---
-
 ## Control Which Queues a Worker Listens To
 
 Use `ListenQueues` to make a process only dequeue from specific queues. This enables heterogeneous worker pools.

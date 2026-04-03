@@ -1,11 +1,17 @@
 ---
-name: schema-markup
-description: Design, validate, and optimize schema.org structured data for eligibility, correctness, and measurable SEO impact.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "schema-markup"
+tags: ["100", "antigravity", "c:", "categories", "data", "eligibility", "frontend", "gemini", "impact", "index", "<YOUR_USERNAME>", "markup", "phase", "purpose", "required", "schema", "score", "scoring", "specialized", "structured"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1788
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+date_added: "2026-02-27"
+description: "Design, validate, and optimize schema.org structured data for eligibility, correctness, and measurable SEO impact."
+source: "community"
 ---
-
 ---
 
 # Schema Markup & Structured Data

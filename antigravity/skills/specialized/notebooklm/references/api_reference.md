@@ -1,3 +1,14 @@
+---
+name: "NotebookLM Skill API Reference"
+tags: ["always", "antigravity", "api", "ask_question", "c:", "core", "correct", "frontend", "gemini", "important", "<YOUR_USERNAME>", "notebooklm", "reference", "references", "run", "scripts", "skill", "specialized", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1900
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.92
+---
 # NotebookLM Skill API Reference
 
 Complete API documentation for all NotebookLM skill modules.

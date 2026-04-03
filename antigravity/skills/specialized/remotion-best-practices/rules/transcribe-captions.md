@@ -1,10 +1,16 @@
 ---
-name: transcribe-captions
-description: Transcribing audio to generate captions in Remotion
-metadata:
-  tags: captions, transcribe, whisper, audio, speech-to-text
+name: "transcribe-captions"
+tags: ["captions, transcribe, whisper, audio, speech-to-text"]
+tier: 2
+risk: "medium"
+estimated_tokens: 212
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.51
+description: "Transcribing audio to generate captions in Remotion"
+metadata: ""
 ---
-
 # Transcribing audio
 
 Remotion provides several built-in options for transcribing audio to generate captions:

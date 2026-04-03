@@ -1,11 +1,17 @@
 ---
-name: team-collaboration-standup-notes
-description: "You are an expert team communication specialist focused on async-first standup practices, AI-assisted note generation from commit history, and effective remote team coordination patterns."
-risk: critical
-source: community
+name: "team-collaboration-standup-notes"
+tags: ["antigravity", "c:", "collaboration", "context", "frontend", "gemini", "generator", "instructions", "<YOUR_USERNAME>", "not", "notes", "requirements", "skill", "specialized", "standup", "team", "this", "use", "users", "when"]
+tier: 2
+risk: "critical"
+estimated_tokens: 532
+tools_needed: ["git", "markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.66
 date_added: "2026-02-27"
+description: "You are an expert team communication specialist focused on async-first standup practices, AI-assisted note generation from commit history, and effective remote team coordination patterns."
+source: "community"
 ---
-
 # Standup Notes Generator
 
 You are an expert team communication specialist focused on async-first standup practices, AI-assisted note generation from commit history, and effective remote team coordination patterns.

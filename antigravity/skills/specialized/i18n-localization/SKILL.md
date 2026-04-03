@@ -1,9 +1,16 @@
 ---
-name: i18n-localization
-description: Internationalization and localization patterns. Detecting hardcoded strings, managing translations, locale files, RTL support.
-allowed-tools: Read, Glob, Grep
+name: "i18n-localization"
+tags: ["antigravity", "c:", "concepts", "core", "frontend", "gemini", "i18n", "i18next", "implementation", "intl", "<YOUR_USERNAME>", "localization", "next", "patterns", "react", "specialized", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 757
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.83
+allowed-tools: "Read, Glob, Grep"
+description: "Internationalization and localization patterns. Detecting hardcoded strings, managing translations, locale files, RTL support."
 ---
-
 # i18n & Localization
 
 > Internationalization (i18n) and Localization (L10n) best practices.

@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-04-01T19:19:45.758991+00:00",
+  "suite": "full",
+  "dry_run": false,
+  "config": "C:/Users/<YOUR_USERNAME>/.gemini/antigravity/config/benchmark_pack.json",
+  "total": 3,
+  "ok": 2,
+  "failed": 1,
+  "duration_sec": 74.955,
+  "steps": [
+    {
+      "step_id": "run_sync_phase",
+      "description": "Run full sync phase pipeline.",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/run_autonomous_pipeline.py --phase sync",
+      "status": "failed",
+      "exit_code": 1,
+      "duration_sec": 35.773,
+      "output_excerpt": "[FAILED] sync_community_repos\nTraceback (most recent call last):\n  File \"C:\\Users\\lengo\\.gemini\\antigravity\\scripts\\sync_community_repos.py\", line 170, in <module>\n    raise SystemExit(main())\n                     ~~~~^^\n  File \"C:\\Users\\lengo\\.gemini\\antigravity\\scripts\\sync_community_repos.py\", line 148, in main\n    results.append(sync_repo(repo, target_root, args.dry_run))\n                   ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\lengo\\.gemini\\antigravity\\scripts\\sync_community_repos.py\", line 97, in sync_repo\n    ok, message = mirror_local_directory(source, target, dry_run)\n                  ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\lengo\\.gemini\\antigravity\\scripts\\sync_community_repos.py\", line 65, in mirror_local_directory\n    shutil.rmtree(target)\n    ~~~~~~~~~~~~~^^^^^^^^\n  File \"C:\\Users\\lengo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\shutil.py\", line 790, in rmtree\n    return _rmtree_unsafe(path, onexc)\n  File \"C:\\Users\\lengo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\shutil.py\", line 621, in _rmtree_unsafe\n    onexc(os.rmdir, fullname, err)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\lengo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\shutil.py\", line 617, in _rmtree_unsafe\n    os.rmdir(fullname)\n    ~~~~~~~~^^^^^^^^^^\nPermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\\\Users\\\\lengo\\\\.gemini\\\\antigravity\\\\external\\\\community-repos\\\\antigravity-ide-main\\\\.agent\\\\skills\\\\notebooklm'\n[OK] extract_external_patterns\n[OK] generate_integration_gap_report\n[OK] security_gate_external_skills\n[OK] generate_unified_inventory\nPipeline report: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\autonomous_pipeline_20260402_021906.json"
+    },
+    {
+      "step_id": "run_packaging_phase",
+      "description": "Run packaging phase pipeline.",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/run_autonomous_pipeline.py --phase packaging",
+      "status": "ok",
+      "exit_code": 0,
+      "duration_sec": 1.511,
+      "output_excerpt": "[OK] skillpack_convert\n[OK] skillpack_install\n[OK] normalize_skill_metadata_top_tier\n[OK] build_release_bundle\nPipeline report: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\autonomous_pipeline_20260402_021908.json"
+    },
+    {
+      "step_id": "run_discoverability_phase",
+      "description": "Run discoverability phase pipeline.",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/run_autonomous_pipeline.py --phase discoverability",
+      "status": "ok",
+      "exit_code": 0,
+      "duration_sec": 37.671,
+      "output_excerpt": "[OK] generate_skill_catalog\n[OK] run_benchmark_pack\n[OK] validate_community_surface\nPipeline report: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\autonomous_pipeline_20260402_021945.json"
+    }
+  ]
+}

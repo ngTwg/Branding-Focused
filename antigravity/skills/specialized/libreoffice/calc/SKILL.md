@@ -1,12 +1,18 @@
 ---
-name: calc
-description: "Spreadsheet creation, format conversion (ODS/XLSX/CSV), formulas, data automation with LibreOffice Calc."
-category: spreadsheet-processing
-risk: safe
-source: personal
+name: "calc"
+tags: ["antigravity", "c:", "calc", "capabilities", "conversion", "core", "creation", "format", "frontend", "gemini", "<YOUR_USERNAME>", "libreoffice", "overview", "skill", "specialized", "spreadsheet", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1211
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.89
+category: "spreadsheet-processing"
 date_added: "2026-02-27"
+description: "Spreadsheet creation, format conversion (ODS/XLSX/CSV), formulas, data automation with LibreOffice Calc."
+source: "personal"
 ---
-
 # LibreOffice Calc
 
 ## Overview

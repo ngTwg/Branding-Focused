@@ -1,3 +1,14 @@
+---
+name: "Communication Templates — Energy Procurement"
+tags: ["antigravity", "c:", "case", "comment", "communication", "contents", "energy", "frontend", "gemini", "intervention", "<YOUR_USERNAME>", "ppa", "procurement", "rate", "reference", "references", "response", "rfp", "sheet", "specialized"]
+tier: 3
+risk: "medium"
+estimated_tokens: 6607
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.79
+---
 # Communication Templates — Energy Procurement
 
 > **Reference Type:** Tier 3 — Load on demand when composing or reviewing energy procurement communications.

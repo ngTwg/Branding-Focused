@@ -1,11 +1,17 @@
 ---
-name: hierarchical-agent-memory
-description: "Scoped CLAUDE.md memory system that reduces context token spend. Creates directory-level context files, tracks savings via dashboard, and routes agents to the right sub-context."
-risk: safe
-source: "https://github.com/kromahlusenii-ops/ham"
+name: "hierarchical-agent-memory"
+tags: ["agent", "antigravity", "backend", "c:", "context", "gemini", "ham", "hierarchical", "how", "<YOUR_USERNAME>", "memory", "routing", "setup", "skill", "specialized", "step", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1144
+tools_needed: ["git", "markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.86
 date_added: "2026-02-27"
+description: "Scoped CLAUDE.md memory system that reduces context token spend. Creates directory-level context files, tracks savings via dashboard, and routes agents to the right sub-context."
+source: "https://github.com/kromahlusenii-ops/ham"
 ---
-
 # Hierarchical Agent Memory (HAM)
 
 Scoped memory system that gives AI coding agents a cheat sheet for each directory instead of re-reading your entire project every prompt. Root CLAUDE.md holds global context (~200 tokens), subdirectory CLAUDE.md files hold scoped context (~250 tokens each), and a `.memory/` layer stores decisions, patterns, and an inbox for unconfirmed inferences.

@@ -1,3 +1,14 @@
+---
+name: "GGUF Conversion Guide"
+tags: ["antigravity", "build", "c:", "cmake", "conversion", "convert", "critical", "face", "factors", "first", "frontend", "gemini", "gguf", "guide", "hugging", "install", "<YOUR_USERNAME>", "make", "model", "not"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2457
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # GGUF Conversion Guide
 
 After training models with TRL on Hugging Face Jobs, convert them to **GGUF format** for use with llama.cpp, Ollama, LM Studio, and other local inference tools.

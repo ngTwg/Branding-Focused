@@ -1,11 +1,17 @@
 ---
-name: auth-implementation-patterns
-description: "Build secure, scalable authentication and authorization systems using industry-standard patterns and modern best practices."
-risk: unknown
-source: community
+name: "auth-implementation-patterns"
+tags: ["antigravity", "auth", "authentication", "authorization", "c:", "frontend", "gemini", "implementation", "instructions", "<YOUR_USERNAME>", "not", "patterns", "resources", "safety", "security", "skill", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 350
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.62
 date_added: "2026-02-27"
+description: "Build secure, scalable authentication and authorization systems using industry-standard patterns and modern best practices."
+source: "community"
 ---
-
 # Authentication & Authorization Implementation Patterns
 
 Build secure, scalable authentication and authorization systems using industry-standard patterns and modern best practices.

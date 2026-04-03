@@ -1,3 +1,14 @@
+---
+name: "Tech Stack Selection (2025)"
+tags: ["2025", "alternative", "antigravity", "app", "builder", "c:", "default", "frontend", "gemini", "<YOUR_USERNAME>", "options", "selection", "specialized", "stack", "tech", "users", "web"]
+tier: 3
+risk: "medium"
+estimated_tokens: 221
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.56
+---
 # Tech Stack Selection (2025)
 
 > Default and alternative technology choices for web applications.

@@ -1,3 +1,14 @@
+---
+name: "Publisher/Media SEO Strategy Template"
+tags: ["antigravity", "architecture", "assets", "c:", "characteristics", "example", "frontend", "gemini", "industry", "<YOUR_USERNAME>", "media", "newsarticle", "plan", "publisher", "recommendations", "recommended", "requirements", "schema", "seo", "site"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1108
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.76
+---
 <!-- Updated: 2026-02-07 -->
 # Publisher/Media SEO Strategy Template
 

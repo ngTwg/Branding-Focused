@@ -1,3 +1,14 @@
+---
+name: "AI Assistant Development Implementation Playbook"
+tags: ["ai", "antigravity", "application", "architecture", "assistant", "c:", "context", "deep", "deep-tech", "dev", "development", "frontend", "gemini", "implementation", "instructions", "<YOUR_USERNAME>", "llm", "playbook", "requirements", "resources"]
+tier: 3
+risk: "medium"
+estimated_tokens: 10229
+tools_needed: ["docker", "kubernetes", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # AI Assistant Development Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

@@ -1,4 +1,15 @@
 ---
+name: "MULTI-ADVISOR: Board de Especialistas em Paralelo"
+tags: ["advisor", "antigravity", "board", "c:", "especialistas", "frontend", "gemini", "how", "<YOUR_USERNAME>", "multi", "not", "overview", "paralelo", "principio", "skill", "specialized", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2254
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
+---
 name: multi-advisor
 description: "Conselho de especialistas — consulta multiplos agentes do ecossistema em paralelo para analise multi-perspectiva de qualquer topico. Ativa personas, especialistas e agentes tecnicos simultaneamente, cada um pela sua otica unica, e consolida em sintese decisoria final."
 risk: none

@@ -1,3 +1,14 @@
+---
+name: "Touch Psychology Reference"
+tags: ["adapted", "antigravity", "area", "c:", "design", "difference", "fitts", "for", "formula", "frontend", "fundamental", "gemini", "hit", "law", "<YOUR_USERNAME>", "minimum", "mobile", "psychology", "reference", "size"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3743
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Touch Psychology Reference
 
 > Deep dive into mobile touch interaction, Fitts' Law for touch, thumb zone anatomy, gesture psychology, and haptic feedback.

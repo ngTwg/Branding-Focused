@@ -1,11 +1,17 @@
 ---
-name: tcm-constitution-analyzer
-description: 分析中医体质数据、识别体质类型、评估体质特征,并提供个性化养生建议。支持与营养、运动、睡眠等健康数据的关联分析。
-allowed-tools: Read, Grep, Glob, Write
-risk: unknown
-source: community
+name: "tcm-constitution-analyzer"
+tags: ["analyzer", "antigravity", "c:", "constitution", "data-engineering", "gemini", "<YOUR_USERNAME>", "specialized", "tcm", "users", "中医体质辨识分析器技能", "体质变化趋势分析", "体质特征分析", "体质辨识评估", "相关性分析"]
+tier: 3
+risk: "high"
+estimated_tokens: 1998
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["data", "analytics"]
+quality_score: 0.88
+allowed-tools: "Read, Grep, Glob, Write"
+description: "分析中医体质数据、识别体质类型、评估体质特征,并提供个性化养生建议。支持与营养、运动、睡眠等健康数据的关联分析。"
+source: "community"
 ---
-
 # 中医体质辨识分析器技能
 
 分析中医体质数据,识别体质类型,评估体质特征,并提供个性化养生改善建议。

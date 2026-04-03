@@ -1,11 +1,17 @@
 ---
-name: seo-content-refresher
-description: Identifies outdated elements in provided content and suggests updates to maintain freshness. Finds statistics, dates, and examples that need updating. Use PROACTIVELY for older content.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "seo-content-refresher"
+tags: ["antigravity", "areas", "c:", "content", "focus", "freshness", "frontend", "gemini", "guidelines", "instructions", "<YOUR_USERNAME>", "matrix", "not", "priority", "refresh", "refresher", "seo", "skill", "specialized", "this"]
+tier: 2
+risk: "medium"
+estimated_tokens: 782
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.73
+date_added: "2026-02-27"
+description: "Identifies outdated elements in provided content and suggests updates to maintain freshness. Finds statistics, dates, and examples that need updating. Use PROACTIVELY for older content."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on seo content refresher tasks or workflows

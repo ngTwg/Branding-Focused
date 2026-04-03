@@ -1,4 +1,15 @@
 ---
+name: "Web Scraper"
+tags: ["antigravity", "c:", "capabilities", "frontend", "gemini", "how", "<YOUR_USERNAME>", "not", "overview", "scraper", "skill", "this", "use", "users", "web", "when", "works"]
+tier: 2
+risk: "medium"
+estimated_tokens: 7125
+tools_needed: ["markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
+---
 name: web-scraper
 description: Web scraping inteligente multi-estrategia. Extrai dados estruturados de paginas web (tabelas, listas, precos). Paginacao, monitoramento e export CSV/JSON.
 risk: safe

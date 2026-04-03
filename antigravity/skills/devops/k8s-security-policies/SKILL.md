@@ -1,11 +1,17 @@
 ---
-name: k8s-security-policies
-description: "Comprehensive guide for implementing NetworkPolicy, PodSecurityPolicy, RBAC, and Pod Security Standards in Kubernetes."
-risk: unknown
-source: community
+name: "k8s-security-policies"
+tags: ["antigravity", "c:", "devops", "frontend", "gemini", "instructions", "k8s", "kubernetes", "<YOUR_USERNAME>", "not", "pod", "policies", "purpose", "security", "skill", "standards", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1904
+tools_needed: ["git", "kubernetes", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.93
 date_added: "2026-02-27"
+description: "Comprehensive guide for implementing NetworkPolicy, PodSecurityPolicy, RBAC, and Pod Security Standards in Kubernetes."
+source: "community"
 ---
-
 # Kubernetes Security Policies
 
 Comprehensive guide for implementing NetworkPolicy, PodSecurityPolicy, RBAC, and Pod Security Standards in Kubernetes.

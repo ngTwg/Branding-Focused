@@ -1,11 +1,17 @@
 ---
-name: temporal-golang-pro
-description: "Use when building durable distributed systems with Temporal Go SDK. Covers deterministic workflow rules, mTLS worker configs, and advanced patterns."
-risk: safe
-source: self
+name: "temporal-golang-pro"
+tags: ["antigravity", "c:", "capabilities", "frontend", "gemini", "golang", "guide", "<YOUR_USERNAME>", "not", "overview", "pro", "sdk", "skill", "specialized", "step", "temporal", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2325
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.90
 date_added: "2026-02-27"
+description: "Use when building durable distributed systems with Temporal Go SDK. Covers deterministic workflow rules, mTLS worker configs, and advanced patterns."
+source: "self"
 ---
-
 # Temporal Go SDK (temporal-golang-pro)
 
 ## Overview

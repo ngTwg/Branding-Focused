@@ -1,11 +1,17 @@
 ---
-name: copilot-sdk
-description: "Build applications that programmatically interact with GitHub Copilot. The SDK wraps the Copilot CLI via JSON-RPC, providing session management, custom tools, hooks, MCP server integration, and streaming across Node.js, Python, Go, and .NET."
-risk: unknown
-source: community
+name: "copilot-sdk"
+tags: ["antigravity", "c:", "client", "copilot", "core", "frontend", "gemini", "github", "installation", "<YOUR_USERNAME>", "message", "node", "pattern", "prerequisites", "python", "sdk", "session", "specialized", "typescript", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3757
+tools_needed: ["git", "markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Build applications that programmatically interact with GitHub Copilot. The SDK wraps the Copilot CLI via JSON-RPC, providing session management, custom tools, hooks, MCP server integration, and streaming across Node.js, Python, Go, and .NET."
+source: "community"
 ---
-
 # GitHub Copilot SDK
 
 Build applications that programmatically interact with GitHub Copilot. The SDK wraps the Copilot CLI via JSON-RPC, providing session management, custom tools, hooks, MCP server integration, and streaming across Node.js, Python, Go, and .NET.

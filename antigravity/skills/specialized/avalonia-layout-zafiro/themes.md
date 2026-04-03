@@ -1,3 +1,14 @@
+---
+name: "Theme Organization and Shared Styles"
+tags: ["and", "antigravity", "avalonia", "avoiding", "c:", "frontend", "gemini", "icons", "layout", "<YOUR_USERNAME>", "organization", "redundancy", "resources", "shared", "specialized", "structure", "styles", "theme", "themes", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 462
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.65
+---
 # Theme Organization and Shared Styles
 
 Efficient theme organization is key to avoiding redundant XAML and ensuring visual consistency.

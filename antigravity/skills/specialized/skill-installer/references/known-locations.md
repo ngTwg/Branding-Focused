@@ -1,3 +1,14 @@
+---
+name: "Locais Conhecidos para Deteccao de Skills"
+tags: ["adicionando", "all", "antigravity", "c:", "com", "conhecidos", "deteccao", "escaneados", "estendidos", "frontend", "gemini", "ignorados", "installer", "known", "<YOUR_USERNAME>", "locais", "locations", "novos", "padrao", "padroes"]
+tier: 2
+risk: "medium"
+estimated_tokens: 333
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.62
+---
 # Locais Conhecidos para Deteccao de Skills
 
 O `detect_skills.py` escaneia os seguintes locais para encontrar skills nao-instaladas:

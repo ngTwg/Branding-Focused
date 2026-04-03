@@ -1,15 +1,20 @@
 ---
-name: viboscope
-description: "Psychological compatibility matching — find cofounders, collaborators, and friends through validated psychometrics"
-category: collaboration
-risk: safe
-source: community
+name: "viboscope"
+tags: ["[matching, psychology, compatibility, networking, collaboration]"]
+tier: 2
+risk: "medium"
+estimated_tokens: 524
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.72
+author: "ivanschmidt"
+category: "collaboration"
 date_added: "2026-03-29"
-author: ivanschmidt
-tags: [matching, psychology, compatibility, networking, collaboration]
-tools: [claude, cursor, codex, gemini, windsurf]
+description: "Psychological compatibility matching — find cofounders, collaborators, and friends through validated psychometrics"
+source: "community"
+tools: "[claude, cursor, codex, gemini, windsurf]"
 ---
-
 # Viboscope
 
 ## Overview

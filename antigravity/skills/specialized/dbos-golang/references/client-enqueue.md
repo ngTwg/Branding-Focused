@@ -1,10 +1,17 @@
 ---
-title: Enqueue Workflows from External Applications
-impact: HIGH
-impactDescription: Enables external services to submit work to DBOS queues
-tags: client, enqueue, external, queue
+name: "Enqueue Workflows from External Applications"
+tags: ["client, enqueue, external, queue"]
+tier: 2
+risk: "medium"
+estimated_tokens: 519
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.61
+impact: "HIGH"
+impactDescription: "Enables external services to submit work to DBOS queues"
+title: "Enqueue Workflows from External Applications"
 ---
-
 ## Enqueue Workflows from External Applications
 
 Use `client.Enqueue()` to submit workflows from outside your DBOS application. Since the Client runs externally, workflow and queue metadata must be specified explicitly by name.

@@ -1,3 +1,14 @@
+---
+name: "Embeds Reference"
+tags: ["antigravity", "audio", "c:", "embed", "embeds", "external", "gemini", "images", "<YOUR_USERNAME>", "markdown", "notes", "obsidian", "pdf", "reference", "references", "specialized", "users"]
+tier: 3
+risk: "high"
+estimated_tokens: 195
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["specialized", "domain"]
+quality_score: 0.79
+---
 # Embeds Reference
 
 ## Embed Notes

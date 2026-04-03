@@ -1,12 +1,18 @@
 ---
-name: wordpress-penetration-testing
-description: "Assess WordPress installations for common vulnerabilities and WordPress 7.0 attack surfaces."
-risk: offensive
-source: community
-author: zebbern
+name: "wordpress-penetration-testing"
+tags: ["abilities", "antigravity", "api", "c:", "collaboration", "connector", "considerations", "dataviews", "frontend", "gemini", "<YOUR_USERNAME>", "penetration", "real", "rtc", "security", "specialized", "testing", "time", "users", "wordpress"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3825
+tools_needed: ["markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+author: "zebbern"
 date_added: "2026-02-27"
+description: "Assess WordPress installations for common vulnerabilities and WordPress 7.0 attack surfaces."
+source: "community"
 ---
-
 > AUTHORIZED USE ONLY: Use this skill only for authorized security assessments, defensive validation, or controlled educational environments.
 
 # WordPress Penetration Testing

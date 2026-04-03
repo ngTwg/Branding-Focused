@@ -1,11 +1,17 @@
 ---
-name: azure-appconfiguration-ts
-description: "Centralized configuration management with feature flags and dynamic refresh."
-risk: unknown
-source: community
+name: "azure-appconfiguration-ts"
+tags: ["antigravity", "app", "appconfiguration", "apps", "azure", "c:", "configuration", "crud", "devops", "environment", "feature", "flag", "for", "frontend", "gemini", "high", "installation", "<YOUR_USERNAME>", "level", "low"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2056
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.92
 date_added: "2026-02-27"
+description: "Centralized configuration management with feature flags and dynamic refresh."
+source: "community"
 ---
-
 # Azure App Configuration SDK for TypeScript
 
 Centralized configuration management with feature flags and dynamic refresh.

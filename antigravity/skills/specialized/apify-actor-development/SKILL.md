@@ -1,10 +1,16 @@
 ---
-name: apify-actor-development
-description: "Important: Before you begin, fill in the generatedBy property in the meta section of .actor/actor.json. Replace it with the tool and model you're currently using, such as \"Claude Code with Claude Sonnet 4.5\". This helps Apify monitor and improve AGENTS.md for specific AI tools and models."
-risk: unknown
-source: community
+name: "apify-actor-development"
+tags: ["actor", "actors", "antigravity", "apify", "apify_token", "are", "automatically", "brew", "c:", "checks", "cli", "development", "environment", "from", "frontend", "gemini", "install", "integrity", "<YOUR_USERNAME>", "mac"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3086
+tools_needed: ["docker", "git", "markdown", "mcp", "playwright", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+description: "Important: Before you begin, fill in the generatedBy property in the meta section of .actor/actor.json. Replace it with the tool and model you're currently using, such as \\\"Claude Code with Claude Sonnet 4.5\\\". This helps Apify monitor and improve AGENTS.md for specific AI tools and models."
+source: "community"
 ---
-
 <!-- security-allowlist: curl-pipe-bash, irm-pipe-iex -->
 
 # Apify Actor Development

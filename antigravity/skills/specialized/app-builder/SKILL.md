@@ -1,9 +1,16 @@
 ---
-name: app-builder
-description: Main application building orchestrator. Creates full-stack applications from natural language requests. Determines project type, selects tech stack, coordinates agents.
-allowed-tools: Read, Write, Edit, Glob, Grep, Bash, Agent
+name: "app-builder"
+tags: ["agents", "antigravity", "app", "application", "builder", "building", "c:", "example", "frontend", "gemini", "<YOUR_USERNAME>", "orchestrator", "reading", "related", "rule", "selective", "specialized", "templates", "usage", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 786
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.65
+allowed-tools: "Read, Write, Edit, Glob, Grep, Bash, Agent"
+description: "Main application building orchestrator. Creates full-stack applications from natural language requests. Determines project type, selects tech stack, coordinates agents."
 ---
-
 # App Builder - Application Building Orchestrator
 
 > Analyzes user's requests, determines tech stack, plans structure, and coordinates agents.

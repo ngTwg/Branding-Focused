@@ -1,3 +1,14 @@
+---
+name: "Functions Reference"
+tags: ["antigravity", "any", "bases", "between", "c:", "calculate", "correct", "date", "dates", "days", "duration", "fields", "functions", "gemini", "global", "<YOUR_USERNAME>", "obsidian", "reference", "references", "specialized"]
+tier: 3
+risk: "high"
+estimated_tokens: 1884
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["specialized", "domain"]
+quality_score: 0.81
+---
 # Functions Reference
 
 ## Global Functions

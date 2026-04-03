@@ -1,11 +1,17 @@
 ---
-name: saas-mvp-launcher
-description: "Use when planning or building a SaaS MVP from scratch. Provides a structured roadmap covering tech stack, architecture, auth, payments, and launch checklist."
-risk: safe
-source: community
+name: "saas-mvp-launcher"
+tags: ["antigravity", "before", "build", "c:", "choose", "frontend", "gemini", "guide", "launcher", "<YOUR_USERNAME>", "mvp", "overview", "saas", "skill", "specialized", "stack", "step", "tech", "this", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1817
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.93
 date_added: "2026-03-04"
+description: "Use when planning or building a SaaS MVP from scratch. Provides a structured roadmap covering tech stack, architecture, auth, payments, and launch checklist."
+source: "community"
 ---
-
 # SaaS MVP Launcher
 
 ## Overview

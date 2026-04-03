@@ -1,3 +1,14 @@
+---
+name: "GREEN COMPUTING & CARBON-AWARE SCHEDULING"
+tags: ["antigravity", "aware", "backend", "battery", "beyond", "c:", "carbon", "computing", "cpu", "energy", "gemini", "green", "<YOUR_USERNAME>", "management", "mobile", "optimized", "overview", "power", "processing", "proportional"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2746
+tools_needed: ["kubernetes", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.95
+---
 # GREEN COMPUTING & CARBON-AWARE SCHEDULING
 
 > **Tier:** 3-4 (Advanced/Deep)  

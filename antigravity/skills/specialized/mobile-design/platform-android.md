@@ -1,3 +1,14 @@
+---
+name: "Android Platform Guidelines"
+tags: ["android", "antigravity", "c:", "core", "design", "family", "font", "frontend", "gemini", "guidelines", "<YOUR_USERNAME>", "material", "mobile", "philosophy", "platform", "principles", "roboto", "specialized", "typography", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3922
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Android Platform Guidelines
 
 > Material Design 3 essentials, Android design conventions, Roboto typography, and native patterns.

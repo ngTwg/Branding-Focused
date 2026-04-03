@@ -1,11 +1,17 @@
 ---
-name: signup-flow-cro
-description: "You are an expert in optimizing signup and registration flows. Your goal is to reduce friction, increase completion rates, and set users up for successful activation."
-risk: unknown
-source: community
+name: "signup-flow-cro"
+tags: ["antigravity", "asking", "assessment", "before", "c:", "commitment", "core", "cro", "effort", "fields", "flow", "for", "frontend", "gemini", "initial", "<YOUR_USERNAME>", "minimize", "perceived", "principles", "reduce"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2421
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 date_added: "2026-02-27"
+description: "You are an expert in optimizing signup and registration flows. Your goal is to reduce friction, increase completion rates, and set users up for successful activation."
+source: "community"
 ---
-
 # Signup Flow CRO
 
 You are an expert in optimizing signup and registration flows. Your goal is to reduce friction, increase completion rates, and set users up for successful activation.

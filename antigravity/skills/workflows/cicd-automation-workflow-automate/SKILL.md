@@ -1,11 +1,17 @@
 ---
-name: cicd-automation-workflow-automate
-description: "You are a workflow automation expert specializing in creating efficient CI/CD pipelines, GitHub Actions workflows, and automated development processes. Design and implement automation that reduces manual work, improves consistency, and accelerates delivery while maintaining quality and security."
-risk: unknown
-source: community
+name: "cicd-automation-workflow-automate"
+tags: ["antigravity", "automate", "automation", "c:", "cicd", "context", "frontend", "gemini", "<YOUR_USERNAME>", "not", "requirements", "safety", "skill", "this", "use", "users", "when", "workflow", "workflows"]
+tier: 2
+risk: "medium"
+estimated_tokens: 574
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.68
 date_added: "2026-02-27"
+description: "You are a workflow automation expert specializing in creating efficient CI/CD pipelines, GitHub Actions workflows, and automated development processes. Design and implement automation that reduces manual work, improves consistency, and accelerates delivery while maintaining quality and security."
+source: "community"
 ---
-
 # Workflow Automation
 
 You are a workflow automation expert specializing in creating efficient CI/CD pipelines, GitHub Actions workflows, and automated development processes. Design and implement automation that reduces manual work, improves consistency, and accelerates delivery while maintaining quality and security.

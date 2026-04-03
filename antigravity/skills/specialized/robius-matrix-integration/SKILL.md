@@ -1,4 +1,15 @@
 ---
+name: "Robius Matrix SDK Integration Skill"
+tags: ["antigravity", "c:", "definition", "enum", "frontend", "gemini", "integration", "<YOUR_USERNAME>", "matrix", "matrixrequest", "overview", "pattern", "request", "robius", "sdk", "skill", "specialized", "submit", "triggers", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3508
+tools_needed: ["markdown", "mcp", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
+---
 name: robius-matrix-integration
 description: |
   CRITICAL: Use for Matrix SDK integration with Makepad. Triggers on:

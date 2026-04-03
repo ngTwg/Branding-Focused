@@ -1,11 +1,17 @@
 ---
-name: discord-automation
-description: "Automate Discord tasks via Rube MCP (Composio): messages, channels, roles, webhooks, reactions. Always search tools first for current schemas."
-risk: critical
-source: community
+name: "discord-automation"
+tags: ["antigravity", "automation", "c:", "core", "direct", "discord", "frontend", "gemini", "<YOUR_USERNAME>", "mcp", "messages", "prerequisites", "rube", "send", "setup", "specialized", "users", "via", "workflows"]
+tier: 2
+risk: "critical"
+estimated_tokens: 1781
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.77
 date_added: "2026-02-27"
+description: "Automate Discord tasks via Rube MCP (Composio): messages, channels, roles, webhooks, reactions. Always search tools first for current schemas."
+source: "community"
 ---
-
 # Discord Automation via Rube MCP
 
 Automate Discord operations through Composio's Discord/Discordbot toolkits via Rube MCP.

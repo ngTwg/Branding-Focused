@@ -1,10 +1,16 @@
 ---
-name: audio
-description: Using audio and sound in Remotion - importing, trimming, volume, speed, pitch
-metadata:
-  tags: audio, media, trim, volume, speed, loop, pitch, mute, sound, sfx
+name: "audio"
+tags: ["audio, media, trim, volume, speed, loop, pitch, mute, sound, sfx"]
+tier: 2
+risk: "medium"
+estimated_tokens: 955
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.88
+description: "Using audio and sound in Remotion - importing, trimming, volume, speed, pitch"
+metadata: ""
 ---
-
 # Using audio in Remotion
 
 ## Prerequisites

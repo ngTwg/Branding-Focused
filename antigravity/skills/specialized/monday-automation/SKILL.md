@@ -1,11 +1,17 @@
 ---
-name: monday-automation
-description: "Automate Monday.com work management including boards, items, columns, groups, subitems, and updates via Rube MCP (Composio). Always search tools first for current schemas."
-risk: critical
-source: community
+name: "monday-automation"
+tags: ["and", "antigravity", "automation", "boards", "c:", "com", "core", "create", "frontend", "gemini", "items", "<YOUR_USERNAME>", "manage", "mcp", "monday", "prerequisites", "rube", "setup", "specialized", "users"]
+tier: 2
+risk: "critical"
+estimated_tokens: 3038
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 date_added: "2026-02-27"
+description: "Automate Monday.com work management including boards, items, columns, groups, subitems, and updates via Rube MCP (Composio). Always search tools first for current schemas."
+source: "community"
 ---
-
 # Monday.com Automation via Rube MCP
 
 Automate Monday.com work management workflows including board creation, item management, column value updates, group organization, subitems, and update/comment threads through Composio's Monday toolkit.

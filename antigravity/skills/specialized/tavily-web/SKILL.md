@@ -1,11 +1,17 @@
 ---
-name: tavily-web
-description: "Web search, content extraction, crawling, and research capabilities using Tavily API. Use when you need to search the web for current information, extracting content from URLs, or crawling websites."
-risk: unknown
-source: community
+name: "tavily-web"
+tags: ["antigravity", "c:", "examples", "frontend", "gemini", "guide", "installation", "<YOUR_USERNAME>", "overview", "specialized", "step", "tavily", "use", "users", "web", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 270
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.69
 date_added: "2026-02-27"
+description: "Web search, content extraction, crawling, and research capabilities using Tavily API. Use when you need to search the web for current information, extracting content from URLs, or crawling websites."
+source: "community"
 ---
-
 # tavily-web
 
 ## Overview

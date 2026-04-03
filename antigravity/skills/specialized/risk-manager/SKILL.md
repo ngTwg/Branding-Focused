@@ -1,11 +1,17 @@
 ---
-name: risk-manager
-description: Monitor portfolio risk, R-multiples, and position limits. Creates hedging strategies, calculates expectancy, and implements stop-losses.
-risk: safe
-source: community
-date_added: '2026-02-27'
+name: "risk-manager"
+tags: ["antigravity", "approach", "areas", "c:", "focus", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "manager", "not", "output", "risk", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 466
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.63
+date_added: "2026-02-27"
+description: "Monitor portfolio risk, R-multiples, and position limits. Creates hedging strategies, calculates expectancy, and implements stop-losses."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on risk manager tasks or workflows

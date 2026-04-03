@@ -1,3 +1,14 @@
+---
+name: "Social Media Optimization Guide"
+tags: ["antigravity", "best", "c:", "content", "creator", "facebook", "frontend", "gemini", "guide", "instagram", "<YOUR_USERNAME>", "linkedin", "media", "optimization", "platform", "practices", "references", "social", "specialized", "specific"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2281
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.82
+---
 # Social Media Optimization Guide
 
 ## Platform-Specific Best Practices

@@ -1,3 +1,14 @@
+---
+name: "Pattern Selection Guidelines"
+tags: ["anti", "antigravity", "any", "architecture", "before", "c:", "decision", "flags", "frontend", "gemini", "guidelines", "<YOUR_USERNAME>", "main", "pattern", "patterns", "questions", "red", "selection", "specialized", "the"]
+tier: 3
+risk: "medium"
+estimated_tokens: 609
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.61
+---
 # Pattern Selection Guidelines
 
 > Decision trees for choosing architectural patterns.

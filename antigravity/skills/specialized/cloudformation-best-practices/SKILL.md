@@ -1,9 +1,16 @@
 ---
-name: cloudformation-best-practices
-description: "CloudFormation template optimization, nested stacks, drift detection, and production-ready patterns. Use when writing or reviewing CF templates."
-risk: unknown
-source: community
+name: "cloudformation-best-practices"
+tags: ["antigravity", "best", "c:", "cloudformation", "devops", "example", "examples", "gemini", "instructions", "<YOUR_USERNAME>", "not", "parameterized", "practices", "skill", "specialized", "template", "this", "use", "users", "vpc"]
+tier: 2
+risk: "high"
+estimated_tokens: 616
+tools_needed: ["markdown", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "operations"]
+quality_score: 0.69
 date_added: "2026-02-27"
+description: "CloudFormation template optimization, nested stacks, drift detection, and production-ready patterns. Use when writing or reviewing CF templates."
+source: "community"
 ---
 You are an expert in AWS CloudFormation specializing in template optimization, stack architecture, and production-grade infrastructure deployment.
 

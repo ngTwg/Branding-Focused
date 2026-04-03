@@ -1,11 +1,17 @@
 ---
-name: deployment-procedures
-description: "Production deployment principles and decision-making. Safe deployment workflows, rollback strategies, and verification. Teaches thinking, not scripts."
-risk: critical
-source: community
+name: "deployment-procedures"
+tags: ["antigravity", "c:", "decision", "deployment", "devops", "different", "each", "frontend", "gemini", "has", "how", "<YOUR_USERNAME>", "platform", "pre", "principles", "procedures", "selection", "skill", "this", "tree"]
+tier: 3
+risk: "critical"
+estimated_tokens: 1430
+tools_needed: ["docker", "git", "kubernetes", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.80
 date_added: "2026-02-27"
+description: "Production deployment principles and decision-making. Safe deployment workflows, rollback strategies, and verification. Teaches thinking, not scripts."
+source: "community"
 ---
-
 # Deployment Procedures
 
 > Deployment principles and decision-making for safe production releases.

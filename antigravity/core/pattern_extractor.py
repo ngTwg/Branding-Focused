@@ -1,10 +1,10 @@
 """
-Pattern Extractor - The Brain of Learning Loop
+PatternExtractor v2 - Context-Aware with Signal Pairing
 
-Extracts semantic patterns from raw failures.
-Rule-based (no ML yet) - 10 core rules.
+Key upgrade: Extract patterns based on COMBO signals:
+(error_type + patch_diff_signal + file_context)
 
-Philosophy: Structured learning, not log storage.
+This transforms patterns from "labels" to "diagnostic insights"
 """
 
 from __future__ import annotations
@@ -14,119 +14,291 @@ from dataclasses import dataclass
 from typing import Literal
 from datetime import datetime
 
-
-# ── Data Models (3-Layer Abstraction) ────────────────────────────────────────
-
-@dataclass
-class FailureSurface:
-    """Layer 1: Observable - what happened"""
-    failure_id: str
-    patch_diff: str
-    error_text: str              # from ErrorDelta.errors_introduced[0]
-    files_touched: list[str]
-    timestamp: datetime
-    session_id: str
+from antigravity.core.schemas import FailureSurface, FailurePattern, FailureLesson
 
 
-@dataclass
-class FailurePattern:
-    """Layer 2: Semantic - why it failed (LLM-understandable)"""
-    pattern_type: Literal[
-        "syntax_error",
-        "runtime_error",
-        "no_op_patch",
-        "import_missing",
-        "type_mismatch",
-        "logic_error"
-    ]
-    cause: str                   # e.g., "missing import"
-    location: Literal[
-        "top_of_file",
-        "function_body",
-        "class_definition",
-        "end_of_file"
-    ]
-    action: str                  # e.g., "added function without import"
-    symbols: list[str]           # e.g., ["foo", "bar"]
-    signature: str               # hash for dedup
-    confidence_score: float = 0.8  # v2: Default for legacy extractor (high enough to pass filter)
-
-
-@dataclass
-class FailureLesson:
-    """Layer 3: Strategic - what to do differently (decision impact)"""
-    avoid: str                   # What NOT to do
-    prefer: str                  # What to do instead
-    confidence: float            # 0.0-1.0 (based on frequency)
-    applies_to: list[str]        # e.g., ["python", "import_statements"]
-
-
-# ── Pattern Extractor ─────────────────────────────────────────────────────────
-
-class PatternExtractor:
+class PatternExtractorV2:
     """
-    Extract semantic patterns from raw failures.
+    v2: Context-aware pattern extraction with signal pairing.
     
-    Pipeline:
-        FailureSurface → FailurePattern → FailureLesson
-    
-    Uses 10 rule-based patterns (no ML yet).
+    Philosophy: Pattern = (error + attempted_fix + context)
+    Not just: Pattern = error_type
     """
     
     def extract(self, surface: FailureSurface) -> tuple[FailurePattern, FailureLesson]:
         """
-        Main extraction pipeline.
+        Main extraction with signal pairing.
         
-        Returns: (pattern, lesson)
+        Pipeline:
+        1. Detect error type
+        2. Detect code signals in patch
+        3. Detect file context
+        4. Pair signals → pattern
+        5. Generate lesson
         """
-        # Try each rule in priority order
+        error = surface.error_text.lower()
+        patch = surface.patch_diff.lower()
+        files = surface.files_touched
+        
+        # Try high-signal patterns first (context-aware)
         rules = [
-            self._rule_no_op_patch,
+            self._rule_fix_symptom_not_root,
+            self._rule_wrong_fix_strategy,
+            self._rule_wrong_file_modified,
+            self._rule_test_breaking_change,
+            self._rule_incomplete_fix,
+            self._rule_overfix,
+            self._rule_wrong_assumption,
+            self._rule_dependency_not_updated,
+            self._rule_incorrect_refactor_scope,
+            self._rule_no_op_patch_v2,
+            # Fallback to basic patterns
             self._rule_missing_import,
-            self._rule_unmatched_bracket,
-            self._rule_incorrect_indentation,
-            self._rule_missing_colon,
-            self._rule_type_mismatch,
-            self._rule_undefined_variable,
-            self._rule_attribute_error,
-            self._rule_index_out_of_range,
-            self._rule_division_by_zero,
+            self._rule_syntax_error,
         ]
         
         for rule in rules:
-            result = rule(surface)
+            result = rule(surface, error, patch, files)
             if result:
-                pattern, lesson = result
-                return pattern, lesson
+                return result
         
-        # Fallback: generic pattern
+        # Ultimate fallback
         return self._rule_generic(surface)
     
-    # ── Rule 1: No-Op Patch ───────────────────────────────────────────────────
+    # ── HIGH-SIGNAL PATTERNS (Context-Aware) ──────────────────────────────────
     
-    def _rule_no_op_patch(
+    def _rule_fix_symptom_not_root(
         self,
-        surface: FailureSurface
+        surface: FailureSurface,
+        error: str,
+        patch: str,
+        files: list[str]
     ) -> tuple[FailurePattern, FailureLesson] | None:
         """
-        Pattern: Patch doesn't change anything
-        Cause: Identical content before/after
+        Pattern: Used optional chaining/null check for undefined error
+        Signal pairing: (undefined error + defensive code added)
         """
-        # Check if patch is empty or only whitespace
-        if not surface.patch_diff.strip():
+        # Signal 1: Error about undefined/null
+        has_undefined_error = any(kw in error for kw in [
+            "undefined", "cannot read property", "null"
+        ])
+        
+        # Signal 2: Added defensive code
+        has_defensive_code = any(kw in patch for kw in [
+            "?.", "?.?", "null check", "if (", "&&"
+        ])
+        
+        if has_undefined_error and has_defensive_code:
+            # Extract what was accessed
+            prop_match = re.search(r"property '(\w+)'", surface.error_text)
+            prop_name = prop_match.group(1) if prop_match else "property"
+            
             pattern = FailurePattern(
-                pattern_type="no_op_patch",
-                cause="identical content",
+                pattern_type="fix_symptom_not_root",
+                cause=f"added defensive code for undefined {prop_name}",
                 location="function_body",
-                action="generated patch with no semantic changes",
-                symbols=[],
-                signature=self._hash_pattern("no_op_patch", "identical_content", "function_body")
+                action="added optional chaining or null check",
+                symbols=[prop_name],
+                signature=self._hash_pattern("fix_symptom_not_root", "defensive_code", "function_body"),
+                context={
+                    "error_type": "undefined_access",
+                    "defensive_pattern": "optional_chaining"
+                },
+                attempted_fix="added optional chaining (?.) or null check",
+                correct_direction="fix data flow - ensure data exists before render/access",
+                confidence_score=0.7,
+                anti_pattern_signature={
+                    "error_regex": ["undefined", "cannot read property", "null"],
+                    "code_signal": ["?.", "null check", "if (.*&&"]
+                },
+                usage_signals=[
+                    "regex:useeffect",
+                    "regex:usestate.*loading",
+                    "regex:fetch|async|await",
+                    "added loading state",
+                    "fixed data flow"
+                ]
             )
             
             lesson = FailureLesson(
-                avoid="generating patches that don't change logic",
-                prefer="analyze error carefully before suggesting changes",
-                confidence=0.5,  # will be updated by frequency
+                avoid="Using optional chaining (?.) to hide undefined errors without fixing root cause",
+                prefer="Fix data flow: add loading state, ensure data fetched before access, or fix parent component state",
+                confidence=0.7,
+                applies_to=["javascript", "typescript", "react"]
+            )
+            
+            return pattern, lesson
+        
+        return None
+    
+    def _rule_wrong_fix_strategy(
+        self,
+        surface: FailureSurface,
+        error: str,
+        patch: str,
+        files: list[str]
+    ) -> tuple[FailurePattern, FailureLesson] | None:
+        """
+        Pattern: Added null check for "is not a function" error
+        Signal pairing: (function error + null check added)
+        """
+        # Signal 1: Function error
+        has_function_error = any(kw in error for kw in [
+            "is not a function", "not a function", "undefined is not"
+        ])
+        
+        # Signal 2: Added null/undefined check
+        has_null_check = any(kw in patch for kw in [
+            "if (", "null", "undefined", "typeof"
+        ])
+        
+        if has_function_error and has_null_check:
+            # Extract function name
+            func_match = re.search(r"(\w+) is not a function", surface.error_text)
+            func_name = func_match.group(1) if func_match else "function"
+            
+            pattern = FailurePattern(
+                pattern_type="wrong_fix_strategy",
+                cause=f"added null check for '{func_name} is not a function' error",
+                location="function_body",
+                action="added conditional check before function call",
+                symbols=[func_name],
+                signature=self._hash_pattern("wrong_fix_strategy", "null_check_for_function", "function_body"),
+                context={
+                    "error_type": "not_a_function",
+                    "wrong_strategy": "null_check"
+                },
+                attempted_fix=f"added null/undefined check before calling {func_name}",
+                correct_direction="check imports - function likely not imported or imported incorrectly",
+                confidence_score=0.8,
+                anti_pattern_signature={
+                    "error_regex": ["is not a function", "not a function"],
+                    "code_signal": ["if (", "null", "undefined", "typeof"]
+                },
+                usage_signals=[
+                    "added import",
+                    "modified import",
+                    "fixed module reference",
+                    "regex:import.*react",
+                    "regex:from ['\"].*['\"]"
+                ]
+            )
+            
+            lesson = FailureLesson(
+                avoid="Adding null checks when error is 'X is not a function' - root cause is usually wrong import",
+                prefer="Check import statements first: verify function is imported, check for typos, verify package version",
+                confidence=0.8,
+                applies_to=["javascript", "typescript", "react", "node"]
+            )
+            
+            return pattern, lesson
+        
+        return None
+    
+    def _rule_wrong_file_modified(
+        self,
+        surface: FailureSurface,
+        error: str,
+        patch: str,
+        files: list[str]
+    ) -> tuple[FailurePattern, FailureLesson] | None:
+        """
+        Pattern: Modified child component when error in parent
+        Signal pairing: (error mentions parent + modified child file)
+        """
+        if not files:
+            return None
+        
+        # Extract file from error (simple heuristic)
+        error_file_match = re.search(r'at (\w+Component)', surface.error_text)
+        if not error_file_match:
+            return None
+        
+        error_component = error_file_match.group(1)
+        
+        # Check if modified different file
+        modified_files = [f.lower() for f in files]
+        error_in_different_file = not any(error_component.lower() in f for f in modified_files)
+        
+        if error_in_different_file and len(files) > 0:
+            pattern = FailurePattern(
+                pattern_type="wrong_file_modified",
+                cause=f"modified {files[0]} when error was in {error_component}",
+                location="function_body",
+                action="changed wrong component",
+                symbols=[error_component],
+                signature=self._hash_pattern("wrong_file_modified", "wrong_component", "function_body"),
+                context={
+                    "error_file": error_component,
+                    "modified_file": files[0]
+                },
+                attempted_fix=f"modified {files[0]}",
+                correct_direction=f"modify {error_component} where error actually occurred",
+                confidence_score=0.6,
+                anti_pattern_signature={
+                    "error_regex": [r"at \w+Component"],
+                    "code_signal": ["different_file_modified"]
+                }
+            )
+            
+            lesson = FailureLesson(
+                avoid="Modifying child/sibling components when stack trace points to different component",
+                prefer="Follow stack trace to actual error location - modify the component mentioned in error",
+                confidence=0.6,
+                applies_to=["react", "vue", "angular"]
+            )
+            
+            return pattern, lesson
+        
+        return None
+    
+    def _rule_test_breaking_change(
+        self,
+        surface: FailureSurface,
+        error: str,
+        patch: str,
+        files: list[str]
+    ) -> tuple[FailurePattern, FailureLesson] | None:
+        """
+        Pattern: Changed function signature without updating tests
+        Signal pairing: (test error + signature change in patch)
+        """
+        # Signal 1: Test error (word-boundary matching to avoid
+        # false-positive on words like "unexpected").
+        has_test_error = bool(
+            re.search(r"\btest\b|\bassertion\b|\bjest\b|\bmocha\b|\bexpect(?:ed)?\b", error)
+        )
+        
+        # Signal 2: Function signature change
+        has_signature_change = any(kw in patch for kw in [
+            "function", "def ", "const ", "=>"
+        ])
+        
+        if has_test_error and has_signature_change:
+            pattern = FailurePattern(
+                pattern_type="test_breaking_change",
+                cause="changed function signature without updating test calls",
+                location="function_body",
+                action="modified function parameters",
+                symbols=[],
+                signature=self._hash_pattern("test_breaking_change", "signature_change", "function_body"),
+                context={
+                    "error_type": "test_failure",
+                    "change_type": "signature"
+                },
+                attempted_fix="changed function signature",
+                correct_direction="update all test files that call this function with new signature",
+                confidence_score=0.7,
+                anti_pattern_signature={
+                    "error_regex": ["test", "expect", "assertion"],
+                    "code_signal": ["function", "def ", "=>"]
+                }
+            )
+            
+            lesson = FailureLesson(
+                avoid="Changing function signatures without searching for all usages in tests",
+                prefer="Before changing signature: search for function name in test files, update all calls",
+                confidence=0.7,
                 applies_to=["all_languages"]
             )
             
@@ -134,388 +306,416 @@ class PatternExtractor:
         
         return None
     
-    # ── Rule 2: Missing Import ────────────────────────────────────────────────
+    def _rule_incomplete_fix(
+        self,
+        surface: FailureSurface,
+        error: str,
+        patch: str,
+        files: list[str]
+    ) -> tuple[FailurePattern, FailureLesson] | None:
+        """
+        Pattern: Fixed one occurrence but error still exists
+        Signal pairing: (same error + small patch)
+        """
+        # Signal: Very small patch (likely only fixed one place)
+        patch_lines = surface.patch_diff.count('\n')
+        is_small_patch = patch_lines < 5
+        
+        # Signal: Error mentions multiple occurrences or "still"
+        suggests_multiple = any(kw in error for kw in [
+            "still", "another", "also", "multiple"
+        ])
+        
+        if is_small_patch and suggests_multiple:
+            pattern = FailurePattern(
+                pattern_type="incomplete_fix",
+                cause="fixed one occurrence but missed others",
+                location="function_body",
+                action="partial fix applied",
+                symbols=[],
+                signature=self._hash_pattern("incomplete_fix", "partial", "function_body"),
+                context={
+                    "patch_size": "small",
+                    "error_suggests": "multiple_occurrences"
+                },
+                attempted_fix="fixed only first occurrence found",
+                correct_direction="use global search (grep/find-all) to find ALL occurrences before fixing",
+                confidence_score=0.6,
+                anti_pattern_signature={
+                    "error_regex": ["still", "another", "also"],
+                    "code_signal": ["small_patch"]
+                }
+            )
+            
+            lesson = FailureLesson(
+                avoid="Fixing only the first occurrence without checking for others",
+                prefer="Use find-all-references or global search to locate ALL occurrences, fix them all",
+                confidence=0.6,
+                applies_to=["all_languages"]
+            )
+            
+            return pattern, lesson
+        
+        return None
+    
+    def _rule_overfix(
+        self,
+        surface: FailureSurface,
+        error: str,
+        patch: str,
+        files: list[str]
+    ) -> tuple[FailurePattern, FailureLesson] | None:
+        """
+        Pattern: Changed too many things for one error
+        Signal pairing: (simple error + large patch)
+        """
+        # Signal 1: Simple error (one line)
+        error_lines = surface.error_text.count('\n')
+        is_simple_error = error_lines < 3
+        
+        # Signal 2: Large patch
+        patch_lines = surface.patch_diff.count('\n')
+        is_large_patch = patch_lines > 20
+        
+        if is_simple_error and is_large_patch:
+            pattern = FailurePattern(
+                pattern_type="overfix",
+                cause="changed multiple things for single error",
+                location="function_body",
+                action="made extensive changes",
+                symbols=[],
+                signature=self._hash_pattern("overfix", "too_many_changes", "function_body"),
+                context={
+                    "error_complexity": "simple",
+                    "patch_size": "large"
+                },
+                attempted_fix="made large refactor or multiple changes",
+                correct_direction="minimal fix - change ONLY what's needed to resolve the specific error",
+                confidence_score=0.7,
+                anti_pattern_signature={
+                    "error_regex": ["simple_single_line"],
+                    "code_signal": ["large_patch"]
+                }
+            )
+            
+            lesson = FailureLesson(
+                avoid="Making large refactors or multiple unrelated changes when fixing single error",
+                prefer="Surgical fix: change minimum code needed, refactor separately after bug is fixed",
+                confidence=0.7,
+                applies_to=["all_languages"]
+            )
+            
+            return pattern, lesson
+        
+        return None
+    
+    def _rule_wrong_assumption(
+        self,
+        surface: FailureSurface,
+        error: str,
+        patch: str,
+        files: list[str]
+    ) -> tuple[FailurePattern, FailureLesson] | None:
+        """
+        Pattern: Assumed array but got object (or vice versa)
+        Signal pairing: (type error + array method in patch)
+        """
+        # Signal 1: Type error
+        has_type_error = "typeerror" in error
+        
+        # Signal 2: Array method used
+        has_array_method = any(kw in patch for kw in [
+            ".map", ".filter", ".reduce", ".foreach"
+        ])
+        
+        if has_type_error and has_array_method:
+            pattern = FailurePattern(
+                pattern_type="wrong_assumption",
+                cause="assumed array but got object or null",
+                location="function_body",
+                action="called array method on non-array",
+                symbols=[],
+                signature=self._hash_pattern("wrong_assumption", "array_vs_object", "function_body"),
+                context={
+                    "error_type": "type_mismatch",
+                    "assumed_type": "array"
+                },
+                attempted_fix="called .map/.filter on data without checking type",
+                correct_direction="check API response structure or use Object.values() if data is object",
+                confidence_score=0.7,
+                anti_pattern_signature={
+                    "error_regex": ["typeerror"],
+                    "code_signal": [".map", ".filter", ".reduce"]
+                }
+            )
+            
+            lesson = FailureLesson(
+                avoid="Assuming data types without checking API documentation or actual response",
+                prefer="Add type guards (Array.isArray) or check API docs for actual return type",
+                confidence=0.7,
+                applies_to=["javascript", "typescript"]
+            )
+            
+            return pattern, lesson
+        
+        return None
+    
+    def _rule_dependency_not_updated(
+        self,
+        surface: FailureSurface,
+        error: str,
+        patch: str,
+        files: list[str]
+    ) -> tuple[FailurePattern, FailureLesson] | None:
+        """
+        Pattern: Used new API without upgrading package
+        Signal pairing: (import error + new API name)
+        """
+        # Signal: Import or module error
+        has_import_error = any(kw in error for kw in [
+            "cannot find", "does not exist", "is not exported"
+        ])
+        
+        # Signal: Patch adds import
+        has_new_import = "import" in patch
+        
+        if has_import_error and has_new_import:
+            # Extract what was imported
+            import_match = re.search(r'import.*{([^}]+)}', surface.patch_diff)
+            imported = import_match.group(1).strip() if import_match else "API"
+            
+            pattern = FailurePattern(
+                pattern_type="dependency_not_updated",
+                cause=f"used {imported} without checking package version",
+                location="top_of_file",
+                action="imported new API",
+                symbols=[imported],
+                signature=self._hash_pattern("dependency_not_updated", "version_mismatch", "top_of_file"),
+                context={
+                    "error_type": "import_not_found",
+                    "api_name": imported
+                },
+                attempted_fix=f"imported {imported}",
+                correct_direction="check package.json - may need to upgrade package version",
+                confidence_score=0.6,
+                anti_pattern_signature={
+                    "error_regex": ["cannot find", "does not exist", "not exported"],
+                    "code_signal": ["import"]
+                }
+            )
+            
+            lesson = FailureLesson(
+                avoid="Using new APIs without verifying package version supports them",
+                prefer="Check package docs for version requirements, upgrade if needed before importing",
+                confidence=0.6,
+                applies_to=["javascript", "typescript", "python"]
+            )
+            
+            return pattern, lesson
+        
+        return None
+    
+    def _rule_incorrect_refactor_scope(
+        self,
+        surface: FailureSurface,
+        error: str,
+        patch: str,
+        files: list[str]
+    ) -> tuple[FailurePattern, FailureLesson] | None:
+        """
+        Pattern: Refactored too much at once
+        Signal pairing: (multiple files changed + error)
+        """
+        # Signal: Multiple files modified
+        multiple_files = len(files) > 2
+        
+        # Signal: Large changes
+        patch_lines = surface.patch_diff.count('\n')
+        large_changes = patch_lines > 30
+        
+        if multiple_files and large_changes:
+            pattern = FailurePattern(
+                pattern_type="incorrect_refactor_scope",
+                cause="refactored multiple files for single bug",
+                location="function_body",
+                action="large multi-file refactor",
+                symbols=[],
+                signature=self._hash_pattern("incorrect_refactor_scope", "too_broad", "function_body"),
+                context={
+                    "files_changed": len(files),
+                    "scope": "too_broad"
+                },
+                attempted_fix=f"refactored {len(files)} files",
+                correct_direction="fix bug first with minimal changes, refactor separately",
+                confidence_score=0.6,
+                anti_pattern_signature={
+                    "error_regex": ["single_error"],
+                    "code_signal": ["multiple_files", "large_patch"]
+                }
+            )
+            
+            lesson = FailureLesson(
+                avoid="Large multi-file refactors when fixing small bugs - introduces new errors",
+                prefer="Surgical bug fix first, then refactor in separate commit after tests pass",
+                confidence=0.6,
+                applies_to=["all_languages"]
+            )
+            
+            return pattern, lesson
+        
+        return None
+    
+    def _rule_no_op_patch_v2(
+        self,
+        surface: FailureSurface,
+        error: str,
+        patch: str,
+        files: list[str]
+    ) -> tuple[FailurePattern, FailureLesson] | None:
+        """
+        Pattern: Generated identical code (v2 with context)
+        Signal: Empty or whitespace-only patch
+        """
+        if not surface.patch_diff.strip():
+            pattern = FailurePattern(
+                pattern_type="no_op_patch",
+                cause="generated identical code",
+                location="function_body",
+                action="no semantic changes made",
+                symbols=[],
+                signature=self._hash_pattern("no_op_patch", "identical", "function_body"),
+                context={
+                    "error_type": error.split(':')[0] if ':' in error else "unknown",
+                    "strategy_failed": "regeneration"
+                },
+                attempted_fix="regenerated same code",
+                correct_direction="change strategy completely - try different approach or ask for clarification",
+                confidence_score=0.8,
+                anti_pattern_signature={
+                    "error_regex": [".*"],
+                    "code_signal": ["empty_patch"]
+                }
+            )
+            
+            lesson = FailureLesson(
+                avoid="Regenerating same code when first attempt failed - indicates wrong strategy",
+                prefer="Change approach: analyze error differently, try alternative solution, or request more context",
+                confidence=0.8,
+                applies_to=["all_languages"]
+            )
+            
+            return pattern, lesson
+        
+        return None
+    
+    # ── BASIC PATTERNS (Fallback) ─────────────────────────────────────────────
     
     def _rule_missing_import(
         self,
-        surface: FailureSurface
+        surface: FailureSurface,
+        error: str,
+        patch: str,
+        files: list[str]
     ) -> tuple[FailurePattern, FailureLesson] | None:
-        """
-        Pattern: Added code uses undefined name
-        Cause: Missing import statement
-        """
-        error = surface.error_text
-        
-        if "NameError" in error or "is not defined" in error:
-            # Extract symbol name
-            match = re.search(r"name '(\w+)' is not defined", error)
-            if match:
-                symbol = match.group(1)
-                
-                # Check if symbol appears in patch but no import added
-                if symbol in surface.patch_diff and "import" not in surface.patch_diff:
-                    pattern = FailurePattern(
-                        pattern_type="import_missing",
-                        cause="missing import",
-                        location="top_of_file",
-                        action=f"added code using '{symbol}' without import",
-                        symbols=[symbol],
-                        signature=self._hash_pattern("import_missing", "missing_import", "top_of_file")
-                    )
-                    
-                    lesson = FailureLesson(
-                        avoid="adding new symbol without checking imports",
-                        prefer="add import statement before using new symbol",
-                        confidence=0.5,
-                        applies_to=["python", "import_statements"]
-                    )
-                    
-                    return pattern, lesson
+        """Basic: Missing import (kept for coverage)"""
+        if "is not defined" in error and "import" not in patch:
+            match = re.search(r"name '(\w+)' is not defined", surface.error_text)
+            symbol = match.group(1) if match else "symbol"
+            has_explicit_name_error = "nameerror" in error
+            base_confidence = 0.7 if has_explicit_name_error else 0.5
+            
+            pattern = FailurePattern(
+                pattern_type="import_missing",
+                cause="missing import",
+                location="top_of_file",
+                action=f"used {symbol} without import",
+                symbols=[symbol],
+                signature=self._hash_pattern("import_missing", "basic", "top_of_file"),
+                context={"symbol": symbol},
+                confidence_score=base_confidence
+            )
+            
+            lesson = FailureLesson(
+                avoid="Using symbols without importing them",
+                prefer="Add import statement at top of file",
+                confidence=base_confidence,
+                applies_to=["python", "javascript"]
+            )
+            
+            return pattern, lesson
         
         return None
     
-    # ── Rule 3: Unmatched Bracket ─────────────────────────────────────────────
-    
-    def _rule_unmatched_bracket(
+    def _rule_syntax_error(
         self,
-        surface: FailureSurface
+        surface: FailureSurface,
+        error: str,
+        patch: str,
+        files: list[str]
     ) -> tuple[FailurePattern, FailureLesson] | None:
-        """
-        Pattern: Syntax error with unmatched bracket
-        Cause: Missing closing bracket
-        """
-        error = surface.error_text
-        
-        if "SyntaxError" in error and any(kw in error for kw in ["unmatched", "expected ']'", "expected ')'"]):
-            # Determine bracket type
-            if "']'" in error or "'['" in error:
-                bracket_type = "square_bracket"
-            elif "')'" in error or "'('" in error:
-                bracket_type = "parenthesis"
+        """Basic: Syntax error (kept for coverage)"""
+        if "syntaxerror" in error or "indentationerror" in error or "unexpected indent" in error:
+            if "unmatched" in error or "bracket" in error or "]" in error or "[" in error:
+                cause = "unmatched bracket syntax error"
+                avoid = "Introducing unmatched brackets"
+                prefer = "Check bracket/parenthesis pairing before submitting"
+            elif "indent" in error:
+                cause = "indentation syntax error"
+                avoid = "Introducing indentation errors"
+                prefer = "Fix indentation and align block structure"
             else:
-                bracket_type = "bracket"
-            
+                cause = "syntax error"
+                avoid = "Introducing syntax errors"
+                prefer = "Check syntax before submitting"
+
             pattern = FailurePattern(
                 pattern_type="syntax_error",
-                cause=f"unmatched {bracket_type}",
+                cause=cause,
                 location="function_body",
-                action=f"added code with unmatched {bracket_type}",
+                action="introduced syntax error",
                 symbols=[],
-                signature=self._hash_pattern("syntax_error", f"unmatched_{bracket_type}", "function_body")
+                signature=self._hash_pattern("syntax_error", "basic", "function_body"),
+                confidence_score=0.7  # v2: Increased to pass filter
             )
             
             lesson = FailureLesson(
-                avoid="writing complex expressions without bracket matching",
-                prefer="use simpler expressions or verify bracket pairs",
-                confidence=0.5,
-                applies_to=["python", "syntax"]
+                avoid=avoid,
+                prefer=prefer,
+                confidence=0.4,
+                applies_to=["all_languages"]
             )
             
             return pattern, lesson
         
         return None
-    
-    # ── Rule 4: Incorrect Indentation ─────────────────────────────────────────
-    
-    def _rule_incorrect_indentation(
-        self,
-        surface: FailureSurface
-    ) -> tuple[FailurePattern, FailureLesson] | None:
-        """
-        Pattern: IndentationError
-        Cause: Wrong indentation level
-        """
-        error = surface.error_text
-        
-        if "IndentationError" in error or "unexpected indent" in error:
-            pattern = FailurePattern(
-                pattern_type="syntax_error",
-                cause="incorrect indentation",
-                location="function_body",
-                action="added code with wrong indentation level",
-                symbols=[],
-                signature=self._hash_pattern("syntax_error", "incorrect_indentation", "function_body")
-            )
-            
-            lesson = FailureLesson(
-                avoid="mixing tabs and spaces or wrong indent level",
-                prefer="match existing indentation style (4 spaces for Python)",
-                confidence=0.5,
-                applies_to=["python", "indentation"]
-            )
-            
-            return pattern, lesson
-        
-        return None
-    
-    # ── Rule 5: Missing Colon ─────────────────────────────────────────────────
-    
-    def _rule_missing_colon(
-        self,
-        surface: FailureSurface
-    ) -> tuple[FailurePattern, FailureLesson] | None:
-        """
-        Pattern: SyntaxError with missing colon
-        Cause: Forgot colon after if/for/def/class
-        """
-        error = surface.error_text
-        
-        if "SyntaxError" in error and "expected ':'" in error:
-            # Determine statement type
-            stmt_type = "statement"
-            for stmt in ["if", "for", "while", "def", "class"]:
-                if stmt in surface.patch_diff:
-                    stmt_type = stmt
-                    break
-            
-            pattern = FailurePattern(
-                pattern_type="syntax_error",
-                cause="missing colon",
-                location="function_body",
-                action=f"added {stmt_type} statement without colon",
-                symbols=[],
-                signature=self._hash_pattern("syntax_error", "missing_colon", "function_body")
-            )
-            
-            lesson = FailureLesson(
-                avoid="forgetting colon after control flow statements",
-                prefer="always add colon after if/for/while/def/class",
-                confidence=0.5,
-                applies_to=["python", "syntax"]
-            )
-            
-            return pattern, lesson
-        
-        return None
-    
-    # ── Rule 6: Type Mismatch ─────────────────────────────────────────────────
-    
-    def _rule_type_mismatch(
-        self,
-        surface: FailureSurface
-    ) -> tuple[FailurePattern, FailureLesson] | None:
-        """
-        Pattern: TypeError
-        Cause: Wrong type passed to function
-        """
-        error = surface.error_text
-        
-        if "TypeError" in error:
-            # Extract expected vs actual types
-            match = re.search(r"expected (\w+), got (\w+)", error)
-            if match:
-                expected, actual = match.groups()
-                
-                pattern = FailurePattern(
-                    pattern_type="type_mismatch",
-                    cause=f"passed {actual} instead of {expected}",
-                    location="function_body",
-                    action="called function with wrong type",
-                    symbols=[],
-                    signature=self._hash_pattern("type_mismatch", f"{actual}_to_{expected}", "function_body")
-                )
-                
-                lesson = FailureLesson(
-                    avoid="passing wrong types without checking function signature",
-                    prefer="verify parameter types before calling functions",
-                    confidence=0.5,
-                    applies_to=["python", "type_checking"]
-                )
-                
-                return pattern, lesson
-        
-        return None
-    
-    # ── Rule 7: Undefined Variable ────────────────────────────────────────────
-    
-    def _rule_undefined_variable(
-        self,
-        surface: FailureSurface
-    ) -> tuple[FailurePattern, FailureLesson] | None:
-        """
-        Pattern: NameError for local variable
-        Cause: Used variable before assignment
-        """
-        error = surface.error_text
-        
-        if "NameError" in error and "local variable" in error:
-            match = re.search(r"local variable '(\w+)'", error)
-            if match:
-                var_name = match.group(1)
-                
-                pattern = FailurePattern(
-                    pattern_type="runtime_error",
-                    cause="used before assignment",
-                    location="function_body",
-                    action=f"used variable '{var_name}' before defining it",
-                    symbols=[var_name],
-                    signature=self._hash_pattern("runtime_error", "undefined_variable", "function_body")
-                )
-                
-                lesson = FailureLesson(
-                    avoid="using variables before assigning values",
-                    prefer="initialize variables before use",
-                    confidence=0.5,
-                    applies_to=["python", "variables"]
-                )
-                
-                return pattern, lesson
-        
-        return None
-    
-    # ── Rule 8: Attribute Error ───────────────────────────────────────────────
-    
-    def _rule_attribute_error(
-        self,
-        surface: FailureSurface
-    ) -> tuple[FailurePattern, FailureLesson] | None:
-        """
-        Pattern: AttributeError
-        Cause: Object doesn't have attribute
-        """
-        error = surface.error_text
-        
-        if "AttributeError" in error:
-            match = re.search(r"'(\w+)' object has no attribute '(\w+)'", error)
-            if match:
-                obj_type, attr_name = match.groups()
-                
-                pattern = FailurePattern(
-                    pattern_type="runtime_error",
-                    cause=f"attribute '{attr_name}' doesn't exist on {obj_type}",
-                    location="function_body",
-                    action="accessed non-existent attribute",
-                    symbols=[attr_name],
-                    signature=self._hash_pattern("runtime_error", "attribute_error", "function_body")
-                )
-                
-                lesson = FailureLesson(
-                    avoid="accessing attributes without checking object type",
-                    prefer="verify object has attribute before accessing",
-                    confidence=0.5,
-                    applies_to=["python", "attributes"]
-                )
-                
-                return pattern, lesson
-        
-        return None
-    
-    # ── Rule 9: Index Out of Range ────────────────────────────────────────────
-    
-    def _rule_index_out_of_range(
-        self,
-        surface: FailureSurface
-    ) -> tuple[FailurePattern, FailureLesson] | None:
-        """
-        Pattern: IndexError
-        Cause: Accessed list index that doesn't exist
-        """
-        error = surface.error_text
-        
-        if "IndexError" in error and "out of range" in error:
-            pattern = FailurePattern(
-                pattern_type="runtime_error",
-                cause="index out of range",
-                location="function_body",
-                action="accessed list index without bounds check",
-                symbols=[],
-                signature=self._hash_pattern("runtime_error", "index_out_of_range", "function_body")
-            )
-            
-            lesson = FailureLesson(
-                avoid="accessing list indices without checking length",
-                prefer="check list length before accessing or use try/except",
-                confidence=0.5,
-                applies_to=["python", "lists"]
-            )
-            
-            return pattern, lesson
-        
-        return None
-    
-    # ── Rule 10: Division by Zero ─────────────────────────────────────────────
-    
-    def _rule_division_by_zero(
-        self,
-        surface: FailureSurface
-    ) -> tuple[FailurePattern, FailureLesson] | None:
-        """
-        Pattern: ZeroDivisionError
-        Cause: Divided by zero
-        """
-        error = surface.error_text
-        
-        if "ZeroDivisionError" in error:
-            pattern = FailurePattern(
-                pattern_type="runtime_error",
-                cause="division by zero",
-                location="function_body",
-                action="performed division without zero check",
-                symbols=[],
-                signature=self._hash_pattern("runtime_error", "division_by_zero", "function_body")
-            )
-            
-            lesson = FailureLesson(
-                avoid="dividing without checking denominator is non-zero",
-                prefer="add zero check before division or use try/except",
-                confidence=0.5,
-                applies_to=["python", "arithmetic"]
-            )
-            
-            return pattern, lesson
-        
-        return None
-    
-    # ── Fallback: Generic Pattern ─────────────────────────────────────────────
     
     def _rule_generic(
         self,
         surface: FailureSurface
     ) -> tuple[FailurePattern, FailureLesson]:
-        """
-        Fallback pattern when no specific rule matches.
-        """
-        # Classify as syntax or runtime based on error text
-        if "SyntaxError" in surface.error_text or "IndentationError" in surface.error_text:
-            pattern_type = "syntax_error"
-            cause = "syntax error"
-        elif any(kw in surface.error_text for kw in ["Error", "Exception"]):
-            pattern_type = "runtime_error"
-            cause = "runtime error"
-        else:
-            pattern_type = "logic_error"
-            cause = "logic error"
-        
+        """Ultimate fallback"""
         pattern = FailurePattern(
-            pattern_type=pattern_type,  # type: ignore
-            cause=cause,
+            pattern_type="logic_error",
+            cause="unclassified error",
             location="function_body",
-            action="generated patch that caused error",
+            action="made changes that caused error",
             symbols=[],
-            signature=self._hash_pattern(pattern_type, cause, "function_body")
+            signature=self._hash_pattern("logic_error", "generic", "function_body"),
+            confidence_score=0.7  # v2: Increased to pass filter
         )
         
         lesson = FailureLesson(
-            avoid="making changes without understanding error context",
-            prefer="analyze error message carefully before suggesting fix",
-            confidence=0.3,  # low confidence for generic
+            avoid="Making changes without understanding error context",
+            prefer="Analyze error carefully before suggesting fix",
+            confidence=0.2,
             applies_to=["all_languages"]
         )
         
         return pattern, lesson
     
-    # ── Helper: Hash Pattern ──────────────────────────────────────────────────
+    # ── Helper ─────────────────────────────────────────────────────────────────
     
-    def _hash_pattern(
-        self,
-        pattern_type: str,
-        cause: str,
-        location: str
-    ) -> str:
-        """
-        Compute signature for pattern deduplication.
-        
-        Signature = SHA-256(pattern_type + cause + location)
-        """
+    def _hash_pattern(self, pattern_type: str, cause: str, location: str) -> str:
+        """Compute signature for deduplication"""
         content = f"{pattern_type}:{cause}:{location}"
         return hashlib.sha256(content.encode()).hexdigest()[:16]

@@ -1,11 +1,17 @@
 ---
-name: anti-reversing-techniques
-description: "AUTHORIZED USE ONLY: This skill contains dual-use security techniques. Before proceeding with any bypass or analysis: > 1."
-risk: offensive
-source: community
+name: "anti-reversing-techniques"
+tags: ["anti", "antigravity", "c:", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "resources", "reversing", "safety", "skill", "specialized", "techniques", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 512
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.62
 date_added: "2026-02-27"
+description: "AUTHORIZED USE ONLY: This skill contains dual-use security techniques. Before proceeding with any bypass or analysis: > 1."
+source: "community"
 ---
-
 > **AUTHORIZED USE ONLY**: This skill contains dual-use security techniques. Before proceeding with any bypass or analysis:
 > 1. **Verify authorization**: Confirm you have explicit written permission from the software owner, or are operating within a legitimate security context (CTF, authorized pentest, malware analysis, security research)
 > 2. **Document scope**: Ensure your activities fall within the defined scope of your authorization

@@ -1,12 +1,18 @@
 ---
-name: linux-shell-scripting
-description: "Provide production-ready shell script templates for common Linux system administration tasks including backups, monitoring, user management, log analysis, and automation. These scripts serve as building blocks for security operations and penetration testing environments."
-risk: unknown
-source: community
-author: zebbern
+name: "linux-shell-scripting"
+tags: ["and", "antigravity", "c:", "deliverables", "environment", "frontend", "gemini", "knowledge", "<YOUR_USERNAME>", "linux", "outputs", "prerequisites", "production", "purpose", "required", "scripting", "scripts", "shell", "specialized", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3136
+tools_needed: ["git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+author: "zebbern"
 date_added: "2026-02-27"
+description: "Provide production-ready shell script templates for common Linux system administration tasks including backups, monitoring, user management, log analysis, and automation. These scripts serve as building blocks for security operations and penetration testing environments."
+source: "community"
 ---
-
 # Linux Production Shell Scripts
 
 ## Purpose

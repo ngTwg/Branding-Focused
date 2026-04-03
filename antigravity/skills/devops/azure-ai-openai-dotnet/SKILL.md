@@ -1,11 +1,17 @@
 ---
-name: azure-ai-openai-dotnet
-description: Azure OpenAI SDK for .NET. Client library for Azure OpenAI and OpenAI services. Use for chat completions, embeddings, image generation, audio transcription, and assistants.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "azure-ai-openai-dotnet"
+tags: ["ai", "antigravity", "authentication", "azure", "backend", "c:", "client", "compatibility", "devops", "dotnet", "environment", "for", "gemini", "hierarchy", "installation", "<YOUR_USERNAME>", "net", "non", "openai", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3196
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.97
+date_added: "2026-02-27"
+description: "Azure OpenAI SDK for .NET. Client library for Azure OpenAI and OpenAI services. Use for chat completions, embeddings, image generation, audio transcription, and assistants."
+source: "community"
 ---
-
 # Azure.AI.OpenAI (.NET)
 
 Client library for Azure OpenAI Service providing access to OpenAI models including GPT-4, GPT-4o, embeddings, DALL-E, and Whisper.

@@ -1,11 +1,17 @@
 ---
-name: data-storytelling
-description: "Transform raw data into compelling narratives that drive decisions and inspire action."
-risk: safe
-source: community
+name: "data-storytelling"
+tags: ["antigravity", "c:", "concepts", "core", "data", "data-engineering", "engineering", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "skill", "story", "storytelling", "structure", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2859
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Transform raw data into compelling narratives that drive decisions and inspire action."
+source: "community"
 ---
-
 # Data Storytelling
 
 Transform raw data into compelling narratives that drive decisions and inspire action.

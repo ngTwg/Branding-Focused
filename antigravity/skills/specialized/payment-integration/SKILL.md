@@ -1,11 +1,17 @@
 ---
-name: payment-integration
-description: Integrate Stripe, PayPal, and payment processors. Handles checkout flows, subscriptions, webhooks, and PCI compliance. Use PROACTIVELY when implementing payments, billing, or subscription features.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "payment-integration"
+tags: ["antigravity", "approach", "areas", "c:", "critical", "focus", "frontend", "gemini", "instructions", "integration", "<YOUR_USERNAME>", "not", "payment", "requirements", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 922
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.71
+date_added: "2026-02-27"
+description: "Integrate Stripe, PayPal, and payment processors. Handles checkout flows, subscriptions, webhooks, and PCI compliance. Use PROACTIVELY when implementing payments, billing, or subscription features."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on payment integration tasks or workflows

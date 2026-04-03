@@ -1,3 +1,14 @@
+---
+name: "Complete Agent Examples"
+tags: ["agent", "antigravity", "c:", "code", "complete", "consider", "critical", "deep", "deep-tech", "example", "examples", "fix", "fixing", "frontend", "gemini", "identifier", "issues", "<YOUR_USERNAME>", "major", "minor"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3529
+tools_needed: ["git", "markdown", "pytest", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.94
+---
 # Complete Agent Examples
 
 Full, production-ready agent examples for common use cases. Use these as templates for your own agents.

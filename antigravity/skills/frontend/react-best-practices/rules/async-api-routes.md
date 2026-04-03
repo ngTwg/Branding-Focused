@@ -1,10 +1,17 @@
 ---
-title: Prevent Waterfall Chains in API Routes
-impact: CRITICAL
-impactDescription: 2-10× improvement
-tags: api-routes, server-actions, waterfalls, parallelization
+name: "Prevent Waterfall Chains in API Routes"
+tags: ["api-routes, server-actions, waterfalls, parallelization"]
+tier: 2
+risk: "medium"
+estimated_tokens: 281
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.56
+impact: "CRITICAL"
+impactDescription: "2-10× improvement"
+title: "Prevent Waterfall Chains in API Routes"
 ---
-
 ## Prevent Waterfall Chains in API Routes
 
 In API routes and Server Actions, start independent operations immediately, even if you don't await them yet.

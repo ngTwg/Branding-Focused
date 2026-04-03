@@ -1,3 +1,14 @@
+---
+name: "Generative AI Tools for Ad Creative"
+tags: ["ad", "antigravity", "api", "banana", "black", "c:", "creative", "flux", "for", "forest", "frontend", "gemini", "generation", "generative", "image", "labs", "<YOUR_USERNAME>", "nano", "pro", "references"]
+tier: 3
+risk: "medium"
+estimated_tokens: 5956
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Generative AI Tools for Ad Creative
 
 Reference for using AI image generators, video generators, and code-based video tools to produce ad visuals at scale.

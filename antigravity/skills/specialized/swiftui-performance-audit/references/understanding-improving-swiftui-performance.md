@@ -1,3 +1,14 @@
+---
+name: "Understanding and Improving SwiftUI Performance (Summary)"
+tags: ["and", "antigravity", "audit", "body", "c:", "concepts", "core", "diagnose", "frequent", "frontend", "gemini", "improving", "instruments", "lanes", "<YOUR_USERNAME>", "long", "performance", "references", "specialized", "summary"]
+tier: 2
+risk: "medium"
+estimated_tokens: 565
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.66
+---
 # Understanding and Improving SwiftUI Performance (Summary)
 
 Context: Apple guidance on diagnosing SwiftUI performance with Instruments and applying design patterns to reduce long or frequent updates.

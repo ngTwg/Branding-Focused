@@ -1,10 +1,17 @@
 ---
-title: Early Length Check for Array Comparisons
-impact: MEDIUM-HIGH
-impactDescription: avoids expensive operations when lengths differ
-tags: javascript, arrays, performance, optimization, comparison
+name: "Early Length Check for Array Comparisons"
+tags: ["javascript, arrays, performance, optimization, comparison"]
+tier: 2
+risk: "medium"
+estimated_tokens: 438
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.58
+impact: "MEDIUM-HIGH"
+impactDescription: "avoids expensive operations when lengths differ"
+title: "Early Length Check for Array Comparisons"
 ---
-
 ## Early Length Check for Array Comparisons
 
 When comparing arrays with expensive operations (sorting, deep equality, serialization), check lengths first. If lengths differ, the arrays cannot be equal.

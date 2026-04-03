@@ -1,3 +1,14 @@
+---
+name: "ComfyUI Gateway -- Troubleshooting Guide"
+tags: ["antigravity", "c:", "comfyui", "comfyui_url", "configured", "connectivity", "contents", "from", "frontend", "gateway", "gemini", "guide", "have", "host", "<YOUR_USERNAME>", "not", "reachable", "references", "specialized", "table"]
+tier: 2
+risk: "medium"
+estimated_tokens: 7382
+tools_needed: ["docker", "git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # ComfyUI Gateway -- Troubleshooting Guide
 
 Comprehensive troubleshooting reference for diagnosing and resolving issues with the

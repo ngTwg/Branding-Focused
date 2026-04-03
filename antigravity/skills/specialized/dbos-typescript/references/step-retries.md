@@ -1,10 +1,17 @@
 ---
-title: Configure Step Retries for Transient Failures
-impact: HIGH
-impactDescription: Automatic retries handle transient failures without manual code
-tags: step, retry, exponential-backoff, resilience
+name: "Configure Step Retries for Transient Failures"
+tags: ["step, retry, exponential-backoff, resilience"]
+tier: 2
+risk: "medium"
+estimated_tokens: 489
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.61
+impact: "HIGH"
+impactDescription: "Automatic retries handle transient failures without manual code"
+title: "Configure Step Retries for Transient Failures"
 ---
-
 ## Configure Step Retries for Transient Failures
 
 Steps can automatically retry on failure with exponential backoff. This handles transient failures like network issues.

@@ -1,13 +1,19 @@
 ---
-name: matplotlib
+name: "matplotlib"
+tags: ["antigravity", "c:", "concepts", "core", "frontend", "gemini", "hierarchy", "interfaces", "<YOUR_USERNAME>", "matplotlib", "overview", "skill", "specialized", "the", "this", "two", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2799
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 description: "Matplotlib is Python's foundational visualization library for creating static, animated, and interactive plots."
-license: https://github.com/matplotlib/matplotlib/tree/main/LICENSE
-metadata:
-    skill-author: K-Dense Inc.
-risk: unknown
-source: community
+license: "https://github.com/matplotlib/matplotlib/tree/main/LICENSE"
+metadata: ""
+skill-author: "K-Dense Inc."
+source: "community"
 ---
-
 # Matplotlib
 
 ## Overview

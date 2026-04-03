@@ -1,11 +1,17 @@
 ---
-name: macos-spm-app-packaging
-description: Scaffold, build, sign, and package SwiftPM macOS apps without Xcode projects.
-risk: safe
-source: "Dimillian/Skills (MIT)"
+name: "macos-spm-app-packaging"
+tags: ["and", "antigravity", "app", "c:", "copy", "end", "example", "frontend", "gemini", "<YOUR_USERNAME>", "macos", "minimum", "overview", "packaging", "rename", "skeleton", "specialized", "spm", "step", "swiftpm"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1234
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
 date_added: "2026-03-25"
+description: "Scaffold, build, sign, and package SwiftPM macOS apps without Xcode projects."
+source: "Dimillian/Skills (MIT)"
 ---
-
 # macOS SwiftPM App Packaging (No Xcode)
 
 ## Overview

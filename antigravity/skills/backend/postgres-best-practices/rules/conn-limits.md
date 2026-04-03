@@ -1,10 +1,17 @@
 ---
-title: Set Appropriate Connection Limits
-impact: CRITICAL
-impactDescription: Prevent database crashes and memory exhaustion
-tags: connections, max-connections, limits, stability
+name: "Set Appropriate Connection Limits"
+tags: ["connections, max-connections, limits, stability"]
+tier: 2
+risk: "medium"
+estimated_tokens: 331
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
+impact: "CRITICAL"
+impactDescription: "Prevent database crashes and memory exhaustion"
+title: "Set Appropriate Connection Limits"
 ---
-
 ## Set Appropriate Connection Limits
 
 Too many connections exhaust memory and degrade performance. Set limits based on available resources.

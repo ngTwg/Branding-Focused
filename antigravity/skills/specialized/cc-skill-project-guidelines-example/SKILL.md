@@ -1,11 +1,17 @@
 ---
-name: cc-skill-project-guidelines-example
-description: "Project Guidelines Skill (Example)"
-risk: unknown
-source: community
+name: "cc-skill-project-guidelines-example"
+tags: ["antigravity", "api", "architecture", "c:", "cc", "code", "example", "fastapi", "file", "format", "frontend", "gemini", "guidelines", "<YOUR_USERNAME>", "overview", "patterns", "project", "response", "skill", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2210
+tools_needed: ["markdown", "playwright", "pytest", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.93
 date_added: "2026-02-27"
+description: "Project Guidelines Skill (Example)"
+source: "community"
 ---
-
 # Project Guidelines Skill (Example)
 
 This is an example of a project-specific skill. Use this as a template for your own projects.

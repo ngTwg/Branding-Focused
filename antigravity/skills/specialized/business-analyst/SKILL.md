@@ -1,11 +1,17 @@
 ---
-name: business-analyst
-description: Master modern business analysis with AI-powered analytics, real-time dashboards, and data-driven insights. Build comprehensive KPI frameworks, predictive models, and strategic recommendations.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "business-analyst"
+tags: ["analyst", "analytics", "and", "antigravity", "business", "c:", "capabilities", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "modern", "not", "platforms", "purpose", "skill", "specialized", "this", "tools", "use"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1945
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.79
+date_added: "2026-02-27"
+description: "Master modern business analysis with AI-powered analytics, real-time dashboards, and data-driven insights. Build comprehensive KPI frameworks, predictive models, and strategic recommendations."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on business analyst tasks or workflows

@@ -1,11 +1,17 @@
 ---
-name: azure-mgmt-applicationinsights-dotnet
-description: Azure Application Insights SDK for .NET. Application performance monitoring and observability resource management.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "azure-mgmt-applicationinsights-dotnet"
+tags: ["antigravity", "applicationinsights", "authentication", "azure", "backend", "c:", "core", "devops", "dotnet", "environment", "gemini", "hierarchy", "installation", "<YOUR_USERNAME>", "mgmt", "net", "resource", "resourcemanager", "users", "variables"]
+tier: 3
+risk: "medium"
+estimated_tokens: 4332
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.97
+date_added: "2026-02-27"
+description: "Azure Application Insights SDK for .NET. Application performance monitoring and observability resource management."
+source: "community"
 ---
-
 # Azure.ResourceManager.ApplicationInsights (.NET)
 
 Azure Resource Manager SDK for managing Application Insights resources for application performance monitoring.

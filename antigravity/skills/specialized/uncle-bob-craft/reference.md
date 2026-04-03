@@ -1,3 +1,14 @@
+---
+name: "Uncle Bob Craft — Expanded Reference"
+tags: ["adapters", "and", "antigravity", "architecture", "bob", "c:", "clean", "component", "context", "craft", "dependency", "design", "expanded", "frontend", "gemini", "hexagonal", "layers", "<YOUR_USERNAME>", "ports", "reference"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1868
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.77
+---
 # Uncle Bob Craft — Expanded Reference
 
 This document expands the criteria referenced in the main skill. Sources: *Clean Code*, *Clean Architecture*, *The Clean Coder*, *Clean Agile* (Robert C. Martin). Use for progressive disclosure when you need full lists or deeper context.

@@ -1,10 +1,17 @@
 ---
-title: Run Concurrent Steps with Go and Select
-impact: HIGH
-impactDescription: Enables parallel execution of steps with durable checkpointing
-tags: step, concurrency, goroutine, select, parallel
+name: "Run Concurrent Steps with Go and Select"
+tags: ["step, concurrency, goroutine, select, parallel"]
+tier: 2
+risk: "medium"
+estimated_tokens: 604
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.63
+impact: "HIGH"
+impactDescription: "Enables parallel execution of steps with durable checkpointing"
+title: "Run Concurrent Steps with Go and Select"
 ---
-
 ## Run Concurrent Steps with Go and Select
 
 Use `dbos.Go` to run steps concurrently in goroutines and `dbos.Select` to durably select the first completed result. Both operations are checkpointed for recovery.

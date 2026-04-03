@@ -1,11 +1,17 @@
 ---
-name: dbt-transformation-patterns
-description: "Production-ready patterns for dbt (data build tool) including model organization, testing strategies, documentation, and incremental processing."
-risk: none
-source: community
+name: "dbt-transformation-patterns"
+tags: ["antigravity", "c:", "dbt", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "patterns", "resources", "skill", "specialized", "this", "transformation", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 325
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
 date_added: "2026-02-27"
+description: "Production-ready patterns for dbt (data build tool) including model organization, testing strategies, documentation, and incremental processing."
+source: "community"
 ---
-
 # dbt Transformation Patterns
 
 Production-ready patterns for dbt (data build tool) including model organization, testing strategies, documentation, and incremental processing.

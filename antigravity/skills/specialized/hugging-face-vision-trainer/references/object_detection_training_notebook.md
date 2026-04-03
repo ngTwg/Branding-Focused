@@ -1,3 +1,14 @@
+---
+name: "Object Detection Training Reference"
+tags: ["antigravity", "c:", "compute", "contents", "cppe", "data", "dataset", "detection", "face", "frontend", "function", "gemini", "hugging", "<YOUR_USERNAME>", "load", "map", "model", "notebook", "object", "preparing"]
+tier: 4
+risk: "medium"
+estimated_tokens: 7475
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Object Detection Training Reference
 
 ## Contents

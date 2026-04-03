@@ -1,11 +1,17 @@
 ---
-name: react-flow-node-ts
-description: "Create React Flow node components following established patterns with proper TypeScript types and store integration."
-risk: unknown
-source: community
+name: "react-flow-node-ts"
+tags: ["antigravity", "c:", "component", "definition", "flow", "frontend", "gemini", "integration", "<YOUR_USERNAME>", "node", "pattern", "quick", "react", "start", "steps", "templates", "ts", "type", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 484
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.71
 date_added: "2026-02-27"
+description: "Create React Flow node components following established patterns with proper TypeScript types and store integration."
+source: "community"
 ---
-
 # React Flow Node
 
 Create React Flow node components following established patterns with proper TypeScript types and store integration.

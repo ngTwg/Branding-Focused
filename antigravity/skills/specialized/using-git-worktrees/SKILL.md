@@ -1,11 +1,17 @@
 ---
-name: using-git-worktrees
-description: "Git worktrees create isolated workspaces sharing the same repository, allowing work on multiple branches simultaneously without switching."
-risk: critical
-source: community
+name: "using-git-worktrees"
+tags: ["antigravity", "c:", "check", "claude", "directories", "directory", "existing", "frontend", "gemini", "git", "<YOUR_USERNAME>", "order", "overview", "priority", "process", "selection", "specialized", "users", "using", "worktrees"]
+tier: 2
+risk: "critical"
+estimated_tokens: 1422
+tools_needed: ["git", "markdown", "pytest", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.92
 date_added: "2026-02-27"
+description: "Git worktrees create isolated workspaces sharing the same repository, allowing work on multiple branches simultaneously without switching."
+source: "community"
 ---
-
 # Using Git Worktrees
 
 ## Overview

@@ -1,11 +1,17 @@
 ---
-name: debugging-strategies
-description: "Transform debugging from frustrating guesswork into systematic problem-solving with proven strategies, powerful tools, and methodical approaches."
-risk: safe
-source: community
+name: "debugging-strategies"
+tags: ["antigravity", "c:", "debugging", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "resources", "skill", "specialized", "strategies", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 307
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
 date_added: "2026-02-27"
+description: "Transform debugging from frustrating guesswork into systematic problem-solving with proven strategies, powerful tools, and methodical approaches."
+source: "community"
 ---
-
 # Debugging Strategies
 
 Transform debugging from frustrating guesswork into systematic problem-solving with proven strategies, powerful tools, and methodical approaches.

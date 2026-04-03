@@ -1,11 +1,17 @@
 ---
-name: shopify-automation
-description: "Automate Shopify tasks via Rube MCP (Composio): products, orders, customers, inventory, collections. Always search tools first for current schemas."
-risk: unknown
-source: community
+name: "shopify-automation"
+tags: ["antigravity", "automation", "c:", "core", "frontend", "gemini", "<YOUR_USERNAME>", "manage", "mcp", "orders", "prerequisites", "products", "rube", "setup", "shopify", "specialized", "users", "via", "workflows"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1511
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.77
 date_added: "2026-02-27"
+description: "Automate Shopify tasks via Rube MCP (Composio): products, orders, customers, inventory, collections. Always search tools first for current schemas."
+source: "community"
 ---
-
 # Shopify Automation via Rube MCP
 
 Automate Shopify operations through Composio's Shopify toolkit via Rube MCP.

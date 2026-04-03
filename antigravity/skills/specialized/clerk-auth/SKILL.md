@@ -1,11 +1,17 @@
 ---
-name: clerk-auth
-description: "Expert patterns for Clerk auth implementation, middleware, organizations, webhooks, and user sync Use when: adding authentication, clerk auth, user authentication, sign in, sign up."
-risk: safe
-source: "vibeship-spawner-skills (Apache 2.0)"
+name: "clerk-auth"
+tags: ["antigravity", "app", "auth", "authentication", "c:", "clerk", "component", "edges", "frontend", "gemini", "<YOUR_USERNAME>", "middleware", "next", "patterns", "protection", "route", "router", "server", "setup", "sharp"]
+tier: 2
+risk: "medium"
+estimated_tokens: 410
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.65
 date_added: "2026-02-27"
+description: "Expert patterns for Clerk auth implementation, middleware, organizations, webhooks, and user sync Use when: adding authentication, clerk auth, user authentication, sign in, sign up."
+source: "vibeship-spawner-skills (Apache 2.0)"
 ---
-
 # Clerk Authentication
 
 ## Patterns

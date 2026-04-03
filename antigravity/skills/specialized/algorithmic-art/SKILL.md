@@ -1,11 +1,17 @@
 ---
-name: algorithmic-art
-description: "Algorithmic philosophies are computational aesthetic movements that are then expressed through code. Output .md files (philosophy), .html files (interactive viewer), and .js files (generative algorithms)."
-risk: unknown
-source: community
+name: "algorithmic-art"
+tags: ["algorithmic", "antigravity", "art", "c:", "conceptual", "creation", "critical", "deducing", "essential", "examples", "frontend", "gemini", "generate", "how", "<YOUR_USERNAME>", "philosophy", "principles", "seed", "specialized", "the"]
+tier: 4
+risk: "medium"
+estimated_tokens: 4934
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.96
 date_added: "2026-02-27"
+description: "Algorithmic philosophies are computational aesthetic movements that are then expressed through code. Output .md files (philosophy), .html files (interactive viewer), and .js files (generative algorithms)."
+source: "community"
 ---
-
 Algorithmic philosophies are computational aesthetic movements that are then expressed through code. Output .md files (philosophy), .html files (interactive viewer), and .js files (generative algorithms).
 
 This happens in two steps:

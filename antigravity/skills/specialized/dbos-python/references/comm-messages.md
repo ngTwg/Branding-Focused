@@ -1,10 +1,17 @@
 ---
-title: Use Messages for Workflow Notifications
-impact: MEDIUM
-impactDescription: Enables external signals to control workflow execution
-tags: messages, send, recv, notifications
+name: "Use Messages for Workflow Notifications"
+tags: ["messages, send, recv, notifications"]
+tier: 2
+risk: "medium"
+estimated_tokens: 390
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.59
+impact: "MEDIUM"
+impactDescription: "Enables external signals to control workflow execution"
+title: "Use Messages for Workflow Notifications"
 ---
-
 ## Use Messages for Workflow Notifications
 
 Send messages to workflows to signal or notify them while running. Messages are persisted and queued per topic.

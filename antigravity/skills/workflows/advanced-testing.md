@@ -1,3 +1,14 @@
+---
+name: "Advanced Testing Strategies & Anti-patterns"
+tags: ["advanced", "anti", "antigravity", "c:", "contents", "for", "frontend", "gemini", "<YOUR_USERNAME>", "mapping", "overview", "patterns", "skill", "skills", "strategies", "subagents", "table", "tdd", "testing", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 9677
+tools_needed: ["markdown", "mcp", "playwright", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Advanced Testing Strategies & Anti-patterns
 
 ## 📋 Table of Contents

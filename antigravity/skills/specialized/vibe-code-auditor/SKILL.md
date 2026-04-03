@@ -1,13 +1,19 @@
 ---
-name: vibe-code-auditor
-description: Audit rapidly generated or AI-produced code for structural flaws, fragility, and production risks.
-risk: safe
-source: original
+name: "vibe-code-auditor"
+tags: ["antigravity", "audit", "auditor", "c:", "checklist", "code", "dimensions", "frontend", "gemini", "identity", "<YOUR_USERNAME>", "pre", "purpose", "specialized", "use", "users", "vibe", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3866
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-28"
-metadata:
-  version: 2.0.0
+description: "Audit rapidly generated or AI-produced code for structural flaws, fragility, and production risks."
+metadata: ""
+source: "original"
+version: "2.0.0"
 ---
-
 # Vibe Code Auditor
 
 ## Identity

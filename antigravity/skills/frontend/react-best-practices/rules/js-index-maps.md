@@ -1,10 +1,17 @@
 ---
-title: Build Index Maps for Repeated Lookups
-impact: LOW-MEDIUM
-impactDescription: 1M ops to 2K ops
-tags: javascript, map, indexing, optimization, performance
+name: "Build Index Maps for Repeated Lookups"
+tags: ["javascript, map, indexing, optimization, performance"]
+tier: 2
+risk: "medium"
+estimated_tokens: 208
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.56
+impact: "LOW-MEDIUM"
+impactDescription: "1M ops to 2K ops"
+title: "Build Index Maps for Repeated Lookups"
 ---
-
 ## Build Index Maps for Repeated Lookups
 
 Multiple `.find()` calls by the same key should use a Map.

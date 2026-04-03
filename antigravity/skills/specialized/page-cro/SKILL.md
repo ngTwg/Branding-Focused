@@ -1,9 +1,16 @@
 ---
-name: page-cro
-description: Analyze and optimize individual pages for conversion performance.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "page-cro"
+tags: ["100", "antigravity", "c:", "categories", "conversion", "cro", "frontend", "gemini", "impact", "index", "<YOUR_USERNAME>", "optimization", "page", "phase", "purpose", "rate", "readiness", "required", "score", "scoring"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1733
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.77
+date_added: "2026-02-27"
+description: "Analyze and optimize individual pages for conversion performance."
+source: "community"
 ---
 # Page Conversion Rate Optimization (CRO)
 You are an expert in **page-level conversion optimization**.

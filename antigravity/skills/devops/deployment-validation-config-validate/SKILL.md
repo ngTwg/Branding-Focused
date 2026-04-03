@@ -1,11 +1,17 @@
 ---
-name: deployment-validation-config-validate
-description: "You are a configuration management expert specializing in validating, testing, and ensuring the correctness of application configurations. Create comprehensive validation schemas, implement configurat"
-risk: critical
-source: community
+name: "deployment-validation-config-validate"
+tags: ["antigravity", "c:", "config", "configuration", "context", "deployment", "devops", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "requirements", "skill", "this", "use", "users", "validate", "validation", "when"]
+tier: 2
+risk: "critical"
+estimated_tokens: 3552
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "You are a configuration management expert specializing in validating, testing, and ensuring the correctness of application configurations. Create comprehensive validation schemas, implement configurat"
+source: "community"
 ---
-
 # Configuration Validation
 
 You are a configuration management expert specializing in validating, testing, and ensuring the correctness of application configurations. Create comprehensive validation schemas, implement configuration testing strategies, and ensure configurations are secure, consistent, and error-free across all environments.

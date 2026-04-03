@@ -1,11 +1,17 @@
 ---
-name: expo-deployment
-description: "Deploy Expo apps to production"
-risk: safe
-source: "https://github.com/expo/skills/tree/main/plugins/expo-deployment"
+name: "expo-deployment"
+tags: ["antigravity", "c:", "deployment", "expo", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "overview", "pre", "skill", "specialized", "this", "use", "users", "when", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 517
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.68
 date_added: "2026-02-27"
+description: "Deploy Expo apps to production"
+source: "https://github.com/expo/skills/tree/main/plugins/expo-deployment"
 ---
-
 # Expo Deployment
 
 ## Overview

@@ -1,10 +1,17 @@
 ---
-title: Use Explicit Conditional Rendering
-impact: LOW
-impactDescription: prevents rendering 0 or NaN
-tags: rendering, conditional, jsx, falsy-values
+name: "Use Explicit Conditional Rendering"
+tags: ["rendering, conditional, jsx, falsy-values"]
+tier: 2
+risk: "medium"
+estimated_tokens: 245
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.56
+impact: "LOW"
+impactDescription: "prevents rendering 0 or NaN"
+title: "Use Explicit Conditional Rendering"
 ---
-
 ## Use Explicit Conditional Rendering
 
 Use explicit ternary operators (`? :`) instead of `&&` for conditional rendering when the condition can be `0`, `NaN`, or other falsy values that render.

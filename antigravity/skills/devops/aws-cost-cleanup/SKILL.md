@@ -1,11 +1,17 @@
 ---
-name: aws-cost-cleanup
-description: "Automated cleanup of unused AWS resources to reduce costs"
-risk: safe
-source: community
+name: "aws-cost-cleanup"
+tags: ["antigravity", "automated", "aws", "backend", "c:", "cleanup", "cost", "devops", "dry", "ebs", "first", "gemini", "<YOUR_USERNAME>", "run", "safe", "scripts", "skill", "targets", "this", "unused"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1995
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.95
 date_added: "2026-02-27"
+description: "Automated cleanup of unused AWS resources to reduce costs"
+source: "community"
 ---
-
 # AWS Cost Cleanup
 
 Automate the identification and removal of unused AWS resources to eliminate waste.

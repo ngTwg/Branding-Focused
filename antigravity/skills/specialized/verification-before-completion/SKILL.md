@@ -1,11 +1,17 @@
 ---
-name: verification-before-completion
-description: "Claiming work is complete without verification is dishonesty, not efficiency. Use when ANY variation of success/completion claims, ANY expression of satisfaction, or ANY positive statement about work state."
-risk: unknown
-source: community
+name: "verification-before-completion"
+tags: ["antigravity", "before", "c:", "common", "completion", "failures", "flags", "frontend", "function", "gate", "gemini", "iron", "law", "<YOUR_USERNAME>", "overview", "red", "specialized", "stop", "the", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1072
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.89
 date_added: "2026-02-27"
+description: "Claiming work is complete without verification is dishonesty, not efficiency. Use when ANY variation of success/completion claims, ANY expression of satisfaction, or ANY positive statement about work state."
+source: "community"
 ---
-
 # Verification Before Completion
 
 ## Overview

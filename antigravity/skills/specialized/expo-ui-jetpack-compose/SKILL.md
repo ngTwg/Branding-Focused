@@ -1,10 +1,16 @@
 ---
-name: expo-ui-jetpack-compose
-description: expo-ui-jetpack-compose
-risk: unknown
-source: community
+name: "expo-ui-jetpack-compose"
+tags: ["antigravity", "c:", "components", "compose", "expo", "frontend", "gemini", "installation", "instructions", "jetpack", "key", "<YOUR_USERNAME>", "specialized", "ui", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 519
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.64
+description: "expo-ui-jetpack-compose"
+source: "community"
 ---
-
 ---
 name: expo-ui-jetpack-compose
 description: `@expo/ui/jetpack-compose` package lets you use Jetpack Compose Views and modifiers in your app.

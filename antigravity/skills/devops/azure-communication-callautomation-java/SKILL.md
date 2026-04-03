@@ -1,11 +1,17 @@
 ---
-name: azure-communication-callautomation-java
-description: "Build server-side call automation workflows including IVR systems, call routing, recording, and AI-powered interactions."
-risk: unknown
-source: community
+name: "azure-communication-callautomation-java"
+tags: ["answer", "antigravity", "automation", "azure", "c:", "call", "callautomation", "client", "communication", "concepts", "create", "creation", "devops", "frontend", "gemini", "incoming", "installation", "java", "key", "<YOUR_USERNAME>"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2094
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.92
 date_added: "2026-02-27"
+description: "Build server-side call automation workflows including IVR systems, call routing, recording, and AI-powered interactions."
+source: "community"
 ---
-
 # Azure Communication Call Automation (Java)
 
 Build server-side call automation workflows including IVR systems, call routing, recording, and AI-powered interactions.

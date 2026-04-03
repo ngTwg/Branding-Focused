@@ -1,13 +1,19 @@
 ---
-name: biopython
+name: "biopython"
+tags: ["and", "antigravity", "api", "biology", "biopython", "c:", "capabilities", "computational", "core", "for", "frontend", "gemini", "higher", "installation", "instead", "key", "<YOUR_USERNAME>", "limits", "molecular", "optional"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3455
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 description: "Biopython is a comprehensive set of freely available Python tools for biological computation. It provides functionality for sequence manipulation, file I/O, database access, structural bioinformatics, phylogenetics, and many other bioinformatics tasks."
-license: Unknown
-metadata:
-    skill-author: K-Dense Inc.
-risk: unknown
+license: "Unknown"
+metadata: ""
+skill-author: "K-Dense Inc."
 source: "https://github.com/biopython/biopython"
 ---
-
 # Biopython: Computational Molecular Biology in Python
 
 ## Overview

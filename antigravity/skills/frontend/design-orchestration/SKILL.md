@@ -1,11 +1,17 @@
 ---
-name: design-orchestration
-description: Orchestrates design workflows by routing work through brainstorming, multi-agent review, and execution readiness in the correct order.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "design-orchestration"
+tags: ["antigravity", "c:", "conditions", "controlled", "design", "entry", "frontend", "gemini", "<YOUR_USERNAME>", "logic", "meta", "model", "operating", "orchestration", "purpose", "routing", "skill", "skills", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 871
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.71
+date_added: "2026-02-27"
+description: "Orchestrates design workflows by routing work through brainstorming, multi-agent review, and execution readiness in the correct order."
+source: "community"
 ---
-
 # Design Orchestration (Meta-Skill)
 
 ## Purpose

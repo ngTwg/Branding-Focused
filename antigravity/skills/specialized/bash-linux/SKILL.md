@@ -1,11 +1,17 @@
 ---
-name: bash-linux
-description: "Bash/Linux terminal patterns. Critical commands, piping, error handling, scripting. Use when working on macOS or Linux systems."
-risk: unknown
-source: community
+name: "bash-linux"
+tags: ["antigravity", "bash", "c:", "chaining", "commands", "essential", "file", "frontend", "gemini", "<YOUR_USERNAME>", "linux", "management", "operations", "operator", "patterns", "process", "specialized", "syntax", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1066
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.89
 date_added: "2026-02-27"
+description: "Bash/Linux terminal patterns. Critical commands, piping, error handling, scripting. Use when working on macOS or Linux systems."
+source: "community"
 ---
-
 # Bash Linux Patterns
 
 > Essential patterns for Bash on Linux/macOS.

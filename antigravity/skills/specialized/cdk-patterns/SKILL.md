@@ -1,9 +1,16 @@
 ---
-name: cdk-patterns
-description: "Common AWS CDK patterns and constructs for building cloud infrastructure with TypeScript, Python, or Java. Use when designing reusable CDK stacks and L3 constructs."
-risk: unknown
-source: community
+name: "cdk-patterns"
+tags: ["antigravity", "api", "best", "c:", "cdk", "example", "examples", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "pattern", "patterns", "practices", "serverless", "skill", "specialized", "this", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 735
+tools_needed: ["markdown", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.70
 date_added: "2026-02-27"
+description: "Common AWS CDK patterns and constructs for building cloud infrastructure with TypeScript, Python, or Java. Use when designing reusable CDK stacks and L3 constructs."
+source: "community"
 ---
 You are an expert in AWS Cloud Development Kit (CDK) specializing in reusable patterns, L2/L3 constructs, and production-grade infrastructure stacks.
 

@@ -1,11 +1,17 @@
 ---
-name: api-testing-observability-api-mock
-description: "You are an API mocking expert specializing in realistic mock services for development, testing, and demos. Design mocks that simulate real API behavior and enable parallel development."
-risk: unknown
-source: community
+name: "api-testing-observability-api-mock"
+tags: ["antigravity", "api", "backend", "c:", "context", "framework", "frontend", "gemini", "<YOUR_USERNAME>", "mock", "mocking", "not", "observability", "requirements", "safety", "skill", "testing", "this", "use", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 492
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.68
 date_added: "2026-02-27"
+description: "You are an API mocking expert specializing in realistic mock services for development, testing, and demos. Design mocks that simulate real API behavior and enable parallel development."
+source: "community"
 ---
-
 # API Mocking Framework
 
 You are an API mocking expert specializing in creating realistic mock services for development, testing, and demonstration purposes. Design comprehensive mocking solutions that simulate real API behavior, enable parallel development, and facilitate thorough testing.

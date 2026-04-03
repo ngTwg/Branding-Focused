@@ -1,11 +1,17 @@
 ---
-name: git-pr-workflows-git-workflow
-description: "Orchestrate a comprehensive git workflow from code review through PR creation, leveraging specialized agents for quality assurance, testing, and deployment readiness. This workflow implements modern g"
-risk: critical
-source: community
+name: "git-pr-workflows-git-workflow"
+tags: ["agent", "analysis", "and", "antigravity", "c:", "commit", "complete", "configuration", "frontend", "gemini", "git", "instructions", "<YOUR_USERNAME>", "multi", "not", "orchestration", "phase", "pr", "pre", "review"]
+tier: 3
+risk: "critical"
+estimated_tokens: 2531
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 date_added: "2026-02-27"
+description: "Orchestrate a comprehensive git workflow from code review through PR creation, leveraging specialized agents for quality assurance, testing, and deployment readiness. This workflow implements modern g"
+source: "community"
 ---
-
 # Complete Git Workflow with Multi-Agent Orchestration
 
 Orchestrate a comprehensive git workflow from code review through PR creation, leveraging specialized agents for quality assurance, testing, and deployment readiness. This workflow implements modern git best practices including Conventional Commits, automated testing, and structured PR creation.

@@ -1,11 +1,17 @@
 ---
-name: linkerd-patterns
-description: "Production patterns for Linkerd service mesh - the lightweight, security-first service mesh for Kubernetes."
-risk: critical
-source: community
+name: "linkerd-patterns"
+tags: ["antigravity", "architecture", "c:", "concepts", "core", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "linkerd", "not", "patterns", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "critical"
+estimated_tokens: 1891
+tools_needed: ["kubernetes", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.93
 date_added: "2026-02-27"
+description: "Production patterns for Linkerd service mesh - the lightweight, security-first service mesh for Kubernetes."
+source: "community"
 ---
-
 <!-- security-allowlist: curl-pipe-bash -->
 
 # Linkerd Patterns

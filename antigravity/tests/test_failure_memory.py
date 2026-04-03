@@ -9,15 +9,15 @@ import tempfile
 from pathlib import Path
 from datetime import datetime, timedelta
 
-from core.failure_memory import (
+from antigravity.core.failure_memory import (
     FailureMemory,
     FailureMemoryStore,
     FailureMemoryRetriever,
     FailureEntry
 )
-from core.schemas import FailureSurface, FailurePattern, FailureLesson
-from core.pattern_extractor import PatternExtractor
-from core.pattern_extractor_v2 import PatternExtractorV2
+from antigravity.core.schemas import FailureSurface, FailurePattern, FailureLesson
+from antigravity.core.pattern_extractor import PatternExtractorV2 as PatternExtractor
+from antigravity.core.pattern_extractor import PatternExtractorV2
 
 
 class TestPatternExtractor:

@@ -1,3 +1,14 @@
+---
+name: "ComfyUI Gateway -- Integration Guide"
+tags: ["antigravity", "c:", "capabilities", "check", "comfyui", "contents", "curl", "examples", "frontend", "gateway", "gemini", "guide", "health", "integration", "<YOUR_USERNAME>", "list", "references", "specialized", "table", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 11562
+tools_needed: ["docker", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # ComfyUI Gateway -- Integration Guide
 
 Complete integration reference with ready-to-use code examples for every endpoint

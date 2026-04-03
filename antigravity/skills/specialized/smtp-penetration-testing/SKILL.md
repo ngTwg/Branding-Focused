@@ -1,12 +1,18 @@
 ---
-name: smtp-penetration-testing
-description: "Conduct comprehensive security assessments of SMTP (Simple Mail Transfer Protocol) servers to identify vulnerabilities including open relays, user enumeration, weak authentication, and misconfiguration."
-risk: offensive
-source: community
-author: zebbern
+name: "smtp-penetration-testing"
+tags: ["antigravity", "c:", "frontend", "gemini", "<YOUR_USERNAME>", "netcat", "nmap", "penetration", "prerequisites", "purpose", "required", "scripts", "smtp", "specialized", "testing", "tools", "users", "with"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3081
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+author: "zebbern"
 date_added: "2026-02-27"
+description: "Conduct comprehensive security assessments of SMTP (Simple Mail Transfer Protocol) servers to identify vulnerabilities including open relays, user enumeration, weak authentication, and misconfiguration."
+source: "community"
 ---
-
 > AUTHORIZED USE ONLY: Use this skill only for authorized security assessments, defensive validation, or controlled educational environments.
 
 # SMTP Penetration Testing

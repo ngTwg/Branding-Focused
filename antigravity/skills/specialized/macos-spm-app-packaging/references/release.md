@@ -1,3 +1,14 @@
+---
+name: "Release and notarization notes"
+tags: ["and", "antigravity", "app", "appcast", "c:", "frontend", "gemini", "github", "<YOUR_USERNAME>", "macos", "notarization", "notes", "optional", "packaging", "references", "release", "requirements", "sparkle", "specialized", "spm"]
+tier: 2
+risk: "medium"
+estimated_tokens: 312
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.59
+---
 # Release and notarization notes
 
 ## Notarization requirements

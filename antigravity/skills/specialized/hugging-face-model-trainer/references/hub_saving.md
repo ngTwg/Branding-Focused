@@ -1,3 +1,14 @@
+---
+name: "Saving Training Results to Hugging Face Hub"
+tags: ["antigravity", "c:", "complete", "configuration", "example", "face", "frontend", "gemini", "hub", "hugging", "job", "<YOUR_USERNAME>", "model", "push", "references", "required", "results", "saving", "specialized", "trainer"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2117
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.94
+---
 # Saving Training Results to Hugging Face Hub
 
 **⚠️ CRITICAL:** Training environments are ephemeral. ALL results are lost when a job completes unless pushed to the Hub.

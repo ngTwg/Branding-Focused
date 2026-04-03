@@ -1,3 +1,14 @@
+---
+name: "Template Metaprogramming"
+tags: ["and", "antigravity", "c:", "constexpr", "cpp", "crtp", "curiously", "frontend", "gemini", "<YOUR_USERNAME>", "metaprogramming", "parameters", "pattern", "pro", "recurring", "references", "sfinae", "specialized", "template", "templates"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1977
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.92
+---
 # Template Metaprogramming
 
 ## Variadic Templates

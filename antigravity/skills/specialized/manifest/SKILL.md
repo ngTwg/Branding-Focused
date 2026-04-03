@@ -1,11 +1,17 @@
 ---
-name: manifest
-description: "Install and configure the Manifest observability plugin for your agents. Use when setting up telemetry, configuring API keys, or troubleshooting the plugin."
-risk: unknown
-source: community
+name: "manifest"
+tags: ["antigravity", "c:", "frontend", "gateway", "gemini", "install", "instructions", "<YOUR_USERNAME>", "manifest", "not", "plugin", "setup", "skill", "specialized", "step", "stop", "the", "this", "use", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 875
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.88
 date_added: "2026-02-27"
+description: "Install and configure the Manifest observability plugin for your agents. Use when setting up telemetry, configuring API keys, or troubleshooting the plugin."
+source: "community"
 ---
-
 # Manifest Setup
 
 Follow these steps **in order**. Do not skip ahead.

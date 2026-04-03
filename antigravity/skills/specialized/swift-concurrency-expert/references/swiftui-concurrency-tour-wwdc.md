@@ -1,3 +1,14 @@
+---
+name: "SwiftUI Concurrency Tour (Summary)"
+tags: ["actor", "and", "antigravity", "async", "c:", "closures", "code", "concurrency", "data", "default", "driven", "expert", "frontend", "gemini", "<YOUR_USERNAME>", "main", "off", "performance", "race", "references"]
+tier: 2
+risk: "medium"
+estimated_tokens: 411
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.61
+---
 # SwiftUI Concurrency Tour (Summary)
 
 Context: SwiftUI-focused concurrency overview covering actor isolation, Sendable closures, and how SwiftUI runs work off the main thread.

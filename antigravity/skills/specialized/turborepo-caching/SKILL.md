@@ -1,11 +1,17 @@
 ---
-name: turborepo-caching
-description: "Configure Turborepo for efficient monorepo builds with local and remote caching. Use when setting up Turborepo, optimizing build pipelines, or implementing distributed caching."
-risk: critical
-source: community
+name: "turborepo-caching"
+tags: ["antigravity", "architecture", "c:", "caching", "concepts", "core", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "skill", "specialized", "this", "turborepo", "use", "users", "when"]
+tier: 3
+risk: "critical"
+estimated_tokens: 2193
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
 date_added: "2026-02-27"
+description: "Configure Turborepo for efficient monorepo builds with local and remote caching. Use when setting up Turborepo, optimizing build pipelines, or implementing distributed caching."
+source: "community"
 ---
-
 # Turborepo Caching
 
 Production patterns for Turborepo build optimization.

@@ -1,3 +1,14 @@
+---
+name: "Scroll-reveal detail surfaces"
+tags: ["antigravity", "c:", "choices", "control", "core", "design", "detail", "frontend", "gemini", "intent", "keep", "<YOUR_USERNAME>", "minimal", "morphing", "pattern", "patterns", "references", "reveal", "scroll", "shared"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1324
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.78
+---
 # Scroll-reveal detail surfaces
 
 ## Intent

@@ -1,12 +1,109 @@
-import json
+from __future__ import annotations
+
+import logging
+import os
+import re
 from pathlib import Path
-from core.schemas import Skill, PlanStep, TaskCompletionSpec, ArtifactCheck
+from typing import Optional
+
+from antigravity.core.hybrid_retriever import HybridRetriever
+from antigravity.core.index_manager import IndexManager
+from antigravity.core.schemas import (
+    ArtifactCheck,
+    PlanStep,
+    Skill,
+    SkillDocument,
+    TaskCompletionSpec,
+)
+
+logger = logging.getLogger(__name__)
 
 class SkillStore:
     """Phase 3: Actionable Intelligence Memory Hub"""
-    def __init__(self):
+
+    def __init__(self, skills_dir: Optional[Path] = None, enable_hybrid: Optional[bool] = None):
         self.skills: list[Skill] = []
+        self._skills_dir = skills_dir or (Path(__file__).resolve().parents[1] / "skills")
+        self._index_cache_dir = Path(
+            os.getenv(
+                "AG_SKILL_INDEX_CACHE_DIR",
+                str(Path(__file__).resolve().parents[1] / "brain" / "skill_index_cache"),
+            )
+        )
+
+        if enable_hybrid is None:
+            enable_hybrid = self._env_flag("AG_ENABLE_PERSISTENT_SKILL_RETRIEVER", default=True)
+
+        self._hybrid_retriever: Optional[HybridRetriever] = None
+        self._index_manager: Optional[IndexManager] = None
+
         self._bootstrap_hardcoded_skills()
+        if enable_hybrid:
+            self._initialize_hybrid_retriever()
+
+    def _env_flag(self, var_name: str, default: bool) -> bool:
+        raw = os.getenv(var_name)
+        if raw is None:
+            return default
+        return raw.strip().lower() not in {"0", "false", "no", "off"}
+
+    def _initialize_hybrid_retriever(self) -> None:
+        if not self._skills_dir.exists():
+            logger.warning("Skill directory not found for hybrid retriever: %s", self._skills_dir)
+            return
+
+        try:
+            self._index_manager = IndexManager(self._skills_dir, self._index_cache_dir)
+            self._hybrid_retriever = HybridRetriever(
+                skills_dir=self._skills_dir,
+                alpha=0.45,
+                beta=0.55,
+                index_manager=self._index_manager,
+            )
+
+            changed_files = self._index_manager.detect_changes()
+            if changed_files:
+                self._index_manager.mark_stale(changed_files)
+                # Quick-fix for corpus-retention safety: rebuild full corpus when changes are detected.
+                self._index_manager.reindex(self._hybrid_retriever, mode="full")
+                logger.info("Hybrid retriever reindexed with full corpus (%d changed files)", len(changed_files))
+                return
+
+            documents = self._load_skill_documents()
+            if documents:
+                self._hybrid_retriever.index(documents)
+                logger.info("Hybrid retriever indexed %d skill documents", len(documents))
+        except Exception as e:
+            logger.warning("Hybrid retriever initialization failed, using hardcoded fallback only: %s", e)
+            self._hybrid_retriever = None
+            self._index_manager = None
+
+    def _load_skill_documents(self) -> list[SkillDocument]:
+        documents: list[SkillDocument] = []
+        for md_file in self._skills_dir.rglob("*.md"):
+            try:
+                content = md_file.read_text(encoding="utf-8", errors="ignore")
+            except Exception:
+                continue
+
+            relative_path = md_file.relative_to(self._skills_dir).as_posix()
+            title_match = re.search(r"^#\s+(.+)$", content, flags=re.MULTILINE)
+            name = title_match.group(1).strip() if title_match else md_file.stem.replace("-", " ").replace("_", " ")
+
+            parts = relative_path.split("/")
+            domain_tags = [parts[0]] if parts else ["general"]
+
+            documents.append(
+                SkillDocument(
+                    skill_id=relative_path,
+                    name=name,
+                    content=content,
+                    domain_tags=domain_tags,
+                    file_path=relative_path,
+                )
+            )
+
+        return documents
 
     def _bootstrap_hardcoded_skills(self):
         """Mock version of DB loading. Loading 10 classic production skills."""
@@ -160,21 +257,100 @@ class SkillStore:
             json_parse_error, test_snapshot_failed
         ])
 
-    def retrieve(self, task: str, errors: list[str] = None) -> Skill | None:
-        """Hybrid retrieval: Semantic + Keyword match + Context match."""
-        # 1. Repair Macro Match
-        if errors:
-            err_str = " ".join(errors).lower()
-            for skill in self.skills:
-                if any(pattern in err_str for pattern in skill.trigger_patterns):
-                    print(f"[SKILL STORE] Found repair match: {skill.name} via Error Pattern.")
-                    return skill
-                    
-        # 2. Intent Macro Match
-        task_lower = task.lower()
+    def _matches_candidate_hint(self, skill: Skill, candidate_skills: list[str]) -> bool:
+        if not candidate_skills:
+            return False
+
+        skill_name = skill.name.lower().replace("_", "-")
+        for hint in candidate_skills:
+            norm_hint = hint.lower().replace("\\", "/")
+            if skill_name in norm_hint:
+                return True
+            if any(trigger in norm_hint for trigger in skill.trigger_patterns[:3]):
+                return True
+        return False
+
+    def _aggregate_score(
+        self,
+        scored: dict[str, tuple[float, Skill]],
+        skill: Skill,
+        score: float,
+    ) -> None:
+        current = scored.get(skill.name)
+        if current is None or score > current[0]:
+            scored[skill.name] = (score, skill)
+
+    def retrieve_many(
+        self,
+        task: str,
+        errors: list[str] | None = None,
+        top_k: int = 3,
+        candidate_skills: list[str] | None = None,
+        domain_hint: str | None = None,
+    ) -> list[Skill]:
+        """Ranked retrieval with hybrid backend plus hardcoded fallback skills."""
+        candidate_skills = candidate_skills or []
+        scored: dict[str, tuple[float, Skill]] = {}
+
+        # 1) Hardcoded pattern retrieval (fast fallback, deterministic).
+        err_str = " ".join(errors).lower() if errors else ""
+        task_lower = (task or "").lower()
         for skill in self.skills:
+            score = 0.0
+            if err_str and any(pattern in err_str for pattern in skill.trigger_patterns):
+                score += 2.0
             if any(pattern in task_lower for pattern in skill.trigger_patterns):
-                print(f"[SKILL STORE] Found plan match: {skill.name} via Intent Pattern.")
-                return skill
-                
-        return None
+                score += 1.0
+            if self._matches_candidate_hint(skill, candidate_skills):
+                score += 0.75
+            if score > 0:
+                self._aggregate_score(scored, skill, score)
+
+        # 2) Hybrid retrieval against persisted skill documents.
+        if self._hybrid_retriever:
+            try:
+                query = task
+                if candidate_skills:
+                    query = f"{task} {' '.join(candidate_skills)}"
+
+                domain_filter = domain_hint if domain_hint in {
+                    "frontend", "backend", "infra", "debug", "architecture", "general"
+                } else None
+
+                ranked = self._hybrid_retriever.retrieve(
+                    query=query,
+                    errors=errors,
+                    domain_filter=domain_filter,
+                    top_k=max(top_k * 2, 6),
+                )
+
+                for rank in ranked:
+                    score = float(rank.final_score)
+                    if self._matches_candidate_hint(rank.skill, candidate_skills):
+                        score += 0.2
+                    self._aggregate_score(scored, rank.skill, score)
+            except Exception as e:
+                logger.warning("Hybrid retrieval failed, falling back to pattern-only skills: %s", e)
+
+        if not scored:
+            return []
+
+        ranked_skills = sorted(scored.values(), key=lambda item: (-item[0], item[1].name.lower()))
+        return [skill for _, skill in ranked_skills[: max(top_k, 1)]]
+
+    def retrieve(
+        self,
+        task: str,
+        errors: list[str] | None = None,
+        candidate_skills: list[str] | None = None,
+        domain_hint: str | None = None,
+    ) -> Skill | None:
+        """Backward-compatible single best-match retrieval."""
+        matches = self.retrieve_many(
+            task=task,
+            errors=errors,
+            top_k=1,
+            candidate_skills=candidate_skills,
+            domain_hint=domain_hint,
+        )
+        return matches[0] if matches else None

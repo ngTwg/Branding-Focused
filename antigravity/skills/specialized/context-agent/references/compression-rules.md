@@ -1,3 +1,14 @@
+---
+name: "Regras de Compressão e Arquivamento"
+tags: ["001", "2026", "agent", "antigravity", "arquivamento", "arquivar", "arquivo", "c:", "compression", "compressão", "consolidado", "consolidação", "context", "frontend", "gemini", "<YOUR_USERNAME>", "manter", "quando", "que", "references"]
+tier: 2
+risk: "medium"
+estimated_tokens: 486
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.71
+---
 # Regras de Compressão e Arquivamento
 
 ## Quando Arquivar

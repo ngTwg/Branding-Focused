@@ -1,10 +1,16 @@
 ---
-name: assets
-description: Importing images, videos, audio, and fonts into Remotion
-metadata:
-  tags: assets, staticFile, images, fonts, public
+name: "assets"
+tags: ["assets, staticFile, images, fonts, public"]
+tier: 3
+risk: "high"
+estimated_tokens: 397
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["data", "analytics"]
+quality_score: 0.78
+description: "Importing images, videos, audio, and fonts into Remotion"
+metadata: ""
 ---
-
 # Importing assets in Remotion
 
 ## The public folder

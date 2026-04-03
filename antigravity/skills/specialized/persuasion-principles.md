@@ -1,3 +1,14 @@
+---
+name: "Persuasion Principles for Skill Design"
+tags: ["antigravity", "authority", "c:", "commitment", "design", "for", "frontend", "gemini", "<YOUR_USERNAME>", "overview", "persuasion", "principles", "scarcity", "seven", "skill", "specialized", "the", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1470
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.89
+---
 # Persuasion Principles for Skill Design
 
 ## Overview

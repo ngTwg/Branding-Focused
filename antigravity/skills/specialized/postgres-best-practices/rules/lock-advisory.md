@@ -1,10 +1,17 @@
 ---
-title: Use Advisory Locks for Application-Level Locking
-impact: MEDIUM
-impactDescription: Efficient coordination without row-level lock overhead
-tags: advisory-locks, coordination, application-locks
+name: "Use Advisory Locks for Application-Level Locking"
+tags: ["advisory-locks, coordination, application-locks"]
+tier: 2
+risk: "medium"
+estimated_tokens: 382
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
+impact: "MEDIUM"
+impactDescription: "Efficient coordination without row-level lock overhead"
+title: "Use Advisory Locks for Application-Level Locking"
 ---
-
 ## Use Advisory Locks for Application-Level Locking
 
 Advisory locks provide application-level coordination without requiring database rows to lock.

@@ -1,3 +1,14 @@
+---
+name: "Advanced Cloud Pentesting Scripts"
+tags: ["advanced", "all", "antigravity", "app", "apps", "automation", "azure", "backend", "c:", "cloud", "export", "from", "function", "gemini", "hostnames", "job", "<YOUR_USERNAME>", "list", "outputs", "penetration"]
+tier: 2
+risk: "high"
+estimated_tokens: 2913
+tools_needed: ["git", "markdown", "sql", "terminal", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.95
+---
 # Advanced Cloud Pentesting Scripts
 
 Reference: [Cloud Pentesting Cheatsheet by Beau Bullock](https://github.com/dafthack/CloudPentestCheatsheets)

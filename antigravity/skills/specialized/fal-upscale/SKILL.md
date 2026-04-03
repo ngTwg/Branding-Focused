@@ -1,11 +1,17 @@
 ---
-name: fal-upscale
-description: "Upscale and enhance image and video resolution using AI"
-risk: safe
-source: "https://github.com/fal-ai-community/skills/blob/main/skills/claude.ai/fal-upscale/SKILL.md"
+name: "fal-upscale"
+tags: ["antigravity", "c:", "fal", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "overview", "skill", "specialized", "this", "upscale", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 177
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.57
 date_added: "2026-02-27"
+description: "Upscale and enhance image and video resolution using AI"
+source: "https://github.com/fal-ai-community/skills/blob/main/skills/claude.ai/fal-upscale/SKILL.md"
 ---
-
 # Fal Upscale
 
 ## Overview

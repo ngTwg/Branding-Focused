@@ -1,3 +1,14 @@
+---
+name: "GITHUB_AUTOMATION_SKILL.md"
+tags: ["antigravity", "automation", "bat", "bảo", "c:", "chuẩn", "conditional", "diện", "file", "full", "gemini", "github", "github_automation_skill", "khởi", "<YOUR_USERNAME>", "logic", "loại", "metadata", "mật", "nhận"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1137
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.74
+---
 # GITHUB_AUTOMATION_SKILL.md
 
 > **Phiên bản:** 1.1.0

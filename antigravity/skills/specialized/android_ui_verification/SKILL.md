@@ -1,11 +1,17 @@
 ---
-name: android_ui_verification
-description: Automated end-to-end UI testing and verification on an Android Emulator using ADB.
-risk: safe
-source: community
+name: "android_ui_verification"
+tags: ["android", "antigravity", "c:", "calibration", "device", "discovery", "frontend", "gemini", "inspection", "<YOUR_USERNAME>", "prerequisites", "skill", "specialized", "state", "ui", "use", "users", "verification", "when", "workflow"]
+tier: 3
+risk: "medium"
+estimated_tokens: 708
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.82
 date_added: "2026-02-28"
+description: "Automated end-to-end UI testing and verification on an Android Emulator using ADB."
+source: "community"
 ---
-
 # Android UI Verification Skill
 
 This skill provides a systematic approach to testing React Native applications on an Android emulator using ADB commands. It allows for autonomous interaction, state verification, and visual regression checking.

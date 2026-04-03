@@ -1,11 +1,17 @@
 ---
-name: godot-4-migration
-description: "Specialized guide for migrating Godot 3.x projects to Godot 4 (GDScript 2.0), covering syntax changes, Tweens, and exports."
-risk: safe
-source: community
+name: "godot-4-migration"
+tags: ["4", "and", "annotations", "antigravity", "c:", "changes", "frontend", "gemini", "getters", "godot", "guide", "key", "<YOUR_USERNAME>", "migration", "overview", "setters", "skill", "specialized", "this", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 755
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.86
 date_added: "2026-02-27"
+description: "Specialized guide for migrating Godot 3.x projects to Godot 4 (GDScript 2.0), covering syntax changes, Tweens, and exports."
+source: "community"
 ---
-
 # Godot 4 Migration Guide
 
 ## Overview

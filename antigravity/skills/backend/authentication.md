@@ -1,3 +1,14 @@
+---
+name: "AUTHENTICATION PATTERNS"
+tags: ["antigravity", "authentication", "backend", "c:", "frontend", "gemini", "handling", "jwt", "<YOUR_USERNAME>", "middleware", "oauth", "oidc", "password", "patterns", "session", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1729
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.89
+---
 # AUTHENTICATION PATTERNS
 
 > **Khi nào tải skill này:** Auth, JWT, Session, OAuth, Login, Token, Password
@@ -284,3 +295,60 @@ async function logout(userId: string, refreshToken?: string) {
 | OAuth | Third-party login |
 | API Keys | Server-to-server |
 | mTLS | High-security services |
+
+---
+
+## FLOW DIAGRAMS
+
+**FLOW-001.** OAuth2 Authorization Code + PKCE:
+
+```mermaid
+sequenceDiagram
+    participant U as User Agent
+    participant C as Client App
+    participant A as Authorization Server
+    participant B as Backend API
+
+    U->>C: Click "Sign in"
+    C->>C: Generate code_verifier + code_challenge + state
+    C->>A: /authorize?code_challenge=S256&state=xyz
+    A-->>U: Login + consent
+    A-->>C: Redirect with code + state
+    C->>C: Validate state
+    C->>A: Exchange code + code_verifier
+    A-->>C: access_token + refresh_token
+    C->>B: API call with access token
+    B-->>C: Protected resource
+```
+
+**FLOW-002.** JWT Access + Refresh Rotation:
+
+```mermaid
+sequenceDiagram
+    participant C as Client
+    participant API as API Server
+    participant DB as Token Store
+
+    C->>API: POST /login
+    API->>DB: Persist hashed refresh token
+    API-->>C: access_token(15m), refresh_token(7d)
+    C->>API: GET /resource with access_token
+    API-->>C: 401 token expired
+    C->>API: POST /auth/refresh with refresh_token
+    API->>DB: Verify token hash + not revoked
+    API->>DB: Revoke old refresh token
+    API->>DB: Store new refresh token hash
+    API-->>C: new access_token + new refresh_token
+```
+
+**FLOW-003.** API Guard Evaluation Order:
+
+```text
+Bearer token present
+  -> signature valid
+    -> exp/nbf valid
+      -> token type is access
+        -> user still active
+          -> role or policy check
+            -> allow request
+```

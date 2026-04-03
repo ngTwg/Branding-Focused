@@ -1,3 +1,14 @@
+---
+name: "Trigger Types - Complete Guide"
+tags: ["antigravity", "c:", "complete", "configuration", "contents", "developer", "explicit", "for", "frontend", "gemini", "guide", "how", "keyword", "<YOUR_USERNAME>", "specialized", "table", "trigger", "triggers", "types", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1920
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.92
+---
 # Trigger Types - Complete Guide
 
 Complete reference for configuring skill triggers in Claude Code's skill auto-activation system.

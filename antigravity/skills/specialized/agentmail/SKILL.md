@@ -1,10 +1,16 @@
 ---
-name: agentmail
-description: Email infrastructure for AI agents. Create accounts, send/receive emails, manage webhooks, and check karma balance via the AgentMail API.
-risk: safe
-source: community
+name: "agentmail"
+tags: ["account", "agentmail", "agents", "antigravity", "c:", "create", "email", "for", "frontend", "gemini", "inbox", "karma", "<YOUR_USERNAME>", "list", "messages", "quick", "read", "send", "specialized", "start"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2068
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+description: "Email infrastructure for AI agents. Create accounts, send/receive emails, manage webhooks, and check karma balance via the AgentMail API."
+source: "community"
 ---
-
 # AgentMail — Email for AI Agents
 
 AgentMail gives AI agents real email addresses (`@theagentmail.net`) with a REST API. Agents can send and receive email, sign up for services (GitHub, AWS, Slack, etc.), and get verification codes. A karma system prevents spam and keeps the shared domain's reputation high.

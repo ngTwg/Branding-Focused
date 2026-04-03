@@ -1,4 +1,15 @@
 ---
+name: "Robius App Architecture Skill"
+tags: ["antigravity", "app", "architecture", "c:", "core", "definition", "frontend", "gemini", "<YOUR_USERNAME>", "level", "pattern", "patterns", "production", "robius", "skill", "specialized", "structure", "top", "triggers", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2674
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.93
+---
+---
 name: robius-app-architecture
 description: |
   CRITICAL: Use for Robius app architecture patterns. Triggers on:

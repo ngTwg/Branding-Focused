@@ -1,11 +1,17 @@
 ---
-name: render-automation
-description: "Automate Render tasks via Rube MCP (Composio): services, deployments, projects. Always search tools first for current schemas."
-risk: unknown
-source: community
+name: "render-automation"
+tags: ["and", "antigravity", "automation", "browse", "c:", "core", "deployments", "frontend", "gemini", "<YOUR_USERNAME>", "list", "mcp", "prerequisites", "render", "rube", "services", "setup", "specialized", "trigger", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1664
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.86
 date_added: "2026-02-27"
+description: "Automate Render tasks via Rube MCP (Composio): services, deployments, projects. Always search tools first for current schemas."
+source: "community"
 ---
-
 # Render Automation via Rube MCP
 
 Automate Render cloud platform operations through Composio's Render toolkit via Rube MCP.

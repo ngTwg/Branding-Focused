@@ -1,11 +1,17 @@
 ---
-name: error-handling-patterns
-description: "Build resilient applications with robust error handling strategies that gracefully handle failures and provide excellent debugging experiences."
-risk: safe
-source: community
+name: "error-handling-patterns"
+tags: ["antigravity", "c:", "error", "frontend", "gemini", "handling", "instructions", "<YOUR_USERNAME>", "not", "patterns", "resources", "skill", "specialized", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 316
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
 date_added: "2026-02-27"
+description: "Build resilient applications with robust error handling strategies that gracefully handle failures and provide excellent debugging experiences."
+source: "community"
 ---
-
 # Error Handling Patterns
 
 Build resilient applications with robust error handling strategies that gracefully handle failures and provide excellent debugging experiences.

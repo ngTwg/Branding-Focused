@@ -1,11 +1,17 @@
 ---
-name: multi-platform-apps-multi-platform
-description: "Build and deploy the same feature consistently across web, mobile, and desktop platforms using API-first architecture and parallel implementation strategies."
-risk: unknown
-source: community
+name: "multi-platform-apps-multi-platform"
+tags: ["and", "antigravity", "api", "apps", "architecture", "c:", "contracts", "define", "design", "development", "feature", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "multi", "not", "phase", "platform", "requirements"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2477
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 date_added: "2026-02-27"
+description: "Build and deploy the same feature consistently across web, mobile, and desktop platforms using API-first architecture and parallel implementation strategies."
+source: "community"
 ---
-
 # Multi-Platform Feature Development Workflow
 
 Build and deploy the same feature consistently across web, mobile, and desktop platforms using API-first architecture and parallel implementation strategies.

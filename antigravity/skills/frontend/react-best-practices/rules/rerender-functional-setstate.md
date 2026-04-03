@@ -1,10 +1,17 @@
 ---
-title: Use Functional setState Updates
-impact: MEDIUM
-impactDescription: prevents stale closures and unnecessary callback recreations
-tags: react, hooks, useState, useCallback, callbacks, closures
+name: "Use Functional setState Updates"
+tags: ["react, hooks, useState, useCallback, callbacks, closures"]
+tier: 2
+risk: "medium"
+estimated_tokens: 739
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
+impact: "MEDIUM"
+impactDescription: "prevents stale closures and unnecessary callback recreations"
+title: "Use Functional setState Updates"
 ---
-
 ## Use Functional setState Updates
 
 When updating state based on the current state value, use the functional update form of setState instead of directly referencing the state variable. This prevents stale closures, eliminates unnecessary dependencies, and creates stable callback references.

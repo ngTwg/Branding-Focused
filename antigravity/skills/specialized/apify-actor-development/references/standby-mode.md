@@ -1,3 +1,14 @@
+---
+name: "Actor Standby Mode Reference"
+tags: ["actor", "and", "antigravity", "apify", "backend", "c:", "development", "example", "gemini", "implementation", "javascript", "<YOUR_USERNAME>", "mode", "probe", "python", "readiness", "reference", "references", "specialized", "standby"]
+tier: 3
+risk: "medium"
+estimated_tokens: 799
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.70
+---
 # Actor Standby Mode Reference
 
 ## JavaScript and TypeScript

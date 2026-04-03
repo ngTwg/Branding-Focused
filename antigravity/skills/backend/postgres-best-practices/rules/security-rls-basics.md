@@ -1,10 +1,17 @@
 ---
-title: Enable Row Level Security for Multi-Tenant Data
-impact: CRITICAL
-impactDescription: Database-enforced tenant isolation, prevent data leaks
-tags: rls, row-level-security, multi-tenant, security
+name: "Enable Row Level Security for Multi-Tenant Data"
+tags: ["rls, row-level-security, multi-tenant, security"]
+tier: 2
+risk: "medium"
+estimated_tokens: 343
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
+impact: "CRITICAL"
+impactDescription: "Database-enforced tenant isolation, prevent data leaks"
+title: "Enable Row Level Security for Multi-Tenant Data"
 ---
-
 ## Enable Row Level Security for Multi-Tenant Data
 
 Row Level Security (RLS) enforces data access at the database level, ensuring users only see their own data.

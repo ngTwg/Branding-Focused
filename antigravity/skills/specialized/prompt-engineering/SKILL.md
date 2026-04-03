@@ -1,11 +1,17 @@
 ---
-name: prompt-engineering
-description: "Expert guide on prompt engineering patterns, best practices, and optimization techniques. Use when user wants to improve prompts, learn prompting strategies, or debug agent behavior."
-risk: unknown
-source: community
+name: "prompt-engineering"
+tags: ["antigravity", "c:", "capabilities", "chain", "core", "engineering", "few", "frontend", "gemini", "learning", "<YOUR_USERNAME>", "optimization", "patterns", "prompt", "prompting", "shot", "specialized", "systems", "template", "thought"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1451
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.92
 date_added: "2026-02-27"
+description: "Expert guide on prompt engineering patterns, best practices, and optimization techniques. Use when user wants to improve prompts, learn prompting strategies, or debug agent behavior."
+source: "community"
 ---
-
 # Prompt Engineering Patterns
 
 Advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.

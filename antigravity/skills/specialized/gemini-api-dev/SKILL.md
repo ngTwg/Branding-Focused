@@ -1,11 +1,17 @@
 ---
-name: gemini-api-dev
-description: "The Gemini API provides access to Google's most advanced AI models. Key capabilities include:"
-risk: unknown
-source: community
+name: "gemini-api-dev"
+tags: ["antigravity", "api", "c:", "current", "dev", "development", "frontend", "gemini", "<YOUR_USERNAME>", "models", "overview", "python", "quick", "sdks", "skill", "specialized", "start", "users"]
+tier: 4
+risk: "medium"
+estimated_tokens: 1205
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.84
 date_added: "2026-02-27"
+description: "The Gemini API provides access to Google's most advanced AI models. Key capabilities include:"
+source: "community"
 ---
-
 # Gemini API Development Skill
 
 ## Overview

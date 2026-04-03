@@ -1,3 +1,14 @@
+---
+name: "Loki Mode - Claude Code Skill"
+tags: ["antigravity", "autonomous", "c:", "claude", "code", "frontend", "gemini", "invoke", "launch", "<YOUR_USERNAME>", "loki", "mode", "path", "permissions", "prd", "project", "quick", "skill", "specialized", "start"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1088
+tools_needed: ["markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.79
+---
 # Loki Mode - Claude Code Skill
 
 Multi-agent autonomous startup system for Claude Code. Takes PRD to fully deployed, revenue-generating product with zero human intervention.

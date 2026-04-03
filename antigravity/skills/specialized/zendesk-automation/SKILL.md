@@ -1,11 +1,17 @@
 ---
-name: zendesk-automation
-description: "Automate Zendesk tasks via Rube MCP (Composio): tickets, users, organizations, replies. Always search tools first for current schemas."
-risk: critical
-source: community
+name: "zendesk-automation"
+tags: ["and", "antigravity", "automation", "c:", "core", "create", "frontend", "gemini", "<YOUR_USERNAME>", "list", "mcp", "prerequisites", "rube", "search", "setup", "specialized", "tickets", "update", "users", "via"]
+tier: 2
+risk: "critical"
+estimated_tokens: 2053
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.86
 date_added: "2026-02-27"
+description: "Automate Zendesk tasks via Rube MCP (Composio): tickets, users, organizations, replies. Always search tools first for current schemas."
+source: "community"
 ---
-
 # Zendesk Automation via Rube MCP
 
 Automate Zendesk operations through Composio's Zendesk toolkit via Rube MCP.

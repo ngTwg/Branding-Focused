@@ -1,3 +1,14 @@
+---
+name: "D3.js Colour Schemes and Palette Recommendations"
+tags: ["accent", "and", "antigravity", "built", "c:", "categorical", "category10", "claude", "colour", "d3js", "dark2", "default", "frontend", "gemini", "<YOUR_USERNAME>", "palette", "recommendations", "references", "schemes", "specialized"]
+tier: 4
+risk: "medium"
+estimated_tokens: 3189
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # D3.js Colour Schemes and Palette Recommendations
 
 Comprehensive guide to colour selection in data visualisation with d3.js.

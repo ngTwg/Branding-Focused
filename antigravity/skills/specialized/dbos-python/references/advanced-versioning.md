@@ -1,10 +1,17 @@
 ---
-title: Use Versioning for Blue-Green Deployments
-impact: LOW
-impactDescription: Safely deploy new code with version tagging
-tags: versioning, blue-green, deployment, recovery
+name: "Use Versioning for Blue-Green Deployments"
+tags: ["versioning, blue-green, deployment, recovery"]
+tier: 2
+risk: "medium"
+estimated_tokens: 407
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.75
+impact: "LOW"
+impactDescription: "Safely deploy new code with version tagging"
+title: "Use Versioning for Blue-Green Deployments"
 ---
-
 ## Use Versioning for Blue-Green Deployments
 
 DBOS versions workflows to prevent unsafe recovery. Use blue-green deployments to safely upgrade.

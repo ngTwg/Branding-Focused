@@ -1,3 +1,14 @@
+---
+name: "Versioning Strategies"
+tags: ["antigravity", "api", "backend", "c:", "decision", "factors", "gemini", "<YOUR_USERNAME>", "patterns", "philosophy", "strategies", "users", "versioning"]
+tier: 2
+risk: "medium"
+estimated_tokens: 154
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.55
+---
 # Versioning Strategies
 
 > Plan for API evolution from day one.

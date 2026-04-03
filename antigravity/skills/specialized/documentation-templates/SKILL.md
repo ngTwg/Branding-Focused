@@ -1,11 +1,17 @@
 ---
-name: documentation-templates
-description: "Documentation templates and structure guidelines. README, API docs, code comments, and AI-friendly documentation."
-risk: safe
-source: community
+name: "documentation-templates"
+tags: ["antigravity", "c:", "documentation", "essential", "frontend", "gemini", "<YOUR_USERNAME>", "name", "order", "priority", "project", "quick", "readme", "sections", "specialized", "start", "structure", "template", "templates", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 847
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.86
 date_added: "2026-02-27"
+description: "Documentation templates and structure guidelines. README, API docs, code comments, and AI-friendly documentation."
+source: "community"
 ---
-
 # Documentation Templates
 
 > Templates and structure guidelines for common documentation types.

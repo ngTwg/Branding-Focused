@@ -1,11 +1,17 @@
 ---
-name: monorepo-architect
-description: "Expert in monorepo architecture, build systems, and dependency management at scale. Masters Nx, Turborepo, Bazel, and Lerna for efficient multi-project development. Use PROACTIVELY for monorepo setup,"
-risk: safe
-source: community
+name: "monorepo-architect"
+tags: ["antigravity", "architect", "c:", "capabilities", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "monorepo", "not", "skill", "specialized", "this", "use", "users", "when", "workflow"]
+tier: 3
+risk: "medium"
+estimated_tokens: 541
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.66
 date_added: "2026-02-27"
+description: "Expert in monorepo architecture, build systems, and dependency management at scale. Masters Nx, Turborepo, Bazel, and Lerna for efficient multi-project development. Use PROACTIVELY for monorepo setup,"
+source: "community"
 ---
-
 # Monorepo Architect
 
 Expert in monorepo architecture, build systems, and dependency management at scale. Masters Nx, Turborepo, Bazel, and Lerna for efficient multi-project development. Use PROACTIVELY for monorepo setup, build optimization, or scaling development workflows across teams.

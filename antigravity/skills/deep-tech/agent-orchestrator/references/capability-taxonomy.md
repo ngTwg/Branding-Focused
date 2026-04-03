@@ -1,3 +1,14 @@
+---
+name: "Taxonomia de Capacidades (Capability Tags)"
+tags: ["agent", "antigravity", "backend", "c:", "capability", "capacidades", "categorias", "data", "deep", "deep-tech", "extraction", "gemini", "government", "<YOUR_USERNAME>", "media", "messaging", "orchestrator", "references", "social", "tags"]
+tier: 2
+risk: "medium"
+estimated_tokens: 830
+tools_needed: ["markdown", "playwright"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.70
+---
 # Taxonomia de Capacidades (Capability Tags)
 
 Categorias padrao para classificar skills no ecossistema.

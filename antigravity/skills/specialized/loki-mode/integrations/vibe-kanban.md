@@ -1,3 +1,14 @@
+---
+name: "Vibe Kanban Integration"
+tags: ["antigravity", "c:", "enable", "frontend", "gemini", "how", "install", "integration", "integrations", "kanban", "<YOUR_USERNAME>", "loki", "mode", "setup", "specialized", "use", "users", "vibe", "why", "with"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1293
+tools_needed: ["git", "markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
+---
 # Vibe Kanban Integration
 
 Loki Mode can optionally integrate with [Vibe Kanban](https://github.com/BloopAI/vibe-kanban) to provide a visual dashboard for monitoring autonomous execution.

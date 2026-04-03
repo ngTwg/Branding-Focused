@@ -1,11 +1,17 @@
 ---
-name: screenshots
-description: "Generate marketing screenshots of your app using Playwright. Use when the user wants to create screenshots for Product Hunt, social media, landing pages, or documentation."
-risk: safe
-source: "https://github.com/Shpigford/skills/tree/main/screenshots"
+name: "screenshots"
+tags: ["analyze", "antigravity", "app", "c:", "codebase", "determine", "features", "for", "frontend", "gather", "gemini", "<YOUR_USERNAME>", "prerequisites", "requirements", "screenshots", "skill", "specialized", "step", "this", "url"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3193
+tools_needed: ["git", "markdown", "playwright", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Generate marketing screenshots of your app using Playwright. Use when the user wants to create screenshots for Product Hunt, social media, landing pages, or documentation."
+source: "https://github.com/Shpigford/skills/tree/main/screenshots"
 ---
-
 # Screenshots
 
 Generate marketing-quality screenshots of your app using Playwright directly. Screenshots are captured at true HiDPI (2x retina) resolution using `deviceScaleFactor: 2`.

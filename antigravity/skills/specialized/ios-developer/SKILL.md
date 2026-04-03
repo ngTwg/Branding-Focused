@@ -1,11 +1,17 @@
 ---
-name: ios-developer
-description: Develop native iOS applications with Swift/SwiftUI. Masters iOS 18, SwiftUI, UIKit integration, Core Data, networking, and App Store optimization.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "ios-developer"
+tags: ["antigravity", "c:", "capabilities", "core", "developer", "development", "frontend", "gemini", "instructions", "ios", "<YOUR_USERNAME>", "not", "purpose", "skill", "specialized", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2316
+tools_needed: ["git", "markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+date_added: "2026-02-27"
+description: "Develop native iOS applications with Swift/SwiftUI. Masters iOS 18, SwiftUI, UIKit integration, Core Data, networking, and App Store optimization."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on ios developer tasks or workflows

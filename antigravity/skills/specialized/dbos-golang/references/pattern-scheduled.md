@@ -1,10 +1,17 @@
 ---
-title: Create Scheduled Workflows
-impact: MEDIUM
-impactDescription: Enables recurring tasks with exactly-once-per-interval guarantees
-tags: pattern, scheduled, cron, recurring
+name: "Create Scheduled Workflows"
+tags: ["pattern, scheduled, cron, recurring"]
+tier: 1
+risk: "medium"
+estimated_tokens: 474
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.61
+impact: "MEDIUM"
+impactDescription: "Enables recurring tasks with exactly-once-per-interval guarantees"
+title: "Create Scheduled Workflows"
 ---
-
 ## Create Scheduled Workflows
 
 Use `dbos.WithSchedule` when registering a workflow to run it on a cron schedule. Each scheduled invocation runs exactly once per interval.

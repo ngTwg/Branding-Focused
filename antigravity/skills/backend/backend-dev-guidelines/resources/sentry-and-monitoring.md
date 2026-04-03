@@ -1,3 +1,14 @@
+---
+name: "Sentry Integration and Monitoring"
+tags: ["and", "antigravity", "backend", "c:", "capture", "contents", "core", "dev", "error", "frontend", "gemini", "guidelines", "initialization", "instrument", "integration", "<YOUR_USERNAME>", "monitoring", "pattern", "patterns", "principles"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1932
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.89
+---
 # Sentry Integration and Monitoring
 
 Complete guide to error tracking and performance monitoring with Sentry v8.

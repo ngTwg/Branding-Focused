@@ -1,9 +1,16 @@
 ---
-name: templates
-description: Project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
-allowed-tools: Read, Glob, Grep
+name: "templates"
+tags: ["antigravity", "app", "builder", "c:", "frontend", "gemini", "<YOUR_USERNAME>", "project", "reading", "rule", "selective", "specialized", "templates", "usage", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 395
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.56
+allowed-tools: "Read, Glob, Grep"
+description: "Project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks."
 ---
-
 # Project Templates
 
 > Quick-start templates for scaffolding new projects.

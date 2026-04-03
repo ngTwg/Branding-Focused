@@ -1,11 +1,17 @@
 ---
-name: aws-serverless
-description: "Proper Lambda function structure with error handling"
-risk: unknown
-source: "vibeship-spawner-skills (Apache 2.0)"
+name: "aws-serverless"
+tags: ["across", "antigravity", "aws", "c:", "devops", "frontend", "gemini", "handler", "initialize", "invocations", "lambda", "<YOUR_USERNAME>", "outside", "pattern", "patterns", "python", "reused", "serverless", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1962
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.93
 date_added: "2026-02-27"
+description: "Proper Lambda function structure with error handling"
+source: "vibeship-spawner-skills (Apache 2.0)"
 ---
-
 # AWS Serverless
 
 ## Patterns

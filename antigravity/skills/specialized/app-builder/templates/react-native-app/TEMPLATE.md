@@ -1,8 +1,15 @@
 ---
-name: react-native-app
-description: React Native mobile app template principles. Expo, TypeScript, navigation.
+name: "react-native-app"
+tags: ["antigravity", "app", "builder", "c:", "directory", "frontend", "gemini", "key", "<YOUR_USERNAME>", "management", "native", "navigation", "packages", "patterns", "react", "specialized", "stack", "state", "structure", "tech"]
+tier: 2
+risk: "medium"
+estimated_tokens: 458
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.68
+description: "React Native mobile app template principles. Expo, TypeScript, navigation."
 ---
-
 # React Native App Template
 
 ## Tech Stack

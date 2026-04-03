@@ -1,3 +1,14 @@
+---
+name: "Agent SDK Patterns — TypeScript"
+tags: ["after", "agent", "antigravity", "api", "backend", "basic", "c:", "claude", "gemini", "hook", "hooks", "integration", "<YOUR_USERNAME>", "mcp", "patterns", "sdk", "server", "specialized", "subagents", "tool"]
+tier: 2
+risk: "medium"
+estimated_tokens: 818
+tools_needed: ["markdown", "mcp", "playwright"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.83
+---
 # Agent SDK Patterns — TypeScript
 
 ## Basic Agent

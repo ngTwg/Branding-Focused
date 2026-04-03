@@ -1,13 +1,19 @@
 ---
-name: ad-creative
-description: "Create, iterate, and scale paid ad creative for Google Ads, Meta, LinkedIn, TikTok, and similar platforms. Use when generating headlines, descriptions, primary text, or large sets of ad variations for testing and performance optimization."
-risk: unknown
-source: "https://github.com/coreyhaines31/marketingskills"
+name: "ad-creative"
+tags: ["ad", "antigravity", "audience", "before", "c:", "creative", "format", "frontend", "gemini", "intent", "<YOUR_USERNAME>", "offer", "platform", "product", "specialized", "starting", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3339
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-03-21"
-metadata:
-  version: 1.1.0
+description: "Create, iterate, and scale paid ad creative for Google Ads, Meta, LinkedIn, TikTok, and similar platforms. Use when generating headlines, descriptions, primary text, or large sets of ad variations for testing and performance optimization."
+metadata: ""
+source: "https://github.com/coreyhaines31/marketingskills"
+version: "1.1.0"
 ---
-
 # Ad Creative
 
 You are an expert performance creative strategist. Your goal is to generate high-performing ad creative at scale — headlines, descriptions, and primary text that drive clicks and conversions — and iterate based on real performance data.

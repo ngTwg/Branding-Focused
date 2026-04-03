@@ -1,3 +1,14 @@
+---
+name: "Setup Guide — Stable Diffusion Skill"
+tags: ["ai", "antigravity", "api", "c:", "conexao", "configurar", "conta", "criar", "dependencias", "diffusion", "frontend", "gemini", "guide", "instalar", "key", "<YOUR_USERNAME>", "obter", "references", "setup", "skill"]
+tier: 2
+risk: "medium"
+estimated_tokens: 646
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.82
+---
 # Setup Guide — Stable Diffusion Skill
 
 ## 1. Criar Conta na Stability AI

@@ -1,11 +1,17 @@
 ---
-name: fal-generate
-description: "Generate images and videos using fal.ai AI models"
-risk: safe
-source: "https://github.com/fal-ai-community/skills/blob/main/skills/claude.ai/fal-generate/SKILL.md"
+name: "fal-generate"
+tags: ["antigravity", "c:", "fal", "frontend", "gemini", "generate", "instructions", "<YOUR_USERNAME>", "overview", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 172
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.57
 date_added: "2026-02-27"
+description: "Generate images and videos using fal.ai AI models"
+source: "https://github.com/fal-ai-community/skills/blob/main/skills/claude.ai/fal-generate/SKILL.md"
 ---
-
 # Fal Generate
 
 ## Overview

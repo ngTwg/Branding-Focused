@@ -1,3 +1,14 @@
+---
+name: "Vanilla JS / HTML Integration"
+tags: ["3d", "antigravity", "api", "available", "background", "c:", "cases", "component", "control", "event", "for", "frontend", "full", "gemini", "guides", "html", "integration", "<YOUR_USERNAME>", "load", "method"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1318
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.84
+---
 # Vanilla JS / HTML Integration
 
 Two methods depending on how much control you need.

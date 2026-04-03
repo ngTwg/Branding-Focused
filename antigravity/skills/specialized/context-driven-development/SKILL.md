@@ -1,11 +1,17 @@
 ---
-name: context-driven-development
+name: "context-driven-development"
+tags: ["antigravity", "c:", "context", "core", "development", "driven", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "philosophy", "skill", "specialized", "the", "this", "use", "users", "when", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2939
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.84
+date_added: "2026-02-27"
 description: "Guide for implementing and maintaining context as a managed artifact alongside code, enabling consistent AI interactions and team alignment through structured project documentation."
-risk: unknown
-source: community
-date_added: '2026-02-27'
+source: "community"
 ---
-
 # Context-Driven Development
 
 Guide for implementing and maintaining context as a managed artifact alongside code, enabling consistent AI interactions and team alignment through structured project documentation.

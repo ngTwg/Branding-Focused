@@ -1,10 +1,17 @@
 ---
-title: Use Steps for External Operations
-impact: HIGH
-impactDescription: Steps enable recovery by checkpointing results
-tags: step, external, api, checkpoint
+name: "Use Steps for External Operations"
+tags: ["step, external, api, checkpoint"]
+tier: 2
+risk: "medium"
+estimated_tokens: 332
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.57
+impact: "HIGH"
+impactDescription: "Steps enable recovery by checkpointing results"
+title: "Use Steps for External Operations"
 ---
-
 ## Use Steps for External Operations
 
 Any function that performs complex operations, accesses external APIs, or has side effects should be a step. Step results are checkpointed, enabling workflow recovery.

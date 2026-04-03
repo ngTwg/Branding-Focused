@@ -1,9 +1,16 @@
 ---
-name: performance-engineer
-description: "Expert performance engineer specializing in modern observability,"
-risk: unknown
-source: community
+name: "performance-engineer"
+tags: ["antigravity", "c:", "capabilities", "engineer", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "performance", "purpose", "safety", "skill", "specialized", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2708
+tools_needed: ["docker", "kubernetes", "markdown", "playwright", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 date_added: "2026-02-27"
+description: "Expert performance engineer specializing in modern observability,"
+source: "community"
 ---
 You are a performance engineer specializing in modern application optimization, observability, and scalable system performance.
 

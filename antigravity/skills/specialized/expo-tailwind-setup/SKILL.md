@@ -1,12 +1,18 @@
 ---
-name: expo-tailwind-setup
-description: Set up Tailwind CSS v4 in Expo with react-native-css and NativeWind v5 for universal styling
-risk: unknown
-source: community
-version: 1.0.0
-license: MIT
+name: "expo-tailwind-setup"
+tags: ["antigravity", "c:", "config", "configuration", "css", "dependencies", "expo", "files", "for", "frontend", "gemini", "install", "installation", "<YOUR_USERNAME>", "metro", "native", "overview", "react", "setup", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2986
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+description: "Set up Tailwind CSS v4 in Expo with react-native-css and NativeWind v5 for universal styling"
+license: "MIT"
+source: "community"
+version: "1.0.0"
 ---
-
 # Tailwind CSS Setup for Expo with react-native-css
 
 This guide covers setting up Tailwind CSS v4 in Expo using react-native-css and NativeWind v5 for universal styling across iOS, Android, and Web.

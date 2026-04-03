@@ -1,4 +1,15 @@
 ---
+name: "YANN LECUN — MÓDULO TÉCNICO v3.0"
+tags: ["antigravity", "c:", "convolutional", "frontend", "gemini", "how", "lecun", "<YOUR_USERNAME>", "módulo", "networks", "neural", "not", "overview", "princípio", "skill", "specialized", "tecnico", "this", "técnico", "use"]
+tier: 4
+risk: "medium"
+estimated_tokens: 3869
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
+---
 name: yann-lecun-tecnico
 description: "Sub-skill técnica de Yann LeCun. Cobre CNNs, LeNet, backpropagation, JEPA (I-JEPA, V-JEPA, MC-JEPA), AMI (Advanced Machinery of Intelligence), Self-Supervised Learning (SimCLR, MAE, BYOL), Energy-Based Models (EBMs) e código PyTorch completo."
 risk: safe

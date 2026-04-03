@@ -1,11 +1,17 @@
 ---
-name: bun-development
-description: "Fast, modern JavaScript/TypeScript development with the Bun runtime, inspired by [oven-sh/bun](https://github.com/oven-sh/bun)."
-risk: critical
-source: community
+name: "bun-development"
+tags: ["antigravity", "bun", "c:", "development", "frontend", "gemini", "getting", "installation", "<YOUR_USERNAME>", "linux", "macos", "skill", "specialized", "started", "this", "use", "users", "when", "windows"]
+tier: 2
+risk: "critical"
+estimated_tokens: 3529
+tools_needed: ["git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Fast, modern JavaScript/TypeScript development with the Bun runtime, inspired by [oven-sh/bun](https://github.com/oven-sh/bun)."
+source: "community"
 ---
-
 <!-- security-allowlist: curl-pipe-bash, irm-pipe-iex -->
 
 # ⚡ Bun Development

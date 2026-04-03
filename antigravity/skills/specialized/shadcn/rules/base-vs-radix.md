@@ -1,3 +1,14 @@
+---
+name: "Base vs Radix"
+tags: ["and", "antigravity", "aschild", "base", "button", "c:", "composition", "contents", "element", "frontend", "gemini", "<YOUR_USERNAME>", "multiple", "non", "object", "only", "radix", "render", "rules", "select"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1736
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.90
+---
 # Base vs Radix
 
 API differences between `base` and `radix`. Check the `base` field from `npx shadcn@latest info`.

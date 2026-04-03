@@ -1,3 +1,14 @@
+---
+name: "shadcn MCP Server"
+tags: ["antigravity", "c:", "frontend", "gemini", "get_project_registries", "<YOUR_USERNAME>", "list_items_in_registries", "mcp", "search_items_in_registries", "server", "setup", "shadcn", "specialized", "tools", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 594
+tools_needed: ["markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.72
+---
 # shadcn MCP Server
 
 The CLI includes an MCP server that lets AI assistants search, browse, view, and install components from registries.

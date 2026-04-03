@@ -1,3 +1,14 @@
+---
+name: "Mobile Navigation Reference"
+tags: ["antigravity", "bar", "best", "c:", "decision", "design", "frontend", "gemini", "<YOUR_USERNAME>", "mobile", "navigation", "practices", "preservation", "reference", "selection", "specialized", "state", "tab", "tree", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2723
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Mobile Navigation Reference
 
 > Navigation patterns, deep linking, back handling, and tab/stack/drawer decisions.

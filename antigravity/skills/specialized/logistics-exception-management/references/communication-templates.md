@@ -1,3 +1,14 @@
+---
+name: "Communication Templates — Logistics Exception Management"
+tags: ["antigravity", "c:", "carrier", "communication", "contents", "exception", "frontend", "gemini", "guidance", "initial", "<YOUR_USERNAME>", "logistics", "management", "notification", "reference", "references", "specialized", "standard", "table", "templates"]
+tier: 2
+risk: "medium"
+estimated_tokens: 11308
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Communication Templates — Logistics Exception Management
 
 > **Reference Type:** Tier 3 — Load on demand when composing or reviewing exception communications.

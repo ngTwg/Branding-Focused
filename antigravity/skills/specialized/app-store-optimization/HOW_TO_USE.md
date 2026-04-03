@@ -1,3 +1,14 @@
+---
+name: "How to Use the App Store Optimization Skill"
+tags: ["analysis", "antigravity", "app", "aso", "c:", "calculation", "competitor", "example", "frontend", "gemini", "how", "invocations", "keyword", "<YOUR_USERNAME>", "metadata", "optimization", "research", "score", "skill", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2544
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # How to Use the App Store Optimization Skill
 
 Hey Claude—I just added the "app-store-optimization" skill. Can you help me optimize my app's presence on the App Store and Google Play?

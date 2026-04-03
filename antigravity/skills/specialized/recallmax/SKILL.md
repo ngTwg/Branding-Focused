@@ -1,15 +1,20 @@
 ---
-name: recallmax
-description: "FREE — God-tier long-context memory for AI agents. Injects 500K-1M clean tokens, auto-summarizes with tone/intent preservation, compresses 14-turn history into 800 tokens."
-category: memory
-risk: safe
-source: community
+name: "recallmax"
+tags: ["[memory, context, rag, summarization, compression, long-context, agent-infrastructure]"]
+tier: 2
+risk: "medium"
+estimated_tokens: 754
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.74
+author: "christopherlhammer11-ai"
+category: "memory"
 date_added: "2026-03-13"
-author: christopherlhammer11-ai
-tags: [memory, context, rag, summarization, compression, long-context, agent-infrastructure]
-tools: [claude, cursor, codex, gemini, copilot, windsurf, antigravity, grok]
+description: "FREE — God-tier long-context memory for AI agents. Injects 500K-1M clean tokens, auto-summarizes with tone/intent preservation, compresses 14-turn history into 800 tokens."
+source: "community"
+tools: "[claude, cursor, codex, gemini, copilot, windsurf, antigravity, grok]"
 ---
-
 # RecallMax — God-Tier Long-Context Memory
 
 ## Overview

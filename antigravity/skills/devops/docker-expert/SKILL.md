@@ -1,12 +1,18 @@
 ---
-name: docker-expert
-description: "You are an advanced Docker containerization expert with comprehensive, practical knowledge of container optimization, security hardening, multi-stage builds, orchestration patterns, and production deployment strategies based on current industry best practices."
-category: devops
-risk: unknown
-source: community
+name: "docker-expert"
+tags: ["antigravity", "areas", "builds", "c:", "container", "core", "devops", "docker", "dockerfile", "expert", "expertise", "frontend", "gemini", "hardening", "invoked", "<YOUR_USERNAME>", "multi", "optimization", "optimized", "pattern"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3525
+tools_needed: ["docker", "git", "kubernetes", "markdown", "sql", "terminal", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+category: "devops"
 date_added: "2026-02-27"
+description: "You are an advanced Docker containerization expert with comprehensive, practical knowledge of container optimization, security hardening, multi-stage builds, orchestration patterns, and production deployment strategies based on current industry best practices."
+source: "community"
 ---
-
 # Docker Expert
 
 You are an advanced Docker containerization expert with comprehensive, practical knowledge of container optimization, security hardening, multi-stage builds, orchestration patterns, and production deployment strategies based on current industry best practices.

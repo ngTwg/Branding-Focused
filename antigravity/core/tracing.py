@@ -9,6 +9,11 @@ import time
 from contextlib import contextmanager
 from typing import Generator
 
+try:
+    from langfuse import Langfuse  # type: ignore
+except Exception:
+    Langfuse = None
+
 class NoOpSpan:
     """Null-object pattern: every method is a silent no-op."""
 
@@ -196,8 +201,11 @@ class TracingService:
     Requirement 6.7: Graceful degradation to NoOp if credentials missing/invalid.
     """
 
-    def __init__(self):
+    def __init__(self, session_id: str | None = None, notebook_id: str | None = None, **kwargs):
         self._client = None
+        self._session_id = session_id
+        self._notebook_id = notebook_id
+        self._trace = None
         self._enabled: bool = all([
             os.getenv("LANGFUSE_PUBLIC_KEY"),
             os.getenv("LANGFUSE_SECRET_KEY"),
@@ -207,7 +215,8 @@ class TracingService:
     def client(self):
         if self._client is None and self._enabled:
             try:
-                from langfuse import Langfuse
+                if Langfuse is None:
+                    raise ImportError("langfuse module not installed")
                 self._client = Langfuse(
                     public_key=os.getenv("LANGFUSE_PUBLIC_KEY"),
                     secret_key=os.getenv("LANGFUSE_SECRET_KEY"),
@@ -276,6 +285,49 @@ class TracingService:
         """
         # Events are typically logged within spans, but this provides a fallback
         pass
+
+    def log_generation(
+        self,
+        model: str | None = None,
+        input_tokens: int | None = None,
+        output_tokens: int | None = None,
+        latency_ms: float | None = None,
+        task_name: str | None = None,
+        **kwargs,
+    ) -> None:
+        """Backward-compatible generation logger for property tests and legacy callers."""
+        metadata = {
+            "model": model,
+            "input_tokens": input_tokens,
+            "output_tokens": output_tokens,
+            "latency_ms": latency_ms,
+        }
+        metadata.update(kwargs)
+
+        span_name = task_name or "llm_generation"
+
+        if self._trace is not None:
+            span = self._trace.span(name=span_name, metadata=metadata)
+            try:
+                if hasattr(span, "end"):
+                    span.end()
+            except Exception:
+                pass
+            return
+
+        if self._enabled and self.client is not None and self._session_id:
+            trace = self.client.trace(
+                name="orchestrator_request",
+                session_id=self._session_id,
+                metadata={"notebook_id": self._notebook_id} if self._notebook_id else {},
+            )
+            self._trace = trace
+            span = trace.span(name=span_name, metadata=metadata)
+            try:
+                if hasattr(span, "end"):
+                    span.end()
+            except Exception:
+                pass
 
     def log_replan_triggered(self, error_delta) -> None:
         """

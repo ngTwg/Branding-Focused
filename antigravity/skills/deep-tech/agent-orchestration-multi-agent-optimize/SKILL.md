@@ -1,11 +1,17 @@
 ---
-name: agent-orchestration-multi-agent-optimize
-description: "Optimize multi-agent systems with coordinated profiling, workload distribution, and cost-aware orchestration. Use when improving agent performance, throughput, or reliability."
-risk: unknown
-source: community
+name: "agent-orchestration-multi-agent-optimize"
+tags: ["agent", "antigravity", "c:", "deep", "deep-tech", "engineering", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "multi", "not", "optimization", "optimize", "orchestration", "performance", "powered", "role", "safety", "skill"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1709
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
 date_added: "2026-02-27"
+description: "Optimize multi-agent systems with coordinated profiling, workload distribution, and cost-aware orchestration. Use when improving agent performance, throughput, or reliability."
+source: "community"
 ---
-
 # Multi-Agent Optimization Toolkit
 
 ## Use this skill when

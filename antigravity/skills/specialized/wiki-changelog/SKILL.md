@@ -1,11 +1,17 @@
 ---
-name: wiki-changelog
-description: "Generate structured changelogs from git history. Use when user asks \"what changed recently\", \"generate a changelog\", \"summarize commits\" or user wants to understand recent development activity."
-risk: unknown
-source: community
+name: "wiki-changelog"
+tags: ["antigravity", "backend", "c:", "changelog", "constraints", "gemini", "<YOUR_USERNAME>", "procedure", "specialized", "use", "users", "when", "wiki"]
+tier: 2
+risk: "medium"
+estimated_tokens: 286
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.60
 date_added: "2026-02-27"
+description: "Generate structured changelogs from git history. Use when user asks \\\"what changed recently\\\", \\\"generate a changelog\\\", \\\"summarize commits\\\" or user wants to understand recent development activity."
+source: "community"
 ---
-
 # Wiki Changelog
 
 Generate structured changelogs from git history.

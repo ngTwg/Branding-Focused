@@ -1,10 +1,16 @@
 ---
-name: ffuf-web-fuzzing
-description: Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis
-risk: unknown
-source: community
+name: "ffuf-web-fuzzing"
+tags: ["antigravity", "binary", "c:", "download", "faster", "ffuf", "fool", "frontend", "fuzz", "fuzzing", "gemini", "homebrew", "installation", "<YOUR_USERNAME>", "macos", "overview", "skill", "specialized", "users", "using"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4350
+tools_needed: ["git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+description: "Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis"
+source: "community"
 ---
-
 # FFUF (Fuzz Faster U Fool) Skill
 
 ## Overview

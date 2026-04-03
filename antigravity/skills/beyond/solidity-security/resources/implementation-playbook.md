@@ -1,3 +1,14 @@
+---
+name: "Solidity Security Implementation Playbook"
+tags: ["antigravity", "beyond", "c:", "critical", "frontend", "gemini", "implementation", "integer", "<YOUR_USERNAME>", "overflow", "playbook", "reentrancy", "resources", "security", "skill", "solidity", "this", "underflow", "use", "users"]
+tier: 2
+risk: "critical"
+estimated_tokens: 3497
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Solidity Security Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

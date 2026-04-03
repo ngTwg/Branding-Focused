@@ -1,10 +1,16 @@
 ---
-name: variant-analysis
-description: Find similar vulnerabilities and bugs across codebases using pattern-based analysis. Use when hunting bug variants, building CodeQL/Semgrep queries, analyzing security vulnerabilities, or performing systematic code audits after finding an initial issue.
-risk: unknown
-source: community
+name: "variant-analysis"
+tags: ["analysis", "antigravity", "c:", "create", "exact", "five", "frontend", "gemini", "issue", "<YOUR_USERNAME>", "match", "not", "original", "process", "specialized", "step", "the", "understand", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1412
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.79
+description: "Find similar vulnerabilities and bugs across codebases using pattern-based analysis. Use when hunting bug variants, building CodeQL/Semgrep queries, analyzing security vulnerabilities, or performing systematic code audits after finding an initial issue."
+source: "community"
 ---
-
 # Variant Analysis
 
 You are a variant analysis expert. Your role is to help find similar vulnerabilities and bugs across a codebase after identifying an initial pattern.

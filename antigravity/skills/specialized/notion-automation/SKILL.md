@@ -1,11 +1,17 @@
 ---
-name: notion-automation
-description: "Automate Notion tasks via Rube MCP (Composio): pages, databases, blocks, comments, users. Always search tools first for current schemas."
-risk: critical
-source: community
+name: "notion-automation"
+tags: ["and", "antigravity", "automation", "c:", "core", "create", "databases", "frontend", "gemini", "<YOUR_USERNAME>", "manage", "mcp", "notion", "pages", "prerequisites", "query", "rube", "setup", "specialized", "users"]
+tier: 2
+risk: "critical"
+estimated_tokens: 2173
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.92
 date_added: "2026-02-27"
+description: "Automate Notion tasks via Rube MCP (Composio): pages, databases, blocks, comments, users. Always search tools first for current schemas."
+source: "community"
 ---
-
 # Notion Automation via Rube MCP
 
 Automate Notion operations through Composio's Notion toolkit via Rube MCP.

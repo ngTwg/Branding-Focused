@@ -1,15 +1,20 @@
 ---
-name: videodb
-description: Video and audio perception, indexing, and editing. Ingest files/URLs/live streams, build visual/spoken indexes, search with timestamps, edit timelines, add overlays/subtitles, generate media, and create real-time alerts.
-category: media
-risk: safe
-source: community
-tags: "[video, editing, transcription, subtitles, search, streaming, ai-generation, media, live-streams, desktop-capture]"
-date_added: "2026-02-27"
-allowed-tools: Read Grep Glob Bash(python:*)
+name: "videodb"
+tags: ["[video, editing, transcription, subtitles, search, streaming, ai-generation, media, live-streams, desktop-capture]"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3366
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.98
+allowed-tools: "Read Grep Glob Bash(python:*)"
 argument-hint: "[task description]"
+category: "media"
+date_added: "2026-02-27"
+description: "Video and audio perception, indexing, and editing. Ingest files/URLs/live streams, build visual/spoken indexes, search with timestamps, edit timelines, add overlays/subtitles, generate media, and create real-time alerts."
+source: "community"
 ---
-
 # VideoDB Skill
 
 **Perception + memory + actions for video, live streams, and desktop sessions.**

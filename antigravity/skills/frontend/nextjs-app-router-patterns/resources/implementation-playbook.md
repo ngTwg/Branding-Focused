@@ -1,3 +1,14 @@
+---
+name: "Next.js App Router Patterns Implementation Playbook"
+tags: ["antigravity", "app", "c:", "concepts", "conventions", "core", "file", "frontend", "gemini", "implementation", "<YOUR_USERNAME>", "modes", "next", "nextjs", "patterns", "playbook", "rendering", "resources", "router", "skill"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3305
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Next.js App Router Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

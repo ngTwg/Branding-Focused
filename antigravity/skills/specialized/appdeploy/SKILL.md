@@ -1,11 +1,17 @@
 ---
-name: appdeploy
-description: "Deploy web apps with backend APIs, database, and file storage. Use when the user asks to deploy or publish a website or web app and wants a public URL. Uses HTTP API via curl."
-risk: safe
-source: "AppDeploy (MIT)"
+name: "appdeploy"
+tags: ["antigravity", "appdeploy", "available", "c:", "first", "frontend", "gemini", "<YOUR_USERNAME>", "only", "setup", "skill", "specialized", "this", "time", "tools", "usage", "use", "users", "when", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2237
+tools_needed: ["git", "markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.93
 date_added: "2026-02-27"
+description: "Deploy web apps with backend APIs, database, and file storage. Use when the user asks to deploy or publish a website or web app and wants a public URL. Uses HTTP API via curl."
+source: "AppDeploy (MIT)"
 ---
-
 # AppDeploy Skill
 
 Deploy web apps to AppDeploy via HTTP API.

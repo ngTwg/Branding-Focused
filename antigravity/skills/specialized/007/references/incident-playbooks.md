@@ -1,3 +1,14 @@
+---
+name: "Incident Response Playbooks"
+tags: ["007", "antigravity", "assess", "breach", "c:", "contain", "data", "frontend", "gemini", "incident", "<YOUR_USERNAME>", "phase", "playbook", "playbooks", "prevent", "references", "remediate", "response", "specialized", "users"]
+tier: 3
+risk: "critical"
+estimated_tokens: 3835
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.85
+---
 # Incident Response Playbooks
 
 > Extended playbooks for common security incidents.

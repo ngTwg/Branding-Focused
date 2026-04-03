@@ -1,3 +1,14 @@
+---
+name: "EDGAR Guide for Claude Code Usage"
+tags: ["antigravity", "c:", "claude", "cli", "code", "data", "edgar", "endpoints", "examples", "filing", "for", "forms", "frontend", "functions", "gemini", "guide", "<YOUR_USERNAME>", "normalization", "patterns", "public"]
+tier: 2
+risk: "medium"
+estimated_tokens: 391
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.68
+---
 # EDGAR Guide for Claude Code Usage
 
 This guide explains how the skill reads SEC data with `tools/edgar.py`.

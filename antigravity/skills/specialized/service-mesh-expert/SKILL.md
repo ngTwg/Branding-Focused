@@ -1,11 +1,17 @@
 ---
-name: service-mesh-expert
-description: "Expert service mesh architect specializing in Istio, Linkerd, and cloud-native networking patterns. Masters traffic management, security policies, observability integration, and multi-cluster mesh con"
-risk: safe
-source: community
+name: "service-mesh-expert"
+tags: ["antigravity", "c:", "capabilities", "expert", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "mesh", "not", "service", "skill", "specialized", "this", "use", "users", "when", "workflow"]
+tier: 3
+risk: "medium"
+estimated_tokens: 606
+tools_needed: ["kubernetes", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.66
 date_added: "2026-02-27"
+description: "Expert service mesh architect specializing in Istio, Linkerd, and cloud-native networking patterns. Masters traffic management, security policies, observability integration, and multi-cluster mesh con"
+source: "community"
 ---
-
 # Service Mesh Expert
 
 Expert service mesh architect specializing in Istio, Linkerd, and cloud-native networking patterns. Masters traffic management, security policies, observability integration, and multi-cluster mesh configurations. Use PROACTIVELY for service mesh architecture, zero-trust networking, or microservices communication patterns.

@@ -1,12 +1,18 @@
 ---
-name: terraform-infrastructure
-description: "Terraform infrastructure as code workflow for provisioning cloud resources, creating reusable modules, and managing infrastructure at scale."
-category: granular-workflow-bundle
-risk: safe
-source: personal
+name: "terraform-infrastructure"
+tags: ["antigravity", "backend", "c:", "devops", "gemini", "infrastructure", "<YOUR_USERNAME>", "overview", "phase", "phases", "provisioning", "resource", "setup", "terraform", "this", "use", "users", "when", "workflow"]
+tier: 3
+risk: "medium"
+estimated_tokens: 855
+tools_needed: ["git", "kubernetes", "markdown", "terminal", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.86
+category: "granular-workflow-bundle"
 date_added: "2026-02-27"
+description: "Terraform infrastructure as code workflow for provisioning cloud resources, creating reusable modules, and managing infrastructure at scale."
+source: "personal"
 ---
-
 # Terraform Infrastructure Workflow
 
 ## Overview

@@ -1,4 +1,15 @@
 ---
+name: "Prof. Euler — Matemático Ultra-Avançado"
+tags: ["além", "antigravity", "avançado", "c:", "euler", "frontend", "gemini", "how", "<YOUR_USERNAME>", "matematico", "matemático", "not", "overview", "pensa", "prof", "que", "skill", "specialized", "tao", "terence"]
+tier: 2
+risk: "medium"
+estimated_tokens: 5839
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
+---
 name: matematico-tao
 description: "Matemático ultra-avançado inspirado em Terence Tao. Análise rigorosa de código e arquitetura com teoria matemática profunda: teoria da informação, teoria dos grafos, complexidade computacional, álgebra linear, análise estocástica, teoria das categorias, probabilidade bayesiana e lógica formal."
 risk: none

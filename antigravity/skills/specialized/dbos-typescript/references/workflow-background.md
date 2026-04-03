@@ -1,10 +1,17 @@
 ---
-title: Start Workflows in Background
-impact: CRITICAL
-impactDescription: Background workflows enable reliable async processing
-tags: workflow, background, handle, async
+name: "Start Workflows in Background"
+tags: ["workflow, background, handle, async"]
+tier: 1
+risk: "medium"
+estimated_tokens: 365
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.60
+impact: "CRITICAL"
+impactDescription: "Background workflows enable reliable async processing"
+title: "Start Workflows in Background"
 ---
-
 ## Start Workflows in Background
 
 Use `DBOS.startWorkflow` to start a workflow in the background and get a handle to track it. The workflow is guaranteed to run to completion even if the app is interrupted.

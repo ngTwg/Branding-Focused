@@ -1,3 +1,14 @@
+---
+name: "Setup Walkthrough — Meta App e OAuth"
+tags: ["adicionar", "antigravity", "api", "app", "c:", "configurar", "criar", "frontend", "gemini", "instagram", "<YOUR_USERNAME>", "meta", "oauth", "passo", "pré", "redirect", "references", "requisitos", "setup", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1023
+tools_needed: ["git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
+---
 # Setup Walkthrough — Meta App e OAuth
 
 ## Pré-requisitos

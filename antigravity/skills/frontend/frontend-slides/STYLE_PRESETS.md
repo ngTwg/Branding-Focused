@@ -1,3 +1,14 @@
+---
+name: "Style Presets Reference"
+tags: ["antigravity", "bold", "botanical", "c:", "creative", "dark", "electric", "frontend", "gemini", "<YOUR_USERNAME>", "presets", "reference", "signal", "slides", "studio", "style", "themes", "users", "voltage"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2042
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.93
+---
 # Style Presets Reference
 
 Curated visual styles for Frontend Slides. Each preset is inspired by real design references — no generic "AI slop" aesthetics. **Abstract shapes only — no illustrations.**

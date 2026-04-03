@@ -1,10 +1,16 @@
 ---
-name: display-captions
-description: Displaying captions in Remotion with TikTok-style pages and word highlighting
-metadata:
-  tags: captions, subtitles, display, tiktok, highlight
+name: "display-captions"
+tags: ["captions, subtitles, display, tiktok, highlight"]
+tier: 2
+risk: "medium"
+estimated_tokens: 924
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.76
+description: "Displaying captions in Remotion with TikTok-style pages and word highlighting"
+metadata: ""
 ---
-
 # Displaying captions in Remotion
 
 This guide explains how to display captions in Remotion, assuming you already have captions in the `Caption` format.

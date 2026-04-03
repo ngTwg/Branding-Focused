@@ -1,4 +1,15 @@
 ---
+name: "SEO Image Gen: AI Image Generation for SEO Assets (Extension)"
+tags: ["antigravity", "architecture", "assets", "c:", "cases", "extension", "for", "frontend", "gemini", "gen", "generation", "image", "<YOUR_USERNAME>", "note", "prerequisites", "quick", "reference", "seo", "specialized", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2036
+tools_needed: ["git", "markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.94
+---
+---
 name: seo-image-gen
 description: "Generate SEO-focused images such as OG cards, hero images, schema assets, product visuals, and infographics. Use when image generation is part of an SEO workflow or content publishing task."
 risk: unknown

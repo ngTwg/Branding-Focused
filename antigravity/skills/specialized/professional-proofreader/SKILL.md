@@ -1,12 +1,17 @@
 ---
-name: professional-proofreader
-description: >
-    Use when a user asks to "proofread", "review and correct", "fix grammar", "improve readability while keeping my voice", and to proofread a document file and save an updated version.
-risk: safe
-source: original
+name: "professional-proofreader"
+tags: ["antigravity", "c:", "file", "frontend", "gemini", "inline", "<YOUR_USERNAME>", "mode", "modes", "overview", "processing", "professional", "proofreader", "specialized", "text", "use", "users", "when", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 686
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.69
 date_added: "2026-03-04"
+description: ">"
+source: "original"
 ---
-
 # Professional Proofreader
 
 ## Overview

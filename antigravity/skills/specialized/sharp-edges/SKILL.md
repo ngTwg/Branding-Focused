@@ -1,10 +1,16 @@
 ---
-name: sharp-edges
-description: sharp-edges
-risk: unknown
-source: community
+name: "sharp-edges"
+tags: ["analysis", "antigravity", "c:", "categories", "core", "edge", "edges", "frontend", "gemini", "<YOUR_USERNAME>", "not", "principle", "rationalizations", "reject", "sharp", "specialized", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2683
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+description: "sharp-edges"
+source: "community"
 ---
-
 ---
 name: sharp-edges
 description: "Identifies error-prone APIs, dangerous configurations, and footgun designs that enable security mistakes. Use when reviewing API designs, configuration schemas, cryptographic library ergonomics, or evaluating whether code follows 'secure by...

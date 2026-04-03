@@ -1,11 +1,17 @@
 ---
-name: workflow-orchestration-patterns
-description: "Master workflow orchestration architecture with Temporal, covering fundamental design decisions, resilience patterns, and best practices for building reliable distributed systems."
-risk: unknown
-source: community
+name: "workflow-orchestration-patterns"
+tags: ["antigravity", "c:", "cases", "docs", "frontend", "gemini", "ideal", "instructions", "<YOUR_USERNAME>", "not", "orchestration", "patterns", "skill", "source", "temporal", "this", "use", "users", "when", "workflow"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2420
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
 date_added: "2026-02-27"
+description: "Master workflow orchestration architecture with Temporal, covering fundamental design decisions, resilience patterns, and best practices for building reliable distributed systems."
+source: "community"
 ---
-
 # Workflow Orchestration Patterns
 
 Master workflow orchestration architecture with Temporal, covering fundamental design decisions, resilience patterns, and best practices for building reliable distributed systems.
@@ -334,3 +340,112 @@ For each step:
 3. Idempotency is critical for activities
 4. State preservation is automatic
 5. Design for failure and recovery
+
+## Runnable Snippets (Tier 3 Upgrade)
+
+### Snippet 1: Saga with Compensation (Temporal Python)
+
+```python
+from temporalio import workflow, activity
+
+@activity.defn
+async def reserve_inventory(order_id: str) -> str:
+  return f"inv-{order_id}"
+
+@activity.defn
+async def release_inventory(reservation_id: str) -> None:
+  return None
+
+@activity.defn
+async def charge_payment(order_id: str) -> str:
+  return f"pay-{order_id}"
+
+@activity.defn
+async def refund_payment(payment_id: str) -> None:
+  return None
+
+@workflow.defn
+class CheckoutWorkflow:
+  @workflow.run
+  async def run(self, order_id: str) -> str:
+    compensations = []
+    try:
+      reservation_id = await workflow.execute_activity(
+        reserve_inventory,
+        order_id,
+        start_to_close_timeout=workflow.timedelta(seconds=30),
+      )
+      compensations.append((release_inventory, reservation_id))
+
+      payment_id = await workflow.execute_activity(
+        charge_payment,
+        order_id,
+        start_to_close_timeout=workflow.timedelta(seconds=30),
+      )
+      compensations.append((refund_payment, payment_id))
+
+      return "CHECKOUT_COMPLETED"
+    except Exception:
+      for comp_fn, comp_arg in reversed(compensations):
+        await workflow.execute_activity(
+          comp_fn,
+          comp_arg,
+          start_to_close_timeout=workflow.timedelta(seconds=30),
+        )
+      raise
+```
+
+### Snippet 2: CQRS + Event Sourcing Projection
+
+```python
+from dataclasses import dataclass
+from typing import TypedDict
+
+
+class OrderCreated(TypedDict):
+  type: str
+  order_id: str
+  total_cents: int
+
+
+class OrderPaid(TypedDict):
+  type: str
+  order_id: str
+
+
+@dataclass
+class OrderReadModel:
+  order_id: str
+  total_cents: int = 0
+  paid: bool = False
+
+
+def apply_event(read_model: OrderReadModel, event: dict) -> OrderReadModel:
+  if event["type"] == "OrderCreated":
+    read_model.total_cents = event["total_cents"]
+  elif event["type"] == "OrderPaid":
+    read_model.paid = True
+  return read_model
+```
+
+### Snippet 3: Fan-Out and Fan-In Child Workflows
+
+```python
+@workflow.defn
+class BulkInvoiceWorkflow:
+  @workflow.run
+  async def run(self, tenant_ids: list[str]) -> dict[str, str]:
+    handles = []
+    for tenant_id in tenant_ids:
+      handle = await workflow.start_child_workflow(
+        "GenerateInvoiceWorkflow.run",
+        tenant_id,
+        id=f"invoice-{tenant_id}-{workflow.info().run_id}",
+      )
+      handles.append((tenant_id, handle))
+
+    results: dict[str, str] = {}
+    for tenant_id, handle in handles:
+      results[tenant_id] = await handle.result()
+    return results
+```

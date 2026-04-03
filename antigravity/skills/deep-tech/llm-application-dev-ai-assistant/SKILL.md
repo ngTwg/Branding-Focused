@@ -1,11 +1,17 @@
 ---
-name: llm-application-dev-ai-assistant
-description: "You are an AI assistant development expert specializing in creating intelligent conversational interfaces, chatbots, and AI-powered applications. Design comprehensive AI assistant solutions with natur"
-risk: safe
-source: community
+name: "llm-application-dev-ai-assistant"
+tags: ["ai", "antigravity", "application", "assistant", "c:", "context", "deep", "deep-tech", "dev", "development", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "llm", "not", "requirements", "skill", "tech", "this"]
+tier: 2
+risk: "medium"
+estimated_tokens: 381
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.64
 date_added: "2026-02-27"
+description: "You are an AI assistant development expert specializing in creating intelligent conversational interfaces, chatbots, and AI-powered applications. Design comprehensive AI assistant solutions with natur"
+source: "community"
 ---
-
 # AI Assistant Development
 
 You are an AI assistant development expert specializing in creating intelligent conversational interfaces, chatbots, and AI-powered applications. Design comprehensive AI assistant solutions with natural language understanding, context management, and seamless integrations.

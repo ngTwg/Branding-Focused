@@ -1,3 +1,14 @@
+---
+name: "Local Training on macOS (Apple Silicon)"
+tags: ["antigravity", "apple", "c:", "defaults", "face", "frontend", "gemini", "hardware", "hugging", "jobs", "<YOUR_USERNAME>", "local", "mac", "macos", "memory", "model", "recommended", "references", "script", "setup"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2070
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.94
+---
 # Local Training on macOS (Apple Silicon)
 
 Run small LoRA fine-tuning jobs locally on Mac for smoke tests and quick iteration before submitting to HF Jobs.

@@ -1,10 +1,16 @@
 ---
-name: measuring-text
-description: Measuring text dimensions, fitting text to containers, and checking overflow
-metadata:
-  tags: measure, text, layout, dimensions, fitText, fillTextBox
+name: "measuring-text"
+tags: ["measure, text, layout, dimensions, fitText, fillTextBox"]
+tier: 1
+risk: "medium"
+estimated_tokens: 750
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+description: "Measuring text dimensions, fitting text to containers, and checking overflow"
+metadata: ""
 ---
-
 # Measuring text in Remotion
 
 ## Prerequisites

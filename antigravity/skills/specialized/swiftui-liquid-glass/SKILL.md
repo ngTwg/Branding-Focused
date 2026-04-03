@@ -1,11 +1,17 @@
 ---
-name: swiftui-liquid-glass
-description: Implement or review SwiftUI Liquid Glass APIs with correct fallbacks and modifier order.
-risk: safe
-source: "Dimillian/Skills (MIT)"
+name: "swiftui-liquid-glass"
+tags: ["antigravity", "c:", "decision", "existing", "feature", "frontend", "gemini", "glass", "improve", "<YOUR_USERNAME>", "liquid", "overview", "review", "specialized", "swiftui", "tree", "use", "users", "using", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 958
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.80
 date_added: "2026-03-25"
+description: "Implement or review SwiftUI Liquid Glass APIs with correct fallbacks and modifier order."
+source: "Dimillian/Skills (MIT)"
 ---
-
 # SwiftUI Liquid Glass
 
 ## Overview

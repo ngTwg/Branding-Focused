@@ -1,11 +1,17 @@
 ---
-name: cc-skill-frontend-patterns
-description: "Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices."
-risk: unknown
-source: community
+name: "cc-skill-frontend-patterns"
+tags: ["antigravity", "c:", "cc", "component", "components", "composition", "compound", "custom", "development", "frontend", "gemini", "hooks", "inheritance", "<YOUR_USERNAME>", "over", "pattern", "patterns", "props", "render", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3617
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices."
+source: "community"
 ---
-
 # Frontend Development Patterns
 
 Modern frontend patterns for React, Next.js, and performant user interfaces.

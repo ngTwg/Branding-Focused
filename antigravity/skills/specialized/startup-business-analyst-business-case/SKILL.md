@@ -1,4 +1,15 @@
 ---
+name: "Business Case Generator"
+tags: ["analyst", "antigravity", "business", "c:", "case", "claude", "command", "does", "for", "frontend", "gemini", "generator", "instructions", "<YOUR_USERNAME>", "not", "skill", "specialized", "startup", "this", "use"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2920
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
+---
 name: startup-business-analyst-business-case
 description: 'Generate comprehensive investor-ready business case document with
 

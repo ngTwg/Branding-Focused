@@ -1,3 +1,14 @@
+---
+name: "AI Agent Prompts & System Instructions"
+tags: ["agent", "ai", "antigravity", "c:", "code", "contents", "frontend", "gemini", "implemented", "instructions", "<YOUR_USERNAME>", "plan", "prompt", "prompts", "quality", "requirements", "review", "reviewer", "specialized", "system"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3648
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # AI Agent Prompts & System Instructions
 
 ## 📋 Table of Contents

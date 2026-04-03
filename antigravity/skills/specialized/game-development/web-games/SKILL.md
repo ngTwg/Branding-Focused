@@ -1,9 +1,16 @@
 ---
-name: web-games
-description: Web browser game development principles. Framework selection, WebGPU, optimization, PWA.
-allowed-tools: Read, Write, Edit, Glob, Grep
+name: "web-games"
+tags: ["2025", "adoption", "antigravity", "browser", "c:", "comparison", "decision", "development", "framework", "frontend", "game", "games", "gemini", "<YOUR_USERNAME>", "selection", "specialized", "support", "tree", "users", "web"]
+tier: 2
+risk: "medium"
+estimated_tokens: 747
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.71
+allowed-tools: "Read, Write, Edit, Glob, Grep"
+description: "Web browser game development principles. Framework selection, WebGPU, optimization, PWA."
 ---
-
 # Web Browser Game Development
 
 > Framework selection and browser-specific principles.

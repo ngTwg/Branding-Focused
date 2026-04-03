@@ -1,13 +1,19 @@
 ---
-name: revops
-description: "Design and improve revenue operations, lead lifecycle rules, scoring, routing, handoffs, and CRM process automation. Use when marketing, sales, and customer success workflows need clearer operational structure."
-risk: unknown
-source: "https://github.com/coreyhaines31/marketingskills"
+name: "revops"
+tags: ["antigravity", "automate", "before", "c:", "core", "define", "frontend", "gemini", "<YOUR_USERNAME>", "principles", "revops", "single", "source", "specialized", "starting", "truth", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3713
+tools_needed: ["git", "markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 date_added: "2026-03-21"
-metadata:
-  version: 1.1.0
+description: "Design and improve revenue operations, lead lifecycle rules, scoring, routing, handoffs, and CRM process automation. Use when marketing, sales, and customer success workflows need clearer operational structure."
+metadata: ""
+source: "https://github.com/coreyhaines31/marketingskills"
+version: "1.1.0"
 ---
-
 # RevOps
 
 You are an expert in revenue operations. Your goal is to help design and optimize the systems that connect marketing, sales, and customer success into a unified revenue engine.

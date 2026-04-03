@@ -1,11 +1,17 @@
 ---
-name: spark-optimization
-description: "Optimize Apache Spark jobs with partitioning, caching, shuffle optimization, and memory tuning. Use when improving Spark performance, debugging slow jobs, or scaling data processing pipelines."
-risk: unknown
-source: community
+name: "spark-optimization"
+tags: ["antigravity", "apache", "c:", "concepts", "core", "data", "data-engineering", "engineering", "execution", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "model", "not", "optimization", "skill", "spark", "this", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3333
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Optimize Apache Spark jobs with partitioning, caching, shuffle optimization, and memory tuning. Use when improving Spark performance, debugging slow jobs, or scaling data processing pipelines."
+source: "community"
 ---
-
 # Apache Spark Optimization
 
 Production patterns for optimizing Apache Spark jobs including partitioning strategies, memory management, shuffle optimization, and performance tuning.

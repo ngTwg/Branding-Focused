@@ -1,3 +1,14 @@
+---
+name: "Complete API Reference"
+tags: ["antigravity", "api", "c:", "collection", "collections", "complete", "connection", "frontend", "gemini", "<YOUR_USERNAME>", "methods", "reference", "specialized", "transcode", "users", "videodb"]
+tier: 2
+risk: "medium"
+estimated_tokens: 5080
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Complete API Reference
 
 ## Connection

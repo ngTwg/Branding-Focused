@@ -1,3 +1,14 @@
+---
+name: "Common Training Patterns"
+tags: ["accelerate", "antigravity", "c:", "changes", "common", "detects", "dpo", "face", "frontend", "gemini", "gpu", "gpus", "here", "hugging", "learning", "<YOUR_USERNAME>", "model", "multi", "multiple", "needed"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1527
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.89
+---
 # Common Training Patterns
 
 This guide provides common training patterns and use cases for TRL on Hugging Face Jobs.

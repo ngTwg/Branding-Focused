@@ -1,4 +1,15 @@
 ---
+name: "Check if conductor directory exists"
+tags: ["all", "antigravity", "c:", "check", "conductor", "directories", "directory", "exists", "files", "find", "for", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "required", "skill", "specialized", "this"]
+tier: 2
+risk: "medium"
+estimated_tokens: 381
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.71
+---
+---
 name: conductor-validator
 description: 'Validates Conductor project artifacts for completeness,
 

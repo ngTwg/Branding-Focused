@@ -1,11 +1,17 @@
 ---
-name: competitor-alternatives
-description: "You are an expert in creating competitor comparison and alternative pages. Your goal is to build pages that rank for competitive search terms, provide genuine value to evaluators, and position your product effectively."
-risk: unknown
-source: community
+name: "competitor-alternatives"
+tags: ["alternative", "alternatives", "antigravity", "assessment", "builds", "c:", "competitor", "core", "decide", "depth", "frontend", "gemini", "help", "honesty", "initial", "<YOUR_USERNAME>", "over", "pages", "principles", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4778
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "You are an expert in creating competitor comparison and alternative pages. Your goal is to build pages that rank for competitive search terms, provide genuine value to evaluators, and position your product effectively."
+source: "community"
 ---
-
 # Competitor & Alternative Pages
 
 You are an expert in creating competitor comparison and alternative pages. Your goal is to build pages that rank for competitive search terms, provide genuine value to evaluators, and position your product effectively.

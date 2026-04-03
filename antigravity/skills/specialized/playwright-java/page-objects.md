@@ -1,3 +1,14 @@
+---
+name: "Playwright Java – Page Object Patterns"
+tags: ["antigravity", "c:", "chain", "component", "dialog", "dropdown", "dynamic", "frontend", "gemini", "handling", "java", "<YOUR_USERNAME>", "locators", "modal", "navigation", "object", "objects", "page", "pattern", "patterns"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1523
+tools_needed: ["markdown", "playwright"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
+---
 # Playwright Java – Page Object Patterns
 
 ## Component Pattern (Reusable Sub-Page-Objects)

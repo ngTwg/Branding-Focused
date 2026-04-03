@@ -1,11 +1,17 @@
 ---
-name: azure-appconfiguration-py
-description: Azure App Configuration SDK for Python. Use for centralized configuration management, feature flags, and dynamic settings.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "azure-appconfiguration-py"
+tags: ["antigravity", "app", "appconfiguration", "authentication", "azure", "backend", "c:", "configuration", "connection", "devops", "entra", "environment", "for", "gemini", "installation", "<YOUR_USERNAME>", "py", "python", "sdk", "string"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1399
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.88
+date_added: "2026-02-27"
+description: "Azure App Configuration SDK for Python. Use for centralized configuration management, feature flags, and dynamic settings."
+source: "community"
 ---
-
 # Azure App Configuration SDK for Python
 
 Centralized configuration management with feature flags and dynamic settings.

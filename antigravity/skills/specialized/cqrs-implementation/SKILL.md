@@ -1,11 +1,17 @@
 ---
-name: cqrs-implementation
-description: "Implement Command Query Responsibility Segregation for scalable architectures. Use when separating read and write models, optimizing query performance, or building event-sourced systems."
-risk: unknown
-source: community
+name: "cqrs-implementation"
+tags: ["antigravity", "c:", "cqrs", "frontend", "gemini", "implementation", "instructions", "<YOUR_USERNAME>", "not", "resources", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 317
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
 date_added: "2026-02-27"
+description: "Implement Command Query Responsibility Segregation for scalable architectures. Use when separating read and write models, optimizing query performance, or building event-sourced systems."
+source: "community"
 ---
-
 # CQRS Implementation
 
 Comprehensive guide to implementing CQRS (Command Query Responsibility Segregation) patterns.

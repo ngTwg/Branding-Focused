@@ -1,3 +1,14 @@
+---
+name: "last30days Implementation Tasks"
+tags: ["antigravity", "backend", "c:", "configuration", "core", "fixtures", "gemini", "implementation", "last30days", "<YOUR_USERNAME>", "library", "main", "modules", "script", "setup", "specialized", "tasks", "tests", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 368
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.62
+---
 # last30days Implementation Tasks
 
 ## Setup & Configuration

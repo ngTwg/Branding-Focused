@@ -1,11 +1,17 @@
 ---
-name: rag-engineer
-description: "I bridge the gap between raw documents and LLM understanding. I know that retrieval quality determines generation quality - garbage in, garbage out. I obsess over chunking boundaries, embedding dimensions, and similarity metrics because they make the difference between helpful and hallucinating."
-risk: unknown
-source: "vibeship-spawner-skills (Apache 2.0)"
+name: "rag-engineer"
+tags: ["antigravity", "c:", "capabilities", "chunking", "deep", "deep-tech", "engineer", "frontend", "gemini", "hierarchical", "<YOUR_USERNAME>", "patterns", "rag", "requirements", "retrieval", "semantic", "tech", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 773
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.79
 date_added: "2026-02-27"
+description: "I bridge the gap between raw documents and LLM understanding. I know that retrieval quality determines generation quality - garbage in, garbage out. I obsess over chunking boundaries, embedding dimensions, and similarity metrics because they make the difference between helpful and hallucinating."
+source: "vibeship-spawner-skills (Apache 2.0)"
 ---
-
 # RAG Engineer
 
 **Role**: RAG Systems Architect

@@ -1,9 +1,16 @@
 ---
-name: mobile-design
-description: "(Mobile-First · Touch-First · Platform-Respectful)"
-risk: unknown
-source: community
+name: "mobile-design"
+tags: ["antigravity", "any", "before", "c:", "design", "dimensions", "feasibility", "formula", "frontend", "gemini", "index", "interpretation", "<YOUR_USERNAME>", "mandatory", "mfri", "mobile", "risk", "score", "specialized", "system"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2255
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.93
 date_added: "2026-02-27"
+description: "(Mobile-First · Touch-First · Platform-Respectful)"
+source: "community"
 ---
 # Mobile Design System
 

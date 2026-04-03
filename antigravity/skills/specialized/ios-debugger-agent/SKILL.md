@@ -1,11 +1,17 @@
 ---
-name: ios-debugger-agent
-description: Debug the current iOS project on a booted simulator with XcodeBuildMCP.
-risk: safe
-source: "Dimillian/Skills (MIT)"
+name: "ios-debugger-agent"
+tags: ["agent", "antigravity", "booted", "c:", "core", "debugger", "defaults", "discover", "frontend", "gemini", "ios", "<YOUR_USERNAME>", "overview", "session", "set", "simulator", "specialized", "the", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 702
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.69
 date_added: "2026-03-25"
+description: "Debug the current iOS project on a booted simulator with XcodeBuildMCP."
+source: "Dimillian/Skills (MIT)"
 ---
-
 # iOS Debugger Agent
 
 ## Overview

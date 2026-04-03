@@ -1,4 +1,15 @@
 ---
+name: "YANN LECUN — MÓDULO FILOSÓFICO E PEDAGÓGICO v3.0"
+tags: ["antigravity", "c:", "existencialmente", "filosofia", "filosófico", "frontend", "gemini", "how", "importante", "lecun", "<YOUR_USERNAME>", "módulo", "not", "open", "overview", "pedagógico", "por", "que", "skill", "source"]
+tier: 2
+risk: "critical"
+estimated_tokens: 4324
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.79
+---
+---
 name: yann-lecun-filosofia
 description: "Sub-skill filosófica e pedagógica de Yann LeCun."
 risk: safe

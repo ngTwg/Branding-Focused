@@ -1,10 +1,16 @@
 ---
-name: threejs-loaders
-description: Three.js asset loading - GLTF, textures, images, models, async patterns. Use when loading 3D models, textures, HDR environments, or managing loading progress.
-risk: unknown
-source: community
+name: "threejs-loaders"
+tags: ["antigravity", "c:", "configuration", "frontend", "gemini", "<YOUR_USERNAME>", "loaders", "loading", "loadingmanager", "quick", "specialized", "start", "texture", "textureloader", "three", "threejs", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3672
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+description: "Three.js asset loading - GLTF, textures, images, models, async patterns. Use when loading 3D models, textures, HDR environments, or managing loading progress."
+source: "community"
 ---
-
 # Three.js Loaders
 
 ## Quick Start

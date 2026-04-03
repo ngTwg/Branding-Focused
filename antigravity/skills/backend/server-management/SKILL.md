@@ -1,11 +1,17 @@
 ---
-name: server-management
-description: "Server management principles and decision-making. Process management, monitoring strategy, and scaling decisions. Teaches thinking, not commands."
-risk: safe
-source: community
+name: "server-management"
+tags: ["antigravity", "backend", "c:", "frontend", "gemini", "goals", "<YOUR_USERNAME>", "management", "monitor", "monitoring", "principles", "process", "selection", "server", "tool", "users", "what"]
+tier: 3
+risk: "medium"
+estimated_tokens: 959
+tools_needed: ["docker", "kubernetes", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.70
 date_added: "2026-02-27"
+description: "Server management principles and decision-making. Process management, monitoring strategy, and scaling decisions. Teaches thinking, not commands."
+source: "community"
 ---
-
 # Server Management
 
 > Server management principles for production operations.

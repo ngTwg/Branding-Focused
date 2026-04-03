@@ -1,3 +1,14 @@
+---
+name: "Capture Guide"
+tags: ["antigravity", "c:", "capture", "complete", "frontend", "gemini", "guide", "<YOUR_USERNAME>", "overview", "quick", "reference", "scripts", "sequence", "shutdown", "specialized", "start", "users", "videodb", "workflow"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1209
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.75
+---
 # Capture Guide
 
 ## Overview

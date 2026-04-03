@@ -1,3 +1,14 @@
+---
+name: "File Organization"
+tags: ["antigravity", "c:", "complete", "components", "detailed", "dev", "directory", "distinction", "example", "feature", "features", "file", "frontend", "gemini", "guidelines", "<YOUR_USERNAME>", "organization", "resources", "specialized", "structure"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2888
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # File Organization
 
 Proper file and directory structure for maintainable, scalable frontend code in the the application.

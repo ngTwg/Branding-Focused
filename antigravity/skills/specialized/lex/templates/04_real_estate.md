@@ -1,9 +1,16 @@
 ---
-name: real-estate-facilities
-description: Agent templates governing physical property leasing and usage.
-jurisdictions: [USA, Canada, EU]
+name: "real-estate-facilities"
+tags: ["04", "agent", "antigravity", "c:", "contract", "estate", "facilities", "gemini", "instructions", "<YOUR_USERNAME>", "lex", "nuances", "official", "real", "references", "security", "specialized", "templates", "types", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 619
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["security", "compliance"]
+quality_score: 0.60
+description: "Agent templates governing physical property leasing and usage."
+jurisdictions: "[USA, Canada, EU]"
 ---
-
 # Real Estate & Facilities Templates
 
 These templates concern physical premises. Real Estate law is almost entirely localized, meaning templates represent broad structural frameworks rather than plug-and-play legal advice.

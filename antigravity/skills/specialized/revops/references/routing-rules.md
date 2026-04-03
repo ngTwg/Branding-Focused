@@ -1,3 +1,14 @@
+---
+name: "Lead Routing Rules"
+tags: ["antigravity", "basic", "c:", "configuration", "decision", "frontend", "gemini", "hubspot", "lead", "<YOUR_USERNAME>", "references", "revops", "robin", "round", "routing", "rules", "salesforce", "setup", "specialized", "tree"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1654
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.82
+---
 # Lead Routing Rules
 
 Decision trees, platform-specific configurations, territory routing, ABM routing, and speed-to-lead benchmarks.

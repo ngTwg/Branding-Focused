@@ -1,11 +1,17 @@
 ---
-name: nodejs-backend-patterns
-description: "Comprehensive guidance for building scalable, maintainable, and production-ready Node.js backend applications with modern frameworks, architectural patterns, and best practices."
-risk: safe
-source: community
+name: "nodejs-backend-patterns"
+tags: ["antigravity", "backend", "c:", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "node", "nodejs", "not", "patterns", "resources", "skill", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 336
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
 date_added: "2026-02-27"
+description: "Comprehensive guidance for building scalable, maintainable, and production-ready Node.js backend applications with modern frameworks, architectural patterns, and best practices."
+source: "community"
 ---
-
 # Node.js Backend Patterns
 
 Comprehensive guidance for building scalable, maintainable, and production-ready Node.js backend applications with modern frameworks, architectural patterns, and best practices.

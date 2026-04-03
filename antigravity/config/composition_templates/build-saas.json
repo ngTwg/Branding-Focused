@@ -1,0 +1,12 @@
+{
+  "id": "build-saas",
+  "name": "Build SaaS MVP Template",
+  "description": "Default chain for SaaS MVP delivery with auth, billing, and production baseline.",
+  "steps": [
+    "Define product scope and user journeys",
+    "Implement auth and authorization",
+    "Add billing subscriptions and webhooks",
+    "Set up persistence and migration guardrails",
+    "Add observability and CI/CD release checks"
+  ]
+}

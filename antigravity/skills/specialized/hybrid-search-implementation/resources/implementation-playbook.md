@@ -1,3 +1,14 @@
+---
+name: "Hybrid Search Implementation Implementation Playbook"
+tags: ["antigravity", "architecture", "c:", "concepts", "core", "frontend", "fusion", "gemini", "hybrid", "implementation", "<YOUR_USERNAME>", "methods", "playbook", "resources", "search", "skill", "specialized", "this", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4489
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.94
+---
 # Hybrid Search Implementation Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

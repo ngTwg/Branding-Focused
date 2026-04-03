@@ -1,13 +1,19 @@
 ---
-name: citation-management
+name: "citation-management"
+tags: ["and", "antigravity", "c:", "citation", "core", "discovery", "enhancement", "frontend", "gemini", "<YOUR_USERNAME>", "management", "overview", "paper", "phase", "schematics", "scientific", "search", "skill", "specialized", "this"]
+tier: 4
+risk: "medium"
+estimated_tokens: 8077
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 description: "Manage citations systematically throughout the research and writing process."
-license: MIT License
-metadata:
-    skill-author: K-Dense Inc.
-risk: unknown
-source: community
+license: "MIT License"
+metadata: ""
+skill-author: "K-Dense Inc."
+source: "community"
 ---
-
 # Citation Management
 
 ## Overview

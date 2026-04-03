@@ -1,10 +1,17 @@
 ---
-title: Select Optimal Primary Key Strategy
-impact: HIGH
-impactDescription: Better index locality, reduced fragmentation
-tags: primary-key, identity, uuid, serial, schema
+name: "Select Optimal Primary Key Strategy"
+tags: ["primary-key, identity, uuid, serial, schema"]
+tier: 3
+risk: "medium"
+estimated_tokens: 455
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.58
+impact: "HIGH"
+impactDescription: "Better index locality, reduced fragmentation"
+title: "Select Optimal Primary Key Strategy"
 ---
-
 ## Select Optimal Primary Key Strategy
 
 Primary key choice affects insert performance, index size, and replication

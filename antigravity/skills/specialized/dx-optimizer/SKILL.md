@@ -1,11 +1,17 @@
 ---
-name: dx-optimizer
-description: Developer Experience specialist. Improves tooling, setup, and workflows. Use PROACTIVELY when setting up new projects, after team feedback, or when development friction is noticed.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "dx-optimizer"
+tags: ["antigravity", "areas", "c:", "development", "dx", "environment", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "optimization", "optimizer", "setup", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 584
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.68
+date_added: "2026-02-27"
+description: "Developer Experience specialist. Improves tooling, setup, and workflows. Use PROACTIVELY when setting up new projects, after team feedback, or when development friction is noticed."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on dx optimizer tasks or workflows

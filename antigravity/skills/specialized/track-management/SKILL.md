@@ -1,11 +1,17 @@
 ---
-name: track-management
-description: Use this skill when creating, managing, or working with Conductor tracks - the logical work units for features, bugs, and refactors. Applies to spec.md, plan.md, and track lifecycle operations.
-risk: safe
-source: community
-date_added: '2026-02-27'
+name: "track-management"
+tags: ["antigravity", "c:", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "management", "not", "resources", "skill", "specialized", "this", "track", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 328
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
+date_added: "2026-02-27"
+description: "Use this skill when creating, managing, or working with Conductor tracks - the logical work units for features, bugs, and refactors. Applies to spec.md, plan.md, and track lifecycle operations."
+source: "community"
 ---
-
 # Track Management
 
 Guide for creating, managing, and completing Conductor tracks - the logical work units that organize features, bugs, and refactors through specification, planning, and implementation phases.

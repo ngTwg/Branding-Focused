@@ -1,9 +1,16 @@
 ---
-name: terraform-skill
-description: "Terraform infrastructure as code best practices"
-risk: safe
-source: "https://github.com/antonbabenko/terraform-skill"
+name: "terraform-skill"
+tags: ["antigravity", "c:", "claude", "code", "contextual", "conventions", "core", "descriptive", "devops", "for", "frontend", "gemini", "good", "<YOUR_USERNAME>", "naming", "philosophy", "principles", "skill", "structure", "terraform"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3903
+tools_needed: ["git", "markdown", "mcp", "terminal", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Terraform infrastructure as code best practices"
+source: "https://github.com/antonbabenko/terraform-skill"
 ---
 # Terraform Skill for Claude
 

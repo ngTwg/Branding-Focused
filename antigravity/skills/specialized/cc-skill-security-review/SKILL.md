@@ -1,11 +1,17 @@
 ---
-name: cc-skill-security-review
-description: "This skill ensures all code follows security best practices and identifies potential vulnerabilities. Use when implementing authentication or authorization, handling user input or file uploads, or creating new API endpoints."
-risk: unknown
-source: community
+name: "cc-skill-security-review"
+tags: ["antigravity", "c:", "cc", "checklist", "frontend", "gemini", "injection", "input", "<YOUR_USERNAME>", "management", "prevention", "review", "secrets", "security", "skill", "specialized", "sql", "use", "users", "validation"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3090
+tools_needed: ["git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "This skill ensures all code follows security best practices and identifies potential vulnerabilities. Use when implementing authentication or authorization, handling user input or file uploads, or creating new API endpoints."
+source: "community"
 ---
-
 # Security Review Skill
 
 This skill ensures all code follows security best practices and identifies potential vulnerabilities.

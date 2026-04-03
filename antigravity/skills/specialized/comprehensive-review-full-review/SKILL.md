@@ -1,11 +1,17 @@
 ---
-name: comprehensive-review-full-review
-description: "Use when working with comprehensive review full review"
-risk: unknown
-source: community
+name: "comprehensive-review-full-review"
+tags: ["analysis", "antigravity", "architecture", "c:", "code", "comprehensive", "configuration", "frontend", "full", "gemini", "instructions", "<YOUR_USERNAME>", "not", "options", "phase", "quality", "review", "skill", "specialized", "this"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2488
+tools_needed: ["git", "markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 date_added: "2026-02-27"
+description: "Use when working with comprehensive review full review"
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on comprehensive review full review tasks or workflows

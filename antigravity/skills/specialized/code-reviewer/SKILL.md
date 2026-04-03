@@ -1,11 +1,17 @@
 ---
-name: code-reviewer
-description: "Elite code review expert specializing in modern AI-powered code"
-risk: unknown
-source: community
+name: "code-reviewer"
+tags: ["analysis", "antigravity", "c:", "capabilities", "code", "expert", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "powered", "purpose", "reviewer", "skill", "specialized", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2181
+tools_needed: ["git", "kubernetes", "markdown", "sql", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 date_added: "2026-02-27"
+description: "Elite code review expert specializing in modern AI-powered code"
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on code reviewer tasks or workflows

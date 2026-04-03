@@ -1,3 +1,14 @@
+---
+name: "Communication Templates — Production Scheduling"
+tags: ["alert", "antigravity", "c:", "change", "communication", "contents", "disruption", "frontend", "gemini", "<YOUR_USERNAME>", "notification", "production", "publication", "reference", "references", "schedule", "scheduling", "specialized", "table", "templates"]
+tier: 2
+risk: "medium"
+estimated_tokens: 6193
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.79
+---
 # Communication Templates — Production Scheduling
 
 > **Reference Type:** Tier 3 — Load on demand when composing or reviewing production scheduling communications.

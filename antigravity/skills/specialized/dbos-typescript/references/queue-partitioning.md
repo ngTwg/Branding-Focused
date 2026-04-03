@@ -1,10 +1,17 @@
 ---
-title: Partition Queues for Per-Entity Limits
-impact: HIGH
-impactDescription: Enables per-entity concurrency control
-tags: queue, partition, per-user, dynamic
+name: "Partition Queues for Per-Entity Limits"
+tags: ["queue, partition, per-user, dynamic"]
+tier: 1
+risk: "medium"
+estimated_tokens: 479
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.61
+impact: "HIGH"
+impactDescription: "Enables per-entity concurrency control"
+title: "Partition Queues for Per-Entity Limits"
 ---
-
 ## Partition Queues for Per-Entity Limits
 
 Partitioned queues apply flow control limits per partition key instead of the entire queue. Each partition acts as a dynamic "subqueue".

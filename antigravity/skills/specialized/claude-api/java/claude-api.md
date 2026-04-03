@@ -1,3 +1,14 @@
+---
+name: "Claude API — Java"
+tags: ["antigravity", "api", "basic", "beta", "c:", "claude", "client", "frontend", "gemini", "initialization", "installation", "java", "<YOUR_USERNAME>", "message", "request", "specialized", "streaming", "tool", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 984
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.84
+---
 # Claude API — Java
 
 > **Note:** The Java SDK supports the Claude API and beta tool use with annotated classes. Agent SDK is not yet available for Java.

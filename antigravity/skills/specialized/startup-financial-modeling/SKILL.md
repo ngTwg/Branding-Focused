@@ -1,11 +1,17 @@
 ---
-name: startup-financial-modeling
+name: "startup-financial-modeling"
+tags: ["antigravity", "c:", "components", "core", "financial", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "modeling", "not", "overview", "skill", "specialized", "startup", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2869
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+date_added: "2026-02-27"
 description: "Build comprehensive 3-5 year financial models with revenue projections, cost structures, cash flow analysis, and scenario planning for early-stage startups."
-risk: unknown
-source: community
-date_added: '2026-02-27'
+source: "community"
 ---
-
 # Startup Financial Modeling
 
 Build comprehensive 3-5 year financial models with revenue projections, cost structures, cash flow analysis, and scenario planning for early-stage startups.

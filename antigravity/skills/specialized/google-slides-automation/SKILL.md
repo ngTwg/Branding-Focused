@@ -1,14 +1,20 @@
 ---
-name: google-slides-automation
+name: "google-slides-automation"
+tags: ["all", "antigravity", "automation", "c:", "commands", "content", "count", "find", "first", "from", "frontend", "gemini", "get", "google", "ids", "<YOUR_USERNAME>", "metadata", "object", "presentation", "presentations"]
+tier: 2
+risk: "critical"
+estimated_tokens: 964
+tools_needed: ["markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
+author: "sanjay3290"
 description: "Lightweight Google Slides integration with standalone OAuth authentication. No MCP server required. Full read/write access."
-license: Apache-2.0
-risk: critical
-source: community
-metadata:
-  author: sanjay3290
-  version: "1.0"
+license: "Apache-2.0"
+metadata: ""
+source: "community"
+version: "1.0"
 ---
-
 # Google Slides
 
 Lightweight Google Slides integration with standalone OAuth authentication. No MCP server required. Full read/write access.

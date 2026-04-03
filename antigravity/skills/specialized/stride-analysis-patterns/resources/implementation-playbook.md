@@ -1,3 +1,14 @@
+---
+name: "STRIDE Analysis Patterns Implementation Playbook"
+tags: ["analysis", "antigravity", "backend", "c:", "categories", "concepts", "core", "gemini", "implementation", "<YOUR_USERNAME>", "matrix", "patterns", "playbook", "resources", "skill", "specialized", "stride", "this", "threat", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 5231
+tools_needed: ["git", "markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.95
+---
 # STRIDE Analysis Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

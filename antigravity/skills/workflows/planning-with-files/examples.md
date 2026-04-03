@@ -1,3 +1,14 @@
+---
+name: "Examples: Planning with Files in Action"
+tags: ["action", "antigravity", "benefits", "c:", "create", "example", "examples", "exercise", "files", "frontend", "gemini", "goal", "<YOUR_USERNAME>", "loop", "morning", "phases", "plan", "planning", "research", "task"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1102
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
+---
 # Examples: Planning with Files in Action
 
 ## Example 1: Research Task

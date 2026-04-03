@@ -1,0 +1,73 @@
+{
+  "name": "antigravity-ide",
+  "version": "4.3.3",
+  "description": "The Ultimate AI-Powered IDE for 10x Engineers (Full Agentic Workflow)• 573 Master Skills • 2977 AI Patterns • 30 Workflows • 17 Shared Core Libraries. One Command to Rule Them All.",
+  "homepage": "https://antigravity-ide-cli.vercel.app/",
+  "main": "cli/index.js",
+  "bin": {
+    "antigravity": "./cli/index.js",
+    "antigravity-ide": "./cli/index.js",
+    "antigravity-setup": "./setup.js",
+    "antigravity-update": "./update.js"
+  },
+  "files": [
+    ".agent",
+    "cli",
+    "setup.js",
+    "update.js",
+    "README.md",
+    "LICENSE",
+    "docs"
+  ],
+  "scripts": {
+    "test": "jest",
+    "setup": "node ./setup.js",
+    "update": "node ./update.js",
+    "prepublishOnly": "node ./scripts/internal/generate-skill-definitions.js && node ./scripts/bundle-skills.js"
+  },
+  "dependencies": {
+    "boxen": "^5.1.2",
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "fs-extra": "^11.2.0",
+    "gradient-string": "^2.0.2",
+    "ora": "^5.4.1",
+    "playwright": "^1.58.2",
+    "prompts": "^2.4.2",
+    "shelljs": "^0.8.5",
+    "update-notifier": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dokhacgiakhoa/antigravity-ide.git"
+  },
+  "keywords": [
+    "antigravity",
+    "vibe-coding",
+    "ai-agent",
+    "ide",
+    "agentic-workflow",
+    "cursor",
+    "code-generation",
+    "ai",
+    "productivity",
+    "workflow",
+    "automation",
+    "llm",
+    "github-actions",
+    "agent-skills-standard"
+  ],
+  "standard": {
+    "upstream": "https://github.com/HoangNguyen0403/agent-skills-standard",
+    "skills_source": "https://github.com/anthropics/skills"
+  },
+  "author": "Dokhacgiakhoa",
+  "contributors": [
+    "vudovn (Reference Author)",
+    "sickn33 (Reference Author)"
+  ],
+  "license": "MIT"
+}

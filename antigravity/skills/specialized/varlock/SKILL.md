@@ -1,11 +1,17 @@
 ---
-name: varlock
+name: "varlock"
+tags: ["antigravity", "c:", "claude", "context", "core", "critical", "echo", "exposed", "exposes", "exposing", "for", "frontend", "gemini", "<YOUR_USERNAME>", "never", "principle", "rule", "rules", "secret", "secrets"]
+tier: 2
+risk: "critical"
+estimated_tokens: 2373
+tools_needed: ["docker", "git", "markdown", "pytest", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 description: "Secure-by-default environment variable management for Claude Code sessions."
-risk: critical
 source: "https://github.com/dmno-dev/varlock"
-version: 1.0.0
+version: "1.0.0"
 ---
-
 <!-- security-allowlist: curl-pipe-bash -->
 
 # Varlock Security Skill

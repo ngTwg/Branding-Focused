@@ -1,15 +1,20 @@
 ---
-name: trpc-fullstack
-description: "Build end-to-end type-safe APIs with tRPC — routers, procedures, middleware, subscriptions, and Next.js/React integration patterns."
-category: framework
-risk: none
-source: community
+name: "trpc-fullstack"
+tags: ["[typescript, trpc, api, fullstack, nextjs, react, type-safety]"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3866
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.98
+author: "suhaibjanjua"
+category: "framework"
 date_added: "2026-03-17"
-author: suhaibjanjua
-tags: [typescript, trpc, api, fullstack, nextjs, react, type-safety]
-tools: [claude, cursor, gemini]
+description: "Build end-to-end type-safe APIs with tRPC — routers, procedures, middleware, subscriptions, and Next.js/React integration patterns."
+source: "community"
+tools: "[claude, cursor, gemini]"
 ---
-
 # tRPC Full-Stack
 
 ## Overview

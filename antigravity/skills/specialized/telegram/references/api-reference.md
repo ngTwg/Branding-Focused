@@ -1,3 +1,14 @@
+---
+name: "Telegram Bot API - Referencia Completa"
+tags: ["acoes", "antigravity", "api", "autenticacao", "bot", "c:", "completa", "comuns", "contents", "disponiveis", "envio", "frontend", "gemini", "<YOUR_USERNAME>", "metodos", "parametros", "reference", "references", "referencia", "sendchataction"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1982
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.90
+---
 # Telegram Bot API - Referencia Completa
 
 ## Table of Contents

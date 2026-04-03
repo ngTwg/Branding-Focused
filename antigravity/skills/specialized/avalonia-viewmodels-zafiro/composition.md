@@ -1,3 +1,14 @@
+---
+name: "Composition & Mapping"
+tags: ["antigravity", "app", "avalonia", "axaml", "c:", "composition", "frontend", "gemini", "integration", "<YOUR_USERNAME>", "mapping", "registering", "registration", "root", "specialized", "users", "view", "viewmodel", "viewmodels", "zafiro"]
+tier: 2
+risk: "medium"
+estimated_tokens: 556
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.74
+---
 # Composition & Mapping
 
 Ensuring your ViewModels are correctly instantiated and mapped to their corresponding Views is crucial for a maintainable application.

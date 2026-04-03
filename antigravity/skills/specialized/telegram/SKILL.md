@@ -1,4 +1,15 @@
 ---
+name: "Telegram Bot API - Integracao Profissional"
+tags: ["antigravity", "api", "bot", "c:", "frontend", "gemini", "how", "integracao", "<YOUR_USERNAME>", "not", "overview", "profissional", "skill", "specialized", "telegram", "this", "use", "users", "when", "works"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3947
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
+---
 name: telegram
 description: Integracao completa com Telegram Bot API. Setup com BotFather, mensagens, webhooks, inline keyboards, grupos, canais. Boilerplates Node.js e Python.
 risk: critical

@@ -1,11 +1,17 @@
 ---
-name: azure-identity-rust
-description: Azure Identity SDK for Rust authentication. Use for DeveloperToolsCredential, ManagedIdentityCredential, ClientSecretCredential, and token-based authentication.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "azure-identity-rust"
+tags: ["antigravity", "assigned", "azure", "backend", "c:", "developertoolscredential", "devops", "environment", "for", "gemini", "identity", "installation", "<YOUR_USERNAME>", "managed", "optional", "principal", "production", "rust", "sdk", "service"]
+tier: 2
+risk: "medium"
+estimated_tokens: 872
+tools_needed: ["git", "kubernetes", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.84
+date_added: "2026-02-27"
+description: "Azure Identity SDK for Rust authentication. Use for DeveloperToolsCredential, ManagedIdentityCredential, ClientSecretCredential, and token-based authentication."
+source: "community"
 ---
-
 # Azure Identity SDK for Rust
 
 Authentication library for Azure SDK clients using Microsoft Entra ID (formerly Azure AD).

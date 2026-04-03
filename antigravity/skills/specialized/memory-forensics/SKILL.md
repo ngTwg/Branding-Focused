@@ -1,11 +1,17 @@
 ---
-name: memory-forensics
-description: "Comprehensive techniques for acquiring, analyzing, and extracting artifacts from memory dumps for incident response and malware analysis."
-risk: unknown
-source: community
+name: "memory-forensics"
+tags: ["acquisition", "antigravity", "c:", "forensics", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "live", "memory", "not", "skill", "specialized", "this", "tools", "use", "users", "when"]
+tier: 4
+risk: "medium"
+estimated_tokens: 2747
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Comprehensive techniques for acquiring, analyzing, and extracting artifacts from memory dumps for incident response and malware analysis."
+source: "community"
 ---
-
 # Memory Forensics
 
 Comprehensive techniques for acquiring, analyzing, and extracting artifacts from memory dumps for incident response and malware analysis.

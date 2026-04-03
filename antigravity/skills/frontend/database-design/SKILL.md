@@ -1,9 +1,16 @@
 ---
-name: database-design
-description: Database design principles and decision-making. Schema design, indexing strategy, ORM selection, serverless databases.
-allowed-tools: Read, Write, Edit, Glob, Grep
+name: "database-design"
+tags: ["anti", "antigravity", "c:", "checklist", "core", "database", "decision", "design", "frontend", "gemini", "<YOUR_USERNAME>", "patterns", "principle", "reading", "rule", "selective", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 377
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.59
+allowed-tools: "Read, Write, Edit, Glob, Grep"
+description: "Database design principles and decision-making. Schema design, indexing strategy, ORM selection, serverless databases."
 ---
-
 # Database Design
 
 > **Learn to THINK, not copy SQL patterns.**

@@ -1,3 +1,14 @@
+---
+name: "Agency/Consultancy SEO Strategy Template"
+tags: ["agency", "antigravity", "architecture", "assets", "c:", "characteristics", "consultancy", "example", "frontend", "gemini", "industry", "<YOUR_USERNAME>", "plan", "professionalservice", "recommendations", "recommended", "requirements", "schema", "seo", "site"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1076
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.75
+---
 <!-- Updated: 2026-02-07 -->
 # Agency/Consultancy SEO Strategy Template
 

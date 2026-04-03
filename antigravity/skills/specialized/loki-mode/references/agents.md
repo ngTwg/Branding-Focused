@@ -1,3 +1,14 @@
+---
+name: "Agent Type Definitions"
+tags: ["agent", "agents", "antigravity", "c:", "capabilities", "constraints", "definitions", "execution", "frontend", "gemini", "identity", "<YOUR_USERNAME>", "loki", "loop", "mode", "prompt", "references", "role", "specialized", "task"]
+tier: 3
+risk: "medium"
+estimated_tokens: 5769
+tools_needed: ["docker", "git", "kubernetes", "markdown", "playwright", "pytest", "sql", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Agent Type Definitions
 
 Complete specifications for all 37 specialized agent types in the Loki Mode multi-agent system.

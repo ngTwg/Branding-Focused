@@ -1,8 +1,15 @@
 ---
-name: senior-architect
-description: Comprehensive software architecture skill for designing scalable, maintainable systems using ReactJS, NextJS, NodeJS, Express, React Native, Swift, Kotlin, Flutter, Postgres, GraphQL, Go, Python. Includes architecture diagram generation, system design patterns, tech stack decision frameworks, and dependency analysis. Use when designing system architecture, making technical decisions, creating architecture diagrams, evaluating trade-offs, or defining integration patterns.
+name: "senior-architect"
+tags: ["analyzer", "antigravity", "architect", "architecture", "c:", "capabilities", "dependency", "diagram", "frontend", "gemini", "generator", "<YOUR_USERNAME>", "main", "project", "quick", "script", "senior", "specialized", "start", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1163
+tools_needed: ["docker", "git", "kubernetes", "markdown", "sql", "terminal", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
+description: "Comprehensive software architecture skill for designing scalable, maintainable systems using ReactJS, NextJS, NodeJS, Express, React Native, Swift, Kotlin, Flutter, Postgres, GraphQL, Go, Python. Includes architecture diagram generation, system design patterns, tech stack decision frameworks, and dependency analysis. Use when designing system architecture, making technical decisions, creating architecture diagrams, evaluating trade-offs, or defining integration patterns."
 ---
-
 # Senior Architect
 
 Complete toolkit for senior architect with modern tools and best practices.

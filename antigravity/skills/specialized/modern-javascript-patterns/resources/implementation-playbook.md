@@ -1,3 +1,14 @@
+---
+name: "Modern JavaScript Patterns Implementation Playbook"
+tags: ["antigravity", "arrow", "c:", "core", "destructuring", "es6", "features", "frontend", "functions", "gemini", "implementation", "javascript", "<YOUR_USERNAME>", "modern", "patterns", "playbook", "resources", "skill", "specialized", "this"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4955
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Modern JavaScript Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

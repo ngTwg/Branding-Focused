@@ -1,11 +1,17 @@
 ---
-name: bats-testing-patterns
-description: "Master Bash Automated Testing System (Bats) for comprehensive shell script testing. Use when writing tests for shell scripts, CI/CD pipelines, or requiring test-driven development of shell utilities."
-risk: unknown
-source: community
+name: "bats-testing-patterns"
+tags: ["antigravity", "bats", "c:", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "patterns", "resources", "skill", "specialized", "testing", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 335
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
 date_added: "2026-02-27"
+description: "Master Bash Automated Testing System (Bats) for comprehensive shell script testing. Use when writing tests for shell scripts, CI/CD pipelines, or requiring test-driven development of shell utilities."
+source: "community"
 ---
-
 # Bats Testing Patterns
 
 Comprehensive guidance for writing comprehensive unit tests for shell scripts using Bats (Bash Automated Testing System), including test patterns, fixtures, and best practices for production-grade shell testing.

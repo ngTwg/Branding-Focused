@@ -1,3 +1,14 @@
+---
+name: "Instructions"
+tags: ["3p", "anthropic", "antigravity", "available", "c:", "comms", "examples", "formatting", "frontend", "gemini", "instructions", "internal", "<YOUR_USERNAME>", "specialized", "tools", "updates", "users", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 818
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.62
+---
 ## Instructions
 You are being asked to write a 3P update. 3P updates stand for "Progress, Plans, Problems." The main audience is for executives, leadership, other teammates, etc. They're meant to be very succinct and to-the-point: think something you can read in 30-60sec or less. They're also for people with some, but not a lot of context on what the team does.
 

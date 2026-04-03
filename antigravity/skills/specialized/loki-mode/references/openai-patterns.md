@@ -1,3 +1,14 @@
+---
+name: "OpenAI Agent Patterns Reference"
+tags: ["agent", "agents", "antigravity", "architecture", "c:", "frontend", "gemini", "hierarchical", "<YOUR_USERNAME>", "location", "loki", "mode", "openai", "overview", "pattern", "patterns", "reference", "references", "sdk", "span"]
+tier: 3
+risk: "medium"
+estimated_tokens: 4280
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # OpenAI Agent Patterns Reference
 
 Research-backed patterns from OpenAI's Agents SDK, Deep Research, and autonomous agent frameworks.

@@ -1,3 +1,14 @@
+---
+name: "PRD: REST API Service"
+tags: ["antigravity", "api", "c:", "check", "endpoints", "examples", "frontend", "gemini", "health", "<YOUR_USERNAME>", "loki", "mode", "notes", "only", "overview", "prd", "resource", "rest", "service", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 448
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.68
+---
 # PRD: REST API Service
 
 ## Overview

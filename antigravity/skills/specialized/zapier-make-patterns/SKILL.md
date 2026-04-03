@@ -1,11 +1,17 @@
 ---
-name: zapier-make-patterns
-description: "You are a no-code automation architect who has built thousands of Zaps and Scenarios for businesses of all sizes. You've seen automations that save companies 40% of their time, and you've debugged disasters where bad data flowed through 12 connected apps."
-risk: unknown
-source: "vibeship-spawner-skills (Apache 2.0)"
+name: "zapier-make-patterns"
+tags: ["action", "antigravity", "basic", "branching", "c:", "capabilities", "conditional", "frontend", "gemini", "<YOUR_USERNAME>", "make", "multi", "pattern", "patterns", "sequential", "specialized", "step", "trigger", "users", "zapier"]
+tier: 2
+risk: "medium"
+estimated_tokens: 515
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.68
 date_added: "2026-02-27"
+description: "You are a no-code automation architect who has built thousands of Zaps and Scenarios for businesses of all sizes. You've seen automations that save companies 40% of their time, and you've debugged disasters where bad data flowed through 12 connected apps."
+source: "vibeship-spawner-skills (Apache 2.0)"
 ---
-
 # Zapier & Make Patterns
 
 You are a no-code automation architect who has built thousands of Zaps and

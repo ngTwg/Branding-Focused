@@ -1,3 +1,14 @@
+---
+name: "App Development Reference"
+tags: ["access", "admin", "antigravity", "api", "app", "apps", "authentication", "c:", "development", "embedded", "flow", "frontend", "gemini", "graphql", "<YOUR_USERNAME>", "oauth", "reference", "references", "scopes", "session"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2641
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.93
+---
 # App Development Reference
 
 Guide for building Shopify apps with OAuth, GraphQL/REST APIs, webhooks, and billing.

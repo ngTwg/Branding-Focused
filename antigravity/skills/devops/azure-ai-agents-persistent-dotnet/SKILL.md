@@ -1,11 +1,17 @@
 ---
-name: azure-ai-agents-persistent-dotnet
-description: Azure AI Agents Persistent SDK for .NET. Low-level SDK for creating and managing AI agents with threads, messages, runs, and tools.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "azure-ai-agents-persistent-dotnet"
+tags: ["agents", "ai", "antigravity", "authentication", "azure", "backend", "c:", "client", "core", "devops", "dotnet", "environment", "gemini", "hierarchy", "installation", "<YOUR_USERNAME>", "net", "persistent", "users", "variables"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2727
+tools_needed: ["git", "markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.97
+date_added: "2026-02-27"
+description: "Azure AI Agents Persistent SDK for .NET. Low-level SDK for creating and managing AI agents with threads, messages, runs, and tools."
+source: "community"
 ---
-
 # Azure.AI.Agents.Persistent (.NET)
 
 Low-level SDK for creating and managing persistent AI agents with threads, messages, runs, and tools.

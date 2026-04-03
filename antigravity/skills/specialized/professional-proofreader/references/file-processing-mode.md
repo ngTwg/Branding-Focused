@@ -1,3 +1,14 @@
+---
+name: "File Processing Workflow"
+tags: ["antigravity", "apply", "both", "c:", "extract", "file", "gemini", "identify", "<YOUR_USERNAME>", "mode", "processing", "professional", "proofreader", "proofreading", "references", "regenerate", "return", "specialized", "standard", "text"]
+tier: 2
+risk: "medium"
+estimated_tokens: 182
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.58
+---
 ### File Processing Workflow
 
 ### 1. Identify File Type

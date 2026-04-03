@@ -1,10 +1,16 @@
 ---
-name: filesystem-context
-description: Use for file-based context management, dynamic context discovery, and reducing context window bloat. Offload context to files for just-in-time loading.
-risk: unknown
-source: community
+name: "filesystem-context"
+tags: ["antigravity", "based", "c:", "concepts", "context", "core", "detailed", "dynamic", "engineering", "filesystem", "frontend", "gemini", "<YOUR_USERNAME>", "off", "pad", "pattern", "scratch", "specialized", "static", "the"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3361
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+description: "Use for file-based context management, dynamic context discovery, and reducing context window bloat. Offload context to files for just-in-time loading."
+source: "community"
 ---
-
 # Filesystem-Based Context Engineering
 
 The filesystem provides a single interface through which agents can flexibly store, retrieve, and update an effectively unlimited amount of context. This pattern addresses the fundamental constraint that context windows are limited while tasks often require more information than fits in a single window.

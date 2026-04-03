@@ -1,11 +1,17 @@
 ---
-name: deployment-pipeline-design
-description: "Architecture patterns for multi-stage CI/CD pipelines with approval gates and deployment strategies."
-risk: critical
-source: community
+name: "deployment-pipeline-design"
+tags: ["antigravity", "c:", "deployment", "design", "devops", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "pipeline", "purpose", "skill", "stages", "this", "use", "users", "when"]
+tier: 3
+risk: "critical"
+estimated_tokens: 2144
+tools_needed: ["docker", "git", "kubernetes", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.96
 date_added: "2026-02-27"
+description: "Architecture patterns for multi-stage CI/CD pipelines with approval gates and deployment strategies."
+source: "community"
 ---
-
 # Deployment Pipeline Design
 
 Architecture patterns for multi-stage CI/CD pipelines with approval gates and deployment strategies.

@@ -1,10 +1,17 @@
 ---
-title: Start Workflows in Background
-impact: CRITICAL
-impactDescription: Background workflows enable reliable async processing
-tags: workflow, background, handle, async
+name: "Start Workflows in Background"
+tags: ["workflow, background, handle, async"]
+tier: 2
+risk: "medium"
+estimated_tokens: 399
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.61
+impact: "CRITICAL"
+impactDescription: "Background workflows enable reliable async processing"
+title: "Start Workflows in Background"
 ---
-
 ## Start Workflows in Background
 
 Use `dbos.RunWorkflow` to start a workflow and get a handle to track it. The workflow is guaranteed to run to completion even if the app is interrupted.

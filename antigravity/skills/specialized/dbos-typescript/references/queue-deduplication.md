@@ -1,10 +1,17 @@
 ---
-title: Deduplicate Queued Workflows
-impact: HIGH
-impactDescription: Prevents duplicate workflow executions
-tags: queue, deduplication, idempotent, duplicate
+name: "Deduplicate Queued Workflows"
+tags: ["queue, deduplication, idempotent, duplicate"]
+tier: 1
+risk: "medium"
+estimated_tokens: 405
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.57
+impact: "HIGH"
+impactDescription: "Prevents duplicate workflow executions"
+title: "Deduplicate Queued Workflows"
 ---
-
 ## Deduplicate Queued Workflows
 
 Set a deduplication ID when enqueuing to prevent duplicate workflow executions. If a workflow with the same deduplication ID is already enqueued or executing, a `DBOSQueueDuplicatedError` is thrown.

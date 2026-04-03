@@ -1,10 +1,16 @@
 ---
-name: n8n-expression-syntax
-description: Validate n8n expression syntax and fix common errors. Use when writing n8n expressions, using {{}} syntax, accessing $json/$node variables, troubleshooting expression errors, or working with webhook data in workflows.
-risk: unknown
-source: community
+name: "n8n-expression-syntax"
+tags: ["antigravity", "c:", "core", "current", "expression", "format", "frontend", "gemini", "json", "<YOUR_USERNAME>", "n8n", "node", "nodes", "now", "other", "output", "reference", "specialized", "syntax", "timestamp"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2366
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+description: "Validate n8n expression syntax and fix common errors. Use when writing n8n expressions, using {{}} syntax, accessing $json/$node variables, troubleshooting expression errors, or working with webhook data in workflows."
+source: "community"
 ---
-
 # n8n Expression Syntax
 
 Expert guide for writing correct n8n expressions in workflows.

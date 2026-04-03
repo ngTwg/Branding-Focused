@@ -1,11 +1,17 @@
 ---
-name: gemini-api-integration
-description: "Use when integrating Google Gemini API into projects. Covers model selection, multimodal inputs, streaming, function calling, and production best practices."
-risk: safe
-source: community
+name: "gemini-api-integration"
+tags: ["antigravity", "api", "basic", "c:", "frontend", "gemini", "generation", "guide", "installation", "integration", "<YOUR_USERNAME>", "overview", "setup", "skill", "specialized", "step", "text", "this", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1431
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.91
 date_added: "2026-03-04"
+description: "Use when integrating Google Gemini API into projects. Covers model selection, multimodal inputs, streaming, function calling, and production best practices."
+source: "community"
 ---
-
 # Gemini API Integration
 
 ## Overview

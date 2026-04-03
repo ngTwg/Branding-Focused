@@ -1,10 +1,16 @@
 ---
-name: get-video-dimensions
-description: Getting the width and height of a video file with Mediabunny
-metadata:
-  tags: dimensions, width, height, resolution, size, video
+name: "get-video-dimensions"
+tags: ["dimensions, width, height, resolution, size, video"]
+tier: 3
+risk: "high"
+estimated_tokens: 406
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["data", "analytics"]
+quality_score: 0.72
+description: "Getting the width and height of a video file with Mediabunny"
+metadata: ""
 ---
-
 # Getting video dimensions with Mediabunny
 
 Mediabunny can extract the width and height of a video file. It works in browser, Node.js, and Bun environments.

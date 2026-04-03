@@ -1,3 +1,14 @@
+---
+name: "Advanced Topics & Future Enhancements"
+tags: ["advanced", "analytics", "antigravity", "c:", "conditional", "dependencies", "developer", "dynamic", "enforcement", "enhancements", "frontend", "future", "gemini", "<YOUR_USERNAME>", "rule", "skill", "specialized", "topics", "updates", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 994
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.80
+---
 # Advanced Topics & Future Enhancements
 
 Ideas and concepts for future improvements to the skill system.

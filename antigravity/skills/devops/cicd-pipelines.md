@@ -1,3 +1,14 @@
+---
+name: "CI/CD PIPELINES"
+tags: ["actions", "antigravity", "builds", "c:", "caching", "cicd", "deploy", "devops", "frontend", "gemini", "github", "<YOUR_USERNAME>", "matrix", "pipelines", "strategies", "users", "workflows", "yml"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1577
+tools_needed: ["docker", "git", "kubernetes", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.88
+---
 # CI/CD PIPELINES
 
 > **Khi nào tải skill này:** CI/CD, Pipeline, GitHub Actions, Deploy, Build, Test

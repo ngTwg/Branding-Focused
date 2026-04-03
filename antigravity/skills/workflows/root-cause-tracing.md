@@ -1,3 +1,14 @@
+---
+name: "Root Cause Tracing"
+tags: ["antigravity", "backend", "c:", "cause", "find", "gemini", "immediate", "<YOUR_USERNAME>", "observe", "overview", "process", "root", "symptom", "the", "tracing", "use", "users", "when", "workflows"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1329
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.89
+---
 # Root Cause Tracing
 
 ## Overview

@@ -1,11 +1,17 @@
 ---
-name: julia-pro
-description: Master Julia 1.10+ with modern features, performance optimization, multiple dispatch, and production-ready practices.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "julia-pro"
+tags: ["antigravity", "c:", "capabilities", "features", "frontend", "gemini", "instructions", "julia", "<YOUR_USERNAME>", "modern", "not", "pro", "purpose", "skill", "specialized", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2145
+tools_needed: ["docker", "git", "markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+date_added: "2026-02-27"
+description: "Master Julia 1.10+ with modern features, performance optimization, multiple dispatch, and production-ready practices."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on julia pro tasks or workflows

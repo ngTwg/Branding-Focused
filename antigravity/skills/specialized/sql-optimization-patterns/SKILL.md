@@ -1,11 +1,17 @@
 ---
-name: sql-optimization-patterns
-description: "Transform slow database queries into lightning-fast operations through systematic optimization, proper indexing, and query plan analysis."
-risk: safe
-source: community
+name: "sql-optimization-patterns"
+tags: ["antigravity", "c:", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "optimization", "patterns", "resources", "skill", "specialized", "sql", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 303
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
 date_added: "2026-02-27"
+description: "Transform slow database queries into lightning-fast operations through systematic optimization, proper indexing, and query plan analysis."
+source: "community"
 ---
-
 # SQL Optimization Patterns
 
 Transform slow database queries into lightning-fast operations through systematic optimization, proper indexing, and query plan analysis.

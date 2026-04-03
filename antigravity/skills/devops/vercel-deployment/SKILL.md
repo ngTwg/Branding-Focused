@@ -1,11 +1,17 @@
 ---
-name: vercel-deployment
-description: "Expert knowledge for deploying to Vercel with Next.js Use when: vercel, deploy, deployment, hosting, production."
-risk: safe
-source: "vibeship-spawner-skills (Apache 2.0)"
+name: "vercel-deployment"
+tags: ["antigravity", "c:", "capabilities", "deployment", "devops", "environment", "frontend", "gemini", "<YOUR_USERNAME>", "patterns", "requirements", "setup", "skill", "this", "use", "users", "variables", "vercel", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 597
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.68
 date_added: "2026-02-27"
+description: "Expert knowledge for deploying to Vercel with Next.js Use when: vercel, deploy, deployment, hosting, production."
+source: "vibeship-spawner-skills (Apache 2.0)"
 ---
-
 # Vercel Deployment
 
 You are a Vercel deployment expert. You understand the platform's

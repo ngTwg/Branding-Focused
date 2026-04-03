@@ -1,11 +1,17 @@
 ---
-name: m365-agents-ts
-description: Microsoft 365 Agents SDK for TypeScript/Node.js.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "m365-agents-ts"
+tags: ["365", "agentapplication", "agents", "antigravity", "azure", "before", "c:", "core", "environment", "express", "frontend", "gemini", "hosted", "implementation", "installation", "<YOUR_USERNAME>", "m365", "microsoft", "openai", "responses"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1521
+tools_needed: ["git", "markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.90
+date_added: "2026-02-27"
+description: "Microsoft 365 Agents SDK for TypeScript/Node.js."
+source: "community"
 ---
-
 # Microsoft 365 Agents SDK (TypeScript)
 
 Build enterprise agents for Microsoft 365, Teams, and Copilot Studio using the Microsoft 365 Agents SDK with Express hosting, AgentApplication routing, streaming responses, and Copilot Studio client integrations.

@@ -1,3 +1,14 @@
+---
+name: "Deployment Reference"
+tags: ["antigravity", "auto", "c:", "cli", "commands", "decision", "deploy", "deployment", "detects", "framework", "frontend", "gemini", "install", "<YOUR_USERNAME>", "loki", "matrix", "mode", "quick", "reference", "references"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3321
+tools_needed: ["docker", "git", "kubernetes", "markdown", "sql", "terminal", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Deployment Reference
 
 Infrastructure provisioning and deployment instructions for all supported platforms.

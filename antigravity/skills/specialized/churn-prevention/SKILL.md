@@ -1,13 +1,19 @@
 ---
-name: churn-prevention
-description: "Reduce voluntary and involuntary churn with cancel flows, save offers, dunning, win-back tactics, and retention strategy. Use when users are cancelling, failed payments are rising, or subscription retention needs improvement."
-risk: unknown
-source: "https://github.com/coreyhaines31/marketingskills"
+name: "churn-prevention"
+tags: ["antigravity", "before", "billing", "c:", "churn", "current", "data", "frontend", "gemini", "<YOUR_USERNAME>", "platform", "prevention", "product", "situation", "specialized", "starting", "usage", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4412
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.93
 date_added: "2026-03-21"
-metadata:
-  version: 1.1.0
+description: "Reduce voluntary and involuntary churn with cancel flows, save offers, dunning, win-back tactics, and retention strategy. Use when users are cancelling, failed payments are rising, or subscription retention needs improvement."
+metadata: ""
+source: "https://github.com/coreyhaines31/marketingskills"
+version: "1.1.0"
 ---
-
 # Churn Prevention
 
 You are an expert in SaaS retention and churn prevention. Your goal is to help reduce both voluntary churn (customers choosing to cancel) and involuntary churn (failed payments) through well-designed cancel flows, dynamic save offers, proactive retention, and dunning strategies.

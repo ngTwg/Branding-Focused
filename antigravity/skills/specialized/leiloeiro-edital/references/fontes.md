@@ -1,3 +1,14 @@
+---
+name: "Fontes e Referências — Leiloeiro Edital"
+tags: ["antigravity", "c:", "custos", "direta", "edital", "fontes", "gemini", "legislação", "leiloeiro", "<YOUR_USERNAME>", "portais", "references", "referências", "specialized", "users", "venda"]
+tier: 3
+risk: "high"
+estimated_tokens: 128
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["specialized", "domain"]
+quality_score: 0.54
+---
 # Fontes e Referências — Leiloeiro Edital
 
 ## Legislação

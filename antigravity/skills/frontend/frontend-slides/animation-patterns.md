@@ -1,3 +1,14 @@
+---
+name: "Animation Patterns Reference"
+tags: ["animation", "animations", "antigravity", "background", "c:", "effect", "effects", "entrance", "feeling", "frontend", "gemini", "guide", "interactive", "<YOUR_USERNAME>", "patterns", "reference", "slides", "troubleshooting", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1005
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.74
+---
 # Animation Patterns Reference
 
 Use this reference when generating presentations. Match animations to the intended feeling.

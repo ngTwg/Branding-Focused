@@ -1,11 +1,17 @@
 ---
-name: azure-ai-document-intelligence-ts
-description: "Extract text, tables, and structured data from documents using prebuilt and custom models."
-risk: unknown
-source: community
+name: "azure-ai-document-intelligence-ts"
+tags: ["ai", "antigravity", "api", "authentication", "azure", "c:", "defaultazurecredential", "devops", "document", "environment", "for", "frontend", "gemini", "installation", "intelligence", "key", "<YOUR_USERNAME>", "rest", "sdk", "ts"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2274
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.94
 date_added: "2026-02-27"
+description: "Extract text, tables, and structured data from documents using prebuilt and custom models."
+source: "community"
 ---
-
 # Azure Document Intelligence REST SDK for TypeScript
 
 Extract text, tables, and structured data from documents using prebuilt and custom models.

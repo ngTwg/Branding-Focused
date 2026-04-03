@@ -1,11 +1,17 @@
 ---
-name: azure-maps-search-dotnet
-description: Azure Maps SDK for .NET. Location-based services including geocoding, routing, rendering, geolocation, and weather. Use for address search, directions, map tiles, IP geolocation, and weather data.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "azure-maps-search-dotnet"
+tags: ["antigravity", "azure", "c:", "devops", "directions", "dotnet", "frontend", "gemini", "geocoding", "geolocation", "images", "installation", "<YOUR_USERNAME>", "location", "map", "maps", "matrix", "net", "rendering", "reverse"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3751
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+date_added: "2026-02-27"
+description: "Azure Maps SDK for .NET. Location-based services including geocoding, routing, rendering, geolocation, and weather. Use for address search, directions, map tiles, IP geolocation, and weather data."
+source: "community"
 ---
-
 # Azure Maps (.NET)
 
 Azure Maps SDK for .NET providing location-based services: geocoding, routing, rendering, geolocation, and weather.

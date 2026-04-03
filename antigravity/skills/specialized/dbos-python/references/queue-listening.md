@@ -1,10 +1,17 @@
 ---
-title: Control Which Queues a Worker Listens To
-impact: HIGH
-impactDescription: Enables heterogeneous worker pools (CPU/GPU)
-tags: queue, listen, worker, heterogeneous
+name: "Control Which Queues a Worker Listens To"
+tags: ["queue, listen, worker, heterogeneous"]
+tier: 1
+risk: "medium"
+estimated_tokens: 401
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.61
+impact: "HIGH"
+impactDescription: "Enables heterogeneous worker pools (CPU/GPU)"
+title: "Control Which Queues a Worker Listens To"
 ---
-
 ## Control Which Queues a Worker Listens To
 
 Use `DBOS.listen_queues()` to make a process only handle specific queues. Useful for CPU vs GPU workers.

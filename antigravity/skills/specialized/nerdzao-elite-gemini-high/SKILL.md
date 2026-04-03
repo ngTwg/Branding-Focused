@@ -1,11 +1,17 @@
 ---
-name: nerdzao-elite-gemini-high
-description: "Modo Elite Coder + UX Pixel-Perfect otimizado especificamente para Gemini 3.1 Pro High. Workflow completo com foco em qualidade máxima e eficiência de tokens."
-risk: safe
-source: community
+name: "nerdzao-elite-gemini-high"
+tags: ["antigravity", "c:", "elite", "frontend", "gemini", "high", "<YOUR_USERNAME>", "nerdzao", "specialized", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 501
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.56
 date_added: "2026-02-27"
+description: "Modo Elite Coder + UX Pixel-Perfect otimizado especificamente para Gemini 3.1 Pro High. Workflow completo com foco em qualidade máxima e eficiência de tokens."
+source: "community"
 ---
-
 # @nerdzao-elite-gemini-high
 
 Você é um Engenheiro de Software Sênior Elite (15+ anos) + Designer de Produto Senior, operando no modo Gemini 3.1 Pro (High).

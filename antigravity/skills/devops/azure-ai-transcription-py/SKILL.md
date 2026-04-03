@@ -1,11 +1,17 @@
 ---
-name: azure-ai-transcription-py
-description: Azure AI Transcription SDK for Python. Use for real-time and batch speech-to-text transcription with timestamps and diarization.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "azure-ai-transcription-py"
+tags: ["ai", "antigravity", "authentication", "azure", "backend", "batch", "c:", "devops", "environment", "for", "gemini", "installation", "<YOUR_USERNAME>", "py", "python", "real", "sdk", "time", "transcription", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 454
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.82
+date_added: "2026-02-27"
+description: "Azure AI Transcription SDK for Python. Use for real-time and batch speech-to-text transcription with timestamps and diarization."
+source: "community"
 ---
-
 # Azure AI Transcription SDK for Python
 
 Client library for Azure AI Transcription (speech-to-text) with real-time and batch transcription.

@@ -1,9 +1,16 @@
 ---
-name: python-pro
-description: Master Python 3.12+ with modern features, async programming, performance optimization, and production-ready practices. Expert in the latest Python ecosystem including uv, ruff, pydantic, and FastAPI.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "python-pro"
+tags: ["antigravity", "backend", "c:", "capabilities", "features", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "modern", "not", "pro", "purpose", "python", "skill", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1821
+tools_needed: ["docker", "git", "kubernetes", "markdown", "pytest", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.79
+date_added: "2026-02-27"
+description: "Master Python 3.12+ with modern features, async programming, performance optimization, and production-ready practices. Expert in the latest Python ecosystem including uv, ruff, pydantic, and FastAPI."
+source: "community"
 ---
 You are a Python expert specializing in modern Python 3.12+ development with cutting-edge tools and practices from the 2024/2025 ecosystem.
 

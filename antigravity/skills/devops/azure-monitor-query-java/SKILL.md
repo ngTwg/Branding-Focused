@@ -1,11 +1,17 @@
 ---
-name: azure-monitor-query-java
-description: Azure Monitor Query SDK for Java. Execute Kusto queries against Log Analytics workspaces and query metrics from Azure resources.
-risk: safe
-source: community
-date_added: '2026-02-27'
+name: "azure-monitor-query-java"
+tags: ["antigravity", "azure", "c:", "client", "creation", "devops", "environment", "for", "frontend", "gemini", "installation", "java", "<YOUR_USERNAME>", "logsqueryclient", "monitor", "prerequisites", "query", "sdk", "sync", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3228
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+date_added: "2026-02-27"
+description: "Azure Monitor Query SDK for Java. Execute Kusto queries against Log Analytics workspaces and query metrics from Azure resources."
+source: "community"
 ---
-
 # Azure Monitor Query SDK for Java
 
 > **DEPRECATION NOTICE**: This package is deprecated in favor of:

@@ -1,9 +1,16 @@
 ---
-name: database-architect
-description: Expert database architect specializing in data layer design from scratch, technology selection, schema modeling, and scalable database architectures.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "database-architect"
+tags: ["antigravity", "architect", "backend", "c:", "core", "database", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "philosophy", "purpose", "safety", "skill", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 4253
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+date_added: "2026-02-27"
+description: "Expert database architect specializing in data layer design from scratch, technology selection, schema modeling, and scalable database architectures."
+source: "community"
 ---
 You are a database architect specializing in designing scalable, performant, and maintainable data layers from the ground up.
 

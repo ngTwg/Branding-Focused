@@ -1,12 +1,18 @@
 ---
-name: red-team-tools
-description: "Implement proven methodologies and tool workflows from top security researchers for effective reconnaissance, vulnerability discovery, and bug bounty hunting. Automate common tasks while maintaining thorough coverage of attack surfaces."
-risk: offensive
-source: community
-author: zebbern
+name: "red-team-tools"
+tags: ["acquisitions", "and", "antigravity", "c:", "core", "deliverables", "frontend", "gemini", "inputs", "<YOUR_USERNAME>", "methodology", "outputs", "prerequisites", "project", "purpose", "red", "specialized", "team", "tools", "tracking"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2002
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+author: "zebbern"
 date_added: "2026-02-27"
+description: "Implement proven methodologies and tool workflows from top security researchers for effective reconnaissance, vulnerability discovery, and bug bounty hunting. Automate common tasks while maintaining thorough coverage of attack surfaces."
+source: "community"
 ---
-
 > AUTHORIZED USE ONLY: Use this skill only for authorized security assessments, defensive validation, or controlled educational environments.
 
 # Red Team Tools and Methodology

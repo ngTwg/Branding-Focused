@@ -1,13 +1,18 @@
 ---
-name: aws-compliance-checker
-description: "Automated compliance checking against CIS, PCI-DSS, HIPAA, and SOC 2 benchmarks"
-category: security
-risk: safe
-source: community
-tags: "[aws, compliance, audit, cis, pci-dss, hipaa, kiro-cli]"
+name: "aws-compliance-checker"
+tags: ["[aws, compliance, audit, cis, pci-dss, hipaa, kiro-cli]"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3594
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.98
+category: "security"
 date_added: "2026-02-27"
+description: "Automated compliance checking against CIS, PCI-DSS, HIPAA, and SOC 2 benchmarks"
+source: "community"
 ---
-
 # AWS Compliance Checker
 
 Automated compliance validation against industry standards including CIS AWS Foundations, PCI-DSS, HIPAA, and SOC 2.

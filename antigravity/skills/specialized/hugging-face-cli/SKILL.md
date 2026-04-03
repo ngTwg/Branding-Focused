@@ -1,10 +1,16 @@
 ---
-source: "https://github.com/huggingface/skills/tree/main/skills/hf-cli"
-name: hugging-face-cli
+name: "hugging-face-cli"
+tags: ["antigravity", "auth", "authentication", "buckets", "c:", "cache", "cli", "collections", "commands", "directory", "etc", "face", "frontend", "gemini", "hub", "hugging", "interact", "<YOUR_USERNAME>", "local", "login"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4124
+tools_needed: ["git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 description: "Use the Hugging Face Hub CLI (`hf`) to download, upload, and manage models, datasets, and Spaces."
-risk: unknown
+source: "https://github.com/huggingface/skills/tree/main/skills/hf-cli"
 ---
-
 Install by downloading the installer script first, reviewing it, and then running it locally. Example:
 `curl -LsSf https://hf.co/cli/install.sh -o /tmp/hf-install.sh && less /tmp/hf-install.sh && bash /tmp/hf-install.sh`
 

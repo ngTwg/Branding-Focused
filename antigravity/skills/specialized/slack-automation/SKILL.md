@@ -1,11 +1,17 @@
 ---
-name: slack-automation
-description: "Automate Slack workspace operations including messaging, search, channel management, and reaction workflows through Composio's Slack toolkit."
-risk: critical
-source: community
+name: "slack-automation"
+tags: ["and", "antigravity", "automation", "c:", "channels", "conversations", "core", "frontend", "gemini", "<YOUR_USERNAME>", "mcp", "messages", "prerequisites", "rube", "search", "send", "setup", "slack", "specialized", "users"]
+tier: 2
+risk: "critical"
+estimated_tokens: 2402
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 date_added: "2026-02-27"
+description: "Automate Slack workspace operations including messaging, search, channel management, and reaction workflows through Composio's Slack toolkit."
+source: "community"
 ---
-
 # Slack Automation via Rube MCP
 
 Automate Slack workspace operations including messaging, search, channel management, and reaction workflows through Composio's Slack toolkit.

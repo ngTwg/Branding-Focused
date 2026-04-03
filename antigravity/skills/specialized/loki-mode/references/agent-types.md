@@ -1,3 +1,14 @@
+---
+name: "Agent Types Reference"
+tags: ["agent", "antigravity", "business", "c:", "data", "engineering", "frontend", "gemini", "<YOUR_USERNAME>", "loki", "mode", "operations", "overview", "reference", "references", "specialized", "swarm", "types", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1943
+tools_needed: ["docker", "git", "kubernetes", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+---
 # Agent Types Reference
 
 Complete definitions and capabilities for all 37 specialized agent types.

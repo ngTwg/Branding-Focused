@@ -1,3 +1,14 @@
+---
+name: "AI Studio Image — Guia Avancado de Prompt Engineering"
+tags: ["ai", "antigravity", "avancado", "c:", "cenas", "deep", "deep-tech", "educacional", "engineering", "fotorrealistas", "frontend", "fundamental", "gemini", "google", "guia", "image", "<YOUR_USERNAME>", "material", "mockups", "oficiais"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1302
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.89
+---
 # AI Studio Image — Guia Avancado de Prompt Engineering
 
 ## Principio Fundamental (da Google)

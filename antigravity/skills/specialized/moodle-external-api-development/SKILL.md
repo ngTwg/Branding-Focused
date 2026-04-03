@@ -1,11 +1,17 @@
 ---
-name: moodle-external-api-development
-description: "This skill guides you through creating custom external web service APIs for Moodle LMS, following Moodle's external API framework and coding standards."
-risk: unknown
-source: community
+name: "moodle-external-api-development"
+tags: ["antigravity", "api", "architecture", "c:", "class", "core", "create", "define", "development", "external", "file", "frontend", "gemini", "implementation", "input", "<YOUR_USERNAME>", "moodle", "parameters", "pattern", "skill"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4531
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "This skill guides you through creating custom external web service APIs for Moodle LMS, following Moodle's external API framework and coding standards."
+source: "community"
 ---
-
 # Moodle External API Development
 
 This skill guides you through creating custom external web service APIs for Moodle LMS, following Moodle's external API framework and coding standards.

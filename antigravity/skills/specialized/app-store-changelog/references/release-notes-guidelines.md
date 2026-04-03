@@ -1,3 +1,14 @@
+---
+name: "App Store Release Notes Guidelines"
+tags: ["antigravity", "app", "c:", "changelog", "examples", "filtering", "frontend", "gemini", "goals", "guidance", "guidelines", "language", "<YOUR_USERNAME>", "notes", "output", "references", "release", "rules", "shape", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 411
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.63
+---
 # App Store Release Notes Guidelines
 
 ## Goals

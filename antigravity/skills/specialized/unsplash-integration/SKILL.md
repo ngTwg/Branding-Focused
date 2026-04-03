@@ -1,3 +1,14 @@
+---
+name: "Unsplash Integration Skill"
+tags: ["antigravity", "c:", "context", "execution", "frontend", "gemini", "integration", "<YOUR_USERNAME>", "rules", "skill", "specialized", "strict", "unsplash", "use", "users", "when", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 515
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
+---
 --- 
 name: unsplash-integration
 description: Integration skill for searching and fetching high-quality, free-to-use professional photography from Unsplash.

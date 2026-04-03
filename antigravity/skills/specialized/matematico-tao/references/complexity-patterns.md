@@ -1,3 +1,14 @@
+---
+name: "Padrões de Complexidade em Android/Kotlin"
+tags: ["alta", "android", "antigravity", "c:", "ciclomática", "cognitiva", "com", "complexidade", "complexity", "definição", "diferença", "frontend", "gemini", "kotlin", "<YOUR_USERNAME>", "matematico", "mccabe", "padrões", "patterns", "references"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2212
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.94
+---
 # Padrões de Complexidade em Android/Kotlin
 
 ## 1. Complexidade Ciclomática (McCabe)

@@ -1,3 +1,14 @@
+---
+name: ".NET Backend Development Patterns Implementation Playbook"
+tags: ["antigravity", "architecture", "async", "await", "backend", "c:", "clean", "concepts", "configuration", "core", "dependency", "development", "dotnet", "frontend", "gemini", "implementation", "injection", "ioptions", "<YOUR_USERNAME>", "net"]
+tier: 2
+risk: "medium"
+estimated_tokens: 6620
+tools_needed: ["markdown", "mcp", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # .NET Backend Development Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

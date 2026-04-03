@@ -1,9 +1,16 @@
 ---
-name: javascript-pro
-description: Master modern JavaScript with ES6+, async patterns, and Node.js APIs. Handles promises, event loops, and browser/Node compatibility.
-risk: safe
-source: community
-date_added: '2026-02-27'
+name: "javascript-pro"
+tags: ["antigravity", "approach", "areas", "c:", "focus", "frontend", "gemini", "instructions", "javascript", "<YOUR_USERNAME>", "not", "output", "pro", "skill", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 424
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.63
+date_added: "2026-02-27"
+description: "Master modern JavaScript with ES6+, async patterns, and Node.js APIs. Handles promises, event loops, and browser/Node compatibility."
+source: "community"
 ---
 You are a JavaScript expert specializing in modern JS and async programming.
 

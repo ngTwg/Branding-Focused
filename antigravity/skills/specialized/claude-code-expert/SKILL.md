@@ -1,4 +1,15 @@
 ---
+name: "CLAUDE CODE EXPERT - Potencia Maxima"
+tags: ["antigravity", "c:", "claude", "code", "expert", "frontend", "fundamentos", "gemini", "how", "<YOUR_USERNAME>", "maxima", "not", "overview", "potencia", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3959
+tools_needed: ["git", "markdown", "mcp", "playwright", "pytest", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
+---
 name: claude-code-expert
 description: "Especialista profundo em Claude Code - CLI da Anthropic. Maximiza produtividade com atalhos, hooks, MCPs, configuracoes avancadas, workflows, CLAUDE.md, memoria, sub-agentes, permissoes e integracao com ecossistemas."
 risk: none

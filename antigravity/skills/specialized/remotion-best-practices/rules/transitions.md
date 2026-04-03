@@ -1,10 +1,16 @@
 ---
-name: transitions
-description: Fullscreen scene transitions for Remotion.
-metadata:
-  tags: transitions, fade, slide, wipe, scenes
+name: "transitions"
+tags: ["transitions, fade, slide, wipe, scenes"]
+tier: 2
+risk: "medium"
+estimated_tokens: 932
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.86
+description: "Fullscreen scene transitions for Remotion."
+metadata: ""
 ---
-
 ## Fullscreen transitions
 
 Using `<TransitionSeries>` to animate between multiple scenes or clips.  

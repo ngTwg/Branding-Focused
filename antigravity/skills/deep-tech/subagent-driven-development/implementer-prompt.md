@@ -1,3 +1,14 @@
+---
+name: "Implementer Subagent Prompt Template"
+tags: ["antigravity", "c:", "deep", "deep-tech", "development", "driven", "frontend", "gemini", "implementer", "<YOUR_USERNAME>", "prompt", "subagent", "tech", "template", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 548
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.55
+---
 # Implementer Subagent Prompt Template
 
 Use this template when dispatching an implementer subagent.

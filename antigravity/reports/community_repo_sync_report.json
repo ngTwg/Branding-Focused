@@ -1,0 +1,107 @@
+{
+  "timestamp": "2026-04-02T02:27:50.228931+00:00",
+  "config": "C:\\Users\\lengo\\.gemini\\antigravity\\config\\community_repo_sources.json",
+  "target_root": "C:\\Users\\lengo\\.gemini\\antigravity\\external\\community-repos",
+  "dry_run": false,
+  "total": 12,
+  "ok": 12,
+  "failed": 0,
+  "results": [
+    {
+      "name": "langgraph",
+      "url": "https://github.com/langchain-ai/langgraph.git",
+      "target": "C:\\Users\\lengo\\.gemini\\antigravity\\external\\community-repos\\langgraph",
+      "action": "update",
+      "status": "ok",
+      "message": "Already up to date."
+    },
+    {
+      "name": "crewai",
+      "url": "https://github.com/crewaiinc/crewai.git",
+      "target": "C:\\Users\\lengo\\.gemini\\antigravity\\external\\community-repos\\crewai",
+      "action": "update",
+      "status": "ok",
+      "message": "Already up to date."
+    },
+    {
+      "name": "openai-agents-python",
+      "url": "https://github.com/openai/openai-agents-python.git",
+      "target": "C:\\Users\\lengo\\.gemini\\antigravity\\external\\community-repos\\openai-agents-python",
+      "action": "update",
+      "status": "ok",
+      "message": "Already up to date."
+    },
+    {
+      "name": "google-adk-samples",
+      "url": "https://github.com/google/adk-samples.git",
+      "target": "C:\\Users\\lengo\\.gemini\\antigravity\\external\\community-repos\\google-adk-samples",
+      "action": "update",
+      "status": "ok",
+      "message": "Already up to date."
+    },
+    {
+      "name": "autogen",
+      "url": "https://github.com/microsoft/autogen.git",
+      "target": "C:\\Users\\lengo\\.gemini\\antigravity\\external\\community-repos\\autogen",
+      "action": "update",
+      "status": "ok",
+      "message": "Already up to date."
+    },
+    {
+      "name": "agno",
+      "url": "https://github.com/agno-agi/agno.git",
+      "target": "C:\\Users\\lengo\\.gemini\\antigravity\\external\\community-repos\\agno",
+      "action": "update",
+      "status": "ok",
+      "message": "Already up to date."
+    },
+    {
+      "name": "claude-skills",
+      "url": "https://github.com/alirezarezvani/claude-skills.git",
+      "target": "C:\\Users\\lengo\\.gemini\\antigravity\\external\\community-repos\\claude-skills",
+      "action": "update",
+      "status": "ok",
+      "message": "Already up to date."
+    },
+    {
+      "name": "anthropic-skills",
+      "url": "https://github.com/anthropics/skills.git",
+      "target": "C:\\Users\\lengo\\.gemini\\antigravity\\external\\community-repos\\anthropic-skills",
+      "action": "update",
+      "status": "ok",
+      "message": "Already up to date."
+    },
+    {
+      "name": "awesome-agent-skills",
+      "url": "https://github.com/heilcheng/awesome-agent-skills.git",
+      "target": "C:\\Users\\lengo\\.gemini\\antigravity\\external\\community-repos\\awesome-agent-skills",
+      "action": "update",
+      "status": "ok",
+      "message": "Already up to date."
+    },
+    {
+      "name": "awesome-ai-agents",
+      "url": "https://github.com/buntys2010/awesome-ai-agents.git",
+      "target": "C:\\Users\\lengo\\.gemini\\antigravity\\external\\community-repos\\awesome-ai-agents",
+      "action": "update",
+      "status": "ok",
+      "message": "Already up to date."
+    },
+    {
+      "name": "antigravity-ide-main",
+      "url": "C:\\Users\\lengo\\.gemini\\antigravity-ide-main",
+      "target": "C:\\Users\\lengo\\.gemini\\antigravity\\external\\community-repos\\antigravity-ide-main",
+      "action": "mirror-local",
+      "status": "ok",
+      "message": "mirrored"
+    },
+    {
+      "name": "everything-claude-code-main",
+      "url": "C:\\Users\\lengo\\.gemini\\everything-claude-code-main",
+      "target": "C:\\Users\\lengo\\.gemini\\antigravity\\external\\community-repos\\everything-claude-code-main",
+      "action": "mirror-local",
+      "status": "ok",
+      "message": "mirrored"
+    }
+  ]
+}

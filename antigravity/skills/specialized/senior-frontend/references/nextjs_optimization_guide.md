@@ -1,3 +1,14 @@
+---
+name: "Next.js Optimization Guide"
+tags: ["and", "antigravity", "c:", "client", "components", "contents", "default", "frontend", "gemini", "guide", "<YOUR_USERNAME>", "mixing", "next", "nextjs", "optimization", "references", "rendering", "senior", "server", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3766
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Next.js Optimization Guide
 
 Performance optimization techniques for Next.js 14+ applications.

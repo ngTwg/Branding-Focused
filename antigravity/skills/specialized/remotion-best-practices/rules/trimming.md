@@ -1,10 +1,16 @@
 ---
-name: trimming
-description: Trimming patterns for Remotion - cut the beginning or end of animations
-metadata:
-  tags: sequence, trim, clip, cut, offset
+name: "trimming"
+tags: ["sequence, trim, clip, cut, offset"]
+tier: 3
+risk: "high"
+estimated_tokens: 302
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["data", "analytics"]
+quality_score: 0.65
+description: "Trimming patterns for Remotion - cut the beginning or end of animations"
+metadata: ""
 ---
-
 Use `<Sequence>` with a negative `from` value to trim the start of an animation.
 
 ## Trim the Beginning

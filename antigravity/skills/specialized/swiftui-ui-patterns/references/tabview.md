@@ -1,3 +1,14 @@
+---
+name: "TabView"
+tags: ["antigravity", "architecture", "binding", "c:", "choices", "core", "custom", "design", "direct", "effects", "example", "frontend", "gemini", "intent", "keep", "<YOUR_USERNAME>", "patterns", "references", "side", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 871
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.73
+---
 # TabView
 
 ## Intent

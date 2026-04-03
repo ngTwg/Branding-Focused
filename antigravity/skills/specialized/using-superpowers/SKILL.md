@@ -1,11 +1,17 @@
 ---
-name: using-superpowers
-description: "Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions"
-risk: unknown
-source: community
+name: "using-superpowers"
+tags: ["access", "antigravity", "c:", "flags", "frontend", "gemini", "how", "<YOUR_USERNAME>", "priority", "red", "rule", "skill", "skills", "specialized", "superpowers", "the", "types", "users", "using"]
+tier: 2
+risk: "medium"
+estimated_tokens: 987
+tools_needed: ["git", "markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.76
 date_added: "2026-02-27"
+description: "Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions"
+source: "community"
 ---
-
 <EXTREMELY-IMPORTANT>
 If you think there is even a 1% chance a skill might apply to what you are doing, you ABSOLUTELY MUST invoke the skill.
 

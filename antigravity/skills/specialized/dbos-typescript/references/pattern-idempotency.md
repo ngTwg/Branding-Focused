@@ -1,10 +1,17 @@
 ---
-title: Use Workflow IDs for Idempotency
-impact: MEDIUM
-impactDescription: Prevents duplicate side effects like double payments
-tags: pattern, idempotency, workflow-id, deduplication
+name: "Use Workflow IDs for Idempotency"
+tags: ["pattern, idempotency, workflow-id, deduplication"]
+tier: 2
+risk: "medium"
+estimated_tokens: 478
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.61
+impact: "MEDIUM"
+impactDescription: "Prevents duplicate side effects like double payments"
+title: "Use Workflow IDs for Idempotency"
 ---
-
 ## Use Workflow IDs for Idempotency
 
 Assign a workflow ID to ensure a workflow executes only once, even if called multiple times. This prevents duplicate side effects like double payments.

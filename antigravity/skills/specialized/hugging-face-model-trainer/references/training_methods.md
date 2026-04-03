@@ -1,3 +1,14 @@
+---
+name: "TRL Training Methods Overview"
+tags: ["antigravity", "c:", "direct", "dpo", "face", "fine", "frontend", "gemini", "group", "grpo", "hugging", "<YOUR_USERNAME>", "maintained", "methods", "model", "modeling", "optimization", "overview", "policy", "preference"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1252
+tools_needed: ["git", "markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.86
+---
 # TRL Training Methods Overview
 
 TRL (Transformer Reinforcement Learning) provides multiple training methods for fine-tuning and aligning language models. This reference provides a brief overview of each method.

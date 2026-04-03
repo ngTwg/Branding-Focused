@@ -1,3 +1,14 @@
+---
+name: "Trade-off Analysis & ADR"
+tags: ["adr", "analysis", "antigravity", "architecture", "c:", "considered", "context", "decision", "framework", "frontend", "gemini", "<YOUR_USERNAME>", "off", "options", "record", "specialized", "trade", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 388
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.73
+---
 # Trade-off Analysis & ADR
 
 > Document every architectural decision with trade-offs.

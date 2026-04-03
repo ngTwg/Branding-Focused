@@ -1,10 +1,16 @@
 ---
-name: charts
-description: Chart and data visualization patterns for Remotion. Use when creating bar charts, pie charts, histograms, progress bars, or any data-driven animations.
-metadata:
-  tags: charts, data, visualization, bar-chart, pie-chart, graphs
+name: "charts"
+tags: ["charts, data, visualization, bar-chart, pie-chart, graphs"]
+tier: 2
+risk: "medium"
+estimated_tokens: 437
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.67
+description: "Chart and data visualization patterns for Remotion. Use when creating bar charts, pie charts, histograms, progress bars, or any data-driven animations."
+metadata: ""
 ---
-
 # Charts in Remotion
 
 You can create bar charts in Remotion by using regular React code - HTML and SVG is allowed, as well as D3.js.

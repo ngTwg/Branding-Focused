@@ -1,11 +1,17 @@
 ---
-name: e2e-testing-patterns
-description: "Build reliable, fast, and maintainable end-to-end test suites that provide confidence to ship code quickly and catch regressions before users do."
-risk: safe
-source: community
+name: "e2e-testing-patterns"
+tags: ["antigravity", "c:", "e2e", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "patterns", "resources", "safety", "skill", "specialized", "testing", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 342
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.62
 date_added: "2026-02-27"
+description: "Build reliable, fast, and maintainable end-to-end test suites that provide confidence to ship code quickly and catch regressions before users do."
+source: "community"
 ---
-
 # E2E Testing Patterns
 
 Build reliable, fast, and maintainable end-to-end test suites that provide confidence to ship code quickly and catch regressions before users do.

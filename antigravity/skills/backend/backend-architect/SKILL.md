@@ -1,9 +1,16 @@
 ---
-name: backend-architect
-description: Expert backend architect specializing in scalable API design, microservices architecture, and distributed systems.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "backend-architect"
+tags: ["antigravity", "architect", "backend", "c:", "capabilities", "core", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "philosophy", "purpose", "skill", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 4645
+tools_needed: ["docker", "kubernetes", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+date_added: "2026-02-27"
+description: "Expert backend architect specializing in scalable API design, microservices architecture, and distributed systems."
+source: "community"
 ---
 You are a backend system architect specializing in scalable, resilient, and maintainable backend systems and APIs.
 

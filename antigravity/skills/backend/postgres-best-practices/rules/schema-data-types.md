@@ -1,10 +1,17 @@
 ---
-title: Choose Appropriate Data Types
-impact: HIGH
-impactDescription: 50% storage reduction, faster comparisons
-tags: data-types, schema, storage, performance
+name: "Choose Appropriate Data Types"
+tags: ["data-types, schema, storage, performance"]
+tier: 2
+risk: "medium"
+estimated_tokens: 363
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
+impact: "HIGH"
+impactDescription: "50% storage reduction, faster comparisons"
+title: "Choose Appropriate Data Types"
 ---
-
 ## Choose Appropriate Data Types
 
 Using the right data types reduces storage, improves query performance, and prevents bugs.

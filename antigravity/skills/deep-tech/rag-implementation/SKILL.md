@@ -1,12 +1,18 @@
 ---
-name: rag-implementation
-description: "RAG (Retrieval-Augmented Generation) implementation workflow covering embedding selection, vector database setup, chunking strategies, and retrieval optimization."
-category: granular-workflow-bundle
-risk: safe
-source: personal
+name: "rag-implementation"
+tags: ["analysis", "antigravity", "c:", "deep", "deep-tech", "embedding", "frontend", "gemini", "implementation", "<YOUR_USERNAME>", "overview", "phase", "phases", "rag", "requirements", "selection", "tech", "this", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1071
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.88
+category: "granular-workflow-bundle"
 date_added: "2026-02-27"
+description: "RAG (Retrieval-Augmented Generation) implementation workflow covering embedding selection, vector database setup, chunking strategies, and retrieval optimization."
+source: "personal"
 ---
-
 # RAG Implementation Workflow
 
 ## Overview

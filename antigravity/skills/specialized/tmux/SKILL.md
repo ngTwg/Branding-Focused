@@ -1,15 +1,20 @@
 ---
-name: tmux
-description: "Expert tmux session, window, and pane management for terminal multiplexing, persistent remote workflows, and shell scripting automation."
-category: development
-risk: safe
-source: community
+name: "tmux"
+tags: ["[tmux, terminal, multiplexer, sessions, shell, remote, automation]"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2722
+tools_needed: ["docker", "git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.98
+author: "kostakost2"
+category: "development"
 date_added: "2026-03-28"
-author: kostakost2
-tags: [tmux, terminal, multiplexer, sessions, shell, remote, automation]
-tools: [claude, cursor, gemini]
+description: "Expert tmux session, window, and pane management for terminal multiplexing, persistent remote workflows, and shell scripting automation."
+source: "community"
+tools: "[claude, cursor, gemini]"
 ---
-
 # tmux — Terminal Multiplexer
 
 ## Overview

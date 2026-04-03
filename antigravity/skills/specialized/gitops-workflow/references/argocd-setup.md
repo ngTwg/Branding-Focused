@@ -1,3 +1,14 @@
+---
+name: "ArgoCD Setup and Configuration"
+tags: ["and", "antigravity", "argocd", "availability", "c:", "configuration", "frontend", "gemini", "gitops", "helm", "high", "initial", "installation", "<YOUR_USERNAME>", "methods", "references", "setup", "specialized", "standard", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 723
+tools_needed: ["git", "kubernetes", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.83
+---
 # ArgoCD Setup and Configuration
 
 ## Installation Methods

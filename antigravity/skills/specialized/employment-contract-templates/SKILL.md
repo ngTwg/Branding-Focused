@@ -1,11 +1,17 @@
 ---
-name: employment-contract-templates
-description: "Templates and patterns for creating legally sound employment documentation including contracts, offer letters, and HR policies."
-risk: safe
-source: community
+name: "employment-contract-templates"
+tags: ["antigravity", "c:", "contract", "employment", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "resources", "safety", "skill", "specialized", "templates", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 334
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.62
 date_added: "2026-02-27"
+description: "Templates and patterns for creating legally sound employment documentation including contracts, offer letters, and HR policies."
+source: "community"
 ---
-
 # Employment Contract Templates
 
 Templates and patterns for creating legally sound employment documentation including contracts, offer letters, and HR policies.

@@ -1,12 +1,18 @@
 ---
-name: wordpress
-description: "Complete WordPress development workflow covering theme development, plugin creation, WooCommerce integration, performance optimization, and security hardening. Includes WordPress 7.0 features: Real-Time Collaboration, AI Connectors, Abilities API, DataViews, and PHP-only blocks."
-category: workflow-bundle
-risk: safe
-source: personal
+name: "wordpress"
+tags: ["abilities", "antigravity", "api", "backward", "bundle", "c:", "collaboration", "compatible", "connectors", "development", "features", "frontend", "gemini", "<YOUR_USERNAME>", "overview", "real", "rtc", "specialized", "stable", "time"]
+tier: 3
+risk: "medium"
+estimated_tokens: 4217
+tools_needed: ["docker", "git", "markdown", "mcp", "playwright"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+category: "workflow-bundle"
 date_added: "2026-02-27"
+description: "Complete WordPress development workflow covering theme development, plugin creation, WooCommerce integration, performance optimization, and security hardening. Includes WordPress 7.0 features: Real-Time Collaboration, AI Connectors, Abilities API, DataViews, and PHP-only blocks."
+source: "personal"
 ---
-
 # WordPress Development Workflow Bundle
 
 ## Overview

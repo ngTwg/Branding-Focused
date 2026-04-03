@@ -1,10 +1,17 @@
 ---
-name: lottie
-description: Embedding Lottie animations in Remotion.
-metadata:
-  category: Animation
+name: "lottie"
+tags: ["and", "animating", "animations", "antigravity", "best", "c:", "displaying", "file", "frontend", "gemini", "<YOUR_USERNAME>", "lottie", "practices", "prerequisites", "remotion", "rules", "specialized", "styling", "users", "using"]
+tier: 2
+risk: "medium"
+estimated_tokens: 444
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.66
+category: "Animation"
+description: "Embedding Lottie animations in Remotion."
+metadata: ""
 ---
-
 # Using Lottie Animations in Remotion
 
 ## Prerequisites

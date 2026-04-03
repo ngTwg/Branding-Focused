@@ -1,10 +1,17 @@
 ---
-title: Use UPSERT for Insert-or-Update Operations
-impact: MEDIUM
-impactDescription: Atomic operation, eliminates race conditions
-tags: upsert, on-conflict, insert, update
+name: "Use UPSERT for Insert-or-Update Operations"
+tags: ["upsert, on-conflict, insert, update"]
+tier: 2
+risk: "medium"
+estimated_tokens: 347
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.60
+impact: "MEDIUM"
+impactDescription: "Atomic operation, eliminates race conditions"
+title: "Use UPSERT for Insert-or-Update Operations"
 ---
-
 ## Use UPSERT for Insert-or-Update Operations
 
 Using separate SELECT-then-INSERT/UPDATE creates race conditions. Use INSERT ... ON CONFLICT for atomic upserts.

@@ -1,11 +1,17 @@
 ---
-name: busybox-on-windows
-description: "How to use a Win32 build of BusyBox to run many of the standard UNIX command line tools on Windows."
-risk: safe
-source: community
+name: "busybox-on-windows"
+tags: ["antigravity", "busybox", "c:", "frontend", "gemini", "<YOUR_USERNAME>", "on", "specialized", "use", "users", "when", "windows"]
+tier: 2
+risk: "medium"
+estimated_tokens: 516
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.54
 date_added: "2026-02-27"
+description: "How to use a Win32 build of BusyBox to run many of the standard UNIX command line tools on Windows."
+source: "community"
 ---
-
 BusyBox is a single binary that implements many common Unix tools.
 
 Use this skill only on Windows. If you are on UNIX, then stop here.

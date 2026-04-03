@@ -1,3 +1,14 @@
+---
+name: "Office Open XML Technical Reference"
+tags: ["and", "antigravity", "basic", "c:", "compliance", "content", "document", "docx", "frontend", "gemini", "guidelines", "headings", "<YOUR_USERNAME>", "office", "official", "ooxml", "open", "patterns", "reference", "schema"]
+tier: 2
+risk: "medium"
+estimated_tokens: 5890
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Office Open XML Technical Reference
 
 **Important: Read this entire document before starting.** This document covers:

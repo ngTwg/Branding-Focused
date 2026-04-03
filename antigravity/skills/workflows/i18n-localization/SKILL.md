@@ -1,11 +1,17 @@
 ---
-name: i18n-localization
-description: "Internationalization and localization patterns. Detecting hardcoded strings, managing translations, locale files, RTL support."
-risk: safe
-source: community
+name: "i18n-localization"
+tags: ["antigravity", "c:", "concepts", "core", "frontend", "gemini", "i18n", "i18next", "implementation", "intl", "<YOUR_USERNAME>", "localization", "next", "patterns", "react", "use", "users", "when", "workflows"]
+tier: 3
+risk: "medium"
+estimated_tokens: 789
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.84
 date_added: "2026-02-27"
+description: "Internationalization and localization patterns. Detecting hardcoded strings, managing translations, locale files, RTL support."
+source: "community"
 ---
-
 # i18n & Localization
 
 > Internationalization (i18n) and Localization (L10n) best practices.

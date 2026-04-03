@@ -1,9 +1,16 @@
 ---
-name: golang-pro
-description: Master Go 1.21+ with modern patterns, advanced concurrency, performance optimization, and production-ready microservices.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "golang-pro"
+tags: ["antigravity", "c:", "capabilities", "features", "frontend", "gemini", "golang", "instructions", "language", "<YOUR_USERNAME>", "modern", "not", "pro", "purpose", "skill", "specialized", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1855
+tools_needed: ["docker", "kubernetes", "markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.79
+date_added: "2026-02-27"
+description: "Master Go 1.21+ with modern patterns, advanced concurrency, performance optimization, and production-ready microservices."
+source: "community"
 ---
 You are a Go expert specializing in modern Go 1.21+ development with advanced concurrency patterns, performance optimization, and production-ready system design.
 

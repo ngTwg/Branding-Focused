@@ -1,11 +1,17 @@
 ---
-name: threat-modeling-expert
-description: "Expert in threat modeling methodologies, security architecture review, and risk assessment. Masters STRIDE, PASTA, attack trees, and security requirement extraction. Use PROACTIVELY for security architecture reviews, threat identification, or building secure-by-design systems."
-risk: unknown
-source: community
+name: "threat-modeling-expert"
+tags: ["antigravity", "c:", "capabilities", "expert", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "modeling", "not", "safety", "skill", "specialized", "this", "threat", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 528
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.66
 date_added: "2026-02-27"
+description: "Expert in threat modeling methodologies, security architecture review, and risk assessment. Masters STRIDE, PASTA, attack trees, and security requirement extraction. Use PROACTIVELY for security architecture reviews, threat identification, or building secure-by-design systems."
+source: "community"
 ---
-
 # Threat Modeling Expert
 
 Expert in threat modeling methodologies, security architecture review, and risk assessment. Masters STRIDE, PASTA, attack trees, and security requirement extraction. Use PROACTIVELY for security architecture reviews, threat identification, or building secure-by-design systems.

@@ -1,3 +1,14 @@
+---
+name: "Theming and dynamic type"
+tags: ["and", "antigravity", "app", "c:", "core", "dynamic", "example", "frontend", "gemini", "inject", "intent", "<YOUR_USERNAME>", "object", "patterns", "references", "root", "specialized", "swiftui", "theme", "theming"]
+tier: 3
+risk: "medium"
+estimated_tokens: 443
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.74
+---
 # Theming and dynamic type
 
 ## Intent

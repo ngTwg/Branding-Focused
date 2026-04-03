@@ -1,3 +1,14 @@
+---
+name: "Styling Guide"
+tags: ["antigravity", "basic", "c:", "decision", "dev", "example", "frontend", "gemini", "guide", "guidelines", "inline", "<YOUR_USERNAME>", "patterns", "prop", "real", "resources", "separate", "styles", "styling", "threshold"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1966
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.91
+---
 # Styling Guide
 
 Modern styling patterns for using MUI v7 sx prop, inline styles, and theme integration.

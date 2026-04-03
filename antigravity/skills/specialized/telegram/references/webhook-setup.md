@@ -1,3 +1,14 @@
+---
+name: "Webhook Setup - Telegram Bot"
+tags: ["antigravity", "application", "bot", "c:", "conceitos", "contents", "criar", "express", "flask", "frontend", "gemini", "<YOUR_USERNAME>", "references", "setup", "specialized", "table", "telegram", "users", "webhook"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1939
+tools_needed: ["docker", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.92
+---
 # Webhook Setup - Telegram Bot
 
 ## Table of Contents

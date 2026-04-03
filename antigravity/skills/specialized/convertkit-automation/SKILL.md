@@ -1,11 +1,17 @@
 ---
-name: convertkit-automation
-description: "Automate ConvertKit (Kit) tasks via Rube MCP (Composio): manage subscribers, tags, broadcasts, and broadcast stats. Always search tools first for current schemas."
-risk: critical
-source: community
+name: "convertkit-automation"
+tags: ["and", "antigravity", "automation", "c:", "convertkit", "core", "frontend", "gemini", "kit", "<YOUR_USERNAME>", "list", "manage", "mcp", "prerequisites", "rube", "search", "setup", "specialized", "subscriber", "subscribers"]
+tier: 2
+risk: "critical"
+estimated_tokens: 1809
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.85
 date_added: "2026-02-27"
+description: "Automate ConvertKit (Kit) tasks via Rube MCP (Composio): manage subscribers, tags, broadcasts, and broadcast stats. Always search tools first for current schemas."
+source: "community"
 ---
-
 # ConvertKit (Kit) Automation via Rube MCP
 
 Automate ConvertKit (now known as Kit) email marketing operations through Composio's Kit toolkit via Rube MCP.

@@ -1,11 +1,17 @@
 ---
-name: code-documentation-doc-generate
-description: "You are a documentation expert specializing in creating comprehensive, maintainable documentation from code. Generate API docs, architecture diagrams, user guides, and technical references using AI-powered analysis and industry best practices."
-risk: safe
-source: community
+name: "code-documentation-doc-generate"
+tags: ["antigravity", "automated", "c:", "code", "context", "doc", "documentation", "frontend", "gemini", "generate", "generation", "instructions", "<YOUR_USERNAME>", "not", "requirements", "skill", "specialized", "this", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 475
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.67
 date_added: "2026-02-27"
+description: "You are a documentation expert specializing in creating comprehensive, maintainable documentation from code. Generate API docs, architecture diagrams, user guides, and technical references using AI-powered analysis and industry best practices."
+source: "community"
 ---
-
 # Automated Documentation Generation
 
 You are a documentation expert specializing in creating comprehensive, maintainable documentation from code. Generate API docs, architecture diagrams, user guides, and technical references using AI-powered analysis and industry best practices.

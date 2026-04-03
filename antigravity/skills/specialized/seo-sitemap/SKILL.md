@@ -1,4 +1,15 @@
 ---
+name: "Sitemap Analysis & Generation"
+tags: ["analysis", "analyze", "antigravity", "c:", "checks", "common", "existing", "frontend", "gemini", "generation", "issues", "<YOUR_USERNAME>", "mode", "quality", "seo", "signals", "sitemap", "specialized", "use", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1034
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.76
+---
+---
 name: seo-sitemap
 description: >
   Analyze existing XML sitemaps or generate new ones with industry templates.

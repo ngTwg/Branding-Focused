@@ -1,11 +1,17 @@
 ---
-name: computer-vision-expert
-description: "SOTA Computer Vision Expert (2026). Specialized in YOLO26, Segment Anything 3 (SAM 3), Vision Language Models, and real-time spatial analysis."
-risk: unknown
-source: community
+name: "computer-vision-expert"
+tags: ["2026", "antigravity", "c:", "capabilities", "computer", "detection", "expert", "frontend", "gemini", "<YOUR_USERNAME>", "promptable", "purpose", "real", "sam", "segmentation", "sota", "specialized", "time", "unified", "use"]
+tier: 3
+risk: "medium"
+estimated_tokens: 985
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.72
 date_added: "2026-02-27"
+description: "SOTA Computer Vision Expert (2026). Specialized in YOLO26, Segment Anything 3 (SAM 3), Vision Language Models, and real-time spatial analysis."
+source: "community"
 ---
-
 # Computer Vision Expert (SOTA 2026)
 
 **Role**: Advanced Vision Systems Architect & Spatial Intelligence Expert

@@ -1,10 +1,17 @@
 ---
-title: Debounce Workflows to Prevent Wasted Work
-impact: MEDIUM
-impactDescription: Reduces redundant executions during rapid input
-tags: debounce, throttle, input, optimization
+name: "Debounce Workflows to Prevent Wasted Work"
+tags: ["debounce, throttle, input, optimization"]
+tier: 2
+risk: "medium"
+estimated_tokens: 414
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.64
+impact: "MEDIUM"
+impactDescription: "Reduces redundant executions during rapid input"
+title: "Debounce Workflows to Prevent Wasted Work"
 ---
-
 ## Debounce Workflows to Prevent Wasted Work
 
 Debouncing delays workflow execution until some time has passed since the last trigger. Useful for user input processing.

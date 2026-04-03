@@ -1,11 +1,17 @@
 ---
-name: azure-web-pubsub-ts
-description: "Real-time messaging with WebSocket connections and pub/sub patterns."
-risk: unknown
-source: community
+name: "azure-web-pubsub-ts"
+tags: ["antigravity", "azure", "backend", "c:", "client", "devops", "environment", "event", "express", "for", "gemini", "handlers", "installation", "<YOUR_USERNAME>", "management", "messaging", "middleware", "pubsub", "real", "sdks"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1895
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.93
 date_added: "2026-02-27"
+description: "Real-time messaging with WebSocket connections and pub/sub patterns."
+source: "community"
 ---
-
 # Azure Web PubSub SDKs for TypeScript
 
 Real-time messaging with WebSocket connections and pub/sub patterns.

@@ -1,11 +1,17 @@
 ---
-name: skill-seekers
-description: "-Automatically convert documentation websites, GitHub repositories, and PDFs into Claude AI skills in minutes."
-risk: safe
-source: "https://github.com/yusufkaraaslan/Skill_Seekers"
+name: "skill-seekers"
+tags: ["antigravity", "c:", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "overview", "seekers", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 212
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.57
 date_added: "2026-02-27"
+description: "-Automatically convert documentation websites, GitHub repositories, and PDFs into Claude AI skills in minutes."
+source: "https://github.com/yusufkaraaslan/Skill_Seekers"
 ---
-
 # Skill Seekers
 
 ## Overview

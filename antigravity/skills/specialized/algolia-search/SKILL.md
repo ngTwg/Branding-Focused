@@ -1,11 +1,17 @@
 ---
-name: algolia-search
-description: "Expert patterns for Algolia search implementation, indexing strategies, React InstantSearch, and relevance tuning Use when: adding search to, algolia, instantsearch, search api, search functionality."
-risk: unknown
-source: "vibeship-spawner-skills (Apache 2.0)"
+name: "algolia-search"
+tags: ["algolia", "and", "antigravity", "c:", "data", "edges", "frontend", "gemini", "hooks", "indexing", "instantsearch", "integration", "<YOUR_USERNAME>", "next", "patterns", "react", "rendering", "search", "server", "sharp"]
+tier: 2
+risk: "medium"
+estimated_tokens: 527
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.66
 date_added: "2026-02-27"
+description: "Expert patterns for Algolia search implementation, indexing strategies, React InstantSearch, and relevance tuning Use when: adding search to, algolia, instantsearch, search api, search functionality."
+source: "vibeship-spawner-skills (Apache 2.0)"
 ---
-
 # Algolia Search Integration
 
 ## Patterns

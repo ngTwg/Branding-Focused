@@ -1,3 +1,14 @@
+---
+name: "Stitch Prompt Examples Library"
+tags: ["antigravity", "apps", "business", "c:", "contents", "design", "examples", "frontend", "gemini", "landing", "<YOUR_USERNAME>", "library", "mobile", "page", "pages", "prompt", "references", "service", "specialized", "startup"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3603
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Stitch Prompt Examples Library
 
 Comprehensive collection of effective Stitch prompts organized by use case and complexity level.

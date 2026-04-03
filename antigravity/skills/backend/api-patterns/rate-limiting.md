@@ -1,3 +1,14 @@
+---
+name: "Rate Limiting Principles"
+tags: ["antigravity", "api", "backend", "c:", "gemini", "headers", "<YOUR_USERNAME>", "limit", "limiting", "patterns", "principles", "rate", "response", "selection", "strategy", "users", "why"]
+tier: 2
+risk: "medium"
+estimated_tokens: 169
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.60
+---
 # Rate Limiting Principles
 
 > Protect your API from abuse and overload.

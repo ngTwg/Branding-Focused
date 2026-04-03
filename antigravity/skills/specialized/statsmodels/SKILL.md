@@ -1,13 +1,19 @@
 ---
-name: statsmodels
+name: "statsmodels"
+tags: ["add", "always", "and", "antigravity", "c:", "constant", "data", "econometrics", "for", "frontend", "gemini", "guide", "intercept", "<YOUR_USERNAME>", "linear", "modeling", "ols", "overview", "prepare", "quick"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4889
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 description: "Statsmodels is Python's premier library for statistical modeling, providing tools for estimation, inference, and diagnostics across a wide range of statistical methods."
-license: BSD-3-Clause license
-metadata:
-    skill-author: K-Dense Inc.
-risk: unknown
-source: community
+license: "BSD-3-Clause license"
+metadata: ""
+skill-author: "K-Dense Inc."
+source: "community"
 ---
-
 # Statsmodels: Statistical Modeling and Econometrics
 
 ## Overview

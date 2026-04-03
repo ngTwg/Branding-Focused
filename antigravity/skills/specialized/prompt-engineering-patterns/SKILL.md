@@ -1,11 +1,17 @@
 ---
-name: prompt-engineering-patterns
-description: "Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability."
-risk: unknown
-source: community
+name: "prompt-engineering-patterns"
+tags: ["antigravity", "c:", "capabilities", "core", "engineering", "few", "frontend", "gemini", "instructions", "learning", "<YOUR_USERNAME>", "not", "patterns", "prompt", "shot", "skill", "specialized", "this", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1828
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.90
 date_added: "2026-02-27"
+description: "Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability."
+source: "community"
 ---
-
 # Prompt Engineering Patterns
 
 Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.

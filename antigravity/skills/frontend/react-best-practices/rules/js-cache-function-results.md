@@ -1,10 +1,17 @@
 ---
-title: Cache Repeated Function Calls
-impact: MEDIUM
-impactDescription: avoid redundant computation
-tags: javascript, cache, memoization, performance
+name: "Cache Repeated Function Calls"
+tags: ["javascript, cache, memoization, performance"]
+tier: 2
+risk: "medium"
+estimated_tokens: 487
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.61
+impact: "MEDIUM"
+impactDescription: "avoid redundant computation"
+title: "Cache Repeated Function Calls"
 ---
-
 ## Cache Repeated Function Calls
 
 Use a module-level Map to cache function results when the same function is called repeatedly with the same inputs during render.

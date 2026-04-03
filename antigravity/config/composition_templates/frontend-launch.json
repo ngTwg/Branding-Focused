@@ -1,0 +1,12 @@
+{
+  "id": "frontend-launch",
+  "name": "Frontend Launch Template",
+  "description": "Frontend delivery template for performance, conversion, and SEO readiness.",
+  "steps": [
+    "Define layout system and responsive breakpoints",
+    "Implement component architecture and state flow",
+    "Optimize Core Web Vitals and asset loading",
+    "Add conversion-oriented UX and form validation",
+    "Ship with SEO metadata and analytics tracking"
+  ]
+}

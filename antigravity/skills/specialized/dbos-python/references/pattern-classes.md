@@ -1,10 +1,17 @@
 ---
-title: Use DBOS Decorators with Classes
-impact: MEDIUM
-impactDescription: Enables stateful workflow patterns with class instances
-tags: classes, dbos_class, instance, oop
+name: "Use DBOS Decorators with Classes"
+tags: ["classes, dbos_class, instance, oop"]
+tier: 2
+risk: "medium"
+estimated_tokens: 412
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.59
+impact: "MEDIUM"
+impactDescription: "Enables stateful workflow patterns with class instances"
+title: "Use DBOS Decorators with Classes"
 ---
-
 ## Use DBOS Decorators with Classes
 
 DBOS decorators work with class methods. Workflow classes must inherit from `DBOSConfiguredInstance`.

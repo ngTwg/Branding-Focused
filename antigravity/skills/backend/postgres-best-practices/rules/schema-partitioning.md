@@ -1,10 +1,17 @@
 ---
-title: Partition Large Tables for Better Performance
-impact: MEDIUM-HIGH
-impactDescription: 5-20x faster queries and maintenance on large tables
-tags: partitioning, large-tables, time-series, performance
+name: "Partition Large Tables for Better Performance"
+tags: ["partitioning, large-tables, time-series, performance"]
+tier: 2
+risk: "medium"
+estimated_tokens: 387
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.58
+impact: "MEDIUM-HIGH"
+impactDescription: "5-20x faster queries and maintenance on large tables"
+title: "Partition Large Tables for Better Performance"
 ---
-
 ## Partition Large Tables for Better Performance
 
 Partitioning splits a large table into smaller pieces, improving query performance and maintenance operations.

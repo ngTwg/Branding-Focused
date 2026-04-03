@@ -1,12 +1,18 @@
 ---
-name: testing-qa
-description: "Comprehensive testing and QA workflow covering unit testing, integration testing, E2E testing, browser automation, and quality assurance."
-category: workflow-bundle
-risk: safe
-source: personal
+name: "testing-qa"
+tags: ["antigravity", "backend", "bundle", "c:", "gemini", "<YOUR_USERNAME>", "overview", "phase", "phases", "qa", "strategy", "test", "testing", "this", "unit", "use", "users", "when", "workflow", "workflows"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1217
+tools_needed: ["markdown", "playwright", "pytest", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.89
+category: "workflow-bundle"
 date_added: "2026-02-27"
+description: "Comprehensive testing and QA workflow covering unit testing, integration testing, E2E testing, browser automation, and quality assurance."
+source: "personal"
 ---
-
 # Testing/QA Workflow Bundle
 
 ## Overview

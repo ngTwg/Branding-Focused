@@ -1,3 +1,14 @@
+---
+name: "Troubleshooting Guide"
+tags: ["401", "403", "antigravity", "authentication", "c:", "environment", "error", "face", "forbidden", "found", "frontend", "gemini", "guide", "hugging", "issues", "jobs", "<YOUR_USERNAME>", "not", "references", "script"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2556
+tools_needed: ["git", "markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Troubleshooting Guide
 
 Common issues and solutions for Hugging Face Jobs.

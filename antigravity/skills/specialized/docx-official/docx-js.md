@@ -1,3 +1,14 @@
+---
+name: "DOCX Library Tutorial"
+tags: ["always", "antigravity", "bullets", "c:", "docx", "formatting", "frontend", "gemini", "js", "<YOUR_USERNAME>", "library", "lists", "never", "official", "professional", "proper", "setup", "specialized", "styles", "tables"]
+tier: 1
+risk: "medium"
+estimated_tokens: 4112
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # DOCX Library Tutorial
 
 Generate .docx files with JavaScript/TypeScript.

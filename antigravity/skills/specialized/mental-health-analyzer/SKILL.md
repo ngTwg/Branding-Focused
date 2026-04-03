@@ -1,11 +1,17 @@
 ---
-name: mental-health-analyzer
-description: 分析心理健康数据、识别心理模式、评估心理健康状况、提供个性化心理健康建议。支持与睡眠、运动、营养等其他健康数据的关联分析。
-allowed-tools: Read, Grep, Glob, Write, Edit
-risk: unknown
-source: community
+name: "mental-health-analyzer"
+tags: ["analyzer", "antigravity", "c:", "frontend", "gemini", "health", "<YOUR_USERNAME>", "mental", "specialized", "users", "医学安全边界", "心理健康分析技能", "执行步骤", "数据读取", "核心功能", "第1步", "触发条件"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3237
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+allowed-tools: "Read, Grep, Glob, Write, Edit"
+description: "分析心理健康数据、识别心理模式、评估心理健康状况、提供个性化心理健康建议。支持与睡眠、运动、营养等其他健康数据的关联分析。"
+source: "community"
 ---
-
 # 心理健康分析技能
 
 ## 核心功能

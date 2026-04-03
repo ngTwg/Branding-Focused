@@ -1,11 +1,17 @@
 ---
-name: internal-comms-community
-description: "To write internal communications, use this skill for:"
-risk: unknown
-source: community
+name: "internal-comms-community"
+tags: ["antigravity", "c:", "comms", "community", "frontend", "gemini", "how", "internal", "keywords", "<YOUR_USERNAME>", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 316
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.56
 date_added: "2026-02-27"
+description: "To write internal communications, use this skill for:"
+source: "community"
 ---
-
 ## When to use this skill
 To write internal communications, use this skill for:
 - 3P updates (Progress, Plans, Problems)

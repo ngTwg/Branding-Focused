@@ -1,11 +1,17 @@
 ---
-name: azure-eventhub-ts
-description: "High-throughput event streaming and real-time data ingestion."
-risk: unknown
-source: community
+name: "azure-eventhub-ts"
+tags: ["antigravity", "authentication", "azure", "backend", "c:", "core", "devops", "environment", "event", "eventhub", "events", "for", "gemini", "hubs", "installation", "<YOUR_USERNAME>", "sdk", "send", "ts", "typescript"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1773
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.91
 date_added: "2026-02-27"
+description: "High-throughput event streaming and real-time data ingestion."
+source: "community"
 ---
-
 # Azure Event Hubs SDK for TypeScript
 
 High-throughput event streaming and real-time data ingestion.

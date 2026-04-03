@@ -1,9 +1,16 @@
 ---
-name: multiplayer
-description: Multiplayer game development principles. Architecture, networking, synchronization.
-allowed-tools: Read, Write, Edit, Glob, Grep, Bash
+name: "multiplayer"
+tags: ["antigravity", "architecture", "backend", "c:", "comparison", "decision", "development", "game", "gemini", "input", "<YOUR_USERNAME>", "multiplayer", "principles", "selection", "specialized", "state", "synchronization", "tree", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 685
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.73
+allowed-tools: "Read, Write, Edit, Glob, Grep, Bash"
+description: "Multiplayer game development principles. Architecture, networking, synchronization."
 ---
-
 # Multiplayer Game Development
 
 > Networking architecture and synchronization principles.

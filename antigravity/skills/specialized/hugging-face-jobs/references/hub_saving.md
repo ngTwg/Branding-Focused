@@ -1,3 +1,14 @@
+---
+name: "Saving Results to Hugging Face Hub"
+tags: ["antigravity", "api", "c:", "endpoint", "external", "face", "frontend", "gemini", "hub", "hugging", "jobs", "<YOUR_USERNAME>", "option", "options", "persistence", "push", "recommended", "references", "required", "results"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1907
+tools_needed: ["markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.93
+---
 # Saving Results to Hugging Face Hub
 
 **⚠️ CRITICAL:** Job environments are ephemeral. ALL results are lost when a job completes unless persisted to the Hub or external storage.

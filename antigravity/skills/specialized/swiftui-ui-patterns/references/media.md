@@ -1,3 +1,14 @@
+---
+name: "Media (images, video, viewer)"
+tags: ["antigravity", "c:", "choices", "core", "design", "example", "frontend", "gemini", "global", "images", "inline", "intent", "keep", "<YOUR_USERNAME>", "media", "patterns", "preview", "references", "sheet", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 509
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.69
+---
 # Media (images, video, viewer)
 
 ## Intent

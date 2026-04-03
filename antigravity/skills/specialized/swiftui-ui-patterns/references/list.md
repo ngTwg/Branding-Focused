@@ -1,3 +1,14 @@
+---
+name: "List and Section"
+tags: ["and", "antigravity", "c:", "choices", "core", "design", "example", "feed", "frontend", "gemini", "intent", "keep", "<YOUR_USERNAME>", "list", "patterns", "references", "scroll", "section", "settings", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 683
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.70
+---
 # List and Section
 
 ## Intent

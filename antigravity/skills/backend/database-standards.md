@@ -1,3 +1,14 @@
+---
+name: "DATABASE STANDARDS - CHUẨN MỰC CƠ SỞ DỮ LIỆU"
+tags: ["antigravity", "backend", "c:", "checklist", "chuẩn", "column", "conventions", "database", "design", "frontend", "gemini", "<YOUR_USERNAME>", "liệu", "mực", "names", "naming", "overview", "pattern", "rules", "standards"]
+tier: 3
+risk: "medium"
+estimated_tokens: 4419
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # DATABASE STANDARDS - CHUẨN MỰC CƠ SỞ DỮ LIỆU
 
 > **Tier:** 2-3  

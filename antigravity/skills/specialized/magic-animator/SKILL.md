@@ -1,3 +1,14 @@
+---
+name: "Magic Animator Skill"
+tags: ["animator", "antigravity", "c:", "context", "execution", "frontend", "gemini", "<YOUR_USERNAME>", "magic", "rules", "skill", "specialized", "strict", "use", "users", "when", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 506
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
+---
 --- 
 name: magic-animator
 description: AI-powered animation tool for creating motion in logos, UI, icons, and social media assets.

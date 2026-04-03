@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 import os
 import json
 import sqlite3
@@ -9,8 +9,8 @@ from pathlib import Path
 # =======================================================================
 # 🧠 LOKI BRAIN INDEXER: TRÌNH LẬP CHỈ MỤC THẦN KINH (v5.1.0-ABYSSAL)
 # =======================================================================
-SKILLS_DIR = "C:/Users/<USER_NAME>/.gemini/antigravity/skills/"
-DB_FILE = "C:/Users/<USER_NAME>/.gemini/antigravity/scripts/loki_brain.db"
+SKILLS_DIR = "C:/Users/<YOUR_USERNAME>/.gemini/antigravity/skills/"
+DB_FILE = "C:/Users/<YOUR_USERNAME>/.gemini/antigravity/scripts/loki_brain.db"
 
 class LokiBrainIndexer:
     def __init__(self):

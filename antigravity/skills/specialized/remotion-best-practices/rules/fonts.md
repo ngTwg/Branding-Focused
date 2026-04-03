@@ -1,10 +1,16 @@
 ---
-name: fonts
-description: Loading Google Fonts and local fonts in Remotion
-metadata:
-  tags: fonts, google-fonts, typography, text
+name: "fonts"
+tags: ["fonts, google-fonts, typography, text"]
+tier: 1
+risk: "medium"
+estimated_tokens: 871
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
+description: "Loading Google Fonts and local fonts in Remotion"
+metadata: ""
 ---
-
 # Using fonts in Remotion
 
 ## Google Fonts with @remotion/google-fonts

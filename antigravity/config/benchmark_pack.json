@@ -1,0 +1,103 @@
+{
+  "version": "2026-04-02",
+  "description": "Reproducible benchmark suites for autonomous system stability and discoverability.",
+  "regression_gate_pct": 100.0,
+  "regression_min_runs": 3,
+  "regression_lookback_runs": 30,
+  "suites": {
+    "quick": [
+      {
+        "id": "integration_tests",
+        "description": "Run integration suite baseline.",
+        "command": ["{python}", "-m", "pytest", "antigravity/tests/integration", "-q"]
+      },
+      {
+        "id": "targeted_regressions",
+        "description": "Run focused regression suite for critical subsystems.",
+        "command": [
+          "{python}",
+          "-m",
+          "pytest",
+          "antigravity/tests/test_schemas.py",
+          "antigravity/tests/test_failure_memory.py",
+          "antigravity/tests/test_hybrid_retriever_properties.py",
+          "antigravity/tests/test_hybrid_retriever_properties_v3.py",
+          "antigravity/tests/test_llm_client_properties.py",
+          "antigravity/tests/test_llm_client_properties_v2.py",
+          "antigravity/tests/test_slm_router_properties.py",
+          "antigravity/tests/test_tracing_properties.py",
+          "antigravity/tests/test_tracing_properties_v2.py",
+          "-q"
+        ]
+      },
+      {
+        "id": "security_gate_external_skills",
+        "description": "Run external security gate and verify no blocked files.",
+        "command": ["{python}", "antigravity/scripts/security_gate_external_skills.py"]
+      }
+    ],
+    "stable": [
+      {
+        "id": "integration_tests",
+        "description": "Run integration suite baseline.",
+        "command": ["{python}", "-m", "pytest", "antigravity/tests/integration", "-q"]
+      },
+      {
+        "id": "targeted_regressions",
+        "description": "Run focused regression suite for critical subsystems.",
+        "command": [
+          "{python}",
+          "-m",
+          "pytest",
+          "antigravity/tests/test_schemas.py",
+          "antigravity/tests/test_failure_memory.py",
+          "antigravity/tests/test_hybrid_retriever_properties.py",
+          "antigravity/tests/test_hybrid_retriever_properties_v3.py",
+          "antigravity/tests/test_llm_client_properties.py",
+          "antigravity/tests/test_llm_client_properties_v2.py",
+          "antigravity/tests/test_slm_router_properties.py",
+          "antigravity/tests/test_tracing_properties.py",
+          "antigravity/tests/test_tracing_properties_v2.py",
+          "-q"
+        ]
+      },
+      {
+        "id": "security_gate_external_skills",
+        "description": "Run external security gate and verify no blocked files.",
+        "command": ["{python}", "antigravity/scripts/security_gate_external_skills.py"]
+      },
+      {
+        "id": "generate_unified_inventory",
+        "description": "Regenerate unified inventory with security-gated imports.",
+        "command": ["{python}", "antigravity/scripts/generate_unified_inventory.py"]
+      },
+      {
+        "id": "generate_skill_catalog",
+        "description": "Regenerate searchable skill catalog artifacts.",
+        "command": ["{python}", "antigravity/scripts/generate_skill_catalog.py"]
+      },
+      {
+        "id": "validate_community_surface",
+        "description": "Validate OSS contribution and template surface.",
+        "command": ["{python}", "antigravity/scripts/validate_community_surface.py"]
+      }
+    ],
+    "full": [
+      {
+        "id": "run_sync_phase",
+        "description": "Run full sync phase pipeline.",
+        "command": ["{python}", "antigravity/scripts/run_autonomous_pipeline.py", "--phase", "sync"]
+      },
+      {
+        "id": "run_packaging_phase",
+        "description": "Run packaging phase pipeline.",
+        "command": ["{python}", "antigravity/scripts/run_autonomous_pipeline.py", "--phase", "packaging"]
+      },
+      {
+        "id": "run_discoverability_phase",
+        "description": "Run discoverability phase pipeline.",
+        "command": ["{python}", "antigravity/scripts/run_autonomous_pipeline.py", "--phase", "discoverability"]
+      }
+    ]
+  }
+}

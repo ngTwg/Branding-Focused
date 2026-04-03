@@ -1,11 +1,17 @@
 ---
-name: frontend-security-coder
-description: Expert in secure frontend coding practices specializing in XSS prevention, output sanitization, and client-side security patterns.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "frontend-security-coder"
+tags: ["antigravity", "auditor", "c:", "capabilities", "coder", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "purpose", "security", "skill", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2871
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+date_added: "2026-02-27"
+description: "Expert in secure frontend coding practices specializing in XSS prevention, output sanitization, and client-side security patterns."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on frontend security coder tasks or workflows

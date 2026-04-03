@@ -1,11 +1,17 @@
 ---
-name: test-fixing
-description: "Systematically identify and fix all failing tests using smart grouping strategies. Use when explicitly asks to fix tests (\"fix these tests\", \"make tests pass\"), reports test failures (\"tests are failing\", \"test suite is broken\"), or completes implementation and wants tests passing."
-risk: safe
-source: community
+name: "test-fixing"
+tags: ["antigravity", "approach", "c:", "error", "fixing", "frontend", "gemini", "grouping", "initial", "<YOUR_USERNAME>", "process", "run", "smart", "specialized", "systematic", "test", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 772
+tools_needed: ["git", "markdown", "pytest", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.73
 date_added: "2026-02-27"
+description: "Systematically identify and fix all failing tests using smart grouping strategies. Use when explicitly asks to fix tests (\\\"fix these tests\\\", \\\"make tests pass\\\"), reports test failures (\\\"tests are failing\\\", \\\"test suite is broken\\\"), or completes implementation and wants tests passing."
+source: "community"
 ---
-
 # Test Fixing
 
 Systematically identify and fix all failing tests using smart grouping strategies.

@@ -1,10 +1,16 @@
 ---
-name: get-video-duration
-description: Getting the duration of a video file in seconds with Mediabunny
-metadata:
-  tags: duration, video, length, time, seconds
+name: "get-video-duration"
+tags: ["duration, video, length, time, seconds"]
+tier: 3
+risk: "high"
+estimated_tokens: 335
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["data", "analytics"]
+quality_score: 0.72
+description: "Getting the duration of a video file in seconds with Mediabunny"
+metadata: ""
 ---
-
 # Getting video duration with Mediabunny
 
 Mediabunny can extract the duration of a video file. It works in browser, Node.js, and Bun environments.

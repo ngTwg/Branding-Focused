@@ -1,10 +1,16 @@
 ---
+name: "hugging-face-paper-publisher"
+tags: ["antigravity", "c:", "capabilities", "core", "dependencies", "ecosystem", "face", "frontend", "gemini", "hugging", "integration", "<YOUR_USERNAME>", "overview", "paper", "publisher", "specialized", "use", "users", "version", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4230
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+description: "Publish and manage research papers on Hugging Face Hub. Supports creating paper pages, linking papers to models/datasets, claiming authorship, and generating professional markdown-based research articles."
 source: "https://github.com/huggingface/skills/tree/main/skills/huggingface-paper-publisher"
-name: hugging-face-paper-publisher
-description: Publish and manage research papers on Hugging Face Hub. Supports creating paper pages, linking papers to models/datasets, claiming authorship, and generating professional markdown-based research articles.
-risk: unknown
 ---
-
 # Overview
 
 ## When to Use

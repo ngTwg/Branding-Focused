@@ -1,11 +1,17 @@
 ---
+name: "hugging-face-jobs"
+tags: ["account", "antigravity", "authentication", "c:", "checklist", "directives", "face", "frontend", "gemini", "hugging", "jobs", "key", "<YOUR_USERNAME>", "overview", "prerequisites", "running", "skill", "specialized", "this", "use"]
+tier: 3
+risk: "medium"
+estimated_tokens: 7819
+tools_needed: ["docker", "git", "markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+description: "Run workloads on Hugging Face Jobs with managed CPUs, GPUs, TPUs, secrets, and Hub persistence."
+license: "Complete terms in LICENSE.txt"
 source: "https://github.com/huggingface/skills/tree/main/skills/huggingface-jobs"
-name: hugging-face-jobs
-description: Run workloads on Hugging Face Jobs with managed CPUs, GPUs, TPUs, secrets, and Hub persistence.
-license: Complete terms in LICENSE.txt
-risk: unknown
 ---
-
 # Running Workloads on Hugging Face Jobs
 
 ## Overview

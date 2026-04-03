@@ -1,3 +1,14 @@
+---
+name: "Fontes e Referências — Leiloeiro IA"
+tags: ["antigravity", "c:", "fontes", "gemini", "ia", "jurisprudência", "legislação", "leiloeiro", "leilão", "<YOUR_USERNAME>", "normas", "portais", "references", "referências", "specialized", "técnicas", "users"]
+tier: 3
+risk: "high"
+estimated_tokens: 137
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["specialized", "domain"]
+quality_score: 0.56
+---
 # Fontes e Referências — Leiloeiro IA
 
 ## Legislação

@@ -1,4 +1,15 @@
 ---
+name: "Use this skill when"
+tags: ["antigravity", "approach", "areas", "automator", "c:", "focus", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "output", "sales", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 379
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
+---
+---
 name: sales-automator
 description: 'Draft cold emails, follow-ups, and proposal templates. Creates
 

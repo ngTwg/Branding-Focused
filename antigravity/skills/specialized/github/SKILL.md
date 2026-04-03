@@ -1,11 +1,17 @@
 ---
-name: github
-description: "Use the `gh` CLI for issues, pull requests, Actions runs, and GitHub API queries."
-risk: safe
-source: "Dimillian/Skills (MIT)"
+name: "github"
+tags: ["advanced", "antigravity", "api", "backend", "c:", "debugging", "failure", "for", "gemini", "github", "json", "<YOUR_USERNAME>", "output", "pull", "queries", "requests", "skill", "specialized", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 473
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.80
 date_added: "2026-03-25"
+description: "Use the `gh` CLI for issues, pull requests, Actions runs, and GitHub API queries."
+source: "Dimillian/Skills (MIT)"
 ---
-
 # GitHub Skill
 
 Use the `gh` CLI to interact with GitHub. Always specify `--repo owner/repo` when not in a git directory, or use URLs directly.

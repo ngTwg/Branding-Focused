@@ -1,3 +1,14 @@
+---
+name: "API Style Selection (2025)"
+tags: ["2025", "antigravity", "api", "backend", "c:", "comparison", "decision", "frontend", "gemini", "<YOUR_USERNAME>", "patterns", "questions", "selection", "style", "tree", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 269
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.58
+---
 # API Style Selection (2025)
 
 > REST vs GraphQL vs tRPC - Hangi durumda hangisi?

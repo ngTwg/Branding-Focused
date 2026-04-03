@@ -1,4 +1,15 @@
 ---
+name: "Image Optimization Analysis"
+tags: ["alt", "analysis", "antigravity", "c:", "checks", "file", "format", "gemini", "image", "images", "<YOUR_USERNAME>", "optimization", "seo", "size", "specialized", "text", "use", "users", "when"]
+tier: 2
+risk: "high"
+estimated_tokens: 1612
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["specialized", "domain"]
+quality_score: 0.91
+---
+---
 name: seo-images
 description: >
   Image optimization analysis for SEO and performance. Checks alt text, file

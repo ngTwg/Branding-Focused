@@ -1,11 +1,17 @@
 ---
-name: wiki-qa
-description: "Answer repository questions grounded entirely in source code evidence. Use when user asks a question about the codebase, user wants to understand a specific file, function, or component, or user asks \"how does X work\" or \"where is Y defined\"."
-risk: safe
-source: community
+name: "wiki-qa"
+tags: ["antigravity", "c:", "format", "gemini", "<YOUR_USERNAME>", "procedure", "qa", "response", "rules", "specialized", "use", "users", "when", "wiki", "workflows"]
+tier: 2
+risk: "medium"
+estimated_tokens: 333
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.63
 date_added: "2026-02-27"
+description: "Answer repository questions grounded entirely in source code evidence. Use when user asks a question about the codebase, user wants to understand a specific file, function, or component, or user asks \\\"how does X work\\\" or \\\"where is Y defined\\\"."
+source: "community"
 ---
-
 # Wiki Q&A
 
 Answer repository questions grounded entirely in source code evidence.

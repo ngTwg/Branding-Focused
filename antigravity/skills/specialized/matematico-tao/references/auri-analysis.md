@@ -1,3 +1,14 @@
+---
+name: "Auri/EarLLM — Contexto Completo para Análise Matemática"
+tags: ["analysis", "antigravity", "análise", "arquitetura", "auri", "c:", "completo", "contexto", "dependências", "earllm", "estados", "formal", "frontend", "gemini", "geral", "grafo", "<YOUR_USERNAME>", "matematico", "matemática", "máquina"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1681
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.91
+---
 # Auri/EarLLM — Contexto Completo para Análise Matemática
 
 ## Visão Geral do Sistema

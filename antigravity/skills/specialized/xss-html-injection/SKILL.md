@@ -1,12 +1,18 @@
 ---
-name: xss-html-injection
-description: "Execute comprehensive client-side injection vulnerability assessments on web applications to identify XSS and HTML injection flaws, demonstrate exploitation techniques for session hijacking and credential theft, and validate input sanitization and output encoding mechanisms."
-risk: offensive
-source: community
-author: zebbern
+name: "xss-html-injection"
+tags: ["access", "and", "antigravity", "c:", "cross", "frontend", "gemini", "html", "injection", "inputs", "legal", "<YOUR_USERNAME>", "prerequisites", "purpose", "required", "requirements", "scripting", "site", "specialized", "technical"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3342
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+author: "zebbern"
 date_added: "2026-02-27"
+description: "Execute comprehensive client-side injection vulnerability assessments on web applications to identify XSS and HTML injection flaws, demonstrate exploitation techniques for session hijacking and credential theft, and validate input sanitization and output encoding mechanisms."
+source: "community"
 ---
-
 > AUTHORIZED USE ONLY: Use this skill only for authorized security assessments, defensive validation, or controlled educational environments.
 
 # Cross-Site Scripting and HTML Injection Testing

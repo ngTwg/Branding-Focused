@@ -1,4 +1,15 @@
 ---
+name: "GROWTH-ENGINE -- Crescimento Exponencial"
+tags: ["aarrr", "antigravity", "auri", "c:", "crescimento", "engine", "exponencial", "frontend", "gemini", "growth", "how", "<YOUR_USERNAME>", "metrics", "not", "overview", "para", "pirate", "skill", "specialized", "this"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2031
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.78
+---
+---
 name: growth-engine
 description: "Motor de crescimento para produtos digitais -- growth hacking, SEO, ASO, viral loops, email marketing, CRM, referral programs e aquisicao organica."
 risk: none

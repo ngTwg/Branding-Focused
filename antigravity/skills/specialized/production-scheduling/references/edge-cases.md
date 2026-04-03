@@ -1,3 +1,14 @@
+---
+name: "Production Scheduling — Edge Cases Reference"
+tags: ["absent", "antigravity", "bom", "bottleneck", "c:", "case", "cases", "certified", "competing", "customers", "demand", "edge", "error", "file", "for", "from", "frontend", "gemini", "how", "<YOUR_USERNAME>"]
+tier: 3
+risk: "medium"
+estimated_tokens: 14762
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.79
+---
 # Production Scheduling — Edge Cases Reference
 
 > Tier 3 reference. Load on demand when handling complex or ambiguous production scheduling situations that don't resolve through standard sequencing and dispatching workflows.

@@ -1,11 +1,17 @@
 ---
-name: nodejs-best-practices
-description: "Node.js development principles and decision-making. Framework selection, async patterns, security, and architecture. Teaches thinking, not copying."
-risk: unknown
-source: community
+name: "nodejs-best-practices"
+tags: ["2025", "antigravity", "backend", "best", "c:", "comparison", "decision", "framework", "frontend", "gemini", "how", "<YOUR_USERNAME>", "node", "nodejs", "practices", "principles", "selection", "skill", "this", "tree"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2000
+tools_needed: ["markdown", "playwright", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
 date_added: "2026-02-27"
+description: "Node.js development principles and decision-making. Framework selection, async patterns, security, and architecture. Teaches thinking, not copying."
+source: "community"
 ---
-
 # Node.js Best Practices
 
 > Principles and decision-making for Node.js development in 2025.

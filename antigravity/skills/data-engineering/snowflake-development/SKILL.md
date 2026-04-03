@@ -1,12 +1,18 @@
 ---
-name: snowflake-development
-description: "Comprehensive Snowflake development assistant covering SQL best practices, data pipeline design (Dynamic Tables, Streams, Tasks, Snowpipe), Cortex AI functions, Cortex Agents, Snowpark Python, dbt integration, performance tuning, and security hardening."
-category: data-engineering
-risk: safe
-source: community
+name: "snowflake-development"
+tags: ["and", "antigravity", "best", "c:", "colon", "data", "data-engineering", "development", "engineering", "frontend", "gemini", "<YOUR_USERNAME>", "naming", "practices", "prefix", "procedures", "rule", "semi", "snowflake", "sql"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2001
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.96
+category: "data-engineering"
 date_added: "2026-03-24"
+description: "Comprehensive Snowflake development assistant covering SQL best practices, data pipeline design (Dynamic Tables, Streams, Tasks, Snowpipe), Cortex AI functions, Cortex Agents, Snowpark Python, dbt integration, performance tuning, and security hardening."
+source: "community"
 ---
-
 # Snowflake Development
 
 You are a Snowflake development expert. Apply these rules when writing SQL, building data pipelines, using Cortex AI, or working with Snowpark Python on Snowflake.

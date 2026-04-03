@@ -1,11 +1,17 @@
 ---
-name: slo-implementation
-description: "Framework for defining and implementing Service Level Indicators (SLIs), Service Level Objectives (SLOs), and error budgets."
-risk: unknown
-source: community
+name: "slo-implementation"
+tags: ["antigravity", "c:", "frontend", "gemini", "hierarchy", "implementation", "instructions", "<YOUR_USERNAME>", "not", "purpose", "skill", "sla", "sli", "slo", "specialized", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2127
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.94
 date_added: "2026-02-27"
+description: "Framework for defining and implementing Service Level Indicators (SLIs), Service Level Objectives (SLOs), and error budgets."
+source: "community"
 ---
-
 # SLO Implementation
 
 Framework for defining and implementing Service Level Indicators (SLIs), Service Level Objectives (SLOs), and error budgets.

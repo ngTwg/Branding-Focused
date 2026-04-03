@@ -1,3 +1,14 @@
+---
+name: "CLI-Based Actorization"
+tags: ["actorization", "adjust", "antigravity", "apify", "app", "application", "based", "c:", "cli", "create", "file", "from", "frontend", "gemini", "get", "input", "key", "<YOUR_USERNAME>", "parse", "push"]
+tier: 2
+risk: "medium"
+estimated_tokens: 575
+tools_needed: ["docker", "git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.76
+---
 # CLI-Based Actorization
 
 For languages without an SDK (Go, Rust, Java, etc.), create a wrapper script that uses the Apify CLI.

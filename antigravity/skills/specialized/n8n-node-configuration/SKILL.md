@@ -1,10 +1,16 @@
 ---
-name: n8n-node-configuration
-description: Operation-aware node configuration guidance. Use when configuring nodes, understanding property dependencies, determining required fields, choosing between get_node detail levels, or learning common configuration patterns by node type.
-risk: unknown
-source: community
+name: "n8n-node-configuration"
+tags: ["antigravity", "aware", "c:", "concepts", "configuration", "core", "dependencies", "discovery", "frontend", "gemini", "<YOUR_USERNAME>", "n8n", "node", "operation", "philosophy", "progressive", "property", "specialized", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4092
+tools_needed: ["markdown", "mcp", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+description: "Operation-aware node configuration guidance. Use when configuring nodes, understanding property dependencies, determining required fields, choosing between get_node detail levels, or learning common configuration patterns by node type."
+source: "community"
 ---
-
 # n8n Node Configuration
 
 Expert guidance for operation-aware node configuration with property dependencies.

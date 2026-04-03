@@ -1,10 +1,16 @@
 ---
-name: threejs-animation
-description: Three.js animation - keyframe animation, skeletal animation, morph targets, animation mixing. Use when animating objects, playing GLTF animations, creating procedural motion, or blending animations.
-risk: unknown
-source: community
+name: "threejs-animation"
+tags: ["animation", "animationclip", "antigravity", "c:", "frontend", "gemini", "interpolation", "keyframetrack", "<YOUR_USERNAME>", "modes", "overview", "quick", "specialized", "start", "system", "three", "threejs", "types", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3243
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+description: "Three.js animation - keyframe animation, skeletal animation, morph targets, animation mixing. Use when animating objects, playing GLTF animations, creating procedural motion, or blending animations."
+source: "community"
 ---
-
 # Three.js Animation
 
 ## Quick Start

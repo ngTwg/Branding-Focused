@@ -1,11 +1,17 @@
 ---
-name: backtesting-frameworks
-description: "Build robust, production-grade backtesting systems that avoid common pitfalls and produce reliable strategy performance estimates."
-risk: safe
-source: community
+name: "backtesting-frameworks"
+tags: ["antigravity", "backtesting", "c:", "frameworks", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "resources", "safety", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 343
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.62
 date_added: "2026-02-27"
+description: "Build robust, production-grade backtesting systems that avoid common pitfalls and produce reliable strategy performance estimates."
+source: "community"
 ---
-
 # Backtesting Frameworks
 
 Build robust, production-grade backtesting systems that avoid common pitfalls and produce reliable strategy performance estimates.

@@ -1,12 +1,18 @@
 ---
-name: privilege-escalation-methods
-description: "Provide comprehensive techniques for escalating privileges from a low-privileged user to root/administrator access on compromised Linux and Windows systems. Essential for penetration testing post-exploitation phase and red team operations."
-risk: unknown
-source: community
-author: zebbern
+name: "privilege-escalation-methods"
+tags: ["antigravity", "c:", "core", "deliverables", "escalation", "frontend", "gemini", "inputs", "<YOUR_USERNAME>", "linux", "methods", "outputs", "prerequisites", "privilege", "purpose", "specialized", "techniques", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2041
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+author: "zebbern"
 date_added: "2026-02-27"
+description: "Provide comprehensive techniques for escalating privileges from a low-privileged user to root/administrator access on compromised Linux and Windows systems. Essential for penetration testing post-exploitation phase and red team operations."
+source: "community"
 ---
-
 # Privilege Escalation Methods
 
 ## Purpose

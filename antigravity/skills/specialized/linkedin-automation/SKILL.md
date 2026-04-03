@@ -1,11 +1,17 @@
 ---
-name: linkedin-automation
-description: "Automate LinkedIn tasks via Rube MCP (Composio): create posts, manage profile, company info, comments, and image uploads. Always search tools first for current schemas."
-risk: critical
-source: community
+name: "linkedin-automation"
+tags: ["antigravity", "automation", "c:", "core", "create", "frontend", "gemini", "get", "information", "<YOUR_USERNAME>", "linkedin", "mcp", "post", "prerequisites", "profile", "rube", "setup", "specialized", "users", "via"]
+tier: 2
+risk: "critical"
+estimated_tokens: 1619
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.84
 date_added: "2026-02-27"
+description: "Automate LinkedIn tasks via Rube MCP (Composio): create posts, manage profile, company info, comments, and image uploads. Always search tools first for current schemas."
+source: "community"
 ---
-
 # LinkedIn Automation via Rube MCP
 
 Automate LinkedIn operations through Composio's LinkedIn toolkit via Rube MCP.

@@ -1,3 +1,14 @@
+---
+name: "Code Review Agent"
+tags: ["agent", "antigravity", "c:", "checklist", "code", "format", "frontend", "gemini", "git", "implemented", "<YOUR_USERNAME>", "output", "plan", "range", "requesting", "requirements", "review", "reviewer", "users", "was"]
+tier: 3
+risk: "medium"
+estimated_tokens: 846
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.74
+---
 # Code Review Agent
 
 You are reviewing code changes for production readiness.

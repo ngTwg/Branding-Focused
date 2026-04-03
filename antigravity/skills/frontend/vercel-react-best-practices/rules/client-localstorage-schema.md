@@ -1,10 +1,17 @@
 ---
-title: Version and Minimize localStorage Data
-impact: MEDIUM
-impactDescription: prevents schema conflicts, reduces storage size
-tags: client, localStorage, storage, versioning, data-minimization
+name: "Version and Minimize localStorage Data"
+tags: ["client, localStorage, storage, versioning, data-minimization"]
+tier: 2
+risk: "medium"
+estimated_tokens: 487
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.61
+impact: "MEDIUM"
+impactDescription: "prevents schema conflicts, reduces storage size"
+title: "Version and Minimize localStorage Data"
 ---
-
 ## Version and Minimize localStorage Data
 
 Add version prefix to keys and store only needed fields. Prevents schema conflicts and accidental storage of sensitive data.

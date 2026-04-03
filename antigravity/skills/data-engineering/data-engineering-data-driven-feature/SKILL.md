@@ -1,11 +1,17 @@
 ---
-name: data-engineering-data-driven-feature
-description: "Build features guided by data insights, A/B testing, and continuous measurement using specialized agents for analysis, implementation, and experimentation."
-risk: unknown
-source: community
+name: "data-engineering-data-driven-feature"
+tags: ["analysis", "and", "antigravity", "c:", "data", "data-engineering", "development", "driven", "engineering", "exploratory", "feature", "formation", "frontend", "gemini", "hypothesis", "instructions", "<YOUR_USERNAME>", "not", "phase", "skill"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3026
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.84
 date_added: "2026-02-27"
+description: "Build features guided by data insights, A/B testing, and continuous measurement using specialized agents for analysis, implementation, and experimentation."
+source: "community"
 ---
-
 # Data-Driven Feature Development
 
 Build features guided by data insights, A/B testing, and continuous measurement using specialized agents for analysis, implementation, and experimentation.

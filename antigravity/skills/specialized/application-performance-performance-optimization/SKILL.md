@@ -1,11 +1,17 @@
 ---
-name: application-performance-performance-optimization
-description: "Optimize end-to-end application performance with profiling, observability, and backend/frontend tuning. Use when coordinating performance optimization across the stack."
-risk: unknown
-source: community
+name: "application-performance-performance-optimization"
+tags: ["antigravity", "application", "baseline", "c:", "comprehensive", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "optimization", "performance", "phase", "profiling", "safety", "skill", "specialized", "this", "use", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2800
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 date_added: "2026-02-27"
+description: "Optimize end-to-end application performance with profiling, observability, and backend/frontend tuning. Use when coordinating performance optimization across the stack."
+source: "community"
 ---
-
 Optimize application performance end-to-end using specialized performance and optimization agents:
 
 [Extended thinking: This workflow orchestrates a comprehensive performance optimization process across the entire application stack. Starting with deep profiling and baseline establishment, the workflow progresses through targeted optimizations in each system layer, validates improvements through load testing, and establishes continuous monitoring for sustained performance. Each phase builds on insights from previous phases, creating a data-driven optimization strategy that addresses real bottlenecks rather than theoretical improvements. The workflow emphasizes modern observability practices, user-centric performance metrics, and cost-effective optimization strategies.]

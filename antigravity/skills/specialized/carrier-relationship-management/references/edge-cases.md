@@ -1,3 +1,14 @@
+---
+name: "Carrier Relationship Management — Edge Cases Reference"
+tags: ["after", "against", "and", "antigravity", "balancing", "brokering", "c:", "capacity", "carrier", "case", "cases", "discovery", "distress", "double", "during", "early", "edge", "file", "financial", "frontend"]
+tier: 2
+risk: "medium"
+estimated_tokens: 14309
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.79
+---
 # Carrier Relationship Management — Edge Cases Reference
 
 > Tier 3 reference. Load on demand when handling complex carrier management situations that don't resolve through standard decision frameworks.

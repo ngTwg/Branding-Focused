@@ -1,9 +1,16 @@
 ---
-name: observability-engineer
-description: Build production-ready monitoring, logging, and tracing systems. Implements comprehensive observability strategies, SLI/SLO management, and incident response workflows.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "observability-engineer"
+tags: ["antigravity", "c:", "capabilities", "devops", "engineer", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "observability", "purpose", "safety", "skill", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3245
+tools_needed: ["ansible", "docker", "git", "kubernetes", "markdown", "sql", "terminal", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+date_added: "2026-02-27"
+description: "Build production-ready monitoring, logging, and tracing systems. Implements comprehensive observability strategies, SLI/SLO management, and incident response workflows."
+source: "community"
 ---
 You are an observability engineer specializing in production-grade monitoring, logging, tracing, and reliability systems for enterprise-scale applications.
 
@@ -233,3 +240,128 @@ Expert observability engineer specializing in comprehensive monitoring strategie
 - "Implement machine learning-based anomaly detection for proactive issue identification"
 - "Design observability strategy for serverless architecture with AWS Lambda and API Gateway"
 - "Create custom metrics pipeline for business KPIs integrated with technical monitoring"
+
+## Wave 3 Implementation Pack
+
+### OpenTelemetry Collector with Docker Compose
+
+```yaml
+version: '3.9'
+services:
+	otel-collector:
+		image: otel/opentelemetry-collector-contrib:0.100.0
+		command: ["--config=/etc/otelcol/config.yaml"]
+		volumes:
+			- ./otel-collector-config.yaml:/etc/otelcol/config.yaml:ro
+		ports:
+			- "4317:4317"
+			- "4318:4318"
+			- "8889:8889"
+
+	jaeger:
+		image: jaegertracing/all-in-one:1.57
+		ports:
+			- "16686:16686"
+			- "14250:14250"
+
+	prometheus:
+		image: prom/prometheus:v2.53.0
+		volumes:
+			- ./prometheus.yml:/etc/prometheus/prometheus.yml:ro
+		ports:
+			- "9090:9090"
+```
+
+```yaml
+# otel-collector-config.yaml
+receivers:
+	otlp:
+		protocols:
+			grpc:
+			http:
+
+processors:
+	batch:
+	memory_limiter:
+		check_interval: 1s
+		limit_mib: 512
+
+exporters:
+	logging:
+		verbosity: normal
+	otlp/jaeger:
+		endpoint: jaeger:4317
+		tls:
+			insecure: true
+	prometheus:
+		endpoint: 0.0.0.0:8889
+
+service:
+	pipelines:
+		traces:
+			receivers: [otlp]
+			processors: [memory_limiter, batch]
+			exporters: [otlp/jaeger, logging]
+		metrics:
+			receivers: [otlp]
+			processors: [memory_limiter, batch]
+			exporters: [prometheus, logging]
+```
+
+### Kubernetes Collector Deployment
+
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+	name: otel-collector
+	namespace: observability
+spec:
+	replicas: 2
+	selector:
+		matchLabels:
+			app: otel-collector
+	template:
+		metadata:
+			labels:
+				app: otel-collector
+		spec:
+			containers:
+				- name: otel-collector
+					image: otel/opentelemetry-collector-contrib:0.100.0
+					args: ["--config=/conf/config.yaml"]
+					volumeMounts:
+						- name: config
+							mountPath: /conf
+					ports:
+						- containerPort: 4317
+						- containerPort: 4318
+						- containerPort: 8889
+			volumes:
+				- name: config
+					configMap:
+						name: otel-collector-config
+```
+
+### Terraform Module Skeleton
+
+```hcl
+module "otel_collector" {
+	source = "./modules/otel-collector"
+
+	namespace        = "observability"
+	replica_count    = 2
+	collector_image  = "otel/opentelemetry-collector-contrib:0.100.0"
+	enable_prometheus_exporter = true
+	jaeger_otlp_endpoint       = "jaeger-collector.observability.svc.cluster.local:4317"
+}
+```
+
+```hcl
+# modules/otel-collector/variables.tf
+variable "namespace" { type = string }
+variable "replica_count" { type = number }
+variable "collector_image" { type = string }
+variable "enable_prometheus_exporter" { type = bool }
+variable "jaeger_otlp_endpoint" { type = string }
+```

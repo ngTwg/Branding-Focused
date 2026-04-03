@@ -1,3 +1,14 @@
+---
+name: "NavigationStack"
+tags: ["antigravity", "architecture", "binding", "c:", "centralized", "core", "custom", "destination", "example", "frontend", "gemini", "history", "independent", "intent", "<YOUR_USERNAME>", "mapping", "navigationstack", "patterns", "per", "references"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1085
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.85
+---
 # NavigationStack
 
 ## Intent

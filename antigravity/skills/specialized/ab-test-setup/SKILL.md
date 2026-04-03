@@ -1,11 +1,17 @@
 ---
-name: ab-test-setup
-description: "Structured guide for setting up A/B tests with mandatory gates for hypothesis, metrics, and execution readiness."
-risk: unknown
-source: community
+name: "ab-test-setup"
+tags: ["ab", "antigravity", "assumptions", "c:", "check", "checklist", "frontend", "gate", "gemini", "hard", "hypothesis", "<YOUR_USERNAME>", "lock", "mandatory", "pre", "purpose", "quality", "requisites", "scope", "setup"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1222
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.74
 date_added: "2026-02-27"
+description: "Structured guide for setting up A/B tests with mandatory gates for hypothesis, metrics, and execution readiness."
+source: "community"
 ---
-
 # A/B Test Setup
 
 ## 1️⃣ Purpose & Scope

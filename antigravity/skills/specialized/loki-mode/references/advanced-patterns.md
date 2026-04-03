@@ -1,3 +1,14 @@
+---
+name: "Advanced Agentic Patterns Reference"
+tags: ["advanced", "agent", "agentic", "ai-agents", "antigravity", "architecture", "c:", "consolidation", "episodic", "gemini", "inspired", "layer", "<YOUR_USERNAME>", "linking", "loki", "mar", "mem", "memgpt", "memory", "mirix"]
+tier: 3
+risk: "high"
+estimated_tokens: 3784
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["ai", "automation"]
+quality_score: 0.95
+---
 # Advanced Agentic Patterns Reference
 
 Research-backed patterns from 2025-2026 literature for enhanced multi-agent orchestration.

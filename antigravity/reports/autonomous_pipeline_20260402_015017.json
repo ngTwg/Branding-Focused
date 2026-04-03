@@ -1,0 +1,106 @@
+{
+  "timestamp": "2026-04-01T18:50:17.372072+00:00",
+  "phase": "all",
+  "dry_run": false,
+  "total": 16,
+  "ok": 16,
+  "failed": 0,
+  "steps": [
+    {
+      "step": "integration_tests",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe -m pytest antigravity/tests/integration -q",
+      "status": "ok",
+      "output": ".................................................                        [100%]\n49 passed in 14.80s"
+    },
+    {
+      "step": "targeted_regressions",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe -m pytest antigravity/tests/test_schemas.py antigravity/tests/test_failure_memory.py antigravity/tests/test_hybrid_retriever_properties.py antigravity/tests/test_hybrid_retriever_properties_v3.py antigravity/tests/test_llm_client_properties.py antigravity/tests/test_llm_client_properties_v2.py antigravity/tests/test_slm_router_properties.py antigravity/tests/test_tracing_properties.py antigravity/tests/test_tracing_properties_v2.py -q",
+      "status": "ok",
+      "output": "........................................................................ [ 98%]\n.                                                                        [100%]\n73 passed in 3.48s"
+    },
+    {
+      "step": "skillpack_convert",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe tools/skillpack/skillpack.py convert --target cline --source GEMINI.md --output antigravity/tmp/skillpack_validation/.cline/rules/CLINE.md",
+      "status": "ok",
+      "output": "Converted output written: antigravity\\tmp\\skillpack_validation\\.cline\\rules\\CLINE.md"
+    },
+    {
+      "step": "skillpack_install",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe tools/skillpack/skillpack.py install --targets cursor claude copilot --source GEMINI.md --workspace-root antigravity/tmp/skillpack_validation --report antigravity/reports/skillpack_install_report.json --force",
+      "status": "ok",
+      "output": "Skillpack install report: antigravity\\reports\\skillpack_install_report.json\nTargets processed: 3 | ok=3 skipped=0 failed=0"
+    },
+    {
+      "step": "normalize_skill_metadata_top_tier",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/normalize_skill_metadata.py --scope top-tier --apply --report antigravity/reports/skill_metadata_coverage.json --normalized-export antigravity/reports/skill_metadata_normalized_top_tiers.json",
+      "status": "ok",
+      "output": "Metadata coverage report: antigravity\\reports\\skill_metadata_coverage.json\nNormalized export: antigravity\\reports\\skill_metadata_normalized_top_tiers.json\nSkills scanned: 2749\nFiles with frontmatter: 1821\nAverage coverage ratio: 13.05%\nSelected scope coverage: 100.00% (files=13)\nUpdated files: 0"
+    },
+    {
+      "step": "build_release_bundle",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/build_release_bundle.py --version v6.5.0-SLIM --release-name phase-b-packaging",
+      "status": "ok",
+      "output": "Release root: C:\\Users\\lengo\\.gemini\\antigravity\\releases\\v6.5.0-SLIM_phase-b-packaging_20260401_184800\nRelease notes: C:\\Users\\lengo\\.gemini\\antigravity\\docs\\RELEASE_NOTES_2026-04-01.md\nRelease zip: C:\\Users\\lengo\\.gemini\\antigravity\\releases\\v6.5.0-SLIM_phase-b-packaging_20260401_184800.zip\nIncluded artifacts: 14\nMissing artifacts: 0\nRelease report: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\release_bundle_20260401_184800.json"
+    },
+    {
+      "step": "normalize_skill_metadata",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/normalize_skill_metadata.py",
+      "status": "ok",
+      "output": "Metadata coverage report: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\skill_metadata_coverage.json\nNormalized export: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\skill_metadata_normalized_top_tiers.json\nSkills scanned: 2749\nFiles with frontmatter: 1821\nAverage coverage ratio: 13.05%\nSelected scope coverage: 13.05% (files=2749)"
+    },
+    {
+      "step": "sync_community_repos",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/sync_community_repos.py",
+      "status": "ok",
+      "output": "Synced repos: 12/12 ok, 0 failed\nReport: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\community_repo_sync_report.json"
+    },
+    {
+      "step": "extract_external_patterns",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/extract_external_patterns.py",
+      "status": "ok",
+      "output": "Pattern report JSON: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\external_pattern_report.json\nPattern report MD: C:\\Users\\lengo\\.gemini\\antigravity\\docs\\EXTERNAL_PATTERN_REPORT_2026-04-01.md"
+    },
+    {
+      "step": "generate_integration_gap_report",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/generate_integration_gap_report.py --apply",
+      "status": "ok",
+      "output": "Integration gap report JSON: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\integration_gap_report.json\nIntegration gap report MD: C:\\Users\\lengo\\.gemini\\antigravity\\docs\\INTEGRATION_GAP_REPORT_2026-04-02.md\nApplied merges: none"
+    },
+    {
+      "step": "security_gate_external_skills",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/security_gate_external_skills.py",
+      "status": "ok",
+      "output": "Security gate status: WARN\nScanned markdown files: 22469 (skipped: 6)\nFindings: 281\nBlocked files: 0\nWarn files: 152\nReport: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\security_gate_external_skills.json"
+    },
+    {
+      "step": "generate_unified_inventory",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/generate_unified_inventory.py",
+      "status": "ok",
+      "output": "Scanning internal skills...\n  Found 2749 internal skill records\nSecurity status: WARN (fail_files=0, warn_files=152)\nScanning external skills with gate filters...\n  Imported external records: 2786\n  Blocked by FAIL gate: 0\nUnified inventory generated successfully.\n  Markdown: C:\\Users\\lengo\\.gemini\\antigravity\\external\\UNIFIED_SKILL_INVENTORY.md\n  JSON: C:\\Users\\lengo\\.gemini\\antigravity\\external\\UNIFIED_SKILL_INVENTORY.json\n  Total records: 5535"
+    },
+    {
+      "step": "generate_skill_catalog",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/generate_skill_catalog.py",
+      "status": "ok",
+      "output": "Skill catalog generated successfully.\n  Records: 5535\n  JSON: C:\\Users\\lengo\\.gemini\\antigravity\\external\\SKILL_CATALOG.json\n  Markdown: C:\\Users\\lengo\\.gemini\\antigravity\\docs\\SKILL_CATALOG_2026-04-02.md"
+    },
+    {
+      "step": "run_benchmark_pack",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/run_benchmark_pack.py --suite quick",
+      "status": "ok",
+      "output": "[OK] integration_tests\n[OK] targeted_regressions\n[OK] security_gate_external_skills\nBenchmark report JSON: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\benchmark_pack_20260402_015017.json\nBenchmark report MD: C:\\Users\\lengo\\.gemini\\antigravity\\docs\\BENCHMARK_PACK_REPORT_20260402_015017.md"
+    },
+    {
+      "step": "validate_community_surface",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/validate_community_surface.py",
+      "status": "ok",
+      "output": "Community surface status: PASS\nReport JSON: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\community_surface_report.json\nReport MD: C:\\Users\\lengo\\.gemini\\antigravity\\docs\\COMMUNITY_SURFACE_REPORT_2026-04-02.md"
+    },
+    {
+      "step": "generate_execution_board",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/generate_autonomous_task_board.py",
+      "status": "ok",
+      "output": "Execution board already exists: C:\\Users\\lengo\\.gemini\\antigravity\\docs\\AUTONOMOUS_EXECUTION_BOARD_2026-04-02.md\nSkip overwrite. Use --force to regenerate."
+    }
+  ]
+}

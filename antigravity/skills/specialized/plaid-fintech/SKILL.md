@@ -1,11 +1,17 @@
 ---
-name: plaid-fintech
-description: "Create a linktoken for Plaid Link, exchange publictoken for accesstoken. Link tokens are short-lived, one-time use. Access tokens don't expire but may need updating when users change passwords."
-risk: unknown
-source: "vibeship-spawner-skills (Apache 2.0)"
+name: "plaid-fintech"
+tags: ["and", "anti", "antigravity", "c:", "creation", "error", "exchange", "fintech", "frontend", "gemini", "handling", "item", "<YOUR_USERNAME>", "link", "mode", "patterns", "plaid", "specialized", "sync", "token"]
+tier: 3
+risk: "medium"
+estimated_tokens: 375
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.67
 date_added: "2026-02-27"
+description: "Create a linktoken for Plaid Link, exchange publictoken for accesstoken. Link tokens are short-lived, one-time use. Access tokens don't expire but may need updating when users change passwords."
+source: "vibeship-spawner-skills (Apache 2.0)"
 ---
-
 # Plaid Fintech
 
 ## Patterns

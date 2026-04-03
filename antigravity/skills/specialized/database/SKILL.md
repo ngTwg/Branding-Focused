@@ -1,12 +1,18 @@
 ---
-name: database
-description: "Database development and operations workflow covering SQL, NoSQL, database design, migrations, optimization, and data engineering."
-category: workflow-bundle
-risk: safe
-source: personal
+name: "database"
+tags: ["antigravity", "bundle", "c:", "database", "design", "frontend", "gemini", "implementation", "<YOUR_USERNAME>", "overview", "phase", "phases", "specialized", "this", "use", "users", "when", "workflow"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1105
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.88
+category: "workflow-bundle"
 date_added: "2026-02-27"
+description: "Database development and operations workflow covering SQL, NoSQL, database design, migrations, optimization, and data engineering."
+source: "personal"
 ---
-
 # Database Workflow Bundle
 
 ## Overview

@@ -1,3 +1,14 @@
+---
+name: "Clean Architecture — Deep Reference"
+tags: ["antigravity", "architecture", "bob", "boundaries", "c:", "clean", "context", "craft", "deep", "dependencies", "dependency", "from", "frontend", "gemini", "inside", "inversion", "layers", "<YOUR_USERNAME>", "out", "reference"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1010
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.68
+---
 # Clean Architecture — Deep Reference
 
 Based on Robert C. Martin, *Clean Architecture* (2017). Use this when you need detailed criteria for dependency direction, layers, and boundaries.

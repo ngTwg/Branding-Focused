@@ -1,11 +1,17 @@
 ---
-name: llm-app-patterns
-description: "Production-ready patterns for building LLM applications, inspired by [Dify](https://github.com/langgenius/dify) and industry best practices."
-risk: unknown
-source: community
+name: "llm-app-patterns"
+tags: ["antigravity", "app", "application", "architecture", "c:", "chunking", "deep", "deep-tech", "document", "frontend", "gemini", "ingestion", "<YOUR_USERNAME>", "llm", "overview", "patterns", "pipeline", "rag", "skill", "strategies"]
+tier: 3
+risk: "medium"
+estimated_tokens: 5307
+tools_needed: ["git", "markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Production-ready patterns for building LLM applications, inspired by [Dify](https://github.com/langgenius/dify) and industry best practices."
+source: "community"
 ---
-
 # 🤖 LLM Application Patterns
 
 > Production-ready patterns for building LLM applications, inspired by [Dify](https://github.com/langgenius/dify) and industry best practices.

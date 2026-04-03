@@ -1,3 +1,14 @@
+---
+name: "PRD: Static Landing Page"
+tags: ["antigravity", "c:", "examples", "features", "frontend", "gemini", "hero", "landing", "<YOUR_USERNAME>", "loki", "mode", "overview", "page", "prd", "section", "sections", "specialized", "static", "target", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 443
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.65
+---
 # PRD: Static Landing Page
 
 ## Overview

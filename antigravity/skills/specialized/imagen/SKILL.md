@@ -1,11 +1,17 @@
 ---
-name: imagen
-description: "AI image generation skill powered by Google Gemini, enabling seamless visual content creation for UI placeholders, documentation, and design assets."
-risk: safe
-source: "https://github.com/sanjay3290/ai-skills/tree/main/skills/imagen"
+name: "imagen"
+tags: ["antigravity", "c:", "cross", "frontend", "gemini", "generation", "how", "image", "imagen", "<YOUR_USERNAME>", "overview", "platform", "python", "recommended", "skill", "specialized", "this", "usage", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 634
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 date_added: "2026-02-27"
+description: "AI image generation skill powered by Google Gemini, enabling seamless visual content creation for UI placeholders, documentation, and design assets."
+source: "https://github.com/sanjay3290/ai-skills/tree/main/skills/imagen"
 ---
-
 # Imagen - AI Image Generation Skill
 
 ## Overview

@@ -1,3 +1,14 @@
+---
+name: "MCP Server Best Practices"
+tags: ["antigravity", "best", "builder", "c:", "deep", "deep-tech", "formats", "frontend", "gemini", "<YOUR_USERNAME>", "mcp", "naming", "pagination", "practices", "quick", "reference", "response", "server", "tech", "tool"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1832
+tools_needed: ["git", "markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.82
+---
 # MCP Server Best Practices
 
 ## Quick Reference

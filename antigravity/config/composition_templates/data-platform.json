@@ -1,0 +1,12 @@
+{
+  "id": "data-platform",
+  "name": "Data Platform Delivery Template",
+  "description": "End-to-end ETL/analytics template with quality and observability gates.",
+  "steps": [
+    "Map source systems and schemas",
+    "Build ingest and transformation layers",
+    "Define quality checks and SLA thresholds",
+    "Deploy analytics models and dashboards",
+    "Automate anomaly alerts and recovery"
+  ]
+}

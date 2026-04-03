@@ -1,11 +1,17 @@
 ---
-name: billing-automation
-description: "Master automated billing systems including recurring billing, invoice generation, dunning management, proration, and tax calculation."
-risk: safe
-source: community
+name: "billing-automation"
+tags: ["antigravity", "automation", "billing", "c:", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "resources", "safety", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 390
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.62
 date_added: "2026-02-27"
+description: "Master automated billing systems including recurring billing, invoice generation, dunning management, proration, and tax calculation."
+source: "community"
 ---
-
 # Billing Automation
 
 Master automated billing systems including recurring billing, invoice generation, dunning management, proration, and tax calculation.

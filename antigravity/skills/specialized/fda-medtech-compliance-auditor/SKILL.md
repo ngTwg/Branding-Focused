@@ -1,10 +1,16 @@
 ---
-name: fda-medtech-compliance-auditor
+name: "fda-medtech-compliance-auditor"
+tags: ["antigravity", "auditor", "c:", "capa", "cause", "compliance", "example", "examples", "fda", "frontend", "gemini", "how", "<YOUR_USERNAME>", "medtech", "overview", "review", "root", "skill", "specialized", "this"]
+tier: 4
+risk: "medium"
+estimated_tokens: 732
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.71
 description: "Expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs, technical files, and software validation."
-risk: unknown
-source: community
+source: "community"
 ---
-
 # FDA MedTech Compliance Auditor
 
 ## Overview
@@ -60,3 +66,35 @@ Required Actions:
 - ✅ **Do:** Expect strict interpretations — the goal is to find weaknesses before a real inspector does.
 - ❌ **Don't:** Forget to link every software defect to a clinical risk item in your ISO 14971 risk file.
 - ❌ **Don't:** Assume "we tested it and it works" satisfies IEC 62304 software verification requirements.
+
+## IEC 62304 Traceability Matrix Template (CSV)
+
+```csv
+Requirement_ID,Requirement_Description,Software_Item,Risk_Control_ID,Design_Output_ID,Verification_Test_ID,Verification_Result,Release
+SRS-001,Authenticate clinician before data access,AUTH-SVC,RC-014,DES-AUTH-03,TC-AUTH-021,PASS,v1.4.0
+SRS-002,Log all failed login attempts,AUDIT-SVC,RC-022,DES-AUDIT-01,TC-AUDIT-009,PASS,v1.4.0
+SRS-003,Detect and alarm infusion interruption,CTRL-SVC,RC-101,DES-CTRL-07,TC-CTRL-044,FAIL,v1.4.0
+SRS-004,Fail safe on sensor timeout,CTRL-SVC,RC-115,DES-CTRL-09,TC-CTRL-051,PASS,v1.4.0
+```
+
+## Verification Evidence Checklist
+
+- Requirement-level trace exists (`SRS-*` to `TC-*`).
+- Every software risk control maps to at least one verification test.
+- Failed verification items include CAPA linkage and retest evidence.
+- Test environment and version are recorded for each verification run.
+- Approver and approval timestamp are present for release decision.
+
+## Audit-Ready Finding Template
+
+```text
+FINDING ID: MED-SW-<YYYY>-<NNN>
+Severity: Major | Minor | OFI
+Regulatory Citation: IEC 62304 <section>, 21 CFR 820.<section>
+Observation:
+Impact:
+Required Correction:
+Objective Evidence Required:
+Due Date:
+Owner:
+```

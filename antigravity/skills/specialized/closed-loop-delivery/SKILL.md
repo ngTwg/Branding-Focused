@@ -1,11 +1,17 @@
 ---
-name: closed-loop-delivery
-description: Use when a coding task must be completed against explicit acceptance criteria with minimal user re-intervention across implementation, review feedback, deployment, and runtime verification.
-risk: safe
-source: community
+name: "closed-loop-delivery"
+tags: ["antigravity", "c:", "closed", "default", "delivery", "dependency", "frontend", "gate", "gemini", "inputs", "issue", "<YOUR_USERNAME>", "loop", "overview", "required", "specialized", "use", "users", "when", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 990
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.72
 date_added: "2026-03-12"
+description: "Use when a coding task must be completed against explicit acceptance criteria with minimal user re-intervention across implementation, review feedback, deployment, and runtime verification."
+source: "community"
 ---
-
 # Closed-Loop Delivery
 
 ## Overview

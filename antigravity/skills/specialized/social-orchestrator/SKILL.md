@@ -1,4 +1,15 @@
 ---
+name: "SOCIAL-ORCHESTRATOR: Canais Unificados"
+tags: ["antigravity", "c:", "canais", "frontend", "gemini", "how", "<YOUR_USERNAME>", "not", "orchestrator", "orquestracao", "overview", "principio", "skill", "social", "specialized", "this", "unificados", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1934
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.93
+---
+---
 name: social-orchestrator
 description: "Orquestrador unificado de canais sociais — coordena Instagram, Telegram e WhatsApp em um unico fluxo de trabalho. Publicacao cross-channel, metricas unificadas, reutilizacao de conteudo por formato, agendamento sincronizado e gestao centralizada de campanhas em todos os canais simultaneamente."
 risk: critical

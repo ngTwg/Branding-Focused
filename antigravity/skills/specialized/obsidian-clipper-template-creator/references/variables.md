@@ -1,3 +1,14 @@
+---
+name: "Obsidian Web Clipper Variables"
+tags: ["antigravity", "c:", "clipper", "creator", "frontend", "gemini", "<YOUR_USERNAME>", "meta", "obsidian", "org", "preset", "prompt", "references", "schema", "selector", "specialized", "template", "users", "variables", "web"]
+tier: 2
+risk: "medium"
+estimated_tokens: 447
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.61
+---
 # Obsidian Web Clipper Variables
 
 **Official Docs:** [help.obsidian.md/web-clipper/variables](https://help.obsidian.md/web-clipper/variables)

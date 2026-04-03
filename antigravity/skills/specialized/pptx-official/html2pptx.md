@@ -1,3 +1,14 @@
+---
+name: "HTML to PowerPoint Guide"
+tags: ["antigravity", "c:", "contents", "creating", "critical", "dimensions", "elements", "frontend", "gemini", "guide", "html", "html2pptx", "layout", "<YOUR_USERNAME>", "official", "powerpoint", "pptx", "rules", "slides", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4959
+tools_needed: ["markdown", "playwright"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # HTML to PowerPoint Guide
 
 Convert HTML slides to PowerPoint presentations with accurate positioning using the `html2pptx.js` library.

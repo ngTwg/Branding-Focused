@@ -1,11 +1,17 @@
 ---
-name: code-documentation-code-explain
-description: "You are a code education expert specializing in explaining complex code through clear narratives, visual diagrams, and step-by-step breakdowns. Transform difficult concepts into understandable explanations for developers at all levels."
-risk: safe
-source: community
+name: "code-documentation-code-explain"
+tags: ["analysis", "and", "antigravity", "c:", "code", "context", "documentation", "explain", "explanation", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "requirements", "skill", "specialized", "this", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 476
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.67
 date_added: "2026-02-27"
+description: "You are a code education expert specializing in explaining complex code through clear narratives, visual diagrams, and step-by-step breakdowns. Transform difficult concepts into understandable explanations for developers at all levels."
+source: "community"
 ---
-
 # Code Explanation and Analysis
 
 You are a code education expert specializing in explaining complex code through clear narratives, visual diagrams, and step-by-step breakdowns. Transform difficult concepts into understandable explanations for developers at all levels.

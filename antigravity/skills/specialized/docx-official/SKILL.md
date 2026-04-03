@@ -1,11 +1,17 @@
 ---
-name: docx-official
-description: "A user may ask you to create, edit, or analyze the contents of a .docx file. A .docx file is essentially a ZIP archive containing XML files and other resources that you can read or edit. You have different tools and workflows available for different tasks."
-risk: unknown
-source: community
+name: "docx-official"
+tags: ["analysis", "analyzing", "and", "antigravity", "c:", "content", "creating", "creation", "decision", "document", "docx", "editing", "existing", "frontend", "gemini", "<YOUR_USERNAME>", "new", "official", "overview", "reading"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2540
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "A user may ask you to create, edit, or analyze the contents of a .docx file. A .docx file is essentially a ZIP archive containing XML files and other resources that you can read or edit. You have different tools and workflows available for different tasks."
+source: "community"
 ---
-
 # DOCX creation, editing, and analysis
 
 ## Overview

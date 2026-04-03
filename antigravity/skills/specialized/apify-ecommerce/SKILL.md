@@ -1,10 +1,16 @@
 ---
-name: apify-ecommerce
+name: "apify-ecommerce"
+tags: ["antigravity", "apify", "c:", "commerce", "data", "ecommerce", "extraction", "frontend", "gemini", "input", "<YOUR_USERNAME>", "options", "prerequisites", "pricing", "products", "progress", "selection", "specialized", "tracking", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2141
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.96
 description: "Extract product data, prices, reviews, and seller information from any e-commerce platform using Apify's E-commerce Scraping Tool."
-risk: unknown
-source: community
+source: "community"
 ---
-
 # E-commerce Data Extraction
 
 Extract product data, prices, reviews, and seller information from any e-commerce platform using Apify's E-commerce Scraping Tool.

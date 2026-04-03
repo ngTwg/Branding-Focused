@@ -1,3 +1,14 @@
+---
+name: "Task Queue Reference"
+tags: ["antigravity", "bash", "c:", "claim", "file", "files", "frontend", "gemini", "<YOUR_USERNAME>", "locking", "loki", "mode", "operations", "queue", "reference", "references", "schema", "specialized", "task", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2286
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.93
+---
 # Task Queue Reference
 
 Distributed task queue system, dead letter handling, and circuit breakers.

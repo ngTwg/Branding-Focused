@@ -1,3 +1,14 @@
+---
+name: "API Reference — Stability AI v2beta"
+tags: ["ai", "antigravity", "api", "autenticacao", "c:", "endpoints", "frontend", "gemini", "generate", "geracao", "image", "indice", "<YOUR_USERNAME>", "post", "reference", "references", "sd3", "specialized", "stability", "stable"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1874
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.91
+---
 # API Reference — Stability AI v2beta
 
 ## Indice

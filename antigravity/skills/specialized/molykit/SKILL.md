@@ -1,4 +1,15 @@
 ---
+name: "MolyKit Skill"
+tags: ["agnostic", "antigravity", "async", "c:", "cross", "frontend", "gemini", "<YOUR_USERNAME>", "molykit", "native", "only", "overview", "patterns", "platform", "platformsend", "send", "skill", "spawning", "specialized", "triggers"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2552
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
+---
 name: molykit
 description: |
   CRITICAL: Use for MolyKit AI chat toolkit. Triggers on:

@@ -1,10 +1,16 @@
 ---
-name: hugging-face-evaluation
-description: Add and manage evaluation results in Hugging Face model cards. Supports extracting eval tables from README content, importing scores from Artificial Analysis API, and running custom model evaluations with vLLM/lighteval. Works with the model-index metadata format.
-risk: unknown
-source: community
+name: "hugging-face-evaluation"
+tags: ["antigravity", "c:", "core", "dependencies", "ecosystem", "evaluation", "face", "frontend", "gemini", "hugging", "inference", "integration", "<YOUR_USERNAME>", "overview", "provider", "specialized", "users", "version", "with"]
+tier: 3
+risk: "medium"
+estimated_tokens: 5650
+tools_needed: ["docker", "git", "markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+description: "Add and manage evaluation results in Hugging Face model cards. Supports extracting eval tables from README content, importing scores from Artificial Analysis API, and running custom model evaluations with vLLM/lighteval. Works with the model-index metadata format."
+source: "community"
 ---
-
 # Overview
 This skill provides tools to add structured evaluation results to Hugging Face model cards. It supports multiple methods for adding evaluation data:
 - Extracting existing evaluation tables from README content

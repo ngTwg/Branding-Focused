@@ -1,11 +1,17 @@
 ---
-name: agent-framework-azure-ai-py
-description: "Build persistent agents on Azure AI Foundry using the Microsoft Agent Framework Python SDK."
-risk: unknown
-source: community
+name: "agent-framework-azure-ai-py"
+tags: ["agent", "agents", "ai", "antigravity", "architecture", "azure", "c:", "deep", "deep-tech", "environment", "framework", "frontend", "full", "gemini", "hosted", "installation", "<YOUR_USERNAME>", "only", "package", "py"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2502
+tools_needed: ["markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
 date_added: "2026-02-27"
+description: "Build persistent agents on Azure AI Foundry using the Microsoft Agent Framework Python SDK."
+source: "community"
 ---
-
 # Agent Framework Azure Hosted Agents
 
 Build persistent agents on Azure AI Foundry using the Microsoft Agent Framework Python SDK.

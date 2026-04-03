@@ -1,3 +1,14 @@
+---
+name: "Mermaid Diagram Templates"
+tags: ["and", "antigravity", "architecture", "basic", "c:", "content", "diagram", "flow", "frontend", "gemini", "hierarchy", "hub", "internal", "labels", "<YOUR_USERNAME>", "linking", "mermaid", "model", "navigation", "references"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1230
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
+---
 # Mermaid Diagram Templates
 
 Copy-paste-ready Mermaid diagrams for visual sitemaps. Customize node labels and connections for your site.

@@ -1,3 +1,14 @@
+---
+name: "Title menus"
+tags: ["antigravity", "attach", "c:", "core", "example", "filters", "for", "frontend", "gemini", "intent", "<YOUR_USERNAME>", "menu", "menus", "patterns", "references", "specialized", "swiftui", "title", "together", "ui"]
+tier: 2
+risk: "medium"
+estimated_tokens: 527
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.77
+---
 # Title menus
 
 ## Intent

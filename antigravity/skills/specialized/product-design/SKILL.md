@@ -1,4 +1,15 @@
 ---
+name: "PRODUCT DESIGN — Nivel Apple"
+tags: ["antigravity", "apple", "c:", "design", "frontend", "gemini", "how", "ive", "jony", "<YOUR_USERNAME>", "nivel", "not", "overview", "principios", "product", "skill", "specialized", "this", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2632
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
+---
 name: product-design
 description: "Design de produto nivel Apple — sistemas visuais, UX flows, acessibilidade, linguagem visual proprietaria, design tokens, prototipagem e handoff. Cobre Figma, design systems, tipografia, cor, espacamento, motion design e principios de design cognitivo."
 risk: none

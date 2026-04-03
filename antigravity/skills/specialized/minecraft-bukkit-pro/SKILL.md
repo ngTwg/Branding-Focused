@@ -1,11 +1,17 @@
 ---
-name: minecraft-bukkit-pro
-description: Master Minecraft server plugin development with Bukkit, Spigot, and Paper APIs.
-risk: safe
-source: community
-date_added: '2026-02-27'
+name: "minecraft-bukkit-pro"
+tags: ["antigravity", "api", "bukkit", "c:", "core", "expertise", "frontend", "gemini", "instructions", "internal", "<YOUR_USERNAME>", "mastery", "mechanics", "minecraft", "not", "pro", "skill", "specialized", "this", "use"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1207
+tools_needed: ["docker", "kubernetes", "markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.73
+date_added: "2026-02-27"
+description: "Master Minecraft server plugin development with Bukkit, Spigot, and Paper APIs."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on minecraft bukkit pro tasks or workflows

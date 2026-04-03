@@ -1,3 +1,14 @@
+---
+name: "Error Analysis and Resolution Implementation Playbook"
+tags: ["aggregation", "analysis", "and", "antigravity", "c:", "cause", "classification", "debugging", "detection", "error", "frontend", "gemini", "implementation", "<YOUR_USERNAME>", "pattern", "playbook", "recognition", "resolution", "resources", "root"]
+tier: 3
+risk: "medium"
+estimated_tokens: 8722
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Error Analysis and Resolution Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

@@ -1,3 +1,14 @@
+---
+name: "Protocolo de Extracao Detalhado"
+tags: ["antigravity", "arquivos", "bugs", "c:", "context", "correcoes", "decisoes", "detalhado", "extracao", "extraction", "frontend", "gemini", "guardian", "inventario", "<YOUR_USERNAME>", "motivos", "passo", "protocol", "protocolo", "references"]
+tier: 2
+risk: "high"
+estimated_tokens: 949
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.85
+---
 # Protocolo de Extracao Detalhado
 
 Guia passo a passo para extrair TODAS as informacoes criticas de uma sessao

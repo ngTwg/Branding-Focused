@@ -1,11 +1,17 @@
 ---
-name: llm-prompt-optimizer
-description: "Use when improving prompts for any LLM. Applies proven prompt engineering techniques to boost output quality, reduce hallucinations, and cut token usage."
-risk: safe
-source: community
+name: "llm-prompt-optimizer"
+tags: ["antigravity", "apply", "c:", "deep", "deep-tech", "diagnose", "framework", "frontend", "gemini", "guide", "<YOUR_USERNAME>", "llm", "optimizer", "overview", "prompt", "rscit", "skill", "step", "tech", "the"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1523
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.94
 date_added: "2026-03-04"
+description: "Use when improving prompts for any LLM. Applies proven prompt engineering techniques to boost output quality, reduce hallucinations, and cut token usage."
+source: "community"
 ---
-
 # LLM Prompt Optimizer
 
 ## Overview

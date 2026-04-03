@@ -1,10 +1,16 @@
 ---
-name: hosted-agents
-description: Build background agents in sandboxed environments. Use for hosted coding agents, sandboxed VMs, Modal sandboxes, and remote coding environments.
-risk: unknown
-source: community
+name: "hosted-agents"
+tags: ["agent", "agents", "antigravity", "c:", "concepts", "core", "detailed", "framework", "frontend", "gemini", "hosted", "infrastructure", "<YOUR_USERNAME>", "sandbox", "selection", "specialized", "topics", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2928
+tools_needed: ["git", "markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+description: "Build background agents in sandboxed environments. Use for hosted coding agents, sandboxed VMs, Modal sandboxes, and remote coding environments."
+source: "community"
 ---
-
 # Hosted Agent Infrastructure
 
 Hosted agents run in remote sandboxed environments rather than on local machines. When designed well, they provide unlimited concurrency, consistent execution environments, and multiplayer collaboration. The critical insight is that session speed should be limited only by model provider time-to-first-token, with all infrastructure setup completed before the user starts their session.

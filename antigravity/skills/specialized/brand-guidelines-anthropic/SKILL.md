@@ -1,11 +1,17 @@
 ---
-name: brand-guidelines-anthropic
-description: "To access Anthropic's official brand identity and style resources, use this skill."
-risk: unknown
-source: community
+name: "brand-guidelines-anthropic"
+tags: ["anthropic", "antigravity", "brand", "c:", "colors", "features", "frontend", "gemini", "guidelines", "<YOUR_USERNAME>", "overview", "specialized", "styling", "typography", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 553
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.68
 date_added: "2026-02-27"
+description: "To access Anthropic's official brand identity and style resources, use this skill."
+source: "community"
 ---
-
 # Anthropic Brand Styling
 
 ## Overview

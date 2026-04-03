@@ -1,3 +1,14 @@
+---
+name: "Protocol Reverse Engineering Implementation Playbook"
+tags: ["antigravity", "c:", "capture", "engineering", "filter", "frontend", "gemini", "implementation", "interface", "<YOUR_USERNAME>", "playbook", "protocol", "resources", "reverse", "specialized", "specific", "traffic", "users", "wireshark", "with"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3179
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Protocol Reverse Engineering Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

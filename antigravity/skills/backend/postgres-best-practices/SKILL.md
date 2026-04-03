@@ -1,11 +1,17 @@
 ---
-name: postgres-best-practices
-description: "Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations."
-risk: safe
-source: community
+name: "postgres-best-practices"
+tags: ["antigravity", "backend", "best", "c:", "categories", "compiled", "document", "frontend", "full", "gemini", "how", "<YOUR_USERNAME>", "postgres", "practices", "priority", "rule", "supabase", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 493
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.66
 date_added: "2026-02-27"
+description: "Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations."
+source: "community"
 ---
-
 # Supabase Postgres Best Practices
 
 Comprehensive performance optimization guide for Postgres, maintained by Supabase. Contains rules across 8 categories, prioritized by impact to guide automated query optimization and schema design.

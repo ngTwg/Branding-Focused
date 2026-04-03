@@ -1,12 +1,18 @@
 ---
-name: alpha-vantage
+name: "alpha-vantage"
+tags: ["alpha", "antigravity", "api", "base", "c:", "data", "examples", "financial", "frontend", "gemini", "installation", "key", "latest", "<YOUR_USERNAME>", "market", "pattern", "price", "quick", "quote", "request"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1246
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.89
 description: "Access 20+ years of global financial data: equities, options, forex, crypto, commodities, economic indicators, and 50+ technical indicators."
-risk: unknown
-source: community
-metadata:
-    skill-author: K-Dense Inc.
+metadata: ""
+skill-author: "K-Dense Inc."
+source: "community"
 ---
-
 # Alpha Vantage — Financial Market Data
 
 Access 20+ years of global financial data: equities, options, forex, crypto, commodities, economic indicators, and 50+ technical indicators.

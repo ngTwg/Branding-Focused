@@ -1,3 +1,14 @@
+---
+name: "Mocking Guide for Dify Frontend Tests"
+tags: ["antigravity", "base", "c:", "components", "dify", "essential", "for", "frontend", "gemini", "guide", "important", "<YOUR_USERNAME>", "mock", "mocking", "mocks", "not", "placement", "references", "specialized", "testing"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2327
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.94
+---
 # Mocking Guide for Dify Frontend Tests
 
 ## ⚠️ Important: What NOT to Mock

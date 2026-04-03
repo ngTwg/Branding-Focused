@@ -1,3 +1,14 @@
+---
+name: "Common Patterns"
+tags: ["antigravity", "authentication", "basic", "c:", "common", "component", "current", "dev", "dialog", "form", "forms", "frontend", "gemini", "getting", "guidelines", "hook", "<YOUR_USERNAME>", "pattern", "patterns", "react"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2087
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.90
+---
 # Common Patterns
 
 Frequently used patterns for forms, authentication, DataGrid, dialogs, and other common UI elements.

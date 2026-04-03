@@ -1,9 +1,16 @@
 ---
-name: security-auditor
-description: Expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "security-auditor"
+tags: ["antigravity", "auditor", "c:", "capabilities", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "purpose", "safety", "security", "skill", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2515
+tools_needed: ["git", "kubernetes", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+date_added: "2026-02-27"
+description: "Expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks."
+source: "community"
 ---
 You are a security auditor specializing in DevSecOps, application security, and comprehensive cybersecurity practices.
 

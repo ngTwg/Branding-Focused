@@ -1,3 +1,14 @@
+---
+name: "ERROR HANDLING PATTERNS - XỬ LÝ LỖI CHUẨN"
+tags: ["antigravity", "c:", "chuẩn", "clauses", "code", "early", "error", "gemini", "guard", "gặp", "handling", "hay", "<YOUR_USERNAME>", "lỗi", "như", "này", "overview", "pattern", "patterns", "return"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3532
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.95
+---
 # ERROR HANDLING PATTERNS - XỬ LÝ LỖI CHUẨN
 
 > **Tier:** 1-4 (All projects)  

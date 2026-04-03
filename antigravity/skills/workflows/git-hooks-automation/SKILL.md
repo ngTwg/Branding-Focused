@@ -1,11 +1,17 @@
 ---
-name: git-hooks-automation
-description: "Master Git hooks setup with Husky, lint-staged, pre-commit framework, and commitlint. Automate code quality gates, formatting, linting, and commit message enforcement before code reaches CI."
-risk: safe
-source: community
+name: "git-hooks-automation"
+tags: ["antigravity", "automation", "c:", "commit", "create", "fire", "framework", "frontend", "fundamentals", "gemini", "git", "hook", "hooks", "<YOUR_USERNAME>", "manually", "native", "pre", "skill", "they", "this"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2881
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-03-07"
+description: "Master Git hooks setup with Husky, lint-staged, pre-commit framework, and commitlint. Automate code quality gates, formatting, linting, and commit message enforcement before code reaches CI."
+source: "community"
 ---
-
 # Git Hooks Automation
 
 Automate code quality enforcement at the Git level. Set up hooks that lint, format, test, and validate before commits and pushes ever reach your CI pipeline — catching issues in seconds instead of minutes.

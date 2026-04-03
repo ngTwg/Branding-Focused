@@ -1,4 +1,15 @@
 ---
+name: "AKF — The AI Native File Format"
+tags: ["after", "akf", "antigravity", "auditing", "backend", "before", "c:", "classification", "compliance", "creating", "existing", "file", "files", "format", "gemini", "<YOUR_USERNAME>", "metadata", "modifying", "native", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 414
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.77
+---
+---
 name: akf-trust-metadata
 description: "The AI native file format. EXIF for AI — stamps every file with trust scores, source provenance, and compliance metadata. Embeds into 20+ formats (DOCX, PDF, images, code). EU AI Act, SOX, HIPAA auditing."
 risk: safe

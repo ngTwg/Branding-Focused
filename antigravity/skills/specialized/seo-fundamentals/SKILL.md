@@ -1,11 +1,17 @@
 ---
-name: seo-fundamentals
-description: Core principles of SEO including E-E-A-T, Core Web Vitals, technical foundations, content quality, and how modern search engines evaluate pages.
-risk: safe
-source: community
-date_added: '2026-02-27'
+name: "seo-fundamentals"
+tags: ["accessibility", "antigravity", "backend", "c:", "control", "core", "crawl", "evaluation", "experience", "framework", "fundamentals", "gemini", "index", "<YOUR_USERNAME>", "page", "performance", "principles", "quality", "seo", "signals"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1480
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.73
+date_added: "2026-02-27"
+description: "Core principles of SEO including E-E-A-T, Core Web Vitals, technical foundations, content quality, and how modern search engines evaluate pages."
+source: "community"
 ---
-
 ---
 
 # SEO Fundamentals

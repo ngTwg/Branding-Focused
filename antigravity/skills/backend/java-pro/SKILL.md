@@ -1,11 +1,17 @@
 ---
-name: java-pro
-description: Master Java 21+ with modern features like virtual threads, pattern matching, and Spring Boot 3.x. Expert in the latest Java ecosystem including GraalVM, Project Loom, and cloud-native patterns.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "java-pro"
+tags: ["antigravity", "backend", "c:", "capabilities", "features", "frontend", "gemini", "instructions", "java", "language", "<YOUR_USERNAME>", "modern", "not", "pro", "purpose", "skill", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2052
+tools_needed: ["docker", "git", "kubernetes", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.80
+date_added: "2026-02-27"
+description: "Master Java 21+ with modern features like virtual threads, pattern matching, and Spring Boot 3.x. Expert in the latest Java ecosystem including GraalVM, Project Loom, and cloud-native patterns."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on java pro tasks or workflows

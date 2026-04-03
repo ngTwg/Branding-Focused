@@ -1,11 +1,17 @@
 ---
-name: python-testing-patterns
-description: "Implement comprehensive testing strategies with pytest, fixtures, mocking, and test-driven development. Use when writing Python tests, setting up test suites, or implementing testing best practices."
-risk: safe
-source: community
+name: "python-testing-patterns"
+tags: ["antigravity", "backend", "c:", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "patterns", "python", "resources", "skill", "testing", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 353
+tools_needed: ["markdown", "pytest", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
 date_added: "2026-02-27"
+description: "Implement comprehensive testing strategies with pytest, fixtures, mocking, and test-driven development. Use when writing Python tests, setting up test suites, or implementing testing best practices."
+source: "community"
 ---
-
 # Python Testing Patterns
 
 Comprehensive guide to implementing robust testing strategies in Python using pytest, fixtures, mocking, parameterization, and test-driven development practices.

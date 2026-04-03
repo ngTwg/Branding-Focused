@@ -1,11 +1,17 @@
 ---
-name: database-migrations-sql-migrations
-description: "SQL database migrations with zero-downtime strategies for PostgreSQL, MySQL, and SQL Server. Focus on data integrity and rollback plans."
-risk: unknown
-source: community
+name: "database-migrations-sql-migrations"
+tags: ["and", "antigravity", "backend", "c:", "context", "database", "frontend", "gemini", "implementation", "instructions", "<YOUR_USERNAME>", "migration", "migrations", "not", "overview", "skill", "sql", "strategy", "this", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 545
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.68
 date_added: "2026-02-27"
+description: "SQL database migrations with zero-downtime strategies for PostgreSQL, MySQL, and SQL Server. Focus on data integrity and rollback plans."
+source: "community"
 ---
-
 # SQL Database Migration Strategy and Implementation
 
 ## Overview

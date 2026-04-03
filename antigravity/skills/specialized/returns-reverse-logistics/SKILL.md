@@ -1,11 +1,17 @@
 ---
-name: returns-reverse-logistics
-description: Codified expertise for returns authorisation, receipt and inspection, disposition decisions, refund processing, fraud detection, and warranty claims management.
-risk: safe
-source: https://github.com/ai-evos/agent-skills
-date_added: '2026-02-27'
+name: "returns-reverse-logistics"
+tags: ["and", "antigravity", "c:", "context", "core", "frontend", "gemini", "grading", "inspection", "knowledge", "<YOUR_USERNAME>", "logic", "logistics", "policy", "returns", "reverse", "role", "specialized", "use", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 6317
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+date_added: "2026-02-27"
+description: "Codified expertise for returns authorisation, receipt and inspection, disposition decisions, refund processing, fraud detection, and warranty claims management."
+source: "https://github.com/ai-evos/agent-skills"
 ---
-
 ## When to Use
 Use this skill when managing the product return lifecycle, including authorization, physical inspection, making disposition decisions (e.g., restock vs. liquidator), detecting return fraud, or processing warranty claims.
 

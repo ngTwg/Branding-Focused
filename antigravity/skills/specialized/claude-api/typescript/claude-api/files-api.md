@@ -1,3 +1,14 @@
+---
+name: "Files API — TypeScript"
+tags: ["antigravity", "api", "c:", "claude", "document", "facts", "file", "files", "frontend", "gemini", "key", "<YOUR_USERNAME>", "manage", "messages", "pdf", "specialized", "text", "typescript", "upload", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 564
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+---
 # Files API — TypeScript
 
 The Files API uploads files for use in Messages API requests. Reference files via `file_id` in content blocks, avoiding re-uploads across multiple API calls.

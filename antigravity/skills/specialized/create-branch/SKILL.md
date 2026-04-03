@@ -1,11 +1,17 @@
 ---
-name: create-branch
-description: Create a git branch following Sentry naming conventions. Use when asked to "create a branch", "new branch", "start a branch", "make a branch", "switch to a new branch", or when starting new work on the default branch.
-argument-hint: '[optional description of the work]'
-risk: critical
-source: community
+name: "create-branch"
+tags: ["and", "antigravity", "branch", "c:", "classify", "create", "description", "determine", "examples", "frontend", "gemini", "generate", "get", "<YOUR_USERNAME>", "prefix", "propose", "specialized", "step", "the", "type"]
+tier: 2
+risk: "critical"
+estimated_tokens: 1291
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.83
+argument-hint: "[optional description of the work]"
+description: "Create a git branch following Sentry naming conventions. Use when asked to \"create a branch\", \"new branch\", \"start a branch\", \"make a branch\", \"switch to a new branch\", or when starting new work on the default branch."
+source: "community"
 ---
-
 # Create Branch
 
 Create a git branch with the correct type prefix and a descriptive name following Sentry conventions.

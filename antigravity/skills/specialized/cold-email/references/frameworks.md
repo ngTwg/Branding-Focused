@@ -1,3 +1,14 @@
+---
+name: "Cold Email Copywriting Frameworks"
+tags: ["action", "after", "agitate", "aida", "antigravity", "attention", "bab", "before", "bridge", "c:", "cold", "copywriting", "cta", "default", "desire", "email", "frameworks", "frontend", "gemini", "interest"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1326
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.74
+---
 # Cold Email Copywriting Frameworks
 
 Frameworks beat templates — they teach thinking patterns, not copy-paste shortcuts.

@@ -1,11 +1,17 @@
 ---
-name: azure-ai-contentsafety-java
-description: "Build content moderation applications using the Azure AI Content Safety SDK for Java."
-risk: unknown
-source: community
+name: "azure-ai-contentsafety-java"
+tags: ["ai", "antigravity", "api", "azure", "c:", "client", "concepts", "content", "contentsafety", "creation", "defaultazurecredential", "devops", "for", "frontend", "gemini", "installation", "java", "key", "<YOUR_USERNAME>", "safety"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1935
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.92
 date_added: "2026-02-27"
+description: "Build content moderation applications using the Azure AI Content Safety SDK for Java."
+source: "community"
 ---
-
 # Azure AI Content Safety SDK for Java
 
 Build content moderation applications using the Azure AI Content Safety SDK for Java.

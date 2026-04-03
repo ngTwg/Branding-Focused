@@ -1,3 +1,14 @@
+---
+name: "Customs & Trade Compliance — Communication Templates"
+tags: ["antigravity", "binding", "broker", "c:", "cbp", "communication", "compliance", "customs", "disclosure", "entry", "file", "filing", "frontend", "gemini", "how", "instructions", "<YOUR_USERNAME>", "mitigation", "penalty", "prior"]
+tier: 2
+risk: "medium"
+estimated_tokens: 6991
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.79
+---
 # Customs & Trade Compliance — Communication Templates
 
 > Tier 2 reference. Load when drafting communications with customs brokers, regulatory authorities, internal stakeholders, or trade partners.

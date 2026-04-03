@@ -1,3 +1,14 @@
+---
+name: "Claude API — Ruby"
+tags: ["anthropic_api_key", "antigravity", "api", "basic", "c:", "claude", "client", "default", "env", "explicit", "frontend", "gemini", "initialization", "installation", "key", "<YOUR_USERNAME>", "message", "request", "ruby", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 453
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.80
+---
 # Claude API — Ruby
 
 > **Note:** The Ruby SDK supports the Claude API. A tool runner is available in beta via `client.beta.messages.tool_runner()`. Agent SDK is not yet available for Ruby.

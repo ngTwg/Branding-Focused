@@ -1,10 +1,16 @@
 ---
-name: gif
-description: Displaying GIFs, APNG, AVIF and WebP in Remotion
-metadata:
-  tags: gif, animation, images, animated, apng, avif, webp
+name: "gif"
+tags: ["gif, animation, images, animated, apng, avif, webp"]
+tier: 2
+risk: "medium"
+estimated_tokens: 967
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
+description: "Displaying GIFs, APNG, AVIF and WebP in Remotion"
+metadata: ""
 ---
-
 # Using Animated images in Remotion
 
 ## Basic usage

@@ -1,11 +1,17 @@
 ---
-name: oss-hunter
-description: "Automatically hunt for high-impact OSS contribution opportunities in trending repositories."
-risk: safe
-source: "https://github.com/jackjin1997/ClawForge"
+name: "oss-hunter"
+tags: ["antigravity", "c:", "discovery", "extraction", "frontend", "gemini", "hunter", "issue", "<YOUR_USERNAME>", "oss", "phase", "quick", "repository", "specialized", "start", "use", "users", "when", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 638
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.72
 date_added: "2026-02-27"
+description: "Automatically hunt for high-impact OSS contribution opportunities in trending repositories."
+source: "https://github.com/jackjin1997/ClawForge"
 ---
-
 # OSS Hunter 🎯
 
 A precision skill for agents to find, analyze, and strategize for high-impact Open Source contributions. This skill helps you become a top-tier contributor by identifying the most "mergeable" and influential issues in trending repositories.

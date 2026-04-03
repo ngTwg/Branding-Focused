@@ -1,11 +1,17 @@
 ---
-name: framework-migration-deps-upgrade
-description: "You are a dependency management expert specializing in safe, incremental upgrades of project dependencies. Plan and execute dependency updates with minimal risk, proper testing, and clear migration pa"
-risk: critical
-source: community
+name: "framework-migration-deps-upgrade"
+tags: ["antigravity", "c:", "context", "dependency", "deps", "framework", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "migration", "not", "requirements", "skill", "specialized", "strategy", "this", "upgrade", "use", "users"]
+tier: 2
+risk: "critical"
+estimated_tokens: 538
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.68
 date_added: "2026-02-27"
+description: "You are a dependency management expert specializing in safe, incremental upgrades of project dependencies. Plan and execute dependency updates with minimal risk, proper testing, and clear migration pa"
+source: "community"
 ---
-
 # Dependency Upgrade Strategy
 
 You are a dependency management expert specializing in safe, incremental upgrades of project dependencies. Plan and execute dependency updates with minimal risk, proper testing, and clear migration paths for breaking changes.

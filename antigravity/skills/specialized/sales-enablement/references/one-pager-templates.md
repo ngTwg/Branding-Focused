@@ -1,3 +1,14 @@
+---
+name: "One-Pager Templates"
+tags: ["antigravity", "c:", "case", "copy", "enablement", "frontend", "gemini", "<YOUR_USERNAME>", "one", "overview", "pager", "product", "prompts", "references", "sales", "specialized", "specific", "structure", "templates", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1432
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
+---
 # One-Pager Templates
 
 Templates for different one-pager use cases, with layout guidance and copy prompts.

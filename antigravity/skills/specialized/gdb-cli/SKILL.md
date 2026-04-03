@@ -1,4 +1,15 @@
 ---
+name: "GDB Debugging Assistant"
+tags: ["antigravity", "assistant", "c:", "cli", "debugging", "frontend", "gdb", "gemini", "install", "<YOUR_USERNAME>", "not", "overview", "prerequisites", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1354
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.90
+---
+---
 name: gdb-cli
 description: "GDB debugging assistant for AI agents - analyze core dumps, debug live processes, investigate crashes and deadlocks with source code correlation"
 category: development

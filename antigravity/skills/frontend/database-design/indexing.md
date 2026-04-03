@@ -1,3 +1,14 @@
+---
+name: "Indexing Principles"
+tags: ["antigravity", "c:", "composite", "create", "database", "design", "frontend", "gemini", "index", "indexes", "indexing", "<YOUR_USERNAME>", "principles", "selection", "type", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 205
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.61
+---
 # Indexing Principles
 
 > When and how to create indexes effectively.

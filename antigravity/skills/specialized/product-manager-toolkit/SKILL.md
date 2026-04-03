@@ -1,8 +1,15 @@
 ---
-name: product-manager-toolkit
-description: Comprehensive toolkit for product managers including RICE prioritization, customer interview analysis, PRD templates, discovery frameworks, and go-to-market strategies. Use for feature prioritization, user research synthesis, requirement documentation, and product strategy development.
+name: "product-manager-toolkit"
+tags: ["analysis", "antigravity", "c:", "core", "creation", "feature", "for", "frontend", "gemini", "interview", "<YOUR_USERNAME>", "manager", "prd", "prioritization", "product", "quick", "specialized", "start", "toolkit", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2217
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.96
+description: "Comprehensive toolkit for product managers including RICE prioritization, customer interview analysis, PRD templates, discovery frameworks, and go-to-market strategies. Use for feature prioritization, user research synthesis, requirement documentation, and product strategy development."
 ---
-
 # Product Manager Toolkit
 
 Essential tools and frameworks for modern product management, from discovery to delivery.

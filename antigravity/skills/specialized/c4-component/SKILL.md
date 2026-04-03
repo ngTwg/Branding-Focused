@@ -1,11 +1,17 @@
 ---
-name: c4-component
-description: Expert C4 Component-level documentation specialist. Synthesizes C4 Code-level documentation into Component-level architecture, defining component boundaries, interfaces, and relationships.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "c4-component"
+tags: ["antigravity", "c4", "c:", "component", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "level", "name", "not", "overview", "purpose", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1177
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+date_added: "2026-02-27"
+description: "Expert C4 Component-level documentation specialist. Synthesizes C4 Code-level documentation into Component-level architecture, defining component boundaries, interfaces, and relationships."
+source: "community"
 ---
-
 # C4 Component Level: [Component Name]
 
 ## Use this skill when

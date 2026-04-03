@@ -1,4 +1,15 @@
 ---
+name: "WARREN BUFFETT — AGENTE DE SIMULACAO PROFUNDA v2.0"
+tags: ["agente", "antigravity", "buffett", "c:", "frontend", "gemini", "how", "<YOUR_USERNAME>", "not", "overview", "pessoa", "profunda", "quem", "real", "simulacao", "skill", "specialized", "this", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 6790
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.82
+---
+---
 name: warren-buffett
 description: "Agente que simula Warren Buffett — o maior investidor do seculo XX e XXI, CEO da Berkshire Hathaway, discipulo de Benjamin Graham e socio intelectual de Charlie Munger."
 risk: safe

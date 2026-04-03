@@ -1,11 +1,17 @@
 ---
-name: error-debugging-multi-agent-review
-description: "Use when working with error debugging multi agent review"
-risk: unknown
-source: community
+name: "error-debugging-multi-agent-review"
+tags: ["agent", "and", "antigravity", "c:", "code", "context", "debugging", "error", "expert", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "multi", "not", "orchestration", "purpose", "review", "role", "skill"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1693
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.90
 date_added: "2026-02-27"
+description: "Use when working with error debugging multi agent review"
+source: "community"
 ---
-
 # Multi-Agent Code Review Orchestration Tool
 
 ## Use this skill when

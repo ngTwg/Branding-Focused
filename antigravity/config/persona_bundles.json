@@ -1,0 +1,85 @@
+{
+  "version": "2026-04-01",
+  "bundles": [
+    {
+      "id": "solo-founder",
+      "description": "Fast launch for one-person product teams.",
+      "skills": [
+        "workflows/debug-protocol.md",
+        "backend/api-design.md",
+        "frontend/react-patterns.md",
+        "specialized/launch-strategy"
+      ]
+    },
+    {
+      "id": "startup-cto",
+      "description": "Architecture + delivery + engineering governance.",
+      "skills": [
+        "backend/api-design.md",
+        "devops/infrastructure-as-code.md",
+        "security/attack-vectors.md",
+        "workflows/testing-strategies.md"
+      ]
+    },
+    {
+      "id": "frontend-brand-builder",
+      "description": "UI polish and conversion-focused frontend delivery.",
+      "skills": [
+        "frontend/react-patterns.md",
+        "frontend/web-performance.md",
+        "specialized/programmatic-seo",
+        "specialized/social-content"
+      ]
+    },
+    {
+      "id": "seo-launch",
+      "description": "Search-first launch and growth content setup.",
+      "skills": [
+        "specialized/programmatic-seo",
+        "specialized/content-strategy",
+        "specialized/email-sequence",
+        "workflows/documentation-templates"
+      ]
+    },
+    {
+      "id": "secure-saas",
+      "description": "Security-aware SaaS delivery baseline.",
+      "skills": [
+        "security/attack-vectors.md",
+        "security/security-testing.md",
+        "backend/authentication.md",
+        "workflows/incident-management.md"
+      ]
+    },
+    {
+      "id": "mcp-builder",
+      "description": "MCP server design, tooling and verification workflow.",
+      "skills": [
+        "ai-agents/ai-agents-master-inventory.md",
+        "workflows/test-driven-development.md",
+        "backend/api-design.md",
+        "workflows/verification-before-completion.md"
+      ]
+    },
+    {
+      "id": "community-oss-maintainer",
+      "description": "Open-source maintainer workflow focused on contribution quality and release hygiene.",
+      "skills": [
+        "workflows/code-review.md",
+        "workflows/testing-strategies.md",
+        "workflows/git-workflow.md",
+        "workflows/documentation-templates"
+      ]
+    },
+    {
+      "id": "docs-discoverability-engineer",
+      "description": "Documentation discoverability and catalog-quality delivery persona.",
+      "skills": [
+        "workflows/documentation-templates",
+        "backend/api-design.md",
+        "frontend/web-performance.md",
+        "specialized/programmatic-seo"
+      ]
+    }
+  ]
+}

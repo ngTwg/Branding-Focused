@@ -1,15 +1,20 @@
 ---
-name: lex
-description: "Centralized 'Truth Engine' for cross-jurisdictional legal context (US, EU, CA) and contract scaffolding."
-category: business
-risk: safe
-source: community
+name: "lex"
+tags: ["[legal, context, cross-jurisdictional, compliance, scaffolding]"]
+tier: 2
+risk: "medium"
+estimated_tokens: 792
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.78
+author: "Svobikl"
+category: "business"
 date_added: "2026-03-10"
-author: Svobikl
-tags: [legal, context, cross-jurisdictional, compliance, scaffolding]
-tools: [claude, cursor, gemini]
+description: "Centralized 'Truth Engine' for cross-jurisdictional legal context (US, EU, CA) and contract scaffolding."
+source: "community"
+tools: "[claude, cursor, gemini]"
 ---
-
 # LEX: Legal-Entity-X-ref
 
 ## Overview

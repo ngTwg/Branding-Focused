@@ -1,12 +1,18 @@
 ---
-name: linux-troubleshooting
-description: "Linux system troubleshooting workflow for diagnosing and resolving system issues, performance problems, and service failures."
-category: granular-workflow-bundle
-risk: safe
-source: personal
+name: "linux-troubleshooting"
+tags: ["analysis", "antigravity", "assessment", "c:", "frontend", "gemini", "initial", "<YOUR_USERNAME>", "linux", "overview", "phase", "phases", "resource", "specialized", "this", "troubleshooting", "use", "users", "when", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1020
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.88
+category: "granular-workflow-bundle"
 date_added: "2026-02-27"
+description: "Linux system troubleshooting workflow for diagnosing and resolving system issues, performance problems, and service failures."
+source: "personal"
 ---
-
 # Linux Troubleshooting Workflow
 
 ## Overview

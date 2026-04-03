@@ -1,11 +1,17 @@
 ---
-name: database-optimizer
-description: Expert database optimizer specializing in modern performance tuning, query optimization, and scalable architectures.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "database-optimizer"
+tags: ["advanced", "antigravity", "backend", "c:", "capabilities", "database", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "optimization", "optimizer", "purpose", "query", "skill", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2511
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+date_added: "2026-02-27"
+description: "Expert database optimizer specializing in modern performance tuning, query optimization, and scalable architectures."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on database optimizer tasks or workflows

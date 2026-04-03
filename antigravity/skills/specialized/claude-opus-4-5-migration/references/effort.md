@@ -1,3 +1,14 @@
+---
+name: "Effort Parameter (Beta)"
+tags: ["4", "5", "antigravity", "beta", "budget", "c:", "claude", "effort", "frontend", "gemini", "implementation", "<YOUR_USERNAME>", "migration", "opus", "overview", "parameter", "recommendations", "references", "specialized", "thinking"]
+tier: 2
+risk: "medium"
+estimated_tokens: 432
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.68
+---
 # Effort Parameter (Beta)
 
 **Add effort set to `"high"` during migration.** This is the default configuration for best performance with Opus 4.5.

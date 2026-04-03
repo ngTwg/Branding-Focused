@@ -1,11 +1,17 @@
 ---
-name: search-specialist
-description: "Expert web researcher using advanced search techniques and"
-risk: unknown
-source: community
+name: "search-specialist"
+tags: ["antigravity", "areas", "c:", "focus", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "optimization", "query", "search", "skill", "specialist", "specialized", "strategies", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 557
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.68
 date_added: "2026-02-27"
+description: "Expert web researcher using advanced search techniques and"
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on search specialist tasks or workflows

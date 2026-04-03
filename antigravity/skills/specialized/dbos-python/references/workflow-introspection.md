@@ -1,10 +1,17 @@
 ---
-title: List and Inspect Workflows
-impact: MEDIUM
-impactDescription: Enables monitoring and management of workflow state
-tags: workflow, list, introspection, status, monitoring
+name: "List and Inspect Workflows"
+tags: ["workflow, list, introspection, status, monitoring"]
+tier: 1
+risk: "medium"
+estimated_tokens: 458
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.75
+impact: "MEDIUM"
+impactDescription: "Enables monitoring and management of workflow state"
+title: "List and Inspect Workflows"
 ---
-
 ## List and Inspect Workflows
 
 Use `DBOS.list_workflows()` to query workflows by status, name, queue, or other criteria.

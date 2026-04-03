@@ -1,10 +1,16 @@
 ---
-name: weightloss-analyzer
-description: 分析减肥数据、计算代谢率、追踪能量缺口、管理减肥阶段
-risk: safe
-source: community
+name: "weightloss-analyzer"
+tags: ["analyzer", "antigravity", "c:", "data-engineering", "gemini", "<YOUR_USERNAME>", "specialized", "users", "weightloss", "代谢率计算", "减肥分析技能", "能量缺口管理", "身体成分分析", "阶段管理"]
+tier: 3
+risk: "high"
+estimated_tokens: 1090
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["data", "analytics"]
+quality_score: 0.90
+description: "分析减肥数据、计算代谢率、追踪能量缺口、管理减肥阶段"
+source: "community"
 ---
-
 # 减肥分析技能
 
 分析减肥数据，计算代谢率，追踪能量缺口，管理减肥阶段。

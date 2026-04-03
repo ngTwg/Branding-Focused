@@ -1,10 +1,17 @@
 ---
-title: Promise.all() for Independent Operations
-impact: CRITICAL
-impactDescription: 2-10× improvement
-tags: async, parallelization, promises, waterfalls
+name: "Promise.all() for Independent Operations"
+tags: ["async, parallelization, promises, waterfalls"]
+tier: 2
+risk: "medium"
+estimated_tokens: 163
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.55
+impact: "CRITICAL"
+impactDescription: "2-10× improvement"
+title: "Promise.all() for Independent Operations"
 ---
-
 ## Promise.all() for Independent Operations
 
 When async operations have no interdependencies, execute them concurrently using `Promise.all()`.

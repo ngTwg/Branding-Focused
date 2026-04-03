@@ -1,3 +1,14 @@
+---
+name: "Brand Voice & Style Guidelines"
+tags: ["antigravity", "archetypes", "brand", "c:", "content", "creator", "dimensions", "framework", "frontend", "gemini", "guidelines", "language", "<YOUR_USERNAME>", "personality", "principles", "references", "specialized", "style", "users", "voice"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1525
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.73
+---
 # Brand Voice & Style Guidelines
 
 ## Brand Voice Framework

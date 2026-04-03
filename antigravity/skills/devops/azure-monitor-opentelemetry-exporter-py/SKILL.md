@@ -1,11 +1,17 @@
 ---
-name: azure-monitor-opentelemetry-exporter-py
-description: Azure Monitor OpenTelemetry Exporter for Python. Use for low-level OpenTelemetry export to Application Insights.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "azure-monitor-opentelemetry-exporter-py"
+tags: ["antigravity", "azure", "c:", "create", "devops", "environment", "exporter", "for", "frontend", "gemini", "installation", "<YOUR_USERNAME>", "monitor", "opentelemetry", "py", "python", "trace", "use", "users", "variables"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1548
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.89
+date_added: "2026-02-27"
+description: "Azure Monitor OpenTelemetry Exporter for Python. Use for low-level OpenTelemetry export to Application Insights."
+source: "community"
 ---
-
 # Azure Monitor OpenTelemetry Exporter for Python
 
 Low-level exporter for sending OpenTelemetry traces, metrics, and logs to Application Insights.

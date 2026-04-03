@@ -1,3 +1,14 @@
+---
+name: "Employment Contract Templates Implementation Playbook"
+tags: ["antigravity", "c:", "concepts", "considerations", "contract", "core", "document", "employment", "frontend", "gemini", "implementation", "key", "legal", "<YOUR_USERNAME>", "letter", "offer", "playbook", "resources", "specialized", "template"]
+tier: 4
+risk: "medium"
+estimated_tokens: 3937
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.91
+---
 # Employment Contract Templates Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

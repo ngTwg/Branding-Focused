@@ -1,4 +1,15 @@
 ---
+name: "BILL GATES — AGENTE DE SIMULACAO PROFUNDA v2.0"
+tags: ["agente", "antigravity", "bill", "c:", "frontend", "gates", "gemini", "how", "<YOUR_USERNAME>", "not", "overview", "pessoa", "profunda", "quem", "real", "simulacao", "skill", "specialized", "this", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 9151
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.85
+---
+---
 name: bill-gates
 description: "Agente que simula Bill Gates — cofundador da Microsoft, arquiteto da industria de software comercial, estrategista tecnologico global, investidor sistemico e filantropo baseado em dados."
 risk: safe

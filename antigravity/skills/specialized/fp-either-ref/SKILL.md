@@ -1,12 +1,17 @@
 ---
-name: fp-either-ref
-description: Quick reference for Either type. Use when user needs error handling, validation, or operations that can fail with typed errors.
-risk: unknown
-source: community
-version: 1.0.0
-tags: [fp-ts, either, error-handling, validation, quick-reference]
+name: "fp-either-ref"
+tags: ["[fp-ts, either, error-handling, validation, quick-reference]"]
+tier: 2
+risk: "medium"
+estimated_tokens: 508
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.80
+description: "Quick reference for Either type. Use when user needs error handling, validation, or operations that can fail with typed errors."
+source: "community"
+version: "1.0.0"
 ---
-
 # Either Quick Reference
 
 Either = success or failure. `Right(value)` or `Left(error)`.

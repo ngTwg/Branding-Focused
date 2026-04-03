@@ -1,3 +1,14 @@
+---
+name: "Gerenciamento de Templates via API - WhatsApp Cloud API"
+tags: ["antigravity", "api", "c:", "categorias", "cloud", "criar", "frontend", "gemini", "geral", "gerenciamento", "indice", "<YOUR_USERNAME>", "management", "node", "references", "specialized", "template", "templates", "users", "via"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3274
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Gerenciamento de Templates via API - WhatsApp Cloud API
 
 Guia completo para criar, listar, deletar e gerenciar templates de mensagem programaticamente via WhatsApp Business Management API.

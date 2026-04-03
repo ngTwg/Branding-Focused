@@ -1,3 +1,14 @@
+---
+name: "Logging Metrics with Trackio"
+tags: ["antigravity", "api", "backend", "basic", "c:", "core", "face", "gemini", "hugging", "initialize", "installation", "<YOUR_USERNAME>", "logging", "metrics", "references", "run", "specialized", "trackio", "usage", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1211
+tools_needed: ["git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.87
+---
 # Logging Metrics with Trackio
 
 **Trackio** is a lightweight, free experiment tracking library from Hugging Face. It provides a wandb-compatible API for logging metrics with local-first design.

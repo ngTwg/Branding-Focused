@@ -1,12 +1,18 @@
 ---
-name: django-perf-review
-description: Django performance code review. Use when asked to "review Django performance", "find N+1 queries", "optimize Django", "check queryset performance", "database performance", "Django ORM issues", or audit Django code for performance problems.
-allowed-tools: Read, Grep, Glob, Bash, Task
-license: LICENSE
-risk: unknown
-source: community
+name: "django-perf-review"
+tags: ["accessed", "antigravity", "approach", "backend", "c:", "categories", "critical", "data", "django", "each", "gemini", "impact", "iteration", "<YOUR_USERNAME>", "loops", "perf", "performance", "prefetch", "priority", "problem"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2860
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.97
+allowed-tools: "Read, Grep, Glob, Bash, Task"
+description: "Django performance code review. Use when asked to \"review Django performance\", \"find N+1 queries\", \"optimize Django\", \"check queryset performance\", \"database performance\", \"Django ORM issues\", or audit Django code for performance problems."
+license: "LICENSE"
+source: "community"
 ---
-
 # Django Performance Review
 
 Review Django code for **validated** performance issues. Research the codebase to confirm issues before reporting. Report only what you can prove.

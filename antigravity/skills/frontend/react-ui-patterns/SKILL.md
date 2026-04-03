@@ -1,11 +1,17 @@
 ---
-name: react-ui-patterns
-description: "Modern React UI patterns for loading states, error handling, and data fetching. Use when building UI components, handling async data, or managing UI states."
-risk: unknown
-source: community
+name: "react-ui-patterns"
+tags: ["antigravity", "c:", "core", "decision", "frontend", "gemini", "golden", "<YOUR_USERNAME>", "loading", "patterns", "principles", "react", "rule", "skeleton", "spinner", "state", "the", "tree", "ui", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1657
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.92
 date_added: "2026-02-27"
+description: "Modern React UI patterns for loading states, error handling, and data fetching. Use when building UI components, handling async data, or managing UI states."
+source: "community"
 ---
-
 # React UI Patterns
 
 ## Core Principles

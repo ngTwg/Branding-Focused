@@ -1,11 +1,17 @@
 ---
-name: data-structure-protocol
-description: "Give agents persistent structural memory of a codebase — navigate dependencies, track public APIs, and understand why connections exist without re-reading the whole repo."
-risk: safe
-source: "https://github.com/k-kolomeitsev/data-structure-protocol"
+name: "data-structure-protocol"
+tags: ["antigravity", "c:", "code", "concepts", "core", "data", "data-engineering", "dsp", "e5f6g7h8", "engineering", "file", "frontend", "gemini", "graph", "identity", "<YOUR_USERNAME>", "not", "obj", "path", "protocol"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2377
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Give agents persistent structural memory of a codebase — navigate dependencies, track public APIs, and understand why connections exist without re-reading the whole repo."
+source: "https://github.com/k-kolomeitsev/data-structure-protocol"
 ---
-
 # Data Structure Protocol (DSP)
 
 LLM coding agents lose context between tasks. On large codebases they spend most of their tokens on "orientation" — figuring out where things live, what depends on what, and what is safe to change. DSP solves this by externalizing the project's structural map into a persistent, queryable graph stored in a `.dsp/` directory next to the code.

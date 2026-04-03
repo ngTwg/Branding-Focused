@@ -1,3 +1,14 @@
+---
+name: "Query Optimization"
+tags: ["analysis", "antigravity", "backend", "c:", "database", "design", "gemini", "<YOUR_USERNAME>", "mindset", "optimization", "priorities", "problem", "query", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 207
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.61
+---
 # Query Optimization
 
 > N+1 problem, EXPLAIN ANALYZE, optimization priorities.

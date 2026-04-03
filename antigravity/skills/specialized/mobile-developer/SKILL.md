@@ -1,11 +1,17 @@
 ---
-name: mobile-developer
-description: Develop React Native, Flutter, or native mobile apps with modern architecture patterns. Masters cross-platform development, native integrations, offline sync, and app store optimization.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "mobile-developer"
+tags: ["antigravity", "c:", "capabilities", "cross", "developer", "development", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "mobile", "not", "platform", "purpose", "skill", "specialized", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2169
+tools_needed: ["git", "markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+date_added: "2026-02-27"
+description: "Develop React Native, Flutter, or native mobile apps with modern architecture patterns. Masters cross-platform development, native integrations, offline sync, and app store optimization."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on mobile developer tasks or workflows

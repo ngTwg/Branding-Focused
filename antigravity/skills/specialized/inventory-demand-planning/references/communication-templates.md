@@ -1,3 +1,14 @@
+---
+name: "Communication Templates — Inventory Demand Planning"
+tags: ["antigravity", "c:", "communication", "contents", "demand", "frontend", "gemini", "guidance", "inventory", "<YOUR_USERNAME>", "order", "planning", "reference", "references", "replenishment", "specialized", "table", "templates", "tone", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 6627
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.79
+---
 # Communication Templates — Inventory Demand Planning
 
 > **Reference Type:** Tier 3 — Load on demand when composing or reviewing demand planning communications.

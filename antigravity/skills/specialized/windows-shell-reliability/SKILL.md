@@ -1,11 +1,17 @@
 ---
-name: windows-shell-reliability
-description: "Reliable command execution on Windows: paths, encoding, and common binary pitfalls."
-risk: safe
-source: community
+name: "windows-shell-reliability"
+tags: ["across", "antigravity", "c:", "critical", "differences", "encoding", "frontend", "gemini", "handling", "<YOUR_USERNAME>", "paths", "patterns", "powershell", "quoting", "redirection", "reliability", "shell", "spaces", "specialized", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 927
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.75
 date_added: "2026-03-19"
+description: "Reliable command execution on Windows: paths, encoding, and common binary pitfalls."
+source: "community"
 ---
-
 # Windows Shell Reliability Patterns
 
 > Best practices for running commands on Windows via PowerShell and CMD.

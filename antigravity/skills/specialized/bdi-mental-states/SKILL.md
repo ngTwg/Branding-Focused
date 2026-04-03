@@ -1,10 +1,16 @@
 ---
-name: bdi-mental-states
-description: This skill should be used when the user asks to "model agent mental states", "implement BDI architecture", "create belief-desire-intention models", "transform RDF to beliefs", "build cognitive agent", or mentions BDI ontology, mental state modeling, rational agency, or neuro-symbolic AI integration.
-risk: unknown
-source: community
+name: "bdi-mental-states"
+tags: ["antigravity", "architecture", "bdi", "c:", "chain", "cognitive", "concepts", "core", "frontend", "gemini", "grounding", "<YOUR_USERNAME>", "mental", "modeling", "pattern", "reality", "specialized", "state", "states", "use"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2527
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+description: "This skill should be used when the user asks to \"model agent mental states\", \"implement BDI architecture\", \"create belief-desire-intention models\", \"transform RDF to beliefs\", \"build cognitive agent\", or mentions BDI ontology, mental state modeling, rational agency, or neuro-symbolic AI integration."
+source: "community"
 ---
-
 # BDI Mental State Modeling
 
 Transform external RDF context into agent mental states (beliefs, desires, intentions) using formal BDI ontology patterns. This skill enables agents to reason about context through cognitive architecture, supporting deliberative reasoning, explainability, and semantic interoperability within multi-agent systems.

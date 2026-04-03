@@ -1,11 +1,17 @@
 ---
-name: square-automation
-description: "Automate Square tasks via Rube MCP (Composio): payments, orders, invoices, locations. Always search tools first for current schemas."
-risk: critical
-source: community
+name: "square-automation"
+tags: ["and", "antigravity", "automation", "c:", "core", "frontend", "gemini", "<YOUR_USERNAME>", "list", "manage", "mcp", "monitor", "orders", "payments", "prerequisites", "rube", "search", "setup", "specialized", "square"]
+tier: 2
+risk: "critical"
+estimated_tokens: 1662
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.83
 date_added: "2026-02-27"
+description: "Automate Square tasks via Rube MCP (Composio): payments, orders, invoices, locations. Always search tools first for current schemas."
+source: "community"
 ---
-
 # Square Automation via Rube MCP
 
 Automate Square payment processing, order management, and invoicing through Composio's Square toolkit via Rube MCP.

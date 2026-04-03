@@ -1,11 +1,17 @@
 ---
-name: powershell-windows
-description: "PowerShell Windows patterns. Critical pitfalls, operator syntax, error handling."
-risk: unknown
-source: community
+name: "powershell-windows"
+tags: ["antigravity", "c:", "check", "critical", "emoji", "frontend", "gemini", "<YOUR_USERNAME>", "null", "operator", "parentheses", "patterns", "powershell", "required", "restriction", "rules", "scripts", "specialized", "syntax", "unicode"]
+tier: 2
+risk: "medium"
+estimated_tokens: 891
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.76
 date_added: "2026-02-27"
+description: "PowerShell Windows patterns. Critical pitfalls, operator syntax, error handling."
+source: "community"
 ---
-
 # PowerShell Windows Patterns
 
 > Critical patterns and pitfalls for Windows PowerShell.

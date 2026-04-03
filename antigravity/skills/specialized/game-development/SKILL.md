@@ -1,9 +1,16 @@
 ---
-name: game-development
-description: Game development orchestrator. Routes to platform-specific skills based on project needs.
-allowed-tools: Read, Write, Edit, Glob, Grep, Bash
+name: "game-development"
+tags: ["antigravity", "areas", "c:", "development", "dimension", "frontend", "game", "gemini", "<YOUR_USERNAME>", "platform", "routing", "selection", "skill", "specialized", "specialty", "sub", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1161
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.78
+allowed-tools: "Read, Write, Edit, Glob, Grep, Bash"
+description: "Game development orchestrator. Routes to platform-specific skills based on project needs."
 ---
-
 # Game Development
 
 > **Orchestrator skill** that provides core principles and routes to specialized sub-skills.

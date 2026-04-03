@@ -1,3 +1,14 @@
+---
+name: "CSS & STYLING PATTERNS"
+tags: ["animation", "antigravity", "c:", "css", "dark", "design", "frontend", "gemini", "layout", "<YOUR_USERNAME>", "mode", "patterns", "responsive", "rules", "styling", "tailwind", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1248
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.88
+---
 # CSS & STYLING PATTERNS
 
 > **Khi nào tải skill này:** CSS, Tailwind, Styling, Animation, Layout, Responsive

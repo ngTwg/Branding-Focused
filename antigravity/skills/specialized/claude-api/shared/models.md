@@ -1,3 +1,14 @@
+---
+name: "Claude Model Catalog"
+tags: ["active", "antigravity", "api", "available", "c:", "catalog", "claude", "current", "deprecated", "descriptions", "frontend", "gemini", "legacy", "<YOUR_USERNAME>", "longer", "model", "models", "recommended", "retired", "retiring"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1151
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.68
+---
 # Claude Model Catalog
 
 **Only use exact model IDs listed in this file.** Never guess or construct model IDs — incorrect IDs will cause API errors. Use aliases wherever available. For the latest information, WebFetch the Models Overview URL in `shared/live-sources.md`.

@@ -1,9 +1,16 @@
 ---
-name: vr-ar
-description: VR/AR development principles. Comfort, interaction, performance requirements.
-allowed-tools: Read, Write, Edit, Glob, Grep
+name: "vr-ar"
+tags: ["antigravity", "ar", "c:", "comfort", "development", "frontend", "game", "gemini", "<YOUR_USERNAME>", "motion", "platform", "platforms", "prevention", "principles", "selection", "sickness", "specialized", "users", "vr"]
+tier: 3
+risk: "medium"
+estimated_tokens: 593
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.66
+allowed-tools: "Read, Write, Edit, Glob, Grep"
+description: "VR/AR development principles. Comfort, interaction, performance requirements."
 ---
-
 # VR/AR Development
 
 > Immersive experience principles.

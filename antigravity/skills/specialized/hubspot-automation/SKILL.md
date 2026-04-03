@@ -1,11 +1,17 @@
 ---
-name: hubspot-automation
-description: "Automate HubSpot CRM operations (contacts, companies, deals, tickets, properties) via Rube MCP using Composio integration."
-risk: critical
-source: community
+name: "hubspot-automation"
+tags: ["and", "antigravity", "automation", "c:", "companies", "contacts", "core", "create", "crm", "frontend", "gemini", "hubspot", "<YOUR_USERNAME>", "manage", "mcp", "prerequisites", "rube", "setup", "specialized", "users"]
+tier: 2
+risk: "critical"
+estimated_tokens: 2349
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 date_added: "2026-02-27"
+description: "Automate HubSpot CRM operations (contacts, companies, deals, tickets, properties) via Rube MCP using Composio integration."
+source: "community"
 ---
-
 # HubSpot CRM Automation via Rube MCP
 
 Automate HubSpot CRM workflows including contact/company management, deal pipeline tracking, ticket search, and custom property creation through Composio's HubSpot toolkit.

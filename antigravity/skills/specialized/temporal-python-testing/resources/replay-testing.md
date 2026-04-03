@@ -1,3 +1,14 @@
+---
+name: "Replay Testing for Determinism and Compatibility"
+tags: ["against", "and", "antigravity", "basic", "c:", "compatibility", "determinism", "for", "frontend", "gemini", "histories", "<YOUR_USERNAME>", "multiple", "python", "replay", "replayer", "resources", "setup", "specialized", "temporal"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3090
+tools_needed: ["git", "markdown", "pytest"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Replay Testing for Determinism and Compatibility
 
 Comprehensive guide for validating workflow determinism and ensuring safe code changes using replay testing.

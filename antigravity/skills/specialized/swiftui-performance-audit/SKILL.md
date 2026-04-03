@@ -1,11 +1,17 @@
 ---
-name: swiftui-performance-audit
-description: Audit SwiftUI performance issues from code review and profiling evidence.
-risk: safe
-source: "Dimillian/Skills (MIT)"
+name: "swiftui-performance-audit"
+tags: ["antigravity", "audit", "c:", "code", "first", "frontend", "gemini", "intake", "<YOUR_USERNAME>", "performance", "quick", "review", "specialized", "start", "swiftui", "use", "users", "when", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1260
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.75
 date_added: "2026-03-25"
+description: "Audit SwiftUI performance issues from code review and profiling evidence."
+source: "Dimillian/Skills (MIT)"
 ---
-
 # SwiftUI Performance Audit
 
 ## Quick start

@@ -1,3 +1,14 @@
+---
+name: "Fontes e Referências — Leiloeiro Risco"
+tags: ["antigravity", "c:", "dados", "fontes", "gemini", "jurisprudência", "legislação", "leiloeiro", "<YOUR_USERNAME>", "references", "referências", "risco", "specialized", "users"]
+tier: 3
+risk: "high"
+estimated_tokens: 128
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["specialized", "domain"]
+quality_score: 0.54
+---
 # Fontes e Referências — Leiloeiro Risco
 
 ## Legislação

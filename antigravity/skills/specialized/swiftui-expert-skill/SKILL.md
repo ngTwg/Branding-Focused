@@ -1,10 +1,16 @@
 ---
-name: swiftui-expert-skill
-description: Write, review, or improve SwiftUI code following best practices for state management, view composition, performance, and iOS 26+ Liquid Glass adoption. Use when building new SwiftUI features, refactoring existing views, reviewing code quality, or adopting modern SwiftUI patterns.
-risk: unknown
-source: community
+name: "swiftui-expert-skill"
+tags: ["antigravity", "c:", "code", "decision", "existing", "expert", "feature", "frontend", "gemini", "implement", "improve", "<YOUR_USERNAME>", "new", "overview", "review", "skill", "specialized", "swiftui", "tree", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3397
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.84
+description: "Write, review, or improve SwiftUI code following best practices for state management, view composition, performance, and iOS 26+ Liquid Glass adoption. Use when building new SwiftUI features, refactoring existing views, reviewing code quality, or adopting modern SwiftUI patterns."
+source: "community"
 ---
-
 # SwiftUI Expert Skill
 
 ## Overview

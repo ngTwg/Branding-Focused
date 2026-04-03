@@ -1,3 +1,14 @@
+---
+name: "Saga Orchestration Playbook"
+tags: ["antigravity", "c:", "checklist", "choose", "choreography", "design", "failure", "frontend", "gemini", "handling", "implementation", "<YOUR_USERNAME>", "orchestration", "playbook", "resources", "saga", "specialized", "users", "verification", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 214
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.57
+---
 # Saga Orchestration Playbook
 
 ## When to choose orchestration vs choreography

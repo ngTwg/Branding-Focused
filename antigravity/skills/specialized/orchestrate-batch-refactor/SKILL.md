@@ -1,11 +1,17 @@
 ---
 name: "orchestrate-batch-refactor"
-description: "Plan and execute large refactors with dependency-aware work packets and parallel analysis."
-risk: safe
-source: "Dimillian/Skills (MIT)"
+tags: ["antigravity", "batch", "c:", "core", "frontend", "gemini", "inputs", "<YOUR_USERNAME>", "orchestrate", "overview", "parallelization", "refactor", "specialized", "use", "users", "when", "workflow"]
+tier: 3
+risk: "medium"
+estimated_tokens: 900
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.72
 date_added: "2026-03-25"
+description: "Plan and execute large refactors with dependency-aware work packets and parallel analysis."
+source: "Dimillian/Skills (MIT)"
 ---
-
 # Orchestrate Batch Refactor
 
 ## Overview

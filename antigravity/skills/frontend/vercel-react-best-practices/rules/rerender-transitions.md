@@ -1,10 +1,17 @@
 ---
-title: Use Transitions for Non-Urgent Updates
-impact: MEDIUM
-impactDescription: maintains UI responsiveness
-tags: rerender, transitions, startTransition, performance
+name: "Use Transitions for Non-Urgent Updates"
+tags: ["rerender, transitions, startTransition, performance"]
+tier: 2
+risk: "medium"
+estimated_tokens: 263
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.56
+impact: "MEDIUM"
+impactDescription: "maintains UI responsiveness"
+title: "Use Transitions for Non-Urgent Updates"
 ---
-
 ## Use Transitions for Non-Urgent Updates
 
 Mark frequent, non-urgent state updates as transitions to maintain UI responsiveness.

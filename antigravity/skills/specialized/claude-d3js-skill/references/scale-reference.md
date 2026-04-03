@@ -1,3 +1,14 @@
+---
+name: "D3.js Scale Reference"
+tags: ["antigravity", "c:", "claude", "continuous", "d3js", "frontend", "gemini", "<YOUR_USERNAME>", "linear", "logarithmic", "power", "reference", "references", "scale", "scales", "specialized", "time", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3019
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # D3.js Scale Reference
 
 Comprehensive guide to all d3 scale types with examples and use cases.

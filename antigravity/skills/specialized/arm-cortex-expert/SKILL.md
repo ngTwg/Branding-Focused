@@ -1,11 +1,17 @@
 ---
-name: arm-cortex-expert
-description: Senior embedded software engineer specializing in firmware and driver development for ARM Cortex-M microcontrollers (Teensy, STM32, nRF52, SAMD).
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "arm-cortex-expert"
+tags: ["antigravity", "arm", "base", "c:", "cortex", "expert", "frontend", "gemini", "instructions", "knowledge", "<YOUR_USERNAME>", "not", "objectives", "role", "skill", "specialized", "this", "use", "users", "when"]
+tier: 4
+risk: "medium"
+estimated_tokens: 3183
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.90
+date_added: "2026-02-27"
+description: "Senior embedded software engineer specializing in firmware and driver development for ARM Cortex-M microcontrollers (Teensy, STM32, nRF52, SAMD)."
+source: "community"
 ---
-
 # @arm-cortex-expert
 
 ## Use this skill when
@@ -300,3 +306,82 @@ __set_BASEPRI(basepri);
 - **STM32**: `HAL_SPI_Transmit()` / `HAL_SPI_Receive()` or LL drivers
 - **nRF52**: `nrfx_spi_xfer()` or `nrf_drv_spi_transfer()`
 - **SAMD**: Configure SERCOM in SPI master mode with `SERCOM_SPI_MODE_MASTER`
+
+---
+
+## Register-Level Example: STM32 TIM2 Input Capture ISR
+
+```c
+#include "stm32f4xx.h"
+
+static volatile uint32_t g_last_capture = 0;
+static volatile uint32_t g_period_ticks = 0;
+
+void tim2_capture_init(void) {
+   RCC->APB1ENR |= RCC_APB1ENR_TIM2EN;
+   TIM2->PSC = 84 - 1;          // 1 MHz timer clock (84 MHz / 84)
+   TIM2->ARR = 0xFFFFFFFF;
+
+   TIM2->CCMR1 &= ~(TIM_CCMR1_CC1S_Msk | TIM_CCMR1_IC1F_Msk);
+   TIM2->CCMR1 |= (1U << TIM_CCMR1_CC1S_Pos);   // CC1 mapped to TI1
+   TIM2->CCMR1 |= (3U << TIM_CCMR1_IC1F_Pos);   // digital filter
+
+   TIM2->CCER &= ~(TIM_CCER_CC1P | TIM_CCER_CC1NP);
+   TIM2->CCER |= TIM_CCER_CC1E;                 // enable capture
+
+   TIM2->DIER |= TIM_DIER_CC1IE;
+   TIM2->CR1 |= TIM_CR1_CEN;
+
+   NVIC_SetPriority(TIM2_IRQn, 3);
+   NVIC_EnableIRQ(TIM2_IRQn);
+}
+
+void TIM2_IRQHandler(void) {
+   if (TIM2->SR & TIM_SR_CC1IF) {
+      uint32_t capture = TIM2->CCR1;
+      g_period_ticks = capture - g_last_capture;
+      g_last_capture = capture;
+      TIM2->SR &= ~TIM_SR_CC1IF; // clear capture flag
+   }
+}
+```
+
+## ISR-to-Main Communication Pattern (Lock-Free Ring Buffer)
+
+```c
+#define RB_CAPACITY 64
+
+typedef struct {
+   uint16_t data[RB_CAPACITY];
+   volatile uint16_t head;
+   volatile uint16_t tail;
+} ring_buffer_t;
+
+static ring_buffer_t g_rb;
+
+static inline void rb_push_isr(uint16_t v) {
+   uint16_t next = (uint16_t)((g_rb.head + 1U) % RB_CAPACITY);
+   if (next != g_rb.tail) {
+      g_rb.data[g_rb.head] = v;
+      __DMB();
+      g_rb.head = next;
+   }
+}
+
+static inline int rb_pop(uint16_t* out) {
+   if (g_rb.tail == g_rb.head) return 0;
+   *out = g_rb.data[g_rb.tail];
+   __DMB();
+   g_rb.tail = (uint16_t)((g_rb.tail + 1U) % RB_CAPACITY);
+   return 1;
+}
+```
+
+## ESP32 Interop Note (Cross-Platform Driver Teams)
+
+Even though ESP32 is not ARM Cortex, mixed MCU projects often share architecture patterns. Keep the same contract:
+
+- ISR only captures data and enqueues
+- processing stays in task context
+- all shared buffers use bounded capacity and monotonic counters
+- no dynamic allocation inside ISR

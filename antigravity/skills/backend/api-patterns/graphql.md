@@ -1,3 +1,14 @@
+---
+name: "GraphQL Principles"
+tags: ["antigravity", "api", "backend", "c:", "considerations", "design", "frontend", "gemini", "graphql", "<YOUR_USERNAME>", "patterns", "principles", "schema", "security", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 214
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.64
+---
 # GraphQL Principles
 
 > Flexible queries for complex, interconnected data.

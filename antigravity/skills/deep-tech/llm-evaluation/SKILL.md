@@ -1,11 +1,17 @@
 ---
-name: llm-evaluation
-description: "Master comprehensive evaluation strategies for LLM applications, from automated metrics to human evaluation and A/B testing."
-risk: unknown
-source: community
+name: "llm-evaluation"
+tags: ["antigravity", "automated", "c:", "core", "deep", "deep-tech", "evaluation", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "llm", "metrics", "not", "skill", "tech", "this", "types", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3520
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Master comprehensive evaluation strategies for LLM applications, from automated metrics to human evaluation and A/B testing."
+source: "community"
 ---
-
 # LLM Evaluation
 
 Master comprehensive evaluation strategies for LLM applications, from automated metrics to human evaluation and A/B testing.

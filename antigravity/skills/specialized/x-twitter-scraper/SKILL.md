@@ -1,13 +1,18 @@
 ---
-name: x-twitter-scraper
-description: "X (Twitter) data platform skill — tweet search, user lookup, follower extraction, engagement metrics, giveaway draws, monitoring, webhooks, 19 extraction tools, MCP server."
-category: data
-risk: safe
-source: community
-tags: "[twitter, x-api, scraping, mcp, social-media, data-extraction, giveaway, monitoring, webhooks]"
+name: "x-twitter-scraper"
+tags: ["[twitter, x-api, scraping, mcp, social-media, data-extraction, giveaway, monitoring, webhooks]"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1062
+tools_needed: ["git", "markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.90
+category: "data"
 date_added: "2026-02-28"
+description: "X (Twitter) data platform skill — tweet search, user lookup, follower extraction, engagement metrics, giveaway draws, monitoring, webhooks, 19 extraction tools, MCP server."
+source: "community"
 ---
-
 # X (Twitter) Scraper — Xquik
 
 ## Overview

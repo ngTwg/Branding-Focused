@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-04-01T17:35:52.910826+00:00",
+  "phase": "bugfix",
+  "dry_run": false,
+  "total": 2,
+  "ok": 2,
+  "failed": 0,
+  "steps": [
+    {
+      "step": "integration_tests",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe -m pytest antigravity/tests/integration -q",
+      "status": "ok",
+      "output": ".................................................                        [100%]\n49 passed in 17.80s"
+    },
+    {
+      "step": "targeted_regressions",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe -m pytest antigravity/tests/test_schemas.py antigravity/tests/test_failure_memory.py antigravity/tests/test_hybrid_retriever_properties.py antigravity/tests/test_hybrid_retriever_properties_v3.py antigravity/tests/test_llm_client_properties.py antigravity/tests/test_llm_client_properties_v2.py antigravity/tests/test_slm_router_properties.py antigravity/tests/test_tracing_properties.py antigravity/tests/test_tracing_properties_v2.py -q",
+      "status": "ok",
+      "output": "........................................................................ [ 98%]\n.                                                                        [100%]\n73 passed in 3.49s"
+    }
+  ]
+}

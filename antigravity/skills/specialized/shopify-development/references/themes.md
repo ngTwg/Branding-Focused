@@ -1,3 +1,14 @@
+---
+name: "Themes Reference"
+tags: ["antigravity", "architecture", "basics", "c:", "common", "development", "filters", "frontend", "gemini", "<YOUR_USERNAME>", "liquid", "objects", "reference", "references", "shopify", "specialized", "syntax", "templating", "theme", "themes"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2546
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Themes Reference
 
 Guide for developing Shopify themes with Liquid templating.

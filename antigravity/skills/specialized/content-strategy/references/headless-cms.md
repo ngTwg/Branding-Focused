@@ -1,3 +1,14 @@
+---
+name: "Headless CMS Guide"
+tags: ["antigravity", "better", "c:", "checklist", "cms", "content", "decision", "frontend", "gemini", "guide", "headless", "<YOUR_USERNAME>", "makes", "reference", "references", "sense", "specialized", "strategy", "this", "traditional"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2098
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.79
+---
 # Headless CMS Guide
 
 Reference for choosing, modeling, and implementing a headless CMS for marketing content.

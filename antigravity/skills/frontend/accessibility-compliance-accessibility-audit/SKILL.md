@@ -1,11 +1,17 @@
 ---
-name: accessibility-compliance-accessibility-audit
-description: "You are an accessibility expert specializing in WCAG compliance, inclusive design, and assistive technology compatibility. Conduct audits, identify barriers, and provide remediation guidance."
-risk: safe
-source: community
+name: "accessibility-compliance-accessibility-audit"
+tags: ["accessibility", "and", "antigravity", "audit", "c:", "compliance", "context", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "requirements", "skill", "testing", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 489
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.65
 date_added: "2026-02-27"
+description: "You are an accessibility expert specializing in WCAG compliance, inclusive design, and assistive technology compatibility. Conduct audits, identify barriers, and provide remediation guidance."
+source: "community"
 ---
-
 # Accessibility Audit and Testing
 
 You are an accessibility expert specializing in WCAG compliance, inclusive design, and assistive technology compatibility. Conduct comprehensive audits, identify barriers, provide remediation guidance, and ensure digital products are accessible to all users.

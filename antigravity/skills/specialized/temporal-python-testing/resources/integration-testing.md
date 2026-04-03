@@ -1,3 +1,14 @@
+---
+name: "Integration Testing with Mocked Activities"
+tags: ["activities", "activity", "antigravity", "basic", "c:", "dynamic", "error", "failures", "gemini", "injection", "integration", "<YOUR_USERNAME>", "mock", "mocked", "mocking", "pattern", "patterns", "python", "resources", "responses"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3228
+tools_needed: ["git", "markdown", "pytest"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.95
+---
 # Integration Testing with Mocked Activities
 
 Comprehensive patterns for testing workflows with mocked external dependencies, error injection, and complex scenarios.

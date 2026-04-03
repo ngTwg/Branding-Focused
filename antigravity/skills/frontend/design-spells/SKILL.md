@@ -1,3 +1,14 @@
+---
+name: "Design Spells Skill"
+tags: ["antigravity", "c:", "context", "design", "execution", "frontend", "gemini", "<YOUR_USERNAME>", "rules", "skill", "spells", "strict", "use", "users", "when", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 576
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
+---
 --- 
 name: design-spells
 description: Curated micro-interactions and design details that add "magic" and personality to websites and apps.

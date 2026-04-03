@@ -1,11 +1,17 @@
 ---
-name: graphql-architect
-description: Master modern GraphQL with federation, performance optimization, and enterprise security. Build scalable schemas, implement advanced caching, and design real-time systems.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "graphql-architect"
+tags: ["and", "antigravity", "architect", "architecture", "backend", "c:", "capabilities", "federation", "frontend", "gemini", "graphql", "instructions", "<YOUR_USERNAME>", "modern", "not", "purpose", "skill", "this", "use", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1826
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.78
+date_added: "2026-02-27"
+description: "Master modern GraphQL with federation, performance optimization, and enterprise security. Build scalable schemas, implement advanced caching, and design real-time systems."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on graphql architect tasks or workflows

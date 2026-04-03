@@ -1,10 +1,16 @@
 ---
-name: claimable-postgres
-description: Provision instant temporary Postgres databases via Claimable Postgres by Neon (pg.new). No login or credit card required. Use for quick Postgres environments and throwaway DATABASE_URL for prototyping.
-risk: unknown
-source: community
+name: "claimable-postgres"
+tags: ["antigravity", "api", "c:", "check", "claimable", "create", "database", "frontend", "gemini", "<YOUR_USERNAME>", "method", "postgres", "quick", "rest", "specialized", "start", "status", "users", "which"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2443
+tools_needed: ["git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+description: "Provision instant temporary Postgres databases via Claimable Postgres by Neon (pg.new). No login or credit card required. Use for quick Postgres environments and throwaway DATABASE_URL for prototyping."
+source: "community"
 ---
-
 # Claimable Postgres
 
 Instant Postgres databases for local development, demos, prototyping, and test environments. No account required. Databases expire after 72 hours unless claimed to a Neon account.

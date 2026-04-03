@@ -1,12 +1,18 @@
 ---
-name: expo-api-routes
-description: Guidelines for creating API routes in Expo Router with EAS Hosting
-risk: unknown
-source: community
-version: 1.0.0
-license: MIT
+name: "expo-api-routes"
+tags: ["antigravity", "api", "basic", "c:", "dynamic", "expo", "file", "frontend", "gemini", "http", "<YOUR_USERNAME>", "methods", "not", "route", "routes", "specialized", "structure", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2170
+tools_needed: ["git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+description: "Guidelines for creating API routes in Expo Router with EAS Hosting"
+license: "MIT"
+source: "community"
+version: "1.0.0"
 ---
-
 ## When to Use API Routes
 
 Use API routes when you need:

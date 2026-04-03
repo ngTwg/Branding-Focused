@@ -1,3 +1,14 @@
+---
+name: "DOCUMENTATION STANDARDS - CHUẨN TÀI LIỆU BẮT BUỘC"
+tags: ["antigravity", "buộc", "bắt", "c:", "chuẩn", "documentation", "does", "files", "frontend", "gemini", "<YOUR_USERNAME>", "liệu", "mandatory", "name", "overview", "project", "readme", "required", "standards", "tài"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4544
+tools_needed: ["git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # DOCUMENTATION STANDARDS - CHUẨN TÀI LIỆU BẮT BUỘC
 
 > **Tier:** 1-4 (All projects)  

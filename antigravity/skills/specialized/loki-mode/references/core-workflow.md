@@ -1,3 +1,14 @@
+---
+name: "Core Workflow Reference"
+tags: ["act", "antigravity", "autonomy", "c:", "continuity", "core", "cycle", "every", "frontend", "gemini", "<YOUR_USERNAME>", "loki", "memory", "mode", "protocol", "rarv", "reason", "reference", "references", "reflect"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2346
+tools_needed: ["git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Core Workflow Reference
 
 Full RARV cycle, CONTINUITY.md template, and autonomy rules.

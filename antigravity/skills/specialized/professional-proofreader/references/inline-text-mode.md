@@ -1,3 +1,14 @@
+---
+name: "MODE 1: Inline Text"
+tags: ["antigravity", "c:", "check", "clarity", "content", "corrections", "critical", "detection", "error", "flow", "frontend", "gemini", "inline", "isolation", "<YOUR_USERNAME>", "minimal", "mode", "necessary", "optimization", "pass"]
+tier: 2
+risk: "medium"
+estimated_tokens: 436
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.62
+---
 # MODE 1: Inline Text
 
 ## Step 1 — Content Isolation

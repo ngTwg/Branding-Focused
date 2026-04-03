@@ -1,3 +1,14 @@
+---
+name: "Work Packet Template"
+tags: ["antigravity", "batch", "c:", "example", "frontend", "gemini", "<YOUR_USERNAME>", "orchestrate", "packet", "refactor", "references", "specialized", "template", "users", "work"]
+tier: 2
+risk: "medium"
+estimated_tokens: 249
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.53
+---
 # Work Packet Template
 
 Use this template to define each packet before spawning workers.

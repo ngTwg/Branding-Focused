@@ -1,3 +1,14 @@
+---
+name: "Supported Model Architectures"
+tags: ["antigravity", "architectures", "c:", "classification", "computer", "frontend", "gemini", "image", "js", "language", "<YOUR_USERNAME>", "model", "models", "natural", "processing", "references", "sequence", "specialized", "supported", "text"]
+tier: 4
+risk: "medium"
+estimated_tokens: 1397
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.77
+---
 # Supported Model Architectures
 
 This document lists the model architectures currently supported by Transformers.js.

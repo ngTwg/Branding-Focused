@@ -1,4 +1,15 @@
 ---
+name: "Context Agent"
+tags: ["agent", "antigravity", "c:", "context", "frontend", "gemini", "how", "<YOUR_USERNAME>", "localização", "not", "overview", "skill", "specialized", "this", "use", "users", "when", "works"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1459
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.89
+---
+---
 name: context-agent
 description: Agente de contexto para continuidade entre sessoes. Salva resumos, decisoes, tarefas pendentes e carrega briefing automatico na sessao seguinte.
 risk: safe

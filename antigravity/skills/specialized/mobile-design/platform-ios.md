@@ -1,3 +1,14 @@
+---
+name: "iOS Platform Guidelines"
+tags: ["antigravity", "apple", "c:", "core", "design", "family", "font", "frontend", "gemini", "guidelines", "human", "interface", "ios", "<YOUR_USERNAME>", "mobile", "philosophy", "platform", "principles", "pro", "specialized"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3529
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # iOS Platform Guidelines
 
 > Human Interface Guidelines (HIG) essentials, iOS design conventions, SF Pro typography, and native patterns.

@@ -1,4 +1,15 @@
 ---
+name: "Practical Error Handling with fp-ts"
+tags: ["antigravity", "c:", "code", "converting", "either", "error", "errors", "everywhere", "exceptions", "fp", "frontend", "gemini", "handling", "<YOUR_USERNAME>", "pattern", "practical", "problem", "result", "return", "solution"]
+tier: 2
+risk: "medium"
+estimated_tokens: 5551
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
+---
 name: fp-errors
 description: Stop throwing everywhere - handle errors as values using Either and TaskEither for cleaner, more predictable code
 risk: unknown

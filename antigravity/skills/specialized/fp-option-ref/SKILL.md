@@ -1,12 +1,17 @@
 ---
-name: fp-option-ref
-description: Quick reference for Option type. Use when user needs to handle nullable values, optional data, or wants to avoid null checks.
-risk: unknown
-source: community
-version: 1.0.0
-tags: [fp-ts, option, nullable, maybe, quick-reference]
+name: "fp-option-ref"
+tags: ["[fp-ts, option, nullable, maybe, quick-reference]"]
+tier: 2
+risk: "medium"
+estimated_tokens: 453
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.80
+description: "Quick reference for Option type. Use when user needs to handle nullable values, optional data, or wants to avoid null checks."
+source: "community"
+version: "1.0.0"
 ---
-
 # Option Quick Reference
 
 Option = value that might not exist. `Some(value)` or `None`.

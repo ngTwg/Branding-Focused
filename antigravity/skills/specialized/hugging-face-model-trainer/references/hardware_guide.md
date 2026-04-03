@@ -1,3 +1,14 @@
+---
+name: "Hardware Selection Guide"
+tags: ["antigravity", "available", "c:", "cpu", "face", "frontend", "gemini", "gpu", "guide", "guidelines", "hardware", "hugging", "<YOUR_USERNAME>", "model", "options", "references", "selection", "specialized", "tpu", "trainer"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1688
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.93
+---
 # Hardware Selection Guide
 
 Choosing the right hardware (flavor) is critical for cost-effective training.

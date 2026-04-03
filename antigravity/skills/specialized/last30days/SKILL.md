@@ -1,11 +1,17 @@
 ---
-name: last30days
-description: "Research a topic from the last 30 days on Reddit + X + Web, become an expert, and write copy-paste-ready prompts for the user's target tool."
-risk: unknown
-source: community
+name: "last30days"
+tags: ["antigravity", "any", "api", "are", "both", "but", "c:", "check", "configuration", "critical", "days", "fallback", "first", "from", "frontend", "gemini", "intent", "keys", "last", "last30days"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3700
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Research a topic from the last 30 days on Reddit + X + Web, become an expert, and write copy-paste-ready prompts for the user's target tool."
+source: "community"
 ---
-
 # last30days: Research Any Topic from the Last 30 Days
 
 Research ANY topic across Reddit, X, and the web. Surface what people are actually discussing, recommending, and debating right now.

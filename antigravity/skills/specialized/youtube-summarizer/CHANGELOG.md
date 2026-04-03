@@ -1,3 +1,14 @@
+---
+name: "Changelog - youtube-summarizer"
+tags: ["2026", "antigravity", "c:", "changed", "changelog", "fixed", "frontend", "gemini", "<YOUR_USERNAME>", "notes", "related", "specialized", "summarizer", "users", "youtube"]
+tier: 2
+risk: "medium"
+estimated_tokens: 501
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.65
+---
 # Changelog - youtube-summarizer
 
 All notable changes to the youtube-summarizer skill will be documented in this file.

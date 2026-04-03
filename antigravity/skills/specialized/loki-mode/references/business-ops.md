@@ -1,3 +1,14 @@
+---
+name: "Business Operations Reference"
+tags: ["antigravity", "business", "c:", "calendar", "checklist", "content", "date", "frontend", "gemini", "landing", "<YOUR_USERNAME>", "loki", "marketing", "mode", "operations", "ops", "optimization", "page", "reference", "references"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2906
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Business Operations Reference
 
 Workflows and procedures for business swarm agents.

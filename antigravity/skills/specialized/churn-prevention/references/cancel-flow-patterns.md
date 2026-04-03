@@ -1,3 +1,14 @@
+---
+name: "Cancel Flow Patterns"
+tags: ["antigravity", "b2b", "b2c", "billing", "business", "c:", "cancel", "churn", "flow", "free", "freemium", "frontend", "gemini", "interval", "<YOUR_USERNAME>", "paid", "patterns", "plans", "prevention", "references"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2551
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Cancel Flow Patterns
 
 Detailed cancel flow patterns by business type, billing provider, and industry.

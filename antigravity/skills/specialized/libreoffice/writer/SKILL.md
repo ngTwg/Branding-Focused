@@ -1,12 +1,18 @@
 ---
-name: writer
-description: "Document creation, format conversion (ODT/DOCX/PDF), mail merge, and automation with LibreOffice Writer."
-category: document-processing
-risk: safe
-source: personal
+name: "writer"
+tags: ["antigravity", "c:", "capabilities", "conversion", "core", "creation", "document", "format", "frontend", "gemini", "<YOUR_USERNAME>", "libreoffice", "overview", "skill", "specialized", "this", "use", "users", "when", "writer"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1258
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.89
+category: "document-processing"
 date_added: "2026-02-27"
+description: "Document creation, format conversion (ODT/DOCX/PDF), mail merge, and automation with LibreOffice Writer."
+source: "personal"
 ---
-
 # LibreOffice Writer
 
 ## Overview

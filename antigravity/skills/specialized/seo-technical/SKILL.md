@@ -1,4 +1,15 @@
 ---
+name: "Technical SEO Audit"
+tags: ["all", "allow", "antigravity", "audit", "block", "c:", "categories", "crawlability", "crawlers", "for", "frontend", "gemini", "googlebot", "including", "indexing", "<YOUR_USERNAME>", "other", "search", "seo", "specialized"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2083
+tools_needed: ["git", "markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.82
+---
+---
 name: seo-technical
 description: "Audit technical SEO across crawlability, indexability, security, URLs, mobile, Core Web Vitals, structured data, JavaScript rendering, and related platform signals like robots.txt and AI crawler access."
 risk: unknown

@@ -1,4 +1,15 @@
 ---
+name: "LEILOEIRO JURÍDICO, PERICIAL E DE MERCADO — IA"
+tags: ["antigravity", "c:", "frontend", "gemini", "how", "ia", "identificar", "jurídico", "leiloeiro", "<YOUR_USERNAME>", "mercado", "not", "overview", "pericial", "skill", "solicitação", "specialized", "this", "tipo", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3548
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.91
+---
+---
 name: leiloeiro-ia
 description: Especialista em leiloes judiciais e extrajudiciais de imoveis. Analise juridica, pericial e de mercado integrada. Orquestra os 5 modulos especializados.
 risk: safe

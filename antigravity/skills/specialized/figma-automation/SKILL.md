@@ -1,11 +1,17 @@
 ---
-name: figma-automation
-description: "Automate Figma tasks via Rube MCP (Composio): files, components, design tokens, comments, exports. Always search tools first for current schemas."
-risk: safe
-source: community
+name: "figma-automation"
+tags: ["and", "antigravity", "automation", "c:", "components", "core", "data", "export", "figma", "file", "frontend", "gemini", "get", "images", "<YOUR_USERNAME>", "mcp", "prerequisites", "render", "rube", "setup"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1758
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.84
 date_added: "2026-02-27"
+description: "Automate Figma tasks via Rube MCP (Composio): files, components, design tokens, comments, exports. Always search tools first for current schemas."
+source: "community"
 ---
-
 # Figma Automation via Rube MCP
 
 Automate Figma operations through Composio's Figma toolkit via Rube MCP.

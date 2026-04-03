@@ -1,11 +1,17 @@
 ---
-name: saga-orchestration
-description: "Patterns for managing distributed transactions and long-running business processes."
-risk: unknown
-source: community
+name: "saga-orchestration"
+tags: ["antigravity", "c:", "concepts", "core", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "orchestration", "saga", "skill", "specialized", "this", "types", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 4178
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.96
 date_added: "2026-02-27"
+description: "Patterns for managing distributed transactions and long-running business processes."
+source: "community"
 ---
-
 # Saga Orchestration
 
 Patterns for managing distributed transactions and long-running business processes.

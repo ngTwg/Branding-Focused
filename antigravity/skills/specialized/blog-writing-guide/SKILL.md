@@ -1,10 +1,16 @@
 ---
-name: blog-writing-guide
+name: "blog-writing-guide"
+tags: ["antigravity", "banned", "blog", "c:", "convey", "first", "follow", "frontend", "gemini", "guide", "headings", "information", "language", "<YOUR_USERNAME>", "must", "opening", "questions", "reader", "section", "sentences"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1976
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 description: "This skill enforces Sentry's blog writing standards across every post — whether you're helping an engineer write their first blog post or a marketer draft a product announcement."
-risk: unknown
-source: community
+source: "community"
 ---
-
 # Sentry Blog Writing Skill
 
 This skill enforces Sentry's blog writing standards across every post — whether you're helping an engineer write their first blog post or a marketer draft a product announcement.

@@ -1,11 +1,17 @@
 ---
-name: nft-standards
-description: "Master ERC-721 and ERC-1155 NFT standards, metadata best practices, and advanced NFT features."
-risk: unknown
-source: community
+name: "nft-standards"
+tags: ["1155", "721", "antigravity", "beyond", "c:", "erc", "frontend", "fungible", "gemini", "instructions", "<YOUR_USERNAME>", "multi", "nft", "non", "not", "skill", "standard", "standards", "this", "token"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2849
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Master ERC-721 and ERC-1155 NFT standards, metadata best practices, and advanced NFT features."
+source: "community"
 ---
-
 # NFT Standards
 
 Master ERC-721 and ERC-1155 NFT standards, metadata best practices, and advanced NFT features.

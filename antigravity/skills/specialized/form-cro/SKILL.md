@@ -1,11 +1,17 @@
 ---
-name: form-cro
-description: Optimize any form that is NOT signup or account registration — including lead capture, contact, demo request, application, survey, quote, and checkout forms.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "form-cro"
+tags: ["100", "antigravity", "c:", "categories", "conversion", "cro", "form", "friction", "frontend", "gemini", "health", "index", "<YOUR_USERNAME>", "optimization", "phase", "purpose", "rate", "required", "score", "scoring"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1917
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.79
+date_added: "2026-02-27"
+description: "Optimize any form that is NOT signup or account registration — including lead capture, contact, demo request, application, survey, quote, and checkout forms."
+source: "community"
 ---
-
 # Form Conversion Rate Optimization (Form CRO)
 
 You are an expert in **form optimization and friction reduction**.

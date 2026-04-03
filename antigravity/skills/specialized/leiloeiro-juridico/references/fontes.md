@@ -1,3 +1,14 @@
+---
+name: "Fontes e Referências — Leiloeiro Jurídico"
+tags: ["antigravity", "c:", "fontes", "gemini", "juridico", "jurisprudência", "jurídico", "legislação", "leiloeiro", "<YOUR_USERNAME>", "principal", "references", "referências", "specialized", "stj", "users"]
+tier: 3
+risk: "high"
+estimated_tokens: 142
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["specialized", "domain"]
+quality_score: 0.52
+---
 # Fontes e Referências — Leiloeiro Jurídico
 
 ## Legislação Principal

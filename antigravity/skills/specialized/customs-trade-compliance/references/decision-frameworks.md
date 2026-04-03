@@ -1,3 +1,14 @@
+---
+name: "Decision Frameworks — Customs & Trade Compliance"
+tags: ["and", "antigravity", "appliances", "application", "c:", "character", "classification", "compliance", "customs", "decision", "determination", "essential", "frameworks", "frontend", "gathering", "gemini", "gri", "information", "<YOUR_USERNAME>", "machines"]
+tier: 2
+risk: "medium"
+estimated_tokens: 11281
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Decision Frameworks — Customs & Trade Compliance
 
 This reference provides the detailed decision logic, classification methodology, FTA qualification

@@ -1,3 +1,14 @@
+---
+name: "Matched transitions"
+tags: ["antigravity", "c:", "choices", "core", "design", "example", "frontend", "full", "gemini", "geometry", "intent", "ios", "keep", "<YOUR_USERNAME>", "matched", "media", "patterns", "preview", "references", "screen"]
+tier: 3
+risk: "medium"
+estimated_tokens: 418
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.68
+---
 # Matched transitions
 
 ## Intent

@@ -1,4 +1,15 @@
 ---
+name: "Skill Sentinel"
+tags: ["antigravity", "c:", "frontend", "gemini", "how", "<YOUR_USERNAME>", "not", "overview", "rapido", "resumo", "sentinel", "skill", "specialized", "this", "use", "users", "when", "works"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1926
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.93
+---
+---
 name: skill-sentinel
 description: Auditoria e evolucao do ecossistema de skills. Qualidade de codigo, seguranca, custos, gaps, duplicacoes, dependencias e relatorios de saude.
 risk: safe

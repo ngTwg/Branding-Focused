@@ -1,0 +1,98 @@
+{
+  "timestamp": "2026-04-01T18:48:00.524020+00:00",
+  "version": "v6.5.0-SLIM",
+  "release_name": "phase-b-packaging",
+  "release_id": "v6.5.0-SLIM_phase-b-packaging_20260401_184800",
+  "dry_run": false,
+  "release_root": "C:\\Users\\lengo\\.gemini\\antigravity\\releases\\v6.5.0-SLIM_phase-b-packaging_20260401_184800",
+  "zip_path": "C:\\Users\\lengo\\.gemini\\antigravity\\releases\\v6.5.0-SLIM_phase-b-packaging_20260401_184800.zip",
+  "notes_path": "C:\\Users\\lengo\\.gemini\\antigravity\\docs\\RELEASE_NOTES_2026-04-01.md",
+  "included": 14,
+  "missing": 0,
+  "artifacts": [
+    {
+      "path": "GEMINI.md",
+      "required": true,
+      "status": "included",
+      "message": "ok"
+    },
+    {
+      "path": "antigravity/skills/MASTER_ROUTER.md",
+      "required": true,
+      "status": "included",
+      "message": "ok"
+    },
+    {
+      "path": "tools/skillpack/skillpack.py",
+      "required": true,
+      "status": "included",
+      "message": "ok"
+    },
+    {
+      "path": "tools/skillpack/README.md",
+      "required": true,
+      "status": "included",
+      "message": "ok"
+    },
+    {
+      "path": "antigravity/config/persona_bundles.json",
+      "required": true,
+      "status": "included",
+      "message": "ok"
+    },
+    {
+      "path": "antigravity/reports/skillpack_install_report.json",
+      "required": true,
+      "status": "included",
+      "message": "ok"
+    },
+    {
+      "path": "antigravity/reports/skill_metadata_coverage.json",
+      "required": true,
+      "status": "included",
+      "message": "ok"
+    },
+    {
+      "path": "antigravity/reports/skill_metadata_normalized_top_tiers.json",
+      "required": true,
+      "status": "included",
+      "message": "ok"
+    },
+    {
+      "path": "antigravity/reports/security_gate_external_skills.json",
+      "required": true,
+      "status": "included",
+      "message": "ok"
+    },
+    {
+      "path": "antigravity/reports/integration_gap_report.json",
+      "required": true,
+      "status": "included",
+      "message": "ok"
+    },
+    {
+      "path": "antigravity/external/UNIFIED_SKILL_INVENTORY.json",
+      "required": true,
+      "status": "included",
+      "message": "ok"
+    },
+    {
+      "path": "antigravity/docs/AUTONOMOUS_EXECUTION_BOARD_2026-04-02.md",
+      "required": true,
+      "status": "included",
+      "message": "ok"
+    },
+    {
+      "path": "antigravity/reports/autonomous_pipeline_20260402_014645.json",
+      "required": false,
+      "status": "included",
+      "message": "ok"
+    },
+    {
+      "path": "antigravity/reports/release_bundle_20260401_180349.json",
+      "required": false,
+      "status": "included",
+      "message": "ok"
+    }
+  ]
+}

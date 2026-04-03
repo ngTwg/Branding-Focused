@@ -1,4 +1,15 @@
 ---
+name: "Stitch to Remotion Walkthrough Videos"
+tags: ["and", "antigravity", "available", "c:", "discover", "frontend", "gemini", "information", "<YOUR_USERNAME>", "mcp", "networking", "overview", "prerequisites", "project", "remotion", "retrieval", "retrieve", "servers", "specialized", "step"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3231
+tools_needed: ["git", "markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
+---
 name: remotion
 description: Generate walkthrough videos from Stitch projects using Remotion with smooth transitions, zooming, and text overlays
 allowed-tools:

@@ -1,4 +1,15 @@
 ---
+name: "Pragmatic Functional Programming"
+tags: ["antigravity", "c:", "chain", "checks", "clearly", "either", "errors", "explicit", "fp", "frontend", "functional", "gemini", "golden", "handle", "<YOUR_USERNAME>", "make", "missing", "null", "operations", "option"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3894
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
+---
 name: fp-pragmatic
 description: A practical, jargon-free guide to functional programming - the 80/20 approach that gets results without the academic overhead
 risk: unknown

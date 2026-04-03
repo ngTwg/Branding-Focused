@@ -1,11 +1,17 @@
 ---
-name: using-neon
-description: "Neon is a serverless Postgres platform that separates compute and storage to offer autoscaling, branching, instant restore, and scale-to-zero. It's fully compatible with Postgres and works with any language, framework, or ORM that supports Postgres."
-risk: safe
-source: "https://github.com/neondatabase/agent-skills/tree/main/skills/neon-postgres"
+name: "using-neon"
+tags: ["all", "antigravity", "any", "c:", "doc", "docs", "documentation", "fetch", "frontend", "gemini", "get", "<YOUR_USERNAME>", "list", "markdown", "neon", "overview", "page", "postgres", "resources", "serverless"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1164
+tools_needed: ["git", "markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.75
 date_added: "2026-02-27"
+description: "Neon is a serverless Postgres platform that separates compute and storage to offer autoscaling, branching, instant restore, and scale-to-zero. It's fully compatible with Postgres and works with any language, framework, or ORM that supports Postgres."
+source: "https://github.com/neondatabase/agent-skills/tree/main/skills/neon-postgres"
 ---
-
 # Neon Serverless Postgres
 
 Neon is a serverless Postgres platform that separates compute and storage to offer autoscaling, branching, instant restore, and scale-to-zero. It's fully compatible with Postgres and works with any language, framework, or ORM that supports Postgres.

@@ -1,9 +1,16 @@
 ---
-name: business-foundation
-description: Agent templates governing structural creation, operation, and equity of corporate entities.
-jurisdictions: [USA, Canada, EU]
+name: "business-foundation"
+tags: ["01", "agent", "antigravity", "business", "c:", "contract", "foundation", "frontend", "gemini", "governance", "instructions", "<YOUR_USERNAME>", "lex", "nuances", "official", "references", "specialized", "templates", "types", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 681
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
+description: "Agent templates governing structural creation, operation, and equity of corporate entities."
+jurisdictions: "[USA, Canada, EU]"
 ---
-
 # Business Foundation & Governance Templates
 
 These templates act as the "birth certificates" of a business entity. When drafting these for a user, cross-reference the jurisdiction metadata.

@@ -1,11 +1,17 @@
 ---
-name: legacy-modernizer
-description: Refactor legacy codebases, migrate outdated frameworks, and implement gradual modernization. Handles technical debt, dependency updates, and backward compatibility.
-risk: safe
-source: community
-date_added: '2026-02-27'
+name: "legacy-modernizer"
+tags: ["antigravity", "approach", "areas", "c:", "focus", "frontend", "gemini", "instructions", "legacy", "<YOUR_USERNAME>", "modernizer", "not", "output", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 423
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.63
+date_added: "2026-02-27"
+description: "Refactor legacy codebases, migrate outdated frameworks, and implement gradual modernization. Handles technical debt, dependency updates, and backward compatibility."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on legacy modernizer tasks or workflows

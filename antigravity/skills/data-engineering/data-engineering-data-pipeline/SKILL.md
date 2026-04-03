@@ -1,11 +1,17 @@
 ---
-name: data-engineering-data-pipeline
-description: "You are a data pipeline architecture expert specializing in scalable, reliable, and cost-effective data pipelines for batch and streaming data processing."
-risk: unknown
-source: community
+name: "data-engineering-data-pipeline"
+tags: ["antigravity", "architecture", "c:", "capabilities", "core", "data", "data-engineering", "engineering", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "pipeline", "requirements", "skill", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1741
+tools_needed: ["docker", "kubernetes", "markdown", "sql", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.80
 date_added: "2026-02-27"
+description: "You are a data pipeline architecture expert specializing in scalable, reliable, and cost-effective data pipelines for batch and streaming data processing."
+source: "community"
 ---
-
 # Data Pipeline Architecture
 
 You are a data pipeline architecture expert specializing in scalable, reliable, and cost-effective data pipelines for batch and streaming data processing.

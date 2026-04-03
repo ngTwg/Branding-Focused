@@ -1,11 +1,17 @@
 ---
-name: box-automation
-description: "Automate Box operations including file upload/download, content search, folder management, collaboration, metadata queries, and sign requests through Composio's Box toolkit."
-risk: critical
-source: community
+name: "box-automation"
+tags: ["and", "antigravity", "automation", "box", "browse", "c:", "content", "core", "download", "files", "frontend", "gemini", "<YOUR_USERNAME>", "mcp", "prerequisites", "rube", "search", "setup", "specialized", "upload"]
+tier: 2
+risk: "critical"
+estimated_tokens: 3073
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 date_added: "2026-02-27"
+description: "Automate Box operations including file upload/download, content search, folder management, collaboration, metadata queries, and sign requests through Composio's Box toolkit."
+source: "community"
 ---
-
 # Box Automation via Rube MCP
 
 Automate Box operations including file upload/download, content search, folder management, collaboration, metadata queries, and sign requests through Composio's Box toolkit.

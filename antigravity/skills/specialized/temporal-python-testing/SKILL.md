@@ -1,11 +1,17 @@
 ---
-name: temporal-python-testing
-description: "Comprehensive testing approaches for Temporal workflows using pytest, progressive disclosure resources for specific testing scenarios."
-risk: unknown
-source: community
+name: "temporal-python-testing"
+tags: ["antigravity", "available", "c:", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "philosophy", "python", "resources", "skill", "specialized", "strategies", "temporal", "testing", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1321
+tools_needed: ["docker", "git", "markdown", "pytest"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.79
 date_added: "2026-02-27"
+description: "Comprehensive testing approaches for Temporal workflows using pytest, progressive disclosure resources for specific testing scenarios."
+source: "community"
 ---
-
 # Temporal Python Testing Strategies
 
 Comprehensive testing approaches for Temporal workflows using pytest, progressive disclosure resources for specific testing scenarios.

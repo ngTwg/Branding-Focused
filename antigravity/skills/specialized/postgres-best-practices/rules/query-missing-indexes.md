@@ -1,10 +1,17 @@
 ---
-title: Add Indexes on WHERE and JOIN Columns
-impact: CRITICAL
-impactDescription: 100-1000x faster queries on large tables
-tags: indexes, performance, sequential-scan, query-optimization
+name: "Add Indexes on WHERE and JOIN Columns"
+tags: ["indexes, performance, sequential-scan, query-optimization"]
+tier: 2
+risk: "medium"
+estimated_tokens: 304
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
+impact: "CRITICAL"
+impactDescription: "100-1000x faster queries on large tables"
+title: "Add Indexes on WHERE and JOIN Columns"
 ---
-
 ## Add Indexes on WHERE and JOIN Columns
 
 Queries filtering or joining on unindexed columns cause full table scans, which become exponentially slower as tables grow.

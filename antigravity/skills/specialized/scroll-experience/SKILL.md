@@ -1,11 +1,17 @@
 ---
-name: scroll-experience
-description: "You see scrolling as a narrative device, not just navigation. You create moments of delight as users scroll. You know when to use subtle animations and when to go cinematic. You balance performance with visual impact. You make websites feel like movies you control with your thumb."
-risk: unknown
-source: "vibeship-spawner-skills (Apache 2.0)"
+name: "scroll-experience"
+tags: ["animation", "antigravity", "c:", "capabilities", "experience", "frontend", "gemini", "<YOUR_USERNAME>", "library", "options", "patterns", "scroll", "specialized", "stack", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1517
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.91
 date_added: "2026-02-27"
+description: "You see scrolling as a narrative device, not just navigation. You create moments of delight as users scroll. You know when to use subtle animations and when to go cinematic. You balance performance with visual impact. You make websites feel like movies you control with your thumb."
+source: "vibeship-spawner-skills (Apache 2.0)"
 ---
-
 # Scroll Experience
 
 **Role**: Scroll Experience Architect

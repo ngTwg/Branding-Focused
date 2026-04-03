@@ -1,3 +1,14 @@
+---
+name: "tRPC Principles"
+tags: ["antigravity", "api", "backend", "benefits", "c:", "frontend", "gemini", "integration", "key", "<YOUR_USERNAME>", "patterns", "principles", "trpc", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 172
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.63
+---
 # tRPC Principles
 
 > End-to-end type safety for TypeScript monorepos.

@@ -1,13 +1,19 @@
 ---
-name: qiskit
+name: "qiskit"
+tags: ["antigravity", "bell", "c:", "circuit", "create", "entangled", "first", "frontend", "gemini", "installation", "<YOUR_USERNAME>", "overview", "qiskit", "qubits", "quick", "specialized", "start", "state", "users"]
+tier: 4
+risk: "medium"
+estimated_tokens: 2171
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.96
 description: "Qiskit is the world's most popular open-source quantum computing framework with 13M+ downloads. Build quantum circuits, optimize for hardware, execute on simulators or real quantum computers, and analyze results. Supports IBM Quantum (100+ qubit systems), IonQ, Amazon Braket, and other providers."
-license: Apache-2.0 license
-metadata:
-    skill-author: K-Dense Inc.
-risk: unknown
-source: community
+license: "Apache-2.0 license"
+metadata: ""
+skill-author: "K-Dense Inc."
+source: "community"
 ---
-
 # Qiskit
 
 ## Overview
@@ -272,3 +278,86 @@ with Session(backend=backend) as session:
 - **Qiskit Textbook**: https://qiskit.org/learn
 - **API Reference**: https://docs.quantum.ibm.com/api/qiskit
 - **Patterns Guide**: https://quantum.cloud.ibm.com/docs/en/guides/intro-to-patterns
+
+## Tier-4 Algorithm Implementations
+
+### Algorithm 1: Grover Search (2-Qubit)
+
+```python
+from qiskit import QuantumCircuit
+from qiskit.primitives import StatevectorSampler
+
+qc = QuantumCircuit(2, 2)
+qc.h([0, 1])
+
+# Oracle marks |11>
+qc.cz(0, 1)
+
+# Diffusion operator
+qc.h([0, 1])
+qc.x([0, 1])
+qc.cz(0, 1)
+qc.x([0, 1])
+qc.h([0, 1])
+
+qc.measure([0, 1], [0, 1])
+
+sampler = StatevectorSampler()
+result = sampler.run([qc], shots=1024).result()
+print(result[0].data.c.get_counts())
+```
+
+### Algorithm 2: QAOA-Inspired MaxCut (Minimal)
+
+```python
+from qiskit import QuantumCircuit
+from qiskit.circuit import Parameter
+from qiskit.primitives import StatevectorEstimator
+from qiskit.quantum_info import SparsePauliOp
+
+gamma = Parameter("gamma")
+beta = Parameter("beta")
+
+qc = QuantumCircuit(2)
+qc.h([0, 1])
+qc.rzz(2 * gamma, 0, 1)
+qc.rx(2 * beta, 0)
+qc.rx(2 * beta, 1)
+
+hamiltonian = SparsePauliOp.from_list([("ZZ", 1.0)])
+estimator = StatevectorEstimator()
+
+bound = qc.assign_parameters({gamma: 0.7, beta: 0.4})
+ev = estimator.run([(bound, hamiltonian)]).result()[0].data.evs
+print("Expectation:", ev)
+```
+
+### Algorithm 3: VQE Skeleton (H2-like Toy Hamiltonian)
+
+```python
+from qiskit import QuantumCircuit
+from qiskit.circuit import Parameter
+from qiskit.quantum_info import SparsePauliOp
+from qiskit.primitives import StatevectorEstimator
+from scipy.optimize import minimize
+
+theta = Parameter("theta")
+ansatz = QuantumCircuit(2)
+ansatz.ry(theta, 0)
+ansatz.cx(0, 1)
+
+hamiltonian = SparsePauliOp.from_list([
+   ("ZI", -1.05),
+   ("IZ", -1.05),
+   ("XX", 0.39),
+])
+
+estimator = StatevectorEstimator()
+
+def objective(x):
+   qc = ansatz.assign_parameters({theta: x[0]})
+   return estimator.run([(qc, hamiltonian)]).result()[0].data.evs
+
+opt = minimize(objective, x0=[0.2], method="COBYLA")
+print("Approx ground energy:", float(opt.fun))
+```

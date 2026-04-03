@@ -1,10 +1,16 @@
 ---
-name: apify-competitor-intelligence
-description: Analyze competitor strategies, content, pricing, ads, and market positioning across Google Maps, Booking.com, Facebook, Instagram, YouTube, and TikTok.
-risk: unknown
-source: community
+name: "apify-competitor-intelligence"
+tags: ["actor", "analysis", "antigravity", "apify", "ask", "c:", "competitor", "fetch", "frontend", "gemini", "identify", "intelligence", "<YOUR_USERNAME>", "preferences", "prerequisites", "schema", "specialized", "step", "type", "user"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1329
+tools_needed: ["markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.89
+description: "Analyze competitor strategies, content, pricing, ads, and market positioning across Google Maps, Booking.com, Facebook, Instagram, YouTube, and TikTok."
+source: "community"
 ---
-
 # Competitor Intelligence
 
 Analyze competitors using Apify Actors to extract data from multiple platforms.

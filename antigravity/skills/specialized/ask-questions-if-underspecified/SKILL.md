@@ -1,10 +1,16 @@
 ---
-name: ask-questions-if-underspecified
-description: Clarify requirements before implementing. Use when serious doubts arise.
-risk: unknown
-source: community
+name: "ask-questions-if-underspecified"
+tags: ["antigravity", "ask", "c:", "decide", "frontend", "gemini", "goal", "if", "<YOUR_USERNAME>", "not", "questions", "request", "specialized", "the", "underspecified", "use", "users", "when", "whether", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1004
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.76
+description: "Clarify requirements before implementing. Use when serious doubts arise."
+source: "community"
 ---
-
 # Ask Questions If Underspecified
 
 ## When to Use

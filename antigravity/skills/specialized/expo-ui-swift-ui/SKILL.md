@@ -1,10 +1,16 @@
 ---
-name: expo-ui-swift-ui
-description: expo-ui-swift-ui
-risk: unknown
-source: community
+name: "expo-ui-swift-ui"
+tags: ["antigravity", "c:", "expo", "frontend", "gemini", "installation", "instructions", "<YOUR_USERNAME>", "specialized", "swift", "ui", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 422
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.62
+description: "expo-ui-swift-ui"
+source: "community"
 ---
-
 ---
 name: expo-ui-swift-ui
 description: `@expo/ui/swift-ui` package lets you use SwiftUI Views and modifiers in your app.

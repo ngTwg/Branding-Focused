@@ -48,16 +48,15 @@ claude --system-prompt "$(cat CLAUDE.md)"
 2. **Context Pruning** khi chuyển sang task mới
 3. **Systematic Debugging** — không guess-and-check
 4. **E2E Autonomous Loop** — tự phát hiện và sửa lỗi
-5. **Test trước khi báo hoàn thành**
-6. **Git Persistence** — tự lưu và Discovery link.git
-6. **Git Persistence** — tự lưu và Discovery link.git
+5. **Git Persistence** — tự động lưu link.git dự án
+6. **Test trước khi báo hoàn thành**
 
 ---
 
 ## 🌐 Liên Kết
 
 - **Brain chung:** `../antigravity/skills/MASTER_ROUTER.md`
-- **Core Rules:** `../Antigravity_CORE_RULES.md`
+- **Core Rules:** `../ANTIGRAVITY_CORE_RULES.md`
 - **Hướng dẫn skills:** `../SKILLS_GUIDE.md`
 
 ---

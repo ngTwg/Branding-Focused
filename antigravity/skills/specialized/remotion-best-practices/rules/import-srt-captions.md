@@ -1,10 +1,16 @@
 ---
-name: import-srt-captions
-description: Importing .srt subtitle files into Remotion using @remotion/captions
-metadata:
-  tags: captions, subtitles, srt, import, parse
+name: "import-srt-captions"
+tags: ["captions, subtitles, srt, import, parse"]
+tier: 2
+risk: "medium"
+estimated_tokens: 528
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.65
+description: "Importing .srt subtitle files into Remotion using @remotion/captions"
+metadata: ""
 ---
-
 # Importing .srt subtitles into Remotion
 
 If you have an existing `.srt` subtitle file, you can import it into Remotion using `parseSrt()` from `@remotion/captions`.

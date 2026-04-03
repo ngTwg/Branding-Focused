@@ -1,11 +1,17 @@
 ---
-name: attack-tree-construction
-description: "Build comprehensive attack trees to visualize threat paths. Use when mapping attack scenarios, identifying defense gaps, or communicating security risks to stakeholders."
-risk: offensive
-source: community
+name: "attack-tree-construction"
+tags: ["antigravity", "attack", "c:", "construction", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "resources", "safety", "skill", "specialized", "this", "tree", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 373
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.62
 date_added: "2026-02-27"
+description: "Build comprehensive attack trees to visualize threat paths. Use when mapping attack scenarios, identifying defense gaps, or communicating security risks to stakeholders."
+source: "community"
 ---
-
 > AUTHORIZED USE ONLY: Use this skill only for authorized security assessments, defensive validation, or controlled educational environments.
 
 # Attack Tree Construction

@@ -1,11 +1,17 @@
 ---
-name: azure-search-documents-ts
-description: "Build search applications with vector, hybrid, and semantic search capabilities."
-risk: unknown
-source: community
+name: "azure-search-documents-ts"
+tags: ["antigravity", "authentication", "azure", "c:", "core", "create", "devops", "documents", "environment", "field", "for", "frontend", "gemini", "index", "installation", "<YOUR_USERNAME>", "sdk", "search", "ts", "typescript"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1653
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.90
 date_added: "2026-02-27"
+description: "Build search applications with vector, hybrid, and semantic search capabilities."
+source: "community"
 ---
-
 # Azure AI Search SDK for TypeScript
 
 Build search applications with vector, hybrid, and semantic search capabilities.

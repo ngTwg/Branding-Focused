@@ -1,11 +1,17 @@
 ---
-name: team-composition-analysis
+name: "team-composition-analysis"
+tags: ["analysis", "antigravity", "c:", "composition", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "overview", "skill", "specialized", "stage", "structure", "team", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2469
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+date_added: "2026-02-27"
 description: "Design optimal team structures, hiring plans, compensation strategies, and equity allocation for early-stage startups from pre-seed through Series A."
-risk: unknown
-source: community
-date_added: '2026-02-27'
+source: "community"
 ---
-
 # Team Composition Analysis
 
 Design optimal team structures, hiring plans, compensation strategies, and equity allocation for early-stage startups from pre-seed through Series A.

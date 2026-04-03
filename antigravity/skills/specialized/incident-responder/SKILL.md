@@ -1,11 +1,17 @@
 ---
-name: incident-responder
-description: Expert SRE incident responder specializing in rapid problem resolution, modern observability, and comprehensive incident management.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "incident-responder"
+tags: ["actions", "antigravity", "assess", "c:", "first", "frontend", "gemini", "immediate", "impact", "incident", "instructions", "<YOUR_USERNAME>", "minutes", "not", "purpose", "responder", "severity", "skill", "specialized", "this"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2558
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+date_added: "2026-02-27"
+description: "Expert SRE incident responder specializing in rapid problem resolution, modern observability, and comprehensive incident management."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on incident responder tasks or workflows

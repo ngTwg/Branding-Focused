@@ -1,3 +1,14 @@
+---
+name: "Prompt Template Library"
+tags: ["analysis", "antigravity", "assets", "c:", "classification", "detection", "engineering", "extraction", "frontend", "gemini", "intent", "<YOUR_USERNAME>", "library", "patterns", "prompt", "sentiment", "specialized", "template", "templates", "topic"]
+tier: 2
+risk: "medium"
+estimated_tokens: 818
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.83
+---
 # Prompt Template Library
 
 ## Classification Templates

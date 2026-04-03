@@ -1,10 +1,16 @@
 ---
-name: n8n-code-javascript
-description: Write JavaScript code in n8n Code nodes. Use when writing JavaScript in n8n, using $input/$json/$node syntax, making HTTP requests with $helpers, working with dates using DateTime, troubleshooting Code node errors, or choosing between Code node modes.
-risk: unknown
-source: community
+name: "n8n-code-javascript"
+tags: ["all", "antigravity", "c:", "code", "default", "each", "essential", "for", "frontend", "gemini", "guide", "item", "items", "javascript", "<YOUR_USERNAME>", "mode", "n8n", "node", "once", "quick"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3953
+tools_needed: ["git", "markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+description: "Write JavaScript code in n8n Code nodes. Use when writing JavaScript in n8n, using $input/$json/$node syntax, making HTTP requests with $helpers, working with dates using DateTime, troubleshooting Code node errors, or choosing between Code node modes."
+source: "community"
 ---
-
 # JavaScript Code Node
 
 Expert guidance for writing JavaScript code in n8n Code nodes.

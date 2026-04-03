@@ -1,3 +1,14 @@
+---
+name: "Instagram Graph API — Referência de Endpoints"
+tags: ["antigravity", "api", "c:", "endpoints", "frontend", "gemini", "get", "graph", "instagram", "<YOUR_USERNAME>", "media", "mídia", "perfil", "references", "referência", "specialized", "user", "users", "usuário", "índice"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1686
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.89
+---
 # Instagram Graph API — Referência de Endpoints
 
 Base URL: `https://graph.instagram.com/v21.0`

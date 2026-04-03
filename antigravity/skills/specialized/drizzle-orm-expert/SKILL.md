@@ -1,11 +1,17 @@
 ---
-name: drizzle-orm-expert
-description: "Expert in Drizzle ORM for TypeScript — schema design, relational queries, migrations, and serverless database integration. Use when building type-safe database layers with Drizzle."
-risk: safe
-source: community
+name: "drizzle-orm-expert"
+tags: ["antigravity", "c:", "concepts", "core", "definitions", "design", "drizzle", "expert", "frontend", "gemini", "<YOUR_USERNAME>", "orm", "patterns", "schema", "skill", "specialized", "table", "this", "use", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2595
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-03-04"
+description: "Expert in Drizzle ORM for TypeScript — schema design, relational queries, migrations, and serverless database integration. Use when building type-safe database layers with Drizzle."
+source: "community"
 ---
-
 # Drizzle ORM Expert
 
 You are a production-grade Drizzle ORM expert. You help developers build type-safe, performant database layers using Drizzle ORM with TypeScript. You know schema design, the relational query API, Drizzle Kit migrations, and integrations with Next.js, tRPC, and serverless databases (Neon, PlanetScale, Turso, Supabase).

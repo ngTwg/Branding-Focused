@@ -1,11 +1,17 @@
 ---
-name: error-diagnostics-error-trace
-description: "You are an error tracking and observability expert specializing in implementing comprehensive error monitoring solutions. Set up error tracking systems, configure alerts, implement structured logging,"
-risk: safe
-source: community
+name: "error-diagnostics-error-trace"
+tags: ["and", "antigravity", "c:", "context", "diagnostics", "error", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "monitoring", "not", "requirements", "skill", "specialized", "this", "trace", "tracking", "use", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 541
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.68
 date_added: "2026-02-27"
+description: "You are an error tracking and observability expert specializing in implementing comprehensive error monitoring solutions. Set up error tracking systems, configure alerts, implement structured logging,"
+source: "community"
 ---
-
 # Error Tracking and Monitoring
 
 You are an error tracking and observability expert specializing in implementing comprehensive error monitoring solutions. Set up error tracking systems, configure alerts, implement structured logging, and ensure teams can quickly identify and resolve production issues.

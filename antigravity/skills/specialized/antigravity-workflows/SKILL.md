@@ -1,11 +1,17 @@
 ---
-name: antigravity-workflows
-description: "Orchestrate multiple Antigravity skills through guided workflows for SaaS MVP delivery, security audits, AI agent builds, and browser QA."
-risk: none
-source: self
+name: "antigravity-workflows"
+tags: ["antigravity", "c:", "copy", "default", "frontend", "gemini", "how", "<YOUR_USERNAME>", "paste", "prompts", "routing", "run", "skill", "source", "specialized", "this", "truth", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 684
+tools_needed: ["markdown", "playwright"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.85
 date_added: "2026-02-27"
+description: "Orchestrate multiple Antigravity skills through guided workflows for SaaS MVP delivery, security audits, AI agent builds, and browser QA."
+source: "self"
 ---
-
 # Antigravity Workflows
 
 Use this skill to turn a complex objective into a guided sequence of skill invocations.

@@ -1,11 +1,17 @@
 ---
-name: fastapi-templates
-description: "Create production-ready FastAPI projects with async patterns, dependency injection, and comprehensive error handling. Use when building new FastAPI applications or setting up backend API projects."
-risk: unknown
-source: community
+name: "fastapi-templates"
+tags: ["antigravity", "backend", "c:", "fastapi", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "project", "resources", "skill", "templates", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 314
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
 date_added: "2026-02-27"
+description: "Create production-ready FastAPI projects with async patterns, dependency injection, and comprehensive error handling. Use when building new FastAPI applications or setting up backend API projects."
+source: "community"
 ---
-
 # FastAPI Project Templates
 
 Production-ready FastAPI project structures with async patterns, dependency injection, middleware, and best practices for building high-performance APIs.

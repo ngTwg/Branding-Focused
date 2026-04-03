@@ -1,3 +1,14 @@
+---
+name: "dbt Transformation Patterns Implementation Playbook"
+tags: ["antigravity", "architecture", "c:", "concepts", "conventions", "core", "dbt", "dbt_project", "frontend", "gemini", "implementation", "layers", "<YOUR_USERNAME>", "medallion", "model", "naming", "patterns", "playbook", "quick", "resources"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3207
+tools_needed: ["git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # dbt Transformation Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

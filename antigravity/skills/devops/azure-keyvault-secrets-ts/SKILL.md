@@ -1,11 +1,17 @@
 ---
-name: azure-keyvault-secrets-ts
-description: "Manage secrets using Azure Key Vault Secrets SDK for JavaScript (@azure/keyvault-secrets). Use when storing and retrieving application secrets or configuration values."
-risk: unknown
-source: community
+name: "azure-keyvault-secrets-ts"
+tags: ["antigravity", "authentication", "azure", "backend", "c:", "devops", "environment", "for", "gemini", "installation", "key", "keyvault", "<YOUR_USERNAME>", "sdk", "secrets", "ts", "typescript", "users", "variables", "vault"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1565
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.90
 date_added: "2026-02-27"
+description: "Manage secrets using Azure Key Vault Secrets SDK for JavaScript (@azure/keyvault-secrets). Use when storing and retrieving application secrets or configuration values."
+source: "community"
 ---
-
 # Azure Key Vault Secrets SDK for TypeScript
 
 Manage secrets with Azure Key Vault.

@@ -1,3 +1,14 @@
+---
+name: "Testing Anti-Patterns"
+tags: ["anti", "antigravity", "backend", "behavior", "c:", "development", "driven", "function", "gate", "gemini", "iron", "laws", "<YOUR_USERNAME>", "methods", "mock", "only", "overview", "pattern", "patterns", "production"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2055
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.95
+---
 # Testing Anti-Patterns
 
 **Load this reference when:** writing or changing tests, adding mocks, or tempted to add test-only methods to production code.

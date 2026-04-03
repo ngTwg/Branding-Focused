@@ -1,11 +1,17 @@
 ---
-name: discord-bot-architect
-description: "Specialized skill for building production-ready Discord bots. Covers Discord.js (JavaScript) and Pycord (Python), gateway intents, slash commands, interactive components, rate limiting, and sharding."
-risk: unknown
-source: "vibeship-spawner-skills (Apache 2.0)"
+name: "discord-bot-architect"
+tags: ["antigravity", "architect", "bot", "c:", "configure", "discord", "enable", "foundation", "frontend", "gemini", "intents", "<YOUR_USERNAME>", "main", "need", "only", "patterns", "pycord", "specialized", "users", "v14"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2074
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
 date_added: "2026-02-27"
+description: "Specialized skill for building production-ready Discord bots. Covers Discord.js (JavaScript) and Pycord (Python), gateway intents, slash commands, interactive components, rate limiting, and sharding."
+source: "vibeship-spawner-skills (Apache 2.0)"
 ---
-
 # Discord Bot Architect
 
 ## Patterns

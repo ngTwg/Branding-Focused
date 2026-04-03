@@ -1,10 +1,17 @@
 ---
-title: Use Patching for Safe Workflow Upgrades
-impact: LOW
-impactDescription: Safely deploy breaking workflow changes without disrupting in-progress workflows
-tags: advanced, patching, upgrade, breaking-change
+name: "Use Patching for Safe Workflow Upgrades"
+tags: ["advanced, patching, upgrade, breaking-change"]
+tier: 2
+risk: "medium"
+estimated_tokens: 720
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.69
+impact: "LOW"
+impactDescription: "Safely deploy breaking workflow changes without disrupting in-progress workflows"
+title: "Use Patching for Safe Workflow Upgrades"
 ---
-
 ## Use Patching for Safe Workflow Upgrades
 
 Use `dbos.Patch` to safely deploy breaking changes to workflow code. Breaking changes alter which steps run or their order, which can cause recovery failures.

@@ -1,11 +1,17 @@
 ---
-name: pci-compliance
-description: "Master PCI DSS (Payment Card Industry Data Security Standard) compliance for secure payment processing and handling of cardholder data."
-risk: unknown
-source: community
+name: "pci-compliance"
+tags: ["and", "antigravity", "build", "c:", "compliance", "core", "dss", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "maintain", "network", "not", "pci", "requirements", "secure", "skill", "specialized", "this"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3460
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Master PCI DSS (Payment Card Industry Data Security Standard) compliance for secure payment processing and handling of cardholder data."
+source: "community"
 ---
-
 # PCI Compliance
 
 Master PCI DSS (Payment Card Industry Data Security Standard) compliance for secure payment processing and handling of cardholder data.

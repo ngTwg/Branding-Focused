@@ -1,3 +1,14 @@
+---
+name: "Streaming & Playback"
+tags: ["antigravity", "c:", "concepts", "core", "from", "frontend", "gemini", "generation", "<YOUR_USERNAME>", "playback", "prerequisites", "reference", "specialized", "stream", "streaming", "timeline", "users", "video", "videodb"]
+tier: 1
+risk: "medium"
+estimated_tokens: 2461
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Streaming & Playback
 
 VideoDB generates streams on-demand, returning HLS-compatible URLs that play instantly in any standard video player. No render times or export waits - edits, searches, and compositions stream immediately.

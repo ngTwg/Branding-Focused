@@ -1,4 +1,15 @@
 ---
+name: "Skill: Instagram Integration"
+tags: ["antigravity", "c:", "frontend", "gemini", "how", "instagram", "integration", "<YOUR_USERNAME>", "not", "overview", "resumo", "rápido", "skill", "specialized", "this", "use", "users", "when", "works"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3302
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
+---
 name: instagram
 description: Integracao completa com Instagram via Graph API. Publicacao, analytics, comentarios, DMs, hashtags, agendamento, templates e gestao de contas Business/Creator.
 risk: critical

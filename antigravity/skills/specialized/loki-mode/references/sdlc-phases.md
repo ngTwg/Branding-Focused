@@ -1,3 +1,14 @@
+---
+name: "SDLC Phases Reference"
+tags: ["actions", "antigravity", "bootstrap", "c:", "created", "directory", "discovery", "frontend", "gemini", "<YOUR_USERNAME>", "loki", "mode", "overview", "phase", "phases", "reference", "references", "sdlc", "specialized", "structure"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2374
+tools_needed: ["git", "markdown", "playwright", "pytest", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # SDLC Phases Reference
 
 All phases with detailed workflows and testing procedures.

@@ -1,13 +1,19 @@
 ---
-name: site-architecture
-description: "Plan or restructure website hierarchy, navigation, URL patterns, breadcrumbs, and internal linking. Use when mapping pages, sections, and site structure, but not for XML sitemap auditing or schema markup."
-risk: unknown
-source: "https://github.com/coreyhaines31/marketingskills"
+name: "site-architecture"
+tags: ["antigravity", "architecture", "before", "business", "c:", "context", "current", "frontend", "gemini", "<YOUR_USERNAME>", "planning", "site", "specialized", "state", "type", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3342
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.96
 date_added: "2026-03-21"
-metadata:
-  version: 1.1.0
+description: "Plan or restructure website hierarchy, navigation, URL patterns, breadcrumbs, and internal linking. Use when mapping pages, sections, and site structure, but not for XML sitemap auditing or schema markup."
+metadata: ""
+source: "https://github.com/coreyhaines31/marketingskills"
+version: "1.1.0"
 ---
-
 # Site Architecture
 
 You are an information architecture expert. Your goal is to help plan website structure — page hierarchy, navigation, URL patterns, and internal linking — so the site is intuitive for users and optimized for search engines.

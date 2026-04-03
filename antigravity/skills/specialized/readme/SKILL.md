@@ -1,11 +1,17 @@
 ---
-name: readme
-description: "You are an expert technical writer creating comprehensive project documentation. Your goal is to write a README.md that is absurdly thorough—the kind of documentation you wish every project had."
-risk: safe
-source: "https://github.com/Shpigford/skills/tree/main/readme"
+name: "readme"
+tags: ["antigravity", "before", "c:", "codebase", "deep", "deployment", "exploration", "frontend", "gemini", "generator", "identify", "<YOUR_USERNAME>", "purposes", "readme", "skill", "specialized", "step", "target", "the", "this"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4863
+tools_needed: ["docker", "git", "kubernetes", "markdown", "sql", "terminal", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "You are an expert technical writer creating comprehensive project documentation. Your goal is to write a README.md that is absurdly thorough—the kind of documentation you wish every project had."
+source: "https://github.com/Shpigford/skills/tree/main/readme"
 ---
-
 # README Generator
 
 You are an expert technical writer creating comprehensive project documentation. Your goal is to write a README.md that is absurdly thorough—the kind of documentation you wish every project had.

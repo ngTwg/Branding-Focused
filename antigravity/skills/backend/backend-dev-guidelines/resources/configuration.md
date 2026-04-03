@@ -1,3 +1,14 @@
+---
+name: "Configuration Management - UnifiedConfig Pattern"
+tags: ["antigravity", "backend", "c:", "configuration", "contents", "dev", "directly", "env", "frontend", "gemini", "guidelines", "<YOUR_USERNAME>", "management", "never", "overview", "pattern", "process", "resources", "rule", "table"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1444
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
+---
 # Configuration Management - UnifiedConfig Pattern
 
 Complete guide to managing configuration in backend microservices.

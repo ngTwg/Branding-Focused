@@ -1,11 +1,17 @@
 ---
-name: gitops-workflow
-description: "Complete guide to implementing GitOps workflows with ArgoCD and Flux for automated Kubernetes deployments."
-risk: critical
-source: community
+name: "gitops-workflow"
+tags: ["antigravity", "c:", "frontend", "gemini", "gitops", "instructions", "<YOUR_USERNAME>", "not", "purpose", "safety", "skill", "specialized", "this", "use", "users", "when", "workflow"]
+tier: 2
+risk: "critical"
+estimated_tokens: 1555
+tools_needed: ["git", "kubernetes", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.92
 date_added: "2026-02-27"
+description: "Complete guide to implementing GitOps workflows with ArgoCD and Flux for automated Kubernetes deployments."
+source: "community"
 ---
-
 # GitOps Workflow
 
 Complete guide to implementing GitOps workflows with ArgoCD and Flux for automated Kubernetes deployments.

@@ -1,11 +1,17 @@
 ---
-name: performance-testing-review-multi-agent-review
-description: "Use when working with performance testing review multi agent review"
-risk: unknown
-source: community
+name: "performance-testing-review-multi-agent-review"
+tags: ["agent", "and", "antigravity", "c:", "code", "context", "expert", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "multi", "not", "orchestration", "performance", "purpose", "review", "role", "skill", "specialist"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1699
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.90
 date_added: "2026-02-27"
+description: "Use when working with performance testing review multi agent review"
+source: "community"
 ---
-
 # Multi-Agent Code Review Orchestration Tool
 
 ## Use this skill when

@@ -1,3 +1,14 @@
+---
+name: "Loki Mode Benchmark Results"
+tags: ["01", "05", "17", "2026", "24", "antigravity", "bench", "benchmark", "benchmarks", "c:", "datasets", "download", "frontend", "gemini", "<YOUR_USERNAME>", "lite", "loki", "methodology", "mode", "only"]
+tier: 3
+risk: "medium"
+estimated_tokens: 335
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.70
+---
 # Loki Mode Benchmark Results
 
 **Generated:** 2026-01-05 07:34:38

@@ -1,3 +1,14 @@
+---
+name: "React Modernization Implementation Playbook"
+tags: ["antigravity", "c:", "class", "frontend", "gemini", "hooks", "implementation", "<YOUR_USERNAME>", "migration", "modernization", "path", "playbook", "react", "resources", "skill", "this", "upgrade", "use", "users", "version"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2892
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # React Modernization Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

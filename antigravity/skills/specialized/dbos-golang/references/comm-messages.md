@@ -1,10 +1,17 @@
 ---
-title: Use Messages for Workflow Notifications
-impact: MEDIUM
-impactDescription: Enables reliable inter-workflow and external-to-workflow communication
-tags: communication, messages, send, recv, notification
+name: "Use Messages for Workflow Notifications"
+tags: ["communication, messages, send, recv, notification"]
+tier: 2
+risk: "medium"
+estimated_tokens: 496
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.58
+impact: "MEDIUM"
+impactDescription: "Enables reliable inter-workflow and external-to-workflow communication"
+title: "Use Messages for Workflow Notifications"
 ---
-
 ## Use Messages for Workflow Notifications
 
 Use `dbos.Send` to send messages to a workflow and `dbos.Recv` to receive them. Messages are queued per topic and persisted for reliable delivery.

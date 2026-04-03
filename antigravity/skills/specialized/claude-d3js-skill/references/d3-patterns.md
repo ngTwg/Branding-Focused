@@ -1,3 +1,14 @@
+---
+name: "D3.js Visualisation Patterns"
+tags: ["antigravity", "c:", "chord", "claude", "d3", "d3js", "data-engineering", "diagram", "gemini", "hierarchical", "<YOUR_USERNAME>", "patterns", "references", "specialized", "sunburst", "tree", "treemap", "users", "visualisation", "visualisations"]
+tier: 3
+risk: "high"
+estimated_tokens: 5401
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["data", "analytics"]
+quality_score: 0.95
+---
 # D3.js Visualisation Patterns
 
 This reference provides detailed code patterns for common d3.js visualisation types.

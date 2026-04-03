@@ -1,12 +1,18 @@
 ---
-name: shodan-reconnaissance
-description: "Provide systematic methodologies for leveraging Shodan as a reconnaissance tool during penetration testing engagements."
-risk: unknown
-source: community
-author: zebbern
+name: "shodan-reconnaissance"
+tags: ["and", "antigravity", "c:", "configuration", "core", "deliverables", "frontend", "gemini", "inputs", "<YOUR_USERNAME>", "outputs", "pentesting", "prerequisites", "purpose", "reconnaissance", "setup", "shodan", "specialized", "users", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3424
+tools_needed: ["docker", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+author: "zebbern"
 date_added: "2026-02-27"
+description: "Provide systematic methodologies for leveraging Shodan as a reconnaissance tool during penetration testing engagements."
+source: "community"
 ---
-
 # Shodan Reconnaissance and Pentesting
 
 ## Purpose

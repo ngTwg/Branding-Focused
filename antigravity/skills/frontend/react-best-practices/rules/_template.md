@@ -1,10 +1,17 @@
 ---
-title: Rule Title Here
-impact: MEDIUM
-impactDescription: Optional description of impact (e.g., "20-50% improvement")
-tags: tag1, tag2
+name: "Rule Title Here"
+tags: ["tag1, tag2"]
+tier: 2
+risk: "medium"
+estimated_tokens: 157
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.55
+impact: "MEDIUM"
+impactDescription: "Optional description of impact (e.g., \"20-50% improvement\")"
+title: "Rule Title Here"
 ---
-
 ## Rule Title Here
 
 **Impact: MEDIUM (optional impact description)**

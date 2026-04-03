@@ -1,8 +1,15 @@
 ---
-name: seo-review
-description: Perform a focused SEO audit on JavaScript concept pages to maximize search visibility, featured snippet optimization, and ranking potential
+name: "seo-review"
+tags: ["antigravity", "audit", "c:", "concept", "for", "frontend", "gemini", "goal", "identify", "keywords", "<YOUR_USERNAME>", "methodology", "page", "pages", "seo", "skill", "specialized", "step", "target", "use"]
+tier: 1
+risk: "medium"
+estimated_tokens: 8775
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.96
+description: "Perform a focused SEO audit on JavaScript concept pages to maximize search visibility, featured snippet optimization, and ranking potential"
 ---
-
 # Skill: SEO Audit for Concept Pages
 
 Use this skill to perform a focused SEO audit on concept documentation pages for the 33 JavaScript Concepts project. The goal is to maximize search visibility for JavaScript developers.

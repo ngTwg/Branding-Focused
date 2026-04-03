@@ -1,3 +1,14 @@
+---
+name: "Previews"
+tags: ["antigravity", "c:", "checklist", "core", "dependencies", "example", "frontend", "gemini", "injected", "intent", "<YOUR_USERNAME>", "patterns", "preview", "previews", "references", "rules", "simple", "specialized", "states", "swiftui"]
+tier: 2
+risk: "medium"
+estimated_tokens: 422
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.69
+---
 # Previews
 
 ## Intent

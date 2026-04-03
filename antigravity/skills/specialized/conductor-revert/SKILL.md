@@ -1,11 +1,17 @@
 ---
-name: conductor-revert
-description: "Git-aware undo by logical work unit (track, phase, or task)"
-risk: critical
-source: community
+name: "conductor-revert"
+tags: ["antigravity", "c:", "checks", "conductor", "flight", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "pre", "revert", "selection", "skill", "specialized", "target", "this", "track", "use", "users"]
+tier: 2
+risk: "critical"
+estimated_tokens: 2313
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Git-aware undo by logical work unit (track, phase, or task)"
+source: "community"
 ---
-
 # Revert Track
 
 Revert changes by logical work unit with full git awareness. Supports reverting entire tracks, specific phases, or individual tasks.

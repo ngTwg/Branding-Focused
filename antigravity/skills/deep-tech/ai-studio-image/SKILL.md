@@ -1,4 +1,15 @@
 ---
+name: "AI Studio Image — Especialista em Imagens Humanizadas"
+tags: ["ai", "antigravity", "c:", "deep", "deep-tech", "especialista", "frontend", "gemini", "how", "humanizadas", "image", "imagens", "<YOUR_USERNAME>", "not", "overview", "skill", "studio", "tech", "this", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2693
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
+---
 name: ai-studio-image
 description: Geracao de imagens humanizadas via Google AI Studio (Gemini). Fotos realistas estilo influencer ou educacional com iluminacao natural e imperfeicoes sutis.
 risk: safe

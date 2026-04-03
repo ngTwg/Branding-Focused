@@ -1,3 +1,14 @@
+---
+name: "Retrieving Metrics with Trackio CLI"
+tags: ["antigravity", "c:", "cli", "command", "commands", "core", "dashboard", "face", "frontend", "gemini", "get", "hugging", "<YOUR_USERNAME>", "list", "metrics", "quick", "reference", "references", "retrieving", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2175
+tools_needed: ["markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Retrieving Metrics with Trackio CLI
 
 The `trackio` CLI provides direct terminal access to query Trackio experiment tracking data locally without needing to start the MCP server.

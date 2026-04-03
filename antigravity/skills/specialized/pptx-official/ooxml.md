@@ -1,3 +1,14 @@
+---
+name: "Office Open XML Technical Reference for PowerPoint"
+tags: ["antigravity", "basic", "box", "c:", "compliance", "for", "frontend", "gemini", "guidelines", "<YOUR_USERNAME>", "office", "official", "ooxml", "open", "powerpoint", "pptx", "presentation", "reference", "schema", "shape"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2596
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Office Open XML Technical Reference for PowerPoint
 
 **Important: Read this entire document before starting.** Critical XML schema rules and formatting requirements are covered throughout. Incorrect implementation can create invalid PPTX files that PowerPoint cannot open.

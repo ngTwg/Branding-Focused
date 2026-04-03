@@ -1,11 +1,17 @@
 ---
-name: azure-storage-blob-java
-description: "Build blob storage applications using the Azure Storage Blob SDK for Java."
-risk: unknown
-source: community
+name: "azure-storage-blob-java"
+tags: ["antigravity", "azure", "blob", "blobcontainerclient", "blobserviceclient", "c:", "client", "creation", "defaultazurecredential", "devops", "for", "frontend", "gemini", "installation", "java", "<YOUR_USERNAME>", "sdk", "storage", "users", "with"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2499
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
 date_added: "2026-02-27"
+description: "Build blob storage applications using the Azure Storage Blob SDK for Java."
+source: "community"
 ---
-
 # Azure Storage Blob SDK for Java
 
 Build blob storage applications using the Azure Storage Blob SDK for Java.

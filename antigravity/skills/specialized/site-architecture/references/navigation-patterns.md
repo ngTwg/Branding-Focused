@@ -1,3 +1,14 @@
+---
+name: "Navigation Patterns"
+tags: ["antigravity", "architecture", "c:", "footer", "frontend", "gemini", "header", "items", "<YOUR_USERNAME>", "mega", "menu", "navigation", "patterns", "references", "simple", "site", "specialized", "split", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2268
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.92
+---
 # Navigation Patterns
 
 Detailed navigation patterns for different site types and contexts.

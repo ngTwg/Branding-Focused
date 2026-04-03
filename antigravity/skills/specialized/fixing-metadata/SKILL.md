@@ -1,12 +1,18 @@
 ---
-name: fixing-metadata
+name: "fixing-metadata"
+tags: ["and", "antigravity", "c:", "categories", "correctness", "critical", "description", "duplication", "fixing", "frontend", "gemini", "high", "<YOUR_USERNAME>", "metadata", "priority", "quick", "reference", "rule", "specialized", "title"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1085
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.74
 description: "Audit and fix HTML metadata including page titles, meta descriptions, canonical URLs, Open Graph tags, Twitter cards, favicons, JSON-LD structured data, and robots directives. Use when adding or reviewing SEO and social metadata."
-risk: safe
-source: community
-version: 1.0.1
-license: MIT
+license: "MIT"
+source: "community"
+version: "1.0.1"
 ---
-
 ## Workflow
 
 1. Identify pages with missing or incorrect metadata (titles, descriptions, canonical, OG tags)

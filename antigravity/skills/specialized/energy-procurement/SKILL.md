@@ -1,11 +1,17 @@
 ---
-name: energy-procurement
-description: Codified expertise for electricity and gas procurement, tariff optimisation, demand charge management, renewable PPA evaluation, and multi-facility energy cost management.
-risk: safe
-source: https://github.com/ai-evos/agent-skills
-date_added: '2026-02-27'
+name: "energy-procurement"
+tags: ["anatomy", "and", "antigravity", "bill", "c:", "context", "core", "energy", "gemini", "knowledge", "<YOUR_USERNAME>", "pricing", "procurement", "role", "specialized", "strategies", "structures", "use", "users", "utility"]
+tier: 3
+risk: "medium"
+estimated_tokens: 7329
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.81
+date_added: "2026-02-27"
+description: "Codified expertise for electricity and gas procurement, tariff optimisation, demand charge management, renewable PPA evaluation, and multi-facility energy cost management."
+source: "https://github.com/ai-evos/agent-skills"
 ---
-
 ## When to Use
 Use this skill when managing energy procurement tasks, such as optimizing electricity or gas tariffs, evaluating Power Purchase Agreements (PPAs), or developing long-term energy cost management strategies for commercial or industrial facilities.
 

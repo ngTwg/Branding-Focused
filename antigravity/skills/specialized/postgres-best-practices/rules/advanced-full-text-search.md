@@ -1,10 +1,17 @@
 ---
-title: Use tsvector for Full-Text Search
-impact: MEDIUM
-impactDescription: 100x faster than LIKE, with ranking support
-tags: full-text-search, tsvector, gin, search
+name: "Use tsvector for Full-Text Search"
+tags: ["full-text-search, tsvector, gin, search"]
+tier: 2
+risk: "medium"
+estimated_tokens: 367
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
+impact: "MEDIUM"
+impactDescription: "100x faster than LIKE, with ranking support"
+title: "Use tsvector for Full-Text Search"
 ---
-
 ## Use tsvector for Full-Text Search
 
 LIKE with wildcards can't use indexes. Full-text search with tsvector is orders of magnitude faster.

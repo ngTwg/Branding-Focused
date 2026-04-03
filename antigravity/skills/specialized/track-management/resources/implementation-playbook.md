@@ -1,3 +1,14 @@
+---
+name: "Track Management Implementation Playbook"
+tags: ["antigravity", "c:", "concept", "feature", "frontend", "gemini", "implementation", "<YOUR_USERNAME>", "management", "playbook", "resources", "skill", "specialized", "this", "track", "types", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3388
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Track Management Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

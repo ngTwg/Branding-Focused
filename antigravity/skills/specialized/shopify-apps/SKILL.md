@@ -1,11 +1,17 @@
 ---
-name: shopify-apps
-description: "Modern Shopify app template with React Router"
-risk: safe
-source: "vibeship-spawner-skills (Apache 2.0)"
+name: "shopify-apps"
+tags: ["anti", "antigravity", "app", "apps", "bridge", "c:", "embedded", "frontend", "gemini", "handling", "<YOUR_USERNAME>", "patterns", "react", "router", "setup", "shopify", "specialized", "users", "webhook", "with"]
+tier: 2
+risk: "medium"
+estimated_tokens: 291
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.66
 date_added: "2026-02-27"
+description: "Modern Shopify app template with React Router"
+source: "vibeship-spawner-skills (Apache 2.0)"
 ---
-
 # Shopify Apps
 
 ## Patterns

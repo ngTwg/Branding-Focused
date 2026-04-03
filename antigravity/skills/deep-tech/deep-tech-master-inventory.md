@@ -1,3 +1,14 @@
+---
+name: "Deep-tech Consolidated Skills"
+tags: ["deep", "deep-tech", "tech"]
+tier: 4
+risk: "high"
+estimated_tokens: 8192
+tools_needed: ["docker", "markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["research"]
+quality_score: 0.55
+---
 # Deep-tech Consolidated Skills
 
 ## 📋 Table of Contents

@@ -1,3 +1,14 @@
+---
+name: "Padrões Históricos de Tempo por Tipo de Tarefa"
+tags: ["agentes", "antigravity", "análise", "apis", "c:", "criação", "frontend", "gemini", "históricos", "infraestrutura", "instalação", "integrações", "intelligence", "<YOUR_USERNAME>", "padrões", "patterns", "personas", "pesquisa", "por", "references"]
+tier: 2
+risk: "medium"
+estimated_tokens: 622
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.65
+---
 # Padrões Históricos de Tempo por Tipo de Tarefa
 
 Baseado em execuções reais do ecossistema.

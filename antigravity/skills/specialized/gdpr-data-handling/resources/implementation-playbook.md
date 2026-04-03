@@ -1,3 +1,14 @@
+---
+name: "GDPR Data Handling Implementation Playbook"
+tags: ["antigravity", "bases", "c:", "categories", "concepts", "core", "data", "for", "frontend", "gdpr", "gemini", "handling", "implementation", "legal", "<YOUR_USERNAME>", "personal", "playbook", "processing", "resources", "skill"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4955
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # GDPR Data Handling Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

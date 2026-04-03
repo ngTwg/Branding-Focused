@@ -1,10 +1,17 @@
 ---
-title: Parallel Data Fetching with Component Composition
-impact: CRITICAL
-impactDescription: eliminates server-side waterfalls
-tags: server, rsc, parallel-fetching, composition
+name: "Parallel Data Fetching with Component Composition"
+tags: ["server, rsc, parallel-fetching, composition"]
+tier: 2
+risk: "medium"
+estimated_tokens: 388
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
+impact: "CRITICAL"
+impactDescription: "eliminates server-side waterfalls"
+title: "Parallel Data Fetching with Component Composition"
 ---
-
 ## Parallel Data Fetching with Component Composition
 
 React Server Components execute sequentially within a tree. Restructure with composition to parallelize data fetching.

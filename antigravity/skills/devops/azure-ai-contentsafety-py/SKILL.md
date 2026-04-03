@@ -1,11 +1,17 @@
 ---
-name: azure-ai-contentsafety-py
-description: Azure AI Content Safety SDK for Python. Use for detecting harmful content in text and images with multi-severity classification.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "azure-ai-contentsafety-py"
+tags: ["ai", "antigravity", "api", "authentication", "azure", "c:", "content", "contentsafety", "devops", "entra", "environment", "for", "frontend", "gemini", "installation", "key", "<YOUR_USERNAME>", "py", "python", "safety"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1420
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.89
+date_added: "2026-02-27"
+description: "Azure AI Content Safety SDK for Python. Use for detecting harmful content in text and images with multi-severity classification."
+source: "community"
 ---
-
 # Azure AI Content Safety SDK for Python
 
 Detect harmful user-generated and AI-generated content in applications.

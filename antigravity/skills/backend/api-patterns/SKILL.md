@@ -1,9 +1,16 @@
 ---
-name: api-patterns
-description: API design principles and decision-making. REST vs GraphQL vs tRPC selection, response formats, versioning, pagination.
-allowed-tools: Read, Write, Edit, Glob, Grep
+name: "api-patterns"
+tags: ["anti", "antigravity", "api", "backend", "c:", "checklist", "content", "decision", "frontend", "gemini", "<YOUR_USERNAME>", "map", "patterns", "reading", "related", "rule", "selective", "skills", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 605
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.65
+allowed-tools: "Read, Write, Edit, Glob, Grep"
+description: "API design principles and decision-making. REST vs GraphQL vs tRPC selection, response formats, versioning, pagination."
 ---
-
 # API Patterns
 
 > API design principles and decision-making for 2025.

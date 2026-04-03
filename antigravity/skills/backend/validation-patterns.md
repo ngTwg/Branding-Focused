@@ -1,3 +1,14 @@
+---
+name: "VALIDATION PATTERNS"
+tags: ["advanced", "antigravity", "api", "backend", "basics", "c:", "frontend", "gemini", "<YOUR_USERNAME>", "object", "patterns", "sanitization", "schemas", "users", "validation", "zod"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1571
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.89
+---
 # VALIDATION PATTERNS
 
 > **Khi nào tải skill này:** Validation, Zod, Schema, Input, Sanitize

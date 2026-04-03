@@ -1,3 +1,14 @@
+---
+name: "Antigravity Workflows Implementation Playbook"
+tags: ["antigravity", "artifact", "c:", "completion", "contract", "examples", "execution", "format", "frontend", "gemini", "guardrails", "implementation", "<YOUR_USERNAME>", "playbook", "resources", "safety", "specialized", "step", "suggested", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 251
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.57
+---
 # Antigravity Workflows Implementation Playbook
 
 This document explains how an agent should execute workflow-based orchestration.

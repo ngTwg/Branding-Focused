@@ -1,10 +1,16 @@
 ---
-name: n8n-mcp-tools-expert
-description: Expert guide for using n8n-mcp MCP tools effectively. Use when searching for nodes, validating configurations, accessing templates, managing workflows, or using any n8n-mcp tool. Provides tool selection guidance, parameter formats, and common patterns.
-risk: unknown
-source: community
+name: "n8n-mcp-tools-expert"
+tags: ["antigravity", "c:", "categories", "expert", "finding", "frontend", "gemini", "guide", "<YOUR_USERNAME>", "mcp", "most", "n8n", "node", "quick", "rate", "reference", "right", "selection", "specialized", "success"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4061
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+description: "Expert guide for using n8n-mcp MCP tools effectively. Use when searching for nodes, validating configurations, accessing templates, managing workflows, or using any n8n-mcp tool. Provides tool selection guidance, parameter formats, and common patterns."
+source: "community"
 ---
-
 # n8n MCP Tools Expert
 
 Master guide for using n8n-mcp MCP server tools to build workflows.

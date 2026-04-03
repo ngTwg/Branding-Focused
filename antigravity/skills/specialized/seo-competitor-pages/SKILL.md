@@ -1,4 +1,15 @@
 ---
+name: "Competitor Comparison & Alternatives Pages"
+tags: ["alternatives", "antigravity", "best", "c:", "category", "comparison", "competitor", "frontend", "gemini", "<YOUR_USERNAME>", "page", "pages", "roundup", "seo", "specialized", "tools", "types", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1995
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.88
+---
+---
 name: seo-competitor-pages
 description: >
   Generate SEO-optimized competitor comparison and alternatives pages. Covers

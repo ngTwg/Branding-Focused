@@ -1,3 +1,14 @@
+---
+name: "Testing Skills With Subagents"
+tags: ["antigravity", "baseline", "c:", "fail", "for", "frontend", "gemini", "green", "<YOUR_USERNAME>", "make", "mapping", "minimal", "overview", "pass", "phase", "red", "skill", "skills", "specialized", "subagents"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3132
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Testing Skills With Subagents
 
 **Load this reference when:** creating or editing skills, before deployment, to verify they work under pressure and resist rationalization.

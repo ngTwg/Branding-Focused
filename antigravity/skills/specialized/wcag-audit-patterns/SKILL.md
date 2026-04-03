@@ -1,11 +1,17 @@
 ---
-name: wcag-audit-patterns
-description: "Comprehensive guide to auditing web content against WCAG 2.2 guidelines with actionable remediation strategies."
-risk: safe
-source: community
+name: "wcag-audit-patterns"
+tags: ["antigravity", "audit", "c:", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "patterns", "resources", "safety", "skill", "specialized", "this", "use", "users", "wcag", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 360
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.62
 date_added: "2026-02-27"
+description: "Comprehensive guide to auditing web content against WCAG 2.2 guidelines with actionable remediation strategies."
+source: "community"
 ---
-
 # WCAG Audit Patterns
 
 Comprehensive guide to auditing web content against WCAG 2.2 guidelines with actionable remediation strategies.

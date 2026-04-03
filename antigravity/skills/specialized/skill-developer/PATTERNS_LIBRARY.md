@@ -1,3 +1,14 @@
+---
+name: "Common Patterns Library"
+tags: ["antigravity", "c:", "common", "component", "creation", "database", "developer", "endpoint", "error", "feature", "frontend", "gemini", "handling", "intent", "<YOUR_USERNAME>", "library", "patterns", "regex", "specialized", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 836
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.83
+---
 # Common Patterns Library
 
 Ready-to-use regex and glob patterns for skill triggers. Copy and customize for your skills.

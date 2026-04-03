@@ -1,3 +1,14 @@
+---
+name: "System Prompt Design"
+tags: ["agent", "antigravity", "assistant", "c:", "code", "core", "customer", "design", "effective", "engineering", "example", "frontend", "gemini", "<YOUR_USERNAME>", "library", "pattern", "patterns", "principles", "prompt", "prompts"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1359
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
+---
 # System Prompt Design
 
 ## Core Principles

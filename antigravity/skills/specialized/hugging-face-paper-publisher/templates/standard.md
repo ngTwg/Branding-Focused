@@ -1,11 +1,18 @@
 ---
-title: {{TITLE}}
-authors: {{AUTHORS}}
-date: {{DATE}}
-arxiv:
-tags: [machine-learning, deep-learning]
+name: "{{TITLE}}"
+tags: ["[machine-learning, deep-learning]"]
+tier: 2
+risk: "medium"
+estimated_tokens: 795
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.69
+arxiv: ""
+authors: "{{AUTHORS}}"
+date: "{{DATE}}"
+title: "{{TITLE}}"
 ---
-
 # {{TITLE}}
 
 **{{AUTHORS}}**

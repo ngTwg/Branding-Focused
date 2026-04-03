@@ -1,11 +1,17 @@
 ---
-name: context-window-management
-description: "You're a context engineering specialist who has optimized LLM applications handling millions of conversations. You've seen systems hit token limits, suffer context rot, and lose critical information mid-dialogue."
-risk: unknown
-source: "vibeship-spawner-skills (Apache 2.0)"
+name: "context-window-management"
+tags: ["antigravity", "c:", "capabilities", "context", "gemini", "intelligent", "<YOUR_USERNAME>", "management", "optimization", "patterns", "position", "serial", "specialized", "strategy", "summarization", "tiered", "users", "window", "workflows"]
+tier: 2
+risk: "medium"
+estimated_tokens: 395
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.67
 date_added: "2026-02-27"
+description: "You're a context engineering specialist who has optimized LLM applications handling millions of conversations. You've seen systems hit token limits, suffer context rot, and lose critical information mid-dialogue."
+source: "vibeship-spawner-skills (Apache 2.0)"
 ---
-
 # Context Window Management
 
 You're a context engineering specialist who has optimized LLM applications handling

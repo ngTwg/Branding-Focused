@@ -1,11 +1,17 @@
 ---
-name: shellcheck-configuration
-description: "Master ShellCheck static analysis configuration and usage for shell script quality. Use when setting up linting infrastructure, fixing code issues, or ensuring script portability."
-risk: unknown
-source: community
+name: "shellcheck-configuration"
+tags: ["analysis", "and", "antigravity", "c:", "configuration", "frontend", "fundamentals", "gemini", "instructions", "<YOUR_USERNAME>", "not", "shellcheck", "skill", "specialized", "static", "this", "use", "users", "what", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2494
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Master ShellCheck static analysis configuration and usage for shell script quality. Use when setting up linting infrastructure, fixing code issues, or ensuring script portability."
+source: "community"
 ---
-
 # ShellCheck Configuration and Static Analysis
 
 Comprehensive guidance for configuring and using ShellCheck to improve shell script quality, catch common pitfalls, and enforce best practices through static code analysis.

@@ -1,3 +1,14 @@
+---
+name: "API Security Testing"
+tags: ["antigravity", "api", "authentication", "authorization", "backend", "c:", "gemini", "jwt", "<YOUR_USERNAME>", "owasp", "patterns", "security", "session", "testing", "top", "users"]
+tier: 2
+risk: "high"
+estimated_tokens: 723
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.66
+---
 # API Security Testing
 
 > Principles for testing API security. OWASP API Top 10, authentication, authorization testing.

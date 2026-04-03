@@ -1,12 +1,18 @@
 ---
-name: draw
-description: "Vector graphics and diagram creation, format conversion (ODG/SVG/PDF) with LibreOffice Draw."
-category: graphics-processing
-risk: safe
-source: personal
+name: "draw"
+tags: ["antigravity", "c:", "capabilities", "conversion", "core", "creation", "draw", "format", "frontend", "gemini", "graphics", "<YOUR_USERNAME>", "libreoffice", "overview", "skill", "specialized", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 949
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
+category: "graphics-processing"
 date_added: "2026-02-27"
+description: "Vector graphics and diagram creation, format conversion (ODG/SVG/PDF) with LibreOffice Draw."
+source: "personal"
 ---
-
 # LibreOffice Draw
 
 ## Overview

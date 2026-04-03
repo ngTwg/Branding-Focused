@@ -1,3 +1,14 @@
+---
+name: "Provider Comparison Guide"
+tags: ["ai", "antigravity", "assemblyai", "azure", "c:", "cloud", "comparison", "deepgram", "development", "engine", "frontend", "gemini", "google", "guide", "<YOUR_USERNAME>", "provider", "providers", "references", "specialized", "speech"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2739
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Provider Comparison Guide
 
 This guide compares different providers for transcription, LLM, and TTS services to help you choose the best option for your voice AI engine.

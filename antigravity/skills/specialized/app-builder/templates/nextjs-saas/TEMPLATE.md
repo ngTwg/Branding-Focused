@@ -1,8 +1,15 @@
 ---
-name: nextjs-saas
-description: Next.js SaaS template principles. Auth, payments, email.
+name: "nextjs-saas"
+tags: ["antigravity", "app", "builder", "c:", "database", "directory", "environment", "features", "frontend", "gemini", "<YOUR_USERNAME>", "next", "nextjs", "saas", "schema", "specialized", "stack", "structure", "tech", "template"]
+tier: 2
+risk: "medium"
+estimated_tokens: 522
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.69
+description: "Next.js SaaS template principles. Auth, payments, email."
 ---
-
 # Next.js SaaS Template
 
 ## Tech Stack

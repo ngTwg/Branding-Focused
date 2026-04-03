@@ -1,8 +1,15 @@
 ---
-name: express-api
-description: Express.js REST API template principles. TypeScript, Prisma, JWT.
+name: "express-api"
+tags: ["antigravity", "api", "app", "builder", "c:", "directory", "express", "format", "frontend", "gemini", "<YOUR_USERNAME>", "middleware", "response", "setup", "specialized", "stack", "steps", "structure", "tech", "template"]
+tier: 2
+risk: "medium"
+estimated_tokens: 408
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.66
+description: "Express.js REST API template principles. TypeScript, Prisma, JWT."
 ---
-
 # Express.js API Template
 
 ## Tech Stack

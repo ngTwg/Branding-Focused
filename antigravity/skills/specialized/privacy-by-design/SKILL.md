@@ -1,11 +1,17 @@
 ---
-name: privacy-by-design
-description: "Use when building apps that collect user data. Ensures privacy protections are built in from the start—data minimization, consent, encryption."
-risk: safe
-source: community
+name: "privacy-by-design"
+tags: ["antigravity", "by", "c:", "core", "data", "design", "frameworks", "frontend", "gemini", "legal", "<YOUR_USERNAME>", "minimization", "overview", "principles", "privacy", "skill", "specialized", "this", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1768
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.94
 date_added: "2026-02-23"
+description: "Use when building apps that collect user data. Ensures privacy protections are built in from the start—data minimization, consent, encryption."
+source: "community"
 ---
-
 # Privacy by Design
 
 ## Overview

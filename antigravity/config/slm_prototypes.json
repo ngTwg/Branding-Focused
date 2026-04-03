@@ -1,0 +1,68 @@
+{
+    "frontend": {
+        "examples": [
+            "create react component",
+            "style button with tailwind",
+            "add animation to navbar",
+            "fix CSS layout issue",
+            "implement responsive design",
+            "add form validation",
+            "create UI component"
+        ]
+    },
+    "backend": {
+        "examples": [
+            "create REST API endpoint",
+            "add database migration",
+            "implement authentication",
+            "write SQL query",
+            "add API route",
+            "create database schema",
+            "implement JWT auth"
+        ]
+    },
+    "debug": {
+        "examples": [
+            "fix bug in checkout flow",
+            "investigate crash",
+            "trace error in logs",
+            "debug memory leak",
+            "find root cause of error",
+            "troubleshoot performance issue",
+            "analyze stack trace"
+        ]
+    },
+    "infra": {
+        "examples": [
+            "configure docker container",
+            "setup CI/CD pipeline",
+            "deploy to production",
+            "configure nginx",
+            "setup kubernetes cluster",
+            "write terraform config",
+            "configure cloud infrastructure"
+        ]
+    },
+    "architecture": {
+        "examples": [
+            "design system architecture",
+            "plan microservices structure",
+            "create database schema design",
+            "design API structure",
+            "plan scalability approach",
+            "architect solution",
+            "design data flow"
+        ]
+    },
+    "general": {
+        "examples": [
+            "explain how this works",
+            "what is the best approach",
+            "help me understand",
+            "provide documentation",
+            "general question",
+            "how do I",
+            "what should I do"
+        ]
+    }
+}

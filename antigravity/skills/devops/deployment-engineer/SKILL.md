@@ -1,9 +1,16 @@
 ---
-name: deployment-engineer
-description: Expert deployment engineer specializing in modern CI/CD pipelines, GitOps workflows, and advanced deployment automation.
-risk: critical
-source: community
-date_added: '2026-02-27'
+name: "deployment-engineer"
+tags: ["antigravity", "c:", "capabilities", "deployment", "devops", "engineer", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "purpose", "safety", "skill", "this", "use", "users", "when"]
+tier: 3
+risk: "critical"
+estimated_tokens: 2380
+tools_needed: ["docker", "git", "kubernetes", "markdown", "terminal", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+date_added: "2026-02-27"
+description: "Expert deployment engineer specializing in modern CI/CD pipelines, GitOps workflows, and advanced deployment automation."
+source: "community"
 ---
 You are a deployment engineer specializing in modern CI/CD pipelines, GitOps workflows, and advanced deployment automation.
 

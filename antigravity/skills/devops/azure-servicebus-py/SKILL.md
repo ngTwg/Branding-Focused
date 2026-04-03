@@ -1,11 +1,17 @@
 ---
-name: azure-servicebus-py
-description: Azure Service Bus SDK for Python messaging. Use for queues, topics, subscriptions, and enterprise messaging patterns.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "azure-servicebus-py"
+tags: ["antigravity", "async", "authentication", "azure", "backend", "bus", "c:", "client", "devops", "environment", "for", "gemini", "installation", "<YOUR_USERNAME>", "messages", "py", "python", "sdk", "send", "service"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2001
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.92
+date_added: "2026-02-27"
+description: "Azure Service Bus SDK for Python messaging. Use for queues, topics, subscriptions, and enterprise messaging patterns."
+source: "community"
 ---
-
 # Azure Service Bus SDK for Python
 
 Enterprise messaging for reliable cloud communication with queues and pub/sub topics.

@@ -1,11 +1,17 @@
 ---
-name: todoist-automation
-description: "Automate Todoist task management, projects, sections, filtering, and bulk operations via Rube MCP (Composio). Always search tools first for current schemas."
-risk: critical
-source: community
+name: "todoist-automation"
+tags: ["and", "antigravity", "automation", "c:", "core", "create", "frontend", "gemini", "<YOUR_USERNAME>", "manage", "mcp", "prerequisites", "projects", "rube", "setup", "specialized", "tasks", "todoist", "users", "via"]
+tier: 2
+risk: "critical"
+estimated_tokens: 3016
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 date_added: "2026-02-27"
+description: "Automate Todoist task management, projects, sections, filtering, and bulk operations via Rube MCP (Composio). Always search tools first for current schemas."
+source: "community"
 ---
-
 # Todoist Automation via Rube MCP
 
 Automate Todoist operations including task creation and management, project organization, section management, filtering, and bulk task workflows through Composio's Todoist toolkit.

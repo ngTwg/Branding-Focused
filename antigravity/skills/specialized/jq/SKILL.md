@@ -1,15 +1,20 @@
 ---
-name: jq
-description: "Expert jq usage for JSON querying, filtering, transformation, and pipeline integration. Practical patterns for real shell workflows."
-category: development
-risk: safe
-source: community
+name: "jq"
+tags: ["[jq, json, shell, cli, data-transformation, bash]"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1850
+tools_needed: ["docker", "git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.98
+author: "kostakost2"
+category: "development"
 date_added: "2026-03-28"
-author: kostakost2
-tags: [jq, json, shell, cli, data-transformation, bash]
-tools: [claude, cursor, gemini]
+description: "Expert jq usage for JSON querying, filtering, transformation, and pipeline integration. Practical patterns for real shell workflows."
+source: "community"
+tools: "[claude, cursor, gemini]"
 ---
-
 # jq — JSON Querying and Transformation
 
 ## Overview

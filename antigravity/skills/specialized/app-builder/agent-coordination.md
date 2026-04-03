@@ -1,3 +1,14 @@
+---
+name: "Agent Coordination"
+tags: ["agent", "antigravity", "app", "builder", "c:", "coordination", "execution", "frontend", "gemini", "<YOUR_USERNAME>", "order", "pipeline", "specialized", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 911
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.57
+---
 # Agent Coordination
 
 > How App Builder orchestrates specialist agents.

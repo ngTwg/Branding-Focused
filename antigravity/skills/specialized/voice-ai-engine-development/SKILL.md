@@ -1,11 +1,17 @@
 ---
-name: voice-ai-engine-development
-description: "Build real-time conversational AI voice engines using async worker pipelines, streaming transcription, LLM agents, and TTS synthesis with interrupt handling and multi-provider support"
-risk: unknown
-source: community
+name: "voice-ai-engine-development"
+tags: ["ai", "antigravity", "architecture", "base", "c:", "core", "development", "engine", "frontend", "gemini", "<YOUR_USERNAME>", "overview", "pattern", "pipeline", "principles", "skill", "specialized", "the", "this", "use"]
+tier: 3
+risk: "medium"
+estimated_tokens: 5760
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Build real-time conversational AI voice engines using async worker pipelines, streaming transcription, LLM agents, and TTS synthesis with interrupt handling and multi-provider support"
+source: "community"
 ---
-
 # Voice AI Engine Development
 
 ## Overview

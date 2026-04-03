@@ -1,11 +1,17 @@
 ---
-name: performance-profiling
-description: "Performance profiling principles. Measurement, analysis, and optimization techniques."
-risk: unknown
-source: community
+name: "performance-profiling"
+tags: ["antigravity", "c:", "core", "frontend", "gemini", "<YOUR_USERNAME>", "measure", "performance", "profiling", "runtime", "scripts", "specialized", "targets", "users", "vitals", "web", "when", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 802
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.72
 date_added: "2026-02-27"
+description: "Performance profiling principles. Measurement, analysis, and optimization techniques."
+source: "community"
 ---
-
 # Performance Profiling
 
 > Measure, analyze, optimize - in that order.

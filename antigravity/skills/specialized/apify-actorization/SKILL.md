@@ -1,10 +1,16 @@
 ---
-name: apify-actorization
+name: "apify-actorization"
+tags: ["actorization", "antigravity", "apify", "c:", "cli", "from", "frontend", "gemini", "install", "<YOUR_USERNAME>", "manager", "npm", "official", "package", "prerequisites", "quick", "release", "skill", "specialized", "start"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1626
+tools_needed: ["docker", "git", "markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.94
 description: "Actorization converts existing software into reusable serverless applications compatible with the Apify platform. Actors are programs packaged as Docker images that accept well-defined JSON input, perform an action, and optionally produce structured JSON output."
-risk: unknown
-source: community
+source: "community"
 ---
-
 # Apify Actorization
 
 Actorization converts existing software into reusable serverless applications compatible with the Apify platform. Actors are programs packaged as Docker images that accept well-defined JSON input, perform an action, and optionally produce structured JSON output.

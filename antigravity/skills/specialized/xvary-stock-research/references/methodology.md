@@ -1,3 +1,14 @@
+---
+name: "XVARY Methodology (Public Framework)"
+tags: ["antigravity", "c:", "check", "dag", "finalize", "framework", "frontend", "gates", "gemini", "intent", "<YOUR_USERNAME>", "line", "methodology", "modules", "names", "one", "operational", "philosophy", "public", "quality"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1749
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.78
+---
 # XVARY Methodology (Public Framework)
 
 This document is the **public framework** for XVARY Research.

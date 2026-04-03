@@ -1,11 +1,17 @@
 ---
-name: app-store-optimization
-description: "Complete App Store Optimization (ASO) toolkit for researching, optimizing, and tracking mobile app performance on Apple App Store and Google Play Store"
-risk: unknown
-source: community
+name: "app-store-optimization"
+tags: ["analysis", "antigravity", "app", "aso", "c:", "capabilities", "conversion", "frontend", "gemini", "<YOUR_USERNAME>", "management", "metadata", "optimization", "rating", "research", "review", "skill", "specialized", "store", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 4167
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Complete App Store Optimization (ASO) toolkit for researching, optimizing, and tracking mobile app performance on Apple App Store and Google Play Store"
+source: "community"
 ---
-
 # App Store Optimization (ASO) Skill
 
 This comprehensive skill provides complete ASO capabilities for successfully launching and optimizing mobile applications on the Apple App Store and Google Play Store.

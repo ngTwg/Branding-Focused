@@ -1,3 +1,14 @@
+---
+name: "Concurrency and Parallel Programming"
+tags: ["algorithms", "and", "antigravity", "atomics", "c:", "concurrency", "cpp", "data", "free", "frontend", "gemini", "<YOUR_USERNAME>", "lock", "memory", "ordering", "parallel", "pool", "primitives", "pro", "programming"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2729
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Concurrency and Parallel Programming
 
 ## Atomics and Memory Ordering

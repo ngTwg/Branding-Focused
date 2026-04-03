@@ -1,3 +1,14 @@
+---
+name: "Hardware Selection Guide"
+tags: ["antigravity", "available", "c:", "cpu", "face", "flavors", "frontend", "gemini", "gpu", "guide", "guidelines", "hardware", "hugging", "jobs", "<YOUR_USERNAME>", "references", "selection", "specialized", "tpu", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2064
+tools_needed: ["markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Hardware Selection Guide
 
 Choosing the right hardware (flavor) is critical for cost-effective workloads.

@@ -1,11 +1,17 @@
 ---
 name: "yes-md"
-description: "6-layer AI governance: safety gates, evidence-based debugging, anti-slack detection, and machine-enforced hooks. Makes AI safe, thorough, and honest."
-risk: safe
-source: community
+tags: ["antigravity", "backup", "c:", "deadly", "engine", "first", "frontend", "gate", "gates", "gemini", "governance", "iron", "<YOUR_USERNAME>", "md", "problem", "rules", "safety", "seven", "shortcuts", "skill"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2681
+tools_needed: ["docker", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.84
 date_added: "2026-03-11"
+description: "6-layer AI governance: safety gates, evidence-based debugging, anti-slack detection, and machine-enforced hooks. Makes AI safe, thorough, and honest."
+source: "community"
 ---
-
 # YES.md — AI Governance Engine
 
 > PUA says NO. YES says YES.

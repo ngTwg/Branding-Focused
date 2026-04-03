@@ -1,11 +1,17 @@
 ---
-name: seo-structure-architect
-description: Analyzes and optimizes content structure including header hierarchy, suggests schema markup, and internal linking opportunities. Creates search-friendly content organization.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "seo-structure-architect"
+tags: ["antigravity", "architect", "areas", "best", "c:", "focus", "frontend", "gemini", "header", "instructions", "<YOUR_USERNAME>", "not", "practices", "seo", "siloing", "skill", "specialized", "strategy", "structure", "tag"]
+tier: 2
+risk: "medium"
+estimated_tokens: 729
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.72
+date_added: "2026-02-27"
+description: "Analyzes and optimizes content structure including header hierarchy, suggests schema markup, and internal linking opportunities. Creates search-friendly content organization."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on seo structure architect tasks or workflows

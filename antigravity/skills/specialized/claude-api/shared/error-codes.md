@@ -1,3 +1,14 @@
+---
+name: "HTTP Error Codes Reference"
+tags: ["400", "401", "403", "antigravity", "api", "bad", "c:", "claude", "code", "codes", "detailed", "error", "forbidden", "frontend", "gemini", "http", "information", "<YOUR_USERNAME>", "reference", "request"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1760
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.83
+---
 # HTTP Error Codes Reference
 
 This file documents HTTP error codes returned by the Claude API, their common causes, and how to handle them. For language-specific error handling examples, see the `python/` or `typescript/` folders.

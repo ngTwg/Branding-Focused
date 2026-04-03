@@ -1,3 +1,14 @@
+---
+name: "Loading & Placeholders"
+tags: ["antigravity", "approach", "c:", "frontend", "gemini", "<YOUR_USERNAME>", "loading", "minimal", "patterns", "pitfalls", "placeholders", "prefer", "recommended", "references", "specialized", "swiftui", "ui", "usage", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 317
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.61
+---
 # Loading & Placeholders
 
 Use this when a view needs a consistent loading state (skeletons, redaction, empty state) without blocking interaction.

@@ -1,9 +1,16 @@
 ---
-name: architecture
-description: Architectural decision-making framework. Requirements analysis, trade-off evaluation, ADR documentation. Use when making architecture decisions or analyzing system design.
-allowed-tools: Read, Glob, Grep
+name: "architecture"
+tags: ["antigravity", "architecture", "c:", "checklist", "core", "decision", "framework", "frontend", "gemini", "<YOUR_USERNAME>", "principle", "reading", "related", "rule", "selective", "skills", "specialized", "users", "validation"]
+tier: 2
+risk: "medium"
+estimated_tokens: 438
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.59
+allowed-tools: "Read, Glob, Grep"
+description: "Architectural decision-making framework. Requirements analysis, trade-off evaluation, ADR documentation. Use when making architecture decisions or analyzing system design."
 ---
-
 # Architecture Decision Framework
 
 > "Requirements drive architecture. Trade-offs inform decisions. ADRs capture rationale."

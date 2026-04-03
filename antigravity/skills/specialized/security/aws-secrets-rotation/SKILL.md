@@ -1,13 +1,18 @@
 ---
-name: aws-secrets-rotation
-description: "Automate AWS secrets rotation for RDS, API keys, and credentials"
-category: security
-risk: safe
-source: community
-tags: "[aws, secrets-manager, security, automation, kiro-cli, credentials]"
+name: "aws-secrets-rotation"
+tags: ["[aws, secrets-manager, security, automation, kiro-cli, credentials]"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3085
+tools_needed: ["git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.98
+category: "security"
 date_added: "2026-02-27"
+description: "Automate AWS secrets rotation for RDS, API keys, and credentials"
+source: "community"
 ---
-
 # AWS Secrets Rotation
 
 Automate rotation of secrets, credentials, and API keys using AWS Secrets Manager and Lambda.

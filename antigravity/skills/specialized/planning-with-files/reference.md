@@ -1,3 +1,14 @@
+---
+name: "Reference: Manus Context Engineering Principles"
+tags: ["antigravity", "around", "attention", "c:", "cache", "context", "design", "don", "engineering", "external", "files", "filesystem", "frontend", "gemini", "<YOUR_USERNAME>", "manipulate", "manus", "mask", "memory", "planning"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1737
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.89
+---
 # Reference: Manus Context Engineering Principles
 
 This skill is based on context engineering principles from Manus, the AI agent company acquired by Meta for $2 billion in December 2025.

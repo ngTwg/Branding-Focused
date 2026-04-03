@@ -1,3 +1,14 @@
+---
+name: "Green Phase: Simple function Implementation Playbook"
+tags: ["antigravity", "c:", "frontend", "function", "gemini", "green", "implementation", "instructions", "<YOUR_USERNAME>", "not", "phase", "playbook", "process", "resources", "safety", "simple", "skill", "specialized", "tdd", "this"]
+tier: 2
+risk: "medium"
+estimated_tokens: 5967
+tools_needed: ["git", "markdown", "pytest"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Green Phase: Simple function Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

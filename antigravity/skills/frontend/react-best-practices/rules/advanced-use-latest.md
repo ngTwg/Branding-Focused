@@ -1,10 +1,17 @@
 ---
-title: useLatest for Stable Callback Refs
-impact: LOW
-impactDescription: prevents effect re-runs
-tags: advanced, hooks, useLatest, refs, optimization
+name: "useLatest for Stable Callback Refs"
+tags: ["advanced, hooks, useLatest, refs, optimization"]
+tier: 2
+risk: "medium"
+estimated_tokens: 297
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.59
+impact: "LOW"
+impactDescription: "prevents effect re-runs"
+title: "useLatest for Stable Callback Refs"
 ---
-
 ## useLatest for Stable Callback Refs
 
 Access latest values in callbacks without adding them to dependency arrays. Prevents effect re-runs while avoiding stale closures.

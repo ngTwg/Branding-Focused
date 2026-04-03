@@ -1,11 +1,17 @@
 ---
-name: canva-automation
-description: "Automate Canva tasks via Rube MCP (Composio): designs, exports, folders, brand templates, autofill. Always search tools first for current schemas."
-risk: critical
-source: community
+name: "canva-automation"
+tags: ["and", "antigravity", "automation", "browse", "c:", "canva", "core", "create", "design", "designs", "frontend", "gemini", "<YOUR_USERNAME>", "list", "mcp", "prerequisites", "rube", "setup", "specialized", "users"]
+tier: 2
+risk: "critical"
+estimated_tokens: 2059
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.90
 date_added: "2026-02-27"
+description: "Automate Canva tasks via Rube MCP (Composio): designs, exports, folders, brand templates, autofill. Always search tools first for current schemas."
+source: "community"
 ---
-
 # Canva Automation via Rube MCP
 
 Automate Canva design operations through Composio's Canva toolkit via Rube MCP.

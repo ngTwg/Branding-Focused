@@ -1,8 +1,15 @@
 ---
-name: frontend-dev-guidelines
-description: Frontend development guidelines for React/TypeScript applications. Modern patterns including Suspense, lazy loading, useSuspenseQuery, file organization with features directory, MUI v7 styling, TanStack Router, performance optimization, and TypeScript best practices. Use when creating components, pages, features, fetching data, styling, routing, or working with frontend code.
+name: "frontend-dev-guidelines"
+tags: ["antigravity", "c:", "checklist", "component", "dev", "development", "feature", "frontend", "gemini", "guidelines", "<YOUR_USERNAME>", "new", "purpose", "quick", "skill", "specialized", "start", "this", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2813
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.96
+description: "Frontend development guidelines for React/TypeScript applications. Modern patterns including Suspense, lazy loading, useSuspenseQuery, file organization with features directory, MUI v7 styling, TanStack Router, performance optimization, and TypeScript best practices. Use when creating components, pages, features, fetching data, styling, routing, or working with frontend code."
 ---
-
 # Frontend Development Guidelines
 
 ## Purpose

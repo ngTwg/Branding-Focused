@@ -1,10 +1,16 @@
 ---
-name: apify-lead-generation
+name: "apify-lead-generation"
+tags: ["actor", "antigravity", "apify", "ask", "c:", "determine", "fetch", "frontend", "gemini", "generation", "lead", "<YOUR_USERNAME>", "preferences", "prerequisites", "schema", "source", "specialized", "step", "user", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1061
+tools_needed: ["markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
 description: "Scrape leads from multiple platforms using Apify Actors."
-risk: unknown
-source: community
+source: "community"
 ---
-
 # Lead Generation
 
 Scrape leads from multiple platforms using Apify Actors.

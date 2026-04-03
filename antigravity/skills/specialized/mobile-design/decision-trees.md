@@ -1,3 +1,14 @@
+---
+name: "Mobile Decision Trees"
+tags: ["antigravity", "c:", "choose", "comparison", "decision", "design", "framework", "frontend", "gemini", "<YOUR_USERNAME>", "management", "master", "mobile", "native", "selection", "specialized", "state", "tree", "trees", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3654
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Mobile Decision Trees
 
 > Framework selection, state management, storage strategy, and context-based decisions.

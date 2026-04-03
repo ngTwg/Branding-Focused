@@ -1,11 +1,17 @@
 ---
-name: python-packaging
-description: "Comprehensive guide to creating, structuring, and distributing Python packages using modern packaging tools, pyproject.toml, and publishing to PyPI."
-risk: safe
-source: community
+name: "python-packaging"
+tags: ["antigravity", "backend", "c:", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "packaging", "python", "resources", "skill", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 329
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
 date_added: "2026-02-27"
+description: "Comprehensive guide to creating, structuring, and distributing Python packages using modern packaging tools, pyproject.toml, and publishing to PyPI."
+source: "community"
 ---
-
 # Python Packaging
 
 Comprehensive guide to creating, structuring, and distributing Python packages using modern packaging tools, pyproject.toml, and publishing to PyPI.

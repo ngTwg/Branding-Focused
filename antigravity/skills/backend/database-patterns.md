@@ -1,3 +1,14 @@
+---
+name: "DATABASE PATTERNS"
+tags: ["antigravity", "backend", "c:", "connection", "database", "deletes", "frontend", "gemini", "<YOUR_USERNAME>", "migration", "optimization", "patterns", "pooling", "prisma", "query", "rules", "soft", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1311
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
+---
 # DATABASE PATTERNS
 
 > **Khi nào tải skill này:** Database, SQL, Postgres, Prisma, Query, Migration

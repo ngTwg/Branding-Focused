@@ -73,6 +73,6 @@ The critical breakthrough of Antigravity is treating the RAG (Retrieval-Augmente
 When the `SkillStore` detects a pattern (like an NPM missing dependency), it does not merely feed the LLM a document describing the fix. It directly injects an `ExecutionPlan` blueprint (e.g., *Action 1: Run NPM Install, Action 2: Check Exit Code*) and forces the Planner to instantiate this proven template. This fundamentally alters the architecture from an unconstrained generative loop into a **Surgical Execution System**.
 
 ## 5. Security & Verification Guardrails
-- **Path Sandboxing**: The `ActionRunner` mathematically blocks execution traversing out of the defined workspace (`c:\Users\<YOUR_USERNAME>\.gemini\antigravity`).
+- **Path Sandboxing**: The `ActionRunner` mathematically blocks execution traversing out of the defined workspace (`C:\Users\<YOUR_USERNAME>\.gemini\antigravity`).
 - **Command Whitelisting**: Only deterministic command strings explicitly formatted are dispatched. 
 - **Ground Truth Grounding**: The system never asks the LLM "Did you finish this?". It asks the OS "Does this file exist and does `npm run build` exit code 0?".

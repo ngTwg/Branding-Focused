@@ -1,3 +1,14 @@
+---
+name: "Tech Innovation"
+tags: ["antigravity", "best", "c:", "color", "factory", "for", "gemini", "innovation", "<YOUR_USERNAME>", "palette", "specialized", "tech", "theme", "themes", "typography", "used", "users"]
+tier: 3
+risk: "high"
+estimated_tokens: 136
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["specialized", "domain"]
+quality_score: 0.54
+---
 # Tech Innovation
 
 A bold and modern theme with high-contrast colors perfect for cutting-edge technology presentations.

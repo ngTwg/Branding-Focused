@@ -1,11 +1,17 @@
 ---
-name: kaizen
-description: "Guide for continuous improvement, error proofing, and standardization. Use this skill when the user wants to improve code quality, refactor, or discuss process improvements."
-risk: unknown
-source: community
+name: "kaizen"
+tags: ["antigravity", "c:", "continuous", "error", "four", "frontend", "gemini", "improvement", "kaizen", "<YOUR_USERNAME>", "overview", "pillars", "poka", "proofing", "specialized", "the", "use", "users", "when", "yoke"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4389
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Guide for continuous improvement, error proofing, and standardization. Use this skill when the user wants to improve code quality, refactor, or discuss process improvements."
+source: "community"
 ---
-
 # Kaizen: Continuous Improvement
 
 ## Overview

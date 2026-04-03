@@ -1,11 +1,17 @@
 ---
-name: bash-defensive-patterns
-description: "Master defensive Bash programming techniques for production-grade scripts. Use when writing robust shell scripts, CI/CD pipelines, or system utilities requiring fault tolerance and safety."
-risk: safe
-source: community
+name: "bash-defensive-patterns"
+tags: ["antigravity", "bash", "c:", "defensive", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "patterns", "resources", "safety", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 427
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.63
 date_added: "2026-02-27"
+description: "Master defensive Bash programming techniques for production-grade scripts. Use when writing robust shell scripts, CI/CD pipelines, or system utilities requiring fault tolerance and safety."
+source: "community"
 ---
-
 # Bash Defensive Patterns
 
 Comprehensive guidance for writing production-ready Bash scripts using defensive programming techniques, error handling, and safety best practices to prevent common pitfalls and ensure reliability.

@@ -1,3 +1,14 @@
+---
+name: "Decision Frameworks — Production Scheduling"
+tags: ["algorithms", "antigravity", "approaches", "c:", "critical", "customer", "decision", "detail", "dispatching", "each", "for", "frameworks", "frontend", "gemini", "hybrid", "job", "<YOUR_USERNAME>", "multi", "production", "ratio"]
+tier: 2
+risk: "medium"
+estimated_tokens: 11563
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Decision Frameworks — Production Scheduling
 
 This reference provides the detailed decision logic, scheduling algorithms, optimisation

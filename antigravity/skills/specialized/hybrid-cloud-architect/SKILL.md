@@ -1,11 +1,17 @@
 ---
-name: hybrid-cloud-architect
-description: Expert hybrid cloud architect specializing in complex multi-cloud solutions across AWS/Azure/GCP and private clouds (OpenStack/VMware).
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "hybrid-cloud-architect"
+tags: ["antigravity", "architect", "c:", "capabilities", "cloud", "expertise", "frontend", "gemini", "hybrid", "instructions", "<YOUR_USERNAME>", "multi", "not", "platform", "purpose", "skill", "specialized", "this", "use", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2414
+tools_needed: ["ansible", "git", "kubernetes", "markdown", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+date_added: "2026-02-27"
+description: "Expert hybrid cloud architect specializing in complex multi-cloud solutions across AWS/Azure/GCP and private clouds (OpenStack/VMware)."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on hybrid cloud architect tasks or workflows

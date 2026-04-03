@@ -1,3 +1,14 @@
+---
+name: "Prompt Engineering para Stable Diffusion"
+tags: ["ai", "alta", "antigravity", "c:", "diffusion", "engineering", "estrutura", "frontend", "gemini", "indice", "<YOUR_USERNAME>", "para", "prompt", "qualidade", "qualificadores", "references", "renderizacao", "specialized", "stability", "stable"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1566
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.89
+---
 # Prompt Engineering para Stable Diffusion
 
 ## Indice

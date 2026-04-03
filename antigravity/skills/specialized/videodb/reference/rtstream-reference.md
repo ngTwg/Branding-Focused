@@ -1,3 +1,14 @@
+---
+name: "RTStream Reference"
+tags: ["antigravity", "c:", "capture", "collection", "connect", "existing", "from", "frontend", "gemini", "get", "<YOUR_USERNAME>", "list", "methods", "reference", "rtstream", "rtstreams", "session", "specialized", "users", "videodb"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3697
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # RTStream Reference
 
 Code-level details for RTStream operations. For workflow guide, see [rtstream.md](rtstream.md).

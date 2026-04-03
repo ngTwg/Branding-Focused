@@ -1,11 +1,17 @@
 ---
+name: "hugging-face-model-trainer"
+tags: ["antigravity", "c:", "directives", "etc", "face", "frontend", "gemini", "hugging", "jobs", "key", "<YOUR_USERNAME>", "model", "overview", "skill", "specialized", "this", "trainer", "training", "trl", "unsloth"]
+tier: 3
+risk: "medium"
+estimated_tokens: 6856
+tools_needed: ["docker", "git", "markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+description: "Train or fine-tune TRL language models on Hugging Face Jobs, including SFT, DPO, GRPO, and GGUF export."
+license: "Complete terms in LICENSE.txt"
 source: "https://github.com/huggingface/skills/tree/main/skills/huggingface-llm-trainer"
-name: hugging-face-model-trainer
-description: Train or fine-tune TRL language models on Hugging Face Jobs, including SFT, DPO, GRPO, and GGUF export.
-license: Complete terms in LICENSE.txt
-risk: unknown
 ---
-
 # TRL Training on Hugging Face Jobs
 
 ## Overview

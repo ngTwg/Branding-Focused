@@ -1,11 +1,17 @@
 ---
-name: angular-migration
-description: "Master AngularJS to Angular migration, including hybrid apps, component conversion, dependency injection changes, and routing migration."
-risk: unknown
-source: community
+name: "angular-migration"
+tags: ["angular", "antigravity", "c:", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "migration", "not", "safety", "skill", "strategies", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2565
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Master AngularJS to Angular migration, including hybrid apps, component conversion, dependency injection changes, and routing migration."
+source: "community"
 ---
-
 # Angular Migration
 
 Master AngularJS to Angular migration, including hybrid apps, component conversion, dependency injection changes, and routing migration.

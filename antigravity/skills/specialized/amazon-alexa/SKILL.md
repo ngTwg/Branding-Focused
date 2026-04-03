@@ -1,4 +1,15 @@
 ---
+name: "AMAZON ALEXA — Voz Inteligente com Claude"
+tags: ["alexa", "amazon", "antigravity", "c:", "claude", "com", "ecossistema", "frontend", "gemini", "geral", "how", "inteligente", "<YOUR_USERNAME>", "not", "overview", "skill", "specialized", "this", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4382
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
+---
 name: amazon-alexa
 description: "Integracao completa com Amazon Alexa para criar skills de voz inteligentes, transformar Alexa em assistente com Claude como cerebro (projeto Auri) e integrar com AWS ecosystem (Lambda, DynamoDB, Polly, Transcribe, Lex, Smart Home)."
 risk: safe

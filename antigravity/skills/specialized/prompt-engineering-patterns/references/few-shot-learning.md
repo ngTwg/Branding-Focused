@@ -1,3 +1,14 @@
+---
+name: "Few-Shot Learning Guide"
+tags: ["antigravity", "based", "c:", "difficulty", "diversity", "engineering", "example", "few", "frontend", "gemini", "guide", "learning", "<YOUR_USERNAME>", "overview", "patterns", "prompt", "references", "sampling", "selection", "semantic"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2792
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Few-Shot Learning Guide
 
 ## Overview

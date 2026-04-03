@@ -1,11 +1,17 @@
 ---
-name: azure-communication-common-java
-description: "Azure Communication Services common utilities for Java. Use when working with CommunicationTokenCredential, user identifiers, token refresh, or shared authentication across ACS services."
-risk: unknown
-source: community
+name: "azure-communication-common-java"
+tags: ["antigravity", "azure", "c:", "clients", "common", "communication", "communicationtokencredential", "concepts", "devops", "frontend", "gemini", "installation", "java", "key", "<YOUR_USERNAME>", "lived", "long", "proactive", "refresh", "short"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2433
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.94
 date_added: "2026-02-27"
+description: "Azure Communication Services common utilities for Java. Use when working with CommunicationTokenCredential, user identifiers, token refresh, or shared authentication across ACS services."
+source: "community"
 ---
-
 # Azure Communication Common (Java)
 
 Shared authentication utilities and data structures for Azure Communication Services.

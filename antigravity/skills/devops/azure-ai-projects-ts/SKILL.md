@@ -1,11 +1,17 @@
 ---
-name: azure-ai-projects-ts
-description: "High-level SDK for Azure AI Foundry projects with agents, connections, deployments, and evaluations."
-risk: unknown
-source: community
+name: "azure-ai-projects-ts"
+tags: ["ai", "antigravity", "authentication", "azure", "c:", "client", "devops", "environment", "for", "frontend", "gemini", "getting", "groups", "installation", "<YOUR_USERNAME>", "openai", "operation", "projects", "sdk", "ts"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1733
+tools_needed: ["markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.92
 date_added: "2026-02-27"
+description: "High-level SDK for Azure AI Foundry projects with agents, connections, deployments, and evaluations."
+source: "community"
 ---
-
 # Azure AI Projects SDK for TypeScript
 
 High-level SDK for Azure AI Foundry projects with agents, connections, deployments, and evaluations.

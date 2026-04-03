@@ -1,11 +1,17 @@
 ---
-name: jobgpt
-description: "Job search automation, auto apply, resume generation, application tracking, salary intelligence, and recruiter outreach using the JobGPT MCP server."
-risk: safe
-source: community
+name: "jobgpt"
+tags: ["antigravity", "automation", "c:", "examples", "find", "frontend", "gemini", "job", "jobgpt", "jobs", "<YOUR_USERNAME>", "overview", "remote", "search", "setup", "skill", "specialized", "this", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1339
+tools_needed: ["git", "markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.76
 date_added: "2026-03-23"
+description: "Job search automation, auto apply, resume generation, application tracking, salary intelligence, and recruiter outreach using the JobGPT MCP server."
+source: "community"
 ---
-
 # JobGPT - Job Search Automation
 
 ## Overview

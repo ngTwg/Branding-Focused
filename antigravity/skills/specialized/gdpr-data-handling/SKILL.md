@@ -1,11 +1,17 @@
 ---
-name: gdpr-data-handling
-description: "Practical implementation guide for GDPR-compliant data processing, consent management, and privacy controls."
-risk: safe
-source: community
+name: "gdpr-data-handling"
+tags: ["antigravity", "c:", "data", "frontend", "gdpr", "gemini", "handling", "instructions", "<YOUR_USERNAME>", "not", "resources", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 271
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.59
 date_added: "2026-02-27"
+description: "Practical implementation guide for GDPR-compliant data processing, consent management, and privacy controls."
+source: "community"
 ---
-
 # GDPR Data Handling
 
 Practical implementation guide for GDPR-compliant data processing, consent management, and privacy controls.

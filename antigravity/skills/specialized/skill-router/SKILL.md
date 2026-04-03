@@ -1,10 +1,16 @@
 ---
-name: skill-router
+name: "skill-router"
+tags: ["acknowledge", "and", "antigravity", "ask", "c:", "frontend", "funnel", "gemini", "goal", "instructions", "interview", "<YOUR_USERNAME>", "one", "open", "order", "questions", "router", "skill", "specialized", "step"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2135
+tools_needed: ["docker", "git", "markdown", "playwright", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
 description: "Use when the user is unsure which skill to use or where to start. Interviews the user with targeted questions and recommends the best skill(s) from the installed library for their goal."
-risk: safe
-source: self
+source: "self"
 ---
-
 # Skill Router
 
 ## When to Use

@@ -1,11 +1,17 @@
 ---
-name: memory-systems
-description: "Design short-term, long-term, and graph-based memory architectures. Use when building agents that must persist across sessions, needing to maintain entity consistency across conversations, or implementing reasoning over accumulated knowledge."
-risk: safe
-source: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/memory-systems"
+name: "memory-systems"
+tags: ["antigravity", "architecture", "c:", "concepts", "core", "design", "detailed", "frontend", "fundamentals", "gemini", "<YOUR_USERNAME>", "memory", "skill", "specialized", "system", "systems", "this", "topics", "use", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3288
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
 date_added: "2026-02-27"
+description: "Design short-term, long-term, and graph-based memory architectures. Use when building agents that must persist across sessions, needing to maintain entity consistency across conversations, or implementing reasoning over accumulated knowledge."
+source: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/memory-systems"
 ---
-
 ## When to Use This Skill
 
 Design short-term, long-term, and graph-based memory architectures

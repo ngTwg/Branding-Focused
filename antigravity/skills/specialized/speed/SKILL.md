@@ -1,12 +1,18 @@
 ---
-name: speed
-description: Launch RSVP speed reader for text
-trigger: command
-risk: unknown
-source: community
-tools: Write, Bash, Read
+name: "speed"
+tags: ["antigravity", "arguments", "c:", "data-engineering", "gemini", "instructions", "<YOUR_USERNAME>", "reader", "specialized", "speed", "users"]
+tier: 3
+risk: "high"
+estimated_tokens: 265
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["data", "analytics"]
+quality_score: 0.58
+description: "Launch RSVP speed reader for text"
+source: "community"
+tools: "Write, Bash, Read"
+trigger: "command"
 ---
-
 # Speed Reader
 
 Launch the RSVP speed reader to display text one word at a time with Spritz-style ORP (Optimal Recognition Point) highlighting.

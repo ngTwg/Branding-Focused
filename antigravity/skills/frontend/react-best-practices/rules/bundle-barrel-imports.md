@@ -1,10 +1,17 @@
 ---
-title: Avoid Barrel File Imports
-impact: CRITICAL
-impactDescription: 200-800ms import cost, slow builds
-tags: bundle, imports, tree-shaking, barrel-files, performance
+name: "Avoid Barrel File Imports"
+tags: ["bundle, imports, tree-shaking, barrel-files, performance"]
+tier: 2
+risk: "medium"
+estimated_tokens: 592
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.63
+impact: "CRITICAL"
+impactDescription: "200-800ms import cost, slow builds"
+title: "Avoid Barrel File Imports"
 ---
-
 ## Avoid Barrel File Imports
 
 Import directly from source files instead of barrel files to avoid loading thousands of unused modules. **Barrel files** are entry points that re-export multiple modules (e.g., `index.js` that does `export * from './module'`).

@@ -1,3 +1,14 @@
+---
+name: "📜 LOKI-MODE CONSTITUTION (v5.1.0-ABYSSAL)"
+tags: ["abyssal", "adversarial", "aesthetics", "antigravity", "autonomy", "axioms", "biến", "breakers", "bất", "c:", "circuit", "code", "cognitive", "constitution", "execution", "fallback", "frontend", "gemini", "hồi", "khả"]
+tier: 2
+risk: "medium"
+estimated_tokens: 795
+tools_needed: ["git", "markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.66
+---
 # 📜 LOKI-MODE CONSTITUTION (v5.1.0-ABYSSAL)
 
 *Supreme Legal & Ethical Binding for Autonomous Agentic Operations.*

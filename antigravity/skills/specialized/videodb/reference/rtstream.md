@@ -1,3 +1,14 @@
+---
+name: "RTStream Guide"
+tags: ["antigravity", "c:", "cases", "from", "frontend", "gemini", "guide", "<YOUR_USERNAME>", "overview", "quick", "reference", "rtmp", "rtsp", "rtstream", "sources", "specialized", "start", "streams", "use", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 470
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.71
+---
 # RTStream Guide
 
 ## Overview

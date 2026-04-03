@@ -1,15 +1,20 @@
 ---
-name: k6-load-testing
-description: "Comprehensive k6 load testing skill for API, browser, and scalability testing. Write realistic load scenarios, analyze results, and integrate with CI/CD."
-category: testing
-risk: safe
-source: community
+name: "k6-load-testing"
+tags: ["[k6, load-testing, performance, api-testing, ci-cd]"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3606
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.98
+author: "Kairo Official"
+category: "testing"
 date_added: "2026-03-13"
-author: Kairo Official
-tags: [k6, load-testing, performance, api-testing, ci-cd]
-tools: [claude, cursor, gemini]
+description: "Comprehensive k6 load testing skill for API, browser, and scalability testing. Write realistic load scenarios, analyze results, and integrate with CI/CD."
+source: "community"
+tools: "[claude, cursor, gemini]"
 ---
-
 # k6 Load Testing
 
 ## Overview

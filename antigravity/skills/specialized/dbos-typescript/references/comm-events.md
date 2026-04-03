@@ -1,10 +1,17 @@
 ---
-title: Use Events for Workflow Status Publishing
-impact: MEDIUM
-impactDescription: Enables real-time progress monitoring and interactive workflows
-tags: communication, events, status, key-value
+name: "Use Events for Workflow Status Publishing"
+tags: ["communication, events, status, key-value"]
+tier: 3
+risk: "medium"
+estimated_tokens: 528
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.61
+impact: "MEDIUM"
+impactDescription: "Enables real-time progress monitoring and interactive workflows"
+title: "Use Events for Workflow Status Publishing"
 ---
-
 ## Use Events for Workflow Status Publishing
 
 Workflows can publish events (key-value pairs) with `DBOS.setEvent`. Other code can read events with `DBOS.getEvent`. Events are persisted and useful for real-time progress monitoring.

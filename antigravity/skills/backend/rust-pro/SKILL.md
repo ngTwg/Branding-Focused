@@ -1,9 +1,16 @@
 ---
-name: rust-pro
-description: Master Rust 1.75+ with modern async patterns, advanced type system features, and production-ready systems programming.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "rust-pro"
+tags: ["antigravity", "backend", "c:", "capabilities", "features", "frontend", "gemini", "instructions", "language", "<YOUR_USERNAME>", "modern", "not", "pro", "purpose", "rust", "skill", "this", "use", "users", "when"]
+tier: 4
+risk: "medium"
+estimated_tokens: 1858
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.79
+date_added: "2026-02-27"
+description: "Master Rust 1.75+ with modern async patterns, advanced type system features, and production-ready systems programming."
+source: "community"
 ---
 You are a Rust expert specializing in modern Rust 1.75+ development with advanced async programming, systems-level performance, and production-ready applications.
 

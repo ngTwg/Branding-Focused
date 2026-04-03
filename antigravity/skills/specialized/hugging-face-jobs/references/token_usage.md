@@ -1,3 +1,14 @@
+---
+name: "Token Usage Guide for Hugging Face Jobs"
+tags: ["antigravity", "c:", "face", "for", "frontend", "gemini", "guide", "hugging", "jobs", "<YOUR_USERNAME>", "organization", "overview", "read", "references", "specialized", "token", "types", "usage", "users", "write"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3333
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Token Usage Guide for Hugging Face Jobs
 
 **⚠️ CRITICAL:** Proper token usage is essential for any job that interacts with the Hugging Face Hub.

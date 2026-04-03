@@ -1,3 +1,14 @@
+---
+name: "WEB PERFORMANCE"
+tags: ["antigravity", "bundle", "c:", "code", "core", "frontend", "gemini", "image", "<YOUR_USERNAME>", "next", "optimization", "performance", "splitting", "users", "vitals", "web"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1469
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.88
+---
 # WEB PERFORMANCE
 
 > **Khi nào tải skill này:** Performance, Vitals, Optimization, Lazy Load, Bundle, LCP

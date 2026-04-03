@@ -1,11 +1,17 @@
 ---
-name: terraform-module-library
-description: "Production-ready Terraform module patterns for AWS, Azure, and GCP infrastructure."
-risk: unknown
-source: community
+name: "terraform-module-library"
+tags: ["antigravity", "c:", "devops", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "library", "module", "not", "purpose", "skill", "structure", "terraform", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1456
+tools_needed: ["git", "markdown", "sql", "terminal", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.90
 date_added: "2026-02-27"
+description: "Production-ready Terraform module patterns for AWS, Azure, and GCP infrastructure."
+source: "community"
 ---
-
 # Terraform Module Library
 
 Production-ready Terraform module patterns for AWS, Azure, and GCP infrastructure.

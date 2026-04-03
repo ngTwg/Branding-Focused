@@ -1,11 +1,17 @@
 ---
-name: intercom-automation
-description: "Automate Intercom tasks via Rube MCP (Composio): conversations, contacts, companies, segments, admins. Always search tools first for current schemas."
-risk: unknown
-source: community
+name: "intercom-automation"
+tags: ["and", "antigravity", "automation", "c:", "conversation", "conversations", "core", "frontend", "gemini", "intercom", "<YOUR_USERNAME>", "manage", "mcp", "prerequisites", "reply", "rube", "setup", "specialized", "state", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2441
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.90
 date_added: "2026-02-27"
+description: "Automate Intercom tasks via Rube MCP (Composio): conversations, contacts, companies, segments, admins. Always search tools first for current schemas."
+source: "community"
 ---
-
 # Intercom Automation via Rube MCP
 
 Automate Intercom operations through Composio's Intercom toolkit via Rube MCP.

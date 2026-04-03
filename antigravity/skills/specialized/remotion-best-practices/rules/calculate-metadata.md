@@ -1,10 +1,16 @@
 ---
-name: calculate-metadata
-description: Dynamically set composition duration, dimensions, and props
-metadata:
-  tags: calculateMetadata, duration, dimensions, props, dynamic
+name: "calculate-metadata"
+tags: ["calculateMetadata, duration, dimensions, props, dynamic"]
+tier: 3
+risk: "high"
+estimated_tokens: 730
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["data", "analytics"]
+quality_score: 0.82
+description: "Dynamically set composition duration, dimensions, and props"
+metadata: ""
 ---
-
 # Using calculateMetadata
 
 Use `calculateMetadata` on a `<Composition>` to dynamically set duration, dimensions, and transform props before rendering.

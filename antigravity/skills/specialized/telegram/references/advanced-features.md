@@ -1,3 +1,14 @@
+---
+name: "Recursos Avancados - Telegram Bot"
+tags: ["advanced", "antigravity", "avancados", "bot", "c:", "contents", "enviar", "features", "frontend", "gemini", "inline", "invoice", "<YOUR_USERNAME>", "mode", "pagamentos", "recursos", "references", "resultado", "specialized", "stars"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2437
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.94
+---
 # Recursos Avancados - Telegram Bot
 
 ## Table of Contents

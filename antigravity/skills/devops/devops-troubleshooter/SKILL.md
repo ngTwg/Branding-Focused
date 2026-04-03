@@ -1,11 +1,17 @@
 ---
-name: devops-troubleshooter
-description: Expert DevOps troubleshooter specializing in rapid incident response, advanced debugging, and modern observability.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "devops-troubleshooter"
+tags: ["antigravity", "c:", "capabilities", "devops", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "modern", "monitoring", "not", "observability", "purpose", "skill", "this", "troubleshooter", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2408
+tools_needed: ["ansible", "docker", "git", "kubernetes", "markdown", "sql", "terminal", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+date_added: "2026-02-27"
+description: "Expert DevOps troubleshooter specializing in rapid incident response, advanced debugging, and modern observability."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on devops troubleshooter tasks or workflows

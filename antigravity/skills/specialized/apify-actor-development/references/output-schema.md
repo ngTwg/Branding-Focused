@@ -1,3 +1,14 @@
+---
+name: "Output Schema Reference"
+tags: ["actor", "antigravity", "apify", "c:", "development", "example", "frontend", "gemini", "<YOUR_USERNAME>", "output", "reference", "references", "schema", "specialized", "structure", "template", "users", "variables"]
+tier: 2
+risk: "medium"
+estimated_tokens: 496
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.63
+---
 # Output Schema Reference
 
 The Actor output schema builds upon the schemas for the dataset and key-value store. It specifies where an Actor stores its output and defines templates for accessing that output. Apify Console uses these output definitions to display run results.

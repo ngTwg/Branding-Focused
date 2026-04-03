@@ -1,3 +1,14 @@
+---
+name: "Spec Compliance Reviewer Prompt Template"
+tags: ["antigravity", "c:", "compliance", "development", "driven", "frontend", "gemini", "<YOUR_USERNAME>", "prompt", "reviewer", "spec", "specialized", "subagent", "template", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 498
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.54
+---
 # Spec Compliance Reviewer Prompt Template
 
 Use this template when dispatching a spec compliance reviewer subagent.

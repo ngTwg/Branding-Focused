@@ -1,3 +1,14 @@
+---
+name: "Analysis Workflow: Validating Variables"
+tags: ["analysis", "analyze", "antigravity", "c:", "check", "clipper", "creator", "css", "fallback", "fetch", "for", "frontend", "gemini", "<YOUR_USERNAME>", "meta", "obsidian", "org", "output", "page", "recommended"]
+tier: 2
+risk: "medium"
+estimated_tokens: 535
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.76
+---
 # Analysis Workflow: Validating Variables
 
 To ensure your template works correctly, you must validate that the target page actually contains the data you want to extract.

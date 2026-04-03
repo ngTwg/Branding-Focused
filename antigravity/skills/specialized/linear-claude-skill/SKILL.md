@@ -1,11 +1,17 @@
 ---
-name: linear-claude-skill
-description: "Manage Linear issues, projects, and teams"
-risk: safe
-source: "https://github.com/wrsmith108/linear-claude-skill"
+name: "linear-claude-skill"
+tags: ["antigravity", "availability", "c:", "claude", "create", "first", "frontend", "gemini", "get", "ids", "issue", "<YOUR_USERNAME>", "linear", "read", "skill", "specialized", "state", "status", "this", "tool"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3558
+tools_needed: ["git", "markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Manage Linear issues, projects, and teams"
+source: "https://github.com/wrsmith108/linear-claude-skill"
 ---
-
 ## When to Use This Skill
 
 Manage Linear issues, projects, and teams

@@ -1,3 +1,14 @@
+---
+name: "Tool Use Concepts"
+tags: ["agentic", "antigravity", "api", "c:", "choice", "claude", "concepts", "defined", "definition", "frontend", "gemini", "handle", "<YOUR_USERNAME>", "loop", "manual", "options", "pause_turn", "runner", "shared", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3680
+tools_needed: ["markdown", "mcp", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.94
+---
 # Tool Use Concepts
 
 This file covers the conceptual foundations of tool use with the Claude API. For language-specific code examples, see the `python/`, `typescript/`, or other language folders.

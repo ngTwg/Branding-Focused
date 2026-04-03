@@ -1,3 +1,14 @@
+---
+name: "Schema.org Types: Status & Recommendations (February 2026)"
+tags: ["2024", "2026", "active", "additions", "antigravity", "c:", "deprecated", "february", "for", "format", "freely", "frontend", "gemini", "<YOUR_USERNAME>", "never", "only", "org", "preference", "recent", "recommend"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1564
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.73
+---
 <!-- Updated: 2026-02-07 -->
 # Schema.org Types: Status & Recommendations (February 2026)
 

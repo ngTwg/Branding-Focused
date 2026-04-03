@@ -1,11 +1,17 @@
 ---
-name: production-code-audit
-description: "Autonomously deep-scan entire codebase line-by-line, understand architecture and patterns, then systematically transform it to production-grade, corporate-level professional quality with optimizations"
-risk: unknown
-source: community
+name: "production-code-audit"
+tags: ["antigravity", "audit", "autonomous", "backend", "c:", "code", "codebase", "comprehensive", "detection", "discovery", "gemini", "how", "issue", "<YOUR_USERNAME>", "overview", "production", "skill", "specialized", "step", "this"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3930
+tools_needed: ["git", "markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.93
 date_added: "2026-02-27"
+description: "Autonomously deep-scan entire codebase line-by-line, understand architecture and patterns, then systematically transform it to production-grade, corporate-level professional quality with optimizations"
+source: "community"
 ---
-
 # Production Code Audit
 
 ## Overview

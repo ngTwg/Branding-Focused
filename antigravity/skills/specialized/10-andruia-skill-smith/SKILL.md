@@ -1,13 +1,19 @@
 ---
-id: 10-andruia-skill-smith
-name: 10-andruia-skill-smith
-description: "Ingeniero de Sistemas de Andru.ia. Diseña, redacta y despliega nuevas habilidades (skills) dentro del repositorio siguiendo el Estándar de Diamante."
-category: andruia
-risk: safe
-source: personal
+name: "10-andruia-skill-smith"
+tags: ["10", "adn", "andru", "andruia", "antigravity", "c:", "descripción", "fase", "flujo", "forge", "forja", "frontend", "gemini", "generales", "instrucciones", "<YOUR_USERNAME>", "protocolo", "skill", "smith", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 545
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.68
+category: "andruia"
 date_added: "2026-02-25"
+description: "Ingeniero de Sistemas de Andru.ia. Diseña, redacta y despliega nuevas habilidades (skills) dentro del repositorio siguiendo el Estándar de Diamante."
+id: "10-andruia-skill-smith"
+source: "personal"
 ---
-
 # 🔨 Andru.ia Skill-Smith (The Forge)
 
 ## When to Use

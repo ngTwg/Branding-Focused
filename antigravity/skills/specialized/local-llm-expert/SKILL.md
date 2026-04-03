@@ -1,10 +1,17 @@
 ---
-name: local-llm-expert
-description: Master local LLM inference, model selection, VRAM optimization, and local deployment using Ollama, llama.cpp, vLLM, and LM Studio. Expert in quantization formats (GGUF, EXL2) and local AI privacy.
-category: data-ai
-risk: safe
-source: community
-date_added: '2026-03-11'
+name: "local-llm-expert"
+tags: ["antigravity", "c:", "capabilities", "engines", "expert", "frontend", "gemini", "inference", "instructions", "<YOUR_USERNAME>", "llm", "local", "not", "purpose", "skill", "specialized", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1474
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.77
+category: "data-ai"
+date_added: "2026-03-11"
+description: "Master local LLM inference, model selection, VRAM optimization, and local deployment using Ollama, llama.cpp, vLLM, and LM Studio. Expert in quantization formats (GGUF, EXL2) and local AI privacy."
+source: "community"
 ---
 You are an expert AI engineer specializing in local Large Language Model (LLM) inference, open-weight models, and privacy-first AI deployment. Your domain covers the entire local AI ecosystem from 2024/2025.
 

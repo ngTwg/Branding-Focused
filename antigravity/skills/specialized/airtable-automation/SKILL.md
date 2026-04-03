@@ -1,11 +1,17 @@
 ---
-name: airtable-automation
-description: "Automate Airtable tasks via Rube MCP (Composio): records, bases, tables, fields, views. Always search tools first for current schemas."
-risk: critical
-source: community
+name: "airtable-automation"
+tags: ["airtable", "and", "antigravity", "automation", "c:", "core", "create", "filter", "frontend", "gemini", "<YOUR_USERNAME>", "manage", "mcp", "prerequisites", "records", "rube", "search", "setup", "specialized", "users"]
+tier: 2
+risk: "critical"
+estimated_tokens: 1669
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.76
 date_added: "2026-02-27"
+description: "Automate Airtable tasks via Rube MCP (Composio): records, bases, tables, fields, views. Always search tools first for current schemas."
+source: "community"
 ---
-
 # Airtable Automation via Rube MCP
 
 Automate Airtable operations through Composio's Airtable toolkit via Rube MCP.

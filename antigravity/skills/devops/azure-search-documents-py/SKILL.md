@@ -1,11 +1,17 @@
 ---
-name: azure-search-documents-py
-description: Azure AI Search SDK for Python. Use for vector search, hybrid search, semantic ranking, indexing, and skillsets.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "azure-search-documents-py"
+tags: ["antigravity", "api", "authentication", "azure", "backend", "c:", "devops", "documents", "entra", "environment", "for", "gemini", "installation", "key", "<YOUR_USERNAME>", "py", "python", "recommended", "sdk", "search"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3529
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.97
+date_added: "2026-02-27"
+description: "Azure AI Search SDK for Python. Use for vector search, hybrid search, semantic ranking, indexing, and skillsets."
+source: "community"
 ---
-
 # Azure AI Search SDK for Python
 
 Full-text, vector, and hybrid search with AI enrichment capabilities.

@@ -1,3 +1,14 @@
+---
+name: "Iconsax Library Skill"
+tags: ["antigravity", "c:", "context", "execution", "frontend", "gemini", "iconsax", "<YOUR_USERNAME>", "library", "rules", "skill", "specialized", "strict", "use", "users", "when", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 522
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
+---
 --- 
 name: iconsax-library
 description: Extensive icon library and AI-driven icon generation skill for premium UI/UX design.

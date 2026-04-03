@@ -1,11 +1,17 @@
 ---
-name: adhx
-description: "Fetch any X/Twitter post as clean LLM-friendly JSON. Converts x.com, twitter.com, or adhx.com links into structured data with full article content, author info, and engagement metrics. No scraping or browser required."
-risk: safe
-source: community
+name: "adhx"
+tags: ["adhx", "antigravity", "api", "c:", "endpoint", "frontend", "gemini", "<YOUR_USERNAME>", "overview", "patterns", "post", "reader", "skill", "specialized", "this", "twitter", "url", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 979
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.89
 date_added: "2026-03-25"
+description: "Fetch any X/Twitter post as clean LLM-friendly JSON. Converts x.com, twitter.com, or adhx.com links into structured data with full article content, author info, and engagement metrics. No scraping or browser required."
+source: "community"
 ---
-
 # ADHX - X/Twitter Post Reader
 
 Fetch any X/Twitter post as structured JSON for analysis using the ADHX API.

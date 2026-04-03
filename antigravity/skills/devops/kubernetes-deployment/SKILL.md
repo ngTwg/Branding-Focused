@@ -1,12 +1,18 @@
 ---
-name: kubernetes-deployment
-description: "Kubernetes deployment workflow for container orchestration, Helm charts, service mesh, and production-ready K8s configurations."
-category: granular-workflow-bundle
-risk: safe
-source: personal
+name: "kubernetes-deployment"
+tags: ["antigravity", "c:", "container", "deployment", "devops", "frontend", "gemini", "k8s", "kubernetes", "<YOUR_USERNAME>", "manifests", "overview", "phase", "phases", "preparation", "this", "use", "users", "when", "workflow"]
+tier: 3
+risk: "medium"
+estimated_tokens: 835
+tools_needed: ["docker", "git", "kubernetes", "markdown", "terminal", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.86
+category: "granular-workflow-bundle"
 date_added: "2026-02-27"
+description: "Kubernetes deployment workflow for container orchestration, Helm charts, service mesh, and production-ready K8s configurations."
+source: "personal"
 ---
-
 # Kubernetes Deployment Workflow
 
 ## Overview

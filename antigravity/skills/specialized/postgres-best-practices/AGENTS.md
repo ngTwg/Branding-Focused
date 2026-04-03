@@ -1,3 +1,14 @@
+---
+name: "Postgres Best Practices"
+tags: ["abstract", "add", "agents", "and", "antigravity", "best", "c:", "choose", "columns", "contents", "data", "for", "frontend", "gemini", "index", "indexes", "join", "<YOUR_USERNAME>", "performance", "postgres"]
+tier: 2
+risk: "medium"
+estimated_tokens: 11231
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Postgres Best Practices
 
 **Version 1.0.0**

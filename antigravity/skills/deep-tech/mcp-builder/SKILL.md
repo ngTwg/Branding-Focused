@@ -1,9 +1,16 @@
 ---
-name: mcp-builder
-description: Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).
-license: Complete terms in LICENSE.txt
+name: "mcp-builder"
+tags: ["and", "antigravity", "builder", "c:", "deep", "deep-tech", "development", "frontend", "gemini", "guide", "high", "implementation", "<YOUR_USERNAME>", "level", "mcp", "overview", "phase", "planning", "process", "research"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2264
+tools_needed: ["git", "markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.83
+description: "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK)."
+license: "Complete terms in LICENSE.txt"
 ---
-
 # MCP Server Development Guide
 
 ## Overview

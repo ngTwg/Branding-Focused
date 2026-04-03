@@ -1,10 +1,16 @@
 ---
-name: claude-in-chrome-troubleshooting
-description: Diagnose and fix Claude in Chrome MCP extension connectivity issues. Use when mcp__claude-in-chrome__* tools fail, return "Browser extension is not connected", or behave erratically.
-risk: critical
-source: community
+name: "claude-in-chrome-troubleshooting"
+tags: ["antigravity", "app", "c:", "chrome", "claude", "code", "conflict", "formats", "frontend", "gemini", "hosts", "in", "issue", "<YOUR_USERNAME>", "mcp", "native", "not", "primary", "socket", "specialized"]
+tier: 1
+risk: "critical"
+estimated_tokens: 2577
+tools_needed: ["git", "markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+description: "Diagnose and fix Claude in Chrome MCP extension connectivity issues. Use when mcp__claude-in-chrome__* tools fail, return \"Browser extension is not connected\", or behave erratically."
+source: "community"
 ---
-
 # Claude in Chrome MCP Troubleshooting
 
 Use this skill when Claude in Chrome MCP tools fail to connect or work unreliably.

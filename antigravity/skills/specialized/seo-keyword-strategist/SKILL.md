@@ -1,11 +1,17 @@
 ---
-name: seo-keyword-strategist
-description: Analyzes keyword usage in provided content, calculates density, suggests semantic variations and LSI keywords based on the topic. Prevents over-optimization. Use PROACTIVELY for content optimization.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "seo-keyword-strategist"
+tags: ["analysis", "antigravity", "areas", "c:", "density", "entity", "focus", "framework", "frontend", "gemini", "guidelines", "instructions", "keyword", "<YOUR_USERNAME>", "not", "seo", "skill", "specialized", "strategist", "this"]
+tier: 2
+risk: "medium"
+estimated_tokens: 707
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.72
+date_added: "2026-02-27"
+description: "Analyzes keyword usage in provided content, calculates density, suggests semantic variations and LSI keywords based on the topic. Prevents over-optimization. Use PROACTIVELY for content optimization."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on seo keyword strategist tasks or workflows

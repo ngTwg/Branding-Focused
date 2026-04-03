@@ -1,3 +1,14 @@
+---
+name: "XVARY Scores (Public Definitions)"
+tags: ["antigravity", "c:", "definitions", "financial", "frontend", "gemini", "health", "inputs", "<YOUR_USERNAME>", "momentum", "public", "references", "research", "scale", "score", "scores", "scoring", "specialized", "stability", "stock"]
+tier: 3
+risk: "medium"
+estimated_tokens: 809
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.68
+---
 # XVARY Scores (Public Definitions)
 
 This file defines the **public** score framework used by the skill.

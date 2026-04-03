@@ -1,10 +1,17 @@
 ---
-title: Initialize Client for External Access
-impact: HIGH
-impactDescription: Enables external applications to interact with DBOS workflows
-tags: client, external, setup, initialization
+name: "Initialize Client for External Access"
+tags: ["client, external, setup, initialization"]
+tier: 2
+risk: "medium"
+estimated_tokens: 491
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.58
+impact: "HIGH"
+impactDescription: "Enables external applications to interact with DBOS workflows"
+title: "Initialize Client for External Access"
 ---
-
 ## Initialize Client for External Access
 
 Use `dbos.NewClient` to interact with DBOS from external applications like API servers, CLI tools, or separate services. The Client connects directly to the DBOS system database.

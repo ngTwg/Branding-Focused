@@ -1,4 +1,15 @@
 ---
+name: "Refactoring Imperative Code to fp-ts"
+tags: ["antigravity", "c:", "catch", "code", "contents", "converting", "either", "fp", "frontend", "gemini", "guide", "imperative", "<YOUR_USERNAME>", "pattern", "problem", "refactor", "refactoring", "specialized", "step", "synchronous"]
+tier: 2
+risk: "medium"
+estimated_tokens: 11378
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
+---
 name: fp-refactor
 description: Comprehensive guide for refactoring imperative TypeScript code to fp-ts functional patterns
 risk: unknown

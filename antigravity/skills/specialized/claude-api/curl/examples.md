@@ -1,3 +1,14 @@
+---
+name: "Claude API — cURL / Raw HTTP"
+tags: ["antigravity", "api", "basic", "c:", "claude", "curl", "examples", "extended", "frontend", "gemini", "http", "<YOUR_USERNAME>", "message", "raw", "request", "setup", "specialized", "sse", "streaming", "thinking"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1118
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.85
+---
 # Claude API — cURL / Raw HTTP
 
 Use these examples when the user needs raw HTTP requests or is working in a language without an official SDK.

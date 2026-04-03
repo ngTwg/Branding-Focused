@@ -1,10 +1,17 @@
 ---
-title: Use SKIP LOCKED for Non-Blocking Queue Processing
-impact: MEDIUM-HIGH
-impactDescription: 10x throughput for worker queues
-tags: skip-locked, queue, workers, concurrency
+name: "Use SKIP LOCKED for Non-Blocking Queue Processing"
+tags: ["skip-locked, queue, workers, concurrency"]
+tier: 2
+risk: "medium"
+estimated_tokens: 338
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
+impact: "MEDIUM-HIGH"
+impactDescription: "10x throughput for worker queues"
+title: "Use SKIP LOCKED for Non-Blocking Queue Processing"
 ---
-
 ## Use SKIP LOCKED for Non-Blocking Queue Processing
 
 When multiple workers process a queue, SKIP LOCKED allows workers to process different rows without waiting.

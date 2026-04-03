@@ -1,3 +1,14 @@
+---
+name: "Environment Configuration Reference"
+tags: ["antigravity", "available", "c:", "configuration", "contents", "disable", "environment", "frontend", "gemini", "js", "<YOUR_USERNAME>", "loading", "model", "overview", "properties", "reference", "references", "remote", "specialized", "table"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2440
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Environment Configuration Reference
 
 Complete guide to configuring Transformers.js behavior using the `env` object.

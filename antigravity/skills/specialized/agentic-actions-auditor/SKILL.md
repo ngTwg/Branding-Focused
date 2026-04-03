@@ -1,4 +1,15 @@
 ---
+name: "Agentic Actions Auditor"
+tags: ["actions", "agentic", "analysis", "antigravity", "audit", "auditor", "c:", "determine", "frontend", "gemini", "<YOUR_USERNAME>", "methodology", "mode", "not", "rationalizations", "reject", "specialized", "step", "use", "users"]
+tier: 2
+risk: "critical"
+estimated_tokens: 5122
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.85
+---
+---
 name: agentic-actions-auditor
 description: >
   Audits GitHub Actions workflows for security

@@ -1,11 +1,17 @@
 ---
-name: azure-data-tables-py
-description: Azure Tables SDK for Python (Storage and Cosmos DB). Use for NoSQL key-value storage, entity CRUD, and batch operations.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "azure-data-tables-py"
+tags: ["antigravity", "api", "authentication", "azure", "c:", "cosmos", "data", "devops", "environment", "for", "frontend", "gemini", "installation", "<YOUR_USERNAME>", "py", "python", "sdk", "storage", "table", "tables"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1406
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.89
+date_added: "2026-02-27"
+description: "Azure Tables SDK for Python (Storage and Cosmos DB). Use for NoSQL key-value storage, entity CRUD, and batch operations."
+source: "community"
 ---
-
 # Azure Tables SDK for Python
 
 NoSQL key-value store for structured data (Azure Storage Tables or Cosmos DB Table API).

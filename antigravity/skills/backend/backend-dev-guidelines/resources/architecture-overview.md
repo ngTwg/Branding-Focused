@@ -1,3 +1,14 @@
+---
+name: "Architecture Overview - Backend Services"
+tags: ["antigravity", "architecture", "backend", "c:", "contents", "dev", "four", "frontend", "gemini", "guidelines", "layered", "layers", "<YOUR_USERNAME>", "lifecycle", "overview", "pattern", "request", "resources", "services", "table"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2863
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Architecture Overview - Backend Services
 
 Complete guide to the layered architecture pattern used in backend microservices.

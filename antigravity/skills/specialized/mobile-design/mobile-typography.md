@@ -1,3 +1,14 @@
+---
+name: "Mobile Typography Reference"
+tags: ["antigravity", "c:", "design", "different", "family", "fonts", "frontend", "fundamentals", "gemini", "ios", "<YOUR_USERNAME>", "mobile", "pro", "reference", "rules", "specialized", "system", "type", "typography", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2508
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Mobile Typography Reference
 
 > Type scale, system fonts, Dynamic Type, accessibility, and dark mode typography.

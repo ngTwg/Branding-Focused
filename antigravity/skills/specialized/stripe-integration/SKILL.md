@@ -1,11 +1,17 @@
 ---
-name: stripe-integration
-description: "Master Stripe payment processing integration for robust, PCI-compliant payment flows including checkout, subscriptions, webhooks, and refunds."
-risk: unknown
-source: community
+name: "stripe-integration"
+tags: ["antigravity", "c:", "concepts", "core", "flows", "frontend", "gemini", "instructions", "integration", "<YOUR_USERNAME>", "not", "payment", "skill", "specialized", "stripe", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3351
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Master Stripe payment processing integration for robust, PCI-compliant payment flows including checkout, subscriptions, webhooks, and refunds."
+source: "community"
 ---
-
 # Stripe Integration
 
 Master Stripe payment processing integration for robust, PCI-compliant payment flows including checkout, subscriptions, webhooks, and refunds.

@@ -1,7 +1,15 @@
 ---
-description: CJ: Exascale Computing & Supercomputing. MPI, NUMA, Job Scheduling, AI Leverage.
+name: "CJ: Exascale Computing & Supercomputing. MPI, NUMA, Job Scheduling, AI Leverage."
+tags: ["antigravity", "beyond", "c:", "computing", "exascale", "frontend", "gemini", "job", "<YOUR_USERNAME>", "leverage", "mpi", "numa", "scheduling", "supercomputing", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 143
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.48
+description: "CJ: Exascale Computing & Supercomputing. MPI, NUMA, Job Scheduling, AI Leverage."
 ---
-
 # CJ: Exascale Computing & Supercomputing. MPI, NUMA, Job Scheduling, AI Leverage.
 
 **Rules & Guidelines**:

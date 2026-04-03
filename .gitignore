@@ -5,32 +5,18 @@ __pycache__/
 *.so
 .Python
 build/
-develop-eggs/
 dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
 *.egg-info/
-.installed.cfg
 *.egg
-
-# Virtual Environment
 venv/
+.venv/
 ENV/
-env/
 
 # Testing
 .pytest_cache/
 .hypothesis/
 .coverage
 htmlcov/
-*.cover
 
 # IDE
 .vscode/
@@ -44,40 +30,35 @@ htmlcov/
 Thumbs.db
 desktop.ini
 
-# Environment variables
+# Environment & Secrets
 .env
 .env.local
 *.local
-
-# Credentials & Secrets
 google_accounts.json
 oauth_creds.json
 installation_id
 settings.json
 state.json
+mcp_config.json
 
-# Archives
+# Archives & Temp
 archive/
 tmp/
+temp/
+*.tmp
+*.temp
 
 # Browser profiles
 antigravity-browser-profile/
 
-# Old backups
+# Backups
 *_OLD_BACKUP.md
 *_BACKUP.md
 *.bak
 
-# Logs
+# Logs & DB
 *.log
 logs/
-
-# Build artifacts
-*.pyc
-*.pyo
-*.pyd
-
-# Database
 *.db
 *.sqlite
 *.sqlite3
@@ -86,16 +67,23 @@ logs/
 .cache/
 *.cache
 
-# Temporary files
-*.tmp
-*.temp
-temp/
-
 # Private
 user/
+brain/
+knowledge/
+annotations/
 
-# Git push scripts (security)
+# Push scripts (security)
 push.bat
 push.sh
 deploy.bat
 deploy.sh
+sync_to_rpgithub.py
+
+# Heavy models
+*.bin
+*.gguf
+*.safetensors
+*.pt
+*.pth
+*.onnx

@@ -1,11 +1,17 @@
 ---
-name: dbos-golang
-description: "Guide for building reliable, fault-tolerant Go applications with DBOS durable workflows. Use when adding DBOS to existing Go code, creating workflows and steps, or using queues for concurrency control."
-risk: safe
-source: "https://docs.dbos.dev/"
+name: "dbos-golang"
+tags: ["and", "antigravity", "best", "c:", "categories", "configuration", "critical", "dbos", "frontend", "gemini", "golang", "installation", "launch", "<YOUR_USERNAME>", "practices", "priority", "rule", "rules", "specialized", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 830
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.82
 date_added: "2026-02-27"
+description: "Guide for building reliable, fault-tolerant Go applications with DBOS durable workflows. Use when adding DBOS to existing Go code, creating workflows and steps, or using queues for concurrency control."
+source: "https://docs.dbos.dev/"
 ---
-
 # DBOS Go Best Practices
 
 Guide for building reliable, fault-tolerant Go applications with DBOS durable workflows.

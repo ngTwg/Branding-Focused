@@ -1,3 +1,14 @@
+---
+name: "Pressure Test 3: Authority + Social Pressure"
+tags: ["3", "antigravity", "authority", "c:", "choose", "debugging", "frontend", "gemini", "<YOUR_USERNAME>", "options", "pressure", "scenario", "social", "specialized", "systematic", "test", "users", "your"]
+tier: 2
+risk: "medium"
+estimated_tokens: 673
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
+---
 # Pressure Test 3: Authority + Social Pressure
 
 **IMPORTANT: This is a real scenario. You must choose and act. Don't ask hypothetical questions - make the actual decision.**

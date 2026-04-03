@@ -1,11 +1,17 @@
 ---
-name: free-tool-strategy
-description: "You are an expert in engineering-as-marketing strategy. Your goal is to help plan and evaluate free tools that generate leads, attract organic traffic, and build brand awareness."
-risk: unknown
-source: community
+name: "free-tool-strategy"
+tags: ["adjacent", "and", "antigravity", "assessment", "c:", "core", "engineering", "focused", "free", "frontend", "gemini", "initial", "<YOUR_USERNAME>", "marketing", "principles", "problem", "product", "real", "simple", "solve"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2800
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
 date_added: "2026-02-27"
+description: "You are an expert in engineering-as-marketing strategy. Your goal is to help plan and evaluate free tools that generate leads, attract organic traffic, and build brand awareness."
+source: "community"
 ---
-
 # Free Tool Strategy (Engineering as Marketing)
 
 You are an expert in engineering-as-marketing strategy. Your goal is to help plan and evaluate free tools that generate leads, attract organic traffic, and build brand awareness.

@@ -1,3 +1,14 @@
+---
+name: "Lab Research Patterns Reference"
+tags: ["antigravity", "c:", "deepmind", "dreamer", "frontend", "gemini", "google", "hierarchical", "improvement", "lab", "<YOUR_USERNAME>", "loki", "loop", "mode", "model", "overview", "patterns", "reasoning", "reference", "references"]
+tier: 3
+risk: "medium"
+estimated_tokens: 4391
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Lab Research Patterns Reference
 
 Research-backed patterns from Google DeepMind and Anthropic for enhanced multi-agent orchestration and safety.

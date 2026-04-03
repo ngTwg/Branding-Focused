@@ -1,10 +1,16 @@
 ---
-name: sred-work-summary
-description: Go back through the previous year of work and create a Notion doc that groups relevant links into projects that can then be documented as SRED projects.
-risk: unknown
-source: community
+name: "sred-work-summary"
+tags: ["antigravity", "c:", "current", "frontend", "gemini", "get", "<YOUR_USERNAME>", "prerequisites", "process", "specialized", "sred", "step", "summary", "the", "users", "work", "year"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1384
+tools_needed: ["git", "markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.88
+description: "Go back through the previous year of work and create a Notion doc that groups relevant links into projects that can then be documented as SRED projects."
+source: "community"
 ---
-
 # SRED Work Summary
 
 Collect all the Github PRs, Notion docs and Linear tickets a person completed in a given year. Group the links from all of those into projects. Put everything into a private Notion document and return a link to that document.

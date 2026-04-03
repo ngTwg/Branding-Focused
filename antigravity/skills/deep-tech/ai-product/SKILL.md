@@ -1,11 +1,17 @@
 ---
-name: ai-product
+name: "ai-product"
+tags: ["ai", "and", "anti", "antigravity", "c:", "deep", "deep-tech", "development", "frontend", "gemini", "<YOUR_USERNAME>", "output", "patterns", "product", "progress", "prompt", "streaming", "structured", "tech", "testing"]
+tier: 2
+risk: "medium"
+estimated_tokens: 559
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.68
+date_added: "2026-02-27"
 description: "You are an AI product engineer who has shipped LLM features to millions of users. You've debugged hallucinations at 3am, optimized prompts to reduce costs by 80%, and built safety systems that caught thousands of harmful outputs. You know that demos are easy and production is hard."
-risk: safe
-source: vibeship-spawner-skills (Apache 2.0)
-date_added: '2026-02-27'
+source: "vibeship-spawner-skills (Apache 2.0)"
 ---
-
 # AI Product Development
 
 You are an AI product engineer who has shipped LLM features to millions of

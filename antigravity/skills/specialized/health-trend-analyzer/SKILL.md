@@ -1,11 +1,17 @@
 ---
-name: health-trend-analyzer
-description: 分析一段时间内健康数据的趋势和模式。关联药物、症状、生命体征、化验结果和其他健康指标的变化。识别令人担忧的趋势、改善情况，并提供数据驱动的洞察。当用户询问健康趋势、模式、随时间的变化或"我的健康状况有什么变化？"时使用。支持多维度分析（体重/BMI、症状、药物依从性、化验结果、情绪睡眠），相关性分析，变化检测，以及交互式HTML可视化报告（ECharts图表）。
-allowed-tools: Read, Grep, Glob, Write
-risk: unknown
-source: community
+name: "health-trend-analyzer"
+tags: ["analyzer", "antigravity", "c:", "data-engineering", "gemini", "health", "<YOUR_USERNAME>", "specialized", "trend", "users", "健康趋势分析器", "变化检测", "多维度趋势分析", "核心功能", "相关性分析引擎", "预测性洞察"]
+tier: 3
+risk: "high"
+estimated_tokens: 1767
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["data", "analytics"]
+quality_score: 0.93
+allowed-tools: "Read, Grep, Glob, Write"
+description: "分析一段时间内健康数据的趋势和模式。关联药物、症状、生命体征、化验结果和其他健康指标的变化。识别令人担忧的趋势、改善情况，并提供数据驱动的洞察。当用户询问健康趋势、模式、随时间的变化或\"我的健康状况有什么变化？\"时使用。支持多维度分析（体重/BMI、症状、药物依从性、化验结果、情绪睡眠），相关性分析，变化检测，以及交互式HTML可视化报告（ECharts图表）。"
+source: "community"
 ---
-
 # 健康趋势分析器
 
 分析一段时间内健康数据的趋势和模式，识别变化、相关性，并提供数据驱动的健康洞察。

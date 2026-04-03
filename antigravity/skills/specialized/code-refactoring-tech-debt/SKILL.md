@@ -1,11 +1,17 @@
 ---
-name: code-refactoring-tech-debt
-description: "You are a technical debt expert specializing in identifying, quantifying, and prioritizing technical debt in software projects. Analyze the codebase to uncover debt, assess its impact, and create acti"
-risk: unknown
-source: community
+name: "code-refactoring-tech-debt"
+tags: ["analysis", "and", "antigravity", "c:", "code", "context", "debt", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "refactoring", "remediation", "requirements", "skill", "specialized", "tech", "technical", "this"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2545
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "You are a technical debt expert specializing in identifying, quantifying, and prioritizing technical debt in software projects. Analyze the codebase to uncover debt, assess its impact, and create acti"
+source: "community"
 ---
-
 # Technical Debt Analysis and Remediation
 
 You are a technical debt expert specializing in identifying, quantifying, and prioritizing technical debt in software projects. Analyze the codebase to uncover debt, assess its impact, and create actionable remediation plans.

@@ -1,3 +1,14 @@
+---
+name: "Regulatory Compliance Check Implementation Playbook"
+tags: ["antigravity", "c:", "check", "compliance", "context", "frontend", "gemini", "implementation", "<YOUR_USERNAME>", "not", "playbook", "regulatory", "resources", "safety", "security", "skill", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 7715
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Regulatory Compliance Check Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

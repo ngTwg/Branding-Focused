@@ -1,3 +1,14 @@
+---
+name: "Testing Workflow Guide"
+tags: ["antigravity", "approach", "c:", "clarification", "critical", "directory", "file", "follow", "for", "frontend", "gemini", "guide", "incremental", "<YOUR_USERNAME>", "multi", "must", "references", "rule", "scope", "single"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1920
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.94
+---
 # Testing Workflow Guide
 
 This guide defines the workflow for generating tests, especially for complex components or directories with multiple files.

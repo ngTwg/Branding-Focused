@@ -1,3 +1,14 @@
+---
+name: "Form"
+tags: ["antigravity", "c:", "choices", "core", "design", "example", "form", "frontend", "gemini", "intent", "keep", "<YOUR_USERNAME>", "modal", "patterns", "references", "settings", "specialized", "style", "swiftui", "ui"]
+tier: 2
+risk: "medium"
+estimated_tokens: 765
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.70
+---
 # Form
 
 ## Intent

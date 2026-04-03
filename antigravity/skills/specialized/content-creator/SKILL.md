@@ -1,17 +1,24 @@
 ---
-name: content-creator
-description: Create SEO-optimized marketing content with consistent brand voice. Includes brand voice analyzer, SEO optimizer, content frameworks, and social media templates. Use when writing blog posts, creating social media content, analyzing brand voice, optimizing SEO, planning content calendars, or when user mentions content creation, brand voice, SEO optimization, social media marketing, or content strategy.
-license: MIT
-metadata:
-  version: 1.0.0
-  author: Alireza Rezvani
-  category: marketing
-  domain: content-marketing
-  updated: 2025-10-20
-  python-tools: brand_voice_analyzer.py, seo_optimizer.py
-  tech-stack: SEO, social-media-platforms
+name: "content-creator"
+tags: ["antigravity", "blog", "brand", "c:", "content", "creation", "creator", "development", "for", "frontend", "gemini", "keywords", "<YOUR_USERNAME>", "media", "quick", "social", "specialized", "start", "users", "voice"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1864
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.86
+author: "Alireza Rezvani"
+category: "marketing"
+description: "Create SEO-optimized marketing content with consistent brand voice. Includes brand voice analyzer, SEO optimizer, content frameworks, and social media templates. Use when writing blog posts, creating social media content, analyzing brand voice, optimizing SEO, planning content calendars, or when user mentions content creation, brand voice, SEO optimization, social media marketing, or content strategy."
+domain: "content-marketing"
+license: "MIT"
+metadata: ""
+python-tools: "brand_voice_analyzer.py, seo_optimizer.py"
+tech-stack: "SEO, social-media-platforms"
+updated: "2025-10-20"
+version: "1.0.0"
 ---
-
 # Content Creator
 
 Professional-grade brand voice analysis, SEO optimization, and platform-specific content frameworks.

@@ -1,4 +1,15 @@
-  ## Instructions
+---
+name: "General Comms"
+tags: ["antigravity", "c:", "comms", "examples", "frontend", "gemini", "general", "internal", "<YOUR_USERNAME>", "specialized", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 150
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.46
+---
+## Instructions
   You are being asked to write internal company communication that doesn't fit into the standard formats (3P
   updates, newsletters, or FAQs).
 

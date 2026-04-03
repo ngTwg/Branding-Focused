@@ -1,11 +1,17 @@
 ---
-name: embedding-strategies
-description: "Guide to selecting and optimizing embedding models for vector search applications."
-risk: unknown
-source: community
+name: "embedding-strategies"
+tags: ["antigravity", "c:", "comparison", "concepts", "core", "embedding", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "model", "not", "skill", "specialized", "strategies", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3718
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Guide to selecting and optimizing embedding models for vector search applications."
+source: "community"
 ---
-
 # Embedding Strategies
 
 Guide to selecting and optimizing embedding models for vector search applications.

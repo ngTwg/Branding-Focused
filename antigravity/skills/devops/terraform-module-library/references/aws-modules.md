@@ -1,3 +1,14 @@
+---
+name: "AWS Terraform Module Patterns"
+tags: ["alb", "antigravity", "aws", "c:", "devops", "eks", "gemini", "<YOUR_USERNAME>", "library", "module", "modules", "patterns", "rds", "references", "terraform", "users", "vpc"]
+tier: 3
+risk: "medium"
+estimated_tokens: 326
+tools_needed: ["markdown", "terminal", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "operations"]
+quality_score: 0.64
+---
 # AWS Terraform Module Patterns
 
 ## VPC Module

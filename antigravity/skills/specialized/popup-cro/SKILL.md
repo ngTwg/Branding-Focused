@@ -1,9 +1,16 @@
 ---
-name: popup-cro
-description: "Create and optimize popups, modals, overlays, slide-ins, and banners to increase conversions without harming user experience or brand trust."
-risk: unknown
-source: community
+name: "popup-cro"
+tags: ["antigravity", "assessment", "audience", "c:", "context", "core", "cro", "current", "frontend", "gemini", "initial", "<YOUR_USERNAME>", "negotiable", "non", "popup", "principles", "purpose", "required", "specialized", "state"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1673
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.78
 date_added: "2026-02-27"
+description: "Create and optimize popups, modals, overlays, slide-ins, and banners to increase conversions without harming user experience or brand trust."
+source: "community"
 ---
 # Popup CRO
 

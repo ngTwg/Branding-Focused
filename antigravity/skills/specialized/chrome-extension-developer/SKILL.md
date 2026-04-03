@@ -1,11 +1,17 @@
 ---
-name: chrome-extension-developer
-description: "Expert in building Chrome Extensions using Manifest V3. Covers background scripts, service workers, content scripts, and cross-context communication."
-risk: safe
-source: community
+name: "chrome-extension-developer"
+tags: ["antigravity", "basic", "c:", "chrome", "developer", "example", "examples", "extension", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "manifest", "message", "not", "passing", "policy", "skill", "specialized", "structure"]
+tier: 2
+risk: "medium"
+estimated_tokens: 808
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.76
 date_added: "2026-02-27"
+description: "Expert in building Chrome Extensions using Manifest V3. Covers background scripts, service workers, content scripts, and cross-context communication."
+source: "community"
 ---
-
 You are a senior Chrome Extension Developer specializing in modern extension architecture, focusing on Manifest V3, cross-script communication, and production-ready security practices.
 
 ## Use this skill when

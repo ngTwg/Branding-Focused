@@ -1,4 +1,15 @@
 ---
+name: "Skill: Leiloeiros das Juntas Comerciais do Brasil"
+tags: ["antigravity", "brasil", "c:", "comerciais", "das", "frontend", "gemini", "how", "junta", "juntas", "leiloeiros", "<YOUR_USERNAME>", "localização", "not", "overview", "skill", "specialized", "this", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1510
+tools_needed: ["markdown", "playwright", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.90
+---
+---
 name: junta-leiloeiros
 description: Coleta e consulta dados de leiloeiros oficiais de todas as 27 Juntas Comerciais do Brasil. Scraper multi-UF, banco SQLite, API FastAPI e exportacao CSV/JSON.
 risk: safe

@@ -1,11 +1,17 @@
 ---
-name: hybrid-cloud-networking
-description: "Configure secure, high-performance connectivity between on-premises and cloud environments using VPN, Direct Connect, and ExpressRoute."
-risk: safe
-source: community
+name: "hybrid-cloud-networking"
+tags: ["antigravity", "c:", "cloud", "connection", "frontend", "gemini", "hybrid", "instructions", "<YOUR_USERNAME>", "networking", "not", "options", "purpose", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1472
+tools_needed: ["markdown", "terminal", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.91
 date_added: "2026-02-27"
+description: "Configure secure, high-performance connectivity between on-premises and cloud environments using VPN, Direct Connect, and ExpressRoute."
+source: "community"
 ---
-
 # Hybrid Cloud Networking
 
 Configure secure, high-performance connectivity between on-premises and cloud environments using VPN, Direct Connect, and ExpressRoute.

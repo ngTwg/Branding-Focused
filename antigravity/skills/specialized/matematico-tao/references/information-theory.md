@@ -1,3 +1,14 @@
+---
+name: "Teoria da Informação Aplicada a Código e Sistemas"
+tags: ["antigravity", "aplicada", "c:", "complexidade", "código", "definição", "entropia", "frontend", "gemini", "information", "informação", "interface", "kolmogorov", "<YOUR_USERNAME>", "matematico", "references", "shannon", "sistemas", "software", "specialized"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1948
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Teoria da Informação Aplicada a Código e Sistemas
 
 ## 1. Entropia de Shannon em Software

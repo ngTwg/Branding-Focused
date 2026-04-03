@@ -1,13 +1,19 @@
 ---
-name: plotly
-description: Interactive visualization library. Use when you need hover info, zoom, pan, or web-embeddable charts. Best for dashboards, exploratory analysis, and presentations. For static publication figures use matplotlib or scientific-visualization.
-license: MIT license
-metadata:
-    skill-author: K-Dense Inc.
-risk: unknown
-source: community
+name: "plotly"
+tags: ["antigravity", "apis", "between", "c:", "capabilities", "choosing", "core", "express", "frontend", "gemini", "graph", "<YOUR_USERNAME>", "objects", "plotly", "quick", "specialized", "start", "use", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1719
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+description: "Interactive visualization library. Use when you need hover info, zoom, pan, or web-embeddable charts. Best for dashboards, exploratory analysis, and presentations. For static publication figures use matplotlib or scientific-visualization."
+license: "MIT license"
+metadata: ""
+skill-author: "K-Dense Inc."
+source: "community"
 ---
-
 # Plotly
 
 Python graphing library for creating interactive, publication-quality visualizations with 40+ chart types.

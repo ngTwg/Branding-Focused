@@ -1,10 +1,17 @@
 ---
-title: Eliminate N+1 Queries with Batch Loading
-impact: MEDIUM-HIGH
-impactDescription: 10-100x fewer database round trips
-tags: n-plus-one, batch, performance, queries
+name: "Eliminate N+1 Queries with Batch Loading"
+tags: ["n-plus-one, batch, performance, queries"]
+tier: 2
+risk: "medium"
+estimated_tokens: 340
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.61
+impact: "MEDIUM-HIGH"
+impactDescription: "10-100x fewer database round trips"
+title: "Eliminate N+1 Queries with Batch Loading"
 ---
-
 ## Eliminate N+1 Queries with Batch Loading
 
 N+1 queries execute one query per item in a loop. Batch them into a single query using arrays or JOINs.

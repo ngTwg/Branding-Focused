@@ -1,3 +1,14 @@
+---
+name: "Scaffold a SwiftPM macOS app (no Xcode)"
+tags: ["antigravity", "app", "appkit", "c:", "entry", "example", "frontend", "gemini", "<YOUR_USERNAME>", "macos", "minimal", "package", "packaging", "point", "references", "scaffold", "specialized", "spm", "steps", "swift"]
+tier: 2
+risk: "medium"
+estimated_tokens: 415
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.74
+---
 # Scaffold a SwiftPM macOS app (no Xcode)
 
 ## Steps

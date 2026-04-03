@@ -1,11 +1,17 @@
 ---
-name: azure-resource-manager-redis-dotnet
-description: Azure Resource Manager SDK for Redis in .NET.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "azure-resource-manager-redis-dotnet"
+tags: ["antigravity", "auth", "authentication", "azure", "backend", "c:", "devops", "dotnet", "environment", "for", "gemini", "hierarchy", "installation", "<YOUR_USERNAME>", "manager", "net", "optional", "principal", "redis", "resource"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2787
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.97
+date_added: "2026-02-27"
+description: "Azure Resource Manager SDK for Redis in .NET."
+source: "community"
 ---
-
 # Azure.ResourceManager.Redis (.NET)
 
 Management plane SDK for provisioning and managing Azure Cache for Redis resources via Azure Resource Manager.

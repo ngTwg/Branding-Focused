@@ -1,11 +1,17 @@
 ---
-name: swiftui-view-refactor
-description: Refactor SwiftUI views into smaller components with stable, explicit data flow.
-risk: safe
-source: "Dimillian/Skills (MIT)"
+name: "swiftui-view-refactor"
+tags: ["antigravity", "bottom", "c:", "core", "default", "frontend", "gemini", "guidelines", "<YOUR_USERNAME>", "mvvm", "not", "ordering", "overview", "refactor", "specialized", "swiftui", "top", "use", "users", "view"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1972
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.96
 date_added: "2026-03-25"
+description: "Refactor SwiftUI views into smaller components with stable, explicit data flow."
+source: "Dimillian/Skills (MIT)"
 ---
-
 # SwiftUI View Refactor
 
 ## Overview

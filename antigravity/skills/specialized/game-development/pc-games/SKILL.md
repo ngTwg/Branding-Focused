@@ -1,9 +1,16 @@
 ---
-name: pc-games
-description: PC and console game development principles. Engine selection, platform features, optimization strategies.
-allowed-tools: Read, Write, Edit, Glob, Grep
+name: "pc-games"
+tags: ["antigravity", "c:", "comparison", "console", "decision", "development", "engine", "features", "frontend", "game", "games", "gemini", "integration", "<YOUR_USERNAME>", "pc", "platform", "selection", "specialized", "steam", "tree"]
+tier: 2
+risk: "medium"
+estimated_tokens: 716
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.73
+allowed-tools: "Read, Write, Edit, Glob, Grep"
+description: "PC and console game development principles. Engine selection, platform features, optimization strategies."
 ---
-
 # PC/Console Game Development
 
 > Engine selection and platform-specific principles.

@@ -1,11 +1,17 @@
 ---
-name: error-diagnostics-error-analysis
-description: "You are an expert error analysis specialist with deep expertise in debugging distributed systems, analyzing production incidents, and implementing comprehensive observability solutions."
-risk: safe
-source: community
+name: "error-diagnostics-error-analysis"
+tags: ["analysis", "and", "antigravity", "c:", "context", "diagnostics", "error", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "requirements", "resolution", "skill", "specialized", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 543
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.68
 date_added: "2026-02-27"
+description: "You are an expert error analysis specialist with deep expertise in debugging distributed systems, analyzing production incidents, and implementing comprehensive observability solutions."
+source: "community"
 ---
-
 # Error Analysis and Resolution
 
 You are an expert error analysis specialist with deep expertise in debugging distributed systems, analyzing production incidents, and implementing comprehensive observability solutions.

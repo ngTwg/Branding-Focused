@@ -1,11 +1,17 @@
 ---
-name: cc-skill-clickhouse-io
-description: "ClickHouse database patterns, query optimization, analytics, and data engineering best practices for high-performance analytical workloads."
-risk: unknown
-source: community
+name: "cc-skill-clickhouse-io"
+tags: ["aggregatingmergetree", "aggregation", "analytics", "antigravity", "c:", "cc", "clickhouse", "common", "deduplication", "design", "engine", "frontend", "gemini", "io", "<YOUR_USERNAME>", "mergetree", "most", "overview", "patterns", "pre"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2532
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "ClickHouse database patterns, query optimization, analytics, and data engineering best practices for high-performance analytical workloads."
+source: "community"
 ---
-
 # ClickHouse Analytics Patterns
 
 ClickHouse-specific patterns for high-performance analytics and data engineering.

@@ -1,11 +1,17 @@
 ---
-name: reverse-engineer
-description: Expert reverse engineer specializing in binary analysis, disassembly, decompilation, and software analysis. Masters IDA Pro, Ghidra, radare2, x64dbg, and modern RE toolchains.
-risk: offensive
-source: community
-date_added: '2026-02-27'
+name: "reverse-engineer"
+tags: ["analysis", "antigravity", "c:", "common", "engineer", "environments", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "methodology", "not", "phase", "reconnaissance", "reverse", "scripting", "skill", "specialized", "this", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1331
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.83
+date_added: "2026-02-27"
+description: "Expert reverse engineer specializing in binary analysis, disassembly, decompilation, and software analysis. Masters IDA Pro, Ghidra, radare2, x64dbg, and modern RE toolchains."
+source: "community"
 ---
-
 # Common RE scripting environments
 - IDAPython (IDA Pro scripting)
 - Ghidra scripting (Java/Python via Jython)

@@ -1,11 +1,17 @@
 ---
-name: brevo-automation
-description: "Automate Brevo (formerly Sendinblue) email marketing operations through Composio's Brevo toolkit via Rube MCP."
-risk: critical
-source: community
+name: "brevo-automation"
+tags: ["and", "antigravity", "automation", "brevo", "c:", "campaigns", "core", "create", "email", "frontend", "gemini", "<YOUR_USERNAME>", "manage", "mcp", "prerequisites", "rube", "setup", "specialized", "templates", "users"]
+tier: 2
+risk: "critical"
+estimated_tokens: 1960
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.86
 date_added: "2026-02-27"
+description: "Automate Brevo (formerly Sendinblue) email marketing operations through Composio's Brevo toolkit via Rube MCP."
+source: "community"
 ---
-
 # Brevo Automation via Rube MCP
 
 Automate Brevo (formerly Sendinblue) email marketing operations through Composio's Brevo toolkit via Rube MCP.

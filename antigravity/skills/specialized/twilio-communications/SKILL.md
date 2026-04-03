@@ -1,11 +1,17 @@
 ---
-name: twilio-communications
-description: "Basic pattern for sending SMS messages with Twilio. Handles the fundamentals: phone number formatting, message delivery, and delivery status callbacks."
-risk: unknown
-source: "vibeship-spawner-skills (Apache 2.0)"
+name: "twilio-communications"
+tags: ["2fa", "antigravity", "c:", "communications", "edges", "frontend", "gemini", "ivr", "<YOUR_USERNAME>", "otp", "pattern", "patterns", "sending", "sharp", "sms", "specialized", "twilio", "twiml", "users", "verify"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2232
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
 date_added: "2026-02-27"
+description: "Basic pattern for sending SMS messages with Twilio. Handles the fundamentals: phone number formatting, message delivery, and delivery status callbacks."
+source: "vibeship-spawner-skills (Apache 2.0)"
 ---
-
 # Twilio Communications
 
 ## Patterns

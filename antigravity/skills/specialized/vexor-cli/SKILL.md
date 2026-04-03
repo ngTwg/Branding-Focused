@@ -1,10 +1,16 @@
 ---
-name: vexor-cli
-description: Semantic file discovery via `vexor`. Use whenever locating where something is implemented/loaded/defined in a medium or large repo, or when the file location is unclear. Prefer this over manual browsing.
-risk: unknown
-source: community
+name: "vexor-cli"
+tags: ["antigravity", "backend", "c:", "cheapest", "cli", "command", "common", "flags", "gemini", "goal", "<YOUR_USERNAME>", "like", "modes", "pick", "skill", "specialized", "that", "the", "this", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 699
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.85
+description: "Semantic file discovery via `vexor`. Use whenever locating where something is implemented/loaded/defined in a medium or large repo, or when the file location is unclear. Prefer this over manual browsing."
+source: "community"
 ---
-
 # Vexor CLI Skill
 
 ## Goal

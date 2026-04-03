@@ -1,11 +1,17 @@
 ---
-name: ui-visual-validator
-description: Rigorous visual validation expert specializing in UI testing, design system compliance, and accessibility verification.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "ui-visual-validator"
+tags: ["antigravity", "c:", "capabilities", "core", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "principles", "purpose", "skill", "this", "ui", "use", "users", "validator", "visual", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2451
+tools_needed: ["git", "markdown", "playwright"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+date_added: "2026-02-27"
+description: "Rigorous visual validation expert specializing in UI testing, design system compliance, and accessibility verification."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on ui visual validator tasks or workflows

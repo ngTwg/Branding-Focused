@@ -1,11 +1,17 @@
 ---
-name: azure-speech-to-text-rest-py
-description: Azure Speech to Text REST API for short audio (Python). Use for simple speech recognition of audio files up to 60 seconds without the Speech SDK.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "azure-speech-to-text-rest-py"
+tags: ["alternative", "antigravity", "api", "audio", "azure", "c:", "devops", "directly", "endpoint", "environment", "for", "frontend", "gemini", "installation", "<YOUR_USERNAME>", "prerequisites", "py", "required", "rest", "short"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2640
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+date_added: "2026-02-27"
+description: "Azure Speech to Text REST API for short audio (Python). Use for simple speech recognition of audio files up to 60 seconds without the Speech SDK."
+source: "community"
 ---
-
 # Azure Speech to Text REST API for Short Audio
 
 Simple REST API for speech-to-text transcription of short audio files (up to 60 seconds). No SDK required - just HTTP requests.

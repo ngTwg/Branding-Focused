@@ -1,3 +1,14 @@
+---
+name: "CACHING STRATEGIES"
+tags: ["antigravity", "backend", "c:", "cache", "caching", "considerations", "data", "gemini", "http", "invalidation", "<YOUR_USERNAME>", "patterns", "redis", "strategies", "structures", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1575
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.88
+---
 # CACHING STRATEGIES
 
 > **Khi nào tải skill này:** Cache, Redis, Memcache, Performance, TTL, Invalidation

@@ -1,12 +1,18 @@
 ---
-name: impress
-description: "Presentation creation, format conversion (ODP/PPTX/PDF), slide automation with LibreOffice Impress."
-category: presentation-processing
-risk: safe
-source: personal
+name: "impress"
+tags: ["antigravity", "c:", "capabilities", "conversion", "core", "creation", "format", "frontend", "gemini", "impress", "<YOUR_USERNAME>", "libreoffice", "overview", "presentation", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1057
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
+category: "presentation-processing"
 date_added: "2026-02-27"
+description: "Presentation creation, format conversion (ODP/PPTX/PDF), slide automation with LibreOffice Impress."
+source: "personal"
 ---
-
 # LibreOffice Impress
 
 ## Overview

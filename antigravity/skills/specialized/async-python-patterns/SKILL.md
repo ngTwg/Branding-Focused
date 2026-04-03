@@ -1,11 +1,17 @@
 ---
-name: async-python-patterns
-description: "Comprehensive guidance for implementing asynchronous Python applications using asyncio, concurrent programming patterns, and async/await for building high-performance, non-blocking systems."
-risk: safe
-source: community
+name: "async-python-patterns"
+tags: ["antigravity", "async", "c:", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "patterns", "python", "resources", "skill", "specialized", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 429
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.61
 date_added: "2026-02-27"
+description: "Comprehensive guidance for implementing asynchronous Python applications using asyncio, concurrent programming patterns, and async/await for building high-performance, non-blocking systems."
+source: "community"
 ---
-
 # Async Python Patterns
 
 Comprehensive guidance for implementing asynchronous Python applications using asyncio, concurrent programming patterns, and async/await for building high-performance, non-blocking systems.

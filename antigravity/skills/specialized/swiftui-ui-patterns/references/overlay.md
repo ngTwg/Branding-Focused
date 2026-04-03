@@ -1,3 +1,14 @@
+---
+name: "Overlay and toasts"
+tags: ["and", "antigravity", "c:", "choices", "core", "design", "example", "frontend", "gemini", "intent", "keep", "<YOUR_USERNAME>", "overlay", "patterns", "pitfalls", "references", "specialized", "swiftui", "toast", "toasts"]
+tier: 2
+risk: "medium"
+estimated_tokens: 309
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.62
+---
 # Overlay and toasts
 
 ## Intent

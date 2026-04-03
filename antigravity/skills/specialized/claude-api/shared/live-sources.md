@@ -1,3 +1,14 @@
+---
+name: "Live Documentation Sources"
+tags: ["antigravity", "api", "c:", "claude", "core", "documentation", "features", "files", "frontend", "gemini", "<YOUR_USERNAME>", "live", "media", "models", "pricing", "shared", "sources", "specialized", "urls", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2681
+tools_needed: ["git", "markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.76
+---
 # Live Documentation Sources
 
 This file contains WebFetch URLs for fetching current information from platform.claude.com and Agent SDK repositories. Use these when users need the latest data that may have changed since the cached content was last updated.

@@ -1,11 +1,17 @@
 ---
-name: android-jetpack-compose-expert
-description: "Expert guidance for building modern Android UIs with Jetpack Compose, covering state management, navigation, performance, and Material Design 3."
-risk: safe
-source: community
+name: "android-jetpack-compose-expert"
+tags: ["android", "antigravity", "c:", "compose", "dependencies", "expert", "frontend", "gemini", "guide", "jetpack", "<YOUR_USERNAME>", "management", "mvi", "mvvm", "overview", "pattern", "project", "setup", "skill", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1282
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.85
 date_added: "2026-02-27"
+description: "Expert guidance for building modern Android UIs with Jetpack Compose, covering state management, navigation, performance, and Material Design 3."
+source: "community"
 ---
-
 # Android Jetpack Compose Expert
 
 ## Overview

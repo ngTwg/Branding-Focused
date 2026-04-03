@@ -1,3 +1,14 @@
+---
+name: "🤖 CHUYÊN MỤC AC: AI AGENTS & AGENTIC SYSTEMS"
+tags: ["agents", "ai", "deep", "deep-tech", "tech"]
+tier: 4
+risk: "high"
+estimated_tokens: 1300
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["research"]
+quality_score: 0.55
+---
 # 🤖 CHUYÊN MỤC AC: AI AGENTS & AGENTIC SYSTEMS
 
 *Autonomous Agents, ReAct Pattern, Planning Loops, Tool Use, Self-Correction*

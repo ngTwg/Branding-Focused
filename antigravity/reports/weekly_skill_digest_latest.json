@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-04-02T02:28:36.260430+00:00",
+  "window_days": 30,
+  "metadata_coverage": 0.0,
+  "metadata_coverage_previous": 0.0,
+  "metadata_coverage_delta": 0.0,
+  "hot": [],
+  "cold": [
+    "01_business_foundation",
+    "02_employment_workforce",
+    "03_sales_commercial",
+    "04_real_estate",
+    "05_intellectual_property",
+    "1-research",
+    "2-spec",
+    "3-implementation",
+    "3d",
+    "3d-web-experience"
+  ],
+  "total_events": 0,
+  "unique_skills_used": 0,
+  "catalog_skills": 5535
+}

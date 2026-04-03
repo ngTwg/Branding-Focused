@@ -1,3 +1,14 @@
+---
+name: "Menu Bar"
+tags: ["and", "antigravity", "bar", "basic", "c:", "command", "core", "example", "focused", "frontend", "gemini", "groups", "insert", "intent", "<YOUR_USERNAME>", "menu", "patterns", "references", "replace", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 558
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.74
+---
 # Menu Bar
 
 ## Intent

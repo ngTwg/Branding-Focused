@@ -1,11 +1,17 @@
 ---
-name: file-organizer
-description: "6. Reduces Clutter: Identifies old files you probably don't need anymore"
-risk: unknown
-source: community
+name: "file-organizer"
+tags: ["antigravity", "best", "c:", "data-engineering", "does", "file", "folder", "gemini", "instructions", "<YOUR_USERNAME>", "naming", "organizer", "practices", "skill", "specialized", "this", "use", "users", "what", "when"]
+tier: 3
+risk: "high"
+estimated_tokens: 1553
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["data", "analytics"]
+quality_score: 0.92
 date_added: "2026-02-27"
+description: "6. Reduces Clutter: Identifies old files you probably don't need anymore"
+source: "community"
 ---
-
 # File Organizer
 
 ## When to Use This Skill

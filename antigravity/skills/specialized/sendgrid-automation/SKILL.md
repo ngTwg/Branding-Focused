@@ -1,11 +1,17 @@
 ---
-name: sendgrid-automation
-description: "Automate SendGrid email delivery workflows including marketing campaigns (Single Sends), contact and list management, sender identity setup, and email analytics through Composio's SendGrid toolkit."
-risk: critical
-source: community
+name: "sendgrid-automation"
+tags: ["and", "antigravity", "automation", "c:", "campaigns", "contacts", "core", "create", "frontend", "gemini", "<YOUR_USERNAME>", "lists", "manage", "marketing", "mcp", "prerequisites", "rube", "send", "sendgrid", "sends"]
+tier: 2
+risk: "critical"
+estimated_tokens: 3207
+tools_needed: ["markdown", "mcp", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 date_added: "2026-02-27"
+description: "Automate SendGrid email delivery workflows including marketing campaigns (Single Sends), contact and list management, sender identity setup, and email analytics through Composio's SendGrid toolkit."
+source: "community"
 ---
-
 # SendGrid Automation via Rube MCP
 
 Automate SendGrid email delivery workflows including marketing campaigns (Single Sends), contact and list management, sender identity setup, and email analytics through Composio's SendGrid toolkit.

@@ -1,3 +1,14 @@
+---
+name: "Decision Frameworks — Quality & Non-Conformance Management"
+tags: ["13485", "16949", "820", "aerospace", "antigravity", "as9100", "automotive", "c:", "cfr", "conformance", "decision", "disposition", "environment", "fda", "flow", "frameworks", "frontend", "gemini", "iatf", "iso"]
+tier: 4
+risk: "medium"
+estimated_tokens: 11385
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Decision Frameworks — Quality & Non-Conformance Management
 
 This reference provides the detailed decision logic, MRB processes, RCA methodology selection,

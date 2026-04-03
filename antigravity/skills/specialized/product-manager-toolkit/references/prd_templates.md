@@ -1,3 +1,14 @@
+---
+name: "Product Requirements Document (PRD) Templates"
+tags: ["antigravity", "c:", "definition", "document", "executive", "frontend", "gemini", "<YOUR_USERNAME>", "manager", "overview", "prd", "problem", "product", "references", "requirements", "solution", "specialized", "standard", "stories", "summary"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1809
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.82
+---
 # Product Requirements Document (PRD) Templates
 
 ## Standard PRD Template

@@ -1,10 +1,16 @@
 ---
-name: apify-market-research
-description: Analyze market conditions, geographic opportunities, pricing, consumer behavior, and product validation across Google Maps, Facebook, Instagram, Booking.com, and TripAdvisor.
-risk: unknown
-source: community
+name: "apify-market-research"
+tags: ["actor", "antigravity", "apify", "ask", "c:", "fetch", "frontend", "gemini", "identify", "<YOUR_USERNAME>", "market", "preferences", "prerequisites", "research", "schema", "specialized", "step", "type", "user", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1022
+tools_needed: ["markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
+description: "Analyze market conditions, geographic opportunities, pricing, consumer behavior, and product validation across Google Maps, Facebook, Instagram, Booking.com, and TripAdvisor."
+source: "community"
 ---
-
 # Market Research
 
 Conduct market research using Apify Actors to extract data from multiple platforms.

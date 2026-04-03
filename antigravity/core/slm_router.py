@@ -15,10 +15,20 @@ import logging
 from pathlib import Path
 from typing import Optional, Literal
 
-from core.schemas import SLMRouteDecision, ModelCandidate, BudgetAwareRoutingDecision
-from core.budget_guard import BudgetGuard, BudgetExceededError
+from .schemas import SLMRouteDecision, ModelCandidate, BudgetAwareRoutingDecision
+from .budget_guard import BudgetGuard, BudgetExceededError
 
 logger = logging.getLogger(__name__)
+
+try:
+    from sentence_transformers import SentenceTransformer  # type: ignore
+except Exception:
+    SentenceTransformer = None
+
+try:
+    import numpy as np
+except Exception:
+    np = None
 
 
 class SLMRouter:
@@ -79,7 +89,7 @@ class SLMRouter:
 
     def __init__(
         self,
-        prototypes_path: Path | str,
+        prototypes_path: Path | str | None,
         confidence_threshold: float = 0.85,
         embedding_model: str = "all-MiniLM-L6-v2",
     ):
@@ -93,7 +103,7 @@ class SLMRouter:
         
         Graceful degradation: If sentence-transformers fails to load, _enabled=False
         """
-        self.prototypes_path = Path(prototypes_path)
+        self.prototypes_path = Path(prototypes_path) if prototypes_path else Path("__slm_prototypes_missing__.json")
         self.confidence_threshold = confidence_threshold
         self.embedding_model_name = embedding_model
         
@@ -104,8 +114,8 @@ class SLMRouter:
         
         # Try to load sentence-transformers
         try:
-            from sentence_transformers import SentenceTransformer
-            import numpy as np
+            if SentenceTransformer is None or np is None:
+                raise ImportError("sentence-transformers and/or numpy unavailable")
             
             self._SentenceTransformer = SentenceTransformer
             self._np = np
@@ -453,3 +463,122 @@ class SLMRouter:
         except Exception as e:
             logger.error(f"Error during SLMRouter classification: {e}", exc_info=True)
             return None
+
+
+# ── SLMRouterV3: Pragmatic Validation-Driven Routing (Merged from v3) ───────
+
+from dataclasses import dataclass
+from typing import Literal as _Literal
+
+
+@dataclass
+class RouteDecisionV3:
+    """Simple routing decision from V3 router."""
+    model: str
+    complexity: _Literal["simple", "moderate"]
+    reasoning: str
+
+
+@dataclass
+class ValidationResult:
+    """Response validation result — detects poor responses for escalation."""
+    is_valid: bool
+    needs_escalation: bool
+    reason: str
+
+
+class SLMRouterV3:
+    """
+    Pragmatic router: simple classification + strong validation.
+    Merged from slm_router_v3.py (now deleted).
+
+    Key principles:
+    1. Default to moderate (safe)
+    2. Only downgrade to simple when certain
+    3. Let validation decide escalation to complex
+    """
+
+    SIMPLE_PATTERNS = [
+        "what is ",
+        "what does ",
+        "what's ",
+        "explain ",
+        "define ",
+        "tell me about ",
+        "how do i install ",
+        "difference between ",
+    ]
+
+    def __init__(
+        self,
+        simple_model: str = "smollm2:1.7b",
+        moderate_model: str = "qwen2.5:3b-instruct",
+        complex_model: str = "gemini-2.5-flash",
+    ):
+        self.simple_model = simple_model
+        self.moderate_model = moderate_model
+        self.complex_model = complex_model
+        logger.info(
+            f"SLMRouterV3 initialized: simple={simple_model}, "
+            f"moderate={moderate_model}, complex={complex_model}"
+        )
+
+    def classify(self, query: str) -> RouteDecisionV3:
+        """Classify query: clearly simple → simple, everything else → moderate (safe)."""
+        if not query or not query.strip():
+            return RouteDecisionV3(model=self.simple_model, complexity="simple", reasoning="Empty query")
+
+        query_lower = query.lower().strip()
+        is_clearly_simple = (
+            any(query_lower.startswith(p) for p in self.SIMPLE_PATTERNS)
+            or (len(query.split()) <= 5 and "?" in query)
+        )
+
+        if is_clearly_simple:
+            return RouteDecisionV3(
+                model=self.simple_model,
+                complexity="simple",
+                reasoning="Clearly simple query (knowledge/definition)",
+            )
+        return RouteDecisionV3(model=self.moderate_model, complexity="moderate", reasoning="Default to moderate (safe)")
+
+    def validate_response(self, query: str, response: str) -> ValidationResult:
+        """Validate response quality; escalate to complex model if poor."""
+        if not response or not response.strip():
+            return ValidationResult(is_valid=False, needs_escalation=True, reason="Empty response")
+
+        response_lower = response.lower()
+
+        if len(response.strip()) < 50:
+            return ValidationResult(is_valid=False, needs_escalation=True, reason="Response too short (<50 chars)")
+
+        uncertainty = ["i don't know", "i'm not sure", "i cannot", "i can't help", "i don't have"]
+        if any(p in response_lower for p in uncertainty):
+            return ValidationResult(is_valid=False, needs_escalation=True, reason="Model admits uncertainty")
+
+        if response.count("```") % 2 != 0:
+            return ValidationResult(is_valid=False, needs_escalation=True, reason="Unclosed code block")
+
+        query_has_code = (
+            query.count("\n") > 10
+            or "```" in query
+            or any(kw in query.lower() for kw in ["def ", "class ", "function ", "import "])
+        )
+        response_has_code = "```" in response or "def " in response or "function " in response
+        if query_has_code and not response_has_code:
+            return ValidationResult(is_valid=False, needs_escalation=True, reason="Code query but no code in response")
+
+        error_start = response_lower[:100]
+        if any(p in error_start for p in ["error:", "exception:", "failed to", "unable to", "cannot process"]):
+            return ValidationResult(is_valid=False, needs_escalation=True, reason="Response contains error message")
+
+        return ValidationResult(is_valid=True, needs_escalation=False, reason="Response passed validation")
+
+    def route_with_validation(self, query: str, response: str) -> tuple[str, str]:
+        """Full routing + validation + escalation. Returns (model, reason)."""
+        decision = self.classify(query)
+        validation = self.validate_response(query, response)
+        if validation.needs_escalation:
+            logger.warning(f"Escalating to complex model: {validation.reason}")
+            return self.complex_model, f"Escalated: {validation.reason}"
+        return decision.model, decision.reasoning

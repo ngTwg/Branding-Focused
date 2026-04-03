@@ -1,3 +1,14 @@
+---
+name: "fix: Enforce Strict 30-Day Date Filtering"
+tags: ["antigravity", "approach", "c:", "date", "day", "enforce", "filter", "filtering", "fix", "frontend", "gemini", "hard", "last30days", "<YOUR_USERNAME>", "not", "overview", "penalty", "plans", "problem", "proposed"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2823
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # fix: Enforce Strict 30-Day Date Filtering
 
 ## Overview

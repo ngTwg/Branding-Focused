@@ -1,3 +1,14 @@
+---
+name: "Gradio End-to-End Examples"
+tags: ["antigravity", "blocks", "c:", "end", "essay", "examples", "face", "flipper", "form", "gemini", "gradio", "hello", "hugging", "layout", "<YOUR_USERNAME>", "simple", "specialized", "users"]
+tier: 3
+risk: "high"
+estimated_tokens: 3620
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["specialized", "domain"]
+quality_score: 0.95
+---
 # Gradio End-to-End Examples
 
 Complete working Gradio apps for reference.

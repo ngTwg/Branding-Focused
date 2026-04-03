@@ -1,8 +1,15 @@
 ---
-name: electron-desktop
-description: Electron desktop app template principles. Cross-platform, React, TypeScript.
+name: "electron-desktop"
+tags: ["antigravity", "app", "builder", "c:", "concepts", "desktop", "directory", "electron", "frontend", "gemini", "key", "<YOUR_USERNAME>", "model", "process", "setup", "specialized", "stack", "steps", "structure", "tech"]
+tier: 2
+risk: "medium"
+estimated_tokens: 432
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.68
+description: "Electron desktop app template principles. Cross-platform, React, TypeScript."
 ---
-
 # Electron Desktop App Template
 
 ## Tech Stack

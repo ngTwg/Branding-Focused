@@ -1,11 +1,17 @@
 ---
-name: git-pr-workflows-pr-enhance
-description: "You are a PR optimization expert specializing in creating high-quality pull requests that facilitate efficient code reviews. Generate comprehensive PR descriptions, automate review processes, and ensu"
-risk: unknown
-source: community
+name: "git-pr-workflows-pr-enhance"
+tags: ["antigravity", "c:", "context", "enhance", "enhancement", "frontend", "gemini", "git", "instructions", "<YOUR_USERNAME>", "not", "pr", "pull", "request", "requirements", "skill", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 541
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.68
 date_added: "2026-02-27"
+description: "You are a PR optimization expert specializing in creating high-quality pull requests that facilitate efficient code reviews. Generate comprehensive PR descriptions, automate review processes, and ensu"
+source: "community"
 ---
-
 # Pull Request Enhancement
 
 You are a PR optimization expert specializing in creating high-quality pull requests that facilitate efficient code reviews. Generate comprehensive PR descriptions, automate review processes, and ensure PRs follow best practices for clarity, size, and reviewability.

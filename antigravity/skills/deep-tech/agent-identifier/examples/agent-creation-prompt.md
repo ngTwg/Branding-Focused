@@ -1,3 +1,14 @@
+---
+name: "AI-Assisted Agent Generation Template"
+tags: ["agent", "antigravity", "assisted", "c:", "claude", "convert", "creation", "deep", "deep-tech", "describe", "examples", "file", "frontend", "gemini", "generation", "identifier", "json", "<YOUR_USERNAME>", "need", "pattern"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2347
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # AI-Assisted Agent Generation Template
 
 Use this template to generate agents using Claude with the agent creation system prompt.

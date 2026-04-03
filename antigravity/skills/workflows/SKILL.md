@@ -1,8 +1,15 @@
 ---
-name: frontend-testing
-description: Generate Vitest + React Testing Library tests for Dify frontend components, hooks, and utilities. Triggers on testing, spec files, coverage, Vitest, RTL, unit tests, integration tests, or write/review test requests.
+name: "frontend-testing"
+tags: ["all", "antigravity", "apply", "c:", "commands", "dify", "frontend", "gemini", "key", "<YOUR_USERNAME>", "quick", "reference", "run", "skill", "stack", "tech", "testing", "tests", "this", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2495
+tools_needed: ["markdown", "playwright", "pytest", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.96
+description: "Generate Vitest + React Testing Library tests for Dify frontend components, hooks, and utilities. Triggers on testing, spec files, coverage, Vitest, RTL, unit tests, integration tests, or write/review test requests."
 ---
-
 # Dify Frontend Testing Skill
 
 This skill enables Claude to generate high-quality, comprehensive frontend tests for the Dify project following established conventions and best practices.

@@ -1,4 +1,15 @@
 ---
+name: "agentskills.io compliant frontmatter"
+tags: ["agentskills", "antigravity", "c:", "claim", "clarity", "codes", "compliant", "frontend", "frontmatter", "gate", "gemini", "hitl", "<YOUR_USERNAME>", "new", "specialized", "specifications", "users", "validation", "what"]
+tier: 3
+risk: "medium"
+estimated_tokens: 6203
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
+---
 # agentskills.io compliant frontmatter
 name: clarity-gate
 risk: unknown

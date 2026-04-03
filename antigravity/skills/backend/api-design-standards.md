@@ -1,3 +1,14 @@
+---
+name: "API DESIGN STANDARDS - THIẾT KẾ API CHUẨN MỰC"
+tags: ["antigravity", "api", "backend", "best", "c:", "checklist", "chuẩn", "conventions", "design", "frontend", "gemini", "<YOUR_USERNAME>", "mực", "naming", "overview", "pattern", "practices", "rest", "rules", "standards"]
+tier: 2
+risk: "medium"
+estimated_tokens: 5003
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # API DESIGN STANDARDS - THIẾT KẾ API CHUẨN MỰC
 
 > **Tier:** 2-3  

@@ -1,3 +1,14 @@
+---
+name: "Modern C++20/23 Features"
+tags: ["and", "antigravity", "c:", "comparison", "concepts", "constraints", "coroutines", "cpp", "designated", "features", "frontend", "gemini", "initializers", "<YOUR_USERNAME>", "modern", "pro", "ranges", "references", "spaceship", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1633
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.89
+---
 # Modern C++20/23 Features
 
 ## Concepts and Constraints

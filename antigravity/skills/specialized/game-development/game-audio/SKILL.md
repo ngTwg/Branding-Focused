@@ -1,9 +1,16 @@
 ---
-name: game-audio
-description: Game audio principles. Sound design, music integration, adaptive audio systems.
-allowed-tools: Read, Glob, Grep
+name: "game-audio"
+tags: ["antigravity", "approach", "audio", "c:", "category", "creation", "decisions", "definitions", "design", "development", "frontend", "game", "gemini", "hierarchy", "<YOUR_USERNAME>", "principles", "priority", "sfx", "sound", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1325
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.78
+allowed-tools: "Read, Glob, Grep"
+description: "Game audio principles. Sound design, music integration, adaptive audio systems."
 ---
-
 # Game Audio Principles
 
 > Sound design and music integration for immersive game experiences.

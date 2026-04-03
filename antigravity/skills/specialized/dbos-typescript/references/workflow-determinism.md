@@ -1,10 +1,17 @@
 ---
-title: Keep Workflows Deterministic
-impact: CRITICAL
-impactDescription: Non-deterministic workflows cannot recover correctly
-tags: workflow, determinism, recovery, reliability
+name: "Keep Workflows Deterministic"
+tags: ["workflow, determinism, recovery, reliability"]
+tier: 2
+risk: "medium"
+estimated_tokens: 416
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.57
+impact: "CRITICAL"
+impactDescription: "Non-deterministic workflows cannot recover correctly"
+title: "Keep Workflows Deterministic"
 ---
-
 ## Keep Workflows Deterministic
 
 Workflow functions must be deterministic: given the same inputs and step return values, they must invoke the same steps in the same order. Non-deterministic operations must be moved to steps.

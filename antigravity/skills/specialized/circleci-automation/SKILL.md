@@ -1,11 +1,17 @@
 ---
-name: circleci-automation
-description: "Automate CircleCI tasks via Rube MCP (Composio): trigger pipelines, monitor workflows/jobs, retrieve artifacts and test metadata. Always search tools first for current schemas."
-risk: critical
-source: community
+name: "circleci-automation"
+tags: ["and", "antigravity", "automation", "c:", "circleci", "core", "frontend", "gemini", "<YOUR_USERNAME>", "mcp", "monitor", "pipeline", "pipelines", "prerequisites", "rube", "setup", "specialized", "trigger", "users", "via"]
+tier: 2
+risk: "critical"
+estimated_tokens: 1690
+tools_needed: ["git", "markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.83
 date_added: "2026-02-27"
+description: "Automate CircleCI tasks via Rube MCP (Composio): trigger pipelines, monitor workflows/jobs, retrieve artifacts and test metadata. Always search tools first for current schemas."
+source: "community"
 ---
-
 # CircleCI Automation via Rube MCP
 
 Automate CircleCI CI/CD operations through Composio's CircleCI toolkit via Rube MCP.

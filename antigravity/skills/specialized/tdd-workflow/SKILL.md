@@ -1,11 +1,17 @@
 ---
-name: tdd-workflow
-description: "Test-Driven Development workflow principles. RED-GREEN-REFACTOR cycle."
-risk: unknown
-source: community
+name: "tdd-workflow"
+tags: ["antigravity", "c:", "cycle", "frontend", "gemini", "laws", "<YOUR_USERNAME>", "phase", "principles", "red", "rules", "specialized", "tdd", "the", "three", "users", "what", "workflow", "write"]
+tier: 3
+risk: "medium"
+estimated_tokens: 724
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.72
 date_added: "2026-02-27"
+description: "Test-Driven Development workflow principles. RED-GREEN-REFACTOR cycle."
+source: "community"
 ---
-
 # TDD Workflow
 
 > Write tests first, code second.

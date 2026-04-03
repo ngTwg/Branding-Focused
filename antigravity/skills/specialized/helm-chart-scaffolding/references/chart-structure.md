@@ -1,3 +1,14 @@
+---
+name: "Helm Chart Structure Reference"
+tags: ["antigravity", "api", "application", "c:", "chart", "directory", "frontend", "gemini", "helm", "<YOUR_USERNAME>", "reference", "references", "scaffolding", "specialized", "specification", "standard", "structure", "types", "users", "version"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2883
+tools_needed: ["docker", "git", "kubernetes", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Helm Chart Structure Reference
 
 Complete guide to Helm chart organization, file conventions, and best practices.

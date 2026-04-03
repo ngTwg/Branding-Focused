@@ -1,10 +1,16 @@
 ---
-name: commit
-description: ALWAYS use this skill when committing code changes — never commit directly without it. Creates commits following Sentry conventions with proper conventional commit format and issue references. Trigger on any commit, git commit, save changes, or commit message task.
-risk: critical
-source: community
+name: "commit"
+tags: ["antigravity", "body", "c:", "commit", "format", "frontend", "gemini", "guidelines", "<YOUR_USERNAME>", "line", "messages", "prerequisites", "rules", "sentry", "specialized", "subject", "types", "users"]
+tier: 2
+risk: "critical"
+estimated_tokens: 1046
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.89
+description: "ALWAYS use this skill when committing code changes — never commit directly without it. Creates commits following Sentry conventions with proper conventional commit format and issue references. Trigger on any commit, git commit, save changes, or commit message task."
+source: "community"
 ---
-
 # Sentry Commit Messages
 
 Follow these conventions when creating commits for Sentry projects.

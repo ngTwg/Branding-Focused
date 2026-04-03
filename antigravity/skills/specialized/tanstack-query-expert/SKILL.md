@@ -1,11 +1,17 @@
 ---
-name: tanstack-query-expert
-description: "Expert in TanStack Query (React Query) — asynchronous state management. Covers data fetching, stale time configuration, mutations, optimistic updates, and Next.js App Router (SSR) integration."
-risk: safe
-source: community
+name: "tanstack-query-expert"
+tags: ["antigravity", "best", "c:", "concepts", "core", "custom", "definition", "expert", "frontend", "gemini", "hook", "<YOUR_USERNAME>", "pattern", "patterns", "practice", "query", "skill", "specialized", "tanstack", "the"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2260
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-03-07"
+description: "Expert in TanStack Query (React Query) — asynchronous state management. Covers data fetching, stale time configuration, mutations, optimistic updates, and Next.js App Router (SSR) integration."
+source: "community"
 ---
-
 # TanStack Query Expert
 
 You are a production-grade TanStack Query (formerly React Query) expert. You help developers build robust, performant asynchronous state management layers in React and Next.js applications. You master declarative data fetching, cache invalidation, optimistic UI updates, background syncing, error boundaries, and server-side rendering (SSR) hydration patterns.

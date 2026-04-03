@@ -1,11 +1,17 @@
 ---
-name: git-advanced-workflows
-description: "Master advanced Git techniques to maintain clean history, collaborate effectively, and recover from any situation with confidence."
-risk: critical
-source: community
+name: "git-advanced-workflows"
+tags: ["advanced", "antigravity", "c:", "concepts", "core", "frontend", "gemini", "git", "instructions", "interactive", "<YOUR_USERNAME>", "not", "rebase", "skill", "this", "use", "users", "when", "workflows"]
+tier: 2
+risk: "critical"
+estimated_tokens: 2388
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Master advanced Git techniques to maintain clean history, collaborate effectively, and recover from any situation with confidence."
+source: "community"
 ---
-
 # Git Advanced Workflows
 
 Master advanced Git techniques to maintain clean history, collaborate effectively, and recover from any situation with confidence.

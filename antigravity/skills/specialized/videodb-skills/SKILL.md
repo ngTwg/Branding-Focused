@@ -1,13 +1,18 @@
 ---
-name: videodb-skills
-description: "Upload, stream, search, edit, transcribe, and generate AI video and audio using the VideoDB SDK."
-category: media
-risk: safe
-source: community
-tags: "[video, editing, transcription, subtitles, search, streaming, ai-generation, media]"
+name: "videodb-skills"
+tags: ["[video, editing, transcription, subtitles, search, streaming, ai-generation, media]"]
+tier: 3
+risk: "medium"
+estimated_tokens: 858
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.88
+category: "media"
 date_added: "2026-02-27"
+description: "Upload, stream, search, edit, transcribe, and generate AI video and audio using the VideoDB SDK."
+source: "community"
 ---
-
 # VideoDB Skills
 
 ## Purpose

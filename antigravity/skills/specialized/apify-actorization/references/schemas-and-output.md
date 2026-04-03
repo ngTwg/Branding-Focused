@@ -1,3 +1,14 @@
+---
+name: "Schemas and Output Configuration"
+tags: ["actorization", "and", "antigravity", "apify", "blobs", "c:", "configuration", "data", "files", "for", "frontend", "gemini", "guidelines", "input", "items", "<YOUR_USERNAME>", "like", "mapping", "multiple", "output"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1054
+tools_needed: ["docker", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.85
+---
 # Schemas and Output Configuration
 
 ## Input Schema

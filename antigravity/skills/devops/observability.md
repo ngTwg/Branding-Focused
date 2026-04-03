@@ -1,3 +1,14 @@
+---
+name: "OBSERVABILITY PATTERNS"
+tags: ["alerting", "antigravity", "c:", "devops", "distributed", "frontend", "gemini", "<YOUR_USERNAME>", "logging", "metrics", "observability", "patterns", "pillars", "structured", "three", "tracing", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1863
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.90
+---
 # OBSERVABILITY PATTERNS
 
 > **Khi nào tải skill này:** Monitoring, Logging, Metrics, Observability, Tracing, Alert

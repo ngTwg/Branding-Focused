@@ -109,3 +109,68 @@ def test_alpha_beta_monotonicity(query, alpha1, alpha2):
         assert len(results1) > 0 or len(results2) > 0, (
             "Both retrievers returned empty results"
         )
+
+
+
+# Feature: antigravity-architecture-upgrade, Property 3: Domain Filter Containment
+@given(domain=st.sampled_from(['frontend', 'backend', 'security', 'workflows']))
+@settings(max_examples=20)
+def test_domain_filter_containment(domain):
+    """
+    Property 3: Domain Filter Containment
+    Validates: Requirements 1.4
+    
+    Verify that domain_filter returns only skills from that domain.
+    """
+    with tempfile.TemporaryDirectory() as tmpdir:
+        tmpdir_path = Path(tmpdir)
+        skills = create_sample_skills(tmpdir_path, count=10)
+        
+        retriever = HybridRetriever(skills_dir=str(tmpdir_path))
+        retriever.index(skills)
+        
+        results = retriever.retrieve("test query", domain_filter=domain, top_k=5)
+        
+        # Assert: All results belong to the filtered domain
+        for skill in results:
+            assert domain in skill.domain_tags, (
+                f"Skill {skill.skill_id} has tags {skill.domain_tags}, "
+                f"expected to contain '{domain}'"
+            )
+
+
+# Feature: antigravity-architecture-upgrade, Property 4: Deterministic Tie-Breaking
+@given(
+    query=st.text(min_size=3, max_size=50),
+    n_runs=st.integers(2, 5),
+)
+@settings(max_examples=20)
+def test_deterministic_tie_breaking(query, n_runs):
+    """
+    Property 4: Deterministic Tie-Breaking
+    Validates: Requirements 1.11
+    
+    Verify that retrieval is deterministic - same query returns same order.
+    """
+    with tempfile.TemporaryDirectory() as tmpdir:
+        tmpdir_path = Path(tmpdir)
+        skills = create_sample_skills(tmpdir_path, count=10)
+        
+        retriever = HybridRetriever(skills_dir=str(tmpdir_path))
+        retriever.index(skills)
+        
+        # Run retrieval n times
+        runs = []
+        for _ in range(n_runs):
+            results = retriever.retrieve(query, top_k=5)
+            skill_ids = [skill.skill_id for skill in results]
+            runs.append(skill_ids)
+        
+        # Assert: All runs return same order
+        first_run = runs[0]
+        for i, run in enumerate(runs[1:], 1):
+            assert run == first_run, (
+                f"Run {i+1} differs from run 1:\n"
+                f"Run 1: {first_run}\n"
+                f"Run {i+1}: {run}"
+            )

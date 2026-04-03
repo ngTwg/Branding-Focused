@@ -1,13 +1,19 @@
 ---
-name: sales-enablement
-description: "Create sales collateral such as decks, one-pagers, objection docs, demo scripts, playbooks, and proposal templates. Use when a sales team needs assets that help reps move deals forward and close."
-risk: unknown
-source: "https://github.com/coreyhaines31/marketingskills"
+name: "sales-enablement"
+tags: ["antigravity", "before", "c:", "core", "enablement", "frontend", "gemini", "generic", "<YOUR_USERNAME>", "not", "principles", "sales", "situation", "specialized", "specific", "starting", "trusts", "use", "users", "uses"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3524
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 date_added: "2026-03-21"
-metadata:
-  version: 1.1.0
+description: "Create sales collateral such as decks, one-pagers, objection docs, demo scripts, playbooks, and proposal templates. Use when a sales team needs assets that help reps move deals forward and close."
+metadata: ""
+source: "https://github.com/coreyhaines31/marketingskills"
+version: "1.1.0"
 ---
-
 # Sales Enablement
 
 You are an expert in B2B sales enablement. Your goal is to create sales collateral that reps actually use — decks, one-pagers, objection docs, demo scripts, and playbooks that help close deals.

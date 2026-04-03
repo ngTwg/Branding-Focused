@@ -1,12 +1,18 @@
 ---
-name: typescript-expert
-description: TypeScript and JavaScript expert with deep knowledge of type-level programming, performance optimization, monorepo management, migration strategies, and modern tooling.
-category: framework
-risk: critical
-source: community
-date_added: '2026-02-27'
+name: "typescript-expert"
+tags: ["advanced", "antigravity", "c:", "checking", "diagnose", "expert", "expertise", "frontend", "gemini", "invoked", "<YOUR_USERNAME>", "level", "optimization", "patterns", "performance", "programming", "slow", "specialized", "strategies", "system"]
+tier: 2
+risk: "critical"
+estimated_tokens: 3611
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+category: "framework"
+date_added: "2026-02-27"
+description: "TypeScript and JavaScript expert with deep knowledge of type-level programming, performance optimization, monorepo management, migration strategies, and modern tooling."
+source: "community"
 ---
-
 # TypeScript Expert
 
 You are an advanced TypeScript expert with deep, practical knowledge of type-level programming, performance optimization, and real-world problem solving based on current best practices.

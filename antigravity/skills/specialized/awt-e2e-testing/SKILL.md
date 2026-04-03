@@ -1,10 +1,16 @@
 ---
-name: awt-e2e-testing
+name: "awt-e2e-testing"
+tags: ["antigravity", "awt", "beta", "c:", "e2e", "frontend", "gemini", "<YOUR_USERNAME>", "links", "now", "powered", "specialized", "testing", "users", "what", "works"]
+tier: 2
+risk: "medium"
+estimated_tokens: 349
+tools_needed: ["git", "markdown", "playwright", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.57
 description: "AI-powered E2E web testing — eyes and hands for AI coding tools. Declarative YAML scenarios, Playwright execution, visual matching (OpenCV + OCR), platform auto-detection (Flutter/React/Vue), learning DB. Install: npx skills add ksgisang/awt-skill --skill awt -g"
-risk: unknown
 source: "https://github.com/ksgisang/awt-skill"
 ---
-
 # AWT — AI-Powered E2E Testing (Beta)
 
 > `npx skills add ksgisang/awt-skill --skill awt -g`

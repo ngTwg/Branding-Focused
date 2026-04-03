@@ -1,3 +1,14 @@
+---
+name: "Forms & Inputs"
+tags: ["antigravity", "buttons", "c:", "choices", "contents", "field", "fieldgroup", "forms", "frontend", "gemini", "inputgroup", "inputgroupaddon", "inputgroupinput", "inputgrouptextarea", "inputs", "inside", "<YOUR_USERNAME>", "option", "requires", "rules"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1206
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.86
+---
 # Forms & Inputs
 
 ## Contents

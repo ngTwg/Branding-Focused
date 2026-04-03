@@ -1,3 +1,14 @@
+---
+name: "Landing Page SEO Checklist"
+tags: ["antigravity", "c:", "checklist", "contentful", "core", "data", "frontend", "gemini", "generator", "landing", "largest", "lcp", "<YOUR_USERNAME>", "meta", "overview", "page", "paint", "references", "seo", "specialized"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1274
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.72
+---
 # Landing Page SEO Checklist
 
 ## Overview

@@ -1,11 +1,17 @@
 ---
-name: langchain-architecture
-description: "Master the LangChain framework for building sophisticated LLM applications with agents, chains, memory, and tool integration."
-risk: unknown
-source: community
+name: "langchain-architecture"
+tags: ["agents", "antigravity", "architecture", "c:", "concepts", "core", "deep", "deep-tech", "frontend", "gemini", "instructions", "langchain", "<YOUR_USERNAME>", "not", "skill", "tech", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2610
+tools_needed: ["markdown", "pytest"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Master the LangChain framework for building sophisticated LLM applications with agents, chains, memory, and tool integration."
+source: "community"
 ---
-
 # LangChain Architecture
 
 Master the LangChain framework for building sophisticated LLM applications with agents, chains, memory, and tool integration.

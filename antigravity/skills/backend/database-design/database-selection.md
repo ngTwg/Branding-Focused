@@ -1,3 +1,14 @@
+---
+name: "Database Selection (2025)"
+tags: ["2025", "antigravity", "ask", "backend", "c:", "comparison", "database", "decision", "design", "frontend", "gemini", "<YOUR_USERNAME>", "questions", "selection", "tree", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 261
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.58
+---
 # Database Selection (2025)
 
 > Choose database based on context, not default.

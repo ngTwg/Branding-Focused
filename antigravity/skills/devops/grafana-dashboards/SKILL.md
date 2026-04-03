@@ -1,11 +1,17 @@
 ---
-name: grafana-dashboards
-description: "Create and manage production-ready Grafana dashboards for comprehensive system observability."
-risk: unknown
-source: community
+name: "grafana-dashboards"
+tags: ["antigravity", "c:", "dashboard", "dashboards", "design", "devops", "frontend", "gemini", "grafana", "instructions", "<YOUR_USERNAME>", "not", "principles", "purpose", "skill", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2083
+tools_needed: ["ansible", "markdown", "terminal", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.92
 date_added: "2026-02-27"
+description: "Create and manage production-ready Grafana dashboards for comprehensive system observability."
+source: "community"
 ---
-
 # Grafana Dashboards
 
 Create and manage production-ready Grafana dashboards for comprehensive system observability.

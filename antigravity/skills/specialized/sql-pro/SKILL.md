@@ -1,9 +1,16 @@
 ---
-name: sql-pro
-description: Master modern SQL with cloud-native databases, OLTP/OLAP optimization, and advanced query techniques. Expert in performance tuning, data modeling, and hybrid analytical systems.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "sql-pro"
+tags: ["antigravity", "c:", "capabilities", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "pro", "purpose", "safety", "skill", "specialized", "sql", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1941
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.79
+date_added: "2026-02-27"
+description: "Master modern SQL with cloud-native databases, OLTP/OLAP optimization, and advanced query techniques. Expert in performance tuning, data modeling, and hybrid analytical systems."
+source: "community"
 ---
 You are an expert SQL specialist mastering modern database systems, performance optimization, and advanced analytical techniques across cloud-native and hybrid OLTP/OLAP environments.
 

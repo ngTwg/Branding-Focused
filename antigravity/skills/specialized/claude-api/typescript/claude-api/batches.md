@@ -1,3 +1,14 @@
+---
+name: "Message Batches API — TypeScript"
+tags: ["antigravity", "api", "backend", "batch", "batches", "c:", "cancel", "claude", "completion", "create", "facts", "for", "gemini", "key", "<YOUR_USERNAME>", "message", "poll", "results", "retrieve", "specialized"]
+tier: 4
+risk: "medium"
+estimated_tokens: 648
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.74
+---
 # Message Batches API — TypeScript
 
 The Batches API (`POST /v1/messages/batches`) processes Messages API requests asynchronously at 50% of standard prices.

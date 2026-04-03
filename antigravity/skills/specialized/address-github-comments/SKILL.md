@@ -1,11 +1,17 @@
 ---
-name: address-github-comments
-description: "Use when you need to address review or issue comments on an open GitHub Pull Request using the gh CLI."
-risk: unknown
-source: community
+name: "address-github-comments"
+tags: ["address", "and", "antigravity", "c:", "categorize", "comments", "frontend", "gemini", "github", "inspect", "<YOUR_USERNAME>", "overview", "plan", "prerequisites", "specialized", "users", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 347
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.76
 date_added: "2026-02-27"
+description: "Use when you need to address review or issue comments on an open GitHub Pull Request using the gh CLI."
+source: "community"
 ---
-
 # Address GitHub Comments
 
 ## Overview

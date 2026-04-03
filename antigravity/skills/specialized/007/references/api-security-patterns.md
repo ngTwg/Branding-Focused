@@ -1,3 +1,14 @@
+---
+name: "API Security Patterns & Anti-Patterns"
+tags: ["007", "anti", "antigravity", "api", "authentication", "bad", "best", "browser", "c:", "frontend", "gemini", "good", "header", "headers", "history", "key", "keys", "<YOUR_USERNAME>", "logged", "logs"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3276
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # API Security Patterns & Anti-Patterns
 
 > Reference for securing REST APIs, webhooks, and service-to-service communication.

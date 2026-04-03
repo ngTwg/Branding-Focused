@@ -1,11 +1,17 @@
 ---
-name: software-architecture
-description: "Guide for quality focused software architecture. This skill should be used when users want to write code, design architecture, analyze code, in any case that relates to software development."
-risk: unknown
-source: community
+name: "software-architecture"
+tags: ["antigravity", "architecture", "best", "c:", "code", "development", "frontend", "gemini", "general", "<YOUR_USERNAME>", "practices", "principles", "rules", "skill", "software", "specialized", "style", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 924
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.65
 date_added: "2026-02-27"
+description: "Guide for quality focused software architecture. This skill should be used when users want to write code, design architecture, analyze code, in any case that relates to software development."
+source: "community"
 ---
-
 # Software Architecture Development Skill
 
 This skill provides guidance for quality focused software development and architecture. It is based on Clean Architecture and Domain Driven Design principles.

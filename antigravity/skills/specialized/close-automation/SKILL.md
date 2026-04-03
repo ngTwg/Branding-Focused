@@ -1,11 +1,17 @@
 ---
-name: close-automation
-description: "Automate Close CRM tasks via Rube MCP (Composio): create leads, manage calls/SMS, handle tasks, and track notes. Always search tools first for current schemas."
-risk: critical
-source: community
+name: "close-automation"
+tags: ["and", "antigravity", "automation", "c:", "calls", "close", "core", "create", "crm", "frontend", "gemini", "leads", "<YOUR_USERNAME>", "log", "manage", "mcp", "prerequisites", "rube", "setup", "specialized"]
+tier: 2
+risk: "critical"
+estimated_tokens: 1694
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.91
 date_added: "2026-02-27"
+description: "Automate Close CRM tasks via Rube MCP (Composio): create leads, manage calls/SMS, handle tasks, and track notes. Always search tools first for current schemas."
+source: "community"
 ---
-
 # Close CRM Automation via Rube MCP
 
 Automate Close CRM operations through Composio's Close toolkit via Rube MCP.

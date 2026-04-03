@@ -1,3 +1,14 @@
+---
+name: "Writing Guidelines for Postgres Rules"
+tags: ["antigravity", "best", "c:", "concrete", "contained", "contributing", "error", "examples", "first", "for", "frontend", "gemini", "guidelines", "impact", "key", "<YOUR_USERNAME>", "patterns", "postgres", "practices", "principles"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1036
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.85
+---
 # Writing Guidelines for Postgres Rules
 
 This document provides guidelines for creating effective Postgres best

@@ -1,3 +1,14 @@
+---
+name: "Guia de Publicação — Specs de Mídia e Fluxos"
+tags: ["antigravity", "c:", "fluxos", "foto", "frontend", "gemini", "guia", "guide", "image", "instagram", "<YOUR_USERNAME>", "mídia", "publicação", "publishing", "reel", "reels", "references", "specialized", "specs", "stories"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1216
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
+---
 # Guia de Publicação — Specs de Mídia e Fluxos
 
 ## Specs de Mídia

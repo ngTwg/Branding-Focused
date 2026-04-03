@@ -1,12 +1,18 @@
 ---
-name: python-fastapi-development
-description: "Python FastAPI backend development with async patterns, SQLAlchemy, Pydantic, authentication, and production API patterns."
-category: granular-workflow-bundle
-risk: safe
-source: personal
+name: "python-fastapi-development"
+tags: ["antigravity", "backend", "c:", "database", "development", "fastapi", "frontend", "gemini", "<YOUR_USERNAME>", "overview", "phase", "phases", "project", "python", "setup", "this", "use", "users", "when", "workflow"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1213
+tools_needed: ["docker", "markdown", "pytest", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.89
+category: "granular-workflow-bundle"
 date_added: "2026-02-27"
+description: "Python FastAPI backend development with async patterns, SQLAlchemy, Pydantic, authentication, and production API patterns."
+source: "personal"
 ---
-
 # Python/FastAPI Development Workflow
 
 ## Overview

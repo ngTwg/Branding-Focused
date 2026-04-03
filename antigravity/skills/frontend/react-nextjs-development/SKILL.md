@@ -1,12 +1,18 @@
 ---
-name: react-nextjs-development
-description: "React and Next.js 14+ application development with App Router, Server Components, TypeScript, Tailwind CSS, and modern frontend patterns."
-category: granular-workflow-bundle
-risk: safe
-source: personal
+name: "react-nextjs-development"
+tags: ["antigravity", "architecture", "c:", "component", "development", "frontend", "gemini", "<YOUR_USERNAME>", "next", "nextjs", "overview", "phase", "phases", "project", "react", "setup", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1351
+tools_needed: ["markdown", "playwright"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.91
+category: "granular-workflow-bundle"
 date_added: "2026-02-27"
+description: "React and Next.js 14+ application development with App Router, Server Components, TypeScript, Tailwind CSS, and modern frontend patterns."
+source: "personal"
 ---
-
 # React/Next.js Development Workflow
 
 ## Overview

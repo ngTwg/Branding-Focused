@@ -1,3 +1,14 @@
+---
+name: "Design Patterns — Use vs Misuse"
+tags: ["and", "antigravity", "bob", "c:", "cargo", "craft", "cult", "design", "frontend", "gemini", "good", "<YOUR_USERNAME>", "misuse", "not", "pattern", "patterns", "references", "signals", "specialized", "uncle"]
+tier: 2
+risk: "medium"
+estimated_tokens: 646
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.62
+---
 # Design Patterns — Use vs Misuse
 
 Use this when evaluating whether a design pattern is justified or is cargo cult / overuse.

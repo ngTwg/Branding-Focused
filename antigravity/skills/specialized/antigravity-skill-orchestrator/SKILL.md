@@ -1,13 +1,18 @@
 ---
-name: antigravity-skill-orchestrator
-description: "A meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks."
-category: meta
-risk: safe
-source: community
-tags: "[orchestration, meta-skill, agent-memory, task-evaluation]"
+name: "antigravity-skill-orchestrator"
+tags: ["[orchestration, meta-skill, agent-memory, task-evaluation]"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1799
+tools_needed: ["git", "markdown", "mcp", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.88
+category: "meta"
 date_added: "2026-03-13"
+description: "A meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks."
+source: "community"
 ---
-
 # antigravity-skill-orchestrator
 
 ## Overview

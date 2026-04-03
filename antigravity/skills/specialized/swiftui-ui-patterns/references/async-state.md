@@ -1,3 +1,14 @@
+---
+name: "Async state and task lifecycle"
+tags: ["and", "antigravity", "appear", "async", "c:", "change", "core", "example", "frontend", "gemini", "input", "intent", "<YOUR_USERNAME>", "lifecycle", "load", "move", "out", "patterns", "references", "restart"]
+tier: 2
+risk: "medium"
+estimated_tokens: 708
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.71
+---
 # Async state and task lifecycle
 
 ## Intent

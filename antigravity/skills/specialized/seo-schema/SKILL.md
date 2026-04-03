@@ -1,4 +1,15 @@
 ---
+name: "Schema Markup Analysis & Generation"
+tags: ["2026", "active", "analysis", "antigravity", "c:", "detection", "feb", "freely", "frontend", "gemini", "generation", "<YOUR_USERNAME>", "markup", "recommend", "schema", "seo", "specialized", "status", "type", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1397
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+---
+---
 name: seo-schema
 description: >
   Detect, validate, and generate Schema.org structured data. JSON-LD format

@@ -1,3 +1,14 @@
+---
+name: "PRD: Full-Stack Demo App"
+tags: ["antigravity", "app", "c:", "core", "demo", "examples", "features", "flow", "frontend", "full", "gemini", "<YOUR_USERNAME>", "loki", "mode", "overview", "prd", "specialized", "stack", "target", "user"]
+tier: 3
+risk: "medium"
+estimated_tokens: 689
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.73
+---
 # PRD: Full-Stack Demo App
 
 ## Overview

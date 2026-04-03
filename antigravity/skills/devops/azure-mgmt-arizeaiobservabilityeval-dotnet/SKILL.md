@@ -1,11 +1,17 @@
 ---
-name: azure-mgmt-arizeaiobservabilityeval-dotnet
-description: Azure Resource Manager SDK for Arize AI Observability and Evaluation (.NET).
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "azure-mgmt-arizeaiobservabilityeval-dotnet"
+tags: ["antigravity", "arizeaiobservabilityeval", "authentication", "azure", "backend", "c:", "core", "devops", "dotnet", "environment", "gemini", "info", "installation", "<YOUR_USERNAME>", "mgmt", "package", "resourcemanager", "users", "variables", "workflow"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1769
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.90
+date_added: "2026-02-27"
+description: "Azure Resource Manager SDK for Arize AI Observability and Evaluation (.NET)."
+source: "community"
 ---
-
 # Azure.ResourceManager.ArizeAIObservabilityEval
 
 .NET SDK for managing Arize AI Observability and Evaluation resources on Azure.

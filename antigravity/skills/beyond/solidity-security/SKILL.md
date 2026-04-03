@@ -1,11 +1,17 @@
 ---
-name: solidity-security
-description: "Master smart contract security best practices, vulnerability prevention, and secure Solidity development patterns."
-risk: safe
-source: community
+name: "solidity-security"
+tags: ["antigravity", "beyond", "c:", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "resources", "security", "skill", "solidity", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 292
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
 date_added: "2026-02-27"
+description: "Master smart contract security best practices, vulnerability prevention, and secure Solidity development patterns."
+source: "community"
 ---
-
 # Solidity Security
 
 Master smart contract security best practices, vulnerability prevention, and secure Solidity development patterns.

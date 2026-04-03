@@ -1,11 +1,17 @@
 ---
-name: nosql-expert
-description: "Expert guidance for distributed NoSQL databases (Cassandra, DynamoDB). Focuses on mental models, query-first modeling, single-table design, and avoiding hot partitions in high-scale systems."
-risk: unknown
-source: community
+name: "nosql-expert"
+tags: ["access", "antigravity", "c:", "cassandra", "core", "design", "distributed", "dynamodb", "expert", "first", "frontend", "gemini", "<YOUR_USERNAME>", "mental", "modeling", "nosql", "overview", "patterns", "query", "shift"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1485
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.77
 date_added: "2026-02-27"
+description: "Expert guidance for distributed NoSQL databases (Cassandra, DynamoDB). Focuses on mental models, query-first modeling, single-table design, and avoiding hot partitions in high-scale systems."
+source: "community"
 ---
-
 # NoSQL Expert Patterns (Cassandra & DynamoDB)
 
 ## Overview

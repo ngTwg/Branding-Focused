@@ -1,3 +1,14 @@
+---
+name: "Using timm models with Hugging Face Trainer"
+tags: ["antigravity", "c:", "classification", "dataset", "details", "example", "face", "for", "frontend", "full", "gemini", "hugging", "image", "key", "<YOUR_USERNAME>", "load", "loading", "model", "models", "references"]
+tier: 2
+risk: "medium"
+estimated_tokens: 886
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.79
+---
 # Using timm models with Hugging Face Trainer
 
 Transformers has first-class support for timm models via the `TimmWrapper` classes. You can load any timm model and use it directly with the `Trainer` API for image classification. Here's how it works:

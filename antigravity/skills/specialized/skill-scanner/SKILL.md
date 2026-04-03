@@ -1,10 +1,16 @@
 ---
-name: skill-scanner
+name: "skill-scanner"
+tags: ["antigravity", "automated", "bundled", "c:", "discovery", "frontend", "gemini", "input", "<YOUR_USERNAME>", "phase", "scan", "scan_skill", "scanner", "script", "scripts", "security", "skill", "specialized", "static", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2099
+tools_needed: ["git", "markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.93
 description: "Scan agent skills for security issues before adoption. Detects prompt injection, malicious code, excessive permissions, secret exposure, and supply chain risks."
-risk: unknown
-source: community
+source: "community"
 ---
-
 # Skill Security Scanner
 
 Scan agent skills for security issues before adoption. Detects prompt injection, malicious code, excessive permissions, secret exposure, and supply chain risks.

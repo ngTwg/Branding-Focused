@@ -1,3 +1,14 @@
+---
+name: "Screen Reader Testing Implementation Playbook"
+tags: ["antigravity", "c:", "concepts", "core", "frontend", "gemini", "implementation", "<YOUR_USERNAME>", "major", "playbook", "priority", "reader", "readers", "resources", "screen", "skill", "specialized", "testing", "this", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3064
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Screen Reader Testing Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

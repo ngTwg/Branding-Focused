@@ -1,3 +1,14 @@
+---
+name: "Schema Design Principles"
+tags: ["antigravity", "backend", "c:", "database", "decision", "delete", "design", "foreign", "frontend", "gemini", "key", "<YOUR_USERNAME>", "normalization", "primary", "principles", "relationship", "schema", "selection", "strategy", "timestamp"]
+tier: 3
+risk: "medium"
+estimated_tokens: 341
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.69
+---
 # Schema Design Principles
 
 > Normalization, primary keys, timestamps, relationships.

@@ -1,11 +1,17 @@
 ---
-name: temporal-python-pro
-description: Master Temporal workflow orchestration with Python SDK. Implements durable workflows, saga patterns, and distributed transactions. Covers async/await, testing strategies, and production deployment.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "temporal-python-pro"
+tags: ["antigravity", "c:", "capabilities", "frontend", "gemini", "implementation", "instructions", "<YOUR_USERNAME>", "not", "pro", "purpose", "python", "sdk", "skill", "specialized", "temporal", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2643
+tools_needed: ["docker", "git", "kubernetes", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+date_added: "2026-02-27"
+description: "Master Temporal workflow orchestration with Python SDK. Implements durable workflows, saga patterns, and distributed transactions. Covers async/await, testing strategies, and production deployment."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on temporal python pro tasks or workflows

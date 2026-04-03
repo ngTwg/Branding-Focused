@@ -1,11 +1,17 @@
 ---
-name: uv-package-manager
-description: "Comprehensive guide to using uv, an extremely fast Python package installer and resolver written in Rust, for modern Python project management and dependency workflows."
-risk: safe
-source: community
+name: "uv-package-manager"
+tags: ["antigravity", "c:", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "manager", "not", "package", "resources", "skill", "specialized", "this", "use", "users", "uv", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 345
+tools_needed: ["docker", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
 date_added: "2026-02-27"
+description: "Comprehensive guide to using uv, an extremely fast Python package installer and resolver written in Rust, for modern Python project management and dependency workflows."
+source: "community"
 ---
-
 # UV Package Manager
 
 Comprehensive guide to using uv, an extremely fast Python package installer and resolver written in Rust, for modern Python project management and dependency workflows.

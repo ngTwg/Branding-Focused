@@ -1,11 +1,17 @@
 ---
-name: radix-ui-design-system
-description: "Build accessible design systems with Radix UI primitives. Headless component customization, theming strategies, and compound component patterns for production-grade UI libraries."
-risk: safe
-source: self
+name: "radix-ui-design-system"
+tags: ["accessibility", "antigravity", "c:", "core", "design", "first", "frontend", "gemini", "<YOUR_USERNAME>", "not", "overview", "principles", "radix", "skill", "specialized", "system", "this", "ui", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 5430
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Build accessible design systems with Radix UI primitives. Headless component customization, theming strategies, and compound component patterns for production-grade UI libraries."
+source: "self"
 ---
-
 # Radix UI Design System
 
 Build production-ready, accessible design systems using Radix UI primitives with full customization control and zero style opinions.

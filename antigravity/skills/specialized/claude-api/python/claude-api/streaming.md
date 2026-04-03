@@ -1,3 +1,14 @@
+---
+name: "Streaming — Python"
+tags: ["antigravity", "api", "async", "c:", "claude", "content", "different", "final", "frontend", "gemini", "getting", "handling", "<YOUR_USERNAME>", "message", "python", "quick", "specialized", "start", "streaming", "the"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1301
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
+---
 # Streaming — Python
 
 ## Quick Start

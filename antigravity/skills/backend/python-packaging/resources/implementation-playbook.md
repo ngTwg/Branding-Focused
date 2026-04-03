@@ -1,3 +1,14 @@
+---
+name: "Python Packaging Implementation Playbook"
+tags: ["antigravity", "backend", "c:", "concepts", "core", "frontend", "gemini", "implementation", "<YOUR_USERNAME>", "modern", "package", "packaging", "playbook", "python", "resources", "skill", "standards", "structure", "this", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4453
+tools_needed: ["git", "markdown", "pytest", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Python Packaging Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

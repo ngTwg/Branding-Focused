@@ -1,11 +1,17 @@
 ---
-name: full-stack-orchestration-full-stack-feature
-description: "Use when working with full stack orchestration full stack feature"
-risk: unknown
-source: community
+name: "full-stack-orchestration-full-stack-feature"
+tags: ["antigravity", "architecture", "backend", "c:", "database", "design", "feature", "foundation", "frontend", "full", "gemini", "instructions", "<YOUR_USERNAME>", "not", "orchestration", "phase", "service", "skill", "specialized", "stack"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2608
+tools_needed: ["docker", "kubernetes", "markdown", "playwright", "sql", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 date_added: "2026-02-27"
+description: "Use when working with full stack orchestration full stack feature"
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on full stack orchestration full stack feature tasks or workflows

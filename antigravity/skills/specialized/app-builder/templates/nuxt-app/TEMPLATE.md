@@ -1,8 +1,15 @@
 ---
-name: nuxt-app
-description: Nuxt 3 full-stack template. Vue 3, Pinia, Tailwind, Prisma.
+name: "nuxt-app"
+tags: ["antigravity", "app", "builder", "c:", "concepts", "directory", "environment", "frontend", "full", "gemini", "key", "<YOUR_USERNAME>", "nuxt", "setup", "specialized", "stack", "steps", "structure", "tech", "template"]
+tier: 2
+risk: "medium"
+estimated_tokens: 487
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.70
+description: "Nuxt 3 full-stack template. Vue 3, Pinia, Tailwind, Prisma."
 ---
-
 # Nuxt 3 Full-Stack Template
 
 ## Tech Stack

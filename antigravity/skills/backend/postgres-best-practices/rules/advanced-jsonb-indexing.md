@@ -1,10 +1,17 @@
 ---
-title: Index JSONB Columns for Efficient Querying
-impact: MEDIUM
-impactDescription: 10-100x faster JSONB queries with proper indexing
-tags: jsonb, gin, indexes, json
+name: "Index JSONB Columns for Efficient Querying"
+tags: ["jsonb, gin, indexes, json"]
+tier: 2
+risk: "medium"
+estimated_tokens: 361
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.60
+impact: "MEDIUM"
+impactDescription: "10-100x faster JSONB queries with proper indexing"
+title: "Index JSONB Columns for Efficient Querying"
 ---
-
 ## Index JSONB Columns for Efficient Querying
 
 JSONB queries without indexes scan the entire table. Use GIN indexes for containment queries.

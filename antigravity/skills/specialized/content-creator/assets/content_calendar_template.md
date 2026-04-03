@@ -1,3 +1,14 @@
+---
+name: "Content Calendar Template - [Month Year]"
+tags: ["antigravity", "assets", "c:", "calendar", "content", "creator", "date", "frontend", "gemini", "goals", "<YOUR_USERNAME>", "monday", "month", "monthly", "range", "specialized", "template", "tuesday", "users", "wednesday"]
+tier: 2
+risk: "medium"
+estimated_tokens: 402
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.64
+---
 # Content Calendar Template - [Month Year]
 
 ## Monthly Goals

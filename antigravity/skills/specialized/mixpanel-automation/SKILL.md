@@ -1,11 +1,17 @@
 ---
-name: mixpanel-automation
-description: "Automate Mixpanel tasks via Rube MCP (Composio): events, segmentation, funnels, cohorts, user profiles, JQL queries. Always search tools first for current schemas."
-risk: critical
-source: community
+name: "mixpanel-automation"
+tags: ["aggregate", "antigravity", "automation", "c:", "core", "data", "event", "frontend", "gemini", "<YOUR_USERNAME>", "mcp", "mixpanel", "prerequisites", "queries", "rube", "run", "segmentation", "setup", "specialized", "users"]
+tier: 2
+risk: "critical"
+estimated_tokens: 2177
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
 date_added: "2026-02-27"
+description: "Automate Mixpanel tasks via Rube MCP (Composio): events, segmentation, funnels, cohorts, user profiles, JQL queries. Always search tools first for current schemas."
+source: "community"
 ---
-
 # Mixpanel Automation via Rube MCP
 
 Automate Mixpanel product analytics through Composio's Mixpanel toolkit via Rube MCP.

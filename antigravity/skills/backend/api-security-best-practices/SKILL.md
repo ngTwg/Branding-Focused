@@ -1,11 +1,17 @@
 ---
-name: api-security-best-practices
-description: "Implement secure API design patterns including authentication, authorization, input validation, rate limiting, and protection against common API vulnerabilities"
-risk: unknown
-source: community
+name: "api-security-best-practices"
+tags: ["antigravity", "api", "authentication", "authorization", "backend", "best", "c:", "frontend", "gemini", "how", "input", "<YOUR_USERNAME>", "overview", "practices", "sanitization", "security", "skill", "step", "this", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 5855
+tools_needed: ["git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.90
 date_added: "2026-02-27"
+description: "Implement secure API design patterns including authentication, authorization, input validation, rate limiting, and protection against common API vulnerabilities"
+source: "community"
 ---
-
 # API Security Best Practices
 
 ## Overview

@@ -1,11 +1,17 @@
 ---
-name: security-scanning-security-dependencies
-description: "You are a security expert specializing in dependency vulnerability analysis, SBOM generation, and supply chain security. Scan project dependencies across multiple ecosystems to identify vulnerabilities, assess risks, and provide automated remediation strategies."
-risk: safe
-source: community
+name: "security-scanning-security-dependencies"
+tags: ["antigravity", "c:", "context", "dependencies", "dependency", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "requirements", "scanning", "security", "skill", "this", "use", "users", "vulnerability", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 482
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.67
 date_added: "2026-02-27"
+description: "You are a security expert specializing in dependency vulnerability analysis, SBOM generation, and supply chain security. Scan project dependencies across multiple ecosystems to identify vulnerabilities, assess risks, and provide automated remediation strategies."
+source: "community"
 ---
-
 # Dependency Vulnerability Scanning
 
 You are a security expert specializing in dependency vulnerability analysis, SBOM generation, and supply chain security. Scan project dependencies across multiple ecosystems to identify vulnerabilities, assess risks, and provide automated remediation strategies.

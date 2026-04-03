@@ -1,11 +1,17 @@
 ---
-name: python-performance-optimization
-description: "Profile and optimize Python code using cProfile, memory profilers, and performance best practices. Use when debugging slow Python code, optimizing bottlenecks, or improving application performance."
-risk: safe
-source: community
+name: "python-performance-optimization"
+tags: ["antigravity", "backend", "c:", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "optimization", "performance", "python", "resources", "skill", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 356
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
 date_added: "2026-02-27"
+description: "Profile and optimize Python code using cProfile, memory profilers, and performance best practices. Use when debugging slow Python code, optimizing bottlenecks, or improving application performance."
+source: "community"
 ---
-
 # Python Performance Optimization
 
 Comprehensive guide to profiling, analyzing, and optimizing Python code for better performance, including CPU profiling, memory optimization, and implementation best practices.

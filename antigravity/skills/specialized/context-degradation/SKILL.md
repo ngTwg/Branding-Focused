@@ -1,10 +1,16 @@
 ---
-name: context-degradation
+name: "context-degradation"
+tags: ["antigravity", "c:", "concepts", "context", "core", "degradation", "detailed", "gemini", "<YOUR_USERNAME>", "lost", "middle", "patterns", "phenomenon", "poisoning", "specialized", "the", "topics", "use", "users", "when"]
+tier: 1
+risk: "medium"
+estimated_tokens: 3851
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.87
 description: "Language models exhibit predictable degradation patterns as context length increases. Understanding these patterns is essential for diagnosing failures and designing resilient systems."
-risk: unknown
-source: community
+source: "community"
 ---
-
 # Context Degradation Patterns
 
 Language models exhibit predictable degradation patterns as context length increases. Understanding these patterns is essential for diagnosing failures and designing resilient systems. Context degradation is not a binary state but a continuum of performance degradation that manifests in several distinct ways.

@@ -1,3 +1,14 @@
+---
+name: "SECURITY MIDDLEWARE STACK - BẢO MẬT TOÀN DIỆN"
+tags: ["antigravity", "backend", "bảo", "c:", "checklist", "chuẩn", "code", "diện", "gemini", "gặp", "hay", "<YOUR_USERNAME>", "middleware", "mật", "như", "này", "overview", "security", "sinh", "stack"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3715
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.95
+---
 # SECURITY MIDDLEWARE STACK - BẢO MẬT TOÀN DIỆN
 
 > **Tier:** 2-4 (Mandatory for production)  

@@ -1,3 +1,14 @@
+---
+name: "Understanding Hangs in Your App (Summary)"
+tags: ["antigravity", "app", "audit", "c:", "concepts", "diagnosing", "frontend", "gemini", "hangs", "in", "key", "<YOUR_USERNAME>", "loop", "main", "matters", "performance", "practical", "references", "run", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 315
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
+---
 # Understanding Hangs in Your App (Summary)
 
 Context: Apple guidance on identifying hangs caused by long-running main-thread work and understanding the main run loop.

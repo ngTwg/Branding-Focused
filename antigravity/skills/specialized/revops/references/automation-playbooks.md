@@ -1,3 +1,14 @@
+---
+name: "Automation Playbooks"
+tags: ["alert", "and", "antigravity", "assignment", "automation", "booked", "c:", "escalation", "gemini", "hubspot", "lead", "<YOUR_USERNAME>", "meeting", "mql", "notification", "playbooks", "promotion", "recipes", "references", "revops"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2688
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.82
+---
 # Automation Playbooks
 
 Platform-specific workflow recipes for HubSpot, Salesforce, scheduling tools, and cross-tool automation.

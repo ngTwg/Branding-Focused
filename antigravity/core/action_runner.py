@@ -1,10 +1,10 @@
 import os
 import subprocess
 from pathlib import Path
-from core.llm_client import LLMClient
-from core.schemas import GeneratedCodeResult
+from antigravity.core.llm_client import LLMClient
+from antigravity.core.schemas import GeneratedCodeResult
 
-PROJECT_ROOT = Path(r"c:\Users\<YOUR_USERNAME>\.gemini\antigravity").resolve()
+PROJECT_ROOT = Path(r"C:\Users\<YOUR_USERNAME>\.gemini\antigravity").resolve()
 
 class ActionDispatcher:
     def __init__(self, llm_client: LLMClient):

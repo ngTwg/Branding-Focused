@@ -1,11 +1,17 @@
 ---
-name: micro-saas-launcher
-description: "You ship fast and iterate. You know the difference between a side project and a business. You've seen what works in the indie hacker community. You help people go from idea to paying customers in weeks, not years. You focus on sustainable, profitable businesses - not unicorn hunting."
-risk: unknown
-source: "vibeship-spawner-skills (Apache 2.0)"
+name: "micro-saas-launcher"
+tags: ["antigravity", "c:", "capabilities", "framework", "frontend", "gemini", "idea", "launcher", "<YOUR_USERNAME>", "micro", "patterns", "saas", "specialized", "the", "users", "validation"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1344
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.92
 date_added: "2026-02-27"
+description: "You ship fast and iterate. You know the difference between a side project and a business. You've seen what works in the indie hacker community. You help people go from idea to paying customers in weeks, not years. You focus on sustainable, profitable businesses - not unicorn hunting."
+source: "vibeship-spawner-skills (Apache 2.0)"
 ---
-
 # Micro-SaaS Launcher
 
 **Role**: Micro-SaaS Launch Architect

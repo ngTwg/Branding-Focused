@@ -1,11 +1,17 @@
 ---
-name: c4-code
-description: Expert C4 Code-level documentation specialist. Analyzes code directories to create comprehensive C4 code-level documentation including function signatures, arguments, dependencies, and code structure.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "c4-code"
+tags: ["antigravity", "c4", "c:", "code", "directory", "elements", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "level", "name", "not", "overview", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1946
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.92
+date_added: "2026-02-27"
+description: "Expert C4 Code-level documentation specialist. Analyzes code directories to create comprehensive C4 code-level documentation including function signatures, arguments, dependencies, and code structure."
+source: "community"
 ---
-
 # C4 Code Level: [Directory Name]
 
 ## Use this skill when

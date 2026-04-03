@@ -1,3 +1,14 @@
+---
+name: "Error Handling Patterns Implementation Playbook"
+tags: ["antigravity", "c:", "categories", "concepts", "core", "error", "frontend", "gemini", "handling", "implementation", "<YOUR_USERNAME>", "patterns", "philosophies", "playbook", "resources", "skill", "specialized", "this", "use", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 4259
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Error Handling Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

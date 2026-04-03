@@ -1,3 +1,14 @@
+---
+name: "REST API Best Practices"
+tags: ["antigravity", "api", "backend", "bad", "best", "c:", "conventions", "design", "frontend", "gemini", "good", "<YOUR_USERNAME>", "mixed", "naming", "nested", "nouns", "plural", "practices", "principles", "references"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1885
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.92
+---
 # REST API Best Practices
 
 ## URL Structure

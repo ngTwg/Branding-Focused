@@ -1,10 +1,17 @@
 ---
-title: Integrate DBOS with FastAPI
-impact: CRITICAL
-impactDescription: Proper integration ensures workflows survive server restarts
-tags: fastapi, http, server, integration
+name: "Integrate DBOS with FastAPI"
+tags: ["fastapi, http, server, integration"]
+tier: 2
+risk: "medium"
+estimated_tokens: 371
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.59
+impact: "CRITICAL"
+impactDescription: "Proper integration ensures workflows survive server restarts"
+title: "Integrate DBOS with FastAPI"
 ---
-
 ## Integrate DBOS with FastAPI
 
 When using DBOS with FastAPI, configure and launch DBOS inside the main function before starting uvicorn.

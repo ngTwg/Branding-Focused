@@ -1,3 +1,14 @@
+---
+name: "Database Patterns - Prisma Best Practices"
+tags: ["antigravity", "availability", "backend", "basic", "best", "c:", "check", "contents", "database", "dev", "frontend", "gemini", "guidelines", "<YOUR_USERNAME>", "pattern", "patterns", "practices", "prisma", "prismaservice", "repository"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1229
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.86
+---
 # Database Patterns - Prisma Best Practices
 
 Complete guide to database access patterns using Prisma in backend microservices.

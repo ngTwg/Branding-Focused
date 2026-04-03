@@ -1,11 +1,17 @@
 ---
-name: azure-ai-translation-ts
-description: "Text and document translation with REST-style clients."
-risk: unknown
-source: community
+name: "azure-ai-translation-ts"
+tags: ["ai", "antigravity", "azure", "backend", "c:", "client", "devops", "document", "environment", "for", "gemini", "installation", "<YOUR_USERNAME>", "sdks", "text", "translation", "ts", "typescript", "users", "variables"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1779
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.92
 date_added: "2026-02-27"
+description: "Text and document translation with REST-style clients."
+source: "community"
 ---
-
 # Azure Translation SDKs for TypeScript
 
 Text and document translation with REST-style clients.

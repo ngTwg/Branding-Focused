@@ -1,3 +1,14 @@
+---
+name: "🏢 ENTERPRISE GOVERNANCE & OPERATIONS — MASTER INVENTORY (v4.0.0)"
+tags: ["enterprise", "ops", "specialized"]
+tier: 4
+risk: "high"
+estimated_tokens: 5132
+tools_needed: ["kubernetes", "markdown", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["specialized"]
+quality_score: 0.55
+---
 # 🏢 ENTERPRISE GOVERNANCE & OPERATIONS — MASTER INVENTORY (v4.0.0)
 
 > **Chuyên mục:** EA, EB, EC, ED, EE, EF, EG, EH, EI, EJ, EK, EL  

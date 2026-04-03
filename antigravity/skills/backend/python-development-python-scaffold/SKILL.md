@@ -1,11 +1,17 @@
 ---
-name: python-development-python-scaffold
-description: "You are a Python project architecture expert specializing in scaffolding production-ready Python applications. Generate complete project structures with modern tooling (uv, FastAPI, Django), type hint"
-risk: critical
-source: community
+name: "python-development-python-scaffold"
+tags: ["antigravity", "backend", "c:", "context", "development", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "project", "python", "requirements", "scaffold", "scaffolding", "skill", "this", "use", "users", "when"]
+tier: 2
+risk: "critical"
+estimated_tokens: 1871
+tools_needed: ["git", "markdown", "pytest", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.94
 date_added: "2026-02-27"
+description: "You are a Python project architecture expert specializing in scaffolding production-ready Python applications. Generate complete project structures with modern tooling (uv, FastAPI, Django), type hint"
+source: "community"
 ---
-
 # Python Project Scaffolding
 
 You are a Python project architecture expert specializing in scaffolding production-ready Python applications. Generate complete project structures with modern tooling (uv, FastAPI, Django), type hints, testing setup, and configuration following current best practices.

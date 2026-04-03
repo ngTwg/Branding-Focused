@@ -1,14 +1,20 @@
 ---
-name: google-drive-automation
+name: "google-drive-automation"
+tags: ["antigravity", "automatically", "automation", "c:", "commands", "drive", "extracts", "files", "first", "for", "frontend", "full", "gemini", "google", "<YOUR_USERNAME>", "only", "read", "search", "setup", "specialized"]
+tier: 2
+risk: "critical"
+estimated_tokens: 933
+tools_needed: ["markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
+author: "sanjay3290"
 description: "Lightweight Google Drive integration with standalone OAuth authentication. No MCP server required. Full read/write access."
-license: Apache-2.0
-risk: critical
-source: community
-metadata:
-  author: sanjay3290
-  version: "1.0"
+license: "Apache-2.0"
+metadata: ""
+source: "community"
+version: "1.0"
 ---
-
 # Google Drive
 
 Lightweight Google Drive integration with standalone OAuth authentication. No MCP server required. Full read/write access.

@@ -1,11 +1,17 @@
 ---
-name: cc-skill-coding-standards
-description: "Universal coding standards, best practices, and patterns for TypeScript, JavaScript, React, and Node.js development."
-risk: unknown
-source: community
+name: "cc-skill-coding-standards"
+tags: ["antigravity", "aren", "best", "c:", "cc", "code", "coding", "don", "dry", "first", "frontend", "gemini", "gonna", "keep", "kiss", "<YOUR_USERNAME>", "need", "practices", "principles", "quality"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2847
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Universal coding standards, best practices, and patterns for TypeScript, JavaScript, React, and Node.js development."
+source: "community"
 ---
-
 # Coding Standards & Best Practices
 
 Universal coding standards applicable across all projects.

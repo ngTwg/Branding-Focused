@@ -1,12 +1,18 @@
 ---
-name: sql-injection-testing
-description: "Execute comprehensive SQL injection vulnerability assessments on web applications to identify database security flaws, demonstrate exploitation techniques, and validate input sanitization mechanisms."
-risk: offensive
-source: community
-author: zebbern
+name: "sql-injection-testing"
+tags: ["access", "antigravity", "c:", "frontend", "gemini", "injection", "inputs", "legal", "<YOUR_USERNAME>", "prerequisites", "purpose", "required", "requirements", "specialized", "sql", "technical", "testing", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2872
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+author: "zebbern"
 date_added: "2026-02-27"
+description: "Execute comprehensive SQL injection vulnerability assessments on web applications to identify database security flaws, demonstrate exploitation techniques, and validate input sanitization mechanisms."
+source: "community"
 ---
-
 > AUTHORIZED USE ONLY: Use this skill only for authorized security assessments, defensive validation, or controlled educational environments.
 
 # SQL Injection Testing

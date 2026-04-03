@@ -1,3 +1,14 @@
+---
+name: "Fontes e Referências — Leiloeiro Avaliação"
+tags: ["antigravity", "avaliacao", "avaliação", "c:", "dados", "devops", "fontes", "gemini", "leiloeiro", "<YOUR_USERNAME>", "normas", "references", "referências", "specialized", "técnicas", "users", "índices"]
+tier: 3
+risk: "high"
+estimated_tokens: 128
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "operations"]
+quality_score: 0.52
+---
 # Fontes e Referências — Leiloeiro Avaliação
 
 ## Normas Técnicas

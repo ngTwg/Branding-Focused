@@ -1,4 +1,15 @@
 ---
+name: "zeroize-audit — Claude Skill"
+tags: ["antigravity", "audit", "c:", "claude", "frontend", "gemini", "inputs", "<YOUR_USERNAME>", "not", "purpose", "scope", "skill", "specialized", "use", "users", "when", "zeroize"]
+tier: 2
+risk: "high"
+estimated_tokens: 5246
+tools_needed: ["markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.85
+---
+---
 name: zeroize-audit
 description: "Detects missing zeroization of sensitive data in source code and identifies zeroization removed by compiler optimizations, with assembly-level analysis, and control-flow verification. Use for auditing C/C++/Rust code handling secrets, keys, passwords, or other sensitive data."
 allowed-tools:

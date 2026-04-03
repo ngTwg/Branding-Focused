@@ -1,3 +1,14 @@
+---
+name: "Accessibility Audit and Testing Implementation Playbook"
+tags: ["accessibility", "and", "antigravity", "audit", "automated", "axe", "c:", "color", "compliance", "contrast", "core", "frontend", "gemini", "implementation", "instructions", "keyboard", "<YOUR_USERNAME>", "navigation", "playbook", "reader"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3473
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Accessibility Audit and Testing Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

@@ -1,11 +1,17 @@
 ---
-name: kpi-dashboard-design
-description: "Comprehensive patterns for designing effective Key Performance Indicator (KPI) dashboards that drive business decisions."
-risk: unknown
-source: community
+name: "kpi-dashboard-design"
+tags: ["antigravity", "c:", "concepts", "core", "dashboard", "design", "framework", "frontend", "gemini", "instructions", "kpi", "<YOUR_USERNAME>", "not", "skill", "specialized", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3493
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Comprehensive patterns for designing effective Key Performance Indicator (KPI) dashboards that drive business decisions."
+source: "community"
 ---
-
 # KPI Dashboard Design
 
 Comprehensive patterns for designing effective Key Performance Indicator (KPI) dashboards that drive business decisions.

@@ -1,11 +1,17 @@
 ---
-name: dbos-typescript
-description: "Guide for building reliable, fault-tolerant TypeScript applications with DBOS durable workflows. Use when adding DBOS to existing TypeScript code, creating workflows and steps, or using queues for concurrency control."
-risk: safe
-source: "https://docs.dbos.dev/"
+name: "dbos-typescript"
+tags: ["and", "antigravity", "best", "c:", "categories", "configuration", "critical", "dbos", "frontend", "gemini", "installation", "launch", "<YOUR_USERNAME>", "practices", "priority", "rule", "rules", "specialized", "typescript", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 727
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 date_added: "2026-02-27"
+description: "Guide for building reliable, fault-tolerant TypeScript applications with DBOS durable workflows. Use when adding DBOS to existing TypeScript code, creating workflows and steps, or using queues for concurrency control."
+source: "https://docs.dbos.dev/"
 ---
-
 # DBOS TypeScript Best Practices
 
 Guide for building reliable, fault-tolerant TypeScript applications with DBOS durable workflows.

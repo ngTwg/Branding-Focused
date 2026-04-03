@@ -1,10 +1,17 @@
 ---
-title: Use Transactions for Database Operations
-impact: HIGH
-impactDescription: Transactions provide exactly-once database execution within workflows
-tags: step, transaction, database, datasource
+name: "Use Transactions for Database Operations"
+tags: ["step, transaction, database, datasource"]
+tier: 2
+risk: "medium"
+estimated_tokens: 551
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.67
+impact: "HIGH"
+impactDescription: "Transactions provide exactly-once database execution within workflows"
+title: "Use Transactions for Database Operations"
 ---
-
 ## Use Transactions for Database Operations
 
 Use datasource transactions for database operations within workflows. Transactions commit exactly once and are checkpointed for recovery.

@@ -1,10 +1,16 @@
 ---
-name: threejs-lighting
-description: Three.js lighting - light types, shadows, environment lighting. Use when adding lights, configuring shadows, setting up IBL, or optimizing lighting performance.
-risk: unknown
-source: community
+name: "threejs-lighting"
+tags: ["ambientlight", "antigravity", "c:", "directionallight", "frontend", "gemini", "hemispherelight", "<YOUR_USERNAME>", "light", "lighting", "overview", "quick", "specialized", "start", "three", "threejs", "types", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3036
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+description: "Three.js lighting - light types, shadows, environment lighting. Use when adding lights, configuring shadows, setting up IBL, or optimizing lighting performance."
+source: "community"
 ---
-
 # Three.js Lighting
 
 ## Quick Start

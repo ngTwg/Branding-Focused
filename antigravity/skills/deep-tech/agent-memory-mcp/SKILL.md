@@ -1,11 +1,17 @@
 ---
-name: agent-memory-mcp
-description: "A hybrid memory system that provides persistent, searchable knowledge management for AI agents (Architecture, Patterns, Decisions)."
-risk: unknown
-source: community
+name: "agent-memory-mcp"
+tags: ["agent", "antigravity", "c:", "capabilities", "deep", "deep-tech", "frontend", "gemini", "<YOUR_USERNAME>", "mcp", "memory", "memory_search", "memory_write", "prerequisites", "setup", "skill", "tech", "tools", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 560
+tools_needed: ["git", "markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.83
 date_added: "2026-02-27"
+description: "A hybrid memory system that provides persistent, searchable knowledge management for AI agents (Architecture, Patterns, Decisions)."
+source: "community"
 ---
-
 # Agent Memory Skill
 
 This skill provides a persistent, searchable memory bank that automatically syncs with project documentation. It runs as an MCP server to allow reading/writing/searching of long-term memories.

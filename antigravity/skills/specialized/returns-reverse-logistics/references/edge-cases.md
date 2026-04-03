@@ -1,3 +1,14 @@
+---
+name: "Returns & Reverse Logistics — Edge Cases Reference"
+tags: ["antigravity", "border", "bulk", "but", "c:", "case", "cases", "content", "creation", "cross", "drawback", "duty", "edge", "electronics", "evidence", "extensive", "file", "firmware", "frontend", "gemini"]
+tier: 4
+risk: "medium"
+estimated_tokens: 16384
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.79
+---
 # Returns & Reverse Logistics — Edge Cases Reference
 
 > Tier 3 reference. Load on demand when handling complex or ambiguous return situations that don't resolve through standard workflows.

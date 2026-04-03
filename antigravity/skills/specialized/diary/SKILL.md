@@ -1,10 +1,16 @@
 ---
-name: diary
+name: "diary"
+tags: ["antigravity", "archiving", "automation", "c:", "context", "diary", "execution", "extract", "frontend", "fusion", "gemini", "generation", "global", "<YOUR_USERNAME>", "local", "material", "project", "refresh", "script", "skill"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2202
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.96
 description: "Unified Diary System: A context-preserving automated logger for multi-project development."
-risk: safe
-source: self
+source: "self"
 ---
-
 # 📔 Unified Diary System
 
 ## When to Use This Skill

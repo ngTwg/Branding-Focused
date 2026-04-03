@@ -1,12 +1,17 @@
 ---
-name: crypto-bd-agent
+name: "crypto-bd-agent"
+tags: ["null"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1956
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.88
+date_added: "2026-02-27"
 description: "Production-tested patterns for building AI agents that autonomously discover, > evaluate, and acquire token listings for cryptocurrency exchanges."
-risk: safe
-source: community
-tags: null
-date_added: '2026-02-27'
+source: "community"
 ---
-
 # Crypto BD Agent — Autonomous Business Development for Exchanges
 
 > Production-tested patterns for building AI agents that autonomously discover,

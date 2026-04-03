@@ -1,3 +1,14 @@
+---
+name: "AEO and GEO Content Patterns"
+tags: ["aeo", "ai", "and", "answer", "antigravity", "block", "c:", "content", "contents", "deep", "deep-tech", "definition", "engine", "frontend", "gemini", "geo", "<YOUR_USERNAME>", "optimization", "patterns", "references"]
+tier: 4
+risk: "medium"
+estimated_tokens: 2509
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # AEO and GEO Content Patterns
 
 Reusable content block patterns optimized for answer engines and AI citation.

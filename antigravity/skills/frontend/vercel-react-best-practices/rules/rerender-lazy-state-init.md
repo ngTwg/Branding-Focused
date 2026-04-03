@@ -1,10 +1,17 @@
 ---
-title: Use Lazy State Initialization
-impact: MEDIUM
-impactDescription: wasted computation on every render
-tags: react, hooks, useState, performance, initialization
+name: "Use Lazy State Initialization"
+tags: ["react, hooks, useState, performance, initialization"]
+tier: 2
+risk: "medium"
+estimated_tokens: 504
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.58
+impact: "MEDIUM"
+impactDescription: "wasted computation on every render"
+title: "Use Lazy State Initialization"
 ---
-
 ## Use Lazy State Initialization
 
 Pass a function to `useState` for expensive initial values. Without the function form, the initializer runs on every render even though the value is only used once.

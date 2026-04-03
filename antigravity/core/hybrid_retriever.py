@@ -3,19 +3,24 @@ HybridRetriever: BM25 + Dense Embedding Retrieval for SkillStore
 
 Combines sparse (BM25) and dense (cosine similarity) search with configurable weights.
 Supports domain filtering, graceful degradation, and deterministic tie-breaking.
+Integrates with IndexManager for lifecycle management and stale detection.
 
 Requirements: 1.1-1.11 from antigravity-architecture-upgrade spec.
+Requirements: 1.6 from antigravity-resilience-upgrade spec (IndexManager integration).
 """
 
 from __future__ import annotations
 import logging
 import re
 from pathlib import Path
-from typing import Optional
+from typing import Optional, TYPE_CHECKING
 
 from pydantic import BaseModel
 
-from core.schemas import Skill, SkillDocument, RankedSkill
+from antigravity.core.schemas import Skill, SkillDocument, RankedSkill
+
+if TYPE_CHECKING:
+    from antigravity.core.index_manager import IndexManager
 
 logger = logging.getLogger(__name__)
 
@@ -61,10 +66,11 @@ class HybridRetriever:
     
     def __init__(
         self,
-        skills_dir: Path | str,
+        skills_dir: Path | str | None,
         alpha: float = 0.5,
         beta: float = 0.5,
         embedding_model: str = "all-MiniLM-L6-v2",
+        index_manager: Optional['IndexManager'] = None,
     ):
         """
         Initialize HybridRetriever.
@@ -74,15 +80,21 @@ class HybridRetriever:
             alpha: Weight for BM25 scores (0.0-1.0)
             beta: Weight for cosine similarity scores (0.0-1.0)
             embedding_model: SentenceTransformer model name
+            index_manager: Optional IndexManager for lifecycle management
         """
-        self.skills_dir = Path(skills_dir)
+        self.skills_dir = Path(skills_dir) if skills_dir else Path.cwd()
         self.alpha = alpha
         self.beta = beta
         self.embedding_model_name = embedding_model
         
+        # Index lifecycle management
+        self._index_manager = index_manager
+        self._retrieval_count = 0
+        
         # State
         self._documents: list[SkillDocument] = []
         self._skills_map: dict[str, Skill] = {}
+        self._doc_id_to_index: dict[str, int] = {}  # v3: O(1) lookup to avoid O(n^2) indexing
         
         # BM25 components
         self._bm25_index: Optional[BM25Okapi] = None
@@ -122,11 +134,13 @@ class HybridRetriever:
         
         self._documents = documents
         
-        # Build skills map for quick lookup
-        for doc in documents:
+        # Build skills map and index lookup for quick lookup
+        self._doc_id_to_index = {}
+        for i, doc in enumerate(documents):
             # Parse skill from document (simplified - in production would parse from file)
             skill = self._document_to_skill(doc)
             self._skills_map[doc.skill_id] = skill
+            self._doc_id_to_index[doc.skill_id] = i
         
         # Build BM25 index
         if self._bm25_available:
@@ -146,6 +160,29 @@ class HybridRetriever:
                 convert_to_numpy=True
             )
             logger.info(f"Built embedding matrix with {len(documents)} documents")
+
+    def apply_delta(
+        self,
+        documents: list[SkillDocument],
+        removed_ids: Optional[list[str]] = None,
+    ) -> None:
+        """
+        Merge incremental document updates into the existing corpus and rebuild indexes.
+
+        Args:
+            documents: Updated/new skill documents.
+            removed_ids: Skill IDs that should be removed from the corpus.
+        """
+        corpus_map = {doc.skill_id: doc for doc in self._documents}
+
+        for skill_id in (removed_ids or []):
+            corpus_map.pop(skill_id, None)
+
+        for doc in documents:
+            corpus_map[doc.skill_id] = doc
+
+        merged = sorted(corpus_map.values(), key=lambda doc: doc.skill_id)
+        self.index(merged)
     
     def retrieve(
         self,
@@ -171,6 +208,17 @@ class HybridRetriever:
         if not self._documents:
             logger.warning("No documents indexed. Call index() first.")
             return []
+        
+        # Check index health before retrieval
+        if self._index_manager:
+            self._check_index_health()
+        
+        # Increment retrieval counter for health logging
+        self._retrieval_count += 1
+        
+        # Log health metrics every 100 retrievals
+        if self._index_manager and self._retrieval_count % 100 == 0:
+            self._log_index_health()
         
         # Augment query with error context if provided
         augmented_query = query
@@ -209,6 +257,10 @@ class HybridRetriever:
             
             ranked_skill = RankedSkill(
                 skill=skill,
+                skill_id=doc.skill_id,
+                content=doc.content,
+                domain_tags=list(doc.domain_tags),
+                tier=getattr(doc, "tier", None),
                 bm25_norm=bm25_norm[i],
                 cosine_norm=cosine_norm[i],
                 final_score=final_score
@@ -222,6 +274,86 @@ class HybridRetriever:
     
     # ── Private Methods ───────────────────────────────────────────────────────
     
+    def _check_index_health(self) -> None:
+        """
+        Check index health before retrieval.
+        
+        Detects stale embeddings and logs warnings if reindex needed.
+        Validates: Requirements 1.6
+        """
+        if not self._index_manager:
+            return
+        
+        # Detect changes in skill files
+        changed_files = self._index_manager.detect_changes()
+        
+        if changed_files:
+            self._index_manager.mark_stale(changed_files)
+            logger.debug(f"Detected {len(changed_files)} changed skill files")
+        
+        # Check if reindex is needed
+        if self._index_manager.should_reindex():
+            stale_ratio = self._index_manager.get_stale_ratio()
+            logger.warning(
+                f"[INDEX] Stale embeddings detected: {stale_ratio:.1%} of skills need reindex. "
+                f"Consider calling auto_reindex() to maintain retrieval quality."
+            )
+    
+    def _log_index_health(self) -> None:
+        """
+        Log index health metrics.
+        
+        Emits WARNING when stale_ratio > 20%, CRITICAL when > 50%.
+        Validates: Requirements 1.6
+        """
+        if not self._index_manager:
+            return
+        
+        metrics = self._index_manager.get_health_metrics()
+        stale_ratio = metrics["stale_ratio"]
+        
+        log_msg = (
+            f"[INDEX HEALTH] Retrievals: {self._retrieval_count}, "
+            f"Stale: {metrics['stale_embeddings']}/{metrics['total_skills']} "
+            f"({stale_ratio:.1%}), "
+            f"Version: {metrics['index_version']}"
+        )
+        
+        if stale_ratio > 0.5:
+            logger.critical(log_msg + " - CRITICAL: Reindex urgently needed!")
+        elif stale_ratio > 0.2:
+            logger.warning(log_msg + " - WARNING: Reindex recommended")
+        else:
+            logger.info(log_msg)
+    
+    def auto_reindex(self) -> bool:
+        """
+        Automatically reindex if stale ratio exceeds threshold.
+        
+        Returns:
+            True if reindex was performed, False otherwise
+            
+        Validates: Requirements 1.6
+        """
+        if not self._index_manager:
+            logger.warning("No IndexManager configured, cannot auto-reindex")
+            return False
+        
+        if not self._index_manager.should_reindex():
+            logger.debug("Index is healthy, no reindex needed")
+            return False
+        
+        stale_ratio = self._index_manager.get_stale_ratio()
+        logger.info(f"[AUTO-REINDEX] Starting incremental reindex (stale_ratio={stale_ratio:.1%})")
+        
+        try:
+            self._index_manager.reindex(self, mode='incremental')
+            logger.info("[AUTO-REINDEX] Reindex completed successfully")
+            return True
+        except Exception as e:
+            logger.error(f"[AUTO-REINDEX] Reindex failed: {e}", exc_info=True)
+            return False
+    
     def _compute_bm25_scores(
         self,
         query: str,
@@ -232,8 +364,8 @@ class HybridRetriever:
             # Fallback: return zeros
             return [0.0] * len(documents)
         
-        # Get indices of documents in full corpus
-        doc_indices = [self._documents.index(doc) for doc in documents]
+        # Get indices of documents in full corpus (v3: Use O(1) lookup)
+        doc_indices = [self._doc_id_to_index[doc.skill_id] for doc in documents]
         
         # Tokenize query
         tokenized_query = self._tokenize(query)
@@ -263,8 +395,8 @@ class HybridRetriever:
             convert_to_numpy=True
         )[0]
         
-        # Get indices of documents in full corpus
-        doc_indices = [self._documents.index(doc) for doc in documents]
+        # Get indices of documents in full corpus (v3: Use O(1) lookup)
+        doc_indices = [self._doc_id_to_index[doc.skill_id] for doc in documents]
         
         # Compute cosine similarity
         import numpy as np
@@ -331,11 +463,12 @@ class HybridRetriever:
         3. bm25_norm descending (negated)
         4. skill_id lexicographic ascending
         """
+        skill_name = ranked_skill.skill.name if ranked_skill.skill else (ranked_skill.skill_id or "")
         return (
             -ranked_skill.final_score,  # Higher is better
             -ranked_skill.cosine_norm,  # Higher is better
             -ranked_skill.bm25_norm,    # Higher is better
-            ranked_skill.skill.name     # Lexicographic ascending
+            skill_name                  # Lexicographic ascending
         )
     
     def _tokenize(self, text: str) -> list[str]:
@@ -372,22 +505,24 @@ class HybridRetriever:
         # Extract trigger patterns from content (simplified)
         trigger_patterns = self._extract_trigger_patterns(doc.content)
         
+        # Create Skill with dict inputs for Pydantic v2 compatibility
+        skill_name = (doc.name or doc.skill_id or "skill").strip()
         skill = Skill(
-            name=doc.name,
+            name=skill_name,
             description=doc.content[:200],  # First 200 chars as description
             trigger_patterns=trigger_patterns,
             plan_template=[
-                PlanStep(
-                    step_id=1,
-                    action="analyze",
-                    agent="general",
-                    input={"instruction": f"Apply skill: {doc.name}"}
-                )
+                {
+                    "step_id": 1,
+                    "action": "analyze",
+                    "agent": "general",
+                    "input": {"instruction": f"Apply skill: {skill_name}"}
+                }
             ],
-            success_criteria=TaskCompletionSpec(
-                deterministic_checks=[],
-                semantic_goal=f"Successfully applied {doc.name}"
-            )
+            success_criteria={
+                "deterministic_checks": [],
+                "semantic_goal": f"Successfully applied {skill_name}"
+            }
         )
         
         return skill
@@ -420,6 +555,7 @@ def create_hybrid_retriever_from_skills_dir(
     skills_dir: Path | str,
     alpha: float = 0.5,
     beta: float = 0.5,
+    index_manager: Optional['IndexManager'] = None,
 ) -> HybridRetriever:
     """
     Factory function to create and index HybridRetriever from skills directory.
@@ -430,6 +566,7 @@ def create_hybrid_retriever_from_skills_dir(
         skills_dir: Path to skills directory
         alpha: BM25 weight
         beta: Cosine similarity weight
+        index_manager: Optional IndexManager for lifecycle management
     
     Returns:
         Initialized and indexed HybridRetriever
@@ -437,7 +574,8 @@ def create_hybrid_retriever_from_skills_dir(
     retriever = HybridRetriever(
         skills_dir=skills_dir,
         alpha=alpha,
-        beta=beta
+        beta=beta,
+        index_manager=index_manager
     )
     
     # Scan directory for .md files

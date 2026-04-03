@@ -1,3 +1,14 @@
+---
+name: "dbos-python"
+tags: ["agents", "antigravity", "available", "c:", "categories", "dbos", "frontend", "gemini", "<YOUR_USERNAME>", "overview", "python", "reference", "references", "specialized", "structure", "usage", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 687
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.65
+---
 # dbos-python
 
 > **Note:** `CLAUDE.md` is a symlink to this file.

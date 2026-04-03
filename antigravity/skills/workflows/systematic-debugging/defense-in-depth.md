@@ -1,3 +1,14 @@
+---
+name: "Defense-in-Depth Validation"
+tags: ["antigravity", "business", "c:", "debugging", "defense", "depth", "entry", "four", "frontend", "gemini", "in", "layer", "layers", "<YOUR_USERNAME>", "logic", "multiple", "overview", "point", "systematic", "the"]
+tier: 2
+risk: "medium"
+estimated_tokens: 912
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+---
 # Defense-in-Depth Validation
 
 ## Overview

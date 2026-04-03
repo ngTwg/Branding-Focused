@@ -1,16 +1,22 @@
 ---
-name: favicon
-argument-hint: [path to source image]
-description: Generate favicons from a source image
-allowed-tools: Bash(magick *), Bash(which *), Bash(cp *), Bash(mkdir *)
-context: fork
-risk: unknown
-source: community
-metadata:
-  author: Shpigford
-  version: "1.0"
+name: "favicon"
+tags: ["and", "antigravity", "app", "assets", "c:", "detect", "determine", "directory", "ensure", "exists", "favicon", "files", "frontend", "gemini", "generate", "image", "<YOUR_USERNAME>", "name", "prerequisites", "project"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2255
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+allowed-tools: "Bash(magick *), Bash(which *), Bash(cp *), Bash(mkdir *)"
+argument-hint: "[path to source image]"
+author: "Shpigford"
+context: "fork"
+description: "Generate favicons from a source image"
+metadata: ""
+source: "community"
+version: "1.0"
 ---
-
 Generate a complete set of favicons from the source image at `$1` and update the project's HTML with the appropriate link tags.
 
 ## Prerequisites

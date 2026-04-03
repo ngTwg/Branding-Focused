@@ -1,3 +1,14 @@
+---
+name: "Section Definitions"
+tags: ["antigravity", "c:", "comm", "communication", "dbos", "definitions", "frontend", "gemini", "golang", "<YOUR_USERNAME>", "lifecycle", "queue", "references", "section", "sections", "specialized", "step", "users", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 361
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.64
+---
 # Section Definitions
 
 This file defines the rule categories for DBOS Go best practices. Rules are automatically assigned to sections based on their filename prefix.

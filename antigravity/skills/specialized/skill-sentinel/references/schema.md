@@ -1,3 +1,14 @@
+---
+name: "Schema do Banco de Dados - Sentinel"
+tags: ["antigravity", "audit_runs", "banco", "c:", "dados", "findings", "frontend", "gemini", "<YOUR_USERNAME>", "references", "schema", "sentinel", "skill_recommendations", "skill_snapshots", "specialized", "tabelas", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 880
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.67
+---
 # Schema do Banco de Dados - Sentinel
 
 Banco: `data/sentinel.db` (SQLite, WAL mode)

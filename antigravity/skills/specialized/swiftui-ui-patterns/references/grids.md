@@ -1,3 +1,14 @@
+---
+name: "Grids"
+tags: ["adaptive", "antigravity", "c:", "choices", "column", "core", "design", "example", "fixed", "frontend", "gemini", "grid", "grids", "icon", "intent", "keep", "<YOUR_USERNAME>", "media", "patterns", "references"]
+tier: 3
+risk: "medium"
+estimated_tokens: 462
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.69
+---
 # Grids
 
 ## Intent

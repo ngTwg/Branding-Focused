@@ -1,4 +1,15 @@
 ---
+name: "Market Opportunity Analysis"
+tags: ["analysis", "analyst", "antigravity", "business", "c:", "claude", "command", "does", "for", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "market", "not", "opportunity", "skill", "specialized", "startup", "this"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1765
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.83
+---
+---
 name: startup-business-analyst-market-opportunity
 description: 'Generate comprehensive market opportunity analysis with TAM/SAM/SOM
 

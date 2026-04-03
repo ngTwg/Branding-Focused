@@ -1,3 +1,14 @@
+---
+name: "Tool Use — Python"
+tags: ["agentic", "antigravity", "api", "automatically", "betamessage", "c:", "claude", "conversion", "done", "each", "frontend", "gemini", "handles", "helpers", "iteration", "<YOUR_USERNAME>", "loop", "mcp", "python", "recommended"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4180
+tools_needed: ["git", "markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Tool Use — Python
 
 For conceptual overview (tool definitions, tool choice, tips), see [shared/tool-use-concepts.md](../../shared/tool-use-concepts.md).

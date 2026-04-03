@@ -1,3 +1,14 @@
+---
+name: "Communication Templates — Returns & Reverse Logistics"
+tags: ["antigravity", "approval", "c:", "communication", "contents", "frontend", "gemini", "guidance", "<YOUR_USERNAME>", "logistics", "notification", "reference", "references", "returns", "reverse", "rma", "specialized", "table", "templates", "tone"]
+tier: 2
+risk: "medium"
+estimated_tokens: 5174
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.79
+---
 # Communication Templates — Returns & Reverse Logistics
 
 > **Reference Type:** Tier 3 — Load on demand when composing or reviewing returns-related communications.

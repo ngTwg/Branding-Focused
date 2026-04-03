@@ -1,12 +1,18 @@
 ---
-name: broken-authentication
-description: "Identify and exploit authentication and session management vulnerabilities in web applications. Broken authentication consistently ranks in the OWASP Top 10 and can lead to account takeover, identity theft, and unauthorized access to sensitive systems."
-risk: unknown
-source: community
-author: zebbern
+name: "broken-authentication"
+tags: ["access", "antigravity", "authentication", "broken", "c:", "frontend", "gemini", "knowledge", "<YOUR_USERNAME>", "prerequisites", "purpose", "required", "specialized", "testing", "tools", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3148
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+author: "zebbern"
 date_added: "2026-02-27"
+description: "Identify and exploit authentication and session management vulnerabilities in web applications. Broken authentication consistently ranks in the OWASP Top 10 and can lead to account takeover, identity theft, and unauthorized access to sensitive systems."
+source: "community"
 ---
-
 # Broken Authentication Testing
 
 ## Purpose

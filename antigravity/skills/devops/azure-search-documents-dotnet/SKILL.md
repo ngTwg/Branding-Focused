@@ -1,11 +1,17 @@
 ---
-name: azure-search-documents-dotnet
-description: Azure AI Search SDK for .NET (Azure.Search.Documents). Use for building search applications with full-text, vector, semantic, and hybrid search.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "azure-search-documents-dotnet"
+tags: ["antigravity", "api", "auth", "authentication", "azure", "c:", "client", "devops", "documents", "dotnet", "environment", "for", "frontend", "gemini", "installation", "key", "<YOUR_USERNAME>", "net", "not", "production"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2343
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+date_added: "2026-02-27"
+description: "Azure AI Search SDK for .NET (Azure.Search.Documents). Use for building search applications with full-text, vector, semantic, and hybrid search."
+source: "community"
 ---
-
 # Azure.Search.Documents (.NET)
 
 Build search applications with full-text, vector, semantic, and hybrid search capabilities.

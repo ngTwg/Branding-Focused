@@ -1,3 +1,14 @@
+---
+name: "Top bar overlays (iOS 26+ and fallback)"
+tags: ["and", "antigravity", "approach", "bar", "c:", "choices", "design", "earlier", "fallback", "for", "frontend", "gemini", "intent", "ios", "keep", "<YOUR_USERNAME>", "overlays", "patterns", "pitfalls", "references"]
+tier: 2
+risk: "medium"
+estimated_tokens: 339
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.66
+---
 # Top bar overlays (iOS 26+ and fallback)
 
 ## Intent

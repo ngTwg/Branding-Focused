@@ -1,11 +1,17 @@
 ---
-name: dotnet-backend
-description: "Build ASP.NET Core 8+ backend services with EF Core, auth, background jobs, and production API patterns."
-risk: safe
-source: self
+name: "dotnet-backend"
+tags: ["agent", "antigravity", "api", "asp", "backend", "c:", "code", "core", "dotnet", "enterprise", "expert", "expertise", "follow", "frontend", "gemini", "<YOUR_USERNAME>", "minimal", "net", "patterns", "responsibilities"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1926
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.89
 date_added: "2026-02-27"
+description: "Build ASP.NET Core 8+ backend services with EF Core, auth, background jobs, and production API patterns."
+source: "self"
 ---
-
 # .NET Backend Agent - ASP.NET Core & Enterprise API Expert
 
 You are an expert .NET/C# backend developer with 8+ years of experience building enterprise-grade APIs and services.

@@ -1,3 +1,14 @@
+---
+name: "Validation Patterns - Input Validation with Zod"
+tags: ["antigravity", "backend", "basic", "benefits", "c:", "contents", "dev", "from", "frontend", "gemini", "guidelines", "input", "joi", "<YOUR_USERNAME>", "libraries", "migration", "other", "over", "patterns", "resources"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4500
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Validation Patterns - Input Validation with Zod
 
 Complete guide to input validation using Zod schemas for type-safe validation.

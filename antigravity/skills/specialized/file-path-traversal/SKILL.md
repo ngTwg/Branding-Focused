@@ -1,12 +1,18 @@
 ---
-name: file-path-traversal
-description: "Identify and exploit file path traversal (directory traversal) vulnerabilities that allow attackers to read arbitrary files on the server, potentially including sensitive configuration files, credentials, and source code."
-risk: offensive
-source: community
-author: zebbern
+name: "file-path-traversal"
+tags: ["and", "antigravity", "c:", "deliverables", "file", "frontend", "gemini", "knowledge", "<YOUR_USERNAME>", "outputs", "path", "prerequisites", "purpose", "required", "specialized", "testing", "tools", "traversal", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2999
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+author: "zebbern"
 date_added: "2026-02-27"
+description: "Identify and exploit file path traversal (directory traversal) vulnerabilities that allow attackers to read arbitrary files on the server, potentially including sensitive configuration files, credentials, and source code."
+source: "community"
 ---
-
 > AUTHORIZED USE ONLY: Use this skill only for authorized security assessments, defensive validation, or controlled educational environments.
 
 # File Path Traversal Testing

@@ -1,3 +1,14 @@
+---
+name: "Dataset Schema Reference"
+tags: ["actor", "and", "antigravity", "apify", "c:", "configuration", "dataset", "development", "example", "examples", "frontend", "gemini", "javascript", "<YOUR_USERNAME>", "push", "python", "reference", "references", "schema", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1565
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.85
+---
 # Dataset Schema Reference
 
 The dataset schema defines how your Actor's output data is structured, transformed, and displayed in the Output tab in the Apify Console.

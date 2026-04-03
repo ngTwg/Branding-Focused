@@ -1,11 +1,17 @@
 ---
-name: aws-cost-optimizer
-description: "Comprehensive AWS cost analysis and optimization recommendations using AWS CLI and Cost Explorer"
-risk: safe
-source: community
+name: "aws-cost-optimizer"
+tags: ["and", "antigravity", "aws", "c:", "capabilities", "cli", "commands", "core", "cost", "days", "devops", "frontend", "gemini", "get", "last", "<YOUR_USERNAME>", "optimizer", "service", "skill", "this"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1519
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.89
 date_added: "2026-02-27"
+description: "Comprehensive AWS cost analysis and optimization recommendations using AWS CLI and Cost Explorer"
+source: "community"
 ---
-
 # AWS Cost Optimizer
 
 Analyze AWS spending patterns, identify waste, and provide actionable cost reduction strategies.

@@ -1,3 +1,14 @@
+---
+name: "Testing Guide - Backend Testing Strategies"
+tags: ["antigravity", "backend", "c:", "contents", "database", "dev", "frontend", "gemini", "guide", "guidelines", "integration", "<YOUR_USERNAME>", "real", "resources", "specialized", "strategies", "structure", "table", "test", "testing"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1355
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.85
+---
 # Testing Guide - Backend Testing Strategies
 
 Complete guide to testing backend services with Jest and best practices.

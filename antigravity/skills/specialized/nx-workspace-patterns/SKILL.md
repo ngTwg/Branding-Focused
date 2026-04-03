@@ -1,11 +1,17 @@
 ---
-name: nx-workspace-patterns
-description: "Configure and optimize Nx monorepo workspaces. Use when setting up Nx, configuring project boundaries, optimizing build caching, or implementing affected commands."
-risk: unknown
-source: community
+name: "nx-workspace-patterns"
+tags: ["antigravity", "architecture", "c:", "concepts", "core", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "nx", "patterns", "skill", "specialized", "this", "use", "users", "when", "workspace"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2791
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.96
 date_added: "2026-02-27"
+description: "Configure and optimize Nx monorepo workspaces. Use when setting up Nx, configuring project boundaries, optimizing build caching, or implementing affected commands."
+source: "community"
 ---
-
 # Nx Workspace Patterns
 
 Production patterns for Nx monorepo management.

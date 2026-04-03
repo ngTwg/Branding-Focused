@@ -1,3 +1,14 @@
+---
+name: "Intelligent Issue Resolution with Multi-Agent Orchestration Implementation Playbook"
+tags: ["agent", "analysis", "and", "antigravity", "automated", "c:", "cause", "code", "context", "deep", "detection", "domain", "error", "execution", "fix", "frontend", "gathering", "gemini", "implementation", "incident"]
+tier: 3
+risk: "medium"
+estimated_tokens: 7907
+tools_needed: ["git", "markdown", "playwright", "pytest", "sql", "terminal", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Intelligent Issue Resolution with Multi-Agent Orchestration Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

@@ -1,3 +1,14 @@
+---
+name: "Kubernetes Service Specification Reference"
+tags: ["antigravity", "c:", "clusterip", "default", "devops", "frontend", "gemini", "generator", "k8s", "kubernetes", "<YOUR_USERNAME>", "loadbalancer", "manifest", "nodeport", "overview", "reference", "references", "service", "spec", "specification"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3407
+tools_needed: ["kubernetes", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Kubernetes Service Specification Reference
 
 Comprehensive reference for Kubernetes Service resources, covering service types, networking, load balancing, and service discovery patterns.

@@ -1,3 +1,14 @@
+---
+name: "Tailwind Design System Implementation Playbook"
+tags: ["antigravity", "architecture", "c:", "component", "concepts", "core", "design", "frontend", "gemini", "hierarchy", "implementation", "<YOUR_USERNAME>", "playbook", "resources", "skill", "system", "tailwind", "this", "token", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4629
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Tailwind Design System Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

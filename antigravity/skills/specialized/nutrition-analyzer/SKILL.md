@@ -1,11 +1,17 @@
 ---
-name: nutrition-analyzer
-description: 分析营养数据、识别营养模式、评估营养状况，并提供个性化营养建议。支持与运动、睡眠、慢性病数据的关联分析。
-allowed-tools: Read, Grep, Glob, Write
-risk: unknown
-source: community
+name: "nutrition-analyzer"
+tags: ["analyzer", "antigravity", "c:", "data-engineering", "gemini", "<YOUR_USERNAME>", "nutrition", "specialized", "users", "相关性分析", "营养分析器技能", "营养状况评估", "营养素摄入评估", "营养趋势分析"]
+tier: 3
+risk: "high"
+estimated_tokens: 3336
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["data", "analytics"]
+quality_score: 0.97
+allowed-tools: "Read, Grep, Glob, Write"
+description: "分析营养数据、识别营养模式、评估营养状况，并提供个性化营养建议。支持与运动、睡眠、慢性病数据的关联分析。"
+source: "community"
 ---
-
 # 营养分析器技能
 
 分析饮食和营养数据，识别营养模式，评估营养状况，并提供个性化营养改善建议。

@@ -1,3 +1,14 @@
+---
+name: "Loki Mode Installation Guide"
+tags: ["antigravity", "c:", "claude", "cli", "clone", "code", "contents", "directory", "frontend", "gemini", "git", "guide", "install", "installation", "<YOUR_USERNAME>", "loki", "mode", "option", "quick", "recommended"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2276
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Loki Mode Installation Guide
 
 Complete installation instructions for all platforms and use cases.

@@ -1,0 +1,142 @@
+{
+  "version": "1.0.0",
+  "required_keys": [
+    "name",
+    "tags",
+    "tier",
+    "risk",
+    "estimated_tokens",
+    "tools_needed",
+    "applies_to_agents",
+    "industry",
+    "quality_score"
+  ],
+  "default_agents": [
+    "cursor",
+    "claude",
+    "copilot",
+    "cline",
+    "continue",
+    "kiro",
+    "roo"
+  ],
+  "skip_file_names": [
+    "readme.md"
+  ],
+  "domain_defaults": {
+    "frontend": {
+      "tier": 2,
+      "risk": "medium",
+      "industry": ["web", "product"]
+    },
+    "backend": {
+      "tier": 2,
+      "risk": "medium",
+      "industry": ["platform", "api"]
+    },
+    "workflows": {
+      "tier": 2,
+      "risk": "medium",
+      "industry": ["engineering", "productivity"]
+    },
+    "devops": {
+      "tier": 3,
+      "risk": "high",
+      "industry": ["platform", "operations"]
+    },
+    "security": {
+      "tier": 3,
+      "risk": "high",
+      "industry": ["security", "compliance"]
+    },
+    "data-engineering": {
+      "tier": 3,
+      "risk": "high",
+      "industry": ["data", "analytics"]
+    },
+    "ai-agents": {
+      "tier": 3,
+      "risk": "high",
+      "industry": ["ai", "automation"]
+    },
+    "specialized": {
+      "tier": 3,
+      "risk": "high",
+      "industry": ["specialized", "domain"]
+    },
+    "deep-tech": {
+      "tier": 4,
+      "risk": "high",
+      "industry": ["research", "deep-tech"]
+    },
+    "beyond": {
+      "tier": 4,
+      "risk": "high",
+      "industry": ["research", "frontier"]
+    },
+    "archive": {
+      "tier": 2,
+      "risk": "medium",
+      "industry": ["knowledge-base"]
+    },
+    "templates": {
+      "tier": 2,
+      "risk": "low",
+      "industry": ["templates"]
+    },
+    "root": {
+      "tier": 2,
+      "risk": "medium",
+      "industry": ["general"]
+    }
+  },
+  "domain_keywords": {
+    "frontend": ["frontend", "react", "next", "vue", "angular", "css", "tailwind", "ui", "ux"],
+    "backend": ["backend", "api", "server", "database", "auth", "prisma", "postgres", "redis"],
+    "workflows": ["workflow", "debug", "test", "qa", "refactor", "incident", "playbook"],
+    "devops": ["devops", "cicd", "ci/cd", "docker", "kubernetes", "k8s", "terraform", "iac", "sre", "observability"],
+    "security": ["security", "owasp", "xss", "sqli", "idor", "pentest", "exploit", "zero trust", "compliance", "crypt"],
+    "data-engineering": ["data", "etl", "elt", "warehouse", "analytics", "stream", "clickhouse", "spark", "kafka"],
+    "ai-agents": ["agent", "agents", "mcp", "rag", "langgraph", "autogen", "crewai", "prompt"],
+    "specialized": ["specialized", "fintech", "healthtech", "edtech", "iot", "robot", "blockchain", "legal", "govtech"],
+    "deep-tech": ["kernel", "compiler", "gpu", "cuda", "fpga", "signal", "formal verification"],
+    "beyond": ["quantum", "exascale", "neuromorphic", "photonic", "fusion", "green computing"]
+  },
+  "tier_keywords": {
+    "4": ["life-critical", "medical", "aerospace", "firmware", "kernel", "quantum", "formal verification", "iec 62304"],
+    "3": ["distributed", "scale", "scalability", "orchestration", "real-time", "observability", "benchmark", "multi-agent"],
+    "2": ["auth", "payment", "api", "database", "security", "deployment", "compliance", "integration"],
+    "1": ["quickstart", "getting started", "hello world", "intro", "tutorial"]
+  },
+  "risk_keywords": {
+    "critical": ["ransomware", "remote code execution", "backdoor", "critical vuln", "weaponized"],
+    "high": ["exploit", "privilege escalation", "offensive", "red-team", "malware", "pentest"],
+    "medium": ["auth", "payment", "compliance", "security"]
+  },
+  "tool_keywords": {
+    "pytest": "pytest",
+    "playwright": "playwright",
+    "docker": "docker",
+    "kubernetes": "kubernetes",
+    "k8s": "kubernetes",
+    "terraform": "terraform",
+    "ansible": "ansible",
+    "git": "git",
+    "mcp": "mcp",
+    "sql": "sql",
+    "bash": "terminal",
+    "powershell": "terminal"
+  },
+  "mode_selector": {
+    "tier2": {
+      "tiers": [1, 2]
+    },
+    "tier3": {
+      "tiers": [3, 4],
+      "preferred_domains": ["security", "specialized", "ai-agents", "data-engineering", "deep-tech", "beyond"]
+    },
+    "all": {
+      "tiers": [1, 2, 3, 4]
+    }
+  }
+}

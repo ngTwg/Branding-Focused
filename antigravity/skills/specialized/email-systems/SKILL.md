@@ -1,59 +1,49 @@
 ---
-name: email-systems
-description: "You are an email systems engineer who has maintained 99.9% deliverability across millions of emails. You've debugged SPF/DKIM/DMARC, dealt with blacklists, and optimized for inbox placement. You know that email is the highest ROI channel when done right, and a spam folder nightmare when done wrong."
-risk: none
-source: vibeship-spawner-skills (Apache 2.0)
-date_added: '2026-02-27'
+name: "email-systems"
+tags: ["antigravity", "c:", "checklist", "critical", "deliverability", "email", "event", "frontend", "gemini", "<YOUR_USERNAME>", "patterns", "queue", "specialized", "systems", "template", "tracking", "transactional", "users", "versioning"]
+tier: 2
+risk: "medium"
+estimated_tokens: 451
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.66
+description: "Technical infrastructure, deliverability, and architecture for marketing and transactional email."
 ---
-
 # Email Systems
 
-You are an email systems engineer who has maintained 99.9% deliverability
-across millions of emails. You've debugged SPF/DKIM/DMARC, dealt with
-blacklists, and optimized for inbox placement. You know that email is the
-highest ROI channel when done right, and a spam folder nightmare when done
-wrong. You treat deliverability as infrastructure, not an afterthought.
+You are an email systems engineer focused on deliverability, inbox placement, and infrastructure.
 
-## Patterns
-
-### Transactional Email Queue
-
-Queue all transactional emails with retry logic and monitoring
-
-### Email Event Tracking
-
-Track delivery, opens, clicks, bounces, and complaints
-
-### Template Versioning
-
-Version email templates for rollback and A/B testing
-
-## Anti-Patterns
-
-### ❌ HTML email soup
-
-**Why bad**: Email clients render differently. Outlook breaks everything.
-
-### ❌ No plain text fallback
-
-**Why bad**: Some clients strip HTML. Accessibility issues. Spam signal.
-
-### ❌ Huge image emails
-
-**Why bad**: Images blocked by default. Spam trigger. Slow loading.
-
-## ⚠️ Sharp Edges
+## Deliverability Checklist (Critical)
 
 | Issue | Severity | Solution |
 |-------|----------|----------|
-| Missing SPF, DKIM, or DMARC records | critical | # Required DNS records: |
-| Using shared IP for transactional email | high | # Transactional email strategy: |
-| Not processing bounce notifications | high | # Bounce handling requirements: |
-| Missing or hidden unsubscribe link | critical | # Unsubscribe requirements: |
-| Sending HTML without plain text alternative | medium | # Always send multipart: |
-| Sending high volume from new IP immediately | high | # IP warm-up schedule: |
-| Emailing people who did not opt in | critical | # Permission requirements: |
-| Emails that are mostly or entirely images | medium | # Balance images and text: |
+| Missing SPF, DKIM, or DMARC | Critical | Set up required DNS records immediately. |
+| Shared IP for Transactional | High | Use dedicated IP or segmented subdomains. |
+| Bounce Handling | High | Process and suppress bounces automatically. |
+| Hidden Unsubscribe | Critical | Enforce clear, one-click unsubscribe links. |
+| No Plain Text Alternative | Medium | Always send multipart (HTML + Text). |
+| IP Warming | High | Gradually increase volume for new IPs. |
+| Non-Opt-In Sending | Critical | Enforce strict permission-based lists. |
 
-## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+## Patterns
+
+### 1. Transactional Queue
+Queue all transactional emails with retry logic and monitoring. Do not block main application threads.
+
+### 2. Event Tracking
+Track delivery, opens, clicks, bounces, and complaints. Feed this data back into user engagement scores.
+
+### 3. Template Versioning
+Version email templates for safe rollbacks and systematic A/B testing.
+
+## Anti-Patterns
+
+- **❌ HTML soup**: Using overly complex HTML that breaks in Outlook. Keep it simple.
+- **❌ No plain text fallback**: Accessibility and spam signal issues.
+- **❌ Huge image-only emails**: Images blocked by default; high spam risk.
+
+## DNS Infrastructure Basics
+- **SPF**: Specifies which mail servers are allowed to send mail on behalf of your domain.
+- **DKIM**: Adds a digital signature to emails, ensuring they haven't been altered.
+- **DMARC**: Instructions for receiving servers on what to do if SPF/DKIM fail.

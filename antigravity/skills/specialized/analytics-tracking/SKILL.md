@@ -1,11 +1,17 @@
 ---
-name: analytics-tracking
-description: Design, audit, and improve analytics tracking systems that produce reliable, decision-ready data.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "analytics-tracking"
+tags: ["100", "analytics", "antigravity", "c:", "categories", "frontend", "gemini", "index", "<YOUR_USERNAME>", "measurement", "phase", "purpose", "quality", "readiness", "required", "score", "scoring", "signal", "specialized", "strategy"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1862
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.80
+date_added: "2026-02-27"
+description: "Design, audit, and improve analytics tracking systems that produce reliable, decision-ready data."
+source: "community"
 ---
-
 # Analytics Tracking & Measurement Strategy
 
 You are an expert in **analytics implementation and measurement design**.

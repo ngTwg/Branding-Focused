@@ -1,11 +1,17 @@
 ---
-name: seo-snippet-hunter
-description: Formats content to be eligible for featured snippets and SERP features. Creates snippet-optimized content blocks based on best practices. Use PROACTIVELY for question-based content.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "seo-snippet-hunter"
+tags: ["antigravity", "areas", "c:", "focus", "formats", "frontend", "gemini", "hunter", "instructions", "<YOUR_USERNAME>", "not", "optimization", "seo", "skill", "snippet", "specialized", "strategy", "this", "types", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 761
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.73
+date_added: "2026-02-27"
+description: "Formats content to be eligible for featured snippets and SERP features. Creates snippet-optimized content blocks based on best practices. Use PROACTIVELY for question-based content."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on seo snippet hunter tasks or workflows

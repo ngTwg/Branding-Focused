@@ -1,13 +1,18 @@
 ---
-name: skill-creator
-description: "To create new CLI skills following Anthropic's official best practices with zero manual configuration. This skill automates brainstorming, template application, validation, and installation processes while maintaining progressive disclosure patterns and writing style standards."
-category: meta
-risk: safe
-source: community
-tags: "[automation, scaffolding, skill-creation, meta-skill]"
+name: "skill-creator"
+tags: ["[automation, scaffolding, skill-creation, meta-skill]"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4595
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.98
+category: "meta"
 date_added: "2026-02-27"
+description: "To create new CLI skills following Anthropic's official best practices with zero manual configuration. This skill automates brainstorming, template application, validation, and installation processes while maintaining progressive disclosure patterns and writing style standards."
+source: "community"
 ---
-
 # skill-creator
 
 ## Purpose

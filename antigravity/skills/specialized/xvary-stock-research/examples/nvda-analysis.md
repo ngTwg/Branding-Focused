@@ -1,3 +1,14 @@
+---
+name: "Example: `/analyze NVDA`"
+tags: ["analysis", "analyze", "antigravity", "c:", "criteria", "example", "examples", "frontend", "gemini", "kill", "<YOUR_USERNAME>", "nvda", "pillars", "research", "risks", "scores", "specialized", "stock", "thesis", "top"]
+tier: 3
+risk: "medium"
+estimated_tokens: 645
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.67
+---
 # Example: `/analyze NVDA`
 
 > Illustrative skill output format. Metrics below were generated from public EDGAR + market snapshots and should be treated as research context, not investment advice.

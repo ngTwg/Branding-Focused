@@ -1,10 +1,17 @@
 ---
-title: Control Which Queues a Worker Listens To
-impact: HIGH
-impactDescription: Enables heterogeneous worker pools
-tags: queue, listen, worker, process, configuration
+name: "Control Which Queues a Worker Listens To"
+tags: ["queue, listen, worker, process, configuration"]
+tier: 2
+risk: "medium"
+estimated_tokens: 446
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.61
+impact: "HIGH"
+impactDescription: "Enables heterogeneous worker pools"
+title: "Control Which Queues a Worker Listens To"
 ---
-
 ## Control Which Queues a Worker Listens To
 
 Configure `listenQueues` in DBOS configuration to make a process only dequeue from specific queues. This enables heterogeneous worker pools.

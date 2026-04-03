@@ -1,11 +1,17 @@
 ---
-name: azure-ai-projects-py
-description: "Build AI applications on Microsoft Foundry using the azure-ai-projects SDK."
-risk: unknown
-source: community
+name: "azure-ai-projects-py"
+tags: ["ai", "antigravity", "approaches", "authentication", "azure", "c:", "client", "devops", "environment", "foundry", "frontend", "gemini", "installation", "<YOUR_USERNAME>", "operations", "overview", "projects", "py", "python", "sdk"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2067
+tools_needed: ["markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.94
 date_added: "2026-02-27"
+description: "Build AI applications on Microsoft Foundry using the azure-ai-projects SDK."
+source: "community"
 ---
-
 # Azure AI Projects Python SDK (Foundry SDK)
 
 Build AI applications on Microsoft Foundry using the `azure-ai-projects` SDK.

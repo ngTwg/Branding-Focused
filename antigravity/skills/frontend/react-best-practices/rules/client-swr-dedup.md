@@ -1,10 +1,17 @@
 ---
-title: Use SWR for Automatic Deduplication
-impact: MEDIUM-HIGH
-impactDescription: automatic deduplication
-tags: client, swr, deduplication, data-fetching
+name: "Use SWR for Automatic Deduplication"
+tags: ["client, swr, deduplication, data-fetching"]
+tier: 2
+risk: "medium"
+estimated_tokens: 289
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.62
+impact: "MEDIUM-HIGH"
+impactDescription: "automatic deduplication"
+title: "Use SWR for Automatic Deduplication"
 ---
-
 ## Use SWR for Automatic Deduplication
 
 SWR enables request deduplication, caching, and revalidation across component instances.

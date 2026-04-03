@@ -1,4 +1,15 @@
 ---
+name: "Content Quality & E-E-A-T Analysis"
+tags: ["2025", "analysis", "antigravity", "authoritativeness", "c:", "content", "experience", "expertise", "first", "framework", "frontend", "gemini", "hand", "<YOUR_USERNAME>", "qrg", "quality", "seo", "sept", "signals", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2006
+tools_needed: ["git", "markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.79
+---
+---
 name: seo-content
 description: >
   Content quality and E-E-A-T analysis with AI citation readiness assessment.

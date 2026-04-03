@@ -1,3 +1,14 @@
+---
+name: "TypeScript Advanced Types Implementation Playbook"
+tags: ["advanced", "antigravity", "c:", "concepts", "conditional", "core", "frontend", "gemini", "generics", "implementation", "<YOUR_USERNAME>", "playbook", "resources", "skill", "specialized", "this", "types", "typescript", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4226
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # TypeScript Advanced Types Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

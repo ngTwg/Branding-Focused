@@ -1,12 +1,18 @@
 ---
-name: api-security-testing
-description: "API security testing workflow for REST and GraphQL APIs covering authentication, authorization, rate limiting, input validation, and security best practices."
-category: granular-workflow-bundle
-risk: safe
-source: personal
+name: "api-security-testing"
+tags: ["antigravity", "api", "authentication", "backend", "c:", "discovery", "gemini", "<YOUR_USERNAME>", "overview", "phase", "phases", "security", "testing", "this", "use", "users", "when", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 901
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.87
+category: "granular-workflow-bundle"
 date_added: "2026-02-27"
+description: "API security testing workflow for REST and GraphQL APIs covering authentication, authorization, rate limiting, input validation, and security best practices."
+source: "personal"
 ---
-
 # API Security Testing Workflow
 
 ## Overview

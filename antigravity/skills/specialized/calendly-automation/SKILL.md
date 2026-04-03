@@ -1,11 +1,17 @@
 ---
-name: calendly-automation
-description: "Automate Calendly scheduling, event management, invitee tracking, availability checks, and organization administration via Rube MCP (Composio). Always search tools first for current schemas."
-risk: critical
-source: community
+name: "calendly-automation"
+tags: ["and", "antigravity", "automation", "c:", "calendly", "core", "event", "events", "frontend", "gemini", "invitees", "<YOUR_USERNAME>", "list", "manage", "mcp", "prerequisites", "rube", "scheduled", "setup", "specialized"]
+tier: 2
+risk: "critical"
+estimated_tokens: 2667
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 date_added: "2026-02-27"
+description: "Automate Calendly scheduling, event management, invitee tracking, availability checks, and organization administration via Rube MCP (Composio). Always search tools first for current schemas."
+source: "community"
 ---
-
 # Calendly Automation via Rube MCP
 
 Automate Calendly operations including event listing, invitee management, scheduling link creation, availability queries, and organization administration through Composio's Calendly toolkit.

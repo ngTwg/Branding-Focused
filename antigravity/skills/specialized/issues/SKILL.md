@@ -1,14 +1,20 @@
 ---
-name: issues
-description: Interact with GitHub issues - create, list, and view issues.
-allowed-tools: Bash(gh *)
-risk: unknown
-source: community
-metadata:
-  author: Shpigford
-  version: "1.0"
+name: "issues"
+tags: ["action", "antigravity", "body", "c:", "create", "determine", "frontend", "gemini", "get", "instructions", "issue", "issues", "labels", "<YOUR_USERNAME>", "new", "optional", "selected", "specialized", "step", "title"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1804
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+allowed-tools: "Bash(gh *)"
+author: "Shpigford"
+description: "Interact with GitHub issues - create, list, and view issues."
+metadata: ""
+source: "community"
+version: "1.0"
 ---
-
 Interact with GitHub issues - create, list, and view issues.
 
 ## Instructions

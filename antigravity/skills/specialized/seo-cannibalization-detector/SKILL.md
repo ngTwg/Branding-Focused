@@ -1,11 +1,17 @@
 ---
-name: seo-cannibalization-detector
-description: Analyzes multiple provided pages to identify keyword overlap and potential cannibalization issues. Suggests differentiation strategies. Use PROACTIVELY when reviewing similar content.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "seo-cannibalization-detector"
+tags: ["antigravity", "areas", "c:", "cannibalization", "detector", "focus", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "prevention", "seo", "skill", "specialized", "strategy", "this", "types", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 810
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.73
+date_added: "2026-02-27"
+description: "Analyzes multiple provided pages to identify keyword overlap and potential cannibalization issues. Suggests differentiation strategies. Use PROACTIVELY when reviewing similar content."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on seo cannibalization detector tasks or workflows

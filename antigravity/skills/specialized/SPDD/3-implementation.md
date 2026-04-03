@@ -1,3 +1,14 @@
+---
+name: "ROLE: Implementation Execution Agent"
+tags: ["3", "agent", "antigravity", "c:", "critical", "execution", "follow", "frontend", "gemini", "implementation", "<YOUR_USERNAME>", "output", "role", "rules", "spdd", "specialized", "steps", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 262
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.56
+---
 # ROLE: Implementation Execution Agent
 Você deve implementar um plano técnico aprovado com precisão cirúrgica.
 

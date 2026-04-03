@@ -1,11 +1,17 @@
 ---
-name: mailchimp-automation
-description: "Automate Mailchimp email marketing including campaigns, audiences, subscribers, segments, and analytics via Rube MCP (Composio). Always search tools first for current schemas."
-risk: critical
-source: community
+name: "mailchimp-automation"
+tags: ["and", "antigravity", "audiences", "automation", "c:", "campaigns", "core", "create", "email", "frontend", "gemini", "<YOUR_USERNAME>", "mailchimp", "manage", "mcp", "prerequisites", "rube", "send", "setup", "specialized"]
+tier: 2
+risk: "critical"
+estimated_tokens: 3137
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.84
 date_added: "2026-02-27"
+description: "Automate Mailchimp email marketing including campaigns, audiences, subscribers, segments, and analytics via Rube MCP (Composio). Always search tools first for current schemas."
+source: "community"
 ---
-
 # Mailchimp Automation via Rube MCP
 
 Automate Mailchimp email marketing workflows including campaign creation and sending, audience/list management, subscriber operations, segmentation, and performance analytics through Composio's Mailchimp toolkit.

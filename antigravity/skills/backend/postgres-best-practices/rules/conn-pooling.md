@@ -1,10 +1,17 @@
 ---
-title: Use Connection Pooling for All Applications
-impact: CRITICAL
-impactDescription: Handle 10-100x more concurrent users
-tags: connection-pooling, pgbouncer, performance, scalability
+name: "Use Connection Pooling for All Applications"
+tags: ["connection-pooling, pgbouncer, performance, scalability"]
+tier: 3
+risk: "medium"
+estimated_tokens: 345
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.57
+impact: "CRITICAL"
+impactDescription: "Handle 10-100x more concurrent users"
+title: "Use Connection Pooling for All Applications"
 ---
-
 ## Use Connection Pooling for All Applications
 
 Postgres connections are expensive (1-3MB RAM each). Without pooling, applications exhaust connections under load.

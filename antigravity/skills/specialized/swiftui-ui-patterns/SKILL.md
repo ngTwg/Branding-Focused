@@ -1,11 +1,17 @@
 ---
-name: swiftui-ui-patterns
-description: Apply proven SwiftUI UI patterns for navigation, sheets, async state, and reusable screens.
-risk: safe
-source: "Dimillian/Skills (MIT)"
+name: "swiftui-ui-patterns"
+tags: ["antigravity", "c:", "existing", "follow", "frontend", "gemini", "general", "<YOUR_USERNAME>", "new", "patterns", "project", "quick", "rules", "scaffolding", "specialized", "start", "swiftui", "ui", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1839
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.80
 date_added: "2026-03-25"
+description: "Apply proven SwiftUI UI patterns for navigation, sheets, async state, and reusable screens."
+source: "Dimillian/Skills (MIT)"
 ---
-
 # SwiftUI UI Patterns
 
 ## Quick start

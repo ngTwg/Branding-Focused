@@ -1,10 +1,17 @@
 ---
-title: Batch DOM CSS Changes
-impact: MEDIUM
-impactDescription: reduces reflows/repaints
-tags: javascript, dom, css, performance, reflow
+name: "Batch DOM CSS Changes"
+tags: ["javascript, dom, css, performance, reflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 475
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.64
+impact: "MEDIUM"
+impactDescription: "reduces reflows/repaints"
+title: "Batch DOM CSS Changes"
 ---
-
 ## Batch DOM CSS Changes
 
 Avoid changing styles one property at a time. Group multiple CSS changes together via classes or `cssText` to minimize browser reflows.

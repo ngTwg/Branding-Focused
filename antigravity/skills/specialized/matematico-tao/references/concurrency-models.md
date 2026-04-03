@@ -1,3 +1,14 @@
+---
+name: "Modelos Formais de Concorrência para Kotlin/Android"
+tags: ["actor", "android", "antigravity", "aplicação", "atores", "c:", "communicating", "concorrência", "concurrency", "coroutines", "csp", "definição", "formais", "formal", "frontend", "gemini", "kotlin", "<YOUR_USERNAME>", "matematico", "model"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2037
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.93
+---
 # Modelos Formais de Concorrência para Kotlin/Android
 
 ## 1. Modelo CSP (Communicating Sequential Processes)

@@ -1,15 +1,20 @@
 ---
-name: audit-skills
-description: "Expert security auditor for AI Skills and Bundles. Performs non-intrusive static analysis to identify malicious patterns, data leaks, system stability risks, and obfuscated payloads across Windows, macOS, Linux/Unix, and Mobile (Android/iOS)."
-category: security
-risk: safe
-source: community
+name: "audit-skills"
+tags: ["[security, audit, skills, bundles, cross-platform]"]
+tier: 4
+risk: "medium"
+estimated_tokens: 1465
+tools_needed: ["git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.82
+author: "MAIOStudio"
+category: "security"
 date_added: "2026-03-07"
-author: MAIOStudio
-tags: [security, audit, skills, bundles, cross-platform]
-tools: [claude, gemini, gpt, llama, mistral, etc]
+description: "Expert security auditor for AI Skills and Bundles. Performs non-intrusive static analysis to identify malicious patterns, data leaks, system stability risks, and obfuscated payloads across Windows, macOS, Linux/Unix, and Mobile (Android/iOS)."
+source: "community"
+tools: "[claude, gemini, gpt, llama, mistral, etc]"
 ---
-
 <!-- security-allowlist: curl-pipe-bash -->
 
 # Audit Skills (Premium Universal Security)

@@ -1,3 +1,14 @@
+---
+name: "Workflow Automation Implementation Playbook"
+tags: ["actions", "analysis", "antigravity", "automate", "automation", "c:", "cicd", "frontend", "gemini", "github", "implementation", "instructions", "<YOUR_USERNAME>", "playbook", "release", "resources", "users", "workflow", "workflows", "yml"]
+tier: 2
+risk: "medium"
+estimated_tokens: 9015
+tools_needed: ["docker", "git", "kubernetes", "markdown", "pytest", "terminal", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Workflow Automation Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

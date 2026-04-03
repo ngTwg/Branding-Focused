@@ -1,3 +1,14 @@
+---
+name: "Migration Principles"
+tags: ["antigravity", "backend", "c:", "database", "databases", "design", "edge", "gemini", "<YOUR_USERNAME>", "migration", "migrations", "neon", "philosophy", "postgresql", "principles", "safe", "serverless", "sqlite", "strategy", "turso"]
+tier: 3
+risk: "medium"
+estimated_tokens: 257
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.62
+---
 # Migration Principles
 
 > Safe migration strategy for zero-downtime changes.

@@ -1,12 +1,18 @@
 ---
-name: os-scripting
-description: "Operating system and shell scripting troubleshooting workflow for Linux, macOS, and Windows. Covers bash scripting, system administration, debugging, and automation."
-category: workflow-bundle
-risk: safe
-source: personal
+name: "os-scripting"
+tags: ["antigravity", "assessment", "bundle", "c:", "environment", "frontend", "gemini", "information", "<YOUR_USERNAME>", "os", "overview", "phase", "phases", "scripting", "shell", "specialized", "system", "this", "troubleshooting", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2078
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+category: "workflow-bundle"
 date_added: "2026-02-27"
+description: "Operating system and shell scripting troubleshooting workflow for Linux, macOS, and Windows. Covers bash scripting, system administration, debugging, and automation."
+source: "personal"
 ---
-
 # OS/Shell Scripting Troubleshooting Workflow Bundle
 
 ## Overview

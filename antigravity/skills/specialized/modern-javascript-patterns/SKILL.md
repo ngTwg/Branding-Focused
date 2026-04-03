@@ -1,11 +1,17 @@
 ---
-name: modern-javascript-patterns
-description: "Comprehensive guide for mastering modern JavaScript (ES6+) features, functional programming patterns, and best practices for writing clean, maintainable, and performant code."
-risk: safe
-source: community
+name: "modern-javascript-patterns"
+tags: ["antigravity", "c:", "frontend", "gemini", "instructions", "javascript", "<YOUR_USERNAME>", "modern", "not", "patterns", "resources", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 336
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
 date_added: "2026-02-27"
+description: "Comprehensive guide for mastering modern JavaScript (ES6+) features, functional programming patterns, and best practices for writing clean, maintainable, and performant code."
+source: "community"
 ---
-
 # Modern JavaScript Patterns
 
 Comprehensive guide for mastering modern JavaScript (ES6+) features, functional programming patterns, and best practices for writing clean, maintainable, and performant code.

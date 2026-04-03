@@ -1,3 +1,14 @@
+---
+name: "Authentication and Authorization Implementation Patterns Implementation Playbook"
+tags: ["and", "antigravity", "auth", "authentication", "authorization", "c:", "concepts", "core", "frontend", "gemini", "implementation", "jwt", "<YOUR_USERNAME>", "pattern", "patterns", "playbook", "resources", "security", "strategies", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 4267
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Authentication and Authorization Implementation Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

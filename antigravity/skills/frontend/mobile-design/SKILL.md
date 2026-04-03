@@ -1,9 +1,16 @@
 ---
-name: mobile-design
-description: Mobile-first design thinking and decision-making for iOS and Android apps. Touch interaction, performance patterns, platform conventions. Teaches principles, not fixed values. Use when building React Native, Flutter, or native mobile apps.
-allowed-tools: Read, Glob, Grep, Bash
+name: "mobile-design"
+tags: ["always", "antigravity", "ask", "assuming", "based", "before", "c:", "critical", "design", "files", "frontend", "gemini", "<YOUR_USERNAME>", "mandatory", "mobile", "platform", "read", "reference", "runtime", "scripts"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3698
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.96
+allowed-tools: "Read, Glob, Grep, Bash"
+description: "Mobile-first design thinking and decision-making for iOS and Android apps. Touch interaction, performance patterns, platform conventions. Teaches principles, not fixed values. Use when building React Native, Flutter, or native mobile apps."
 ---
-
 # Mobile Design System
 
 > **Philosophy:** Touch-first. Battery-conscious. Platform-respectful. Offline-capable.

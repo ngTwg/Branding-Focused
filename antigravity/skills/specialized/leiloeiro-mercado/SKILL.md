@@ -1,4 +1,15 @@
 ---
+name: "SKILL DE MERCADO — ANALISTA DE ATIVOS IMOBILIÁRIOS EM LEILÃO"
+tags: ["analista", "antigravity", "arrematação", "ativos", "c:", "frontend", "gemini", "how", "imobiliários", "leiloeiro", "leilão", "<YOUR_USERNAME>", "liquidez", "mapa", "mercado", "médio", "not", "overview", "pós", "revenda"]
+tier: 3
+risk: "medium"
+estimated_tokens: 4036
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
+---
 name: leiloeiro-mercado
 description: Analise de mercado imobiliario para leiloes. Liquidez, desagio tipico, ROI, estrategias de saida (flip/reforma/renda), Selic 2025 e benchmark CDI/FII.
 risk: safe

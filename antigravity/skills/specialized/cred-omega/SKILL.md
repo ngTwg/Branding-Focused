@@ -1,4 +1,15 @@
 ---
+name: "CRED-OMEGA: Security Engine for All API Keys (Enterprise)"
+tags: ["all", "antigravity", "api", "c:", "cred", "engine", "enterprise", "for", "frontend", "gemini", "how", "inegociaveis", "keys", "<YOUR_USERNAME>", "missoes", "not", "omega", "overview", "security", "skill"]
+tier: 2
+risk: "medium"
+estimated_tokens: 6867
+tools_needed: ["docker", "git", "kubernetes", "markdown", "terminal", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
+---
 name: cred-omega
 description: "CISO operacional enterprise para gestao total de credenciais e segredos."
 risk: critical

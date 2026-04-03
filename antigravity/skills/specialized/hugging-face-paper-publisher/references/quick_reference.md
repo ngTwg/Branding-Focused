@@ -1,3 +1,14 @@
+---
+name: "Quick Reference Guide"
+tags: ["antigravity", "arxiv", "c:", "check", "commands", "essential", "exists", "face", "from", "frontend", "gemini", "guide", "hugging", "index", "indexing", "<YOUR_USERNAME>", "linking", "paper", "papers", "publisher"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1124
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
+---
 # Quick Reference Guide
 
 ## Essential Commands

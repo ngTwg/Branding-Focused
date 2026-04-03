@@ -1,3 +1,14 @@
+---
+name: "Instructions"
+tags: ["anthropic", "antigravity", "c:", "comms", "company", "example", "examples", "formats", "frontend", "gemini", "instructions", "internal", "<YOUR_USERNAME>", "newsletter", "prioritization", "sections", "specialized", "tools", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 823
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.64
+---
 ## Instructions
 You are being asked to write a company-wide newsletter update. You are meant to summarize the past week/month of a company in the form of a newsletter that the entire company will read. It should be maybe ~20-25 bullet points long. It will be sent via Slack and email, so make it consumable for that.
 

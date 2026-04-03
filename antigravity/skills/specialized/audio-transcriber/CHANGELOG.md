@@ -1,3 +1,14 @@
+---
+name: "Changelog - audio-transcriber"
+tags: ["2026", "added", "antigravity", "audio", "c:", "changed", "changelog", "fixed", "frontend", "gemini", "<YOUR_USERNAME>", "notes", "specialized", "transcriber", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1359
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.73
+---
 # Changelog - audio-transcriber
 
 All notable changes to the audio-transcriber skill will be documented in this file.

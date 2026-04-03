@@ -1,11 +1,17 @@
 ---
-name: ai-analyzer
-description: AI驱动的综合健康分析系统，整合多维度健康数据、识别异常模式、预测健康风险、提供个性化建议。支持智能问答和AI健康报告生成。
-allowed-tools: Read, Grep, Glob, Write
-risk: unknown
-source: community
+name: "ai-analyzer"
+tags: ["ai", "ai健康分析器", "analyzer", "antigravity", "c:", "deep", "deep-tech", "frontend", "gemini", "<YOUR_USERNAME>", "tech", "users", "个性化建议引擎", "健康风险预测", "智能健康分析", "核心功能", "自然语言交互"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1036
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.80
+allowed-tools: "Read, Grep, Glob, Write"
+description: "AI驱动的综合健康分析系统，整合多维度健康数据、识别异常模式、预测健康风险、提供个性化建议。支持智能问答和AI健康报告生成。"
+source: "community"
 ---
-
 # AI健康分析器
 
 基于AI技术的综合健康分析系统，提供智能健康洞察、风险预测和个性化建议。

@@ -1,12 +1,18 @@
 ---
-name: network-101
-description: "Configure and test common network services (HTTP, HTTPS, SNMP, SMB) for penetration testing lab environments. Enable hands-on practice with service enumeration, log analysis, and security testing against properly configured target systems."
-risk: unknown
-source: community
-author: zebbern
+name: "network-101"
+tags: ["101", "antigravity", "c:", "configure", "core", "deliverables", "frontend", "gemini", "http", "inputs", "<YOUR_USERNAME>", "network", "outputs", "port", "prerequisites", "purpose", "server", "specialized", "users", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1893
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+author: "zebbern"
 date_added: "2026-02-27"
+description: "Configure and test common network services (HTTP, HTTPS, SNMP, SMB) for penetration testing lab environments. Enable hands-on practice with service enumeration, log analysis, and security testing against properly configured target systems."
+source: "community"
 ---
-
 # Network 101
 
 ## Purpose

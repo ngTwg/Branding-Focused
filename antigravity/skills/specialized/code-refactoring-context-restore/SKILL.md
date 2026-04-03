@@ -1,11 +1,17 @@
 ---
-name: code-refactoring-context-restore
-description: "Use when working with code refactoring context restore"
-risk: unknown
-source: community
+name: "code-refactoring-context-restore"
+tags: ["advanced", "antigravity", "c:", "code", "context", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "memory", "not", "overview", "refactoring", "rehydration", "restoration", "restore", "role", "semantic", "skill", "specialized"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1562
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.86
 date_added: "2026-02-27"
+description: "Use when working with code refactoring context restore"
+source: "community"
 ---
-
 # Context Restoration: Advanced Semantic Memory Rehydration
 
 ## Use this skill when

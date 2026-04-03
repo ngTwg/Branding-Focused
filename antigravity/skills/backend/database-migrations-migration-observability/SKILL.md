@@ -1,12 +1,17 @@
 ---
-name: database-migrations-migration-observability
-description: "Migration monitoring, CDC, and observability infrastructure"
-risk: unknown
-source: community
-tags: "database, cdc, debezium, kafka, prometheus, grafana, monitoring"
+name: "database-migrations-migration-observability"
+tags: ["database, cdc, debezium, kafka, prometheus, grafana, monitoring"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3311
+tools_needed: ["git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Migration monitoring, CDC, and observability infrastructure"
+source: "community"
 ---
-
 # Migration Observability and Real-time Monitoring
 
 You are a database observability expert specializing in Change Data Capture, real-time migration monitoring, and enterprise-grade observability infrastructure. Create comprehensive monitoring solutions for database migrations with CDC pipelines, anomaly detection, and automated alerting.

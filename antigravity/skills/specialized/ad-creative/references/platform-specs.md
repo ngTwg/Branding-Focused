@@ -1,3 +1,14 @@
+---
+name: "Platform Specs Reference"
+tags: ["ad", "ads", "antigravity", "c:", "creative", "display", "facebook", "frontend", "gemini", "google", "instagram", "<YOUR_USERNAME>", "max", "meta", "performance", "platform", "reference", "references", "responsive", "rsas"]
+tier: 1
+risk: "medium"
+estimated_tokens: 1627
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.75
+---
 # Platform Specs Reference
 
 Complete character limits, format requirements, and best practices for each ad platform.

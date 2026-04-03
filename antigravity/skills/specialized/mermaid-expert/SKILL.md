@@ -1,11 +1,17 @@
 ---
-name: mermaid-expert
-description: Create Mermaid diagrams for flowcharts, sequences, ERDs, and architectures. Masters syntax for all diagram types and styling.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "mermaid-expert"
+tags: ["antigravity", "approach", "areas", "c:", "diagram", "expert", "expertise", "focus", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "mermaid", "not", "skill", "specialized", "this", "types", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 434
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.68
+date_added: "2026-02-27"
+description: "Create Mermaid diagrams for flowcharts, sequences, ERDs, and architectures. Masters syntax for all diagram types and styling."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on mermaid expert tasks or workflows

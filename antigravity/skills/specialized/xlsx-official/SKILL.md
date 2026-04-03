@@ -1,11 +1,17 @@
 ---
-name: xlsx-official
-description: "Unless otherwise stated by the user or existing template"
-risk: unknown
-source: community
+name: "xlsx-official"
+tags: ["all", "antigravity", "c:", "coding", "color", "errors", "excel", "existing", "files", "financial", "for", "formula", "frontend", "gemini", "<YOUR_USERNAME>", "models", "official", "outputs", "preserve", "requirements"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2589
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Unless otherwise stated by the user or existing template"
+source: "community"
 ---
-
 # Requirements for Outputs
 
 ## All Excel files

@@ -1,11 +1,17 @@
 ---
-name: code-refactoring-refactor-clean
-description: "You are a code refactoring expert specializing in clean code principles, SOLID design patterns, and modern software engineering best practices. Analyze and refactor the provided code to improve its quality, maintainability, and performance."
-risk: unknown
-source: community
+name: "code-refactoring-refactor-clean"
+tags: ["and", "antigravity", "c:", "clean", "code", "context", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "refactor", "refactoring", "requirements", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 476
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.67
 date_added: "2026-02-27"
+description: "You are a code refactoring expert specializing in clean code principles, SOLID design patterns, and modern software engineering best practices. Analyze and refactor the provided code to improve its quality, maintainability, and performance."
+source: "community"
 ---
-
 # Refactor and Clean Code
 
 You are a code refactoring expert specializing in clean code principles, SOLID design patterns, and modern software engineering best practices. Analyze and refactor the provided code to improve its quality, maintainability, and performance.

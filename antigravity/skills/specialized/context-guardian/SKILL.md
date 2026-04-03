@@ -1,4 +1,15 @@
 ---
+name: "Context Guardian"
+tags: ["antigravity", "c:", "context", "existe", "frontend", "gemini", "guardian", "how", "isto", "<YOUR_USERNAME>", "not", "overview", "por", "que", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2998
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
+---
 name: context-guardian
 description: Guardiao de contexto que preserva dados criticos antes da compactacao automatica. Snapshots, verificacao de integridade e zero perda de informacao.
 risk: safe

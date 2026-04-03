@@ -1,11 +1,17 @@
 ---
-name: dbos-python
-description: "Guide for building reliable, fault-tolerant Python applications with DBOS durable workflows. Use when adding DBOS to existing Python code, creating workflows and steps, or using queues for concurrency control."
-risk: safe
-source: "https://docs.dbos.dev/"
+name: "dbos-python"
+tags: ["and", "antigravity", "best", "c:", "categories", "configuration", "critical", "dbos", "frontend", "gemini", "launch", "<YOUR_USERNAME>", "practices", "priority", "python", "rule", "rules", "specialized", "step", "structure"]
+tier: 2
+risk: "medium"
+estimated_tokens: 655
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.78
 date_added: "2026-02-27"
+description: "Guide for building reliable, fault-tolerant Python applications with DBOS durable workflows. Use when adding DBOS to existing Python code, creating workflows and steps, or using queues for concurrency control."
+source: "https://docs.dbos.dev/"
 ---
-
 # DBOS Python Best Practices
 
 Guide for building reliable, fault-tolerant Python applications with DBOS durable workflows.

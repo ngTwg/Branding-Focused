@@ -1,3 +1,14 @@
+---
+name: "Customization & Theming"
+tags: ["antigravity", "c:", "changing", "color", "contents", "customization", "dark", "frontend", "gemini", "how", "<YOUR_USERNAME>", "mode", "shadcn", "specialized", "the", "theme", "theming", "users", "variables", "works"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1489
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.88
+---
 # Customization & Theming
 
 Components reference semantic CSS variable tokens. Change the variables to change every component.

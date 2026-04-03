@@ -1,3 +1,14 @@
+---
+name: "ANTI-HALLUCINATION PROTOCOL V2.0"
+tags: ["anti", "antigravity", "c:", "examples", "frontend", "gemini", "gặp", "hallucination", "layer", "<YOUR_USERNAME>", "overview", "protocol", "sinh", "thường", "users", "v2", "verification", "vấn", "workflows"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3044
+tools_needed: ["docker", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # ANTI-HALLUCINATION PROTOCOL V2.0
 
 > **Tier:** 1-4 (Critical for all tiers)  

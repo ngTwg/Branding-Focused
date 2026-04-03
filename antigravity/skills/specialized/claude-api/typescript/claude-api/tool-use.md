@@ -1,3 +1,14 @@
+---
+name: "Tool Use — TypeScript"
+tags: ["agentic", "antigravity", "api", "backend", "c:", "choice", "claude", "gemini", "handling", "<YOUR_USERNAME>", "loop", "manual", "recommended", "results", "runner", "specialized", "streaming", "tool", "typescript", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3202
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.95
+---
 # Tool Use — TypeScript
 
 For conceptual overview (tool definitions, tool choice, tips), see [shared/tool-use-concepts.md](../../shared/tool-use-concepts.md).

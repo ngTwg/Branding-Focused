@@ -1,3 +1,14 @@
+---
+name: "Lightweight Clients (Closure-Based)"
+tags: ["antigravity", "based", "c:", "clients", "closure", "frontend", "gemini", "guidance", "intent", "<YOUR_USERNAME>", "lightweight", "minimal", "pattern", "patterns", "pitfalls", "references", "shape", "specialized", "swiftui", "ui"]
+tier: 2
+risk: "medium"
+estimated_tokens: 630
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.74
+---
 # Lightweight Clients (Closure-Based)
 
 Use this pattern to keep networking or service dependencies simple and testable without introducing a full view model or heavy DI framework. It works well for SwiftUI apps where you want a small, composable API surface that can be swapped in previews/tests.

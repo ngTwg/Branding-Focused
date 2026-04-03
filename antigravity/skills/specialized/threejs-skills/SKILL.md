@@ -1,11 +1,17 @@
 ---
-name: threejs-skills
-description: "Create 3D scenes, interactive experiences, and visual effects using Three.js. Use when user requests 3D graphics, WebGL experiences, 3D visualizations, animations, or interactive 3D elements."
-risk: safe
-source: "https://github.com/CloudAI-X/threejs-skills"
+name: "threejs-skills"
+tags: ["animation", "antigravity", "c:", "core", "essential", "frontend", "gemini", "imports", "initialization", "<YOUR_USERNAME>", "loop", "pattern", "scene", "setup", "skills", "specialized", "three", "threejs", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4601
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Create 3D scenes, interactive experiences, and visual effects using Three.js. Use when user requests 3D graphics, WebGL experiences, 3D visualizations, animations, or interactive 3D elements."
+source: "https://github.com/CloudAI-X/threejs-skills"
 ---
-
 # Three.js Skills
 
 Systematically create high-quality 3D scenes and interactive experiences using Three.js best practices.

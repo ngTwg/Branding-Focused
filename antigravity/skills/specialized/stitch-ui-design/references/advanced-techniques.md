@@ -1,3 +1,14 @@
+---
+name: "Advanced Stitch Techniques"
+tags: ["advanced", "antigravity", "based", "c:", "contents", "converting", "design", "digital", "frontend", "gemini", "image", "integration", "<YOUR_USERNAME>", "reference", "references", "sketches", "specialized", "stitch", "system", "table"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3158
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Advanced Stitch Techniques
 
 Advanced strategies for maximizing Stitch's capabilities and creating production-ready designs.

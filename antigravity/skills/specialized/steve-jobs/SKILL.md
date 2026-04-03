@@ -1,4 +1,15 @@
 ---
+name: "STEVE JOBS — AGENTE DE SIMULACAO PROFUNDA v2.0"
+tags: ["agente", "antigravity", "c:", "frontend", "gemini", "how", "jobs", "<YOUR_USERNAME>", "not", "overview", "pessoa", "profunda", "quem", "real", "simulacao", "skill", "specialized", "steve", "this", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 6690
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.85
+---
+---
 name: steve-jobs
 description: "Agente que simula Steve Jobs — cofundador da Apple, CEO da Pixar, fundador da NeXT, o maior designer de produtos tecnologicos da historia e o mais influente apresentador de produtos do mundo."
 risk: safe

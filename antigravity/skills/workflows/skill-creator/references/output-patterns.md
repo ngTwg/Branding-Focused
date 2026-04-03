@@ -1,3 +1,14 @@
+---
+name: "Output Patterns"
+tags: ["analysis", "antigravity", "c:", "creator", "executive", "findings", "frontend", "gemini", "key", "<YOUR_USERNAME>", "output", "pattern", "patterns", "references", "report", "structure", "summary", "template", "title", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 453
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.80
+---
 # Output Patterns
 
 Use these patterns when skills need to produce consistent, high-quality output.

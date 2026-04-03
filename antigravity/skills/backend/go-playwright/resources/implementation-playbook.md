@@ -1,3 +1,14 @@
+---
+name: "Playwright Go Automation - Implementation Playbook"
+tags: ["antigravity", "automation", "backend", "c:", "code", "cookies", "examples", "gemini", "go", "headless", "human", "implementation", "initialization", "interaction", "<YOUR_USERNAME>", "like", "load", "management", "playbook", "playwright"]
+tier: 2
+risk: "medium"
+estimated_tokens: 800
+tools_needed: ["git", "markdown", "playwright", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.70
+---
 # Playwright Go Automation - Implementation Playbook
 
 ## Code Examples

@@ -1,11 +1,17 @@
 ---
-name: react-modernization
-description: "Master React version upgrades, class to hooks migration, concurrent features adoption, and codemods for automated transformation."
-risk: safe
-source: community
+name: "react-modernization"
+tags: ["antigravity", "c:", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "modernization", "not", "react", "resources", "skill", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 306
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
 date_added: "2026-02-27"
+description: "Master React version upgrades, class to hooks migration, concurrent features adoption, and codemods for automated transformation."
+source: "community"
 ---
-
 # React Modernization
 
 Master React version upgrades, class to hooks migration, concurrent features adoption, and codemods for automated transformation.

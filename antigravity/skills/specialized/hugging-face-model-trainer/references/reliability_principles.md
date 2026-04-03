@@ -1,3 +1,14 @@
+---
+name: "Reliability Principles for Training Jobs"
+tags: ["always", "antigravity", "apply", "before", "c:", "dataset", "exists", "face", "for", "frontend", "gemini", "how", "hugging", "jobs", "<YOUR_USERNAME>", "model", "prevents", "principle", "principles", "references"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2706
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Reliability Principles for Training Jobs
 
 These principles are derived from real production failures and successful fixes. Following them prevents common failure modes and ensures reliable job execution.

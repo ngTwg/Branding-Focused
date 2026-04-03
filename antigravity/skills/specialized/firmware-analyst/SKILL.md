@@ -1,11 +1,17 @@
 ---
-name: firmware-analyst
-description: Expert firmware analyst specializing in embedded systems, IoT security, and hardware reverse engineering.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "firmware-analyst"
+tags: ["access", "analyst", "antigravity", "boot", "c:", "console", "copy", "debug", "device", "download", "during", "extract", "firmware", "from", "frontend", "gemini", "interface", "<YOUR_USERNAME>", "network", "partition"]
+tier: 4
+risk: "medium"
+estimated_tokens: 1960
+tools_needed: ["git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+date_added: "2026-02-27"
+description: "Expert firmware analyst specializing in embedded systems, IoT security, and hardware reverse engineering."
+source: "community"
 ---
-
 # Download from vendor
 wget http://vendor.com/firmware/update.bin
 

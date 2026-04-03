@@ -1,12 +1,18 @@
 ---
-name: aws-penetration-testing
-description: "Provide comprehensive techniques for penetration testing AWS cloud environments. Covers IAM enumeration, privilege escalation, SSRF to metadata endpoint, S3 bucket exploitation, Lambda code extraction, and persistence techniques for red team operations."
-risk: offensive
-source: community
-author: zebbern
+name: "aws-penetration-testing"
+tags: ["antigravity", "aws", "c:", "core", "deliverables", "devops", "essential", "frontend", "gemini", "inputs", "<YOUR_USERNAME>", "outputs", "penetration", "prerequisites", "purpose", "testing", "tools", "users", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2539
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+author: "zebbern"
 date_added: "2026-02-27"
+description: "Provide comprehensive techniques for penetration testing AWS cloud environments. Covers IAM enumeration, privilege escalation, SSRF to metadata endpoint, S3 bucket exploitation, Lambda code extraction, and persistence techniques for red team operations."
+source: "community"
 ---
-
 > AUTHORIZED USE ONLY: Use this skill only for authorized security assessments, defensive validation, or controlled educational environments.
 
 # AWS Penetration Testing

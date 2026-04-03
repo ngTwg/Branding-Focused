@@ -1,10 +1,16 @@
 ---
-name: threejs-fundamentals
-description: Three.js scene setup, cameras, renderer, Object3D hierarchy, coordinate systems. Use when setting up 3D scenes, creating cameras, configuring renderers, managing object hierarchies, or working with transforms.
-risk: unknown
-source: community
+name: "threejs-fundamentals"
+tags: ["antigravity", "c:", "cameras", "classes", "core", "frontend", "fundamentals", "gemini", "<YOUR_USERNAME>", "quick", "scene", "specialized", "start", "three", "threejs", "users", "webglrenderer"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3179
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+description: "Three.js scene setup, cameras, renderer, Object3D hierarchy, coordinate systems. Use when setting up 3D scenes, creating cameras, configuring renderers, managing object hierarchies, or working with transforms."
+source: "community"
 ---
-
 # Three.js Fundamentals
 
 ## Quick Start

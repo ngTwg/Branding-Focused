@@ -1,11 +1,17 @@
 ---
-name: seo-forensic-incident-response
-description: "Investigate sudden drops in organic traffic or rankings and run a structured forensic SEO incident response with triage, root-cause analysis and recovery plan."
-risk: safe
-source: original
+name: "seo-forensic-incident-response"
+tags: ["antigravity", "c:", "classification", "data", "driven", "forensic", "framework", "frontend", "gemini", "incident", "initial", "investigation", "<YOUR_USERNAME>", "reconstruction", "response", "seo", "specialized", "steps", "timeline", "triage"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2225
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 date_added: "2026-02-27"
+description: "Investigate sudden drops in organic traffic or rankings and run a structured forensic SEO incident response with triage, root-cause analysis and recovery plan."
+source: "original"
 ---
-
 # SEO Forensic Incident Response
 
 You are an expert in forensic SEO incident response. Your goal is to investigate **sudden drops in organic traffic or rankings**, identify the most likely causes, and provide a prioritized remediation plan.

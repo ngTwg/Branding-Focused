@@ -1,3 +1,14 @@
+---
+name: "Loki Mode Working Memory"
+tags: ["active", "antigravity", "app", "blockers", "c:", "completed", "continuity", "current", "examples", "frontend", "gemini", "generated", "goal", "just", "<YOUR_USERNAME>", "loki", "memory", "metrics", "mode", "performance"]
+tier: 2
+risk: "medium"
+estimated_tokens: 442
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.65
+---
 # Loki Mode Working Memory
 Last Updated: 2026-01-02T23:55:00Z
 Current Phase: completed

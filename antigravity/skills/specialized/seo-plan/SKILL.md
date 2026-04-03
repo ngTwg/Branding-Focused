@@ -1,4 +1,15 @@
 ---
+name: "Strategic SEO Planning"
+tags: ["analysis", "antigravity", "architecture", "c:", "competitive", "design", "discovery", "frontend", "gemini", "<YOUR_USERNAME>", "plan", "planning", "process", "seo", "specialized", "strategic", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1172
+tools_needed: ["git", "markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.70
+---
+---
 name: seo-plan
 description: >
   Strategic SEO planning for new or existing websites. Industry-specific

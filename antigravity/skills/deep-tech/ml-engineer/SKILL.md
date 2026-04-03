@@ -1,11 +1,17 @@
 ---
-name: ml-engineer
-description: Build production ML systems with PyTorch 2.x, TensorFlow, and modern ML frameworks. Implements model serving, feature engineering, A/B testing, and monitoring.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "ml-engineer"
+tags: ["antigravity", "c:", "capabilities", "core", "deep", "deep-tech", "engineer", "frameworks", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "libraries", "ml", "not", "purpose", "skill", "tech", "this", "use"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2320
+tools_needed: ["docker", "git", "kubernetes", "markdown", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+date_added: "2026-02-27"
+description: "Build production ML systems with PyTorch 2.x, TensorFlow, and modern ML frameworks. Implements model serving, feature engineering, A/B testing, and monitoring."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on ml engineer tasks or workflows

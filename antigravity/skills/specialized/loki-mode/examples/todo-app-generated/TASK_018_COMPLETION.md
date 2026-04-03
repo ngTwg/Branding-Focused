@@ -1,3 +1,14 @@
+---
+name: "Task 018: E2E Manual Testing Verification - COMPLETED"
+tags: ["018", "achieved", "antigravity", "api", "app", "c:", "compilation", "completed", "completion", "component", "e2e", "examples", "file", "files", "frontend", "gemini", "generated", "integration", "<YOUR_USERNAME>", "loki"]
+tier: 2
+risk: "critical"
+estimated_tokens: 1784
+tools_needed: ["docker", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.79
+---
 # Task 018: E2E Manual Testing Verification - COMPLETED
 
 **Task ID:** task-018

@@ -1,12 +1,17 @@
 ---
-name: domain-driven-design
-description: "Plan and route Domain-Driven Design work from strategic modeling to tactical implementation and evented architecture patterns."
-risk: safe
-source: self
-tags: "[ddd, domain, bounded-context, architecture]"
+name: "domain-driven-design"
+tags: ["[ddd, domain, bounded-context, architecture]"]
+tier: 3
+risk: "medium"
+estimated_tokens: 622
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.73
 date_added: "2026-02-27"
+description: "Plan and route Domain-Driven Design work from strategic modeling to tactical implementation and evented architecture patterns."
+source: "self"
 ---
-
 # Domain-Driven Design
 
 ## Use this skill when

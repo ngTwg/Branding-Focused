@@ -1,11 +1,17 @@
 ---
-name: azure-eventgrid-py
-description: Azure Event Grid SDK for Python. Use for publishing events, handling CloudEvents, and event-driven architectures.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "azure-eventgrid-py"
+tags: ["antigravity", "authentication", "azure", "c:", "cloudevents", "devops", "environment", "event", "eventgrid", "for", "frontend", "gemini", "grid", "installation", "<YOUR_USERNAME>", "publish", "py", "python", "sdk", "types"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1158
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
+date_added: "2026-02-27"
+description: "Azure Event Grid SDK for Python. Use for publishing events, handling CloudEvents, and event-driven architectures."
+source: "community"
 ---
-
 # Azure Event Grid SDK for Python
 
 Event routing service for building event-driven applications with pub/sub semantics.

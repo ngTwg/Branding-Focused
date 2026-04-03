@@ -1,11 +1,17 @@
 ---
-name: vector-index-tuning
-description: "Optimize vector index performance for latency, recall, and memory. Use when tuning HNSW parameters, selecting quantization strategies, or scaling vector search infrastructure."
-risk: safe
-source: community
+name: "vector-index-tuning"
+tags: ["antigravity", "c:", "frontend", "gemini", "index", "instructions", "<YOUR_USERNAME>", "not", "resources", "safety", "skill", "specialized", "this", "tuning", "use", "users", "vector", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 379
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.63
 date_added: "2026-02-27"
+description: "Optimize vector index performance for latency, recall, and memory. Use when tuning HNSW parameters, selecting quantization strategies, or scaling vector search infrastructure."
+source: "community"
 ---
-
 # Vector Index Tuning
 
 Guide to optimizing vector indexes for production performance.

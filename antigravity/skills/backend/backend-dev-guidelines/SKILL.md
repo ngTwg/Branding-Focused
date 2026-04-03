@@ -1,11 +1,17 @@
 ---
-name: backend-dev-guidelines
-description: "You are a senior backend engineer operating production-grade services under strict architectural and reliability constraints. Use when routes, controllers, services, repositories, express middleware, or prisma database access."
-risk: unknown
-source: community
+name: "backend-dev-guidelines"
+tags: ["antigravity", "backend", "bfri", "c:", "dev", "development", "dimensions", "feasibility", "formula", "frontend", "gemini", "guidelines", "index", "interpretation", "<YOUR_USERNAME>", "risk", "score", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1884
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.92
 date_added: "2026-02-27"
+description: "You are a senior backend engineer operating production-grade services under strict architectural and reliability constraints. Use when routes, controllers, services, repositories, express middleware, or prisma database access."
+source: "community"
 ---
-
 # Backend Development Guidelines
 
 **(Node.js · Express · TypeScript · Microservices)**

@@ -1,11 +1,17 @@
 ---
-name: autonomous-agent-patterns
-description: "Design patterns for building autonomous coding agents, inspired by [Cline](https://github.com/cline/cline) and [OpenAI Codex](https://github.com/openai/codex)."
-risk: critical
-source: community
+name: "autonomous-agent-patterns"
+tags: ["agent", "antigravity", "architecture", "autonomous", "c:", "core", "design", "frontend", "gemini", "<YOUR_USERNAME>", "loop", "model", "multi", "patterns", "skill", "specialized", "this", "tool", "use", "users"]
+tier: 2
+risk: "critical"
+estimated_tokens: 5608
+tools_needed: ["git", "markdown", "mcp", "playwright"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Design patterns for building autonomous coding agents, inspired by [Cline](https://github.com/cline/cline) and [OpenAI Codex](https://github.com/openai/codex)."
+source: "community"
 ---
-
 # 🕹️ Autonomous Agent Patterns
 
 > Design patterns for building autonomous coding agents, inspired by [Cline](https://github.com/cline/cline) and [OpenAI Codex](https://github.com/openai/codex).

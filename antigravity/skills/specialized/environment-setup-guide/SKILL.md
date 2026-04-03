@@ -1,11 +1,17 @@
 ---
-name: environment-setup-guide
-description: "Guide developers through setting up development environments with proper tools, dependencies, and configurations"
-risk: unknown
-source: community
+name: "environment-setup-guide"
+tags: ["antigravity", "c:", "check", "current", "environment", "frontend", "gemini", "guide", "how", "identify", "<YOUR_USERNAME>", "overview", "requirements", "setup", "skill", "specialized", "step", "this", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2856
+tools_needed: ["docker", "git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Guide developers through setting up development environments with proper tools, dependencies, and configurations"
+source: "community"
 ---
-
 # Environment Setup Guide
 
 ## Overview

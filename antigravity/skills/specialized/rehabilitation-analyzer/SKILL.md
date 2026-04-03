@@ -1,11 +1,17 @@
 ---
-name: rehabilitation-analyzer
-description: 分析康复训练数据、识别康复模式、评估康复进展，并提供个性化康复建议
-allowed-tools: Read, Grep, Glob, Write, Edit
-risk: unknown
-source: community
+name: "rehabilitation-analyzer"
+tags: ["analyzer", "antigravity", "c:", "data-engineering", "gemini", "<YOUR_USERNAME>", "rehabilitation", "specialized", "users", "功能评估趋势分析", "康复训练分析技能", "执行步骤", "数据读取", "核心功能", "第1步", "第2步", "触发条件"]
+tier: 3
+risk: "high"
+estimated_tokens: 1880
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["data", "analytics"]
+quality_score: 0.95
+allowed-tools: "Read, Grep, Glob, Write, Edit"
+description: "分析康复训练数据、识别康复模式、评估康复进展，并提供个性化康复建议"
+source: "community"
 ---
-
 # 康复训练分析技能
 
 ## 核心功能

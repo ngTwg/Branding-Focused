@@ -1,3 +1,14 @@
+---
+name: "Content Creation Frameworks & Templates"
+tags: ["achieve", "antigravity", "blog", "c:", "content", "creation", "creator", "desired", "frameworks", "frontend", "gemini", "how", "introduction", "<YOUR_USERNAME>", "need", "outcome", "post", "prerequisites", "references", "specialized"]
+tier: 1
+risk: "medium"
+estimated_tokens: 2611
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Content Creation Frameworks & Templates
 
 ## Content Types & Templates

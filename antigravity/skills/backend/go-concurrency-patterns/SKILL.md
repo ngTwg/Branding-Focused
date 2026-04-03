@@ -1,11 +1,17 @@
 ---
-name: go-concurrency-patterns
-description: "Master Go concurrency with goroutines, channels, sync primitives, and context. Use when building concurrent Go applications, implementing worker pools, or debugging race conditions."
-risk: safe
-source: community
+name: "go-concurrency-patterns"
+tags: ["antigravity", "backend", "c:", "concurrency", "frontend", "gemini", "go", "instructions", "<YOUR_USERNAME>", "not", "patterns", "resources", "skill", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 289
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
 date_added: "2026-02-27"
+description: "Master Go concurrency with goroutines, channels, sync primitives, and context. Use when building concurrent Go applications, implementing worker pools, or debugging race conditions."
+source: "community"
 ---
-
 # Go Concurrency Patterns
 
 Production patterns for Go concurrency including goroutines, channels, synchronization primitives, and context management.

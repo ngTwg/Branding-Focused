@@ -1,11 +1,17 @@
 ---
-name: architecture-patterns
-description: "Master proven backend architecture patterns including Clean Architecture, Hexagonal Architecture, and Domain-Driven Design to build maintainable, testable, and scalable systems."
-risk: none
-source: community
+name: "architecture-patterns"
+tags: ["antigravity", "architecture", "c:", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "patterns", "related", "resources", "skill", "skills", "specialized", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 482
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.63
 date_added: "2026-02-27"
+description: "Master proven backend architecture patterns including Clean Architecture, Hexagonal Architecture, and Domain-Driven Design to build maintainable, testable, and scalable systems."
+source: "community"
 ---
-
 # Architecture Patterns
 
 Master proven backend architecture patterns including Clean Architecture, Hexagonal Architecture, and Domain-Driven Design to build maintainable, testable, and scalable systems.

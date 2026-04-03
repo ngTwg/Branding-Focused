@@ -1,10 +1,16 @@
 ---
-name: apify-audience-analysis
-description: Understand audience demographics, preferences, behavior patterns, and engagement quality across Facebook, Instagram, YouTube, and TikTok.
-risk: unknown
-source: community
+name: "apify-audience-analysis"
+tags: ["actor", "analysis", "antigravity", "apify", "ask", "audience", "c:", "fetch", "frontend", "gemini", "identify", "<YOUR_USERNAME>", "preferences", "prerequisites", "schema", "specialized", "step", "type", "user", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1163
+tools_needed: ["markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.88
+description: "Understand audience demographics, preferences, behavior patterns, and engagement quality across Facebook, Instagram, YouTube, and TikTok."
+source: "community"
 ---
-
 # Audience Analysis
 
 Analyze and understand your audience using Apify Actors to extract follower demographics, engagement patterns, and behavior data from multiple platforms.

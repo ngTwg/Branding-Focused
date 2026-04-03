@@ -1,12 +1,18 @@
 ---
-name: internal-comms
-description: "Write internal communications such as status reports, leadership updates, 3P updates, newsletters, FAQs, incident reports, and project updates using repeatable internal formats."
-risk: unknown
-source: "https://github.com/anthropics/skills"
+name: "internal-comms"
+tags: ["antigravity", "c:", "comms", "frontend", "gemini", "how", "internal", "keywords", "<YOUR_USERNAME>", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 361
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.56
 date_added: "2026-03-21"
-license: Complete terms in LICENSE.txt
+description: "Write internal communications such as status reports, leadership updates, 3P updates, newsletters, FAQs, incident reports, and project updates using repeatable internal formats."
+license: "Complete terms in LICENSE.txt"
+source: "https://github.com/anthropics/skills"
 ---
-
 ## When to use this skill
 To write internal communications, use this skill for:
 - 3P updates (Progress, Plans, Problems)

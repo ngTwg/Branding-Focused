@@ -1,11 +1,17 @@
 ---
-name: wrike-automation
-description: "Automate Wrike project management via Rube MCP (Composio): create tasks/folders, manage projects, assign work, and track progress. Always search tools first for current schemas."
-risk: critical
-source: community
+name: "wrike-automation"
+tags: ["and", "antigravity", "automation", "c:", "core", "create", "folders", "frontend", "gemini", "<YOUR_USERNAME>", "manage", "mcp", "prerequisites", "projects", "rube", "setup", "specialized", "tasks", "users", "via"]
+tier: 2
+risk: "critical"
+estimated_tokens: 2344
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.90
 date_added: "2026-02-27"
+description: "Automate Wrike project management via Rube MCP (Composio): create tasks/folders, manage projects, assign work, and track progress. Always search tools first for current schemas."
+source: "community"
 ---
-
 # Wrike Automation via Rube MCP
 
 Automate Wrike project management operations through Composio's Wrike toolkit via Rube MCP.

@@ -1,3 +1,14 @@
+---
+name: "Tool Orchestration Patterns Reference"
+tags: ["antigravity", "architecture", "c:", "frontend", "gemini", "hierarchical", "<YOUR_USERNAME>", "location", "loki", "mode", "openai", "orchestration", "overview", "pattern", "patterns", "reference", "references", "sdk", "span", "spans"]
+tier: 3
+risk: "medium"
+estimated_tokens: 5530
+tools_needed: ["git", "markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Tool Orchestration Patterns Reference
 
 Research-backed patterns inspired by NVIDIA ToolOrchestra, OpenAI Agents SDK, and multi-agent coordination research.

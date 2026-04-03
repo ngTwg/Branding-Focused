@@ -1,11 +1,17 @@
 ---
-name: azure-ai-document-intelligence-dotnet
-description: Azure AI Document Intelligence SDK for .NET. Extract text, tables, and structured data from documents using prebuilt and custom models.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "azure-ai-document-intelligence-dotnet"
+tags: ["ai", "antigravity", "api", "authentication", "azure", "c:", "devops", "document", "documentintelligence", "dotnet", "entra", "environment", "frontend", "gemini", "installation", "intelligence", "key", "<YOUR_USERNAME>", "microsoft", "net"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2760
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+date_added: "2026-02-27"
+description: "Azure AI Document Intelligence SDK for .NET. Extract text, tables, and structured data from documents using prebuilt and custom models."
+source: "community"
 ---
-
 # Azure.AI.DocumentIntelligence (.NET)
 
 Extract text, tables, and structured data from documents using prebuilt and custom models.

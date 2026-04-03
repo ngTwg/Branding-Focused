@@ -1,3 +1,14 @@
+---
+name: "Anti-Reversing Techniques Implementation Playbook"
+tags: ["anti", "antigravity", "c:", "checks", "common", "debug", "debugging", "frontend", "gemini", "implementation", "<YOUR_USERNAME>", "patches", "playbook", "plugin", "resources", "reversing", "scyllahide", "specialized", "techniques", "users"]
+tier: 2
+risk: "high"
+estimated_tokens: 2877
+tools_needed: ["git", "markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Anti-Reversing Techniques Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

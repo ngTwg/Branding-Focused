@@ -1,11 +1,17 @@
 ---
-name: azure-compute-batch-java
-description: Azure Batch SDK for Java. Run large-scale parallel and HPC batch jobs with pools, jobs, tasks, and compute nodes.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "azure-compute-batch-java"
+tags: ["antigravity", "azure", "batch", "c:", "client", "compute", "creation", "devops", "entra", "environment", "for", "frontend", "gemini", "installation", "java", "<YOUR_USERNAME>", "microsoft", "prerequisites", "recommended", "sdk"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2759
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+date_added: "2026-02-27"
+description: "Azure Batch SDK for Java. Run large-scale parallel and HPC batch jobs with pools, jobs, tasks, and compute nodes."
+source: "community"
 ---
-
 # Azure Batch SDK for Java
 
 Client library for running large-scale parallel and high-performance computing (HPC) batch jobs in Azure.

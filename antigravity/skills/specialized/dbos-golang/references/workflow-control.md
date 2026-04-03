@@ -1,10 +1,17 @@
 ---
-title: Cancel, Resume, and Fork Workflows
-impact: MEDIUM
-impactDescription: Enables operational control over long-running workflows
-tags: workflow, cancel, resume, fork, management
+name: "Cancel, Resume, and Fork Workflows"
+tags: ["workflow, cancel, resume, fork, management"]
+tier: 1
+risk: "medium"
+estimated_tokens: 423
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.61
+impact: "MEDIUM"
+impactDescription: "Enables operational control over long-running workflows"
+title: "Cancel, Resume, and Fork Workflows"
 ---
-
 ## Cancel, Resume, and Fork Workflows
 
 DBOS provides functions to cancel, resume, and fork workflows for operational control.

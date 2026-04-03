@@ -1,3 +1,14 @@
+---
+name: "Padroes de Orquestracao Multi-Skill"
+tags: ["agent", "antigravity", "c:", "concreto", "contexto", "deep", "deep-tech", "exemplo", "fluxo", "frontend", "gemini", "<YOUR_USERNAME>", "multi", "orchestration", "orchestrator", "orquestracao", "padroes", "patterns", "pipeline", "quando"]
+tier: 3
+risk: "medium"
+estimated_tokens: 950
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.85
+---
 # Padroes de Orquestracao Multi-Skill
 
 Guia detalhado para coordenar multiplos skills em workflows complexos.

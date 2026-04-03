@@ -1,0 +1,12 @@
+{
+  "id": "agent-workflow",
+  "name": "Multi-Agent Workflow Template",
+  "description": "Baseline for memory-aware, tool-using multi-agent orchestration.",
+  "steps": [
+    "Define roles and handoff contracts",
+    "Implement planner/executor/reviewer loop",
+    "Add memory persistence and retrieval",
+    "Enforce safety and tool boundaries",
+    "Measure quality with benchmark packs"
+  ]
+}

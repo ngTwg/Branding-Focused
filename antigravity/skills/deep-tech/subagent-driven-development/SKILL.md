@@ -1,8 +1,15 @@
 ---
-name: subagent-driven-development
-description: Use when executing implementation plans with independent tasks in the current session
+name: "subagent-driven-development"
+tags: ["advantages", "antigravity", "c:", "deep", "deep-tech", "development", "driven", "example", "gemini", "<YOUR_USERNAME>", "process", "prompt", "subagent", "tech", "templates", "the", "use", "users", "when", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2449
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.89
+description: "Use when executing implementation plans with independent tasks in the current session"
 ---
-
 # Subagent-Driven Development
 
 Execute plan by dispatching fresh subagent per task, with two-stage review after each: spec compliance review first, then code quality review.

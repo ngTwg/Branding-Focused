@@ -1,9 +1,16 @@
 ---
-name: 3d-games
-description: 3D game development principles. Rendering, shaders, physics, cameras.
-allowed-tools: Read, Write, Edit, Glob, Grep
+name: "3d-games"
+tags: ["3d", "antigravity", "c:", "development", "frontend", "game", "games", "gemini", "<YOUR_USERNAME>", "optimization", "pipeline", "principles", "rendering", "shader", "specialized", "stages", "types", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 637
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.70
+allowed-tools: "Read, Write, Edit, Glob, Grep"
+description: "3D game development principles. Rendering, shaders, physics, cameras."
 ---
-
 # 3D Game Development
 
 > Principles for 3D game systems.

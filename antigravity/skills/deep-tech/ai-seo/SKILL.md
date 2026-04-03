@@ -1,13 +1,19 @@
 ---
-name: ai-seo
-description: "Optimize content for AI search and LLM citations across AI Overviews, ChatGPT, Perplexity, Claude, Gemini, and similar systems. Use when improving AI visibility, answer engine optimization, or citation readiness."
-risk: unknown
-source: "https://github.com/coreyhaines31/marketingskills"
+name: "ai-seo"
+tags: ["ai", "antigravity", "backend", "before", "c:", "content", "current", "deep", "deep-tech", "domain", "gemini", "goals", "<YOUR_USERNAME>", "seo", "starting", "tech", "use", "users", "visibility", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4299
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.84
 date_added: "2026-03-21"
-metadata:
-  version: 1.1.0
+description: "Optimize content for AI search and LLM citations across AI Overviews, ChatGPT, Perplexity, Claude, Gemini, and similar systems. Use when improving AI visibility, answer engine optimization, or citation readiness."
+metadata: ""
+source: "https://github.com/coreyhaines31/marketingskills"
+version: "1.1.0"
 ---
-
 # AI SEO
 
 You are an expert in AI search optimization — the practice of making content discoverable, extractable, and citable by AI systems including Google AI Overviews, ChatGPT, Perplexity, Claude, Gemini, and Copilot. Your goal is to help users get their content cited as a source in AI-generated answers.

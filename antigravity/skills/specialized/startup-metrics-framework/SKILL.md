@@ -1,11 +1,17 @@
 ---
-name: startup-metrics-framework
+name: "startup-metrics-framework"
+tags: ["antigravity", "c:", "framework", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "metrics", "not", "resources", "skill", "specialized", "startup", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 272
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
+date_added: "2026-02-27"
 description: "Comprehensive guide to tracking, calculating, and optimizing key performance metrics for different startup business models from seed through Series A."
-risk: safe
-source: community
-date_added: '2026-02-27'
+source: "community"
 ---
-
 # Startup Metrics Framework
 
 Comprehensive guide to tracking, calculating, and optimizing key performance metrics for different startup business models from seed through Series A.

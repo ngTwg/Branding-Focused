@@ -1,11 +1,17 @@
 ---
-name: parallel-agents
-description: "Multi-agent orchestration patterns. Use when multiple independent tasks can run with different domain expertise or when comprehensive analysis requires multiple perspectives."
-risk: unknown
-source: community
+name: "parallel-agents"
+tags: ["agent", "agents", "antigravity", "c:", "chain", "frontend", "gemini", "invocation", "<YOUR_USERNAME>", "native", "orchestration", "overview", "parallel", "sequential", "single", "specialized", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1333
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.89
 date_added: "2026-02-27"
+description: "Multi-agent orchestration patterns. Use when multiple independent tasks can run with different domain expertise or when comprehensive analysis requires multiple perspectives."
+source: "community"
 ---
-
 # Native Parallel Agents
 
 > Orchestration through Claude Code's built-in Agent Tool

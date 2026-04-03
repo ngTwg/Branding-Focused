@@ -1,3 +1,14 @@
+---
+name: "Complete Examples - Full Working Code"
+tags: ["all", "antigravity", "backend", "best", "c:", "code", "complete", "contents", "controller", "dev", "example", "examples", "following", "frontend", "full", "gemini", "guidelines", "<YOUR_USERNAME>", "practices", "resources"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4111
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Complete Examples - Full Working Code
 
 Real-world examples showing complete implementation patterns.

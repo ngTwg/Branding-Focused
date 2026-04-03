@@ -1,3 +1,14 @@
+---
+name: "Dependency Vulnerability Scanning Implementation Playbook"
+tags: ["antigravity", "c:", "context", "dependencies", "dependency", "frontend", "gemini", "implementation", "<YOUR_USERNAME>", "not", "playbook", "resources", "safety", "scanning", "security", "skill", "this", "use", "users", "vulnerability"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4259
+tools_needed: ["git", "markdown", "pytest", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Dependency Vulnerability Scanning Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

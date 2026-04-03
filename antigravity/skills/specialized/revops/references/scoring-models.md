@@ -1,3 +1,14 @@
+---
+name: "Lead Scoring Models"
+tags: ["antigravity", "attributes", "c:", "company", "contact", "engagement", "explicit", "fit", "frontend", "gemini", "implicit", "lead", "<YOUR_USERNAME>", "models", "references", "revops", "scoring", "specialized", "technology", "template"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1861
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.77
+---
 # Lead Scoring Models
 
 Detailed scoring templates, example models by business type, and calibration guidance.

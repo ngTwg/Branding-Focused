@@ -1,11 +1,17 @@
 ---
-name: paypal-integration
-description: "Master PayPal payment integration including Express Checkout, IPN handling, recurring billing, and refund workflows."
-risk: unknown
-source: community
+name: "paypal-integration"
+tags: ["antigravity", "c:", "concepts", "core", "frontend", "gemini", "instructions", "integration", "<YOUR_USERNAME>", "not", "payment", "paypal", "products", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3473
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Master PayPal payment integration including Express Checkout, IPN handling, recurring billing, and refund workflows."
+source: "community"
 ---
-
 # PayPal Integration
 
 Master PayPal payment integration including Express Checkout, IPN handling, recurring billing, and refund workflows.

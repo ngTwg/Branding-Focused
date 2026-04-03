@@ -1,3 +1,14 @@
+---
+name: "Styling & Customization"
+tags: ["antigravity", "built", "c:", "classname", "color", "colors", "contents", "customization", "first", "for", "frontend", "gemini", "indicators", "layout", "<YOUR_USERNAME>", "only", "raw", "rules", "semantic", "shadcn"]
+tier: 2
+risk: "medium"
+estimated_tokens: 945
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.86
+---
 # Styling & Customization
 
 See [customization.md](../customization.md) for theming, CSS variables, and adding custom colors.

@@ -1,3 +1,14 @@
+---
+name: "Profiling intake and collection checklist"
+tags: ["and", "antigravity", "artifacts", "ask", "audit", "c:", "checklist", "collection", "default", "first", "for", "frontend", "gemini", "intake", "intent", "<YOUR_USERNAME>", "more", "performance", "profiling", "references"]
+tier: 2
+risk: "medium"
+estimated_tokens: 476
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.64
+---
 # Profiling intake and collection checklist
 
 ## Intent

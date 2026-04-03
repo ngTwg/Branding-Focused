@@ -1,10 +1,16 @@
 ---
-name: apify-influencer-discovery
-description: Find and evaluate influencers for brand partnerships, verify authenticity, and track collaboration performance across Instagram, Facebook, YouTube, and TikTok.
-risk: unknown
-source: community
+name: "apify-influencer-discovery"
+tags: ["actor", "antigravity", "apify", "ask", "c:", "determine", "discovery", "fetch", "frontend", "gemini", "influencer", "<YOUR_USERNAME>", "preferences", "prerequisites", "schema", "source", "specialized", "step", "user", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1094
+tools_needed: ["markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
+description: "Find and evaluate influencers for brand partnerships, verify authenticity, and track collaboration performance across Instagram, Facebook, YouTube, and TikTok."
+source: "community"
 ---
-
 # Influencer Discovery
 
 Discover and analyze influencers across multiple platforms using Apify Actors.

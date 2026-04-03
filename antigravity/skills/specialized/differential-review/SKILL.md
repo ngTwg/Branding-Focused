@@ -1,10 +1,16 @@
 ---
-name: differential-review
+name: "differential-review"
+tags: ["antigravity", "c:", "codebase", "core", "differential", "frontend", "gemini", "<YOUR_USERNAME>", "level", "not", "principles", "quick", "rationalizations", "reference", "review", "risk", "security", "size", "skip", "specialized"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1533
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.91
 description: "Security-focused code review for PRs, commits, and diffs."
-risk: unknown
-source: community
+source: "community"
 ---
-
 # Differential Security Review
 
 Security-focused code review for PRs, commits, and diffs.

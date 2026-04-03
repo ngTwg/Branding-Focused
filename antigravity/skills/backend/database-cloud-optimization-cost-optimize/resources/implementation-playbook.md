@@ -1,3 +1,14 @@
+---
+name: "Cloud Cost Optimization Implementation Playbook"
+tags: ["analysis", "and", "antigravity", "backend", "c:", "cloud", "cost", "database", "gemini", "implementation", "instance", "instances", "instructions", "<YOUR_USERNAME>", "optimization", "optimize", "plans", "playbook", "reserved", "resource"]
+tier: 2
+risk: "medium"
+estimated_tokens: 12588
+tools_needed: ["kubernetes", "markdown", "terminal", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.95
+---
 # Cloud Cost Optimization Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

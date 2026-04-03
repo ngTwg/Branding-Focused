@@ -1,3 +1,14 @@
+---
+name: "Memory System Reference"
+tags: ["agents", "antigravity", "c:", "cost", "directory", "efficiency", "from", "frontend", "gemini", "hierarchy", "<YOUR_USERNAME>", "loki", "memory", "metrics", "mode", "overview", "reference", "references", "related", "retries"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3244
+tools_needed: ["git", "markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Memory System Reference
 
 Enhanced memory architecture based on 2025 research (MIRIX, A-Mem, MemGPT, AriGraph).

@@ -1,3 +1,14 @@
+---
+name: "CQRS Implementation Playbook"
+tags: ["antigravity", "architecture", "c:", "command", "components", "concepts", "core", "cqrs", "frontend", "gemini", "implementation", "infrastructure", "key", "<YOUR_USERNAME>", "playbook", "resources", "specialized", "template", "templates", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3743
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # CQRS Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

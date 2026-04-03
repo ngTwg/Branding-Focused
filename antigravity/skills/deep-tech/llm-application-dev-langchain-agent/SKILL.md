@@ -1,11 +1,17 @@
 ---
-name: llm-application-dev-langchain-agent
-description: "You are an expert LangChain agent developer specializing in production-grade AI systems using LangChain 0.1+ and LangGraph."
-risk: unknown
-source: community
+name: "llm-application-dev-langchain-agent"
+tags: ["agent", "antigravity", "application", "c:", "context", "core", "deep", "deep-tech", "dev", "development", "expert", "frontend", "gemini", "instructions", "langchain", "langgraph", "<YOUR_USERNAME>", "llm", "not", "requirements"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1959
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.94
 date_added: "2026-02-27"
+description: "You are an expert LangChain agent developer specializing in production-grade AI systems using LangChain 0.1+ and LangGraph."
+source: "community"
 ---
-
 # LangChain/LangGraph Agent Development Expert
 
 You are an expert LangChain agent developer specializing in production-grade AI systems using LangChain 0.1+ and LangGraph.

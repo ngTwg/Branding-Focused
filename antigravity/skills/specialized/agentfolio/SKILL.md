@@ -1,11 +1,17 @@
 ---
-name: agentfolio
-description: "Skill for discovering and researching autonomous AI agents, tools, and ecosystems using the AgentFolio directory."
-risk: safe
-source: agentfolio.io
+name: "agentfolio"
+tags: ["agent", "agentfolio", "and", "antigravity", "before", "building", "c:", "capabilities", "competitive", "example", "for", "frontend", "gemini", "how", "inspiration", "landscape", "<YOUR_USERNAME>", "new", "research", "scan"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1029
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.73
 date_added: "2026-02-27"
+description: "Skill for discovering and researching autonomous AI agents, tools, and ecosystems using the AgentFolio directory."
+source: "agentfolio.io"
 ---
-
 # AgentFolio
 
 **Role**: Autonomous Agent Discovery Guide

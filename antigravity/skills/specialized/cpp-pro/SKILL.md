@@ -1,11 +1,17 @@
 ---
-name: cpp-pro
-description: Write idiomatic C++ code with modern features, RAII, smart pointers, and STL algorithms. Handles templates, move semantics, and performance optimization.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "cpp-pro"
+tags: ["antigravity", "approach", "areas", "c:", "cpp", "focus", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "output", "pro", "skill", "specialized", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 467
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.64
+date_added: "2026-02-27"
+description: "Write idiomatic C++ code with modern features, RAII, smart pointers, and STL algorithms. Handles templates, move semantics, and performance optimization."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on cpp pro tasks or workflows

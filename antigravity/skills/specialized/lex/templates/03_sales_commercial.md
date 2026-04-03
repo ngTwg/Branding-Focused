@@ -1,9 +1,16 @@
 ---
-name: sales-commercial
-description: Agent templates governing long-term commercial relationships, bills of sale, and web-based terms of service.
-jurisdictions: [USA, Canada, EU]
+name: "sales-commercial"
+tags: ["03", "agent", "antigravity", "c:", "commercial", "contract", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "lex", "nuances", "official", "references", "sales", "specialized", "templates", "transactions", "types", "users"]
+tier: 4
+risk: "medium"
+estimated_tokens: 713
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.61
+description: "Agent templates governing long-term commercial relationships, bills of sale, and web-based terms of service."
+jurisdictions: "[USA, Canada, EU]"
 ---
-
 # Sales & Commercial Transactions Templates
 
 These templates dictate the parameters of sales, services, and online privacy. Note the strict variance in consumer-facing privacy laws and commercial codes.

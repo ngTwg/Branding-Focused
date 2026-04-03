@@ -1,10 +1,17 @@
 ---
-title: Use Proper Test Setup for DBOS
-impact: LOW-MEDIUM
-impactDescription: Ensures consistent test results with proper DBOS lifecycle management
-tags: testing, go-test, setup, integration, mock
+name: "Use Proper Test Setup for DBOS"
+tags: ["testing, go-test, setup, integration, mock"]
+tier: 2
+risk: "medium"
+estimated_tokens: 577
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.62
+impact: "LOW-MEDIUM"
+impactDescription: "Ensures consistent test results with proper DBOS lifecycle management"
+title: "Use Proper Test Setup for DBOS"
 ---
-
 ## Use Proper Test Setup for DBOS
 
 DBOS applications can be tested with unit tests (mocking DBOSContext) or integration tests (real Postgres database).

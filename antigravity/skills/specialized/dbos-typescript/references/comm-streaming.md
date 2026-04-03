@@ -1,10 +1,17 @@
 ---
-title: Use Streams for Real-Time Data
-impact: MEDIUM
-impactDescription: Enables streaming results from long-running workflows
-tags: communication, stream, real-time, async-generator
+name: "Use Streams for Real-Time Data"
+tags: ["communication, stream, real-time, async-generator"]
+tier: 3
+risk: "medium"
+estimated_tokens: 485
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.58
+impact: "MEDIUM"
+impactDescription: "Enables streaming results from long-running workflows"
+title: "Use Streams for Real-Time Data"
 ---
-
 ## Use Streams for Real-Time Data
 
 Workflows can stream data to clients in real-time using `DBOS.writeStream`, `DBOS.closeStream`, and `DBOS.readStream`. Useful for LLM output streaming or progress reporting.

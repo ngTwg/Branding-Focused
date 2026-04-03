@@ -1,4 +1,15 @@
 ---
+name: "Semgrep Rule Creator"
+tags: ["anti", "antigravity", "any", "bad", "c:", "call", "creator", "frontend", "function", "gemini", "<YOUR_USERNAME>", "matches", "not", "patterns", "rationalizations", "reject", "rule", "semgrep", "specialized", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1657
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.92
+---
+---
 name: semgrep-rule-creator
 description: Creates custom Semgrep rules for detecting security vulnerabilities, bug patterns, and code patterns. Use when writing Semgrep rules or building custom static analysis detections.
 allowed-tools:

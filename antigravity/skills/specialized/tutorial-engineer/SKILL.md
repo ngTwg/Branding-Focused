@@ -1,13 +1,19 @@
 ---
-name: tutorial-engineer
-description: Creates step-by-step tutorials and educational content from code. Transforms complex concepts into progressive learning experiences with hands-on examples.
-risk: safe
-source: community
-date_added: '2026-03-02'
-metadata:
-  version: '2.0.0'
+name: "tutorial-engineer"
+tags: ["antigravity", "c:", "engineer", "frontend", "gemini", "<YOUR_USERNAME>", "not", "skill", "specialized", "this", "tutorial", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3962
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.69
+date_added: "2026-03-02"
+description: "Creates step-by-step tutorials and educational content from code. Transforms complex concepts into progressive learning experiences with hands-on examples."
+metadata: ""
+source: "community"
+version: "2.0.0"
 ---
-
 ## Use this skill when
 - Working on tutorial engineer tasks or workflows
 - Needing guidance, best practices, or checklists for tutorial engineer

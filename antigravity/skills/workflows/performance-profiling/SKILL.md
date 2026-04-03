@@ -1,9 +1,16 @@
 ---
-name: performance-profiling
-description: Performance profiling principles. Measurement, analysis, and optimization techniques.
-allowed-tools: Read, Glob, Grep, Bash
+name: "performance-profiling"
+tags: ["antigravity", "c:", "core", "frontend", "gemini", "<YOUR_USERNAME>", "measure", "performance", "profiling", "runtime", "scripts", "targets", "users", "vitals", "web", "when", "workflow", "workflows"]
+tier: 2
+risk: "medium"
+estimated_tokens: 771
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.71
+allowed-tools: "Read, Glob, Grep, Bash"
+description: "Performance profiling principles. Measurement, analysis, and optimization techniques."
 ---
-
 # Performance Profiling
 
 > Measure, analyze, optimize - in that order.

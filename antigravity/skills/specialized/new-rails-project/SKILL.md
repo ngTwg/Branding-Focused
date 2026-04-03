@@ -1,16 +1,22 @@
 ---
-name: new-rails-project
-argument-hint: [project name]
-description: Create a new Rails project
-allowed-tools: Bash(rails *), Bash(bundle *), Bash(bin/*), Bash(npm *), Bash(yarn *)
-context: fork
-risk: unknown
-source: community
-metadata:
-  author: Shpigford
-  version: "1.0"
+name: "new-rails-project"
+tags: ["antigravity", "background", "c:", "code", "database", "frontend", "gemini", "guidance", "jobs", "<YOUR_USERNAME>", "maintenace", "new", "project", "rails", "specialized", "stack", "tech", "testing", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 550
+tools_needed: ["docker", "markdown", "mcp", "playwright", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.68
+allowed-tools: "Bash(rails *), Bash(bundle *), Bash(bin/*), Bash(npm *), Bash(yarn *)"
+argument-hint: "[project name]"
+author: "Shpigford"
+context: "fork"
+description: "Create a new Rails project"
+metadata: ""
+source: "community"
+version: "1.0"
 ---
-
 Generate a new Rails project named $1 in the current directory. You may reference @CLAUDE.md for general guidance, though the guidance here takes precedence.
 
 # Tech Stack

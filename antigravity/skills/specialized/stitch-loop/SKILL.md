@@ -1,4 +1,15 @@
 ---
+name: "Stitch Build Loop"
+tags: ["antigravity", "baton", "build", "c:", "execution", "frontend", "gemini", "<YOUR_USERNAME>", "loop", "overview", "prerequisites", "protocol", "read", "specialized", "step", "stitch", "system", "the", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2563
+tools_needed: ["git", "markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.91
+---
+---
 name: stitch-loop
 description: Teaches agents to iteratively build websites using Stitch with an autonomous baton-passing loop pattern
 allowed-tools:

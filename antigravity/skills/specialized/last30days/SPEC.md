@@ -1,3 +1,14 @@
+---
+name: "last30days Skill Specification"
+tags: ["antigravity", "architecture", "backend", "c:", "context", "embedding", "gemini", "injection", "inline", "last30days", "<YOUR_USERNAME>", "other", "overview", "recent", "research", "skill", "skills", "spec", "specialized", "specification"]
+tier: 2
+risk: "medium"
+estimated_tokens: 785
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.83
+---
 # last30days Skill Specification
 
 ## Overview

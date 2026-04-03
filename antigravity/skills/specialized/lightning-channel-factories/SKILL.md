@@ -1,11 +1,17 @@
 ---
-name: lightning-channel-factories
-description: Technical reference on Lightning Network channel factories, multi-party channels, LSP architectures, and Bitcoin Layer 2 scaling without soft forks. Covers Decker-Wattenhofer, timeout trees, MuSig2 key aggregation, HTLC/PTLC forwarding, and watchtower breach detection.
-risk: safe
-source: community
-date_added: '2026-03-03'
+name: "lightning-channel-factories"
+tags: ["antigravity", "c:", "channel", "factories", "frontend", "gemini", "instructions", "key", "<YOUR_USERNAME>", "lightning", "not", "purpose", "references", "skill", "specialized", "this", "topics", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 572
+tools_needed: ["git", "markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.64
+date_added: "2026-03-03"
+description: "Technical reference on Lightning Network channel factories, multi-party channels, LSP architectures, and Bitcoin Layer 2 scaling without soft forks. Covers Decker-Wattenhofer, timeout trees, MuSig2 key aggregation, HTLC/PTLC forwarding, and watchtower breach detection."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Building or reviewing Lightning Network channel factory implementations

@@ -1,11 +1,17 @@
 ---
-name: skill-creator-ms
-description: "Guide for creating effective skills for AI coding agents working with Azure SDKs and Microsoft Foundry services. Use when creating new skills or updating existing skills."
-risk: unknown
-source: community
+name: "skill-creator-ms"
+tags: ["about", "antigravity", "before", "c:", "concise", "core", "creator", "documentation", "first", "fresh", "frontend", "gemini", "implementation", "key", "<YOUR_USERNAME>", "ms", "principles", "skill", "skills", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4517
+tools_needed: ["git", "markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Guide for creating effective skills for AI coding agents working with Azure SDKs and Microsoft Foundry services. Use when creating new skills or updating existing skills."
+source: "community"
 ---
-
 # Skill Creator
 
 Guide for creating skills that extend AI agent capabilities, with emphasis on Azure SDKs and Microsoft Foundry.

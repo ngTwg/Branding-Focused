@@ -1,3 +1,14 @@
+---
+name: "Use Cases"
+tags: ["antigravity", "build", "c:", "cases", "clips", "create", "enhancement", "extract", "frontend", "gemini", "highlight", "highlights", "<YOUR_USERNAME>", "libraries", "reels", "reference", "search", "searchable", "specialized", "specific"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1107
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.71
+---
 # Use Cases
 
 Common workflows and what VideoDB enables. For code details, see [api-reference.md](api-reference.md), [capture.md](capture.md), [editor.md](editor.md), and [search.md](search.md).

@@ -1,3 +1,14 @@
+---
+name: "MV Patterns Reference"
+tags: ["antigravity", "avoid", "c:", "default", "environment", "frontend", "gemini", "justified", "<YOUR_USERNAME>", "lightweight", "local", "may", "model", "modifiers", "mv", "orchestration", "pattern", "patterns", "plus", "preferred"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1392
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.82
+---
 # MV Patterns Reference
 
 Distilled guidance for deciding whether a SwiftUI feature should stay as plain MV or introduce a view model.

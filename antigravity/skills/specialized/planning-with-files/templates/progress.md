@@ -1,3 +1,14 @@
+---
+name: "Progress Log"
+tags: ["antigravity", "c:", "date", "error", "files", "frontend", "gemini", "<YOUR_USERNAME>", "log", "phase", "planning", "progress", "results", "session", "specialized", "templates", "test", "title", "users", "with"]
+tier: 2
+risk: "medium"
+estimated_tokens: 996
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.68
+---
 # Progress Log
 <!-- 
   WHAT: Your session log - a chronological record of what you did, when, and what happened.

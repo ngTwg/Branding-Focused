@@ -1,10 +1,16 @@
 ---
-name: evolution
+name: "evolution"
+tags: ["and", "antigravity", "auto", "based", "bundling", "c:", "enabled", "evolution", "frontend", "gemini", "hooks", "install", "<YOUR_USERNAME>", "makepad", "navigation", "quick", "routing", "skill", "skills", "specialized"]
+tier: 2
+risk: "critical"
+estimated_tokens: 2851
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 description: "This skill enables makepad-skills to self-improve continuously during development."
-risk: critical
-source: community
+source: "community"
 ---
-
 <!-- security-allowlist: curl-pipe-bash -->
 
 # Makepad Skills Evolution

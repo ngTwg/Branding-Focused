@@ -1,3 +1,14 @@
+---
+name: "Obsidian Web Clipper JSON Schema"
+tags: ["antigravity", "c:", "clipper", "creator", "fields", "frontend", "gemini", "json", "<YOUR_USERNAME>", "object", "obsidian", "properties", "property", "references", "root", "schema", "specialized", "structure", "template", "types"]
+tier: 2
+risk: "medium"
+estimated_tokens: 555
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.67
+---
 # Obsidian Web Clipper JSON Schema
 
 The Obsidian Web Clipper imports templates via JSON files.

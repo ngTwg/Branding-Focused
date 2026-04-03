@@ -1,10 +1,17 @@
 ---
-title: CSS content-visibility for Long Lists
-impact: HIGH
-impactDescription: faster initial render
-tags: rendering, css, content-visibility, long-lists
+name: "CSS content-visibility for Long Lists"
+tags: ["rendering, css, content-visibility, long-lists"]
+tier: 2
+risk: "medium"
+estimated_tokens: 203
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.56
+impact: "HIGH"
+impactDescription: "faster initial render"
+title: "CSS content-visibility for Long Lists"
 ---
-
 ## CSS content-visibility for Long Lists
 
 Apply `content-visibility: auto` to defer off-screen rendering.

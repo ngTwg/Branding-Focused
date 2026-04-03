@@ -1,11 +1,17 @@
 ---
-name: market-sizing-analysis
+name: "market-sizing-analysis"
+tags: ["analysis", "antigravity", "c:", "concepts", "core", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "market", "not", "overview", "sizing", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3182
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+date_added: "2026-02-27"
 description: "Comprehensive market sizing methodologies for calculating Total Addressable Market (TAM), Serviceable Available Market (SAM), and Serviceable Obtainable Market (SOM) for startup opportunities."
-risk: safe
-source: community
-date_added: '2026-02-27'
+source: "community"
 ---
-
 # Market Sizing Analysis
 
 Comprehensive market sizing methodologies for calculating Total Addressable Market (TAM), Serviceable Available Market (SAM), and Serviceable Obtainable Market (SOM) for startup opportunities.

@@ -1,3 +1,14 @@
+---
+name: "Temporal Go Testing Strategies"
+tags: ["activities", "antigravity", "c:", "child", "frontend", "gemini", "golang", "<YOUR_USERNAME>", "mocking", "pro", "resources", "setup", "specialized", "strategies", "suite", "temporal", "test", "testing", "the", "unit"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1076
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.86
+---
 # Temporal Go Testing Strategies
 
 Testing workflows and activities in Go requires a deep understanding of the `testsuite` package, which provides a mocked environment with deterministic time-skipping.

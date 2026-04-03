@@ -1,11 +1,17 @@
 ---
-name: fp-ts-pragmatic
-description: "A practical, jargon-free guide to fp-ts functional programming - the 80/20 approach that gets results without the academic overhead. Use when writing TypeScript with fp-ts library."
-risk: safe
-source: "https://github.com/whatiskadudoing/fp-ts-skills"
+name: "fp-ts-pragmatic"
+tags: ["antigravity", "c:", "chain", "checks", "clearly", "fp", "frontend", "functional", "gemini", "golden", "handle", "<YOUR_USERNAME>", "missing", "null", "operations", "option", "pipe", "pragmatic", "programming", "rule"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3968
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "A practical, jargon-free guide to fp-ts functional programming - the 80/20 approach that gets results without the academic overhead. Use when writing TypeScript with fp-ts library."
+source: "https://github.com/whatiskadudoing/fp-ts-skills"
 ---
-
 # Pragmatic Functional Programming
 
 **Read this first.** This guide cuts through the academic jargon and shows you what actually matters. No category theory. No abstract nonsense. Just patterns that make your code better.

@@ -1,10 +1,16 @@
 ---
-name: sequencing
-description: Sequencing patterns for Remotion - delay, trim, limit duration of items
-metadata:
-  tags: sequence, series, timing, delay, trim
+name: "sequencing"
+tags: ["sequence, series, timing, delay, trim"]
+tier: 1
+risk: "high"
+estimated_tokens: 597
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["data", "analytics"]
+quality_score: 0.78
+description: "Sequencing patterns for Remotion - delay, trim, limit duration of items"
+metadata: ""
 ---
-
 Use `<Sequence>` to delay when an element appears in the timeline.
 
 ```tsx

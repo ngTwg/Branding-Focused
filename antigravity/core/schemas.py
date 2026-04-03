@@ -1,7 +1,8 @@
 from __future__ import annotations
 from typing import Literal, List, Optional, ClassVar
-from pydantic import BaseModel, Field, field_validator
-from core.id_utils import is_valid_time_sortable_id
+from pathlib import Path
+from pydantic import BaseModel, Field, field_validator, model_validator
+from .id_utils import is_valid_time_sortable_id, new_id
 
 
 class RouteDecision(BaseModel):
@@ -75,18 +76,62 @@ class Skill(BaseModel):
 class SkillDocument(BaseModel):
     """For HybridRetriever indexing."""
     skill_id: str
-    name: str
+    name: str = ""
     content: str
-    domain_tags: list[str] = []
-    file_path: str
+    domain_tags: list[str] = Field(default_factory=list)
+    file_path: str = ""
+    tier: int | None = None
+    metadata: dict = Field(default_factory=dict)
+
+    @model_validator(mode="after")
+    def fill_derived_fields(self):
+        if not self.name:
+            if self.file_path:
+                self.name = Path(self.file_path).stem
+            else:
+                self.name = self.skill_id
+        if not self.file_path:
+            self.file_path = self.skill_id
+        return self
 
 
 class RankedSkill(BaseModel):
     """For HybridRetriever results."""
-    skill: Skill
+    skill: Skill | None = None
+    # Legacy compatibility fields (kept optional).
+    skill_id: str | None = None
+    content: str | None = None
+    domain_tags: list[str] = []
+    tier: int | None = None
     bm25_norm: float = Field(ge=0.0, le=1.0)
     cosine_norm: float = Field(ge=0.0, le=1.0)
     final_score: float = Field(ge=0.0, le=1.0)
+
+    @model_validator(mode="after")
+    def _populate_legacy_skill(self):
+        if self.skill is not None:
+            return self
+
+        fallback_name = self.skill_id or "legacy-ranked-skill"
+        fallback_desc = (self.content or fallback_name)[:200]
+        self.skill = Skill(
+            name=fallback_name,
+            description=fallback_desc,
+            trigger_patterns=["general"],
+            plan_template=[
+                {
+                    "step_id": 1,
+                    "action": "analyze",
+                    "agent": "general",
+                    "input": {"instruction": f"Apply {fallback_name}"},
+                }
+            ],
+            success_criteria={
+                "deterministic_checks": [],
+                "semantic_goal": f"Applied {fallback_name}",
+            },
+        )
+        return self
 
 
 class ASTNode(BaseModel):
@@ -117,13 +162,17 @@ class ASTContract(BaseModel):
     is_fallback: bool = False
     source_files: list[str] = []
     total_size_bytes: int = 0
+    error_priority_info: dict | None = None  # Added for ErrorPrioritizer integration (Requirement 2.5)
 
 
 class ErrorDelta(BaseModel):
     """For DeterministicChecker."""
-    operation_id: str
+    operation_id: str = Field(default_factory=new_id)
     errors_resolved: list[str] = []
     errors_introduced: list[str] = []
+    # Legacy aliases accepted by older integration tests.
+    old_errors: list[str] = Field(default_factory=list, exclude=True)
+    new_errors: list[str] = Field(default_factory=list, exclude=True)
     old_error_score: float = Field(ge=0.0)
     new_error_score: float = Field(ge=0.0)
     net_improvement: bool
@@ -133,6 +182,20 @@ class ErrorDelta(BaseModel):
         "runtime_error": 7,
         "lint_warning": 1,
     }
+
+    @model_validator(mode="before")
+    @classmethod
+    def migrate_legacy_fields(cls, data):
+        if not isinstance(data, dict):
+            return data
+
+        if "errors_resolved" not in data and "old_errors" in data:
+            data["errors_resolved"] = data.get("old_errors", [])
+        if "errors_introduced" not in data and "new_errors" in data:
+            data["errors_introduced"] = data.get("new_errors", [])
+        if "operation_id" not in data or data.get("operation_id") is None:
+            data["operation_id"] = new_id()
+        return data
 
     @field_validator("operation_id")
     @classmethod
@@ -160,7 +223,7 @@ class SLMRouteDecision(BaseModel):
     """For SLMRouter."""
     chosen: str
     confidence: float = Field(ge=0.0, le=1.0)
-    top_k: list[dict[str, float]] = []
+    top_k: list[dict[str, float] | tuple[str, float]] = []
     llm_fallback_triggered: bool = False
 
 

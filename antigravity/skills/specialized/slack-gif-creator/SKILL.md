@@ -1,9 +1,16 @@
 ---
-name: slack-gif-creator
-description: Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like "make me a GIF of X doing Y for Slack."
-license: Complete terms in LICENSE.txt
+name: "slack-gif-creator"
+tags: ["antigravity", "builder", "c:", "core", "create", "creator", "frames", "frontend", "gemini", "generate", "gif", "<YOUR_USERNAME>", "optimization", "requirements", "save", "slack", "specialized", "users", "with", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1960
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.96
+description: "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\""
+license: "Complete terms in LICENSE.txt"
 ---
-
 # Slack GIF Creator
 
 A toolkit providing utilities and knowledge for creating animated GIFs optimized for Slack.

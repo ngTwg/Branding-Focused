@@ -1,11 +1,17 @@
 ---
-name: flutter-expert
-description: Master Flutter development with Dart 3, advanced widgets, and multi-platform deployment.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "flutter-expert"
+tags: ["antigravity", "c:", "capabilities", "core", "expert", "flutter", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "mastery", "not", "purpose", "skill", "specialized", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2335
+tools_needed: ["git", "markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+date_added: "2026-02-27"
+description: "Master Flutter development with Dart 3, advanced widgets, and multi-platform deployment."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on flutter expert tasks or workflows

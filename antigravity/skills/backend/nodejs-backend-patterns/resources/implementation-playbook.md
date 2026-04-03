@@ -1,3 +1,14 @@
+---
+name: "Node.js Backend Patterns Implementation Playbook"
+tags: ["antigravity", "backend", "c:", "core", "express", "fastify", "framework", "frameworks", "frontend", "gemini", "high", "implementation", "<YOUR_USERNAME>", "minimalist", "node", "nodejs", "patterns", "performance", "playbook", "resources"]
+tier: 3
+risk: "medium"
+estimated_tokens: 6147
+tools_needed: ["git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Node.js Backend Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

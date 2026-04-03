@@ -1,10 +1,16 @@
 ---
-name: emergency-card
-description: 生成紧急情况下快速访问的医疗信息摘要卡片。当用户需要旅行、就诊准备、紧急情况或询问"紧急信息"、"医疗卡片"、"急救信息"时使用此技能。提取关键信息（过敏、用药、急症、植入物），支持多格式输出（JSON、文本、二维码），用于急救或快速就医。
-risk: unknown
-source: community
+name: "emergency-card"
+tags: ["antigravity", "c:", "card", "emergency", "frontend", "gemini", "<YOUR_USERNAME>", "specialized", "users", "信息优先级排序", "多格式输出", "核心功能", "生成标准卡片", "紧急信息提取", "紧急医疗信息卡生成器"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2719
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+description: "生成紧急情况下快速访问的医疗信息摘要卡片。当用户需要旅行、就诊准备、紧急情况或询问\"紧急信息\"、\"医疗卡片\"、\"急救信息\"时使用此技能。提取关键信息（过敏、用药、急症、植入物），支持多格式输出（JSON、文本、二维码），用于急救或快速就医。"
+source: "community"
 ---
-
 # 紧急医疗信息卡生成器
 
 生成紧急情况下快速访问的医疗信息摘要，用于急救或就医。

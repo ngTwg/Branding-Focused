@@ -1,3 +1,14 @@
+---
+name: "Automated Documentation Generation Implementation Playbook"
+tags: ["antigravity", "api", "architecture", "automated", "c:", "code", "doc", "documentation", "frontend", "gemini", "generate", "generation", "implementation", "instructions", "<YOUR_USERNAME>", "playbook", "resources", "specialized", "user", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 4059
+tools_needed: ["git", "markdown", "pytest", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Automated Documentation Generation Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

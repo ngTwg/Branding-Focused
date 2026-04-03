@@ -1,10 +1,16 @@
 ---
-name: skill-improver
+name: "skill-improver"
+tags: ["antigravity", "c:", "categorization", "core", "frontend", "gemini", "improvement", "improver", "issue", "<YOUR_USERNAME>", "loop", "methodology", "not", "prerequisites", "skill", "specialized", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1429
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.89
 description: "Iteratively improve a Claude Code skill using the skill-reviewer agent until it meets quality standards. Use when improving a skill with multiple quality issues, iterating on a new skill until it meets standards, or automated fix-review cycles instead of manual editing."
-risk: unknown
-source: community
+source: "community"
 ---
-
 # Skill Improvement Methodology
 
 Iteratively improve a Claude Code skill using the skill-reviewer agent until it meets quality standards.

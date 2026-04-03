@@ -1,3 +1,14 @@
+---
+name: "ENVIRONMENT STANDARDS - QUẢN LÝ CẤU HÌNH MÔI TRƯỜNG"
+tags: ["antigravity", "c:", "checklist", "commit", "cấu", "env", "environment", "file", "frontend", "gemini", "hình", "<YOUR_USERNAME>", "môi", "never", "overview", "pattern", "proper", "quản", "standards", "structure"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3131
+tools_needed: ["git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # ENVIRONMENT STANDARDS - QUẢN LÝ CẤU HÌNH MÔI TRƯỜNG
 
 > **Tier:** 2-3  

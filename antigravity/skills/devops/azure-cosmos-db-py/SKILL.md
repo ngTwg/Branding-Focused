@@ -1,11 +1,17 @@
 ---
-name: azure-cosmos-db-py
-description: "Build production-grade Azure Cosmos DB NoSQL services following clean code, security best practices, and TDD principles."
-risk: unknown
-source: community
+name: "azure-cosmos-db-py"
+tags: ["antigravity", "architecture", "authentication", "azure", "c:", "cosmos", "db", "devops", "emulator", "environment", "for", "frontend", "gemini", "implementation", "installation", "<YOUR_USERNAME>", "not", "only", "overview", "production"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2011
+tools_needed: ["markdown", "pytest", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.92
 date_added: "2026-02-27"
+description: "Build production-grade Azure Cosmos DB NoSQL services following clean code, security best practices, and TDD principles."
+source: "community"
 ---
-
 # Cosmos DB Service Implementation
 
 Build production-grade Azure Cosmos DB NoSQL services following clean code, security best practices, and TDD principles.

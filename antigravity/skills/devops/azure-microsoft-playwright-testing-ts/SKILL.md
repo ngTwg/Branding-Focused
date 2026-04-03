@@ -1,11 +1,17 @@
 ---
-name: azure-microsoft-playwright-testing-ts
-description: "Run Playwright tests at scale with cloud-hosted browsers and integrated Azure portal reporting."
-risk: unknown
-source: community
+name: "azure-microsoft-playwright-testing-ts"
+tags: ["antigravity", "authentication", "auto", "azure", "c:", "config", "devops", "environment", "for", "frontend", "gemini", "generates", "installation", "<YOUR_USERNAME>", "manual", "microsoft", "playwright", "recommended", "sdk", "testing"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1986
+tools_needed: ["git", "markdown", "playwright", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.92
 date_added: "2026-02-27"
+description: "Run Playwright tests at scale with cloud-hosted browsers and integrated Azure portal reporting."
+source: "community"
 ---
-
 # Azure Playwright Workspaces SDK for TypeScript
 
 Run Playwright tests at scale with cloud-hosted browsers and integrated Azure portal reporting.

@@ -1,3 +1,14 @@
+---
+name: "META-RULES - QUY TẮC VỀ QUY TẮC"
+tags: ["antigravity", "c:", "checklist", "conflict", "frontend", "gemini", "hierarchy", "<YOUR_USERNAME>", "meta", "order", "overview", "pattern", "priority", "quy", "resolution", "rule", "rules", "tắc", "users", "workflows"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3487
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # META-RULES - QUY TẮC VỀ QUY TẮC
 
 > **Tier:** 3-4  

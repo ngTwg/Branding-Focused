@@ -1,11 +1,17 @@
 ---
-name: github-actions-templates
-description: "Production-ready GitHub Actions workflow patterns for testing, building, and deploying applications."
-risk: critical
-source: community
+name: "github-actions-templates"
+tags: ["actions", "antigravity", "c:", "common", "frontend", "gemini", "github", "instructions", "<YOUR_USERNAME>", "not", "patterns", "purpose", "skill", "templates", "this", "use", "users", "when", "workflow", "workflows"]
+tier: 2
+risk: "critical"
+estimated_tokens: 1900
+tools_needed: ["docker", "git", "kubernetes", "markdown", "pytest", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.94
 date_added: "2026-02-27"
+description: "Production-ready GitHub Actions workflow patterns for testing, building, and deploying applications."
+source: "community"
 ---
-
 # GitHub Actions Templates
 
 Production-ready GitHub Actions workflow patterns for testing, building, and deploying applications.

@@ -1,3 +1,14 @@
+---
+name: "Workflow Patterns Implementation Playbook"
+tags: ["antigravity", "c:", "frontend", "gemini", "implementation", "<YOUR_USERNAME>", "lifecycle", "mark", "next", "patterns", "playbook", "progress", "resources", "select", "skill", "step", "task", "tdd", "this", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3358
+tools_needed: ["git", "markdown", "pytest", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Workflow Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

@@ -1,3 +1,14 @@
+---
+name: "React Best Practices"
+tags: ["abstract", "agents", "antigravity", "await", "based", "best", "c:", "contents", "defer", "dependency", "eliminating", "frontend", "gemini", "<YOUR_USERNAME>", "needed", "parallelization", "practices", "react", "table", "until"]
+tier: 2
+risk: "medium"
+estimated_tokens: 15124
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # React Best Practices
 
 **Version 0.1.0**  

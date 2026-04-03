@@ -1,11 +1,17 @@
 ---
-name: memory-safety-patterns
-description: "Cross-language patterns for memory-safe programming including RAII, ownership, smart pointers, and resource management."
-risk: safe
-source: community
+name: "memory-safety-patterns"
+tags: ["antigravity", "c:", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "memory", "not", "patterns", "resources", "safety", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 273
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
 date_added: "2026-02-27"
+description: "Cross-language patterns for memory-safe programming including RAII, ownership, smart pointers, and resource management."
+source: "community"
 ---
-
 # Memory Safety Patterns
 
 Cross-language patterns for memory-safe programming including RAII, ownership, smart pointers, and resource management.

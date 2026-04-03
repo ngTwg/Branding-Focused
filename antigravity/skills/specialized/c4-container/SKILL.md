@@ -1,11 +1,17 @@
 ---
-name: c4-container
-description: Expert C4 Container-level documentation specialist.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "c4-container"
+tags: ["antigravity", "c4", "c:", "container", "containers", "deployment", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "level", "name", "not", "skill", "specialized", "system", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1328
+tools_needed: ["docker", "kubernetes", "markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.82
+date_added: "2026-02-27"
+description: "Expert C4 Container-level documentation specialist."
+source: "community"
 ---
-
 # C4 Container Level: System Deployment
 
 ## Use this skill when

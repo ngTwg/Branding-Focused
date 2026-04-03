@@ -1,3 +1,14 @@
+---
+name: "Async Patterns and Error Handling"
+tags: ["always", "and", "antigravity", "async", "avoid", "await", "backend", "best", "c:", "catch", "chains", "contents", "dev", "error", "errors", "frontend", "gemini", "guidelines", "handling", "<YOUR_USERNAME>"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1710
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.88
+---
 # Async Patterns and Error Handling
 
 Complete guide to async/await patterns and custom error handling.

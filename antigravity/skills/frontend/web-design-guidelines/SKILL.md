@@ -1,11 +1,17 @@
 ---
-name: web-design-guidelines
-description: "Review files for compliance with Web Interface Guidelines."
-risk: safe
-source: community
+name: "web-design-guidelines"
+tags: ["antigravity", "c:", "design", "frontend", "gemini", "guidelines", "how", "interface", "<YOUR_USERNAME>", "source", "usage", "use", "users", "web", "when", "works"]
+tier: 2
+risk: "medium"
+estimated_tokens: 295
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.63
 date_added: "2026-02-27"
+description: "Review files for compliance with Web Interface Guidelines."
+source: "community"
 ---
-
 # Web Interface Guidelines
 
 Review files for compliance with Web Interface Guidelines.

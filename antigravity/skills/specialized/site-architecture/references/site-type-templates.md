@@ -1,3 +1,14 @@
+---
+name: "Site Type Templates"
+tags: ["antigravity", "architecture", "blog", "c:", "content", "frontend", "gemini", "hierarchy", "<YOUR_USERNAME>", "map", "marketing", "navigation", "page", "references", "saas", "site", "specialized", "templates", "type", "url"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2179
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.92
+---
 # Site Type Templates
 
 Full page hierarchy templates with ASCII trees, URL maps, and navigation recommendations for common site types.

@@ -1,3 +1,14 @@
+---
+name: "Icons"
+tags: ["antigravity", "attribute", "button", "c:", "classes", "component", "components", "data", "frontend", "gemini", "icon", "icons", "inside", "keys", "<YOUR_USERNAME>", "not", "objects", "pass", "rules", "shadcn"]
+tier: 2
+risk: "medium"
+estimated_tokens: 488
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.73
+---
 # Icons
 
 **Always use the project's configured `iconLibrary` for imports.** Check the `iconLibrary` field from project context: `lucide` → `lucide-react`, `tabler` → `@tabler/icons-react`, etc. Never assume `lucide-react`.

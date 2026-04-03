@@ -1,11 +1,17 @@
 ---
-name: event-store-design
-description: "Design and implement event stores for event-sourced systems. Use when building event sourcing infrastructure, choosing event store technologies, or implementing event persistence patterns."
-risk: unknown
-source: community
+name: "event-store-design"
+tags: ["antigravity", "architecture", "c:", "concepts", "core", "design", "event", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "skill", "specialized", "store", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3794
+tools_needed: ["markdown", "sql", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.96
 date_added: "2026-02-27"
+description: "Design and implement event stores for event-sourced systems. Use when building event sourcing infrastructure, choosing event store technologies, or implementing event persistence patterns."
+source: "community"
 ---
-
 # Event Store Design
 
 Comprehensive guide to designing event stores for event-sourced applications.

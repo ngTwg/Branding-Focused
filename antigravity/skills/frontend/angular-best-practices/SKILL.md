@@ -1,11 +1,17 @@
 ---
-name: angular-best-practices
-description: "Angular performance optimization and best practices guide. Use when writing, reviewing, or refactoring Angular code for optimal performance, bundle size, and rendering efficiency."
-risk: safe
-source: self
+name: "angular-best-practices"
+tags: ["angular", "antigravity", "best", "c:", "categories", "change", "critical", "detection", "frontend", "gemini", "<YOUR_USERNAME>", "mutable", "onpush", "over", "practices", "prefer", "priority", "properties", "rule", "signals"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3305
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Angular performance optimization and best practices guide. Use when writing, reviewing, or refactoring Angular code for optimal performance, bundle size, and rendering efficiency."
+source: "self"
 ---
-
 # Angular Best Practices
 
 Comprehensive performance optimization guide for Angular applications. Contains prioritized rules for eliminating performance bottlenecks, optimizing bundles, and improving rendering.

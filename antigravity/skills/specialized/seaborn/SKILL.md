@@ -1,13 +1,19 @@
 ---
-name: seaborn
+name: "seaborn"
+tags: ["antigravity", "c:", "create", "dataset", "design", "example", "frontend", "gemini", "<YOUR_USERNAME>", "load", "overview", "philosophy", "quick", "seaborn", "simple", "specialized", "start", "statistical", "users", "visualization"]
+tier: 4
+risk: "medium"
+estimated_tokens: 4888
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 description: "Seaborn is a Python visualization library for creating publication-quality statistical graphics. Use this skill for dataset-oriented plotting, multivariate analysis, automatic statistical estimation, and complex multi-panel figures with minimal code."
-license: BSD-3-Clause license
-metadata:
-    skill-author: K-Dense Inc.
-risk: unknown
-source: community
+license: "BSD-3-Clause license"
+metadata: ""
+skill-author: "K-Dense Inc."
+source: "community"
 ---
-
 # Seaborn Statistical Visualization
 
 ## Overview

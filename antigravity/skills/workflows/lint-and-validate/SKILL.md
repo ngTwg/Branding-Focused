@@ -1,9 +1,16 @@
 ---
-name: lint-and-validate
+name: "lint-and-validate"
+tags: ["and", "antigravity", "c:", "ecosystem", "error", "gemini", "handling", "<YOUR_USERNAME>", "lint", "loop", "procedures", "quality", "scripts", "skill", "the", "users", "validate", "workflows"]
+tier: 2
+risk: "medium"
+estimated_tokens: 432
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.60
+allowed-tools: "Read, Glob, Grep, Bash"
 description: "Automatic quality control, linting, and static analysis procedures. Use after every code modification to ensure syntax correctness and project standards. Triggers onKeywords: lint, format, check, validate, types, static analysis."
-allowed-tools: Read, Glob, Grep, Bash
 ---
-
 # Lint and Validate Skill
 
 > **MANDATORY:** Run appropriate validation tools after EVERY code change. Do not finish a task until the code is error-free.

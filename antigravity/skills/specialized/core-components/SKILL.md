@@ -1,11 +1,17 @@
 ---
-name: core-components
-description: "Core component library and design system patterns. Use when building UI, using design tokens, or working with the component library."
-risk: unknown
-source: community
+name: "core-components"
+tags: ["antigravity", "c:", "color", "components", "core", "design", "frontend", "gemini", "<YOUR_USERNAME>", "overview", "spacing", "specialized", "system", "tokens", "typography", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1238
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.88
 date_added: "2026-02-27"
+description: "Core component library and design system patterns. Use when building UI, using design tokens, or working with the component library."
+source: "community"
 ---
-
 # Core Components
 
 ## Design System Overview

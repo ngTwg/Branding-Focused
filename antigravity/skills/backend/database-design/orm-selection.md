@@ -1,3 +1,14 @@
+---
+name: "ORM Selection (2025)"
+tags: ["2025", "antigravity", "backend", "c:", "comparison", "database", "decision", "design", "frontend", "gemini", "<YOUR_USERNAME>", "orm", "selection", "tree", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 177
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.55
+---
 # ORM Selection (2025)
 
 > Choose ORM based on deployment and DX needs.

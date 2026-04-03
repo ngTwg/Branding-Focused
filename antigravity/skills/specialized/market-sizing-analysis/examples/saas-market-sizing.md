@@ -1,3 +1,14 @@
+---
+name: "SaaS Market Sizing Example: AI-Powered Email Marketing for E-Commerce"
+tags: ["addressable", "analysis", "antigravity", "available", "bottom", "c:", "calculate", "commerce", "company", "customer", "define", "email", "example", "examples", "for", "frontend", "gemini", "<YOUR_USERNAME>", "market", "marketing"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2547
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # SaaS Market Sizing Example: AI-Powered Email Marketing for E-Commerce
 
 Complete TAM/SAM/SOM calculation for a B2B SaaS startup using bottom-up and top-down methodologies.

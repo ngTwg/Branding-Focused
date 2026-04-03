@@ -1,11 +1,17 @@
 ---
-name: mtls-configuration
-description: "Configure mutual TLS (mTLS) for zero-trust service-to-service communication. Use when implementing zero-trust networking, certificate management, or securing internal service communication."
-risk: unknown
-source: community
+name: "mtls-configuration"
+tags: ["antigravity", "c:", "concepts", "configuration", "core", "flow", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "mtls", "not", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2155
+tools_needed: ["kubernetes", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
 date_added: "2026-02-27"
+description: "Configure mutual TLS (mTLS) for zero-trust service-to-service communication. Use when implementing zero-trust networking, certificate management, or securing internal service communication."
+source: "community"
 ---
-
 # mTLS Configuration
 
 Comprehensive guide to implementing mutual TLS for zero-trust service mesh communication.

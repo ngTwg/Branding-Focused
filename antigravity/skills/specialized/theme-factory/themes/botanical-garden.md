@@ -1,3 +1,14 @@
+---
+name: "Botanical Garden"
+tags: ["antigravity", "best", "botanical", "c:", "color", "factory", "for", "garden", "gemini", "<YOUR_USERNAME>", "palette", "specialized", "theme", "themes", "typography", "used", "users"]
+tier: 3
+risk: "high"
+estimated_tokens: 129
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["specialized", "domain"]
+quality_score: 0.54
+---
 # Botanical Garden
 
 A fresh and organic theme featuring vibrant garden-inspired colors for lively presentations.

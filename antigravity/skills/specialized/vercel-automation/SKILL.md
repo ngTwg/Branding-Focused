@@ -1,11 +1,17 @@
 ---
-name: vercel-automation
-description: "Automate Vercel tasks via Rube MCP (Composio): manage deployments, domains, DNS, env vars, projects, and teams. Always search tools first for current schemas."
-risk: critical
-source: community
+name: "vercel-automation"
+tags: ["and", "antigravity", "automation", "c:", "core", "create", "deployments", "frontend", "gemini", "inspect", "<YOUR_USERNAME>", "manage", "mcp", "monitor", "prerequisites", "rube", "setup", "specialized", "users", "vercel"]
+tier: 2
+risk: "critical"
+estimated_tokens: 2311
+tools_needed: ["git", "markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
 date_added: "2026-02-27"
+description: "Automate Vercel tasks via Rube MCP (Composio): manage deployments, domains, DNS, env vars, projects, and teams. Always search tools first for current schemas."
+source: "community"
 ---
-
 # Vercel Automation via Rube MCP
 
 Automate Vercel platform operations through Composio's Vercel toolkit via Rube MCP.

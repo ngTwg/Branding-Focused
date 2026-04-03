@@ -1,11 +1,17 @@
 ---
-name: occupational-health-analyzer
-description: 分析职业健康数据、识别工作相关健康风险、评估职业健康状况、提供个性化职业健康建议。支持与睡眠、运动、心理健康等其他健康数据的关联分析。
-allowed-tools: Read, Grep, Glob, Write, Edit
-risk: unknown
-source: community
+name: "occupational-health-analyzer"
+tags: ["analyzer", "antigravity", "c:", "gemini", "health", "<YOUR_USERNAME>", "occupational", "security", "specialized", "users", "医学安全边界", "执行步骤", "数据读取", "核心功能", "第1步", "职业健康分析技能", "触发条件"]
+tier: 2
+risk: "high"
+estimated_tokens: 1185
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["security", "compliance"]
+quality_score: 0.90
+allowed-tools: "Read, Grep, Glob, Write, Edit"
+description: "分析职业健康数据、识别工作相关健康风险、评估职业健康状况、提供个性化职业健康建议。支持与睡眠、运动、心理健康等其他健康数据的关联分析。"
+source: "community"
 ---
-
 # 职业健康分析技能
 
 ## 核心功能

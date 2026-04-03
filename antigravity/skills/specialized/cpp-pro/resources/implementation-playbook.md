@@ -1,3 +1,14 @@
+---
+name: "C++ Implementation Playbook"
+tags: ["algorithms", "antigravity", "c:", "concurrency", "cpp", "efficiency", "frontend", "gemini", "implementation", "<YOUR_USERNAME>", "management", "modern", "move", "ownership", "playbook", "pointer", "pro", "raii", "resource", "resources"]
+tier: 2
+risk: "medium"
+estimated_tokens: 313
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.69
+---
 # C++ Implementation Playbook
 
 **Date:** March 23, 2026  

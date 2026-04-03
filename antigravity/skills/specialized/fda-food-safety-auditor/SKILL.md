@@ -1,10 +1,16 @@
 ---
-name: fda-food-safety-auditor
+name: "fda-food-safety-auditor"
+tags: ["antigravity", "auditor", "c:", "ccp", "deviation", "example", "examples", "fda", "food", "frontend", "gemini", "how", "<YOUR_USERNAME>", "overview", "review", "safety", "skill", "specialized", "this", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 672
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.71
 description: "Expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls."
-risk: safe
-source: community
+source: "community"
 ---
-
 # FDA Food Safety Auditor
 
 ## Overview

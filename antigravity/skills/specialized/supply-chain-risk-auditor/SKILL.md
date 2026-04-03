@@ -1,4 +1,15 @@
 ---
+name: "Supply Chain Risk Auditor"
+tags: ["antigravity", "auditor", "c:", "chain", "criteria", "frontend", "gemini", "<YOUR_USERNAME>", "not", "prerequisites", "purpose", "risk", "specialized", "supply", "use", "users", "when"]
+tier: 2
+risk: "high"
+estimated_tokens: 1454
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.76
+---
+---
 name: supply-chain-risk-auditor
 description: "Identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements."
 allowed-tools:

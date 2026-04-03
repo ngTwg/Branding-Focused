@@ -1,11 +1,17 @@
 ---
-name: wiki-onboarding
-description: "Generate two complementary onboarding documents that together give any engineer — from newcomer to principal — a complete understanding of a codebase. Use when user asks for onboarding docs or getting-started guides, user runs /deep-wiki, or user wants to help new team members understand a codebase."
-risk: unknown
-source: community
+name: "wiki-onboarding"
+tags: ["antigravity", "c:", "detection", "frontend", "gemini", "generator", "guide", "language", "<YOUR_USERNAME>", "level", "onboarding", "principal", "required", "rules", "sections", "specialized", "use", "users", "when", "wiki"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1045
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.73
 date_added: "2026-02-27"
+description: "Generate two complementary onboarding documents that together give any engineer — from newcomer to principal — a complete understanding of a codebase. Use when user asks for onboarding docs or getting-started guides, user runs /deep-wiki, or user wants to help new team members understand a codebase."
+source: "community"
 ---
-
 # Wiki Onboarding Guide Generator
 
 Generate two complementary onboarding documents that together give any engineer — from newcomer to principal — a complete understanding of a codebase.

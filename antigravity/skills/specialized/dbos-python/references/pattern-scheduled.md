@@ -1,10 +1,17 @@
 ---
-title: Create Scheduled Workflows
-impact: MEDIUM
-impactDescription: Run workflows exactly once per time interval
-tags: scheduled, cron, recurring, timer
+name: "Create Scheduled Workflows"
+tags: ["scheduled, cron, recurring, timer"]
+tier: 1
+risk: "medium"
+estimated_tokens: 373
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.62
+impact: "MEDIUM"
+impactDescription: "Run workflows exactly once per time interval"
+title: "Create Scheduled Workflows"
 ---
-
 ## Create Scheduled Workflows
 
 Use `@DBOS.scheduled` to run workflows on a schedule. Workflows run exactly once per interval.

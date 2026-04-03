@@ -1,10 +1,17 @@
 ---
-title: Defer Await Until Needed
-impact: HIGH
-impactDescription: avoids blocking unused code paths
-tags: async, await, conditional, optimization
+name: "Defer Await Until Needed"
+tags: ["async, await, conditional, optimization"]
+tier: 2
+risk: "medium"
+estimated_tokens: 507
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.61
+impact: "HIGH"
+impactDescription: "avoids blocking unused code paths"
+title: "Defer Await Until Needed"
 ---
-
 ## Defer Await Until Needed
 
 Move `await` operations into the branches where they're actually used to avoid blocking code paths that don't need them.

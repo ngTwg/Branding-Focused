@@ -1,11 +1,17 @@
 ---
-name: azure-resource-manager-sql-dotnet
-description: Azure Resource Manager SDK for Azure SQL in .NET.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "azure-resource-manager-sql-dotnet"
+tags: ["antigravity", "auth", "authentication", "azure", "backend", "c:", "devops", "dotnet", "environment", "for", "gemini", "hierarchy", "installation", "<YOUR_USERNAME>", "manager", "net", "optional", "principal", "resource", "resourcemanager"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2346
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.95
+date_added: "2026-02-27"
+description: "Azure Resource Manager SDK for Azure SQL in .NET."
+source: "community"
 ---
-
 # Azure.ResourceManager.Sql (.NET)
 
 Management plane SDK for provisioning and managing Azure SQL resources via Azure Resource Manager.

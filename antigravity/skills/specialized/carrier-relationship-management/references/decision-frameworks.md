@@ -1,3 +1,14 @@
+---
+name: "Decision Frameworks — Carrier Relationship Management"
+tags: ["antigravity", "c:", "carrier", "concession", "cost", "cycle", "decision", "frameworks", "frontend", "gathering", "gemini", "intelligence", "<YOUR_USERNAME>", "management", "market", "modeling", "negotiation", "positioning", "pre", "rate"]
+tier: 3
+risk: "medium"
+estimated_tokens: 8477
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Decision Frameworks — Carrier Relationship Management
 
 This reference provides detailed decision trees, scoring matrices, negotiation models,

@@ -1,11 +1,17 @@
 ---
-name: azure-appconfiguration-java
-description: Azure App Configuration SDK for Java. Centralized application configuration management with key-value settings, feature flags, and snapshots.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "azure-appconfiguration-java"
+tags: ["antigravity", "app", "appconfiguration", "azure", "c:", "client", "configuration", "connection", "creation", "devops", "environment", "for", "frontend", "gemini", "installation", "java", "<YOUR_USERNAME>", "prerequisites", "sdk", "string"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3239
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+date_added: "2026-02-27"
+description: "Azure App Configuration SDK for Java. Centralized application configuration management with key-value settings, feature flags, and snapshots."
+source: "community"
 ---
-
 # Azure App Configuration SDK for Java
 
 Client library for Azure App Configuration, a managed service for centralizing application configurations.

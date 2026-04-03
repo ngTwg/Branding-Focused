@@ -1,11 +1,17 @@
 ---
-name: create-issue-gate
-description: Use when starting a new implementation task and an issue must be created with strict acceptance criteria gating before execution.
-risk: safe
-source: community
+name: "create-issue-gate"
+tags: ["acceptance", "antigravity", "c:", "create", "creation", "criteria", "fields", "frontend", "gate", "gemini", "issue", "<YOUR_USERNAME>", "mode", "overview", "problem", "required", "specialized", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 538
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.71
 date_added: "2026-03-12"
+description: "Use when starting a new implementation task and an issue must be created with strict acceptance criteria gating before execution."
+source: "community"
 ---
-
 # Create Issue Gate
 
 ## Overview

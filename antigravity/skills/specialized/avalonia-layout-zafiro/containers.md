@@ -1,3 +1,14 @@
+---
+name: "Semantic Containers"
+tags: ["antigravity", "avalonia", "c:", "card", "containers", "edgepanel", "gemini", "headeredcontainer", "key", "layout", "<YOUR_USERNAME>", "properties", "security", "semantic", "slots", "specialized", "users", "zafiro"]
+tier: 2
+risk: "medium"
+estimated_tokens: 386
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["security", "compliance"]
+quality_score: 0.71
+---
 # Semantic Containers
 
 Using the right container for the data type simplifies XAML and improves maintainability. `Zafiro.Avalonia` provides specialized controls for common layout patterns.

@@ -1,12 +1,18 @@
 ---
-name: development
-description: "Comprehensive web, mobile, and backend development workflow bundling frontend, backend, full-stack, and mobile development skills for end-to-end application delivery."
-category: workflow-bundle
-risk: safe
-source: personal
+name: "development"
+tags: ["and", "antigravity", "bundle", "c:", "development", "frontend", "gemini", "<YOUR_USERNAME>", "overview", "phase", "phases", "project", "scaffolding", "setup", "specialized", "this", "use", "users", "when", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1680
+tools_needed: ["docker", "git", "markdown", "playwright", "pytest", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.93
+category: "workflow-bundle"
 date_added: "2026-02-27"
+description: "Comprehensive web, mobile, and backend development workflow bundling frontend, backend, full-stack, and mobile development skills for end-to-end application delivery."
+source: "personal"
 ---
-
 # Development Workflow Bundle
 
 ## Overview

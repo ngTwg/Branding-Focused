@@ -1,10 +1,16 @@
 ---
-name: threejs-textures
-description: Three.js textures - texture types, UV mapping, environment maps, texture settings. Use when working with images, UV coordinates, cubemaps, HDR environments, or texture optimization.
-risk: unknown
-source: community
+name: "threejs-textures"
+tags: ["antigravity", "basic", "c:", "configuration", "frontend", "gemini", "<YOUR_USERNAME>", "loading", "promise", "quick", "specialized", "start", "texture", "textures", "three", "threejs", "users", "wrapper"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3516
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+description: "Three.js textures - texture types, UV mapping, environment maps, texture settings. Use when working with images, UV coordinates, cubemaps, HDR environments, or texture optimization."
+source: "community"
 ---
-
 # Three.js Textures
 
 ## Quick Start

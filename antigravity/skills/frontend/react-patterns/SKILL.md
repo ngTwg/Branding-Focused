@@ -1,11 +1,17 @@
 ---
-name: react-patterns
-description: "Modern React patterns and principles. Hooks, composition, performance, TypeScript best practices."
-risk: safe
-source: community
+name: "react-patterns"
+tags: ["antigravity", "c:", "component", "design", "extract", "frontend", "gemini", "hook", "hooks", "<YOUR_USERNAME>", "patterns", "principles", "react", "rules", "types", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 976
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.70
 date_added: "2026-02-27"
+description: "Modern React patterns and principles. Hooks, composition, performance, TypeScript best practices."
+source: "community"
 ---
-
 # React Patterns
 
 > Principles for building production-ready React applications.

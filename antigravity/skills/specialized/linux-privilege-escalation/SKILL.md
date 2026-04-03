@@ -1,12 +1,18 @@
 ---
-name: linux-privilege-escalation
-description: "Execute systematic privilege escalation assessments on Linux systems to identify and exploit misconfigurations, vulnerable services, and security weaknesses that allow elevation from low-privilege user access to root-level control."
-risk: offensive
-source: community
-author: zebbern
+name: "linux-privilege-escalation"
+tags: ["access", "antigravity", "c:", "escalation", "frontend", "gemini", "inputs", "<YOUR_USERNAME>", "linux", "prerequisites", "privilege", "purpose", "recommended", "required", "requirements", "specialized", "technical", "tools", "users"]
+tier: 4
+risk: "medium"
+estimated_tokens: 2964
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+author: "zebbern"
 date_added: "2026-02-27"
+description: "Execute systematic privilege escalation assessments on Linux systems to identify and exploit misconfigurations, vulnerable services, and security weaknesses that allow elevation from low-privilege user access to root-level control."
+source: "community"
 ---
-
 > AUTHORIZED USE ONLY: Use this skill only for authorized security assessments, defensive validation, or controlled educational environments.
 
 <!-- security-allowlist: curl-pipe-bash -->

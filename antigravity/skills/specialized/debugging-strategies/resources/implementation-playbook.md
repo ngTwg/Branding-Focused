@@ -1,3 +1,14 @@
+---
+name: "Debugging Strategies Implementation Playbook"
+tags: ["antigravity", "c:", "core", "debugging", "duck", "gemini", "implementation", "<YOUR_USERNAME>", "method", "mindset", "playbook", "principles", "process", "resources", "rubber", "scientific", "specialized", "strategies", "systematic", "the"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2986
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.95
+---
 # Debugging Strategies Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

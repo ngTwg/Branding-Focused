@@ -1,10 +1,17 @@
 ---
-title: Subscribe to Derived State
-impact: MEDIUM
-impactDescription: reduces re-render frequency
-tags: rerender, derived-state, media-query, optimization
+name: "Subscribe to Derived State"
+tags: ["rerender, derived-state, media-query, optimization"]
+tier: 2
+risk: "medium"
+estimated_tokens: 181
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.56
+impact: "MEDIUM"
+impactDescription: "reduces re-render frequency"
+title: "Subscribe to Derived State"
 ---
-
 ## Subscribe to Derived State
 
 Subscribe to derived boolean state instead of continuous values to reduce re-render frequency.

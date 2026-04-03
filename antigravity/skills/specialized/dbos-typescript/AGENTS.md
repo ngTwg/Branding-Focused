@@ -1,3 +1,14 @@
+---
+name: "dbos-typescript"
+tags: ["agents", "antigravity", "available", "c:", "categories", "dbos", "frontend", "gemini", "<YOUR_USERNAME>", "overview", "reference", "references", "specialized", "structure", "typescript", "usage", "users"]
+tier: 1
+risk: "medium"
+estimated_tokens: 682
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.65
+---
 # dbos-typescript
 
 > **Note:** `CLAUDE.md` is a symlink to this file.

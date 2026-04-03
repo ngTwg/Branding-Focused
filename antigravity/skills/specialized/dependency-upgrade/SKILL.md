@@ -1,11 +1,17 @@
 ---
-name: dependency-upgrade
-description: "Master major dependency version upgrades, compatibility analysis, staged upgrade strategies, and comprehensive testing approaches."
-risk: critical
-source: community
+name: "dependency-upgrade"
+tags: ["analysis", "antigravity", "c:", "dependency", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "review", "semantic", "skill", "specialized", "this", "upgrade", "use", "users", "versioning", "when"]
+tier: 2
+risk: "critical"
+estimated_tokens: 2354
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Master major dependency version upgrades, compatibility analysis, staged upgrade strategies, and comprehensive testing approaches."
+source: "community"
 ---
-
 # Dependency Upgrade
 
 Master major dependency version upgrades, compatibility analysis, staged upgrade strategies, and comprehensive testing approaches.

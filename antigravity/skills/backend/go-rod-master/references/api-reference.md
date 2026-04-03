@@ -1,3 +1,14 @@
+---
+name: "Go-Rod API Quick Reference"
+tags: ["antigravity", "api", "backend", "browser", "c:", "element", "frontend", "gemini", "go", "input", "launcher", "<YOUR_USERNAME>", "lib", "page", "quick", "reference", "references", "rod", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1569
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.77
+---
 # Go-Rod API Quick Reference
 
 Cheat sheet for the most-used `go-rod/rod` and `go-rod/stealth` APIs.

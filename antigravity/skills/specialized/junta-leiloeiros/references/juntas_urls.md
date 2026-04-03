@@ -1,3 +1,14 @@
+---
+name: "Juntas Comerciais do Brasil — URLs e Status de Scraping"
+tags: ["2025", "2026", "alternativas", "antigravity", "arquivo", "atualizar", "brasil", "c:", "com", "comerciais", "como", "confirmadas", "este", "fallback", "fontes", "frontend", "gemini", "integração", "junta", "juntas"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1370
+tools_needed: ["markdown", "playwright"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.70
+---
 # Juntas Comerciais do Brasil — URLs e Status de Scraping
 
 Tabela de referência atualizada com todas as 27 Juntas Comerciais e seus sites de leiloeiros.

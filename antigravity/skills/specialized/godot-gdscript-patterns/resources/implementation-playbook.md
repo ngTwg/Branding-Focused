@@ -1,3 +1,14 @@
+---
+name: "Godot GDScript Patterns Implementation Playbook"
+tags: ["antigravity", "architecture", "basics", "c:", "concepts", "core", "frontend", "gdscript", "gemini", "godot", "implementation", "<YOUR_USERNAME>", "patterns", "playbook", "resources", "skill", "specialized", "this", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4941
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Godot GDScript Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

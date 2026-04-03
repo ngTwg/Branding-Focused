@@ -1,11 +1,17 @@
 ---
-name: goal-analyzer
-description: 分析健康目标数据、识别目标模式、评估目标进度,并提供个性化目标管理建议。支持与营养、运动、睡眠等健康数据的关联分析。
-allowed-tools: Read, Grep, Glob, Write
-risk: unknown
-source: community
+name: "goal-analyzer"
+tags: ["analyzer", "antigravity", "c:", "frontend", "gemini", "goal", "<YOUR_USERNAME>", "smart目标验证", "specialized", "users", "习惯养成分析", "健康目标分析器技能", "动机评估与管理", "目标进度追踪"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2034
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.94
+allowed-tools: "Read, Grep, Glob, Write"
+description: "分析健康目标数据、识别目标模式、评估目标进度,并提供个性化目标管理建议。支持与营养、运动、睡眠等健康数据的关联分析。"
+source: "community"
 ---
-
 # 健康目标分析器技能
 
 分析健康目标数据,识别目标模式和进度,评估目标达成情况,并提供个性化目标管理建议。

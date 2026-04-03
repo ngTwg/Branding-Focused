@@ -1,10 +1,16 @@
 ---
-name: apify-ultimate-scraper
+name: "apify-ultimate-scraper"
+tags: ["actor", "and", "antigravity", "apify", "ask", "c:", "fetch", "frontend", "gemini", "goal", "<YOUR_USERNAME>", "preferences", "prerequisites", "schema", "scraper", "select", "specialized", "step", "ultimate", "understand"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2350
+tools_needed: ["markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 description: "AI-driven data extraction from 55+ Actors across all major platforms. This skill automatically selects the best Actor for your task."
-risk: unknown
-source: community
+source: "community"
 ---
-
 # Universal Web Scraper
 
 AI-driven data extraction from 55+ Actors across all major platforms. This skill automatically selects the best Actor for your task.

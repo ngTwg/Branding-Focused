@@ -1,12 +1,18 @@
 ---
-name: active-directory-attacks
-description: "Provide comprehensive techniques for attacking Microsoft Active Directory environments. Covers reconnaissance, credential harvesting, Kerberos attacks, lateral movement, privilege escalation, and domain dominance for red team operations and penetration testing."
-risk: offensive
-source: community
-author: zebbern
+name: "active-directory-attacks"
+tags: ["active", "antigravity", "attacks", "c:", "core", "deliverables", "directory", "essential", "frontend", "gemini", "inputs", "<YOUR_USERNAME>", "outputs", "prerequisites", "purpose", "specialized", "tools", "users", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2440
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+author: "zebbern"
 date_added: "2026-02-27"
+description: "Provide comprehensive techniques for attacking Microsoft Active Directory environments. Covers reconnaissance, credential harvesting, Kerberos attacks, lateral movement, privilege escalation, and domain dominance for red team operations and penetration testing."
+source: "community"
 ---
-
 > AUTHORIZED USE ONLY: Use this skill only for authorized security assessments, defensive validation, or controlled educational environments.
 
 # Active Directory Attacks

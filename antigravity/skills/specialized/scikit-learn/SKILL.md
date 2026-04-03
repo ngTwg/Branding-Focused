@@ -1,13 +1,19 @@
 ---
-name: scikit-learn
-description: Machine learning in Python with scikit-learn. Use for classification, regression, clustering, model evaluation, and ML pipelines.
-license: BSD-3-Clause license
-metadata:
-    skill-author: K-Dense Inc.
-risk: unknown
-source: community
+name: "scikit-learn"
+tags: ["antigravity", "c:", "commonly", "dependencies", "frontend", "gemini", "install", "installation", "learn", "<YOUR_USERNAME>", "optional", "overview", "scikit", "specialized", "used", "users", "using", "visualization", "with"]
+tier: 4
+risk: "medium"
+estimated_tokens: 3828
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+description: "Machine learning in Python with scikit-learn. Use for classification, regression, clustering, model evaluation, and ML pipelines."
+license: "BSD-3-Clause license"
+metadata: ""
+skill-author: "K-Dense Inc."
+source: "community"
 ---
-
 # Scikit-learn
 
 ## Overview

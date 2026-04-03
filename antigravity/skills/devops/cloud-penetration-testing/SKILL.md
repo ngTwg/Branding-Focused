@@ -1,12 +1,18 @@
 ---
-name: cloud-penetration-testing
-description: "Conduct comprehensive security assessments of cloud infrastructure across Microsoft Azure, Amazon Web Services (AWS), and Google Cloud Platform (GCP)."
-risk: offensive
-source: community
-author: zebbern
+name: "cloud-penetration-testing"
+tags: ["antigravity", "aws", "azure", "c:", "cli", "cloud", "devops", "frontend", "gemini", "<YOUR_USERNAME>", "penetration", "prerequisites", "purpose", "required", "testing", "tools", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3533
+tools_needed: ["kubernetes", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+author: "zebbern"
 date_added: "2026-02-27"
+description: "Conduct comprehensive security assessments of cloud infrastructure across Microsoft Azure, Amazon Web Services (AWS), and Google Cloud Platform (GCP)."
+source: "community"
 ---
-
 > AUTHORIZED USE ONLY: Use this skill only for authorized security assessments, defensive validation, or controlled educational environments.
 
 <!-- security-allowlist: curl-pipe-bash -->

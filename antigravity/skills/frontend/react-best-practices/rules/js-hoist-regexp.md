@@ -1,10 +1,17 @@
 ---
-title: Hoist RegExp Creation
-impact: LOW-MEDIUM
-impactDescription: avoids recreation
-tags: javascript, regexp, optimization, memoization
+name: "Hoist RegExp Creation"
+tags: ["javascript, regexp, optimization, memoization"]
+tier: 2
+risk: "medium"
+estimated_tokens: 257
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.59
+impact: "LOW-MEDIUM"
+impactDescription: "avoids recreation"
+title: "Hoist RegExp Creation"
 ---
-
 ## Hoist RegExp Creation
 
 Don't create RegExp inside render. Hoist to module scope or memoize with `useMemo()`.

@@ -1,10 +1,16 @@
 ---
-name: food-database-query
-description: Food Database Query
-risk: unknown
-source: community
+name: "food-database-query"
+tags: ["antigravity", "backend", "c:", "database", "food", "gemini", "<YOUR_USERNAME>", "query", "specialized", "users", "主数据库", "分类体系", "功能模块", "技能概述", "数据源", "食物数据库查询技能"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2914
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.97
+description: "Food Database Query"
+source: "community"
 ---
-
 # 食物数据库查询技能
 
 **技能名称**: Food Database Query

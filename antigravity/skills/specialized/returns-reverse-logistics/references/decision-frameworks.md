@@ -1,3 +1,14 @@
+---
+name: "Decision Frameworks — Returns & Reverse Logistics"
+tags: ["and", "antigravity", "apparel", "c:", "category", "consumer", "decision", "disposition", "electronics", "footwear", "frameworks", "frontend", "furniture", "gemini", "goods", "home", "large", "<YOUR_USERNAME>", "logistics", "methodology"]
+tier: 4
+risk: "medium"
+estimated_tokens: 12037
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Decision Frameworks — Returns & Reverse Logistics
 
 This reference provides the detailed decision logic, scoring matrices, financial models,

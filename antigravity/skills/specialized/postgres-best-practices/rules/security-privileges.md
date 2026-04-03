@@ -1,10 +1,17 @@
 ---
-title: Apply Principle of Least Privilege
-impact: MEDIUM
-impactDescription: Reduced attack surface, better audit trail
-tags: privileges, security, roles, permissions
+name: "Apply Principle of Least Privilege"
+tags: ["privileges, security, roles, permissions"]
+tier: 2
+risk: "medium"
+estimated_tokens: 391
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.61
+impact: "MEDIUM"
+impactDescription: "Reduced attack surface, better audit trail"
+title: "Apply Principle of Least Privilege"
 ---
-
 ## Apply Principle of Least Privilege
 
 Grant only the minimum permissions required. Never use superuser for application queries.

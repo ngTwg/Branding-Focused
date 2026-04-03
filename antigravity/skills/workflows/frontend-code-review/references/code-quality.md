@@ -1,3 +1,14 @@
+---
+name: "Rule Catalog — Code Quality"
+tags: ["antigravity", "c:", "catalog", "class", "code", "conditional", "description", "first", "fix", "frontend", "function", "gemini", "<YOUR_USERNAME>", "names", "quality", "references", "review", "rule", "styling", "suggested"]
+tier: 2
+risk: "medium"
+estimated_tokens: 350
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.70
+---
 # Rule Catalog — Code Quality
 
 ## Conditional class names use utility function

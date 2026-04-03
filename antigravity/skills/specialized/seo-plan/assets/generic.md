@@ -1,3 +1,14 @@
+---
+name: "Generic Business SEO Strategy Template"
+tags: ["all", "antigravity", "architecture", "assets", "business", "c:", "every", "for", "frontend", "gemini", "generic", "have", "<YOUR_USERNAME>", "overview", "page", "plan", "principles", "recommended", "schema", "seo"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1002
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.73
+---
 <!-- Updated: 2026-02-07 -->
 # Generic Business SEO Strategy Template
 

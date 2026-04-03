@@ -1,11 +1,17 @@
 ---
-name: backend-security-coder
-description: Expert in secure backend coding practices specializing in input validation, authentication, and API security. Use PROACTIVELY for backend security implementations or security code reviews.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "backend-security-coder"
+tags: ["antigravity", "auditor", "backend", "c:", "capabilities", "coder", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "purpose", "security", "skill", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2470
+tools_needed: ["docker", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+date_added: "2026-02-27"
+description: "Expert in secure backend coding practices specializing in input validation, authentication, and API security. Use PROACTIVELY for backend security implementations or security code reviews."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on backend security coder tasks or workflows

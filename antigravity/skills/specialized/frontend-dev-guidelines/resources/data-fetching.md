@@ -1,3 +1,14 @@
+---
+name: "Data Fetching Patterns"
+tags: ["antigravity", "basic", "c:", "cache", "data", "dev", "fetching", "first", "frontend", "gemini", "guidelines", "<YOUR_USERNAME>", "pattern", "patterns", "primary", "resources", "specialized", "strategy", "usequery", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4953
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Data Fetching Patterns
 
 Modern data fetching using TanStack Query with Suspense boundaries, cache-first strategies, and centralized API services.

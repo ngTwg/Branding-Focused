@@ -1,3 +1,14 @@
+---
+name: "Security Requirement Extraction Implementation Playbook"
+tags: ["antigravity", "c:", "categories", "concepts", "core", "extraction", "frontend", "gemini", "implementation", "<YOUR_USERNAME>", "playbook", "requirement", "resources", "security", "skill", "this", "types", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 6036
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.94
+---
 # Security Requirement Extraction Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

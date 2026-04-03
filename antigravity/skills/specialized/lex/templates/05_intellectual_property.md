@@ -1,9 +1,16 @@
 ---
-name: intellectual-property
-description: Agent templates governing the creation, licensing, and protection of IP assets.
-jurisdictions: [USA, Canada, EU]
+name: "intellectual-property"
+tags: ["05", "agent", "antigravity", "c:", "contract", "frontend", "gemini", "instructions", "intellectual", "<YOUR_USERNAME>", "lex", "nuances", "official", "property", "references", "specialized", "templates", "types", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 604
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.59
+description: "Agent templates governing the creation, licensing, and protection of IP assets."
+jurisdictions: "[USA, Canada, EU]"
 ---
-
 # Intellectual Property (IP) Templates
 
 These templates manage the ownership, licensing, and structured sharing of non-physical assets. Ensure local IP registry guidelines are followed to secure these rights.

@@ -1,0 +1,50 @@
+{
+  "timestamp": "2026-04-02T02:16:25.016618+00:00",
+  "suite": "quick",
+  "dry_run": false,
+  "config": "C:/Users/<YOUR_USERNAME>/.gemini/antigravity/config/benchmark_pack.json",
+  "total": 3,
+  "ok": 3,
+  "failed": 0,
+  "duration_sec": 55.507,
+  "steps": [
+    {
+      "step_id": "integration_tests",
+      "description": "Run integration suite baseline.",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe -m pytest antigravity/tests/integration -q",
+      "status": "ok",
+      "exit_code": 0,
+      "duration_sec": 35.278,
+      "output_excerpt": ".................................................                        [100%]\n49 passed in 34.29s"
+    },
+    {
+      "step_id": "targeted_regressions",
+      "description": "Run focused regression suite for critical subsystems.",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe -m pytest antigravity/tests/test_schemas.py antigravity/tests/test_failure_memory.py antigravity/tests/test_hybrid_retriever_properties.py antigravity/tests/test_hybrid_retriever_properties_v3.py antigravity/tests/test_llm_client_properties.py antigravity/tests/test_llm_client_properties_v2.py antigravity/tests/test_slm_router_properties.py antigravity/tests/test_tracing_properties.py antigravity/tests/test_tracing_properties_v2.py -q",
+      "status": "ok",
+      "exit_code": 0,
+      "duration_sec": 5.567,
+      "output_excerpt": "........................................................................ [ 98%]\n.                                                                        [100%]\n73 passed in 4.67s"
+    },
+    {
+      "step_id": "security_gate_external_skills",
+      "description": "Run external security gate and verify no blocked files.",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/security_gate_external_skills.py",
+      "status": "ok",
+      "exit_code": 0,
+      "duration_sec": 14.662,
+      "output_excerpt": "Security gate status: WARN\nScanned markdown files: 22470 (skipped: 6)\nFindings: 281\nBlocked files: 0\nWarn files: 152\nReport: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\security_gate_external_skills.json"
+    }
+  ],
+  "regression_gate": {
+    "enabled": true,
+    "threshold_pct": 100.0,
+    "min_runs": 3,
+    "lookback_runs": 30,
+    "baseline_runs": 15,
+    "baseline_median_sec": 41.899,
+    "latest_duration_sec": 55.507,
+    "delta_pct": 32.478,
+    "status": "ok"
+  }
+}

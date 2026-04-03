@@ -1,11 +1,17 @@
 ---
-name: pipedrive-automation
-description: "Automate Pipedrive CRM operations including deals, contacts, organizations, activities, notes, and pipeline management via Rube MCP (Composio). Always search tools first for current schemas."
-risk: critical
-source: community
+name: "pipedrive-automation"
+tags: ["and", "antigravity", "automation", "c:", "contacts", "core", "create", "deals", "frontend", "gemini", "<YOUR_USERNAME>", "manage", "mcp", "organizations", "persons", "pipedrive", "prerequisites", "rube", "setup", "specialized"]
+tier: 2
+risk: "critical"
+estimated_tokens: 3071
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 date_added: "2026-02-27"
+description: "Automate Pipedrive CRM operations including deals, contacts, organizations, activities, notes, and pipeline management via Rube MCP (Composio). Always search tools first for current schemas."
+source: "community"
 ---
-
 # Pipedrive Automation via Rube MCP
 
 Automate Pipedrive CRM workflows including deal management, contact and organization operations, activity scheduling, notes, and pipeline/stage queries through Composio's Pipedrive toolkit.

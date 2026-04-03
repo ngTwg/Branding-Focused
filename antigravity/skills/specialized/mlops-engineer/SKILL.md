@@ -1,11 +1,17 @@
 ---
-name: mlops-engineer
-description: Build comprehensive ML pipelines, experiment tracking, and model registries with MLflow, Kubeflow, and modern MLOps tools.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "mlops-engineer"
+tags: ["antigravity", "c:", "capabilities", "engineer", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "management", "mlops", "not", "orchestration", "pipeline", "purpose", "skill", "specialized", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2711
+tools_needed: ["ansible", "docker", "git", "kubernetes", "markdown", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+date_added: "2026-02-27"
+description: "Build comprehensive ML pipelines, experiment tracking, and model registries with MLflow, Kubeflow, and modern MLOps tools."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on mlops engineer tasks or workflows

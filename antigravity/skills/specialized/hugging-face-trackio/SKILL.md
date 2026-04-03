@@ -1,10 +1,16 @@
 ---
+name: "hugging-face-trackio"
+tags: ["alerts", "antigravity", "api", "c:", "cli", "each", "experiment", "face", "for", "frontend", "gemini", "hugging", "interfaces", "<YOUR_USERNAME>", "logging", "python", "retrieving", "specialized", "three", "tracking"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1180
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.86
+description: "Track ML experiments with Trackio using Python logging, alerts, and CLI metric retrieval."
 source: "https://github.com/huggingface/skills/tree/main/skills/huggingface-trackio"
-name: hugging-face-trackio
-description: Track ML experiments with Trackio using Python logging, alerts, and CLI metric retrieval.
-risk: unknown
 ---
-
 # Trackio - Experiment Tracking for ML Training
 
 Trackio is an experiment tracking library for logging and visualizing ML training metrics. It syncs to Hugging Face Spaces for real-time monitoring dashboards.

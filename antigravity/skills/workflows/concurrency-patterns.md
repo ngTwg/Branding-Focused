@@ -1,3 +1,14 @@
+---
+name: "CONCURRENCY PATTERNS - XỨ LÝ ĐỒNG THỜI AN TOÀN"
+tags: ["antigravity", "atomic", "backend", "c:", "checklist", "concurrency", "condition", "detection", "gemini", "high", "<YOUR_USERNAME>", "operations", "overview", "pattern", "patterns", "questions", "race", "risk", "scenarios", "thời"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3705
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.95
+---
 # CONCURRENCY PATTERNS - XỨ LÝ ĐỒNG THỜI AN TOÀN
 
 > **Tier:** 2-3  

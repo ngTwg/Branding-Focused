@@ -1,3 +1,14 @@
+---
+name: "Ocean Depths"
+tags: ["antigravity", "best", "c:", "color", "depths", "factory", "for", "frontend", "gemini", "<YOUR_USERNAME>", "ocean", "palette", "specialized", "theme", "themes", "typography", "used", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 138
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.54
+---
 # Ocean Depths
 
 A professional and calming maritime theme that evokes the serenity of deep ocean waters.

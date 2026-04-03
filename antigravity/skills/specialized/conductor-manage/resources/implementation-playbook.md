@@ -1,3 +1,14 @@
+---
+name: "Track Manager Implementation Playbook"
+tags: ["antigravity", "argument", "c:", "checks", "conductor", "detection", "display", "flight", "frontend", "gather", "gemini", "implementation", "interactive", "<YOUR_USERNAME>", "main", "manage", "manager", "menu", "mode", "playbook"]
+tier: 2
+risk: "medium"
+estimated_tokens: 7171
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Track Manager Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

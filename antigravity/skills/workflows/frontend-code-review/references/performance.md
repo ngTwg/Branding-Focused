@@ -1,3 +1,14 @@
+---
+name: "Rule Catalog — Performance"
+tags: ["antigravity", "c:", "catalog", "code", "complex", "data", "description", "flow", "frontend", "gemini", "<YOUR_USERNAME>", "memoization", "performance", "prop", "react", "references", "review", "rule", "usage", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 231
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.63
+---
 # Rule Catalog — Performance
 
 ## React Flow data usage

@@ -1,11 +1,17 @@
 ---
-name: gcp-cloud-run
-description: "When to use: ['Web applications and APIs', 'Need any runtime or library', 'Complex services with multiple endpoints', 'Stateless containerized workloads']"
-risk: unknown
-source: "vibeship-spawner-skills (Apache 2.0)"
+name: "gcp-cloud-run"
+tags: ["antigravity", "build", "c:", "cloud", "copy", "dependencies", "devops", "dockerfile", "env", "for", "frontend", "gcp", "gemini", "image", "<YOUR_USERNAME>", "multi", "only", "pattern", "patterns", "port"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1750
+tools_needed: ["docker", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.94
 date_added: "2026-02-27"
+description: "When to use: ['Web applications and APIs', 'Need any runtime or library', 'Complex services with multiple endpoints', 'Stateless containerized workloads']"
+source: "vibeship-spawner-skills (Apache 2.0)"
 ---
-
 # GCP Cloud Run
 
 ## Patterns

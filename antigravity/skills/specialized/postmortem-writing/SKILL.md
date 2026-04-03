@@ -1,11 +1,17 @@
 ---
-name: postmortem-writing
-description: "Comprehensive guide to writing effective, blameless postmortems that drive organizational learning and prevent incident recurrence."
-risk: unknown
-source: community
+name: "postmortem-writing"
+tags: ["antigravity", "blameless", "c:", "concepts", "core", "culture", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "postmortem", "skill", "specialized", "this", "use", "users", "when", "writing"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3112
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Comprehensive guide to writing effective, blameless postmortems that drive organizational learning and prevent incident recurrence."
+source: "community"
 ---
-
 # Postmortem Writing
 
 Comprehensive guide to writing effective, blameless postmortems that drive organizational learning and prevent incident recurrence.

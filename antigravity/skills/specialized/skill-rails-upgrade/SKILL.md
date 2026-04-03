@@ -1,11 +1,17 @@
 ---
-name: skill-rails-upgrade
-description: "Analyze Rails apps and provide upgrade assessments"
-risk: safe
-source: "https://github.com/robzolkos/skill-rails-upgrade"
+name: "skill-rails-upgrade"
+tags: ["analyzer", "antigravity", "application", "c:", "current", "determine", "find", "frontend", "gemini", "get", "latest", "<YOUR_USERNAME>", "rails", "skill", "specialized", "step", "this", "type", "upgrade", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3085
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Analyze Rails apps and provide upgrade assessments"
+source: "https://github.com/robzolkos/skill-rails-upgrade"
 ---
-
 ## When to Use This Skill
 
 Analyze Rails apps and provide upgrade assessments

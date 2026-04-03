@@ -1,3 +1,14 @@
+---
+name: "High-Converting Landing Page Patterns"
+tags: ["antigravity", "background", "c:", "centered", "conversion", "converting", "copy", "frontend", "full", "gemini", "generator", "hero", "high", "landing", "layouts", "left", "<YOUR_USERNAME>", "overview", "page", "pattern"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1531
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.75
+---
 # High-Converting Landing Page Patterns
 
 ## Overview

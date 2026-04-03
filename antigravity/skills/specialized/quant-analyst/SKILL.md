@@ -1,11 +1,17 @@
 ---
-name: quant-analyst
-description: Build financial models, backtest trading strategies, and analyze market data. Implements risk metrics, portfolio optimization, and statistical arbitrage.
-risk: safe
-source: community
-date_added: '2026-02-27'
+name: "quant-analyst"
+tags: ["analyst", "antigravity", "approach", "areas", "c:", "focus", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "output", "quant", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 443
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.63
+date_added: "2026-02-27"
+description: "Build financial models, backtest trading strategies, and analyze market data. Implements risk metrics, portfolio optimization, and statistical arbitrage."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on quant analyst tasks or workflows

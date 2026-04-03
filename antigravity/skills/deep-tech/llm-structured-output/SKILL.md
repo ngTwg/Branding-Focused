@@ -1,12 +1,17 @@
 ---
-name: llm-structured-output
-description: >
-  Get reliable JSON, enums, and typed objects from LLMs using response_format, tool_use, and schema-constrained decoding across OpenAI, Anthropic, and Google APIs.
-risk: safe
-source: community
+name: "llm-structured-output"
+tags: ["antigravity", "c:", "core", "deep", "deep-tech", "does", "example", "examples", "frontend", "gemini", "<YOUR_USERNAME>", "llm", "openai", "output", "outputs", "pydantic", "python", "skill", "structured", "tech"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3806
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.90
 date_added: "2026-03-12"
+description: ">"
+source: "community"
 ---
-
 # LLM Structured Output
 
 ## What This Skill Does

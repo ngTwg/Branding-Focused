@@ -1,4 +1,15 @@
 ---
+name: "Hreflang & International SEO"
+tags: ["antigravity", "c:", "checks", "default", "frontend", "gemini", "hreflang", "international", "<YOUR_USERNAME>", "referencing", "return", "self", "seo", "specialized", "tag", "tags", "use", "users", "validation", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2249
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.88
+---
+---
 name: seo-hreflang
 description: >
   Hreflang and international SEO audit, validation, and generation. Detects

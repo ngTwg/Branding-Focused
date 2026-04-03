@@ -1,11 +1,17 @@
 ---
-name: github-workflow-automation
-description: "Patterns for automating GitHub workflows with AI assistance, inspired by [Gemini CLI](https://github.com/google-gemini/gemini-cli) and modern DevOps practices."
-risk: critical
-source: community
+name: "github-workflow-automation"
+tags: ["action", "antigravity", "automated", "automation", "c:", "comment", "frontend", "gemini", "github", "<YOUR_USERNAME>", "patterns", "review", "skill", "this", "use", "users", "when", "workflow", "workflows", "yml"]
+tier: 2
+risk: "critical"
+estimated_tokens: 5402
+tools_needed: ["docker", "git", "markdown", "terminal", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Patterns for automating GitHub workflows with AI assistance, inspired by [Gemini CLI](https://github.com/google-gemini/gemini-cli) and modern DevOps practices."
+source: "community"
 ---
-
 # 🔧 GitHub Workflow Automation
 
 > Patterns for automating GitHub workflows with AI assistance, inspired by [Gemini CLI](https://github.com/google-gemini/gemini-cli) and modern DevOps practices.

@@ -1,3 +1,14 @@
+---
+name: "Troubleshooting - Skill Activation Issues"
+tags: ["activation", "antigravity", "blocking", "c:", "contents", "developer", "frontend", "gemini", "issues", "<YOUR_USERNAME>", "not", "pretooluse", "skill", "specialized", "suggesting", "table", "triggering", "troubleshooting", "userpromptsubmit", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2506
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Troubleshooting - Skill Activation Issues
 
 Complete debugging guide for skill activation problems.

@@ -1,13 +1,19 @@
 ---
-id: 00-andruia-consultant
-name: 00-andruia-consultant
-description: "Arquitecto de Soluciones Principal y Consultor Tecnológico de Andru.ia. Diagnostica y traza la hoja de ruta óptima para proyectos de IA en español."
-category: andruia
-risk: safe
-source: personal
+name: "00-andruia-consultant"
+tags: ["00", "andru", "andruia", "antigravity", "architect", "bifurcación", "blanco", "c:", "carpeta", "consultant", "description", "diagnóstico", "engine", "escenario", "estándar", "frontend", "gemini", "general", "hybrid", "instructions"]
+tier: 2
+risk: "medium"
+estimated_tokens: 704
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.70
+category: "andruia"
 date_added: "2026-02-27"
+description: "Arquitecto de Soluciones Principal y Consultor Tecnológico de Andru.ia. Diagnostica y traza la hoja de ruta óptima para proyectos de IA en español."
+id: "00-andruia-consultant"
+source: "personal"
 ---
-
 ## When to Use
 Use this skill at the very beginning of a project to diagnose the workspace, determine whether it's a "Pure Engine" (new) or "Evolution" (existing) project, and to set the initial technical roadmap and expert squad.
 

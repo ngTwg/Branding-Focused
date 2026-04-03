@@ -1,11 +1,17 @@
 ---
-name: cloud-architect
-description: Expert cloud architect specializing in AWS/Azure/GCP multi-cloud infrastructure design, advanced IaC (Terraform/OpenTofu/CDK), FinOps cost optimization, and modern architectural patterns.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "cloud-architect"
+tags: ["antigravity", "architect", "c:", "capabilities", "cloud", "devops", "expertise", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "platform", "purpose", "skill", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1941
+tools_needed: ["git", "kubernetes", "markdown", "sql", "terminal", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.79
+date_added: "2026-02-27"
+description: "Expert cloud architect specializing in AWS/Azure/GCP multi-cloud infrastructure design, advanced IaC (Terraform/OpenTofu/CDK), FinOps cost optimization, and modern architectural patterns."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on cloud architect tasks or workflows

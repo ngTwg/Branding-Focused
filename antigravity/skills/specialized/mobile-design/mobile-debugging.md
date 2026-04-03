@@ -1,3 +1,14 @@
+---
+name: "Mobile Debugging Guide"
+tags: ["anti", "antigravity", "c:", "debugging", "deep", "design", "dive", "expo", "frontend", "gemini", "guide", "layer", "<YOUR_USERNAME>", "mindset", "mobile", "native", "patterns", "react", "specialized", "the"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1012
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.72
+---
 # Mobile Debugging Guide
 
 > **Stop console.log() debugging!**

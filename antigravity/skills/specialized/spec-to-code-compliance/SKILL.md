@@ -1,10 +1,16 @@
 ---
-name: spec-to-code-compliance
-description: Verifies code implements exactly what documentation specifies for blockchain audits. Use when comparing code against whitepapers, finding gaps between specs and implementation, or performing compliance checks for protocol implementations.
-risk: unknown
-source: community
+name: "spec-to-code-compliance"
+tags: ["antigravity", "c:", "checker", "code", "compliance", "discovery", "documentation", "frontend", "gemini", "global", "<YOUR_USERNAME>", "not", "phase", "rationalizations", "rules", "skill", "skip", "spec", "specialized", "to"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2588
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+description: "Verifies code implements exactly what documentation specifies for blockchain audits. Use when comparing code against whitepapers, finding gaps between specs and implementation, or performing compliance checks for protocol implementations."
+source: "community"
 ---
-
 ## When to Use
 Use this skill when you need to:
 - Verify code implements exactly what documentation specifies

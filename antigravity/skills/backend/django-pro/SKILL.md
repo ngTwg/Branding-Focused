@@ -1,11 +1,17 @@
 ---
-name: django-pro
-description: Master Django 5.x with async views, DRF, Celery, and Django Channels. Build scalable web applications with proper architecture, testing, and deployment.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "django-pro"
+tags: ["antigravity", "backend", "c:", "capabilities", "core", "django", "expertise", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "pro", "purpose", "skill", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1745
+tools_needed: ["docker", "markdown", "pytest", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.78
+date_added: "2026-02-27"
+description: "Master Django 5.x with async views, DRF, Celery, and Django Channels. Build scalable web applications with proper architecture, testing, and deployment."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on django pro tasks or workflows

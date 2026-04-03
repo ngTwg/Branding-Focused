@@ -1,8 +1,15 @@
 ---
-name: backend-dev-guidelines
-description: Comprehensive backend development guide for Node.js/Express/TypeScript microservices. Use when creating routes, controllers, services, repositories, middleware, or working with Express APIs, Prisma database access, Sentry error tracking, Zod validation, unifiedConfig, dependency injection, or async patterns. Covers layered architecture (routes → controllers → services → repositories), BaseController pattern, error handling, performance monitoring, testing strategies, and migration from legacy patterns.
+name: "backend-dev-guidelines"
+tags: ["antigravity", "backend", "c:", "checklist", "dev", "development", "feature", "frontend", "gemini", "guidelines", "<YOUR_USERNAME>", "microservice", "new", "purpose", "quick", "skill", "specialized", "start", "this", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2007
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.92
+description: "Comprehensive backend development guide for Node.js/Express/TypeScript microservices. Use when creating routes, controllers, services, repositories, middleware, or working with Express APIs, Prisma database access, Sentry error tracking, Zod validation, unifiedConfig, dependency injection, or async patterns. Covers layered architecture (routes → controllers → services → repositories), BaseController pattern, error handling, performance monitoring, testing strategies, and migration from legacy patterns."
 ---
-
 # Backend Development Guidelines
 
 ## Purpose

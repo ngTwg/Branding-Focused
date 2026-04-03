@@ -1,11 +1,17 @@
 ---
-name: azd-deployment
-description: "Deploy containerized frontend + backend applications to Azure Container Apps with remote builds, managed identity, and idempotent infrastructure."
-risk: critical
-source: community
+name: "azd-deployment"
+tags: ["and", "antigravity", "apps", "azd", "azure", "c:", "cli", "configuration", "container", "core", "deploy", "deployment", "developer", "file", "frontend", "gemini", "initialize", "<YOUR_USERNAME>", "minimal", "quick"]
+tier: 2
+risk: "critical"
+estimated_tokens: 1978
+tools_needed: ["docker", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.94
 date_added: "2026-02-27"
+description: "Deploy containerized frontend + backend applications to Azure Container Apps with remote builds, managed identity, and idempotent infrastructure."
+source: "community"
 ---
-
 # Azure Developer CLI (azd) Container Apps Deployment
 
 Deploy containerized frontend + backend applications to Azure Container Apps with remote builds, managed identity, and idempotent infrastructure.

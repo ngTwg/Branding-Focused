@@ -15,8 +15,8 @@ from datetime import datetime, timedelta
 from typing import Optional
 from dataclasses import dataclass, asdict
 
-from core.schemas import FailureSurface, FailurePattern, FailureLesson
-from core.pattern_extractor_v2 import PatternExtractorV2
+from antigravity.core.schemas import FailureSurface, FailurePattern, FailureLesson
+from antigravity.core.pattern_extractor import PatternExtractorV2
 
 logger = logging.getLogger(__name__)
 
@@ -113,6 +113,10 @@ class FailureMemoryStore:
             
         except Exception as e:
             logger.error(f"Failed to load failure memory: {e}")
+    
+    def get_entry_by_signature(self, signature: str) -> Optional[FailureEntry]:
+        """v3: O(1) lookup for entry by signature to avoid O(n^2) loops in retriever"""
+        return self._by_signature.get(signature)
     
     def _save_to_disk(self) -> None:
         """Save all entries to disk (overwrites file)"""
@@ -472,12 +476,8 @@ class FailureMemoryRetriever:
         score = 0.0
         
         # 1. Effectiveness (40%) - v3: WITH BAYESIAN SMOOTHING
-        # Get the entry to check times_injected
-        entry = None
-        for e in self._store.get_all_entries():
-            if e.pattern.signature == pattern.signature:
-                entry = e
-                break
+        # v3: Use O(1) store lookup instead of O(n) loop
+        entry = self._store.get_entry_by_signature(pattern.signature)
         
         if entry and entry.times_injected < 5:
             # Cold start: use low weight + frequency as proxy
@@ -656,8 +656,8 @@ class FailureMemory:
         # Add strict rules section
         lines.append("STRICT RULES:")
         for i, (pattern, lesson, score) in enumerate(relevant_failures, 1):
-            lines.append(f"  {i}. {lesson.avoid}")
-            lines.append(f"     → MUST: {lesson.prefer}")
+            lines.append(f"  {i}. AVOID: {lesson.avoid}")
+            lines.append(f"     PREFER: {lesson.prefer}")
         
         lines.append("\nIf you skip the reasoning, drift during generation, or violate these rules,")
         lines.append("the patch will fail again. Final verification is mandatory.")

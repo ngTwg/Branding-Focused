@@ -1,3 +1,14 @@
+---
+name: "Advanced Active Directory Attacks Reference"
+tags: ["active", "advanced", "antigravity", "attacks", "bloodhound", "c:", "contents", "delegation", "directory", "frontend", "gemini", "<YOUR_USERNAME>", "powershell", "reference", "references", "specialized", "table", "unconstrained", "users"]
+tier: 2
+risk: "critical"
+estimated_tokens: 2403
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Advanced Active Directory Attacks Reference
 
 ## Table of Contents

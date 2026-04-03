@@ -1,11 +1,17 @@
 ---
-name: laravel-security-audit
-description: "Security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices."
-risk: safe
-source: community
+name: "laravel-security-audit"
+tags: ["antigravity", "audit", "awareness", "c:", "frontend", "gemini", "laravel", "<YOUR_USERNAME>", "metadata", "model", "not", "role", "security", "skill", "specialized", "this", "threat", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1114
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.75
 date_added: "2026-02-27"
+description: "Security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices."
+source: "community"
 ---
-
 # Laravel Security Audit
 
 ## Skill Metadata

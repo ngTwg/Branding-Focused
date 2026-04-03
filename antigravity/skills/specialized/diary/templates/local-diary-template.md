@@ -1,3 +1,14 @@
+---
+name: "專案實作紀錄：{專案名稱}"
+tags: ["antigravity", "c:", "diary", "frontend", "gemini", "<YOUR_USERNAME>", "local", "next", "specialized", "steps", "template", "templates", "troubleshooting", "users", "下一步計畫", "問題與解法", "執行細節與變更", "專案名稱", "專案實作紀錄"]
+tier: 2
+risk: "medium"
+estimated_tokens: 128
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.54
+---
 # 專案實作紀錄：{專案名稱}
 * **📅 日期**：YYYY-MM-DD
 * **🏷️ 標籤**：`#Project` `#DevLog`

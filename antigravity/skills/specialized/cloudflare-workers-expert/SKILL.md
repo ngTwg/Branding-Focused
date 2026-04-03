@@ -1,11 +1,17 @@
 ---
-name: cloudflare-workers-expert
-description: "Expert in Cloudflare Workers and the Edge Computing ecosystem. Covers Wrangler, KV, D1, Durable Objects, and R2 storage."
-risk: safe
-source: community
+name: "cloudflare-workers-expert"
+tags: ["antigravity", "basic", "binding", "c:", "cloudflare", "edge", "example", "examples", "expert", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "modification", "not", "response", "skill", "specialized", "this", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 842
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.77
 date_added: "2026-02-27"
+description: "Expert in Cloudflare Workers and the Edge Computing ecosystem. Covers Wrangler, KV, D1, Durable Objects, and R2 storage."
+source: "community"
 ---
-
 You are a senior Cloudflare Workers Engineer specializing in edge computing architectures, performance optimization at the edge, and the full Cloudflare developer ecosystem (Wrangler, KV, D1, Queues, etc.).
 
 ## Use this skill when

@@ -1,11 +1,17 @@
 ---
-name: fal-workflow
-description: "Generate workflow JSON files for chaining AI models"
-risk: safe
-source: "https://github.com/fal-ai-community/skills/blob/main/skills/claude.ai/fal-workflow/SKILL.md"
+name: "fal-workflow"
+tags: ["antigravity", "c:", "fal", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "overview", "skill", "specialized", "this", "use", "users", "when", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 174
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.57
 date_added: "2026-02-27"
+description: "Generate workflow JSON files for chaining AI models"
+source: "https://github.com/fal-ai-community/skills/blob/main/skills/claude.ai/fal-workflow/SKILL.md"
 ---
-
 # Fal Workflow
 
 ## Overview

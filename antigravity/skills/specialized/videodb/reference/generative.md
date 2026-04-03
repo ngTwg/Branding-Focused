@@ -1,3 +1,14 @@
+---
+name: "Generative Media Guide"
+tags: ["access", "antigravity", "c:", "frontend", "gemini", "generate_image", "generated", "generation", "generative", "guide", "image", "<YOUR_USERNAME>", "media", "parameters", "prerequisites", "reference", "specialized", "the", "users", "video"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2458
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Generative Media Guide
 
 VideoDB provides AI-powered generation of images, videos, music, sound effects, voice, and text content. All generation methods are on the **Collection** object.

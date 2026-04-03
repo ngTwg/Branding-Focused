@@ -1,3 +1,14 @@
+---
+name: "AI Studio Image — Guia de Setup Completo"
+tags: ["ai", "ambiente", "antigravity", "api", "arquivo", "c:", "cmd", "completo", "configurar", "deep", "deep-tech", "env", "frontend", "gemini", "guia", "guide", "image", "key", "<YOUR_USERNAME>", "obter"]
+tier: 2
+risk: "medium"
+estimated_tokens: 801
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.83
+---
 # AI Studio Image — Guia de Setup Completo
 
 ## 1. Obter API Key

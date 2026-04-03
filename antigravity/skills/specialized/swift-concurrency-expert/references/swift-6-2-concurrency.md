@@ -1,3 +1,14 @@
+---
+name: "Concurrent programming updates in Swift 6.2"
+tags: ["2", "6", "antigravity", "background", "c:", "concurrency", "concurrent", "data", "example", "expert", "frontend", "gemini", "global", "<YOUR_USERNAME>", "offloading", "programming", "race", "references", "safety", "specialized"]
+tier: 1
+risk: "medium"
+estimated_tokens: 2657
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.91
+---
 ## Concurrent programming updates in Swift 6.2
 
 Concurrent programming is hard because sharing memory between multiple tasks is prone to mistakes that lead to unpredictable behavior.

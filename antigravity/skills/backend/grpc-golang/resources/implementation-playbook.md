@@ -1,3 +1,14 @@
+---
+name: "gRPC Golang Implementation Playbook"
+tags: ["antigravity", "backend", "buf", "c:", "code", "definition", "design", "example", "frontend", "gemini", "gen", "generation", "golang", "grpc", "implementation", "<YOUR_USERNAME>", "playbook", "protobuf", "resources", "schema"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3754
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # gRPC Golang Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

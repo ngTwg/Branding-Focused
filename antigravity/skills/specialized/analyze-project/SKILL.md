@@ -1,12 +1,17 @@
 ---
-name: analyze-project
-description: Forensic root cause analyzer for Antigravity sessions. Classifies scope deltas, rework patterns, root causes, hotspots, and auto-improves prompts/health.
-risk: unknown
-source: community
+name: "analyze-project"
+tags: ["[analysis, diagnostics, meta, root-cause, project-health, session-review]"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2976
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.82
+description: "Forensic root cause analyzer for Antigravity sessions. Classifies scope deltas, rework patterns, root causes, hotspots, and auto-improves prompts/health."
+source: "community"
 version: "1.0"
-tags: [analysis, diagnostics, meta, root-cause, project-health, session-review]
 ---
-
 # /analyze-project — Root Cause Analyst Workflow
 
 Analyze AI-assisted coding sessions in `~/.gemini/antigravity/brain/` and produce a report that explains not just **what happened**, but **why it happened**, **who/what caused it**, and **what should change next time**.

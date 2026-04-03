@@ -1,3 +1,14 @@
+---
+name: "Mobile Design Thinking"
+tags: ["antigravity", "automatically", "before", "c:", "component", "decomposition", "deep", "defaults", "design", "every", "forbidden", "frontend", "gemini", "<YOUR_USERNAME>", "list", "mandatory", "mobile", "patterns", "process", "project"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3591
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Mobile Design Thinking
 
 > **This file prevents AI from using memorized patterns and forces genuine thinking.**

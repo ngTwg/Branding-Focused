@@ -1,11 +1,17 @@
 ---
-name: quality-nonconformance
-description: Codified expertise for quality control, non-conformance investigation, root cause analysis, corrective action, and supplier quality management in regulated manufacturing.
-risk: safe
-source: https://github.com/ai-evos/agent-skills
-date_added: '2026-02-27'
+name: "quality-nonconformance"
+tags: ["analysis", "and", "antigravity", "c:", "cause", "conformance", "context", "core", "frontend", "gemini", "knowledge", "<YOUR_USERNAME>", "lifecycle", "management", "ncr", "non", "nonconformance", "quality", "role", "root"]
+tier: 4
+risk: "medium"
+estimated_tokens: 7668
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+date_added: "2026-02-27"
+description: "Codified expertise for quality control, non-conformance investigation, root cause analysis, corrective action, and supplier quality management in regulated manufacturing."
+source: "https://github.com/ai-evos/agent-skills"
 ---
-
 ## When to Use
 Use this skill when investigating product defects or process deviations, performing root cause analysis (RCA), managing Corrective and Preventive Actions (CAPA), interpreting Statistical Process Control (SPC) data, or auditing supplier quality.
 

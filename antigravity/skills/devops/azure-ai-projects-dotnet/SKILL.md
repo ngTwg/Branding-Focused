@@ -1,11 +1,17 @@
 ---
-name: azure-ai-projects-dotnet
-description: Azure AI Projects SDK for .NET. High-level client for Azure AI Foundry projects including agents, connections, datasets, deployments, evaluations, and indexes.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "azure-ai-projects-dotnet"
+tags: ["agent", "agents", "ai", "antigravity", "authentication", "azure", "backend", "c:", "devops", "dotnet", "environment", "extensions", "for", "gemini", "installation", "<YOUR_USERNAME>", "level", "low", "net", "openai"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2688
+tools_needed: ["git", "markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.97
+date_added: "2026-02-27"
+description: "Azure AI Projects SDK for .NET. High-level client for Azure AI Foundry projects including agents, connections, datasets, deployments, evaluations, and indexes."
+source: "community"
 ---
-
 # Azure.AI.Projects (.NET)
 
 High-level SDK for Azure AI Foundry project operations including agents, connections, datasets, deployments, evaluations, and indexes.

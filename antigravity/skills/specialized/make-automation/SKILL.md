@@ -1,11 +1,17 @@
 ---
-name: make-automation
-description: "Automate Make (Integromat) tasks via Rube MCP (Composio): operations, enums, language and timezone lookups. Always search tools first for current schemas."
-risk: critical
-source: community
+name: "make-automation"
+tags: ["antigravity", "automation", "available", "c:", "core", "data", "frontend", "gemini", "get", "languages", "<YOUR_USERNAME>", "list", "make", "mcp", "operations", "prerequisites", "rube", "setup", "specialized", "users"]
+tier: 2
+risk: "critical"
+estimated_tokens: 1844
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.94
 date_added: "2026-02-27"
+description: "Automate Make (Integromat) tasks via Rube MCP (Composio): operations, enums, language and timezone lookups. Always search tools first for current schemas."
+source: "community"
 ---
-
 # Make Automation via Rube MCP
 
 Automate Make (formerly Integromat) operations through Composio's Make toolkit via Rube MCP.

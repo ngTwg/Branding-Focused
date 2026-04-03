@@ -1,3 +1,14 @@
+---
+name: "Checklist de Verificacao e Redundancia"
+tags: ["antigravity", "arquivos", "bugs", "c:", "checklist", "completude", "context", "correcoes", "decisoes", "frontend", "fundamental", "gemini", "guardian", "<YOUR_USERNAME>", "principio", "redundancia", "references", "specialized", "users", "verificacao"]
+tier: 2
+risk: "medium"
+estimated_tokens: 890
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.85
+---
 # Checklist de Verificacao e Redundancia
 
 ## Principio Fundamental

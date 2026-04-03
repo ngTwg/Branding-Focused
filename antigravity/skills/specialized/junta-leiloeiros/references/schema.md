@@ -1,3 +1,14 @@
+---
+name: "Schema de Dados — Leiloeiros das Juntas Comerciais"
+tags: ["antigravity", "c:", "campos", "comerciais", "dados", "das", "exportação", "formato", "gemini", "json", "junta", "juntas", "leiloeiros", "<YOUR_USERNAME>", "normalização", "references", "schema", "security", "situacao", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 871
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["security", "compliance"]
+quality_score: 0.72
+---
 # Schema de Dados — Leiloeiros das Juntas Comerciais
 
 ## Tabela `leiloeiros` (SQLite)

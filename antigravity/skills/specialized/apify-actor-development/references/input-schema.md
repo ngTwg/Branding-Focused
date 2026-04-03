@@ -1,3 +1,14 @@
+---
+name: "Input Schema Reference"
+tags: ["actor", "antigravity", "apify", "c:", "development", "example", "frontend", "gemini", "input", "<YOUR_USERNAME>", "reference", "references", "schema", "specialized", "structure", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 496
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
+---
 # Input Schema Reference
 
 The input schema defines the input parameters for an Actor. It's a JSON object comprising various field types supported by the Apify platform.

@@ -1,3 +1,14 @@
+---
+name: "Especificação de Formatos — Context Agent"
+tags: ["agent", "antigravity", "c:", "concluídas", "context", "decisões", "especificação", "format", "formatos", "frontend", "gemini", "<YOUR_USERNAME>", "nnn", "references", "session", "sessão", "specialized", "tarefas", "tópicos", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 601
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+---
 # Especificação de Formatos — Context Agent
 
 ## session-NNN.md

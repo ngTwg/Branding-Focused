@@ -1,3 +1,14 @@
+---
+name: "Python Performance Optimization Implementation Playbook"
+tags: ["antigravity", "backend", "c:", "concepts", "core", "frontend", "gemini", "implementation", "<YOUR_USERNAME>", "metrics", "optimization", "performance", "playbook", "profiling", "python", "resources", "skill", "this", "types", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 5290
+tools_needed: ["markdown", "pytest", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Python Performance Optimization Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

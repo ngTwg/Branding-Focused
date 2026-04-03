@@ -1,3 +1,14 @@
+---
+name: "Risk Metrics Calculation Implementation Playbook"
+tags: ["antigravity", "c:", "calculation", "categories", "concepts", "core", "frontend", "gemini", "horizons", "implementation", "<YOUR_USERNAME>", "metric", "metrics", "playbook", "resources", "risk", "skill", "specialized", "this", "time"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4713
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Risk Metrics Calculation Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

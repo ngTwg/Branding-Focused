@@ -1,4 +1,15 @@
 ---
+name: "Task Intelligence — Protocolo de Amplificação Pré-Tarefa"
+tags: ["amplificação", "antigravity", "c:", "classificação", "fase", "frontend", "gemini", "how", "intelligence", "<YOUR_USERNAME>", "not", "overview", "protocolo", "pré", "segundos", "skill", "specialized", "tarefa", "task", "this"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2819
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
+---
 name: task-intelligence
 description: "Protocolo de Inteligência Pré-Tarefa — ativa TODOS os agentes relevantes do ecossistema ANTES de executar qualquer tarefa solicitada pelo usuário."
 risk: none

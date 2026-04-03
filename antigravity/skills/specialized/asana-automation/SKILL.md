@@ -1,11 +1,17 @@
 ---
-name: asana-automation
-description: "Automate Asana tasks via Rube MCP (Composio): tasks, projects, sections, teams, workspaces. Always search tools first for current schemas."
-risk: unknown
-source: community
+name: "asana-automation"
+tags: ["and", "antigravity", "asana", "automation", "c:", "core", "frontend", "gemini", "<YOUR_USERNAME>", "manage", "mcp", "prerequisites", "projects", "rube", "sections", "setup", "specialized", "tasks", "users", "via"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1536
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 date_added: "2026-02-27"
+description: "Automate Asana tasks via Rube MCP (Composio): tasks, projects, sections, teams, workspaces. Always search tools first for current schemas."
+source: "community"
 ---
-
 # Asana Automation via Rube MCP
 
 Automate Asana operations through Composio's Asana toolkit via Rube MCP.

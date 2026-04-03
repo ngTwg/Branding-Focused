@@ -1,3 +1,14 @@
+---
+name: "GitHub Issue Resolution Expert Implementation Playbook"
+tags: ["analysis", "and", "antigravity", "c:", "collaboration", "context", "expert", "frontend", "gemini", "github", "implementation", "instructions", "issue", "<YOUR_USERNAME>", "playbook", "requirements", "resolution", "resources", "specialized", "team"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4538
+tools_needed: ["git", "markdown", "playwright", "pytest", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # GitHub Issue Resolution Expert Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

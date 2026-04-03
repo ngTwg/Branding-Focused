@@ -1,3 +1,14 @@
+---
+name: "Section Definitions"
+tags: ["antigravity", "backend", "best", "c:", "concurrency", "conn", "connection", "definitions", "design", "gemini", "<YOUR_USERNAME>", "lock", "locking", "management", "performance", "postgres", "practices", "query", "rls", "rules"]
+tier: 2
+risk: "medium"
+estimated_tokens: 420
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.64
+---
 # Section Definitions
 
 This file defines the rule categories for Postgres best practices. Rules are automatically assigned to sections based on their filename prefix.

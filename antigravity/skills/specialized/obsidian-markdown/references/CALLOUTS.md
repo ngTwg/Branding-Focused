@@ -1,3 +1,14 @@
+---
+name: "Callouts Reference"
+tags: ["antigravity", "basic", "c:", "callout", "callouts", "css", "custom", "foldable", "frontend", "gemini", "<YOUR_USERNAME>", "markdown", "nested", "obsidian", "reference", "references", "specialized", "supported", "types", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 309
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.71
+---
 # Callouts Reference
 
 ## Basic Callout

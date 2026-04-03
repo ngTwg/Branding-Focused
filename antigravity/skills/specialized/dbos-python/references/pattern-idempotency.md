@@ -1,10 +1,17 @@
 ---
-title: Use Workflow IDs for Idempotency
-impact: MEDIUM
-impactDescription: Prevents duplicate executions of critical operations
-tags: idempotency, workflow-id, deduplication, exactly-once
+name: "Use Workflow IDs for Idempotency"
+tags: ["idempotency, workflow-id, deduplication, exactly-once"]
+tier: 2
+risk: "medium"
+estimated_tokens: 378
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.60
+impact: "MEDIUM"
+impactDescription: "Prevents duplicate executions of critical operations"
+title: "Use Workflow IDs for Idempotency"
 ---
-
 ## Use Workflow IDs for Idempotency
 
 Set workflow IDs to make operations idempotent. A workflow with the same ID executes only once.

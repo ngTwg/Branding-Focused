@@ -1,10 +1,16 @@
 ---
-name: context-compression
+name: "context-compression"
+tags: ["antigravity", "artifact", "c:", "compression", "concepts", "context", "core", "detailed", "frontend", "gemini", "<YOUR_USERNAME>", "matters", "per", "problem", "specialized", "strategies", "task", "the", "tokens", "topics"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3054
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
 description: "When agent sessions generate millions of tokens of conversation history, compression becomes mandatory. The naive approach is aggressive compression to minimize tokens per request."
-risk: unknown
-source: community
+source: "community"
 ---
-
 # Context Compression Strategies
 
 When agent sessions generate millions of tokens of conversation history, compression becomes mandatory. The naive approach is aggressive compression to minimize tokens per request. The correct optimization target is tokens per task: total tokens consumed to complete a task, including re-fetching costs when compression loses critical information.

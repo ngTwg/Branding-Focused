@@ -1,10 +1,16 @@
 ---
+name: "hugging-face-papers"
+tags: ["antigravity", "api", "c:", "endpoints", "error", "face", "fetch", "frontend", "gemini", "handling", "hugging", "<YOUR_USERNAME>", "markdown", "page", "pages", "paper", "papers", "parsing", "specialized", "the"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2306
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+description: "Read and analyze Hugging Face paper pages or arXiv papers with markdown and papers API metadata."
 source: "https://github.com/huggingface/skills/tree/main/skills/huggingface-papers"
-name: hugging-face-papers
-description: Read and analyze Hugging Face paper pages or arXiv papers with markdown and papers API metadata.
-risk: unknown
 ---
-
 # Hugging Face Paper Pages
 
 Hugging Face Paper pages (hf.co/papers) is a platform built on top of arXiv (arxiv.org), specifically for research papers in the field of artificial intelligence (AI) and computer science. Hugging Face users can submit their paper at hf.co/papers/submit, which features it on the Daily Papers feed (hf.co/papers). Each day, users can upvote papers and comment on papers. Each paper page allows authors to:

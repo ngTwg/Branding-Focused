@@ -1,3 +1,14 @@
+---
+name: "Configuracao de Webhooks - WhatsApp Cloud API"
+tags: ["antigravity", "api", "c:", "campos", "cloud", "configuracao", "developers", "fields", "frontend", "gemini", "geral", "inscrever", "<YOUR_USERNAME>", "meta", "obrigatorios", "para", "passo", "references", "setup", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4377
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Configuracao de Webhooks - WhatsApp Cloud API
 
 > Guia completo para configurar, validar e proteger webhooks da WhatsApp Cloud API.

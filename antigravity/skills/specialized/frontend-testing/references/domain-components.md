@@ -1,3 +1,14 @@
+---
+name: "Domain-Specific Component Testing"
+tags: ["antigravity", "areas", "c:", "component", "components", "configuration", "dataset", "domain", "example", "frontend", "gemini", "key", "<YOUR_USERNAME>", "node", "panel", "references", "specialized", "specific", "test", "testing"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3815
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.91
+---
 # Domain-Specific Component Testing
 
 This guide covers testing patterns for Dify's domain-specific components.

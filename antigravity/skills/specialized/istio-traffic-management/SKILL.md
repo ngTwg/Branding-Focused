@@ -1,11 +1,17 @@
 ---
-name: istio-traffic-management
-description: "Comprehensive guide to Istio traffic management for production service mesh deployments."
-risk: unknown
-source: community
+name: "istio-traffic-management"
+tags: ["antigravity", "c:", "concepts", "core", "frontend", "gemini", "instructions", "istio", "<YOUR_USERNAME>", "management", "not", "resources", "skill", "specialized", "this", "traffic", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1832
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.92
 date_added: "2026-02-27"
+description: "Comprehensive guide to Istio traffic management for production service mesh deployments."
+source: "community"
 ---
-
 # Istio Traffic Management
 
 Comprehensive guide to Istio traffic management for production service mesh deployments.

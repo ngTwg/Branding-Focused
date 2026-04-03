@@ -1,10 +1,17 @@
 ---
-title: Set Workflow Timeouts
-impact: CRITICAL
-impactDescription: Prevents workflows from running indefinitely
-tags: workflow, timeout, cancellation, duration
+name: "Set Workflow Timeouts"
+tags: ["workflow, timeout, cancellation, duration"]
+tier: 1
+risk: "medium"
+estimated_tokens: 331
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.57
+impact: "CRITICAL"
+impactDescription: "Prevents workflows from running indefinitely"
+title: "Set Workflow Timeouts"
 ---
-
 ## Set Workflow Timeouts
 
 Set a timeout for a workflow by using Go's `context.WithTimeout` or `dbos.WithTimeout` on the DBOS context. When the timeout expires, the workflow and all its children are cancelled.

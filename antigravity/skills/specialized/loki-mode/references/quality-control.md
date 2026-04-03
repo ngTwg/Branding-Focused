@@ -1,3 +1,14 @@
+---
+name: "Quality Control Reference"
+tags: ["acceleration", "and", "antigravity", "before", "c:", "control", "core", "detect", "execution", "frontend", "gemini", "guardrails", "injection", "input", "just", "layer", "<YOUR_USERNAME>", "loki", "mode", "not"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3315
+tools_needed: ["git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Quality Control Reference
 
 Quality gates, code review process, and severity blocking rules.

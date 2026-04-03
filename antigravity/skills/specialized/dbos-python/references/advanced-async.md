@@ -1,10 +1,17 @@
 ---
-title: Use Async Workflows Correctly
-impact: LOW
-impactDescription: Enables non-blocking I/O in workflows
-tags: async, coroutine, await, asyncio
+name: "Use Async Workflows Correctly"
+tags: ["async, coroutine, await, asyncio"]
+tier: 1
+risk: "medium"
+estimated_tokens: 651
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.70
+impact: "LOW"
+impactDescription: "Enables non-blocking I/O in workflows"
+title: "Use Async Workflows Correctly"
 ---
-
 ## Use Async Workflows Correctly
 
 Coroutine (async) functions can be DBOS workflows. Use async-specific methods and patterns.

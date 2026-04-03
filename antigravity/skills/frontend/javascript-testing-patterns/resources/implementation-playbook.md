@@ -1,3 +1,14 @@
+---
+name: "JavaScript Testing Patterns Implementation Playbook"
+tags: ["antigravity", "c:", "fast", "featured", "framework", "frameworks", "frontend", "full", "gemini", "implementation", "javascript", "jest", "<YOUR_USERNAME>", "native", "patterns", "playbook", "resources", "skill", "testing", "this"]
+tier: 2
+risk: "medium"
+estimated_tokens: 6460
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # JavaScript Testing Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

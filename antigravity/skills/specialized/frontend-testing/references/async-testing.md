@@ -1,3 +1,14 @@
+---
+name: "Async Testing Guide"
+tags: ["antigravity", "async", "c:", "condition", "core", "fake", "findby", "for", "frontend", "gemini", "guide", "interactions", "<YOUR_USERNAME>", "patterns", "queries", "references", "specialized", "testing", "timers", "userevent"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2113
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.91
+---
 # Async Testing Guide
 
 ## Core Async Patterns

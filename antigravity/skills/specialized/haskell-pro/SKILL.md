@@ -1,11 +1,17 @@
 ---
-name: haskell-pro
-description: "Expert Haskell engineer specializing in advanced type systems, pure"
-risk: safe
-source: community
+name: "haskell-pro"
+tags: ["antigravity", "approach", "areas", "c:", "focus", "frontend", "gemini", "haskell", "instructions", "<YOUR_USERNAME>", "not", "output", "pro", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 550
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.64
 date_added: "2026-02-27"
+description: "Expert Haskell engineer specializing in advanced type systems, pure"
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on haskell pro tasks or workflows

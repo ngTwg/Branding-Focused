@@ -1,3 +1,14 @@
+---
+name: "Playwright Skill - Complete API Reference"
+tags: ["antigravity", "api", "c:", "check", "complete", "contents", "frontend", "gemini", "install", "installation", "installed", "<YOUR_USERNAME>", "needed", "playwright", "prerequisites", "reference", "setup", "skill", "specialized", "table"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4091
+tools_needed: ["git", "markdown", "playwright", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Playwright Skill - Complete API Reference
 
 This document contains the comprehensive Playwright API reference and advanced patterns. For quick-start execution patterns, see [SKILL.md](SKILL.md).

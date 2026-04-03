@@ -1,4 +1,15 @@
 ---
+name: "Skill Installer v3.0"
+tags: ["antigravity", "c:", "frontend", "gemini", "how", "installer", "<YOUR_USERNAME>", "maxima", "not", "overview", "principio", "redundancia", "skill", "specialized", "this", "use", "users", "when", "works"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2734
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
+---
 name: skill-installer
 description: Instala, valida, registra e verifica novas skills no ecossistema. 10 checks de seguranca, copia, registro no orchestrator e verificacao pos-instalacao.
 risk: safe

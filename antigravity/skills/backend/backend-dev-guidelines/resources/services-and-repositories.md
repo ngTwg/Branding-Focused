@@ -1,3 +1,14 @@
+---
+name: "Services and Repositories - Business Logic Layer"
+tags: ["and", "antigravity", "backend", "business", "c:", "contents", "dependency", "dev", "frontend", "gemini", "guidelines", "injection", "layer", "<YOUR_USERNAME>", "logic", "overview", "pattern", "purpose", "repositories", "resources"]
+tier: 2
+risk: "medium"
+estimated_tokens: 5557
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Services and Repositories - Business Logic Layer
 
 Complete guide to organizing business logic with services and data access with repositories.

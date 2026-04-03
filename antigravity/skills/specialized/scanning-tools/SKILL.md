@@ -1,12 +1,18 @@
 ---
-name: scanning-tools
-description: "Master essential security scanning tools for network discovery, vulnerability assessment, web application testing, wireless security, and compliance validation. This skill covers tool selection, configuration, and practical usage across different scanning categories."
-risk: unknown
-source: community
-author: zebbern
+name: "scanning-tools"
+tags: ["and", "antigravity", "c:", "deliverables", "environment", "frontend", "gemini", "knowledge", "<YOUR_USERNAME>", "outputs", "prerequisites", "purpose", "required", "scanning", "security", "specialized", "tools", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3402
+tools_needed: ["docker", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+author: "zebbern"
 date_added: "2026-02-27"
+description: "Master essential security scanning tools for network discovery, vulnerability assessment, web application testing, wireless security, and compliance validation. This skill covers tool selection, configuration, and practical usage across different scanning categories."
+source: "community"
 ---
-
 # Security Scanning Tools
 
 ## Purpose

@@ -1,11 +1,17 @@
 ---
-name: phase-gated-debugging
-description: "Use when debugging any bug. Enforces a 5-phase protocol where code edits are blocked until root cause is confirmed. Prevents premature fix attempts."
-risk: safe
-source: community
+name: "phase-gated-debugging"
+tags: ["antigravity", "c:", "debugging", "gated", "gemini", "isolate", "<YOUR_USERNAME>", "overview", "phase", "protocol", "reproduce", "specialized", "the", "use", "users", "when", "workflows"]
+tier: 2
+risk: "medium"
+estimated_tokens: 672
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.70
 date_added: "2026-03-28"
+description: "Use when debugging any bug. Enforces a 5-phase protocol where code edits are blocked until root cause is confirmed. Prevents premature fix attempts."
+source: "community"
 ---
-
 # Phase-Gated Debugging
 
 ## Overview

@@ -1,11 +1,17 @@
 ---
-name: linkedin-cli
-description: "Use when automating LinkedIn via CLI: fetch profiles, search people/companies, send messages, manage connections, create posts, and Sales Navigator."
-risk: safe
-source: community
+name: "linkedin-cli"
+tags: ["antigravity", "authentication", "c:", "cli", "flags", "format", "frontend", "gemini", "global", "<YOUR_USERNAME>", "linkedin", "output", "skill", "specialized", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 5636
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Use when automating LinkedIn via CLI: fetch profiles, search people/companies, send messages, manage connections, create posts, and Sales Navigator."
+source: "community"
 ---
-
 ## When to Use
 Use this skill when you need to automate LinkedIn tasks such as profile fetching, connection management, or post creation via CLI, especially when integrated into automated workflows.
 

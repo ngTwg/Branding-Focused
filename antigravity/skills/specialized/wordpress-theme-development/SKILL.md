@@ -1,12 +1,18 @@
 ---
-name: wordpress-theme-development
-description: "WordPress theme development workflow covering theme architecture, template hierarchy, custom post types, block editor support, responsive design, and WordPress 7.0 features: DataViews, Pattern Editing, Navigation Overlays, and admin refresh."
-category: granular-workflow-bundle
-risk: safe
-source: personal
+name: "wordpress-theme-development"
+tags: ["antigravity", "c:", "development", "features", "frontend", "gemini", "<YOUR_USERNAME>", "overview", "phase", "phases", "setup", "specialized", "theme", "this", "use", "users", "when", "wordpress", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3037
+tools_needed: ["markdown", "playwright"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+category: "granular-workflow-bundle"
 date_added: "2026-02-27"
+description: "WordPress theme development workflow covering theme architecture, template hierarchy, custom post types, block editor support, responsive design, and WordPress 7.0 features: DataViews, Pattern Editing, Navigation Overlays, and admin refresh."
+source: "personal"
 ---
-
 # WordPress Theme Development Workflow
 
 ## Overview

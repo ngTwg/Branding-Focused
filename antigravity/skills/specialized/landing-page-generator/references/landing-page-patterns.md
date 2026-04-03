@@ -1,3 +1,14 @@
+---
+name: "Landing Page Patterns"
+tags: ["antigravity", "authority", "c:", "first", "frontend", "gemini", "generator", "hero", "landing", "layouts", "<YOUR_USERNAME>", "outcome", "page", "pattern", "patterns", "problem", "proof", "references", "section", "social"]
+tier: 2
+risk: "medium"
+estimated_tokens: 689
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.67
+---
 # Landing Page Patterns
 
 This reference captures high-converting page patterns and copy structures.

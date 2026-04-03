@@ -1,11 +1,17 @@
 ---
-name: cal-com-automation
-description: "Automate Cal.com tasks via Rube MCP (Composio): manage bookings, check availability, configure webhooks, and handle teams. Always search tools first for current schemas."
-risk: critical
-source: community
+name: "cal-com-automation"
+tags: ["antigravity", "automation", "availability", "bookings", "c:", "cal", "check", "com", "core", "frontend", "gemini", "<YOUR_USERNAME>", "manage", "mcp", "prerequisites", "rube", "setup", "specialized", "users", "via"]
+tier: 2
+risk: "critical"
+estimated_tokens: 1886
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.88
 date_added: "2026-02-27"
+description: "Automate Cal.com tasks via Rube MCP (Composio): manage bookings, check availability, configure webhooks, and handle teams. Always search tools first for current schemas."
+source: "community"
 ---
-
 # Cal.com Automation via Rube MCP
 
 Automate Cal.com scheduling operations through Composio's Cal toolkit via Rube MCP.

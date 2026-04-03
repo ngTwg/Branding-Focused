@@ -1,0 +1,34 @@
+{
+  "timestamp": "2026-04-02T02:26:34.352892+00:00",
+  "source": "GEMINI.md",
+  "workspace_root": "antigravity\\tmp\\skillpack_validation",
+  "dry_run": false,
+  "force": true,
+  "total": 3,
+  "ok": 3,
+  "skipped": 0,
+  "failed": 0,
+  "results": [
+    {
+      "target": "cursor",
+      "destination": "antigravity\\tmp\\skillpack_validation\\.cursor\\rules\\CURSOR.md",
+      "status": "ok",
+      "source": "GEMINI.md",
+      "message": "installed"
+    },
+    {
+      "target": "claude",
+      "destination": "antigravity\\tmp\\skillpack_validation\\.claude\\rules\\CLAUDE.md",
+      "status": "ok",
+      "source": "GEMINI.md",
+      "message": "installed"
+    },
+    {
+      "target": "copilot",
+      "destination": "antigravity\\tmp\\skillpack_validation\\.github\\instructions\\COPILOT.md",
+      "status": "ok",
+      "source": "GEMINI.md",
+      "message": "installed"
+    }
+  ]
+}

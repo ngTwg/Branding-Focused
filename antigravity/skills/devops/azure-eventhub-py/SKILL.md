@@ -1,11 +1,17 @@
 ---
-name: azure-eventhub-py
-description: Azure Event Hubs SDK for Python streaming. Use for high-throughput event ingestion, producers, consumers, and checkpointing.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "azure-eventhub-py"
+tags: ["antigravity", "authentication", "azure", "backend", "blob", "c:", "checkpointing", "devops", "environment", "event", "eventhub", "for", "gemini", "hubs", "installation", "<YOUR_USERNAME>", "producer", "py", "python", "sdk"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1719
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.90
+date_added: "2026-02-27"
+description: "Azure Event Hubs SDK for Python streaming. Use for high-throughput event ingestion, producers, consumers, and checkpointing."
+source: "community"
 ---
-
 # Azure Event Hubs SDK for Python
 
 Big data streaming platform for high-throughput event ingestion.

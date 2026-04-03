@@ -1,3 +1,14 @@
+---
+name: "GraphQL Schema Design Patterns"
+tags: ["antigravity", "api", "backend", "c:", "design", "frontend", "gemini", "graphql", "<YOUR_USERNAME>", "modular", "organization", "patterns", "post", "principles", "references", "schema", "structure", "type", "user", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2251
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.93
+---
 # GraphQL Schema Design Patterns
 
 ## Schema Organization

@@ -1,3 +1,14 @@
+---
+name: "Lead Magnet Benchmarks"
+tags: ["antigravity", "benchmarks", "c:", "conversion", "format", "frontend", "gemini", "indicators", "industry", "landing", "lead", "<YOUR_USERNAME>", "magnet", "magnets", "page", "quality", "rate", "references", "source", "specialized"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1058
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.70
+---
 # Lead Magnet Benchmarks
 
 Reference data for planning and evaluating lead magnet performance.

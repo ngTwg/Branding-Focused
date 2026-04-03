@@ -1,11 +1,17 @@
 ---
-name: unit-testing-test-generate
-description: "Generate comprehensive, maintainable unit tests across languages with strong coverage and edge case focus."
-risk: unknown
-source: community
+name: "unit-testing-test-generate"
+tags: ["antigravity", "automated", "c:", "context", "frontend", "gemini", "generate", "generation", "instructions", "<YOUR_USERNAME>", "not", "requirements", "skill", "specialized", "test", "testing", "this", "unit", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2694
+tools_needed: ["markdown", "pytest"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Generate comprehensive, maintainable unit tests across languages with strong coverage and edge case focus."
+source: "community"
 ---
-
 # Automated Unit Test Generation
 
 You are a test automation expert specializing in generating comprehensive, maintainable unit tests across multiple languages and frameworks. Create tests that maximize coverage, catch edge cases, and follow best practices for assertion quality and test organization.

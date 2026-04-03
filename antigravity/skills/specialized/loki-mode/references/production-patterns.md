@@ -1,3 +1,14 @@
+---
+name: "Production Patterns Reference"
+tags: ["actually", "antigravity", "based", "c:", "confidence", "frontend", "gemini", "hitl", "human", "<YOUR_USERNAME>", "loki", "loop", "mode", "narrow", "negotiable", "non", "overview", "patterns", "production", "reference"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3854
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Production Patterns Reference
 
 Practitioner-tested patterns from Hacker News discussions and real-world deployments. These patterns represent what actually works in production, not theoretical frameworks.

@@ -1,3 +1,14 @@
+---
+name: "Forest Canopy"
+tags: ["antigravity", "best", "c:", "canopy", "color", "factory", "for", "forest", "gemini", "<YOUR_USERNAME>", "palette", "specialized", "theme", "themes", "typography", "used", "users"]
+tier: 3
+risk: "high"
+estimated_tokens: 128
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["specialized", "domain"]
+quality_score: 0.54
+---
 # Forest Canopy
 
 A natural and grounded theme featuring earth tones inspired by dense forest environments.

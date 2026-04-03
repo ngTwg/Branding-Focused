@@ -1,3 +1,14 @@
+---
+name: "Dunning Playbook"
+tags: ["antigravity", "before", "c:", "card", "churn", "dunning", "expiry", "failures", "frontend", "gemini", "happen", "<YOUR_USERNAME>", "management", "matters", "playbook", "pre", "prevent", "prevention", "references", "services"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3036
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Dunning Playbook
 
 Complete guide to recovering failed payments and reducing involuntary churn.

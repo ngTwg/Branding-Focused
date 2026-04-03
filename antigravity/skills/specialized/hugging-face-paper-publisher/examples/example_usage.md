@@ -1,3 +1,14 @@
+---
+name: "Example Usage: HF Paper Publisher Skill"
+tags: ["antigravity", "arxiv", "backend", "c:", "check", "example", "examples", "existing", "exists", "face", "gemini", "get", "hugging", "index", "information", "<YOUR_USERNAME>", "link", "model", "paper", "publisher"]
+tier: 4
+risk: "medium"
+estimated_tokens: 2119
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.95
+---
 # Example Usage: HF Paper Publisher Skill
 
 This document demonstrates common workflows for publishing research papers on Hugging Face Hub.

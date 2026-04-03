@@ -1,9 +1,16 @@
 ---
-name: skill-creator
-description: Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.
-license: Complete terms in LICENSE.txt
+name: "skill-creator"
+tags: ["about", "antigravity", "appropriate", "c:", "concise", "core", "creator", "degrees", "freedom", "frontend", "gemini", "key", "<YOUR_USERNAME>", "principles", "provide", "set", "skill", "skills", "users", "what"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4425
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.96
+description: "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations."
+license: "Complete terms in LICENSE.txt"
 ---
-
 # Skill Creator
 
 This skill provides guidance for creating effective skills.

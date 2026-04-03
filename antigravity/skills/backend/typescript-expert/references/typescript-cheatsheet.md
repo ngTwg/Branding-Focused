@@ -1,3 +1,14 @@
+---
+name: "TypeScript Cheatsheet"
+tags: ["aliases", "antigravity", "backend", "basics", "c:", "cheatsheet", "conditional", "expert", "frontend", "gemini", "generics", "interfaces", "<YOUR_USERNAME>", "references", "type", "types", "typescript", "users", "utility"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1851
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.91
+---
 # TypeScript Cheatsheet
 
 ## Type Basics

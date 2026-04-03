@@ -1,11 +1,17 @@
 ---
-name: cost-optimization
-description: "Strategies and patterns for optimizing cloud costs across AWS, Azure, and GCP."
-risk: unknown
-source: community
+name: "cost-optimization"
+tags: ["antigravity", "c:", "cloud", "cost", "framework", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "optimization", "purpose", "skill", "specialized", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1657
+tools_needed: ["markdown", "sql", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.92
 date_added: "2026-02-27"
+description: "Strategies and patterns for optimizing cloud costs across AWS, Azure, and GCP."
+source: "community"
 ---
-
 # Cloud Cost Optimization
 
 Strategies and patterns for optimizing cloud costs across AWS, Azure, and GCP.

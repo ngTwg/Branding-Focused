@@ -1,11 +1,17 @@
 ---
-name: azure-servicebus-dotnet
-description: Azure Service Bus SDK for .NET. Enterprise messaging with queues, topics, subscriptions, and sessions.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "azure-servicebus-dotnet"
+tags: ["antigravity", "authentication", "azure", "c:", "connection", "devops", "dotnet", "entra", "environment", "frontend", "gemini", "installation", "<YOUR_USERNAME>", "less", "messaging", "microsoft", "net", "recommended", "secure", "servicebus"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2576
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.96
+date_added: "2026-02-27"
+description: "Azure Service Bus SDK for .NET. Enterprise messaging with queues, topics, subscriptions, and sessions."
+source: "community"
 ---
-
 # Azure.Messaging.ServiceBus (.NET)
 
 Enterprise messaging SDK for reliable message delivery with queues, topics, subscriptions, and sessions.

@@ -1,3 +1,14 @@
+---
+name: "Python MCP Server Implementation Guide"
+tags: ["antigravity", "builder", "c:", "deep", "deep-tech", "frontend", "gemini", "guide", "implementation", "imports", "initialization", "key", "<YOUR_USERNAME>", "mcp", "overview", "pattern", "python", "quick", "reference", "registration"]
+tier: 2
+risk: "medium"
+estimated_tokens: 6274
+tools_needed: ["git", "markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Python MCP Server Implementation Guide
 
 ## Overview

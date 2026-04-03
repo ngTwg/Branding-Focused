@@ -1,3 +1,14 @@
+---
+name: "Midnight Galaxy"
+tags: ["antigravity", "best", "c:", "color", "factory", "for", "frontend", "galaxy", "gemini", "<YOUR_USERNAME>", "midnight", "palette", "specialized", "theme", "themes", "typography", "used", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 128
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.54
+---
 # Midnight Galaxy
 
 A dramatic and cosmic theme with deep purples and mystical tones for impactful presentations.

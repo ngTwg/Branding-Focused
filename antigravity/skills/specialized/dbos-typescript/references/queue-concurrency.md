@@ -1,10 +1,17 @@
 ---
-title: Control Queue Concurrency
-impact: HIGH
-impactDescription: Prevents resource exhaustion with concurrent limits
-tags: queue, concurrency, workerConcurrency, limits
+name: "Control Queue Concurrency"
+tags: ["queue, concurrency, workerConcurrency, limits"]
+tier: 1
+risk: "medium"
+estimated_tokens: 432
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.63
+impact: "HIGH"
+impactDescription: "Prevents resource exhaustion with concurrent limits"
+title: "Control Queue Concurrency"
 ---
-
 ## Control Queue Concurrency
 
 Queues support worker-level and global concurrency limits to prevent resource exhaustion.

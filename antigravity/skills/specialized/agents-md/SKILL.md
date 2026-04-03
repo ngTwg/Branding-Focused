@@ -1,10 +1,16 @@
 ---
-name: agents-md
-description: This skill should be used when the user asks to "create AGENTS.md", "update AGENTS.md", "maintain agent docs", "set up CLAUDE.md", or needs to keep agent instructions concise. Enforces research-backed best practices for minimal, high-signal agent documentation.
-risk: unknown
-source: community
+name: "agents-md"
+tags: ["agents", "antigravity", "before", "c:", "file", "frontend", "gemini", "<YOUR_USERNAME>", "maintaining", "manager", "md", "package", "required", "rules", "sections", "setup", "specialized", "users", "writing"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1026
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.89
+description: "This skill should be used when the user asks to \"create AGENTS.md\", \"update AGENTS.md\", \"maintain agent docs\", \"set up CLAUDE.md\", or needs to keep agent instructions concise. Enforces research-backed best practices for minimal, high-signal agent documentation."
+source: "community"
 ---
-
 # Maintaining AGENTS.md
 
 AGENTS.md is the canonical agent-facing documentation. Keep it minimal—agents are capable and don't need hand-holding. Target under 60 lines; never exceed 100. Instruction-following quality degrades as document length increases.

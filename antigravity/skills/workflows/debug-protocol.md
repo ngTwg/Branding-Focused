@@ -1,3 +1,14 @@
+---
+name: "DEBUG PROTOCOL"
+tags: ["antigravity", "bug", "c:", "cause", "debug", "frontend", "gemini", "identify", "isolate", "<YOUR_USERNAME>", "methodology", "protocol", "report", "reproduce", "root", "template", "users", "workflows"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1571
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.90
+---
 # DEBUG PROTOCOL
 
 > **Khi nào tải skill này:** Debug, Bug, Error, Fix, Troubleshoot, Issue
@@ -280,3 +291,81 @@ async function deleteUser(id: string) {
 | Race condition | Async timing issue |
 | CORS error | Server config |
 | 404 on refresh | SPA routing |
+
+---
+
+## DECISION TREE
+
+```mermaid
+flowchart TD
+  A[Bug reported] --> B{Reproducible?}
+  B -->|No| C[Collect env, logs, exact steps]
+  C --> B
+  B -->|Yes| D{Scope known?}
+  D -->|No| E[Binary isolate module or layer]
+  E --> D
+  D -->|Yes| F{Root cause class}
+  F --> G[Data and nullability]
+  F --> H[Concurrency and timing]
+  F --> I[Config and environment]
+  F --> J[Resource leak and limits]
+  G --> K[Patch + unit test]
+  H --> K
+  I --> K
+  J --> K
+  K --> L[Regression test]
+  L --> M{Passed?}
+  M -->|No| E
+  M -->|Yes| N[Publish RCA + prevention]
+```
+
+---
+
+## FAILURE TAXONOMY
+
+| Class | Typical Signal | Primary Diagnostic | Preferred Preventive Control |
+|------|-----------------|--------------------|-------------------------------|
+| Data contract | `undefined`, validation errors, 400/422 spikes | Validate request and persistence schemas | Shared schema package and contract tests |
+| Concurrency | Flaky tests, duplicate writes, non-deterministic state | Add correlation IDs and ordering logs | Idempotency keys and lock strategy |
+| Configuration | Works local, fails in staging/prod | Diff env vars, secrets, feature flags | Startup config validation gate |
+| Resource leak | Memory/FD growth, GC pressure, timeout storms | Heap snapshots and lifecycle tracing | Cleanup hooks and leak tests |
+| External dependency | Spike in 5xx, upstream timeout | Dependency latency and retry telemetry | Circuit breakers and bounded retries |
+
+---
+
+## CASE STUDIES
+
+### Case 1: Null Access in Profile Hydration
+
+- Symptom: `Cannot read properties of undefined (reading 'email')` during login callback.
+- Root cause: Optional profile branch not returned for SSO users.
+- Fix: Null-safe accessor and fallback profile creation.
+- Prevention: Contract test for all identity providers.
+
+### Case 2: Duplicate Order Charges
+
+- Symptom: Intermittent duplicate payment captures on retry.
+- Root cause: Webhook consumer was not idempotent under at-least-once delivery.
+- Fix: Enforce idempotency key and unique DB constraint on payment event ID.
+- Prevention: Chaos test with duplicate webhook replay.
+
+### Case 3: WebSocket Memory Leak
+
+- Symptom: Process RSS grew 2x every hour under load test.
+- Root cause: Missing unsubscribe on disconnected socket.
+- Fix: Ensure `unsubscribe()` and interval cleanup in disconnect handler.
+- Prevention: Long-running soak test with connection churn.
+
+### Case 4: Stale Cache After User Role Change
+
+- Symptom: User retained old permissions for up to 30 minutes.
+- Root cause: Cache invalidation path skipped on admin role update endpoint.
+- Fix: Invalidate user-auth cache on every role mutation.
+- Prevention: Authorization regression test with role-switch scenario.
+
+### Case 5: Token Validation Drift
+
+- Symptom: Fresh JWT rejected on subset of nodes.
+- Root cause: Clock skew between auth issuer and API nodes.
+- Fix: NTP sync and `clockTolerance` in verifier.
+- Prevention: Node health check includes time drift threshold.

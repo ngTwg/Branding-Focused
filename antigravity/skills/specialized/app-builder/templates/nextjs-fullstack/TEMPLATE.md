@@ -1,8 +1,15 @@
 ---
-name: nextjs-fullstack
-description: Next.js full-stack template principles. App Router, Prisma, Tailwind.
+name: "nextjs-fullstack"
+tags: ["antigravity", "app", "builder", "c:", "concepts", "directory", "environment", "frontend", "full", "fullstack", "gemini", "key", "<YOUR_USERNAME>", "next", "nextjs", "setup", "specialized", "stack", "steps", "structure"]
+tier: 2
+risk: "medium"
+estimated_tokens: 371
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.66
+description: "Next.js full-stack template principles. App Router, Prisma, Tailwind."
 ---
-
 # Next.js Full-Stack Template
 
 ## Tech Stack

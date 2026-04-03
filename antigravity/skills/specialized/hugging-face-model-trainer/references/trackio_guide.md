@@ -1,3 +1,14 @@
+---
+name: "Trackio Integration for TRL Training"
+tags: ["antigravity", "c:", "dependencies", "face", "for", "frontend", "gemini", "guide", "hugging", "integration", "jobs", "<YOUR_USERNAME>", "model", "references", "required", "script", "setting", "specialized", "trackio", "trainer"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1440
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.89
+---
 # Trackio Integration for TRL Training
 
 **Trackio** is an experiment tracking library that provides real-time metrics visualization for remote training on Hugging Face Jobs infrastructure.

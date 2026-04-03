@@ -1,8 +1,15 @@
 ---
-name: nextjs-static
-description: Next.js static site template principles. Landing pages, portfolios, marketing.
+name: "nextjs-static"
+tags: ["animation", "antigravity", "app", "builder", "c:", "config", "directory", "export", "frontend", "gemini", "landing", "<YOUR_USERNAME>", "next", "nextjs", "page", "patterns", "sections", "site", "specialized", "stack"]
+tier: 2
+risk: "medium"
+estimated_tokens: 479
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.71
+description: "Next.js static site template principles. Landing pages, portfolios, marketing."
 ---
-
 # Next.js Static Site Template
 
 ## Tech Stack

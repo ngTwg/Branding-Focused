@@ -1,10 +1,16 @@
 ---
-name: n8n-code-python
-description: Write Python code in n8n Code nodes. Use when writing Python in n8n, using _input/_json/_node syntax, working with standard library, or need to understand Python limitations in n8n Code nodes.
-risk: unknown
-source: community
+name: "n8n-code-python"
+tags: ["antigravity", "basic", "beta", "c:", "code", "data", "essential", "first", "for", "frontend", "gemini", "important", "javascript", "<YOUR_USERNAME>", "n8n", "node", "nodes", "process", "python", "quick"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4407
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+description: "Write Python code in n8n Code nodes. Use when writing Python in n8n, using _input/_json/_node syntax, working with standard library, or need to understand Python limitations in n8n Code nodes."
+source: "community"
 ---
-
 # Python Code Node (Beta)
 
 Expert guidance for writing Python code in n8n Code nodes.

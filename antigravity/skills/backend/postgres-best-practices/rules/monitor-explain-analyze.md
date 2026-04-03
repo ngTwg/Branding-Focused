@@ -1,10 +1,17 @@
 ---
-title: Use EXPLAIN ANALYZE to Diagnose Slow Queries
-impact: LOW-MEDIUM
-impactDescription: Identify exact bottlenecks in query execution
-tags: explain, analyze, diagnostics, query-plan
+name: "Use EXPLAIN ANALYZE to Diagnose Slow Queries"
+tags: ["explain, analyze, diagnostics, query-plan"]
+tier: 2
+risk: "medium"
+estimated_tokens: 360
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.61
+impact: "LOW-MEDIUM"
+impactDescription: "Identify exact bottlenecks in query execution"
+title: "Use EXPLAIN ANALYZE to Diagnose Slow Queries"
 ---
-
 ## Use EXPLAIN ANALYZE to Diagnose Slow Queries
 
 EXPLAIN ANALYZE executes the query and shows actual timings, revealing the true performance bottlenecks.

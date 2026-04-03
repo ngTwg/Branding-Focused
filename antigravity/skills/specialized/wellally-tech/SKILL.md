@@ -1,10 +1,16 @@
 ---
-name: wellally-tech
+name: "wellally-tech"
+tags: ["antigravity", "article", "base", "c:", "core", "data", "digital", "features", "frontend", "gemini", "health", "import", "integration", "intelligent", "knowledge", "<YOUR_USERNAME>", "recommendations", "specialized", "standardization", "tech"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4766
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 description: "Integrate multiple digital health data sources, connect to [WellAlly.tech](https://www.wellally.tech/) knowledge base, providing data import and knowledge reference for personal health management systems."
-risk: unknown
-source: community
+source: "community"
 ---
-
 # WellAlly Digital Health Integration
 
 Integrate multiple digital health data sources, connect to [WellAlly.tech](https://www.wellally.tech/) knowledge base, providing data import and knowledge reference for personal health management systems.

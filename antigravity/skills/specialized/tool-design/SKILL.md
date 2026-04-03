@@ -1,11 +1,17 @@
 ---
-name: tool-design
-description: "Build tools that agents can use effectively, including architectural reduction patterns. Use when creating new tools for agent systems, debugging tool-related failures or misuse, or optimizing existing tool sets for better agent performance."
-risk: safe
-source: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/tool-design"
+name: "tool-design"
+tags: ["agent", "agents", "antigravity", "c:", "concepts", "core", "design", "detailed", "for", "frontend", "gemini", "interface", "<YOUR_USERNAME>", "skill", "specialized", "the", "this", "tool", "topics", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3935
+tools_needed: ["git", "markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.93
 date_added: "2026-02-27"
+description: "Build tools that agents can use effectively, including architectural reduction patterns. Use when creating new tools for agent systems, debugging tool-related failures or misuse, or optimizing existing tool sets for better agent performance."
+source: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/tool-design"
 ---
-
 ## When to Use This Skill
 
 Build tools that agents can use effectively, including architectural reduction patterns

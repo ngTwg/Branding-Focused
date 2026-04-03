@@ -1,11 +1,17 @@
 ---
-name: azure-data-tables-java
-description: "Build table storage applications using the Azure Tables SDK for Java. Works with both Azure Table Storage and Cosmos DB Table API."
-risk: unknown
-source: community
+name: "azure-data-tables-java"
+tags: ["antigravity", "azure", "c:", "client", "connection", "creation", "data", "devops", "for", "frontend", "gemini", "installation", "java", "key", "<YOUR_USERNAME>", "sas", "sdk", "shared", "string", "tables"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2249
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
 date_added: "2026-02-27"
+description: "Build table storage applications using the Azure Tables SDK for Java. Works with both Azure Table Storage and Cosmos DB Table API."
+source: "community"
 ---
-
 # Azure Tables SDK for Java
 
 Build table storage applications using the Azure Tables SDK for Java. Works with both Azure Table Storage and Cosmos DB Table API.

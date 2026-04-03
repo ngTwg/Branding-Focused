@@ -1,3 +1,14 @@
+---
+name: "Sunset Boulevard"
+tags: ["antigravity", "best", "boulevard", "c:", "color", "factory", "for", "gemini", "<YOUR_USERNAME>", "palette", "specialized", "sunset", "theme", "themes", "typography", "used", "users"]
+tier: 3
+risk: "high"
+estimated_tokens: 139
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["specialized", "domain"]
+quality_score: 0.54
+---
 # Sunset Boulevard
 
 A warm and vibrant theme inspired by golden hour sunsets, perfect for energetic and creative presentations.

@@ -1,3 +1,14 @@
+---
+name: "Decision Frameworks — Energy Procurement"
+tags: ["and", "antigravity", "block", "c:", "decision", "deregulated", "energy", "fixed", "for", "frameworks", "frontend", "gathering", "gemini", "index", "intelligence", "layered", "<YOUR_USERNAME>", "markets", "methodology", "pre"]
+tier: 3
+risk: "medium"
+estimated_tokens: 11223
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Decision Frameworks — Energy Procurement
 
 This reference provides detailed decision trees, evaluation matrices, financial models,

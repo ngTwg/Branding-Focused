@@ -1,3 +1,14 @@
+---
+name: "How Each AI Platform Picks Sources"
+tags: ["ai", "antigravity", "c:", "chatgpt", "copilot", "deep", "deep-tech", "each", "factors", "frontend", "fundamentals", "gemini", "google", "how", "<YOUR_USERNAME>", "microsoft", "overviews", "perplexity", "picks", "platform"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2619
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.82
+---
 # How Each AI Platform Picks Sources
 
 Each AI search platform has its own search index, ranking logic, and content preferences. This guide covers what matters for getting cited on each one.

@@ -1,3 +1,14 @@
+---
+name: "Tech Stack Guide"
+tags: ["advanced", "and", "antigravity", "best", "c:", "frontend", "fullstack", "gemini", "guide", "guidelines", "implementation", "<YOUR_USERNAME>", "overview", "pattern", "patterns", "practice", "practices", "references", "senior", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 403
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.70
+---
 # Tech Stack Guide
 
 ## Overview

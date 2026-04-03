@@ -1,11 +1,17 @@
 ---
-name: customs-trade-compliance
-description: Codified expertise for customs documentation, tariff classification, duty optimisation, restricted party screening, and regulatory compliance across multiple jurisdictions.
-risk: safe
-source: https://github.com/ai-evos/agent-skills
-date_added: '2026-02-27'
+name: "customs-trade-compliance"
+tags: ["and", "antigravity", "c:", "classification", "compliance", "context", "core", "customs", "documentation", "frontend", "gemini", "knowledge", "<YOUR_USERNAME>", "requirements", "role", "specialized", "tariff", "trade", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 7102
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+date_added: "2026-02-27"
+description: "Codified expertise for customs documentation, tariff classification, duty optimisation, restricted party screening, and regulatory compliance across multiple jurisdictions."
+source: "https://github.com/ai-evos/agent-skills"
 ---
-
 ## When to Use
 Use this skill when navigating international trade regulations, classifying goods under HS codes, determining appropriate Incoterms, managing import/export documentation, or optimizing customs duty payments through Free Trade Agreements.
 

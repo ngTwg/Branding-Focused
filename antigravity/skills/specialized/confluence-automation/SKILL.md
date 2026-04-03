@@ -1,11 +1,17 @@
 ---
-name: confluence-automation
-description: "Automate Confluence page creation, content search, space management, labels, and hierarchy navigation via Rube MCP (Composio). Always search tools first for current schemas."
-risk: critical
-source: community
+name: "confluence-automation"
+tags: ["and", "antigravity", "automation", "c:", "confluence", "content", "core", "create", "frontend", "gemini", "<YOUR_USERNAME>", "mcp", "pages", "prerequisites", "rube", "search", "setup", "specialized", "update", "users"]
+tier: 2
+risk: "critical"
+estimated_tokens: 2815
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 date_added: "2026-02-27"
+description: "Automate Confluence page creation, content search, space management, labels, and hierarchy navigation via Rube MCP (Composio). Always search tools first for current schemas."
+source: "community"
 ---
-
 # Confluence Automation via Rube MCP
 
 Automate Confluence operations including page creation and updates, content search with CQL, space management, label tagging, and page hierarchy navigation through Composio's Confluence toolkit.

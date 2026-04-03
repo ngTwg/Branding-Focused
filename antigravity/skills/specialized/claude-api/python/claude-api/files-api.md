@@ -1,3 +1,14 @@
+---
+name: "Files API — Python"
+tags: ["antigravity", "api", "c:", "claude", "document", "facts", "file", "files", "frontend", "gemini", "image", "key", "<YOUR_USERNAME>", "messages", "pdf", "python", "specialized", "text", "upload", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 969
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.85
+---
 # Files API — Python
 
 The Files API uploads files for use in Messages API requests. Reference files via `file_id` in content blocks, avoiding re-uploads across multiple API calls.

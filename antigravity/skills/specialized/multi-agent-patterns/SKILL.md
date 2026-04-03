@@ -1,10 +1,16 @@
 ---
-name: multi-agent-patterns
-description: This skill should be used when the user asks to "design multi-agent system", "implement supervisor pattern", "create swarm architecture", "coordinate multiple agents", or mentions multi-agent patterns, context isolation, agent handoffs, sub-agents, or parallel agent execution.
-risk: unknown
-source: community
+name: "multi-agent-patterns"
+tags: ["agent", "antigravity", "architectural", "architecture", "architectures", "c:", "concepts", "core", "detailed", "frontend", "gemini", "<YOUR_USERNAME>", "multi", "patterns", "specialized", "topics", "use", "users", "when", "why"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3654
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+description: "This skill should be used when the user asks to \"design multi-agent system\", \"implement supervisor pattern\", \"create swarm architecture\", \"coordinate multiple agents\", or mentions multi-agent patterns, context isolation, agent handoffs, sub-agents, or parallel agent execution."
+source: "community"
 ---
-
 # Multi-Agent Architecture Patterns
 
 Multi-agent architectures distribute work across multiple language model instances, each with its own context window. When designed well, this distribution enables capabilities beyond single-agent limits. When designed poorly, it introduces coordination overhead that negates benefits. The critical insight is that sub-agents exist primarily to isolate context, not to anthropomorphize role division.

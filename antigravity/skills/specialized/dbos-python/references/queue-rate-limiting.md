@@ -1,10 +1,17 @@
 ---
-title: Rate Limit Queue Execution
-impact: HIGH
-impactDescription: Prevents hitting API rate limits
-tags: queue, rate-limit, api, throttle
+name: "Rate Limit Queue Execution"
+tags: ["queue, rate-limit, api, throttle"]
+tier: 2
+risk: "medium"
+estimated_tokens: 339
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.62
+impact: "HIGH"
+impactDescription: "Prevents hitting API rate limits"
+title: "Rate Limit Queue Execution"
 ---
-
 ## Rate Limit Queue Execution
 
 Use rate limits when working with rate-limited APIs (like LLM APIs). Limits are global across all processes.

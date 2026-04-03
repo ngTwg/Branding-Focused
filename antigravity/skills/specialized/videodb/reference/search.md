@@ -1,3 +1,14 @@
+---
+name: "Search & Indexing Guide"
+tags: ["already", "antigravity", "c:", "force", "frontend", "gemini", "guide", "idempotent", "index", "indexed", "indexing", "<YOUR_USERNAME>", "makes", "prerequisites", "reference", "scene", "search", "skips", "specialized", "spoken"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1980
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.93
+---
 # Search & Indexing Guide
 
 Search allows you to find specific moments inside videos using natural language queries, exact keywords, or visual scene descriptions.

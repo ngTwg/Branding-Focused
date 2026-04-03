@@ -1,12 +1,18 @@
 ---
-name: windows-privilege-escalation
-description: "Provide systematic methodologies for discovering and exploiting privilege escalation vulnerabilities on Windows systems during penetration testing engagements."
-risk: offensive
-source: community
-author: zebbern
+name: "windows-privilege-escalation"
+tags: ["antigravity", "c:", "core", "deliverables", "enumeration", "escalation", "frontend", "gemini", "inputs", "<YOUR_USERNAME>", "outputs", "prerequisites", "privilege", "purpose", "specialized", "system", "users", "windows", "workflow"]
+tier: 4
+risk: "medium"
+estimated_tokens: 3606
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+author: "zebbern"
 date_added: "2026-02-27"
+description: "Provide systematic methodologies for discovering and exploiting privilege escalation vulnerabilities on Windows systems during penetration testing engagements."
+source: "community"
 ---
-
 > AUTHORIZED USE ONLY: Use this skill only for authorized security assessments, defensive validation, or controlled educational environments.
 
 # Windows Privilege Escalation

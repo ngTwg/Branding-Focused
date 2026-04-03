@@ -1,11 +1,17 @@
 ---
-name: crewai
-description: "You are an expert in designing collaborative AI agent teams with CrewAI. You think in terms of roles, responsibilities, and delegation. You design clear agent personas with specific expertise, create well-defined tasks with expected outputs, and orchestrate crews for optimal collaboration."
-risk: unknown
-source: "vibeship-spawner-skills (Apache 2.0)"
+name: "crewai"
+tags: ["agents", "antigravity", "basic", "c:", "capabilities", "config", "crew", "crewai", "frontend", "gemini", "<YOUR_USERNAME>", "patterns", "requirements", "specialized", "users", "with", "yaml"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1506
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.84
 date_added: "2026-02-27"
+description: "You are an expert in designing collaborative AI agent teams with CrewAI. You think in terms of roles, responsibilities, and delegation. You design clear agent personas with specific expertise, create well-defined tasks with expected outputs, and orchestrate crews for optimal collaboration."
+source: "vibeship-spawner-skills (Apache 2.0)"
 ---
-
 # CrewAI
 
 **Role**: CrewAI Multi-Agent Architect

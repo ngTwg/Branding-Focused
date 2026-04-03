@@ -1,3 +1,14 @@
+---
+name: "Loki Mode Voice-Over Script"
+tags: ["antigravity", "bootstrap", "c:", "demo", "discovery", "frontend", "gemini", "introduction", "invocation", "<YOUR_USERNAME>", "loki", "mode", "over", "phase", "script", "setup", "specialized", "users", "voice"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1635
+tools_needed: ["git", "markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.77
+---
 # Loki Mode Voice-Over Script
 
 Complete narration for Loki Mode demo video.

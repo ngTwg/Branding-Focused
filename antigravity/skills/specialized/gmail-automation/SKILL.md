@@ -1,14 +1,20 @@
 ---
-name: gmail-automation
+name: "gmail-automation"
+tags: ["all", "antigravity", "automation", "c:", "commands", "emails", "first", "frontend", "gemini", "gmail", "<YOUR_USERNAME>", "query", "recent", "returns", "search", "setup", "specialized", "syntax", "time", "users"]
+tier: 2
+risk: "critical"
+estimated_tokens: 1182
+tools_needed: ["markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.90
+author: "sanjay3290"
 description: "Lightweight Gmail integration with standalone OAuth authentication. No MCP server required."
-license: Apache-2.0
-risk: critical
-source: community
-metadata:
-  author: sanjay3290
-  version: "1.0"
+license: "Apache-2.0"
+metadata: ""
+source: "community"
+version: "1.0"
 ---
-
 # Gmail
 
 Lightweight Gmail integration with standalone OAuth authentication. No MCP server required.

@@ -1,11 +1,17 @@
 ---
-name: plan-writing
-description: "Structured task planning with clear breakdowns, dependencies, and verification criteria. Use when implementing features, refactoring, or any multi-step work."
-risk: unknown
-source: community
+name: "plan-writing"
+tags: ["antigravity", "breakdown", "c:", "clear", "focused", "frontend", "gemini", "<YOUR_USERNAME>", "logical", "ordering", "overview", "plan", "principles", "small", "specialized", "task", "tasks", "users", "verification", "writing"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1000
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.75
 date_added: "2026-02-27"
+description: "Structured task planning with clear breakdowns, dependencies, and verification criteria. Use when implementing features, refactoring, or any multi-step work."
+source: "community"
 ---
-
 # Plan Writing
 
 > Source: obra/superpowers

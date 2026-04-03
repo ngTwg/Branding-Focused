@@ -1,11 +1,17 @@
 ---
-name: finishing-a-development-branch
-description: "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup"
-risk: critical
-source: community
+name: "finishing-a-development-branch"
+tags: ["a", "antigravity", "base", "branch", "c:", "determine", "development", "finishing", "frontend", "gemini", "<YOUR_USERNAME>", "overview", "process", "project", "run", "specialized", "step", "suite", "test", "tests"]
+tier: 2
+risk: "critical"
+estimated_tokens: 1098
+tools_needed: ["git", "markdown", "pytest", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.89
 date_added: "2026-02-27"
+description: "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup"
+source: "community"
 ---
-
 # Finishing a Development Branch
 
 ## Overview

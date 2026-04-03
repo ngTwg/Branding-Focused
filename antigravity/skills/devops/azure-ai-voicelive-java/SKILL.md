@@ -1,11 +1,17 @@
 ---
-name: azure-ai-voicelive-java
-description: Azure AI VoiceLive SDK for Java. Real-time bidirectional voice conversations with AI assistants using WebSocket.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "azure-ai-voicelive-java"
+tags: ["ai", "antigravity", "api", "authentication", "azure", "c:", "defaultazurecredential", "devops", "environment", "for", "frontend", "gemini", "installation", "java", "key", "<YOUR_USERNAME>", "recommended", "sdk", "users", "variables"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1837
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.91
+date_added: "2026-02-27"
+description: "Azure AI VoiceLive SDK for Java. Real-time bidirectional voice conversations with AI assistants using WebSocket."
+source: "community"
 ---
-
 # Azure AI VoiceLive SDK for Java
 
 Real-time, bidirectional voice conversations with AI assistants using WebSocket technology.

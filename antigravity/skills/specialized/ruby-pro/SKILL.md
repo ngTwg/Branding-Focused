@@ -1,11 +1,17 @@
 ---
-name: ruby-pro
-description: Write idiomatic Ruby code with metaprogramming, Rails patterns, and performance optimization. Specializes in Ruby on Rails, gem development, and testing frameworks.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "ruby-pro"
+tags: ["antigravity", "approach", "areas", "c:", "focus", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "output", "pro", "ruby", "skill", "specialized", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 444
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.63
+date_added: "2026-02-27"
+description: "Write idiomatic Ruby code with metaprogramming, Rails patterns, and performance optimization. Specializes in Ruby on Rails, gem development, and testing frameworks."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on ruby pro tasks or workflows

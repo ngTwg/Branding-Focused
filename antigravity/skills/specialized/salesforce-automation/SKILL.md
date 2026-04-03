@@ -1,11 +1,17 @@
 ---
-name: salesforce-automation
-description: "Automate Salesforce tasks via Rube MCP (Composio): leads, contacts, accounts, opportunities, SOQL queries. Always search tools first for current schemas."
-risk: critical
-source: community
+name: "salesforce-automation"
+tags: ["accounts", "and", "antigravity", "automation", "c:", "contacts", "core", "frontend", "gemini", "leads", "<YOUR_USERNAME>", "manage", "mcp", "prerequisites", "rube", "salesforce", "setup", "specialized", "users", "via"]
+tier: 2
+risk: "critical"
+estimated_tokens: 1738
+tools_needed: ["markdown", "mcp", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.85
 date_added: "2026-02-27"
+description: "Automate Salesforce tasks via Rube MCP (Composio): leads, contacts, accounts, opportunities, SOQL queries. Always search tools first for current schemas."
+source: "community"
 ---
-
 # Salesforce Automation via Rube MCP
 
 Automate Salesforce CRM operations through Composio's Salesforce toolkit via Rube MCP.

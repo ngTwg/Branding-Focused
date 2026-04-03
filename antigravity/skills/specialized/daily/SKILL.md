@@ -1,14 +1,20 @@
 ---
-name: daily
-description: Documentation and capabilities reference for Daily
-metadata:
-  mintlify-proj: daily
-  version: "1.0"
-risk: safe
-source: community
+name: "daily"
+tags: ["antigravity", "architecture", "audio", "c:", "capabilities", "daily", "frame", "frontend", "gemini", "input", "integration", "language", "<YOUR_USERNAME>", "model", "output", "pipeline", "processing", "recognition", "skills", "specialized"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3470
+tools_needed: ["docker", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.90
 date_added: "2026-03-07"
+description: "Documentation and capabilities reference for Daily"
+metadata: ""
+mintlify-proj: "daily"
+source: "community"
+version: "1.0"
 ---
-
 ## Capabilities
 
 Pipecat enables agents to build production-ready voice and multimodal AI applications with real-time processing. Agents can orchestrate complex AI service pipelines that handle audio, video, and text simultaneously while maintaining ultra-low latency (500-800ms round-trip). The framework abstracts away the complexity of coordinating multiple AI services, network transports, and audio processing, allowing agents to focus on application logic.

@@ -1,3 +1,14 @@
+---
+name: "NotebookLM Skill Troubleshooting Guide"
+tags: ["always", "and", "antigravity", "c:", "common", "correct", "critical", "fix", "frontend", "gemini", "guide", "issues", "<YOUR_USERNAME>", "never", "notebooklm", "quick", "references", "run", "skill", "solutions"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2247
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # NotebookLM Skill Troubleshooting Guide
 
 ## Quick Fix Table

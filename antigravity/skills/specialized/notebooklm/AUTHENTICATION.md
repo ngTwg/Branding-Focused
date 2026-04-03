@@ -1,3 +1,14 @@
+---
+name: "Authentication Architecture"
+tags: ["antigravity", "approach", "architecture", "authentication", "c:", "frontend", "gemini", "<YOUR_USERNAME>", "not", "notebooklm", "overview", "problem", "python", "specialized", "supported", "the", "this", "typescript", "users", "why"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1400
+tools_needed: ["git", "markdown", "mcp", "playwright"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.88
+---
 # Authentication Architecture
 
 ## Overview

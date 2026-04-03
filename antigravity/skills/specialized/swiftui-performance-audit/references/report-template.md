@@ -1,3 +1,14 @@
+---
+name: "Audit output template"
+tags: ["antigravity", "audit", "c:", "findings", "frontend", "gemini", "intent", "<YOUR_USERNAME>", "metrics", "output", "performance", "references", "report", "specialized", "summary", "swiftui", "template", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 300
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.67
+---
 # Audit output template
 
 ## Intent

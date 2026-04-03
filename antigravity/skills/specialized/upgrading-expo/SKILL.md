@@ -1,11 +1,17 @@
 ---
-name: upgrading-expo
-description: "Upgrade Expo SDK versions"
-risk: safe
-source: "https://github.com/expo/skills/tree/main/plugins/upgrading-expo"
+name: "upgrading-expo"
+tags: ["antigravity", "c:", "checklist", "expo", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "overview", "pre", "process", "skill", "specialized", "this", "upgrade", "upgrading", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 726
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.76
 date_added: "2026-02-27"
+description: "Upgrade Expo SDK versions"
+source: "https://github.com/expo/skills/tree/main/plugins/upgrading-expo"
 ---
-
 # Upgrading Expo
 
 ## Overview

@@ -1,10 +1,16 @@
 ---
-name: context-fundamentals
+name: "context-fundamentals"
+tags: ["anatomy", "and", "antigravity", "attention", "c:", "concepts", "context", "core", "detailed", "engineering", "frontend", "fundamentals", "gemini", "<YOUR_USERNAME>", "mechanics", "specialized", "the", "topics", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3003
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
 description: "Context is the complete state available to a language model at inference time. It includes everything the model can attend to when generating responses: system instructions, tool definitions, retrieved documents, message history, and tool outputs."
-risk: unknown
-source: community
+source: "community"
 ---
-
 # Context Engineering Fundamentals
 
 Context is the complete state available to a language model at inference time. It includes everything the model can attend to when generating responses: system instructions, tool definitions, retrieved documents, message history, and tool outputs. Understanding context fundamentals is prerequisite to effective context engineering.

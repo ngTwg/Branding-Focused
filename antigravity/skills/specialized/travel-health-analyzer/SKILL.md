@@ -1,11 +1,17 @@
 ---
-name: travel-health-analyzer
-description: 分析旅行健康数据、评估目的地健康风险、提供疫苗接种建议、生成多语言紧急医疗信息卡片。支持WHO/CDC数据集成的专业级旅行健康风险评估。
-allowed-tools: Read, Write, Grep, Glob
-risk: unknown
-source: community
+name: "travel-health-analyzer"
+tags: ["analyzer", "antigravity", "c:", "frontend", "gemini", "health", "<YOUR_USERNAME>", "specialized", "thailand", "travel", "users", "技能功能", "旅行健康分析技能", "旅行健康规划分析", "目的地健康风险评估", "重要医学免责声明"]
+tier: 4
+risk: "medium"
+estimated_tokens: 1267
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.89
+allowed-tools: "Read, Write, Grep, Glob"
+description: "分析旅行健康数据、评估目的地健康风险、提供疫苗接种建议、生成多语言紧急医疗信息卡片。支持WHO/CDC数据集成的专业级旅行健康风险评估。"
+source: "community"
 ---
-
 # 旅行健康分析技能
 
 ## 🚨 重要医学免责声明

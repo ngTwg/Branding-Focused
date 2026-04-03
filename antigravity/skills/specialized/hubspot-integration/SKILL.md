@@ -1,11 +1,17 @@
 ---
-name: hubspot-integration
-description: "Authentication for single-account integrations"
-risk: unknown
-source: "vibeship-spawner-skills (Apache 2.0)"
+name: "hubspot-integration"
+tags: ["anti", "antigravity", "app", "authentication", "backend", "c:", "crm", "crud", "gemini", "hubspot", "integration", "<YOUR_USERNAME>", "oauth", "object", "operations", "patterns", "private", "specialized", "token", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 246
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.65
 date_added: "2026-02-27"
+description: "Authentication for single-account integrations"
+source: "vibeship-spawner-skills (Apache 2.0)"
 ---
-
 # HubSpot Integration
 
 ## Patterns

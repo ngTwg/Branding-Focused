@@ -1,11 +1,17 @@
 ---
-name: reddit-automation
-description: "Automate Reddit tasks via Rube MCP (Composio): search subreddits, create posts, manage comments, and browse top content. Always search tools first for current schemas."
-risk: critical
-source: community
+name: "reddit-automation"
+tags: ["antigravity", "automation", "c:", "core", "create", "frontend", "gemini", "<YOUR_USERNAME>", "mcp", "posts", "prerequisites", "reddit", "rube", "search", "setup", "specialized", "users", "via", "workflows"]
+tier: 2
+risk: "critical"
+estimated_tokens: 1999
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.90
 date_added: "2026-02-27"
+description: "Automate Reddit tasks via Rube MCP (Composio): search subreddits, create posts, manage comments, and browse top content. Always search tools first for current schemas."
+source: "community"
 ---
-
 # Reddit Automation via Rube MCP
 
 Automate Reddit operations through Composio's Reddit toolkit via Rube MCP.

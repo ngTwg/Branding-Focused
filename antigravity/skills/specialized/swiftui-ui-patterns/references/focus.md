@@ -1,3 +1,14 @@
+---
+name: "Focus handling and field chaining"
+tags: ["and", "antigravity", "c:", "chained", "chaining", "core", "dynamic", "enum", "example", "field", "fields", "focus", "for", "frontend", "gemini", "handling", "intent", "<YOUR_USERNAME>", "patterns", "references"]
+tier: 2
+risk: "medium"
+estimated_tokens: 597
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.75
+---
 # Focus handling and field chaining
 
 ## Intent

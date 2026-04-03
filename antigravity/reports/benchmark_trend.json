@@ -1,0 +1,189 @@
+{
+  "timestamp": "2026-04-02T02:28:35.968001+00:00",
+  "total_reports": 21,
+  "suites": {
+    "quick": {
+      "runs": 18,
+      "latest_duration_sec": 24.582,
+      "median_duration_sec": 40.951,
+      "min_duration_sec": 24.582,
+      "max_duration_sec": 76.375,
+      "latest_failed": 0,
+      "total_failed_runs": 0,
+      "delta_pct_first_to_latest": -19.913,
+      "points": [
+        {
+          "timestamp": "2026-04-01T18:46:45.716545+00:00",
+          "duration_sec": 30.694,
+          "failed": 0,
+          "ok": 3,
+          "file": "C:\\Users\\lengo\\.gemini\\antigravity\\reports\\benchmark_pack_20260402_014645.json"
+        },
+        {
+          "timestamp": "2026-04-01T18:50:17.198642+00:00",
+          "duration_sec": 38.698,
+          "failed": 0,
+          "ok": 3,
+          "file": "C:\\Users\\lengo\\.gemini\\antigravity\\reports\\benchmark_pack_20260402_015017.json"
+        },
+        {
+          "timestamp": "2026-04-01T19:04:10.915787+00:00",
+          "duration_sec": 41.899,
+          "failed": 0,
+          "ok": 3,
+          "file": "C:\\Users\\lengo\\.gemini\\antigravity\\reports\\benchmark_pack_20260402_020410.json"
+        },
+        {
+          "timestamp": "2026-04-01T19:16:15.741885+00:00",
+          "duration_sec": 25.66,
+          "failed": 0,
+          "ok": 3,
+          "file": "C:\\Users\\lengo\\.gemini\\antigravity\\reports\\benchmark_pack_20260402_021615.json"
+        },
+        {
+          "timestamp": "2026-04-01T19:31:05.344089+00:00",
+          "duration_sec": 40.003,
+          "failed": 0,
+          "ok": 3,
+          "file": "C:\\Users\\lengo\\.gemini\\antigravity\\reports\\benchmark_pack_20260402_023105.json"
+        },
+        {
+          "timestamp": "2026-04-01T19:34:50.357162+00:00",
+          "duration_sec": 38.749,
+          "failed": 0,
+          "ok": 3,
+          "file": "C:\\Users\\lengo\\.gemini\\antigravity\\reports\\benchmark_pack_20260402_023450.json"
+        },
+        {
+          "timestamp": "2026-04-01T19:35:23.680864+00:00",
+          "duration_sec": 32.377,
+          "failed": 0,
+          "ok": 3,
+          "file": "C:\\Users\\lengo\\.gemini\\antigravity\\reports\\benchmark_pack_20260402_023523.json"
+        },
+        {
+          "timestamp": "2026-04-01T19:50:08.030700+00:00",
+          "duration_sec": 53.521,
+          "failed": 0,
+          "ok": 3,
+          "file": "C:\\Users\\lengo\\.gemini\\antigravity\\reports\\benchmark_pack_20260402_025008.json"
+        },
+        {
+          "timestamp": "2026-04-01T20:13:53.843927+00:00",
+          "duration_sec": 47.681,
+          "failed": 0,
+          "ok": 3,
+          "file": "C:\\Users\\lengo\\.gemini\\antigravity\\reports\\benchmark_pack_20260402_031353.json"
+        },
+        {
+          "timestamp": "2026-04-01T20:20:32.723780+00:00",
+          "duration_sec": 29.965,
+          "failed": 0,
+          "ok": 3,
+          "file": "C:\\Users\\lengo\\.gemini\\antigravity\\reports\\benchmark_pack_20260402_032032.json"
+        },
+        {
+          "timestamp": "2026-04-02T02:09:08.579521+00:00",
+          "duration_sec": 68.962,
+          "failed": 0,
+          "ok": 3,
+          "file": "C:\\Users\\lengo\\.gemini\\antigravity\\reports\\benchmark_pack_20260402_090908.json"
+        },
+        {
+          "timestamp": "2026-04-02T02:10:19.954104+00:00",
+          "duration_sec": 42.603,
+          "failed": 0,
+          "ok": 3,
+          "file": "C:\\Users\\lengo\\.gemini\\antigravity\\reports\\benchmark_pack_20260402_091019.json"
+        },
+        {
+          "timestamp": "2026-04-02T02:14:52.472743+00:00",
+          "duration_sec": 76.375,
+          "failed": 0,
+          "ok": 3,
+          "file": "C:\\Users\\lengo\\.gemini\\antigravity\\reports\\benchmark_pack_20260402_091452.json"
+        },
+        {
+          "timestamp": "2026-04-02T02:15:03.399247+00:00",
+          "duration_sec": 67.703,
+          "failed": 0,
+          "ok": 3,
+          "file": "C:\\Users\\lengo\\.gemini\\antigravity\\reports\\benchmark_pack_20260402_091503.json"
+        },
+        {
+          "timestamp": "2026-04-02T02:16:25.016618+00:00",
+          "duration_sec": 55.507,
+          "failed": 0,
+          "ok": 3,
+          "file": "C:\\Users\\lengo\\.gemini\\antigravity\\reports\\benchmark_pack_20260402_091625.json"
+        },
+        {
+          "timestamp": "2026-04-02T02:20:23.730317+00:00",
+          "duration_sec": 45.836,
+          "failed": 0,
+          "ok": 3,
+          "file": "C:\\Users\\lengo\\.gemini\\antigravity\\reports\\benchmark_pack_20260402_092023.json"
+        },
+        {
+          "timestamp": "2026-04-02T02:28:35.897637+00:00",
+          "duration_sec": 24.582,
+          "failed": 0,
+          "ok": 3,
+          "file": "C:\\Users\\lengo\\.gemini\\antigravity\\reports\\benchmark_pack_20260402_092835.json"
+        },
+        {
+          "timestamp": "2026-04-02T02:28:35.897637+00:00",
+          "duration_sec": 24.582,
+          "failed": 0,
+          "ok": 3,
+          "file": "C:\\Users\\lengo\\.gemini\\antigravity\\reports\\benchmark_pack_latest.json"
+        }
+      ]
+    },
+    "stable": {
+      "runs": 1,
+      "latest_duration_sec": 42.891,
+      "median_duration_sec": 42.891,
+      "min_duration_sec": 42.891,
+      "max_duration_sec": 42.891,
+      "latest_failed": 0,
+      "total_failed_runs": 0,
+      "delta_pct_first_to_latest": 0.0,
+      "points": [
+        {
+          "timestamp": "2026-04-01T19:18:20.854449+00:00",
+          "duration_sec": 42.891,
+          "failed": 0,
+          "ok": 6,
+          "file": "C:\\Users\\lengo\\.gemini\\antigravity\\reports\\benchmark_pack_20260402_021820.json"
+        }
+      ]
+    },
+    "full": {
+      "runs": 2,
+      "latest_duration_sec": 159.661,
+      "median_duration_sec": 117.308,
+      "min_duration_sec": 74.955,
+      "max_duration_sec": 159.661,
+      "latest_failed": 0,
+      "total_failed_runs": 1,
+      "delta_pct_first_to_latest": 113.009,
+      "points": [
+        {
+          "timestamp": "2026-04-01T19:19:45.758991+00:00",
+          "duration_sec": 74.955,
+          "failed": 1,
+          "ok": 2,
+          "file": "C:\\Users\\lengo\\.gemini\\antigravity\\reports\\benchmark_pack_20260402_021945.json"
+        },
+        {
+          "timestamp": "2026-04-01T19:23:16.812688+00:00",
+          "duration_sec": 159.661,
+          "failed": 0,
+          "ok": 3,
+          "file": "C:\\Users\\lengo\\.gemini\\antigravity\\reports\\benchmark_pack_20260402_022316.json"
+        }
+      ]
+    }
+  }
+}

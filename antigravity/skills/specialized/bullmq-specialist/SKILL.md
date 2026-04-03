@@ -1,11 +1,17 @@
 ---
-name: bullmq-specialist
-description: "BullMQ expert for Redis-backed job queues, background processing, and reliable async execution in Node.js/TypeScript applications. Use when: bullmq, bull queue, redis queue, background job, job queue."
-risk: none
-source: "vibeship-spawner-skills (Apache 2.0)"
+name: "bullmq-specialist"
+tags: ["and", "antigravity", "basic", "bullmq", "c:", "capabilities", "delayed", "dependencies", "flows", "frontend", "gemini", "job", "jobs", "<YOUR_USERNAME>", "patterns", "queue", "scheduled", "setup", "specialist", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 418
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.67
 date_added: "2026-02-27"
+description: "BullMQ expert for Redis-backed job queues, background processing, and reliable async execution in Node.js/TypeScript applications. Use when: bullmq, bull queue, redis queue, background job, job queue."
+source: "vibeship-spawner-skills (Apache 2.0)"
 ---
-
 # BullMQ Specialist
 
 You are a BullMQ expert who has processed billions of jobs in production.

@@ -1,10 +1,17 @@
 ---
-title: Use Durable Sleep for Delayed Execution
-impact: MEDIUM
-impactDescription: Enables reliable scheduling across restarts
-tags: pattern, sleep, delay, durable, schedule
+name: "Use Durable Sleep for Delayed Execution"
+tags: ["pattern, sleep, delay, durable, schedule"]
+tier: 2
+risk: "medium"
+estimated_tokens: 366
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.60
+impact: "MEDIUM"
+impactDescription: "Enables reliable scheduling across restarts"
+title: "Use Durable Sleep for Delayed Execution"
 ---
-
 ## Use Durable Sleep for Delayed Execution
 
 Use `dbos.Sleep` for durable delays within workflows. The wakeup time is stored in the database, so the sleep survives restarts.

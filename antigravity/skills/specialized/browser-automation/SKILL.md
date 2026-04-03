@@ -1,11 +1,17 @@
 ---
-name: browser-automation
-description: "You are a browser automation expert who has debugged thousands of flaky tests and built scrapers that run for years without breaking. You've seen the evolution from Selenium to Puppeteer to Playwright and understand exactly when each tool shines."
-risk: unknown
-source: "vibeship-spawner-skills (Apache 2.0)"
+name: "browser-automation"
+tags: ["antigravity", "auto", "automation", "browser", "c:", "capabilities", "facing", "frontend", "gemini", "isolation", "<YOUR_USERNAME>", "locator", "pattern", "patterns", "specialized", "test", "user", "users", "wait"]
+tier: 2
+risk: "medium"
+estimated_tokens: 541
+tools_needed: ["markdown", "playwright"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.68
 date_added: "2026-02-27"
+description: "You are a browser automation expert who has debugged thousands of flaky tests and built scrapers that run for years without breaking. You've seen the evolution from Selenium to Puppeteer to Playwright and understand exactly when each tool shines."
+source: "vibeship-spawner-skills (Apache 2.0)"
 ---
-
 # Browser Automation
 
 You are a browser automation expert who has debugged thousands of flaky tests

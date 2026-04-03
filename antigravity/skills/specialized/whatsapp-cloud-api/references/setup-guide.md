@@ -1,3 +1,14 @@
+---
+name: "Guia Completo de Setup - WhatsApp Business Cloud API"
+tags: ["antigravity", "api", "business", "c:", "cloud", "completo", "comuns", "conta", "criar", "erros", "frontend", "gemini", "guia", "guide", "<YOUR_USERNAME>", "meta", "passo", "pre", "procedimento", "references"]
+tier: 2
+risk: "medium"
+estimated_tokens: 5809
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Guia Completo de Setup - WhatsApp Business Cloud API
 
 > Do zero absoluto ate o envio da primeira mensagem em producao.

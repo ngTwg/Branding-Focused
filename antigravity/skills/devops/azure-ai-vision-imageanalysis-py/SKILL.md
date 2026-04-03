@@ -1,11 +1,17 @@
 ---
-name: azure-ai-vision-imageanalysis-py
-description: Azure AI Vision Image Analysis SDK for captions, tags, objects, OCR, people detection, and smart cropping. Use for computer vision and image understanding tasks.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "azure-ai-vision-imageanalysis-py"
+tags: ["ai", "analysis", "antigravity", "api", "authentication", "azure", "backend", "c:", "devops", "entra", "environment", "for", "gemini", "image", "imageanalysis", "installation", "key", "<YOUR_USERNAME>", "py", "python"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1674
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.92
+date_added: "2026-02-27"
+description: "Azure AI Vision Image Analysis SDK for captions, tags, objects, OCR, people detection, and smart cropping. Use for computer vision and image understanding tasks."
+source: "community"
 ---
-
 # Azure AI Vision Image Analysis SDK for Python
 
 Client library for Azure AI Vision 4.0 image analysis including captions, tags, objects, OCR, and more.

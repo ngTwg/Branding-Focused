@@ -1,3 +1,14 @@
+---
+name: "OpenAPI Spec Generation Implementation Playbook"
+tags: ["antigravity", "approaches", "c:", "concepts", "core", "design", "frontend", "gemini", "generation", "implementation", "<YOUR_USERNAME>", "openapi", "playbook", "resources", "skill", "spec", "specialized", "structure", "this", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 6141
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # OpenAPI Spec Generation Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

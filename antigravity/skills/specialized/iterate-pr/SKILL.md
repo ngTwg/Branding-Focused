@@ -1,10 +1,16 @@
 ---
-name: iterate-pr
-description: Iterate on a PR until CI passes. Use when you need to fix CI failures, address review feedback, or continuously push fixes until all checks are green. Automates the feedback-fix-push-wait cycle.
-risk: critical
-source: community
+name: "iterate-pr"
+tags: ["antigravity", "bundled", "c:", "fetch_pr_checks", "fetch_pr_feedback", "frontend", "gemini", "identify", "iterate", "<YOUR_USERNAME>", "passes", "pr", "scripts", "specialized", "until", "users", "workflow"]
+tier: 3
+risk: "critical"
+estimated_tokens: 1877
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+description: "Iterate on a PR until CI passes. Use when you need to fix CI failures, address review feedback, or continuously push fixes until all checks are green. Automates the feedback-fix-push-wait cycle."
+source: "community"
 ---
-
 # Iterate on PR Until CI Passes
 
 Continuously iterate on the current branch until all CI checks pass and review feedback is addressed.

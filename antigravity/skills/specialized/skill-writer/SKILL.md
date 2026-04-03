@@ -1,10 +1,16 @@
 ---
-name: skill-writer
-description: Create and improve agent skills following the Agent Skills specification. Use when asked to create, write, or update skills.
-risk: unknown
-source: community
+name: "skill-writer"
+tags: ["and", "antigravity", "artifacts", "author", "c:", "description", "examples", "first", "from", "frontend", "gemini", "improving", "iteration", "<YOUR_USERNAME>", "needed", "optimize", "outcomes", "path", "quality", "resolve"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1186
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.74
+description: "Create and improve agent skills following the Agent Skills specification. Use when asked to create, write, or update skills."
+source: "community"
 ---
-
 # Skill Writer
 
 Use this as the single canonical workflow for skill creation and improvement.

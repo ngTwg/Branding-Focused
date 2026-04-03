@@ -1,3 +1,14 @@
+---
+name: "E-E-A-T Evaluation Framework"
+tags: ["2025", "antigravity", "c:", "core", "critical", "december", "eeat", "evaluation", "framework", "frontend", "gemini", "google", "guidelines", "implications", "<YOUR_USERNAME>", "life", "money", "overview", "per", "plus"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1863
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.77
+---
 # E-E-A-T Evaluation Framework
 ## Updated per Google Quality Rater Guidelines: September 11, 2025
 ## Plus December 2025 Core Update Implications

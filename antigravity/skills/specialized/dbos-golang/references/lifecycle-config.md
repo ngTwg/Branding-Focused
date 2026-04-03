@@ -1,10 +1,17 @@
 ---
-title: Configure and Launch DBOS Properly
-impact: CRITICAL
-impactDescription: Application won't function without proper setup
-tags: configuration, launch, setup, initialization
+name: "Configure and Launch DBOS Properly"
+tags: ["configuration, launch, setup, initialization"]
+tier: 2
+risk: "medium"
+estimated_tokens: 516
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.58
+impact: "CRITICAL"
+impactDescription: "Application won't function without proper setup"
+title: "Configure and Launch DBOS Properly"
 ---
-
 ## Configure and Launch DBOS Properly
 
 Every DBOS application must create a context, register workflows and queues, then launch before running any workflows.

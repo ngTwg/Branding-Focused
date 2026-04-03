@@ -1,0 +1,75 @@
+{
+  "timestamp": "2026-04-02T02:27:55.327423+00:00",
+  "internal": {
+    "total_markdown": 2787,
+    "counts": {
+      "packaging": 973,
+      "persona": 922,
+      "security": 967,
+      "discoverability": 1586,
+      "governance": 1166
+    },
+    "density": {
+      "packaging": 0.3491209185504126,
+      "persona": 0.330821672048798,
+      "security": 0.34696806602081093,
+      "discoverability": 0.5690706853247219,
+      "governance": 0.4183710082526014
+    }
+  },
+  "external": {
+    "total_markdown": 22470,
+    "counts": {
+      "packaging": 3328,
+      "persona": 2976,
+      "security": 4751,
+      "discoverability": 4596,
+      "governance": 5363
+    },
+    "density": {
+      "packaging": 0.14810858923008455,
+      "persona": 0.13244325767690254,
+      "security": 0.21143747218513573,
+      "discoverability": 0.20453938584779707,
+      "governance": 0.23867378727191813
+    }
+  },
+  "gaps": [
+    {
+      "group": "security",
+      "external_density": 0.21143747218513573,
+      "internal_density": 0.34696806602081093,
+      "gap": -0.1355305938356752,
+      "priority": "low"
+    },
+    {
+      "group": "governance",
+      "external_density": 0.23867378727191813,
+      "internal_density": 0.4183710082526014,
+      "gap": -0.17969722098068325,
+      "priority": "low"
+    },
+    {
+      "group": "persona",
+      "external_density": 0.13244325767690254,
+      "internal_density": 0.330821672048798,
+      "gap": -0.19837841437189543,
+      "priority": "low"
+    },
+    {
+      "group": "packaging",
+      "external_density": 0.14810858923008455,
+      "internal_density": 0.3491209185504126,
+      "gap": -0.20101232932032806,
+      "priority": "low"
+    },
+    {
+      "group": "discoverability",
+      "external_density": 0.20453938584779707,
+      "internal_density": 0.5690706853247219,
+      "gap": -0.36453129947692486,
+      "priority": "low"
+    }
+  ],
+  "applied_merges": []
+}

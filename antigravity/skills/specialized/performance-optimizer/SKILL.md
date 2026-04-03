@@ -1,12 +1,18 @@
 ---
-name: performance-optimizer
-description: "Identifies and fixes performance bottlenecks in code, databases, and APIs. Measures before and after to prove improvements."
-category: development
-risk: safe
-source: community
+name: "performance-optimizer"
+tags: ["antigravity", "bottleneck", "c:", "find", "first", "frontend", "gemini", "<YOUR_USERNAME>", "measure", "optimization", "optimize", "optimizer", "performance", "process", "skill", "specialized", "the", "this", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2128
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+category: "development"
 date_added: "2026-03-05"
+description: "Identifies and fixes performance bottlenecks in code, databases, and APIs. Measures before and after to prove improvements."
+source: "community"
 ---
-
 # Performance Optimizer
 
 Find and fix performance bottlenecks. Measure, optimize, verify. Make it fast.

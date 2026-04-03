@@ -1,11 +1,17 @@
 ---
-name: azure-eventhub-java
-description: "Build real-time streaming applications with Azure Event Hubs SDK for Java. Use when implementing event streaming, high-throughput data ingestion, or building event-driven architectures."
-risk: unknown
-source: community
+name: "azure-eventhub-java"
+tags: ["antigravity", "azure", "c:", "client", "creation", "defaultazurecredential", "devops", "event", "eventhub", "eventhubconsumerclient", "eventhubproducerclient", "for", "frontend", "gemini", "hubs", "installation", "java", "<YOUR_USERNAME>", "sdk", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2621
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
 date_added: "2026-02-27"
+description: "Build real-time streaming applications with Azure Event Hubs SDK for Java. Use when implementing event streaming, high-throughput data ingestion, or building event-driven architectures."
+source: "community"
 ---
-
 # Azure Event Hubs SDK for Java
 
 Build real-time streaming applications using the Azure Event Hubs SDK for Java.

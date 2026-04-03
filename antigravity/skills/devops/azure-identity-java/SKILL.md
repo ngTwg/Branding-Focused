@@ -1,11 +1,17 @@
 ---
-name: azure-identity-java
-description: "Authenticate Java applications with Azure services using Microsoft Entra ID (Azure AD)."
-risk: unknown
-source: community
+name: "azure-identity-java"
+tags: ["antigravity", "azure", "c:", "concepts", "configure", "defaultazurecredential", "devops", "frontend", "gemini", "identity", "installation", "java", "key", "<YOUR_USERNAME>", "managed", "recommended", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2754
+tools_needed: ["kubernetes", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.96
 date_added: "2026-02-27"
+description: "Authenticate Java applications with Azure services using Microsoft Entra ID (Azure AD)."
+source: "community"
 ---
-
 # Azure Identity (Java)
 
 Authenticate Java applications with Azure services using Microsoft Entra ID (Azure AD).

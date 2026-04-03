@@ -1,10 +1,17 @@
 ---
-title: Conditional Module Loading
-impact: HIGH
-impactDescription: loads large data only when needed
-tags: bundle, conditional-loading, lazy-loading
+name: "Conditional Module Loading"
+tags: ["bundle, conditional-loading, lazy-loading"]
+tier: 2
+risk: "medium"
+estimated_tokens: 216
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.53
+impact: "HIGH"
+impactDescription: "loads large data only when needed"
+title: "Conditional Module Loading"
 ---
-
 ## Conditional Module Loading
 
 Load large data or modules only when a feature is activated.

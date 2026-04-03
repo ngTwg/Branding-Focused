@@ -1,9 +1,16 @@
 ---
-name: employment-workforce
-description: Agent templates governing hiring, independent contractors, restrictive covenants, and IP assignment.
-jurisdictions: [USA, Canada, EU]
+name: "employment-workforce"
+tags: ["02", "agent", "antigravity", "c:", "contract", "employment", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "lex", "nuances", "official", "references", "specialized", "templates", "types", "users", "workforce"]
+tier: 2
+risk: "medium"
+estimated_tokens: 732
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.61
+description: "Agent templates governing hiring, independent contractors, restrictive covenants, and IP assignment."
+jurisdictions: "[USA, Canada, EU]"
 ---
-
 # Employment & Workforce Templates
 
 These templates dictate the relationship between a business and its workforce. This domain exhibits the highest variance across global jurisdictions.

@@ -1,3 +1,14 @@
+---
+name: "Feature Building"
+tags: ["analysis", "antigravity", "app", "builder", "building", "c:", "enhancement", "error", "feature", "frontend", "gemini", "handling", "iterative", "<YOUR_USERNAME>", "process", "recovery", "specialized", "strategy", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 263
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.66
+---
 # Feature Building
 
 > How to analyze and implement new features.

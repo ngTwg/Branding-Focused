@@ -1,11 +1,17 @@
 ---
-name: doc-coauthoring
-description: "This skill provides a structured workflow for guiding users through collaborative document creation. Act as an active guide, walking users through three stages: Context Gathering, Refinement & Structure, and Reader Testing."
-risk: unknown
-source: community
+name: "doc-coauthoring"
+tags: ["antigravity", "authoring", "c:", "coauthoring", "context", "doc", "dumping", "frontend", "gathering", "gemini", "info", "initial", "<YOUR_USERNAME>", "offer", "questions", "refinement", "specialized", "stage", "structure", "this"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3943
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 date_added: "2026-02-27"
+description: "This skill provides a structured workflow for guiding users through collaborative document creation. Act as an active guide, walking users through three stages: Context Gathering, Refinement & Structure, and Reader Testing."
+source: "community"
 ---
-
 # Doc Co-Authoring Workflow
 
 This skill provides a structured workflow for guiding users through collaborative document creation. Act as an active guide, walking users through three stages: Context Gathering, Refinement & Structure, and Reader Testing.

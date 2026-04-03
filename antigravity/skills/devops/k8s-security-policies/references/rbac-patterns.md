@@ -1,3 +1,14 @@
+---
+name: "RBAC Patterns and Best Practices"
+tags: ["access", "admin", "and", "antigravity", "backend", "best", "c:", "common", "deployment", "devops", "gemini", "k8s", "<YOUR_USERNAME>", "manager", "namespace", "only", "pattern", "patterns", "policies", "practices"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1019
+tools_needed: ["kubernetes", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.85
+---
 # RBAC Patterns and Best Practices
 
 ## Common RBAC Patterns

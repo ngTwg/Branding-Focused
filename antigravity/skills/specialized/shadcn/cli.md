@@ -1,3 +1,14 @@
+---
+name: "shadcn CLI Reference"
+tags: ["add", "all", "antigravity", "c:", "changes", "cli", "commands", "components", "contents", "create", "frontend", "gemini", "init", "initialize", "<YOUR_USERNAME>", "preview", "project", "reference", "shadcn", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3728
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # shadcn CLI Reference
 
 Configuration is read from `components.json`.

@@ -1,11 +1,17 @@
 ---
-name: c4-architecture-c4-architecture
-description: "Generate comprehensive C4 architecture documentation for an existing repository/codebase using a bottom-up analysis approach."
-risk: unknown
-source: community
+name: "c4-architecture-c4-architecture"
+tags: ["analysis", "antigravity", "architecture", "bottom", "c4", "c:", "code", "documentation", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "level", "not", "overview", "phase", "skill", "specialized", "this", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4128
+tools_needed: ["docker", "git", "kubernetes", "markdown", "sql", "terminal", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
 date_added: "2026-02-27"
+description: "Generate comprehensive C4 architecture documentation for an existing repository/codebase using a bottom-up analysis approach."
+source: "community"
 ---
-
 # C4 Architecture Documentation Workflow
 
 Generate comprehensive C4 architecture documentation for an existing repository/codebase using a bottom-up analysis approach.

@@ -1,10 +1,16 @@
 ---
-name: debug-buttercup
+name: "debug-buttercup"
+tags: ["and", "antigravity", "buttercup", "c:", "crashloopbackoff", "debug", "for", "frontend", "gemini", "<YOUR_USERNAME>", "look", "namespace", "not", "oomkilled", "pod", "restarts", "services", "status", "triage", "use"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2392
+tools_needed: ["docker", "kubernetes", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 description: "All pods run in namespace crs. Use when pods in the crs namespace are in CrashLoopBackOff, OOMKilled, or restarting, multiple services restart simultaneously (cascade failure), or redis is unresponsive or showing AOF warnings."
-risk: unknown
-source: community
+source: "community"
 ---
-
 # Debug Buttercup
 
 ## When to Use

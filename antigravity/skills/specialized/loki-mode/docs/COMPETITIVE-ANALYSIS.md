@@ -1,3 +1,14 @@
+---
+name: "Loki Mode Competitive Analysis"
+tags: ["analysis", "antigravity", "c:", "claude", "comparison", "competitive", "competitor", "detailed", "docs", "executive", "factual", "flow", "frontend", "gemini", "<YOUR_USERNAME>", "loki", "metagpt", "mode", "specialized", "stars"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2974
+tools_needed: ["docker", "git", "markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.79
+---
 # Loki Mode Competitive Analysis
 
 *Last Updated: 2026-01-05*

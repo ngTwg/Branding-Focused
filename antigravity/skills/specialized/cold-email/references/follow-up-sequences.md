@@ -1,3 +1,14 @@
+---
+name: "Follow-Up Sequences"
+tags: ["angle", "antigravity", "breakup", "c:", "cadence", "cold", "email", "emails", "follow", "frontend", "gemini", "how", "kill", "<YOUR_USERNAME>", "many", "optimal", "phrases", "rates", "references", "response"]
+tier: 1
+risk: "medium"
+estimated_tokens: 958
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.68
+---
 # Follow-Up Sequences
 
 55% of replies come from follow-ups, not the initial email. Yet 48% of salespeople never follow up even once.

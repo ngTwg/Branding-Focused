@@ -1,4 +1,15 @@
 ---
+name: "SKILL DE RISCO — AUDITOR DE RISCO EM LEILÕES"
+tags: ["antigravity", "auditor", "c:", "categoria", "frontend", "gemini", "how", "jurídicos", "leiloeiro", "leilões", "<YOUR_USERNAME>", "not", "overview", "risco", "riscos", "skill", "specialized", "this", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4446
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
+---
 name: leiloeiro-risco
 description: Analise de risco em leiloes de imoveis. Score 36 pontos, riscos juridicos/financeiros/operacionais, stress test 4 cenarios e ROI ponderado por risco.
 risk: safe

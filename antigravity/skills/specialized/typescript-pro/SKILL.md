@@ -1,9 +1,16 @@
 ---
-name: typescript-pro
-description: Master TypeScript with advanced types, generics, and strict type safety. Handles complex type systems, decorators, and enterprise-grade patterns.
-risk: safe
-source: community
-date_added: '2026-02-27'
+name: "typescript-pro"
+tags: ["antigravity", "approach", "areas", "c:", "focus", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "output", "pro", "skill", "specialized", "this", "typescript", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 523
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.64
+date_added: "2026-02-27"
+description: "Master TypeScript with advanced types, generics, and strict type safety. Handles complex type systems, decorators, and enterprise-grade patterns."
+source: "community"
 ---
 You are a TypeScript expert specializing in advanced typing and enterprise-grade development.
 

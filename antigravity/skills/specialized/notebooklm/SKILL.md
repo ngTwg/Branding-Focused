@@ -1,8 +1,15 @@
 ---
-name: notebooklm
-description: Use this skill to query your Google NotebookLM notebooks directly from Claude Code for source-grounded, citation-backed answers from Gemini. Browser automation, library management, persistent auth. Drastically reduced hallucinations through document-only responses.
+name: "notebooklm"
+tags: ["about", "add", "always", "antigravity", "assistant", "c:", "command", "content", "critical", "discovered", "discovery", "frontend", "gemini", "information", "its", "<YOUR_USERNAME>", "notebook", "notebooklm", "query", "research"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2352
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.96
+description: "Use this skill to query your Google NotebookLM notebooks directly from Claude Code for source-grounded, citation-backed answers from Gemini. Browser automation, library management, persistent auth. Drastically reduced hallucinations through document-only responses."
 ---
-
 # NotebookLM Research Assistant Skill
 
 Interact with Google NotebookLM to query documentation with Gemini's source-grounded answers. Each question opens a fresh browser session, retrieves the answer exclusively from your uploaded documents, and closes.

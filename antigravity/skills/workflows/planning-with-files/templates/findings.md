@@ -1,3 +1,14 @@
+---
+name: "Findings & Decisions"
+tags: ["antigravity", "c:", "decisions", "encountered", "files", "findings", "frontend", "gemini", "issues", "<YOUR_USERNAME>", "planning", "requirements", "research", "resources", "technical", "templates", "users", "with", "workflows"]
+tier: 2
+risk: "medium"
+estimated_tokens: 890
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.67
+---
 # Findings & Decisions
 <!-- 
   WHAT: Your knowledge base for the task. Stores everything you discover and decide.

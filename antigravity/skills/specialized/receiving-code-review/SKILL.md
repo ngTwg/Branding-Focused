@@ -1,11 +1,17 @@
 ---
-name: receiving-code-review
-description: "Code review requires technical evaluation, not emotional performance."
-risk: unknown
-source: community
+name: "receiving-code-review"
+tags: ["antigravity", "c:", "code", "feedback", "forbidden", "frontend", "gemini", "handling", "<YOUR_USERNAME>", "overview", "pattern", "receiving", "reception", "response", "responses", "review", "source", "specialized", "specific", "the"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1568
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.94
 date_added: "2026-02-27"
+description: "Code review requires technical evaluation, not emotional performance."
+source: "community"
 ---
-
 # Code Review Reception
 
 ## Overview

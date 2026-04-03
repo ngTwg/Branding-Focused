@@ -1,3 +1,14 @@
+---
+name: "Task 018: E2E Testing Documentation"
+tags: ["018", "antigravity", "app", "build", "c:", "detailed", "document", "documentation", "e2e", "e2e_verification_report", "examples", "frontend", "gemini", "generated", "<YOUR_USERNAME>", "loki", "mode", "original", "overview", "quick"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2117
+tools_needed: ["docker", "git", "markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.85
+---
 # Task 018: E2E Testing Documentation
 
 This directory contains comprehensive testing and verification documentation for the Loki Mode autonomous Todo application project.

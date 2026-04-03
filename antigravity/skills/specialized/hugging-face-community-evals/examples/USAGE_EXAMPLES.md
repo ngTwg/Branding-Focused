@@ -1,3 +1,14 @@
+---
+name: "Usage Examples"
+tags: ["antigravity", "c:", "community", "cover", "covers", "does", "evals", "examples", "face", "frontend", "gemini", "hugging", "inspect", "<YOUR_USERNAME>", "not", "quick", "setup", "skill", "smoke", "specialized"]
+tier: 3
+risk: "medium"
+estimated_tokens: 515
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.82
+---
 # Usage Examples
 
 This document provides practical examples for **running evaluations locally** against Hugging Face Hub models.

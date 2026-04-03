@@ -1,3 +1,14 @@
+---
+name: "NAMING CONVENTIONS - QUY TẮC ĐẶT TÊN BẮT BUỘC"
+tags: ["antigravity", "buộc", "bắt", "c:", "chi", "chuẩn", "code", "conventions", "frontend", "gemini", "gặp", "hay", "<YOUR_USERNAME>", "naming", "như", "này", "overview", "quy", "rules", "sinh"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3168
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # NAMING CONVENTIONS - QUY TẮC ĐẶT TÊN BẮT BUỘC
 
 > **Tier:** 1-2 (Foundation)  

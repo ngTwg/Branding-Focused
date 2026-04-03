@@ -1,3 +1,14 @@
+---
+name: "System Design Workflows"
+tags: ["advanced", "and", "antigravity", "architect", "best", "c:", "design", "frontend", "gemini", "guidelines", "implementation", "<YOUR_USERNAME>", "overview", "pattern", "patterns", "practice", "practices", "references", "senior", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 405
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.70
+---
 # System Design Workflows
 
 ## Overview

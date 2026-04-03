@@ -1,3 +1,14 @@
+---
+name: "SQL Database Migration Strategy and Implementation Implementation Playbook"
+tags: ["and", "antigravity", "backend", "c:", "context", "database", "frontend", "gemini", "implementation", "<YOUR_USERNAME>", "migration", "migrations", "not", "playbook", "requirements", "resources", "skill", "sql", "strategy", "this"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3622
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # SQL Database Migration Strategy and Implementation Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

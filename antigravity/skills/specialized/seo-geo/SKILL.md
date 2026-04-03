@@ -1,4 +1,15 @@
 ---
+name: "AI Search / GEO Optimization (February 2026)"
+tags: ["2026", "analysis", "antigravity", "backend", "backlinks", "brand", "c:", "citability", "criteria", "critical", "february", "gemini", "geo", "insight", "key", "<YOUR_USERNAME>", "mentions", "optimization", "score", "search"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2147
+tools_needed: ["git", "markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.82
+---
+---
 name: seo-geo
 description: "Optimize content for AI Overviews, ChatGPT, Perplexity, and other AI search systems. Use when improving GEO, AI citations, llms.txt readiness, crawler accessibility, and passage-level citability."
 risk: unknown

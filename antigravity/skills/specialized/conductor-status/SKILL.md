@@ -1,11 +1,17 @@
 ---
-name: conductor-status
-description: "Display project status, active tracks, and next actions"
-risk: unknown
-source: community
+name: "conductor-status"
+tags: ["antigravity", "c:", "checks", "collection", "conductor", "data", "flight", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "pre", "skill", "specialized", "status", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2388
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.93
 date_added: "2026-02-27"
+description: "Display project status, active tracks, and next actions"
+source: "community"
 ---
-
 # Conductor Status
 
 Display the current status of the Conductor project, including overall progress, active tracks, and next actions.

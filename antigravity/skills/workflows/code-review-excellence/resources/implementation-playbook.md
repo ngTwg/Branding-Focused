@@ -1,3 +1,14 @@
+---
+name: "Code Review Excellence Implementation Playbook"
+tags: ["antigravity", "c:", "code", "core", "effective", "excellence", "feedback", "frontend", "gemini", "implementation", "<YOUR_USERNAME>", "mindset", "playbook", "principles", "resources", "review", "scope", "skill", "the", "this"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3319
+tools_needed: ["git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Code Review Excellence Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

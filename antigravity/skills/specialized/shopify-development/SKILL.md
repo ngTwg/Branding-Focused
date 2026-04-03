@@ -1,11 +1,17 @@
 ---
-name: shopify-development
-description: Build Shopify apps, extensions, themes using GraphQL Admin API, Shopify CLI, Polaris UI, and Liquid.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "shopify-development"
+tags: ["2026", "access", "against", "antigravity", "api", "build", "c:", "cli", "commands", "development", "frontend", "gemini", "graphql", "<YOUR_USERNAME>", "patterns", "products", "query", "routing", "scopes", "shopify"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2186
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+date_added: "2026-02-27"
+description: "Build Shopify apps, extensions, themes using GraphQL Admin API, Shopify CLI, Polaris UI, and Liquid."
+source: "community"
 ---
-
 # Shopify Development Skill
 
 Use this skill when the user asks about:

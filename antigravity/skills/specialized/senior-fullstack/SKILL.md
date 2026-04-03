@@ -1,8 +1,15 @@
 ---
-name: senior-fullstack
-description: Comprehensive fullstack development skill for building complete web applications with React, Next.js, Node.js, GraphQL, and PostgreSQL. Includes project scaffolding, code quality analysis, architecture patterns, and complete tech stack guidance. Use when building new projects, analyzing code quality, implementing design patterns, or setting up development workflows.
+name: "senior-fullstack"
+tags: ["analyzer", "antigravity", "c:", "capabilities", "code", "frontend", "fullstack", "gemini", "<YOUR_USERNAME>", "main", "project", "quality", "quick", "scaffolder", "script", "senior", "specialized", "start", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1123
+tools_needed: ["docker", "git", "kubernetes", "markdown", "sql", "terminal", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.86
+description: "Comprehensive fullstack development skill for building complete web applications with React, Next.js, Node.js, GraphQL, and PostgreSQL. Includes project scaffolding, code quality analysis, architecture patterns, and complete tech stack guidance. Use when building new projects, analyzing code quality, implementing design patterns, or setting up development workflows."
 ---
-
 # Senior Fullstack
 
 Complete toolkit for senior fullstack with modern tools and best practices.

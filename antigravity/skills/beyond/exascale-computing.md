@@ -1,3 +1,14 @@
+---
+name: "EXASCALE COMPUTING & SUPERCOMPUTING"
+tags: ["antigravity", "beyond", "c:", "computing", "exascale", "frontend", "gemini", "interface", "job", "<YOUR_USERNAME>", "load", "locality", "memory", "message", "modules", "mpi", "numa", "overview", "passing", "pbs"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2336
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # EXASCALE COMPUTING & SUPERCOMPUTING
 
 > **Tier:** 4 (Deep/System-level)  

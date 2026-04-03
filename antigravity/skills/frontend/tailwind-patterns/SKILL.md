@@ -1,11 +1,17 @@
 ---
-name: tailwind-patterns
-description: "Tailwind CSS v4 principles. CSS-first configuration, container queries, modern patterns, design token architecture."
-risk: unknown
-source: community
+name: "tailwind-patterns"
+tags: ["2025", "antigravity", "architecture", "based", "c:", "changed", "concepts", "configuration", "core", "css", "from", "frontend", "gemini", "<YOUR_USERNAME>", "patterns", "tailwind", "use", "users", "what", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1734
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.79
 date_added: "2026-02-27"
+description: "Tailwind CSS v4 principles. CSS-first configuration, container queries, modern patterns, design token architecture."
+source: "community"
 ---
-
 # Tailwind CSS Patterns (v4 - 2025)
 
 > Modern utility-first CSS with CSS-native configuration.

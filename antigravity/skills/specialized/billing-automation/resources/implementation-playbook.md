@@ -1,3 +1,14 @@
+---
+name: "Billing Automation Implementation Playbook"
+tags: ["antigravity", "automation", "billing", "c:", "concepts", "core", "cycles", "dunning", "frontend", "gemini", "implementation", "<YOUR_USERNAME>", "management", "playbook", "proration", "resources", "specialized", "states", "subscription", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4431
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Billing Automation Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

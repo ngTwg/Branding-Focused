@@ -1,3 +1,14 @@
+---
+name: "Decision Frameworks — Inventory Demand Planning"
+tags: ["algorithm", "antigravity", "c:", "decision", "demand", "forecast", "frameworks", "gemini", "inventory", "<YOUR_USERNAME>", "method", "model", "models", "optimization", "parameter", "planning", "primary", "protocol", "references", "rules"]
+tier: 2
+risk: "medium"
+estimated_tokens: 10199
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.95
+---
 # Decision Frameworks — Inventory Demand Planning
 
 This reference provides the detailed decision logic, optimization models, method selection

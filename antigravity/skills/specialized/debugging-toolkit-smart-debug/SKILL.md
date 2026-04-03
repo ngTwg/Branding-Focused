@@ -1,11 +1,17 @@
 ---
-name: debugging-toolkit-smart-debug
-description: "Use when working with debugging toolkit smart debug"
-risk: unknown
-source: community
+name: "debugging-toolkit-smart-debug"
+tags: ["antigravity", "c:", "context", "debug", "debugging", "frontend", "gemini", "initial", "instructions", "<YOUR_USERNAME>", "not", "skill", "smart", "specialized", "this", "toolkit", "triage", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1530
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.79
 date_added: "2026-02-27"
+description: "Use when working with debugging toolkit smart debug"
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on debugging toolkit smart debug tasks or workflows

@@ -1,12 +1,17 @@
 ---
-name: frontend-dev-guidelines
-description: "You are a senior frontend engineer operating under strict architectural and performance standards. Use when creating components or pages, adding new features, or fetching or mutating data."
-risk: unknown
-source: community
+name: "frontend-dev-guidelines"
+tags: ["antigravity", "architectural", "c:", "complexity", "core", "dev", "development", "dimensions", "doctrine", "feasibility", "ffci", "formula", "frontend", "gemini", "guidelines", "index", "interpretation", "<YOUR_USERNAME>", "negotiable", "non"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2008
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.94
 date_added: "2026-02-27"
+description: "You are a senior frontend engineer operating under strict architectural and performance standards. Use when creating components or pages, adding new features, or fetching or mutating data."
+source: "community"
 ---
-
-
 # Frontend Development Guidelines
 
 **(React · TypeScript · Suspense-First · Production-Grade)**

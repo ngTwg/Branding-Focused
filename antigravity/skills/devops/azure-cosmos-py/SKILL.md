@@ -1,11 +1,17 @@
 ---
-name: azure-cosmos-py
-description: Azure Cosmos DB SDK for Python (NoSQL API). Use for document CRUD, queries, containers, and globally distributed data.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "azure-cosmos-py"
+tags: ["antigravity", "authentication", "azure", "c:", "client", "core", "cosmos", "devops", "environment", "for", "frontend", "gemini", "hierarchy", "installation", "<YOUR_USERNAME>", "py", "python", "sdk", "users", "variables"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1715
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.92
+date_added: "2026-02-27"
+description: "Azure Cosmos DB SDK for Python (NoSQL API). Use for document CRUD, queries, containers, and globally distributed data."
+source: "community"
 ---
-
 # Azure Cosmos DB SDK for Python
 
 Client library for Azure Cosmos DB NoSQL API — globally distributed, multi-model database.

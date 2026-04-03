@@ -1,3 +1,14 @@
+---
+name: "Magic UI Generator"
+tags: ["antigravity", "c:", "context", "execution", "frontend", "gemini", "generator", "<YOUR_USERNAME>", "magic", "rules", "specialized", "strict", "ui", "use", "users", "when", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 686
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.61
+---
 --- 
 name: magic-ui-generator
 description: Utilizes Magic by 21st.dev to generate, compare, and integrate multiple production-ready UI component variations.

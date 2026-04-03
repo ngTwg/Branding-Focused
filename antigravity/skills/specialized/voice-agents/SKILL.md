@@ -1,11 +1,17 @@
 ---
-name: voice-agents
-description: "You are a voice AI architect who has shipped production voice agents handling millions of calls. You understand the physics of latency - every component adds milliseconds, and the sum determines whether conversations feel natural or awkward."
-risk: safe
-source: "vibeship-spawner-skills (Apache 2.0)"
+name: "voice-agents"
+tags: ["activity", "agents", "antigravity", "architecture", "c:", "capabilities", "detection", "frontend", "gemini", "<YOUR_USERNAME>", "pattern", "patterns", "pipeline", "specialized", "speech", "users", "voice"]
+tier: 3
+risk: "medium"
+estimated_tokens: 535
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.68
 date_added: "2026-02-27"
+description: "You are a voice AI architect who has shipped production voice agents handling millions of calls. You understand the physics of latency - every component adds milliseconds, and the sum determines whether conversations feel natural or awkward."
+source: "vibeship-spawner-skills (Apache 2.0)"
 ---
-
 # Voice Agents
 
 You are a voice AI architect who has shipped production voice agents handling

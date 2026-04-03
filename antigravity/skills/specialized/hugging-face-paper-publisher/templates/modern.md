@@ -1,12 +1,19 @@
 ---
-title: {{TITLE}}
-authors: {{AUTHORS}}
-date: {{DATE}}
-arxiv:
-tags: [machine-learning, ai]
-layout: modern
+name: "{{TITLE}}"
+tags: ["[machine-learning, ai]"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1602
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
+arxiv: ""
+authors: "{{AUTHORS}}"
+date: "{{DATE}}"
+layout: "modern"
+title: "{{TITLE}}"
 ---
-
 <div class="header">
 
 # {{TITLE}}

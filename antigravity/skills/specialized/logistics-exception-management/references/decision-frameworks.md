@@ -1,3 +1,14 @@
+---
+name: "Decision Frameworks — Logistics Exception Management"
+tags: ["action", "antigravity", "c:", "decision", "elevation", "exception", "frameworks", "frontend", "full", "gemini", "<YOUR_USERNAME>", "logistics", "management", "mapping", "matrix", "methodology", "modifiers", "references", "scoring", "severity"]
+tier: 2
+risk: "medium"
+estimated_tokens: 16384
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Decision Frameworks — Logistics Exception Management
 
 This reference provides the detailed decision logic, scoring matrices, financial models,

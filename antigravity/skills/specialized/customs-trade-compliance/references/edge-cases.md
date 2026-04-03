@@ -1,3 +1,14 @@
+---
+name: "Customs & Trade Compliance — Edge Cases Reference"
+tags: ["321", "abuse", "adjustments", "antigravity", "boundary", "c:", "case", "cases", "circumventing", "compliance", "customs", "cvd", "dual", "duties", "eapa", "ear", "edge", "exploitation", "file", "frontend"]
+tier: 2
+risk: "high"
+estimated_tokens: 12181
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.79
+---
 # Customs & Trade Compliance — Edge Cases Reference
 
 > Tier 3 reference. Load on demand when handling complex or ambiguous trade compliance situations that don't resolve through standard workflows.

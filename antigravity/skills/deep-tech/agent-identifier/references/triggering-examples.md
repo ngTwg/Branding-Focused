@@ -1,3 +1,14 @@
+---
+name: "Agent Triggering Examples: Best Practices"
+tags: ["agent", "anatomy", "antigravity", "assistant", "before", "best", "block", "c:", "context", "deep", "deep-tech", "example", "examples", "format", "frontend", "gemini", "good", "identifier", "<YOUR_USERNAME>", "message"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2899
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Agent Triggering Examples: Best Practices
 
 Complete guide to writing effective `<example>` blocks in agent descriptions for reliable triggering.

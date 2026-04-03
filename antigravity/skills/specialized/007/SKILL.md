@@ -1,4 +1,15 @@
 ---
+name: "007 — Licenca para Auditar"
+tags: ["007", "antigravity", "auditar", "c:", "frontend", "gemini", "how", "<YOUR_USERNAME>", "licenca", "not", "overview", "para", "skill", "specialized", "this", "use", "users", "when", "works"]
+tier: 2
+risk: "high"
+estimated_tokens: 5657
+tools_needed: ["git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
+---
 name: '007'
 description: Security audit, hardening, threat modeling (STRIDE/PASTA), Red/Blue Team, OWASP checks, code review, incident response, and infrastructure security for any project.
 risk: critical

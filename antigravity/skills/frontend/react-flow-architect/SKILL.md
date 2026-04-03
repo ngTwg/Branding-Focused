@@ -1,11 +1,17 @@
 ---
-name: react-flow-architect
-description: "Build production-ready ReactFlow applications with hierarchical navigation, performance optimization, and advanced state management."
-risk: unknown
-source: community
+name: "react-flow-architect"
+tags: ["antigravity", "architect", "c:", "core", "flow", "frontend", "gemini", "hierarchical", "<YOUR_USERNAME>", "management", "navigation", "optimization", "patterns", "performance", "quick", "react", "reactflow", "start", "state", "tree"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3981
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Build production-ready ReactFlow applications with hierarchical navigation, performance optimization, and advanced state management."
+source: "community"
 ---
-
 # ReactFlow Architect
 
 Build production-ready ReactFlow applications with hierarchical navigation, performance optimization, and advanced state management.

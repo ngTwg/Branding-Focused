@@ -1,9 +1,16 @@
 ---
-name: mobile-games
-description: Mobile game development principles. Touch input, battery, performance, app stores.
-allowed-tools: Read, Write, Edit, Glob, Grep
+name: "mobile-games"
+tags: ["antigravity", "best", "c:", "considerations", "constraints", "controller", "development", "frontend", "game", "games", "gemini", "input", "key", "<YOUR_USERNAME>", "mobile", "platform", "practices", "principles", "specialized", "touch"]
+tier: 2
+risk: "medium"
+estimated_tokens: 569
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.66
+allowed-tools: "Read, Write, Edit, Glob, Grep"
+description: "Mobile game development principles. Touch input, battery, performance, app stores."
 ---
-
 # Mobile Game Development
 
 > Platform constraints and optimization principles.

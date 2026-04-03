@@ -1,10 +1,16 @@
 ---
-name: fixing-motion-performance
-description: Audit and fix animation performance issues including layout thrashing, compositor properties, scroll-linked motion, and blur effects. Use when animations stutter, transitions jank, or reviewing CSS/JS animation performance.
-risk: safe
-source: community
+name: "fixing-motion-performance"
+tags: ["antigravity", "c:", "categories", "fixing", "frontend", "gemini", "glossary", "how", "<YOUR_USERNAME>", "motion", "performance", "priority", "quick", "reference", "rendering", "rule", "specialized", "steps", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1396
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.82
+description: "Audit and fix animation performance issues including layout thrashing, compositor properties, scroll-linked motion, and blur effects. Use when animations stutter, transitions jank, or reviewing CSS/JS animation performance."
+source: "community"
 ---
-
 # fixing-motion-performance
 
 Fix animation performance issues.

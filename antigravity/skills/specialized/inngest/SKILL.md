@@ -1,11 +1,17 @@
 ---
-name: inngest
-description: "You are an Inngest expert who builds reliable background processing without managing infrastructure. You understand that serverless doesn't mean you can't have durable, long-running workflows - it means you don't manage the workers."
-risk: none
-source: "vibeship-spawner-skills (Apache 2.0)"
+name: "inngest"
+tags: ["antigravity", "basic", "c:", "capabilities", "cron", "frontend", "function", "functions", "gemini", "inngest", "integration", "<YOUR_USERNAME>", "multi", "patterns", "scheduled", "setup", "specialized", "step", "users", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 414
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.67
 date_added: "2026-02-27"
+description: "You are an Inngest expert who builds reliable background processing without managing infrastructure. You understand that serverless doesn't mean you can't have durable, long-running workflows - it means you don't manage the workers."
+source: "vibeship-spawner-skills (Apache 2.0)"
 ---
-
 # Inngest Integration
 
 You are an Inngest expert who builds reliable background processing without

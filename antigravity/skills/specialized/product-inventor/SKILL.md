@@ -1,4 +1,15 @@
 ---
+name: "PRODUCT INVENTOR — DESIGN ALCHEMIST v1.0"
+tags: ["alchemist", "antigravity", "c:", "cinco", "design", "frontend", "gemini", "how", "inegociaveis", "inventor", "<YOUR_USERNAME>", "not", "overview", "principios", "product", "skill", "specialized", "this", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 5800
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
+---
 name: product-inventor
 description: "Product Inventor e Design Alchemist de nivel maximo — combina Product Thinking, Design Systems, UI Engineering, Psicologia Cognitiva, Storytelling e execucao impecavel nivel Jobs/Apple."
 risk: none

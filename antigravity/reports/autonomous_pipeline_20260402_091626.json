@@ -1,0 +1,76 @@
+{
+  "timestamp": "2026-04-02T02:16:26.411108+00:00",
+  "phase": "discoverability",
+  "dry_run": false,
+  "total": 11,
+  "ok": 11,
+  "failed": 0,
+  "steps": [
+    {
+      "step": "generate_skill_catalog",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/generate_skill_catalog.py",
+      "status": "ok",
+      "output": "Skill catalog generated successfully.\n  Records: 5535\n  JSON: C:\\Users\\lengo\\.gemini\\antigravity\\external\\SKILL_CATALOG.json\n  Markdown: C:\\Users\\lengo\\.gemini\\antigravity\\docs\\SKILL_CATALOG_2026-04-02.md"
+    },
+    {
+      "step": "build_skill_embeddings",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/build_skill_embeddings.py",
+      "status": "ok",
+      "output": "Skill embeddings built successfully.\n  Records: 5535\n  Vocab size: 12000\n  Output: C:\\Users\\lengo\\.gemini\\antigravity\\external\\SKILL_EMBEDDINGS.json"
+    },
+    {
+      "step": "score_skill_quality",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/score_skill_quality.py --scope all --gate-min-score 35",
+      "status": "ok",
+      "output": "Skill quality scoring completed.\n  Rows: 5535\n  Mean score: 65.9335\n  Below gate (<35.0): 325\n  Report: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\skill_quality_scores.json\n  Marketplace: C:\\Users\\lengo\\.gemini\\antigravity\\external\\SKILL_MARKETPLACE.json"
+    },
+    {
+      "step": "run_benchmark_pack",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/run_benchmark_pack.py --suite quick",
+      "status": "ok",
+      "output": "[OK] integration_tests\n[OK] targeted_regressions\n[OK] security_gate_external_skills\nBenchmark report JSON: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\benchmark_pack_20260402_091625.json\nBenchmark report MD: C:\\Users\\lengo\\.gemini\\antigravity\\docs\\BENCHMARK_PACK_REPORT_20260402_091625.md\nRegression gate: ok (delta_pct=32.478, threshold=100.0)"
+    },
+    {
+      "step": "benchmark_trend",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/benchmark_trend.py --limit 60",
+      "status": "ok",
+      "output": "Benchmark trend generated.\n  Reports: 19\n  JSON: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\benchmark_trend.json\n  Markdown: C:\\Users\\lengo\\.gemini\\antigravity\\docs\\BENCHMARK_TREND_REPORT.md"
+    },
+    {
+      "step": "skill_usage_summary",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/skill_usage_tracker.py --summary --days 30",
+      "status": "ok",
+      "output": "{\n  \"timestamp\": \"2026-04-02T02:16:25.205812+00:00\",\n  \"window_days\": 30,\n  \"total_events\": 0,\n  \"unique_skills\": 0,\n  \"total_tokens\": 0,\n  \"top_skills\": []\n}"
+    },
+    {
+      "step": "detect_cold_skills",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/detect_cold_skills.py --days 30",
+      "status": "ok",
+      "output": "Cold skill detection completed.\n  Cold skills: 5535\n  JSON: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\cold_skills_report.json\n  Markdown: C:\\Users\\lengo\\.gemini\\antigravity\\docs\\COLD_SKILLS_REPORT.md"
+    },
+    {
+      "step": "promote_hot_skills",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/promote_hot_skills.py --days 30 --min-hits 3",
+      "status": "ok",
+      "output": "Hot skill promotion report generated.\n  Suggestions: 0\n  JSON: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\hot_skills_promotion_report.json\n  Markdown: C:\\Users\\lengo\\.gemini\\antigravity\\docs\\HOT_SKILLS_PROMOTION_REPORT.md"
+    },
+    {
+      "step": "weekly_skill_digest",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/weekly_skill_digest.py --days 30",
+      "status": "ok",
+      "output": "Weekly skill digest generated.\n  JSON: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\weekly_skill_digest_latest.json\n  Markdown: C:\\Users\\lengo\\.gemini\\antigravity\\docs\\WEEKLY_SKILL_DIGEST_LATEST.md"
+    },
+    {
+      "step": "validate_skill_pr",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/validate_skill_pr.py --min-chars 200 --min-code-blocks 0 --allow-fail",
+      "status": "ok",
+      "output": "Validated files: 2787\nFailed: 36\nReport: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\skill_pr_validation.json"
+    },
+    {
+      "step": "validate_community_surface",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/validate_community_surface.py",
+      "status": "ok",
+      "output": "Community surface status: PASS\nReport JSON: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\community_surface_report.json\nReport MD: C:\\Users\\lengo\\.gemini\\antigravity\\docs\\COMMUNITY_SURFACE_REPORT_2026-04-02.md"
+    }
+  ]
+}

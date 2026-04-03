@@ -1,11 +1,17 @@
 ---
-name: seo-content-auditor
-description: Analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
-risk: safe
-source: community
-date_added: '2026-02-27'
+name: "seo-content-auditor"
+tags: ["analyze", "antigravity", "areas", "auditor", "c:", "can", "cannot", "content", "focus", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "seo", "skill", "specialized", "this", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 640
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.69
+date_added: "2026-02-27"
+description: "Analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on seo content auditor tasks or workflows

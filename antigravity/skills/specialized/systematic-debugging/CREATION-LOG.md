@@ -1,3 +1,14 @@
+---
+name: "Creation Log: Systematic Debugging Skill"
+tags: ["antigravity", "bulletproofing", "c:", "choices", "creation", "debugging", "decisions", "elements", "extraction", "following", "frontend", "gemini", "language", "<YOUR_USERNAME>", "log", "material", "skill", "source", "specialized", "structure"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1061
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.70
+---
 # Creation Log: Systematic Debugging Skill
 
 Reference example of extracting, structuring, and bulletproofing a critical skill.

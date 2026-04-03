@@ -1,11 +1,17 @@
 ---
-name: telegram-automation
-description: "Automate Telegram tasks via Rube MCP (Composio): send messages, manage chats, share photos/documents, and handle bot commands. Always search tools first for current schemas."
-risk: critical
-source: community
+name: "telegram-automation"
+tags: ["and", "antigravity", "automation", "c:", "core", "documents", "frontend", "gemini", "<YOUR_USERNAME>", "mcp", "messages", "photos", "prerequisites", "rube", "send", "setup", "specialized", "telegram", "users", "via"]
+tier: 2
+risk: "critical"
+estimated_tokens: 2058
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
 date_added: "2026-02-27"
+description: "Automate Telegram tasks via Rube MCP (Composio): send messages, manage chats, share photos/documents, and handle bot commands. Always search tools first for current schemas."
+source: "community"
 ---
-
 # Telegram Automation via Rube MCP
 
 Automate Telegram operations through Composio's Telegram toolkit via Rube MCP.

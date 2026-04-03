@@ -1,11 +1,17 @@
 ---
-name: similarity-search-patterns
-description: "Implement efficient similarity search with vector databases. Use when building semantic search, implementing nearest neighbor queries, or optimizing retrieval performance."
-risk: safe
-source: community
+name: "similarity-search-patterns"
+tags: ["antigravity", "c:", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "patterns", "resources", "search", "similarity", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 275
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.59
 date_added: "2026-02-27"
+description: "Implement efficient similarity search with vector databases. Use when building semantic search, implementing nearest neighbor queries, or optimizing retrieval performance."
+source: "community"
 ---
-
 # Similarity Search Patterns
 
 Patterns for implementing efficient similarity search in production systems.

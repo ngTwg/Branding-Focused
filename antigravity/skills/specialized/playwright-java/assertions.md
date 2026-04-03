@@ -1,3 +1,14 @@
+---
+name: "Playwright Java – Assertions Reference"
+tags: ["antigravity", "assertion", "assertions", "auto", "c:", "custom", "frontend", "gemini", "import", "java", "<YOUR_USERNAME>", "locator", "negation", "page", "playwright", "reference", "retry", "specialized", "statement", "timeout"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1049
+tools_needed: ["markdown", "playwright"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.84
+---
 # Playwright Java – Assertions Reference
 
 ## Import Statement

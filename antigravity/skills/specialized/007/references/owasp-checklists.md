@@ -1,3 +1,14 @@
+---
+name: "OWASP Top 10 Checklists"
+tags: ["007", "2021", "2023", "2025", "antigravity", "api", "application", "audit", "c:", "checklist", "checklists", "frontend", "gemini", "<YOUR_USERNAME>", "llm", "owasp", "quick", "references", "security", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3230
+tools_needed: ["git", "markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.76
+---
 # OWASP Top 10 Checklists
 
 > Quick-reference checklists for the three most relevant OWASP Top 10 lists.

@@ -1,11 +1,17 @@
 ---
-name: hr-pro
-description: Professional, ethical HR partner for hiring, onboarding/offboarding, PTO and leave, performance, compliant policies, and employee relations.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "hr-pro"
+tags: ["antigravity", "c:", "disclaimer", "frontend", "gemini", "hr", "important", "instructions", "legal", "<YOUR_USERNAME>", "mission", "not", "operating", "principles", "pro", "scope", "skill", "specialized", "this", "use"]
+tier: 4
+risk: "medium"
+estimated_tokens: 2060
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+date_added: "2026-02-27"
+description: "Professional, ethical HR partner for hiring, onboarding/offboarding, PTO and leave, performance, compliant policies, and employee relations."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on hr pro tasks or workflows

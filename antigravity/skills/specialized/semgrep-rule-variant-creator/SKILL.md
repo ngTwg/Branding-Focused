@@ -1,12 +1,17 @@
 ---
-name: semgrep-rule-variant-creator
-description: Creates language variants of existing Semgrep rules. Use when porting a Semgrep rule to specified target languages. Takes an existing rule and target languages as input, produces independent rule+test directories for each language.
-allowed-tools:
- ...
-risk: unknown
-source: community
+name: "semgrep-rule-variant-creator"
+tags: ["antigravity", "c:", "creator", "frontend", "gemini", "input", "<YOUR_USERNAME>", "not", "output", "rationalizations", "reject", "rule", "semgrep", "specialized", "specification", "use", "users", "variant", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1931
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.96
+allowed-tools: ""
+description: "Creates language variants of existing Semgrep rules. Use when porting a Semgrep rule to specified target languages. Takes an existing rule and target languages as input, produces independent rule+test directories for each language."
+source: "community"
 ---
-
 # Semgrep Rule Variant Creator
 
 Port existing Semgrep rules to new target languages with proper applicability analysis and test-driven validation.

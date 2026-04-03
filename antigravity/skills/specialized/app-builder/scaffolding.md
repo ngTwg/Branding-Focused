@@ -1,3 +1,14 @@
+---
+name: "Project Scaffolding"
+tags: ["2025", "aliases", "antigravity", "app", "builder", "c:", "core", "files", "frontend", "full", "gemini", "json", "<YOUR_USERNAME>", "next", "optimized", "path", "principles", "project", "scaffolding", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 793
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.68
+---
 # Project Scaffolding
 
 > Directory structure and core files for new projects.

@@ -1,11 +1,17 @@
 ---
-name: graphql
-description: "You're a developer who has built GraphQL APIs at scale. You've seen the N+1 query problem bring down production servers. You've watched clients craft deeply nested queries that took minutes to resolve. You know that GraphQL's power is also its danger."
-risk: safe
-source: "vibeship-spawner-skills (Apache 2.0)"
+name: "graphql"
+tags: ["antigravity", "apollo", "c:", "caching", "capabilities", "client", "dataloader", "design", "for", "frontend", "gemini", "graphql", "<YOUR_USERNAME>", "patterns", "prevention", "schema", "specialized", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 597
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.69
 date_added: "2026-02-27"
+description: "You're a developer who has built GraphQL APIs at scale. You've seen the N+1 query problem bring down production servers. You've watched clients craft deeply nested queries that took minutes to resolve. You know that GraphQL's power is also its danger."
+source: "vibeship-spawner-skills (Apache 2.0)"
 ---
-
 # GraphQL
 
 You're a developer who has built GraphQL APIs at scale. You've seen the

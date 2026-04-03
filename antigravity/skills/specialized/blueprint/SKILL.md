@@ -1,12 +1,18 @@
 ---
-name: blueprint
-description: "Turn a one-line objective into a step-by-step construction plan any coding agent can execute cold. Each step has a self-contained context brief — a fresh agent in a new session can pick up any step without reading prior steps."
-category: planning
-risk: safe
-source: community
+name: "blueprint"
+tags: ["antigravity", "blueprint", "c:", "construction", "database", "example", "examples", "frontend", "gemini", "generator", "how", "<YOUR_USERNAME>", "migration", "overview", "plan", "skill", "specialized", "this", "use", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 684
+tools_needed: ["git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.79
+category: "planning"
 date_added: "2026-03-10"
+description: "Turn a one-line objective into a step-by-step construction plan any coding agent can execute cold. Each step has a self-contained context brief — a fresh agent in a new session can pick up any step without reading prior steps."
+source: "community"
 ---
-
 # Blueprint — Construction Plan Generator
 
 Turn a one-line objective into a step-by-step plan any coding agent can execute cold.

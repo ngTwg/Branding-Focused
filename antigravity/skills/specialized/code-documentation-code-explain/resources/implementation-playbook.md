@@ -1,3 +1,14 @@
+---
+name: "Code Explanation and Analysis Implementation Playbook"
+tags: ["analysis", "and", "antigravity", "c:", "code", "comprehension", "documentation", "does", "explain", "explanation", "gemini", "generation", "implementation", "instructions", "<YOUR_USERNAME>", "playbook", "resources", "specialized", "step", "this"]
+tier: 2
+risk: "medium"
+estimated_tokens: 5570
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.95
+---
 # Code Explanation and Analysis Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

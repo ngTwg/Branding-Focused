@@ -1,3 +1,14 @@
+---
+name: "Common Testing Patterns"
+tags: ["antigravity", "c:", "click", "common", "event", "events", "form", "frontend", "gemini", "handling", "input", "keyboard", "<YOUR_USERNAME>", "patterns", "priority", "query", "references", "specialized", "testing", "users"]
+tier: 1
+risk: "medium"
+estimated_tokens: 2930
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Common Testing Patterns
 
 ## Query Priority

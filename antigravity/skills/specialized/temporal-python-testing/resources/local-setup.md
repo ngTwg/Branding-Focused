@@ -1,3 +1,14 @@
+---
+name: "Local Development Setup for Temporal Python Testing"
+tags: ["antigravity", "basic", "c:", "compose", "configuration", "development", "docker", "for", "frontend", "gemini", "<YOUR_USERNAME>", "local", "python", "resources", "server", "setup", "specialized", "start", "starting", "temporal"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2966
+tools_needed: ["docker", "git", "markdown", "pytest", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Local Development Setup for Temporal Python Testing
 
 Comprehensive guide for setting up local Temporal development environment with pytest integration and coverage tracking.

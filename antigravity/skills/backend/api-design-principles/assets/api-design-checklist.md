@@ -1,3 +1,14 @@
+---
+name: "API Design Checklist"
+tags: ["antigravity", "api", "assets", "backend", "c:", "checklist", "codes", "design", "gemini", "http", "implementation", "<YOUR_USERNAME>", "methods", "pagination", "pre", "principles", "resource", "review", "status", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 971
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.68
+---
 # API Design Checklist
 
 ## Pre-Implementation Review

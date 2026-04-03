@@ -1,11 +1,17 @@
 ---
-name: ai-md
-description: "Convert human-written CLAUDE.md into AI-native structured-label format. Battle-tested across 4 models. Same rules, fewer tokens, higher compliance."
-risk: safe
-source: community
+name: "ai-md"
+tags: ["actually", "ai", "antigravity", "attention", "c:", "complete", "conversion", "deep", "deep-tech", "drop", "frontend", "gemini", "how", "instructions", "<YOUR_USERNAME>", "line", "llms", "md", "mechanism", "native"]
+tier: 3
+risk: "medium"
+estimated_tokens: 4392
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-03-11"
+description: "Convert human-written CLAUDE.md into AI-native structured-label format. Battle-tested across 4 models. Same rules, fewer tokens, higher compliance."
+source: "community"
 ---
-
 # AI.MD v4 — The Complete AI-Native Conversion System
 
 ## When to Use This Skill

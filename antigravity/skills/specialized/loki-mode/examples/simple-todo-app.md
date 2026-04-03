@@ -1,3 +1,14 @@
+---
+name: "PRD: Simple Todo App"
+tags: ["antigravity", "app", "c:", "examples", "features", "frontend", "gemini", "<YOUR_USERNAME>", "loki", "mode", "mvp", "overview", "prd", "simple", "specialized", "stack", "suggested", "target", "tech", "todo"]
+tier: 2
+risk: "medium"
+estimated_tokens: 359
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.64
+---
 # PRD: Simple Todo App
 
 ## Overview

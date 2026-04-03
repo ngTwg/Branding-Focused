@@ -1,3 +1,14 @@
+---
+name: "MCP Server Evaluation Guide"
+tags: ["antigravity", "builder", "c:", "deep", "deep-tech", "evaluation", "evaluations", "format", "frontend", "gemini", "guide", "<YOUR_USERNAME>", "mcp", "output", "overview", "purpose", "quick", "reference", "requirements", "server"]
+tier: 2
+risk: "medium"
+estimated_tokens: 5414
+tools_needed: ["git", "markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # MCP Server Evaluation Guide
 
 ## Overview

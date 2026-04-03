@@ -1,11 +1,17 @@
 ---
-name: code-review-excellence
-description: "Transform code reviews from gatekeeping to knowledge sharing through constructive feedback, systematic analysis, and collaborative improvement."
-risk: safe
-source: community
+name: "code-review-excellence"
+tags: ["antigravity", "c:", "code", "excellence", "format", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "output", "resources", "review", "skill", "this", "use", "users", "when", "workflows"]
+tier: 2
+risk: "medium"
+estimated_tokens: 349
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.62
 date_added: "2026-02-27"
+description: "Transform code reviews from gatekeeping to knowledge sharing through constructive feedback, systematic analysis, and collaborative improvement."
+source: "community"
 ---
-
 # Code Review Excellence
 
 Transform code reviews from gatekeeping to knowledge sharing through constructive feedback, systematic analysis, and collaborative improvement.

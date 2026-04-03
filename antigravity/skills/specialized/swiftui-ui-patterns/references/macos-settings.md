@@ -1,3 +1,14 @@
+---
+name: "macOS Settings"
+tags: ["antigravity", "c:", "core", "example", "frontend", "gemini", "intent", "<YOUR_USERNAME>", "macos", "navigation", "patterns", "references", "scene", "settings", "skip", "specialized", "swiftui", "tabbed", "ui", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 498
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.69
+---
 # macOS Settings
 
 ## Intent

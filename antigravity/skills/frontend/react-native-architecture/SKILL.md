@@ -1,11 +1,17 @@
 ---
-name: react-native-architecture
-description: "Production-ready patterns for React Native development with Expo, including navigation, state management, native modules, and offline-first architecture."
-risk: safe
-source: community
+name: "react-native-architecture"
+tags: ["antigravity", "architecture", "c:", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "native", "not", "react", "resources", "skill", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 303
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
 date_added: "2026-02-27"
+description: "Production-ready patterns for React Native development with Expo, including navigation, state management, native modules, and offline-first architecture."
+source: "community"
 ---
-
 # React Native Architecture
 
 Production-ready patterns for React Native development with Expo, including navigation, state management, native modules, and offline-first architecture.

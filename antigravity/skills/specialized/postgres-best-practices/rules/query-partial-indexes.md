@@ -1,10 +1,17 @@
 ---
-title: Use Partial Indexes for Filtered Queries
-impact: HIGH
-impactDescription: 5-20x smaller indexes, faster writes and queries
-tags: indexes, partial-index, query-optimization, storage
+name: "Use Partial Indexes for Filtered Queries"
+tags: ["indexes, partial-index, query-optimization, storage"]
+tier: 2
+risk: "medium"
+estimated_tokens: 336
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.60
+impact: "HIGH"
+impactDescription: "5-20x smaller indexes, faster writes and queries"
+title: "Use Partial Indexes for Filtered Queries"
 ---
-
 ## Use Partial Indexes for Filtered Queries
 
 Partial indexes only include rows matching a WHERE condition, making them smaller and faster when queries consistently filter on the same condition.

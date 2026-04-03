@@ -1,3 +1,14 @@
+---
+name: "Refactor and Clean Code Implementation Playbook"
+tags: ["after", "analysis", "and", "antigravity", "before", "c:", "clean", "cleanup", "code", "codebase", "frontend", "gemini", "implementation", "instructions", "<YOUR_USERNAME>", "playbook", "refactor", "refactoring", "resources", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 5580
+tools_needed: ["git", "markdown", "pytest", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Refactor and Clean Code Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

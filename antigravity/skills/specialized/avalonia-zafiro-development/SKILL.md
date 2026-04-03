@@ -1,8 +1,15 @@
 ---
-name: avalonia-zafiro-development
-description: Mandatory skills, conventions, and behavioral rules for Avalonia UI development using the Zafiro toolkit.
+name: "avalonia-zafiro-development"
+tags: ["antigravity", "avalonia", "before", "c:", "code", "core", "development", "frontend", "gemini", "guides", "<YOUR_USERNAME>", "pillars", "procedure", "specialized", "users", "writing", "zafiro"]
+tier: 2
+risk: "medium"
+estimated_tokens: 446
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.58
+description: "Mandatory skills, conventions, and behavioral rules for Avalonia UI development using the Zafiro toolkit."
 ---
-
 # Avalonia Zafiro Development
 
 This skill defines the mandatory conventions and behavioral rules for developing cross-platform applications with Avalonia UI and the Zafiro toolkit. These rules prioritize maintainability, correctness, and a functional-reactive approach.

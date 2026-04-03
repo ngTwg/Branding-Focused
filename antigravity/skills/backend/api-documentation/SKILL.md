@@ -1,12 +1,18 @@
 ---
-name: api-documentation
-description: "API documentation workflow for generating OpenAPI specs, creating developer guides, and maintaining comprehensive API documentation."
-category: granular-workflow-bundle
-risk: safe
-source: personal
+name: "api-documentation"
+tags: ["antigravity", "api", "backend", "c:", "discovery", "documentation", "frontend", "gemini", "<YOUR_USERNAME>", "openapi", "overview", "phase", "phases", "specification", "this", "use", "users", "when", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 821
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.86
+category: "granular-workflow-bundle"
 date_added: "2026-02-27"
+description: "API documentation workflow for generating OpenAPI specs, creating developer guides, and maintaining comprehensive API documentation."
+source: "personal"
 ---
-
 # API Documentation Workflow
 
 ## Overview

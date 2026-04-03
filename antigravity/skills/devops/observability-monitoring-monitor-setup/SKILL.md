@@ -1,11 +1,17 @@
 ---
-name: observability-monitoring-monitor-setup
-description: "You are a monitoring and observability expert specializing in implementing comprehensive monitoring solutions. Set up metrics collection, distributed tracing, log aggregation, and create insightful da"
-risk: unknown
-source: community
+name: "observability-monitoring-monitor-setup"
+tags: ["and", "antigravity", "c:", "context", "devops", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "monitor", "monitoring", "not", "observability", "requirements", "setup", "skill", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 564
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.68
 date_added: "2026-02-27"
+description: "You are a monitoring and observability expert specializing in implementing comprehensive monitoring solutions. Set up metrics collection, distributed tracing, log aggregation, and create insightful da"
+source: "community"
 ---
-
 # Monitoring and Observability Setup
 
 You are a monitoring and observability expert specializing in implementing comprehensive monitoring solutions. Set up metrics collection, distributed tracing, log aggregation, and create insightful dashboards that provide full visibility into system health and performance.

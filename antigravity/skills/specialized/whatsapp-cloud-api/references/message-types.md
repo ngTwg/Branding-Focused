@@ -1,3 +1,14 @@
+---
+name: "WhatsApp Cloud API - Tipos de Mensagem (Referencia Completa)"
+tags: ["antigravity", "api", "c:", "cloud", "completa", "esperada", "frontend", "gemini", "json", "<YOUR_USERNAME>", "mensagem", "message", "node", "payload", "python", "references", "referencia", "resposta", "specialized", "text"]
+tier: 2
+risk: "medium"
+estimated_tokens: 10116
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # WhatsApp Cloud API - Tipos de Mensagem (Referencia Completa)
 
 > Referencia completa de todos os tipos de mensagem suportados pela WhatsApp Cloud API v21.0.

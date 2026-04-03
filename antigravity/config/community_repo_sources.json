@@ -1,0 +1,26 @@
+{
+  "version": "2026-04-01",
+  "description": "Community repositories for packaging, orchestration, skills, and discoverability integration.",
+  "repositories": [
+    {"name": "langgraph", "url": "https://github.com/langchain-ai/langgraph.git", "branch": "main"},
+    {"name": "crewai", "url": "https://github.com/crewaiinc/crewai.git", "branch": "main"},
+    {"name": "openai-agents-python", "url": "https://github.com/openai/openai-agents-python.git", "branch": "main"},
+    {"name": "google-adk-samples", "url": "https://github.com/google/adk-samples.git", "branch": "main"},
+    {"name": "autogen", "url": "https://github.com/microsoft/autogen.git", "branch": "main"},
+    {"name": "agno", "url": "https://github.com/agno-agi/agno.git", "branch": "main"},
+    {"name": "claude-skills", "url": "https://github.com/alirezarezvani/claude-skills.git", "branch": "main"},
+    {"name": "anthropic-skills", "url": "https://github.com/anthropics/skills.git", "branch": "main"},
+    {"name": "awesome-agent-skills", "url": "https://github.com/heilcheng/awesome-agent-skills.git", "branch": "main"},
+    {"name": "awesome-ai-agents", "url": "https://github.com/buntys2010/awesome-ai-agents.git", "branch": "main"},
+    {
+      "name": "antigravity-ide-main",
+      "source_type": "local",
+      "local_path": "C:/Users/<YOUR_USERNAME>/.gemini/antigravity-ide-main"
+    },
+    {
+      "name": "everything-claude-code-main",
+      "source_type": "local",
+      "local_path": "C:/Users/<YOUR_USERNAME>/.gemini/everything-claude-code-main"
+    }
+  ]
+}

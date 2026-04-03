@@ -1,11 +1,17 @@
 ---
-name: azure-ai-projects-java
-description: Azure AI Projects SDK for Java. High-level SDK for Azure AI Foundry project management including connections, datasets, indexes, and evaluations.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "azure-ai-projects-java"
+tags: ["ai", "antigravity", "authentication", "azure", "c:", "client", "core", "devops", "environment", "for", "frontend", "gemini", "hierarchy", "installation", "java", "<YOUR_USERNAME>", "operations", "projects", "sdk", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1194
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.88
+date_added: "2026-02-27"
+description: "Azure AI Projects SDK for Java. High-level SDK for Azure AI Foundry project management including connections, datasets, indexes, and evaluations."
+source: "community"
 ---
-
 # Azure AI Projects SDK for Java
 
 High-level SDK for Azure AI Foundry project management with access to connections, datasets, indexes, and evaluations.

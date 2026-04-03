@@ -1,3 +1,14 @@
+---
+name: "Inventory Demand Planning — Edge Cases Reference"
+tags: ["analog", "and", "antigravity", "c:", "cannibalization", "case", "cases", "causes", "close", "competitor", "critical", "demand", "didn", "doubles", "drop", "edge", "file", "frontend", "gemini", "history"]
+tier: 2
+risk: "medium"
+estimated_tokens: 13405
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.82
+---
 # Inventory Demand Planning — Edge Cases Reference
 
 > Tier 3 reference. Load on demand when handling complex or ambiguous demand planning situations that don't resolve through standard forecasting and replenishment workflows.

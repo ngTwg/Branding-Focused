@@ -1,3 +1,14 @@
+---
+name: "React Patterns"
+tags: ["antigravity", "c:", "component", "components", "composition", "compound", "contents", "frontend", "gemini", "higher", "hoc", "<YOUR_USERNAME>", "order", "patterns", "props", "react", "references", "render", "senior", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4335
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # React Patterns
 
 Production-ready patterns for building scalable React applications with TypeScript.

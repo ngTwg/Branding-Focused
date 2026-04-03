@@ -1,11 +1,17 @@
 ---
-name: azure-eventhub-rust
-description: Azure Event Hubs SDK for Rust. Use for sending and receiving events, streaming data ingestion.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "azure-eventhub-rust"
+tags: ["antigravity", "azure", "c:", "client", "concepts", "create", "devops", "environment", "event", "eventhub", "for", "frontend", "gemini", "hubs", "installation", "key", "<YOUR_USERNAME>", "producer", "rust", "sdk"]
+tier: 3
+risk: "medium"
+estimated_tokens: 855
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.85
+date_added: "2026-02-27"
+description: "Azure Event Hubs SDK for Rust. Use for sending and receiving events, streaming data ingestion."
+source: "community"
 ---
-
 # Azure Event Hubs SDK for Rust
 
 Client library for Azure Event Hubs — big data streaming platform and event ingestion service.

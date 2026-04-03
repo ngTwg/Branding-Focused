@@ -1,11 +1,17 @@
 ---
-name: m365-agents-dotnet
-description: Microsoft 365 Agents SDK for .NET. Build multichannel agents for Teams/M365/Copilot Studio with ASP.NET Core hosting, AgentApplication routing, and MSAL-based auth.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "m365-agents-dotnet"
+tags: ["365", "agent", "agents", "antigravity", "appsettings", "asp", "before", "c:", "configuration", "core", "dotnet", "frontend", "gemini", "host", "implementation", "installation", "json", "<YOUR_USERNAME>", "m365", "microsoft"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2347
+tools_needed: ["git", "markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.94
+date_added: "2026-02-27"
+description: "Microsoft 365 Agents SDK for .NET. Build multichannel agents for Teams/M365/Copilot Studio with ASP.NET Core hosting, AgentApplication routing, and MSAL-based auth."
+source: "community"
 ---
-
 # Microsoft 365 Agents SDK (.NET)
 
 ## Overview

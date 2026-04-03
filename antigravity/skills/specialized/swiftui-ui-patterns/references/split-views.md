@@ -1,3 +1,14 @@
+---
+name: "Split views and columns"
+tags: ["alternative", "and", "antigravity", "approach", "c:", "choose", "column", "columns", "custom", "frontend", "gemini", "hstack", "intent", "<YOUR_USERNAME>", "manual", "navigationsplitview", "notes", "pattern", "patterns", "references"]
+tier: 2
+risk: "medium"
+estimated_tokens: 506
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.67
+---
 # Split views and columns
 
 ## Intent

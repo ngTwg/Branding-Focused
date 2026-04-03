@@ -1,11 +1,17 @@
 ---
-name: helm-chart-scaffolding
-description: "Comprehensive guidance for creating, organizing, and managing Helm charts for packaging and deploying Kubernetes applications."
-risk: unknown
-source: community
+name: "helm-chart-scaffolding"
+tags: ["antigravity", "c:", "chart", "frontend", "gemini", "helm", "instructions", "<YOUR_USERNAME>", "not", "resources", "scaffolding", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 300
+tools_needed: ["kubernetes", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
 date_added: "2026-02-27"
+description: "Comprehensive guidance for creating, organizing, and managing Helm charts for packaging and deploying Kubernetes applications."
+source: "community"
 ---
-
 # Helm Chart Scaffolding
 
 Comprehensive guidance for creating, organizing, and managing Helm charts for packaging and deploying Kubernetes applications.

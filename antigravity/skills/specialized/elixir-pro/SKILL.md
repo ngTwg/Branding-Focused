@@ -1,11 +1,17 @@
 ---
-name: elixir-pro
-description: Write idiomatic Elixir code with OTP patterns, supervision trees, and Phoenix LiveView. Masters concurrency, fault tolerance, and distributed systems.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "elixir-pro"
+tags: ["antigravity", "approach", "areas", "c:", "elixir", "focus", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "output", "pro", "skill", "specialized", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 485
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.64
+date_added: "2026-02-27"
+description: "Write idiomatic Elixir code with OTP patterns, supervision trees, and Phoenix LiveView. Masters concurrency, fault tolerance, and distributed systems."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on elixir pro tasks or workflows

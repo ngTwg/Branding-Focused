@@ -1,3 +1,14 @@
+---
+name: "REFACTORING TRIGGERS - KHI NÀO CẦN REFACTOR"
+tags: ["300", "antigravity", "c:", "copy", "cần", "file", "function", "gemini", "khi", "<YOUR_USERNAME>", "lines", "lần", "nào", "overview", "paste", "refactor", "refactoring", "rule", "three", "trigger"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3967
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.95
+---
 # REFACTORING TRIGGERS - KHI NÀO CẦN REFACTOR
 
 > **Tier:** 1-4 (All projects)  

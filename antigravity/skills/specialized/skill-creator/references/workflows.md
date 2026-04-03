@@ -1,3 +1,14 @@
+---
+name: "Workflow Patterns"
+tags: ["antigravity", "c:", "conditional", "creator", "frontend", "gemini", "<YOUR_USERNAME>", "patterns", "references", "sequential", "specialized", "users", "workflow", "workflows"]
+tier: 2
+risk: "medium"
+estimated_tokens: 203
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.59
+---
 # Workflow Patterns
 
 ## Sequential Workflows

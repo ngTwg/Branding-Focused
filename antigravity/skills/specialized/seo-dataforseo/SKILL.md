@@ -1,4 +1,15 @@
 ---
+name: "DataForSEO: Live SEO Data (Extension)"
+tags: ["analysis", "antigravity", "api", "awareness", "c:", "credit", "data", "dataforseo", "extension", "frontend", "gemini", "<YOUR_USERNAME>", "live", "prerequisites", "quick", "reference", "seo", "serp", "specialized", "use"]
+tier: 3
+risk: "medium"
+estimated_tokens: 4318
+tools_needed: ["git", "markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.82
+---
+---
 name: seo-dataforseo
 description: "Use DataForSEO for live SERPs, keyword metrics, backlinks, competitor analysis, on-page checks, and AI visibility data. Trigger when the user needs real SEO data rather than static guidance."
 risk: unknown

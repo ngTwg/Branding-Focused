@@ -1,11 +1,17 @@
 ---
-name: spline-3d-integration
-description: "Use when adding interactive 3D scenes from Spline.design to web projects, including React embedding and runtime control API."
-risk: safe
-source: community
+name: "spline-3d-integration"
+tags: ["3d", "antigravity", "c:", "examples", "frontend", "gemini", "get", "identify", "integration", "<YOUR_USERNAME>", "quick", "reference", "scene", "skill", "specialized", "spline", "stack", "step", "the", "url"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1022
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.74
 date_added: "2026-03-07"
+description: "Use when adding interactive 3D scenes from Spline.design to web projects, including React embedding and runtime control API."
+source: "community"
 ---
-
 # Spline 3D Integration Skill
 
 Master guide for embedding interactive 3D scenes from [Spline.design](https://spline.design) into web projects.

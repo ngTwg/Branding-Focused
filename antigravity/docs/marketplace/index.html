@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Antigravity Skill Marketplace</title>
+  <style>
+    :root {
+      --bg: #f2ecdd;
+      --panel: #fffdf7;
+      --ink: #122437;
+      --muted: #557086;
+      --accent: #0d8f73;
+      --accent-2: #f97316;
+      --border: #d8cfbc;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Space Grotesk", "IBM Plex Sans", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 20% 10%, rgba(13, 143, 115, 0.2), transparent 45%),
+        radial-gradient(circle at 80% 20%, rgba(249, 115, 22, 0.15), transparent 40%),
+        linear-gradient(135deg, #f2ecdd, #efe3ca 45%, #f7f0df);
+      min-height: 100vh;
+    }
+    .wrap {
+      width: min(1200px, 96%);
+      margin: 28px auto;
+      display: grid;
+      gap: 16px;
+    }
+    .hero {
+      border: 1px solid var(--border);
+      background: linear-gradient(135deg, #fffdf7, #f5f0e4);
+      border-radius: 16px;
+      padding: 18px;
+      box-shadow: 0 8px 24px rgba(18, 36, 55, 0.08);
+    }
+    .hero h1 { margin: 0 0 8px; font-size: clamp(1.4rem, 2.6vw, 2rem); }
+    .hero p { margin: 0; color: var(--muted); }
+    .controls {
+      display: grid;
+      gap: 10px;
+      grid-template-columns: 1.5fr 1fr 1fr 1fr;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 12px;
+    }
+    input, select {
+      width: 100%;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px;
+      background: #fff;
+      color: var(--ink);
+      font-size: 0.95rem;
+    }
+    .stats {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .badge {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 6px 10px;
+      font-size: 0.84rem;
+      color: var(--muted);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 12px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 12px;
+      display: grid;
+      gap: 8px;
+      box-shadow: 0 6px 16px rgba(18, 36, 55, 0.06);
+    }
+    .row { display: flex; justify-content: space-between; gap: 8px; }
+    .name { font-weight: 700; }
+    .pill {
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      padding: 2px 8px;
+      font-size: 0.78rem;
+      color: var(--muted);
+      background: #fff;
+    }
+    .score {
+      color: var(--accent);
+      font-weight: 700;
+    }
+    .path {
+      color: var(--muted);
+      font-size: 0.8rem;
+      word-break: break-all;
+    }
+    .empty {
+      border: 1px dashed var(--border);
+      border-radius: 14px;
+      padding: 18px;
+      color: var(--muted);
+      background: rgba(255, 255, 255, 0.55);
+    }
+    @media (max-width: 800px) {
+      .controls { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <h1>Antigravity Skill Marketplace</h1>
+      <p>Filter by domain, tier, and search intent to discover curated install-ready skills.</p>
+    </section>
+
+    <section class="controls">
+      <input id="search" placeholder="Search by name, domain, repo..." />
+      <select id="domain"><option value="">All domains</option></select>
+      <select id="tier"><option value="">All tiers</option></select>
+      <select id="source"><option value="">All sources</option></select>
+    </section>
+
+    <div class="stats" id="stats"></div>
+    <section class="grid" id="grid"></section>
+    <section class="empty" id="empty" hidden>No skills match the current filters.</section>
+  </div>
+
+  <script>
+    const state = {
+      all: [],
+      filtered: [],
+    };
+
+    const els = {
+      search: document.getElementById('search'),
+      domain: document.getElementById('domain'),
+      tier: document.getElementById('tier'),
+      source: document.getElementById('source'),
+      grid: document.getElementById('grid'),
+      stats: document.getElementById('stats'),
+      empty: document.getElementById('empty'),
+    };
+
+    function opt(label, value) {
+      const o = document.createElement('option');
+      o.textContent = label;
+      o.value = value;
+      return o;
+    }
+
+    function setFilters(items) {
+      const domains = [...new Set(items.map(x => x.domain).filter(Boolean))].sort();
+      const tiers = [...new Set(items.map(x => x.tier).filter(Boolean))].sort();
+      const sources = [...new Set(items.map(x => x.source).filter(Boolean))].sort();
+
+      domains.forEach(x => els.domain.appendChild(opt(x, x)));
+      tiers.forEach(x => els.tier.appendChild(opt(x, x)));
+      sources.forEach(x => els.source.appendChild(opt(x, x)));
+    }
+
+    function badge(label, value) {
+      return `<span class="badge"><strong>${label}:</strong> ${value}</span>`;
+    }
+
+    function renderStats(items) {
+      const avg = items.length ? (items.reduce((a, b) => a + Number(b.quality_score || 0), 0) / items.length).toFixed(2) : '0.00';
+      els.stats.innerHTML = [
+        badge('Visible', items.length),
+        badge('Average Score', avg),
+      ].join('');
+    }
+
+    function renderCards(items) {
+      els.grid.innerHTML = '';
+      items.forEach(item => {
+        const card = document.createElement('article');
+        card.className = 'card';
+        card.innerHTML = `
+          <div class="row"><span class="name">${item.name}</span><span class="score">${item.quality_score ?? 0}</span></div>
+          <div class="row"><span class="pill">${item.domain || 'general'}</span><span class="pill">Tier ${item.tier || '?'}</span></div>
+          <div class="row"><span class="pill">${item.source || 'unknown'}</span><span class="pill">${item.repo || 'local'}</span></div>
+          <div class="path">${item.path || ''}</div>
+        `;
+        els.grid.appendChild(card);
+      });
+      els.empty.hidden = items.length > 0;
+    }
+
+    function applyFilter() {
+      const q = els.search.value.trim().toLowerCase();
+      const domain = els.domain.value;
+      const tier = els.tier.value;
+      const source = els.source.value;
+
+      state.filtered = state.all.filter(item => {
+        if (domain && item.domain !== domain) return false;
+        if (tier && String(item.tier) !== tier) return false;
+        if (source && item.source !== source) return false;
+        if (q) {
+          const hay = `${item.name} ${item.domain} ${item.repo} ${item.path}`.toLowerCase();
+          if (!hay.includes(q)) return false;
+        }
+        return true;
+      });
+
+      renderStats(state.filtered);
+      renderCards(state.filtered);
+    }
+
+    async function init() {
+      try {
+        const res = await fetch('../../external/SKILL_MARKETPLACE.json');
+        const payload = await res.json();
+        state.all = (payload.items || []).slice().sort((a, b) => Number(b.quality_score || 0) - Number(a.quality_score || 0));
+        setFilters(state.all);
+        applyFilter();
+      } catch (err) {
+        els.empty.hidden = false;
+        els.empty.textContent = 'Failed to load marketplace JSON. Run score_skill_quality.py first.';
+      }
+    }
+
+    ['input', 'change'].forEach(evt => {
+      els.search.addEventListener(evt, applyFilter);
+      els.domain.addEventListener(evt, applyFilter);
+      els.tier.addEventListener(evt, applyFilter);
+      els.source.addEventListener(evt, applyFilter);
+    });
+
+    init();
+  </script>
+</body>
+</html>

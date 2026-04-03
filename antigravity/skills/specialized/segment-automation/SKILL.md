@@ -1,11 +1,17 @@
 ---
-name: segment-automation
-description: "Automate Segment tasks via Rube MCP (Composio): track events, identify users, manage groups, page views, aliases, batch operations. Always search tools first for current schemas."
-risk: critical
-source: community
+name: "segment-automation"
+tags: ["antigravity", "automation", "c:", "core", "events", "frontend", "gemini", "identify", "<YOUR_USERNAME>", "mcp", "prerequisites", "rube", "segment", "setup", "specialized", "track", "users", "via", "workflows"]
+tier: 2
+risk: "critical"
+estimated_tokens: 2215
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
 date_added: "2026-02-27"
+description: "Automate Segment tasks via Rube MCP (Composio): track events, identify users, manage groups, page views, aliases, batch operations. Always search tools first for current schemas."
+source: "community"
 ---
-
 # Segment Automation via Rube MCP
 
 Automate Segment customer data platform operations through Composio's Segment toolkit via Rube MCP.

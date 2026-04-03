@@ -1,3 +1,14 @@
+---
+name: "Properties (Frontmatter) Reference"
+tags: ["antigravity", "c:", "default", "frontend", "frontmatter", "gemini", "<YOUR_USERNAME>", "markdown", "obsidian", "properties", "property", "reference", "references", "specialized", "tags", "types", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 287
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.65
+---
 # Properties (Frontmatter) Reference
 
 Properties use YAML frontmatter at the start of a note:

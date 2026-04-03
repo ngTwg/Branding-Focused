@@ -1,3 +1,14 @@
+---
+name: "Response Format Principles"
+tags: ["antigravity", "api", "backend", "c:", "common", "error", "format", "frontend", "gemini", "<YOUR_USERNAME>", "pagination", "patterns", "principles", "questions", "response", "selection", "types", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 218
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.63
+---
 # Response Format Principles
 
 > Consistency is key - choose a format and stick to it.

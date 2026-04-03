@@ -1,11 +1,17 @@
 ---
-name: dispatching-parallel-agents
-description: "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies"
-risk: unknown
-source: community
+name: "dispatching-parallel-agents"
+tags: ["agent", "agents", "antigravity", "c:", "create", "dispatching", "domains", "focused", "frontend", "gemini", "identify", "independent", "<YOUR_USERNAME>", "overview", "parallel", "pattern", "specialized", "tasks", "the", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1535
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.90
 date_added: "2026-02-27"
+description: "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies"
+source: "community"
 ---
-
 # Dispatching Parallel Agents
 
 ## Overview

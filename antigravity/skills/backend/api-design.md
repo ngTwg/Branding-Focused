@@ -1,3 +1,14 @@
+---
+name: "API DESIGN PATTERNS"
+tags: ["antigravity", "api", "backend", "c:", "design", "format", "frontend", "gemini", "<YOUR_USERNAME>", "limiting", "pagination", "patterns", "rate", "response", "rest", "rules", "users", "versioning"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1546
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.88
+---
 # API DESIGN PATTERNS
 
 > **Khi nào tải skill này:** API, REST, GraphQL, Endpoint, Route, HTTP

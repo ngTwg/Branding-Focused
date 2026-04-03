@@ -1,11 +1,17 @@
 ---
-name: posthog-automation
-description: "Automate PostHog tasks via Rube MCP (Composio): events, feature flags, projects, user profiles, annotations. Always search tools first for current schemas."
-risk: critical
-source: community
+name: "posthog-automation"
+tags: ["and", "antigravity", "automation", "c:", "capture", "core", "events", "filter", "frontend", "gemini", "<YOUR_USERNAME>", "list", "mcp", "posthog", "prerequisites", "rube", "setup", "specialized", "users", "via"]
+tier: 2
+risk: "critical"
+estimated_tokens: 2030
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.89
 date_added: "2026-02-27"
+description: "Automate PostHog tasks via Rube MCP (Composio): events, feature flags, projects, user profiles, annotations. Always search tools first for current schemas."
+source: "community"
 ---
-
 # PostHog Automation via Rube MCP
 
 Automate PostHog product analytics and feature flag management through Composio's PostHog toolkit via Rube MCP.

@@ -1,10 +1,17 @@
 ---
-title: Per-Request Deduplication with React.cache()
-impact: MEDIUM
-impactDescription: deduplicates within request
-tags: server, cache, react-cache, deduplication
+name: "Per-Request Deduplication with React.cache()"
+tags: ["server, cache, react-cache, deduplication"]
+tier: 2
+risk: "medium"
+estimated_tokens: 170
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.52
+impact: "MEDIUM"
+impactDescription: "deduplicates within request"
+title: "Per-Request Deduplication with React.cache()"
 ---
-
 ## Per-Request Deduplication with React.cache()
 
 Use `React.cache()` for server-side request deduplication. Authentication and database queries benefit most.

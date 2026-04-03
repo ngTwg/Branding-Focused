@@ -1,11 +1,17 @@
 ---
-name: kotlin-coroutines-expert
-description: "Expert patterns for Kotlin Coroutines and Flow, covering structured concurrency, error handling, and testing."
-risk: safe
-source: community
+name: "kotlin-coroutines-expert"
+tags: ["antigravity", "c:", "concurrency", "coroutines", "exception", "expert", "frontend", "gemini", "guide", "handling", "kotlin", "<YOUR_USERNAME>", "overview", "skill", "specialized", "step", "structured", "this", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 762
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 date_added: "2026-02-27"
+description: "Expert patterns for Kotlin Coroutines and Flow, covering structured concurrency, error handling, and testing."
+source: "community"
 ---
-
 # Kotlin Coroutines Expert
 
 ## Overview

@@ -1,4 +1,15 @@
 ---
+name: "Overview"
+tags: ["antigravity", "authoritative", "c:", "dwarf", "expert", "frontend", "gemini", "<YOUR_USERNAME>", "not", "overview", "skill", "sources", "specialized", "structural", "this", "use", "users", "validation", "verification", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1226
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+---
+---
 name: dwarf-expert
 description: Provides expertise for analyzing DWARF debug files and understanding the DWARF debug format/standard (v3-v5). Triggers when understanding DWARF information, interacting with DWARF files, answering DWARF-related questions, or working with code that parses DWARF data.
 allowed-tools:

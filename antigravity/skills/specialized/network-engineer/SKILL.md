@@ -1,11 +1,17 @@
 ---
-name: network-engineer
-description: Expert network engineer specializing in modern cloud networking, security architectures, and performance optimization.
-risk: safe
-source: community
-date_added: '2026-02-27'
+name: "network-engineer"
+tags: ["antigravity", "c:", "capabilities", "cloud", "engineer", "expertise", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "network", "networking", "not", "purpose", "skill", "specialized", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2413
+tools_needed: ["ansible", "docker", "git", "kubernetes", "markdown", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+date_added: "2026-02-27"
+description: "Expert network engineer specializing in modern cloud networking, security architectures, and performance optimization."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on network engineer tasks or workflows

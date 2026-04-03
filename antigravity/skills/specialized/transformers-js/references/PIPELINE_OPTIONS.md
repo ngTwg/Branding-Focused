@@ -1,3 +1,14 @@
+---
+name: "Pipeline Options Reference"
+tags: ["antigravity", "available", "basic", "c:", "callback", "contents", "frontend", "gemini", "js", "<YOUR_USERNAME>", "options", "overview", "pipeline", "progress", "reference", "references", "specialized", "table", "transformers", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3634
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Pipeline Options Reference
 
 Guide to configuring model loading and inference using the `PretrainedModelOptions` parameter in the `pipeline()` function.

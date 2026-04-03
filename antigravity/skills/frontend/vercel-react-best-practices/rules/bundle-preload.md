@@ -1,10 +1,17 @@
 ---
-title: Preload Based on User Intent
-impact: MEDIUM
-impactDescription: reduces perceived latency
-tags: bundle, preload, user-intent, hover
+name: "Preload Based on User Intent"
+tags: ["bundle, preload, user-intent, hover"]
+tier: 2
+risk: "medium"
+estimated_tokens: 287
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.56
+impact: "MEDIUM"
+impactDescription: "reduces perceived latency"
+title: "Preload Based on User Intent"
 ---
-
 ## Preload Based on User Intent
 
 Preload heavy bundles before they're needed to reduce perceived latency.

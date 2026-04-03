@@ -1,12 +1,18 @@
 ---
-name: bug-hunter
-description: "Systematically finds and fixes bugs using proven debugging techniques. Traces from symptoms to root cause, implements fixes, and prevents regression."
-category: development
-risk: safe
-source: community
+name: "bug-hunter"
+tags: ["antigravity", "application", "backend", "bug", "c:", "debugging", "evidence", "gather", "gemini", "hunter", "<YOUR_USERNAME>", "logs", "process", "reproduce", "skill", "specialized", "the", "this", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1895
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.97
+category: "development"
 date_added: "2026-03-05"
+description: "Systematically finds and fixes bugs using proven debugging techniques. Traces from symptoms to root cause, implements fixes, and prevents regression."
+source: "community"
 ---
-
 # Bug Hunter
 
 Systematically hunt down and fix bugs using proven debugging techniques. No guessing—follow the evidence.

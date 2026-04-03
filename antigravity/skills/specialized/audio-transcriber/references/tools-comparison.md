@@ -1,3 +1,14 @@
+---
+name: "Transcription Tools Comparison"
+tags: ["antigravity", "audio", "c:", "comparison", "cons", "faster", "frontend", "gemini", "installation", "<YOUR_USERNAME>", "overview", "pros", "recommended", "references", "specialized", "tools", "transcriber", "transcription", "users", "whisper"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2041
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.93
+---
 # Transcription Tools Comparison
 
 Comprehensive comparison of audio transcription engines supported by the audio-transcriber skill.

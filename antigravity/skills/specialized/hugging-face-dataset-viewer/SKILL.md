@@ -1,10 +1,16 @@
 ---
+name: "hugging-face-dataset-viewer"
+tags: ["antigravity", "c:", "core", "dataset", "datasets", "defaults", "face", "frontend", "gemini", "hugging", "<YOUR_USERNAME>", "querying", "specialized", "use", "users", "viewer", "when", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1184
+tools_needed: ["git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.90
+description: "Query Hugging Face datasets through the Dataset Viewer API for splits, rows, search, filters, and parquet links."
 source: "https://github.com/huggingface/skills/tree/main/skills/huggingface-datasets"
-name: hugging-face-dataset-viewer
-description: Query Hugging Face datasets through the Dataset Viewer API for splits, rows, search, filters, and parquet links.
-risk: unknown
 ---
-
 # Hugging Face Dataset Viewer
 
 ## When to Use

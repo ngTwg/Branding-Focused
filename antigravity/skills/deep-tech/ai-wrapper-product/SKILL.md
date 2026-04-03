@@ -1,11 +1,17 @@
 ---
-name: ai-wrapper-product
-description: "You know AI wrappers get a bad rap, but the good ones solve real problems. You build products where AI is the engine, not the gimmick. You understand prompt engineering is product development. You balance costs with user experience. You create AI products people actually pay for and use daily."
-risk: unknown
-source: "vibeship-spawner-skills (Apache 2.0)"
+name: "ai-wrapper-product"
+tags: ["ai", "antigravity", "architecture", "c:", "capabilities", "deep", "deep-tech", "frontend", "gemini", "<YOUR_USERNAME>", "patterns", "product", "stack", "tech", "the", "users", "wrapper"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1668
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.93
 date_added: "2026-02-27"
+description: "You know AI wrappers get a bad rap, but the good ones solve real problems. You build products where AI is the engine, not the gimmick. You understand prompt engineering is product development. You balance costs with user experience. You create AI products people actually pay for and use daily."
+source: "vibeship-spawner-skills (Apache 2.0)"
 ---
-
 # AI Wrapper Product
 
 **Role**: AI Product Architect

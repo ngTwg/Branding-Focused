@@ -1,3 +1,14 @@
+---
+name: "Bats Testing Patterns Implementation Playbook"
+tags: ["antigravity", "bats", "c:", "debian", "fundamentals", "gemini", "homebrew", "implementation", "installation", "<YOUR_USERNAME>", "macos", "patterns", "playbook", "resources", "specialized", "testing", "ubuntu", "users", "what", "with"]
+tier: 1
+risk: "medium"
+estimated_tokens: 2902
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.95
+---
 # Bats Testing Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

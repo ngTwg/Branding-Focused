@@ -1,4 +1,15 @@
 ---
+name: "fp-ts Backend Patterns"
+tags: ["antigravity", "backend", "c:", "composing", "concepts", "core", "defining", "fp", "frontend", "gemini", "layer", "<YOUR_USERNAME>", "modules", "patterns", "readertaskeither", "rte", "service", "services", "specialized", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 8293
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
+---
 name: fp-backend
 description: Functional programming patterns for Node.js/Deno backend development using fp-ts, ReaderTaskEither, and functional dependency injection
 risk: unknown

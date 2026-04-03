@@ -1,11 +1,17 @@
 ---
-name: on-call-handoff-patterns
-description: "Effective patterns for on-call shift transitions, ensuring continuity, context transfer, and reliable incident response across shifts."
-risk: unknown
-source: community
+name: "on-call-handoff-patterns"
+tags: ["antigravity", "c:", "call", "components", "concepts", "core", "frontend", "gemini", "handoff", "instructions", "<YOUR_USERNAME>", "not", "on", "patterns", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2864
+tools_needed: ["kubernetes", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Effective patterns for on-call shift transitions, ensuring continuity, context transfer, and reliable incident response across shifts."
+source: "community"
 ---
-
 # On-Call Handoff Patterns
 
 Effective patterns for on-call shift transitions, ensuring continuity, context transfer, and reliable incident response across shifts.

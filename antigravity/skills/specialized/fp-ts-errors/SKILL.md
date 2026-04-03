@@ -1,11 +1,17 @@
 ---
-name: fp-ts-errors
-description: "Handle errors as values using fp-ts Either and TaskEither for cleaner, more predictable TypeScript code. Use when implementing error handling patterns with fp-ts."
-risk: safe
-source: "https://github.com/whatiskadudoing/fp-ts-skills"
+name: "fp-ts-errors"
+tags: ["antigravity", "c:", "either", "error", "errors", "everywhere", "exceptions", "fp", "frontend", "gemini", "handling", "<YOUR_USERNAME>", "pattern", "practical", "problem", "result", "return", "skill", "solution", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 5611
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Handle errors as values using fp-ts Either and TaskEither for cleaner, more predictable TypeScript code. Use when implementing error handling patterns with fp-ts."
+source: "https://github.com/whatiskadudoing/fp-ts-skills"
 ---
-
 # Practical Error Handling with fp-ts
 
 This skill teaches you how to handle errors without try/catch spaghetti. No academic jargon - just practical patterns for real problems.

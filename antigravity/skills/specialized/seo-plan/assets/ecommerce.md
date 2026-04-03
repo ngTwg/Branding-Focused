@@ -1,3 +1,14 @@
+---
+name: "E-commerce SEO Strategy Template"
+tags: ["2025", "additional", "antigravity", "architecture", "assets", "c:", "characteristics", "commerce", "ecommerce", "example", "frontend", "gemini", "industry", "<YOUR_USERNAME>", "plan", "product", "recommendations", "recommended", "schema", "seo"]
+tier: 1
+risk: "medium"
+estimated_tokens: 1173
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.76
+---
 <!-- Updated: 2026-02-07 -->
 # E-commerce SEO Strategy Template
 

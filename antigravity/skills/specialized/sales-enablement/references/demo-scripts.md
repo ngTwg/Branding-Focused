@@ -1,3 +1,14 @@
+---
+name: "Demo Script Templates"
+tags: ["antigravity", "c:", "call", "demo", "discovery", "enablement", "frontend", "gemini", "identification", "impact", "<YOUR_USERNAME>", "min", "opening", "pain", "priority", "questions", "references", "sales", "scene", "script"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2930
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.79
+---
 # Demo Script Templates
 
 Scene-by-scene templates for different call types, with timing, talk tracks, and interaction guidance.

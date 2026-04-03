@@ -1,3 +1,14 @@
+---
+name: "SECURITY ATTACK VECTORS"
+tags: ["antigravity", "attack", "c:", "cross", "csrf", "forgery", "frontend", "gemini", "injection", "<YOUR_USERNAME>", "pollution", "prototype", "request", "scripting", "security", "server", "side", "site", "sql", "ssrf"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1484
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.89
+---
 # SECURITY ATTACK VECTORS
 
 > **Khi nào tải skill này:** XSS, SQL Injection, CSRF, SSRF, Security, Attack, Vulnerability
@@ -237,7 +248,7 @@ const payload = {
 ## INPUT VALIDATION CHECKLIST
 
 | Input Type | Validation |
-|------------|------------|
+| ---------- | ---------- |
 | Email | Regex + DNS check |
 | URL | Protocol + domain allowlist |
 | File | Extension + MIME + size |
@@ -245,6 +256,39 @@ const payload = {
 | JSON | Schema validation (Zod) |
 | SQL params | Parameterized queries |
 | Path | Normalize + prevent traversal |
+
+---
+
+## OWASP MAPPING (API + WEB)
+
+| Pattern in this file | OWASP Reference |
+| --- | --- |
+| XSS sanitization + CSP | A03 Injection, A05 Security Misconfiguration |
+| Parameterized queries | A03 Injection |
+| CSRF token validation | A01 Broken Access Control |
+| SSRF URL allowlist | API7 SSRF |
+| Prototype pollution guard | A08 Software and Data Integrity Failures |
+| JWT claim verification | API2 Broken Authentication |
+
+### Fast fix playbooks
+
+```typescript
+// Playbook #1: XSS-safe rendering rule
+export function renderSafeText(node: HTMLElement, value: string) {
+  node.textContent = value;
+}
+```
+
+```typescript
+// Playbook #2: API query always parameterized
+const user = await prisma.user.findUnique({ where: { id: userId } });
+```
+
+```typescript
+// Playbook #3: SSRF deny-by-default fetch
+const ALLOWLIST = new Set(['api.stripe.com', 'api.openai.com']);
+if (!ALLOWLIST.has(new URL(target).hostname)) throw new Error('Blocked target host');
+```
 
 ---
 

@@ -1,3 +1,14 @@
+---
+name: "Changelog"
+tags: ["2025", "added", "antigravity", "c:", "changed", "changelog", "fixed", "frontend", "gemini", "<YOUR_USERNAME>", "notebooklm", "specialized", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 442
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.63
+---
 # Changelog
 
 All notable changes to this project will be documented in this file.

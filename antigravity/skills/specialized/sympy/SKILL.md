@@ -1,13 +1,19 @@
 ---
-name: sympy
+name: "sympy"
+tags: ["antigravity", "assumptions", "basics", "c:", "capabilities", "computation", "core", "frontend", "gemini", "<YOUR_USERNAME>", "mathematics", "overview", "python", "skill", "specialized", "symbolic", "sympy", "this", "use", "users"]
+tier: 4
+risk: "medium"
+estimated_tokens: 3264
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 description: "SymPy is a Python library for symbolic mathematics that enables exact computation using mathematical symbols rather than numerical approximations."
-license: https://github.com/sympy/sympy/blob/master/LICENSE
-metadata:
-    skill-author: K-Dense Inc.
-risk: unknown
+license: "https://github.com/sympy/sympy/blob/master/LICENSE"
+metadata: ""
+skill-author: "K-Dense Inc."
 source: "https://github.com/sympy/sympy"
 ---
-
 # SymPy - Symbolic Mathematics in Python
 
 ## Overview

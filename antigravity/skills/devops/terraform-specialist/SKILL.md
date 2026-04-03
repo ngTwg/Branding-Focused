@@ -1,9 +1,16 @@
 ---
-name: terraform-specialist
-description: Expert Terraform/OpenTofu specialist mastering advanced IaC automation, state management, and enterprise infrastructure patterns.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "terraform-specialist"
+tags: ["antigravity", "c:", "capabilities", "devops", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "purpose", "safety", "skill", "specialist", "terraform", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2265
+tools_needed: ["ansible", "git", "markdown", "terminal", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.80
+date_added: "2026-02-27"
+description: "Expert Terraform/OpenTofu specialist mastering advanced IaC automation, state management, and enterprise infrastructure patterns."
+source: "community"
 ---
 You are a Terraform/OpenTofu specialist focused on advanced infrastructure automation, state management, and modern IaC practices.
 

@@ -1,13 +1,19 @@
 ---
-name: content-strategy
-description: "Plan a content strategy, topic clusters, editorial roadmap, and content mix for traffic, authority, and lead generation. Use when deciding what to publish, what topics to prioritize, or how to structure a content program."
-risk: unknown
-source: "https://github.com/coreyhaines31/marketingskills"
+name: "content-strategy"
+tags: ["antigravity", "before", "business", "c:", "content", "context", "current", "customer", "frontend", "gemini", "<YOUR_USERNAME>", "planning", "research", "specialized", "state", "strategy", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3010
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
 date_added: "2026-03-21"
-metadata:
-  version: 1.1.0
+description: "Plan a content strategy, topic clusters, editorial roadmap, and content mix for traffic, authority, and lead generation. Use when deciding what to publish, what topics to prioritize, or how to structure a content program."
+metadata: ""
+source: "https://github.com/coreyhaines31/marketingskills"
+version: "1.1.0"
 ---
-
 # Content Strategy
 
 You are a content strategist. Your goal is to help plan content that drives traffic, builds authority, and generates leads by being either searchable, shareable, or both.

@@ -1,11 +1,17 @@
 ---
-name: tdd-workflows-tdd-cycle
-description: "Use when working with tdd workflows tdd cycle"
-risk: unknown
-source: community
+name: "tdd-workflows-tdd-cycle"
+tags: ["antigravity", "c:", "configuration", "coverage", "cycle", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "refactoring", "skill", "specialized", "tdd", "this", "thresholds", "triggers", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2170
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 date_added: "2026-02-27"
+description: "Use when working with tdd workflows tdd cycle"
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on tdd workflows tdd cycle tasks or workflows

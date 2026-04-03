@@ -1,11 +1,17 @@
 ---
-name: nextjs-app-router-patterns
-description: "Comprehensive patterns for Next.js 14+ App Router architecture, Server Components, and modern full-stack React development."
-risk: safe
-source: community
+name: "nextjs-app-router-patterns"
+tags: ["antigravity", "app", "c:", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "next", "nextjs", "not", "patterns", "resources", "router", "skill", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 295
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
 date_added: "2026-02-27"
+description: "Comprehensive patterns for Next.js 14+ App Router architecture, Server Components, and modern full-stack React development."
+source: "community"
 ---
-
 # Next.js App Router Patterns
 
 Comprehensive patterns for Next.js 14+ App Router architecture, Server Components, and modern full-stack React development.

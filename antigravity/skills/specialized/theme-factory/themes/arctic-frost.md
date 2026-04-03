@@ -1,3 +1,14 @@
+---
+name: "Arctic Frost"
+tags: ["antigravity", "arctic", "best", "c:", "color", "factory", "for", "frost", "gemini", "<YOUR_USERNAME>", "palette", "specialized", "theme", "themes", "typography", "used", "users"]
+tier: 3
+risk: "high"
+estimated_tokens: 136
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["specialized", "domain"]
+quality_score: 0.54
+---
 # Arctic Frost
 
 A cool and crisp winter-inspired theme that conveys clarity, precision, and professionalism.

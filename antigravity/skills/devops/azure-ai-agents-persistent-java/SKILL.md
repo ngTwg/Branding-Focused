@@ -1,11 +1,17 @@
 ---
-name: azure-ai-agents-persistent-java
-description: Azure AI Agents Persistent SDK for Java. Low-level SDK for creating and managing AI agents with threads, messages, runs, and tools.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "azure-ai-agents-persistent-java"
+tags: ["agents", "ai", "antigravity", "authentication", "azure", "c:", "client", "concepts", "devops", "environment", "for", "frontend", "gemini", "hierarchy", "installation", "java", "key", "<YOUR_USERNAME>", "persistent", "sdk"]
+tier: 2
+risk: "medium"
+estimated_tokens: 908
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.86
+date_added: "2026-02-27"
+description: "Azure AI Agents Persistent SDK for Java. Low-level SDK for creating and managing AI agents with threads, messages, runs, and tools."
+source: "community"
 ---
-
 # Azure AI Agents Persistent SDK for Java
 
 Low-level SDK for creating and managing persistent AI agents with threads, messages, runs, and tools.

@@ -1,15 +1,20 @@
 ---
-name: playwright-java
-description: "Scaffold, write, debug, and enhance enterprise-grade Playwright E2E tests in Java using Page Object Model, JUnit 5, Allure reporting, and parallel execution."
-category: test-automation
-risk: safe
-source: community
+name: "playwright-java"
+tags: ["[playwright, java, e2e-testing, junit5, page-object-model, allure, selenium-alternative]"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3353
+tools_needed: ["docker", "git", "markdown", "playwright"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.98
+author: "amalsam18"
+category: "test-automation"
 date_added: "2025-03-08"
-author: amalsam18
-tags: [playwright, java, e2e-testing, junit5, page-object-model, allure, selenium-alternative]
-tools: [claude, cursor,antigravity]
+description: "Scaffold, write, debug, and enhance enterprise-grade Playwright E2E tests in Java using Page Object Model, JUnit 5, Allure reporting, and parallel execution."
+source: "community"
+tools: "[claude, cursor,antigravity]"
 ---
-
 # Playwright Java – Advanced Test Automation
 
 ## Overview

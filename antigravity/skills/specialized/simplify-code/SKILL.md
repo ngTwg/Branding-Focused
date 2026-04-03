@@ -1,11 +1,17 @@
 ---
-name: simplify-code
-description: "Review a diff for clarity and safe simplifications, then optionally apply low-risk fixes."
-risk: safe
-source: "Dimillian/Skills (MIT)"
+name: "simplify-code"
+tags: ["agent", "agents", "and", "antigravity", "c:", "code", "command", "determine", "diff", "four", "frontend", "gemini", "launch", "<YOUR_USERNAME>", "modes", "parallel", "reuse", "review", "scope", "simplify"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1686
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 date_added: "2026-03-25"
+description: "Review a diff for clarity and safe simplifications, then optionally apply low-risk fixes."
+source: "Dimillian/Skills (MIT)"
 ---
-
 # Simplify Code
 
 Review changed code for reuse, quality, efficiency, and clarity issues. Use Codex sub-agents to review in parallel, then optionally apply only high-confidence, behavior-preserving fixes.

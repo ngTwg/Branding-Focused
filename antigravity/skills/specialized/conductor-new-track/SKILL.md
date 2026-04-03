@@ -1,11 +1,17 @@
 ---
-name: conductor-new-track
-description: "Create a new track with specification and phased implementation plan"
-risk: unknown
-source: community
+name: "conductor-new-track"
+tags: ["antigravity", "c:", "checks", "classification", "conductor", "flight", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "new", "not", "pre", "skill", "specialized", "this", "track", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2060
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Create a new track with specification and phased implementation plan"
+source: "community"
 ---
-
 # New Track
 
 Create a new track (feature, bug fix, chore, or refactor) with a detailed specification and phased implementation plan.

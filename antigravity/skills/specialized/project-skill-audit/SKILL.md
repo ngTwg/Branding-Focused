@@ -1,11 +1,17 @@
 ---
-name: project-skill-audit
-description: Audit a project and recommend the highest-value skills to add or update.
-risk: safe
-source: "Dimillian/Skills (MIT)"
+name: "project-skill-audit"
+tags: ["analysis", "antigravity", "audit", "c:", "first", "frontend", "gemini", "index", "<YOUR_USERNAME>", "memory", "overview", "project", "search", "session", "skill", "specialized", "use", "users", "when", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2027
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 date_added: "2026-03-25"
+description: "Audit a project and recommend the highest-value skills to add or update."
+source: "Dimillian/Skills (MIT)"
 ---
-
 # Project Skill Audit
 
 ## Overview

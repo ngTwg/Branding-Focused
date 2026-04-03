@@ -1,9 +1,16 @@
 ---
-name: game-art
-description: Game art principles. Visual style selection, asset pipeline, animation workflow.
-allowed-tools: Read, Glob, Grep
+name: "game-art"
+tags: ["antigravity", "art", "asset", "c:", "comparison", "decision", "decisions", "development", "frontend", "game", "gemini", "<YOUR_USERNAME>", "matrix", "pipeline", "principles", "selection", "specialized", "style", "tree", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1222
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.80
+allowed-tools: "Read, Glob, Grep"
+description: "Game art principles. Visual style selection, asset pipeline, animation workflow."
 ---
-
 # Game Art Principles
 
 > Visual design thinking for games - style selection, asset pipelines, and art direction.

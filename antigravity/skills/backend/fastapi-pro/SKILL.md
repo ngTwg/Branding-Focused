@@ -1,11 +1,17 @@
 ---
-name: fastapi-pro
-description: Build high-performance async APIs with FastAPI, SQLAlchemy 2.0, and Pydantic V2. Master microservices, WebSockets, and modern Python async patterns.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "fastapi-pro"
+tags: ["antigravity", "backend", "c:", "capabilities", "core", "expertise", "fastapi", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "pro", "purpose", "skill", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1609
+tools_needed: ["docker", "git", "kubernetes", "markdown", "pytest", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.77
+date_added: "2026-02-27"
+description: "Build high-performance async APIs with FastAPI, SQLAlchemy 2.0, and Pydantic V2. Master microservices, WebSockets, and modern Python async patterns."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on fastapi pro tasks or workflows

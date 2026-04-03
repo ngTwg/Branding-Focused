@@ -1,11 +1,17 @@
 ---
-name: error-detective
-description: Search logs and codebases for error patterns, stack traces, and anomalies. Correlates errors across systems and identifies root causes.
-risk: safe
-source: community
-date_added: '2026-02-27'
+name: "error-detective"
+tags: ["antigravity", "approach", "areas", "c:", "detective", "error", "focus", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "output", "skill", "specialized", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 419
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.63
+date_added: "2026-02-27"
+description: "Search logs and codebases for error patterns, stack traces, and anomalies. Correlates errors across systems and identifies root causes."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on error detective tasks or workflows

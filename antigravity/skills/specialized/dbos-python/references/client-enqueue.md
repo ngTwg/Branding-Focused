@@ -1,10 +1,17 @@
 ---
-title: Enqueue Workflows from External Applications
-impact: HIGH
-impactDescription: Enables decoupled architecture with separate API and worker services
-tags: client, enqueue, workflow, external
+name: "Enqueue Workflows from External Applications"
+tags: ["client, enqueue, workflow, external"]
+tier: 2
+risk: "medium"
+estimated_tokens: 346
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.61
+impact: "HIGH"
+impactDescription: "Enables decoupled architecture with separate API and worker services"
+title: "Enqueue Workflows from External Applications"
 ---
-
 ## Enqueue Workflows from External Applications
 
 Use `client.enqueue()` to submit workflows from outside the DBOS application. Must specify workflow and queue names explicitly.

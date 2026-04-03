@@ -1,3 +1,14 @@
+---
+name: "Content Quality Gates"
+tags: ["antigravity", "c:", "content", "counts", "frontend", "gates", "gemini", "hard", "<YOUR_USERNAME>", "level", "location", "matters", "minimum", "page", "pages", "quality", "references", "seo", "specialized", "stop"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1299
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.72
+---
 # Content Quality Gates
 
 ## Minimum Word Counts by Page Type

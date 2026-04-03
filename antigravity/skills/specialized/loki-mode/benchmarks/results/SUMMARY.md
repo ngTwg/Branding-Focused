@@ -1,3 +1,14 @@
+---
+name: "Loki Mode Benchmark Results"
+tags: ["antigravity", "benchmark", "benchmarks", "c:", "claude", "datasets", "download", "execute", "gemini", "<YOUR_USERNAME>", "loki", "methodology", "mode", "only", "overview", "results", "running", "setup", "specialized", "summary"]
+tier: 3
+risk: "medium"
+estimated_tokens: 231
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.64
+---
 # Loki Mode Benchmark Results
 
 **Generated:** 2026-01-05 09:31:14

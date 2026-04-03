@@ -1,10 +1,17 @@
 ---
-title: Set Workflow Timeouts
-impact: CRITICAL
-impactDescription: Prevents runaway workflows from consuming resources
-tags: timeout, cancel, deadline, limits
+name: "Set Workflow Timeouts"
+tags: ["timeout, cancel, deadline, limits"]
+tier: 2
+risk: "medium"
+estimated_tokens: 358
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.66
+impact: "CRITICAL"
+impactDescription: "Prevents runaway workflows from consuming resources"
+title: "Set Workflow Timeouts"
 ---
-
 ## Set Workflow Timeouts
 
 Use `SetWorkflowTimeout` to limit workflow execution time. Timed-out workflows are cancelled.

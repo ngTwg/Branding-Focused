@@ -1,3 +1,14 @@
+---
+name: "FORMS & VALIDATION PATTERNS"
+tags: ["accessibility", "antigravity", "c:", "components", "form", "forms", "frontend", "gemini", "input", "<YOUR_USERNAME>", "library", "patterns", "rules", "schemas", "state", "users", "validation"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1651
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
+---
 # FORMS & VALIDATION PATTERNS
 
 > **Khi nào tải skill này:** Form, Validation, Input, Schema, Submit, Field

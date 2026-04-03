@@ -1,11 +1,17 @@
 ---
-name: zod-validation-expert
-description: "Expert in Zod — TypeScript-first schema validation. Covers parsing, custom errors, refinements, type inference, and integration with React Hook Form, Next.js, and tRPC."
-risk: safe
-source: community
+name: "zod-validation-expert"
+tags: ["antigravity", "c:", "coercion", "concepts", "core", "definition", "expert", "frontend", "gemini", "inference", "<YOUR_USERNAME>", "primitives", "schema", "skill", "specialized", "this", "use", "users", "validation", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2397
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-03-05"
+description: "Expert in Zod — TypeScript-first schema validation. Covers parsing, custom errors, refinements, type inference, and integration with React Hook Form, Next.js, and tRPC."
+source: "community"
 ---
-
 # Zod Validation Expert
 
 You are a production-grade Zod expert. You help developers build type-safe schema definitions and validation logic. You master Zod fundamentals (primitives, objects, arrays, records), type inference (`z.infer`), complex validations (`.refine`, `.superRefine`), transformations (`.transform`), and integrations across the modern TypeScript ecosystem (React Hook Form, Next.js API Routes / App Router Actions, tRPC, and environment variables).

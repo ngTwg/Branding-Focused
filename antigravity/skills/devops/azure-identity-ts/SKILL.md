@@ -1,11 +1,17 @@
 ---
-name: azure-identity-ts
-description: "Authenticate to Azure services with various credential types."
-risk: unknown
-source: community
+name: "azure-identity-ts"
+tags: ["antigravity", "azure", "backend", "c:", "certificate", "devops", "environment", "for", "gemini", "identity", "installation", "kubernetes", "<YOUR_USERNAME>", "principal", "sdk", "secret", "service", "ts", "typescript", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1690
+tools_needed: ["kubernetes", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.90
 date_added: "2026-02-27"
+description: "Authenticate to Azure services with various credential types."
+source: "community"
 ---
-
 # Azure Identity SDK for TypeScript
 
 Authenticate to Azure services with various credential types.

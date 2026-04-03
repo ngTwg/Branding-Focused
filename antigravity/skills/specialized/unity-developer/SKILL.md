@@ -1,11 +1,17 @@
 ---
-name: unity-developer
-description: Build Unity games with optimized C# scripts, efficient rendering, and proper asset management. Masters Unity 6 LTS, URP/HDRP pipelines, and cross-platform deployment.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "unity-developer"
+tags: ["antigravity", "c:", "capabilities", "core", "developer", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "mastery", "not", "purpose", "skill", "specialized", "this", "unity", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2683
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+date_added: "2026-02-27"
+description: "Build Unity games with optimized C# scripts, efficient rendering, and proper asset management. Masters Unity 6 LTS, URP/HDRP pipelines, and cross-platform deployment."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on unity developer tasks or workflows

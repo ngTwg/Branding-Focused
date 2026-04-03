@@ -1,13 +1,19 @@
 ---
-name: seo
-description: "Run a broad SEO audit across technical SEO, on-page SEO, schema, sitemaps, content quality, AI search readiness, and GEO. Use as the umbrella skill when the user asks for a full SEO analysis or strategy."
-risk: unknown
-source: "https://github.com/AgriciDaniel/claude-seo"
-date_added: "2026-03-21"
-user-invokable: true
+name: "seo"
+tags: ["analysis", "antigravity", "c:", "detection", "frontend", "gates", "gemini", "industry", "<YOUR_USERNAME>", "logic", "orchestration", "quality", "quick", "reference", "seo", "skill", "specialized", "universal", "use", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1687
+tools_needed: ["git", "markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.78
 argument-hint: "[command] [url]"
+date_added: "2026-03-21"
+description: "Run a broad SEO audit across technical SEO, on-page SEO, schema, sitemaps, content quality, AI search readiness, and GEO. Use as the umbrella skill when the user asks for a full SEO analysis or strategy."
+source: "https://github.com/AgriciDaniel/claude-seo"
+user-invokable: true
 ---
-
 # SEO: Universal SEO Analysis Skill
 
 Comprehensive SEO analysis across all industries (SaaS, local services,

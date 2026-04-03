@@ -1,11 +1,17 @@
 ---
-name: unity-ecs-patterns
-description: "Production patterns for Unity's Data-Oriented Technology Stack (DOTS) including Entity Component System, Job System, and Burst Compiler."
-risk: safe
-source: community
+name: "unity-ecs-patterns"
+tags: ["antigravity", "c:", "ecs", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "patterns", "resources", "skill", "specialized", "this", "unity", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 285
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
 date_added: "2026-02-27"
+description: "Production patterns for Unity's Data-Oriented Technology Stack (DOTS) including Entity Component System, Job System, and Burst Compiler."
+source: "community"
 ---
-
 # Unity ECS Patterns
 
 Production patterns for Unity's Data-Oriented Technology Stack (DOTS) including Entity Component System, Job System, and Burst Compiler.

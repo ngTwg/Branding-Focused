@@ -1,4 +1,15 @@
 ---
+name: "/aegisops-ai — Autonomous Governance Orchestrator"
+tags: ["aegisops", "ai", "antigravity", "autonomous", "c:", "core", "frontend", "gemini", "generative", "goal", "governance", "integration", "<YOUR_USERNAME>", "modules", "not", "orchestrator", "specialized", "use", "users", "when"]
+tier: 4
+risk: "medium"
+estimated_tokens: 1248
+tools_needed: ["git", "kubernetes", "markdown", "sql", "terminal", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.84
+---
+---
 name: aegisops-ai
 description: "Autonomous DevSecOps & FinOps Guardrails. 
 Orchestrates Gemini 3 Flash to audit Linux Kernel patches,

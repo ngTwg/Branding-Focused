@@ -1,10 +1,16 @@
 ---
-name: threejs-materials
-description: Three.js materials - PBR, basic, phong, shader materials, material properties. Use when styling meshes, working with textures, creating custom shaders, or optimizing material performance.
-risk: unknown
-source: community
+name: "threejs-materials"
+tags: ["antigravity", "c:", "frontend", "gemini", "<YOUR_USERNAME>", "material", "materials", "meshbasicmaterial", "meshlambertmaterial", "meshphongmaterial", "overview", "quick", "specialized", "start", "three", "threejs", "types", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3643
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+description: "Three.js materials - PBR, basic, phong, shader materials, material properties. Use when styling meshes, working with textures, creating custom shaders, or optimizing material performance."
+source: "community"
 ---
-
 # Three.js Materials
 
 ## Quick Start

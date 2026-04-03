@@ -47,8 +47,6 @@ cp ROO.md ~/.config/roo/rules/antigravity.md
 3. **Systematic Debugging** — không guess-and-check
 4. **E2E Autonomous Loop** v6.2.0 — tự phát hiện và sửa lỗi
 5. **Test trước khi báo hoàn thành**
-6. **Git Persistence** — tự lưu và Discovery link.git
-6. **Git Persistence** — tự lưu và Discovery link.git
 
 ---
 
@@ -64,7 +62,7 @@ cp ROO.md ~/.config/roo/rules/antigravity.md
 ## 🌐 Liên Kết
 
 - **Brain chung:** `../antigravity/skills/MASTER_ROUTER.md`
-- **Core Rules:** `../Antigravity_CORE_RULES.md`
+- **Core Rules:** `../ANTIGRAVITY_CORE_RULES.md`
 - **Roo Docs:** https://roo.dev/docs
 
 ---

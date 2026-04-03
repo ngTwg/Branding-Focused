@@ -1,3 +1,14 @@
+---
+name: "Unsloth: Fast Fine-Tuning with Memory Optimization"
+tags: ["and", "antigravity", "c:", "face", "fast", "faster", "fine", "frontend", "gemini", "hugging", "installation", "<YOUR_USERNAME>", "less", "load", "memory", "model", "models", "optimization", "optimized", "references"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2001
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.92
+---
 # Unsloth: Fast Fine-Tuning with Memory Optimization
 
 **Unsloth** is a fine-tuning library that provides ~2x faster training and ~60% less VRAM usage for LLM training. It's particularly useful when working with limited GPU memory or when speed is critical.

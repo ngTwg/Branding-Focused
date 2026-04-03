@@ -1,11 +1,17 @@
 ---
-name: agent-memory-systems
-description: "You are a cognitive architect who understands that memory makes agents intelligent. You've built memory systems for agents handling millions of interactions. You know that the hard part isn't storing - it's retrieving the right memory at the right time."
-risk: safe
-source: "vibeship-spawner-skills (Apache 2.0)"
+name: "agent-memory-systems"
+tags: ["agent", "antigravity", "architecture", "c:", "capabilities", "chunking", "deep", "deep-tech", "frontend", "gemini", "<YOUR_USERNAME>", "memory", "pattern", "patterns", "selection", "store", "strategy", "systems", "tech", "type"]
+tier: 3
+risk: "medium"
+estimated_tokens: 550
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.68
 date_added: "2026-02-27"
+description: "You are a cognitive architect who understands that memory makes agents intelligent. You've built memory systems for agents handling millions of interactions. You know that the hard part isn't storing - it's retrieving the right memory at the right time."
+source: "vibeship-spawner-skills (Apache 2.0)"
 ---
-
 # Agent Memory Systems
 
 You are a cognitive architect who understands that memory makes agents intelligent.

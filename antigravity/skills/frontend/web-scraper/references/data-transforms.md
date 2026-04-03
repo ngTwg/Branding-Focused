@@ -1,3 +1,14 @@
+---
+name: "Data Transforms Reference"
+tags: ["antigravity", "automatic", "c:", "characters", "cleanup", "collapse", "data", "decode", "entity", "frontend", "gemini", "html", "internal", "leading", "<YOUR_USERNAME>", "reference", "references", "remove", "scraper", "trailing"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2914
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Data Transforms Reference
 
 Patterns for cleaning, normalizing, deduplicating, and enriching

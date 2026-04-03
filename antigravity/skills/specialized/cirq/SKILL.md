@@ -1,13 +1,19 @@
 ---
-name: cirq
+name: "cirq"
+tags: ["alpine", "antigravity", "aqt", "c:", "cirq", "computing", "engine", "frontend", "gemini", "google", "installation", "ionq", "<YOUR_USERNAME>", "pasqal", "python", "quantum", "specialized", "technologies", "users", "with"]
+tier: 4
+risk: "medium"
+estimated_tokens: 2578
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 description: "Cirq is Google Quantum AI's open-source framework for designing, simulating, and running quantum circuits on quantum computers and simulators."
-license: Apache-2.0 license
-metadata:
-    skill-author: K-Dense Inc.
-risk: unknown
-source: community
+license: "Apache-2.0 license"
+metadata: ""
+skill-author: "K-Dense Inc."
+source: "community"
 ---
-
 # Cirq - Quantum Computing with Python
 
 Cirq is Google Quantum AI's open-source framework for designing, simulating, and running quantum circuits on quantum computers and simulators.

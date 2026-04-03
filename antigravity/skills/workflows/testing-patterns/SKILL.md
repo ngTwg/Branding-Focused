@@ -1,11 +1,17 @@
 ---
-name: testing-patterns
-description: "Jest testing patterns, factory functions, mocking strategies, and TDD workflow. Use when writing unit tests, creating test factories, or following TDD red-green-refactor cycle."
-risk: unknown
-source: community
+name: "testing-patterns"
+tags: ["and", "antigravity", "c:", "component", "custom", "factory", "frontend", "function", "gemini", "<YOUR_USERNAME>", "pattern", "patterns", "philosophy", "props", "render", "test", "testing", "users", "utilities", "workflows"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1503
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.90
 date_added: "2026-02-27"
+description: "Jest testing patterns, factory functions, mocking strategies, and TDD workflow. Use when writing unit tests, creating test factories, or following TDD red-green-refactor cycle."
+source: "community"
 ---
-
 # Testing Patterns and Utilities
 
 ## Testing Philosophy

@@ -1,11 +1,18 @@
 ---
-name: Cloud Penetration Testing
-description: This skill should be used when the user asks to "perform cloud penetration testing", "assess Azure or AWS or GCP security", "enumerate cloud resources", "exploit cloud misconfigurations", "test O365 security", "extract secrets from cloud environments", or "audit cloud infrastructure". It provides comprehensive techniques for security assessment across major cloud platforms.
-metadata:
-  author: zebbern
-  version: "1.1"
+name: "Cloud Penetration Testing"
+tags: ["antigravity", "aws", "azure", "c:", "cli", "cloud", "frontend", "gemini", "<YOUR_USERNAME>", "penetration", "prerequisites", "purpose", "required", "security", "testing", "tools", "users"]
+tier: 2
+risk: "critical"
+estimated_tokens: 3509
+tools_needed: ["kubernetes", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.96
+author: "zebbern"
+description: "This skill should be used when the user asks to \"perform cloud penetration testing\", \"assess Azure or AWS or GCP security\", \"enumerate cloud resources\", \"exploit cloud misconfigurations\", \"test O365 security\", \"extract secrets from cloud environments\", or \"audit cloud infrastructure\". It provides comprehensive techniques for security assessment across major cloud platforms."
+metadata: ""
+version: "1.1"
 ---
-
 # Cloud Penetration Testing
 
 ## Purpose

@@ -1,3 +1,14 @@
+---
+name: "GIT WORKFLOW"
+tags: ["antigravity", "branching", "breaking", "bug", "c:", "change", "commit", "conventions", "feature", "fix", "frontend", "gemini", "git", "<YOUR_USERNAME>", "strategy", "users", "workflow", "workflows"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1313
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.89
+---
 # GIT WORKFLOW
 
 > **Khi nào tải skill này:** Git, Commit, Branch, Merge, Rebase, Version

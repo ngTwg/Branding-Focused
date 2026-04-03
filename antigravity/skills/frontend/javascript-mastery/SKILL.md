@@ -1,11 +1,17 @@
 ---
-name: javascript-mastery
-description: "33+ essential JavaScript concepts every developer should know, inspired by [33-js-concepts](https://github.com/leonardomso/33-js-concepts)."
-risk: unknown
-source: community
+name: "javascript-mastery"
+tags: ["antigravity", "c:", "coercion", "equality", "frontend", "fundamentals", "gemini", "javascript", "<YOUR_USERNAME>", "mastery", "operators", "primitive", "skill", "this", "type", "types", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3174
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "33+ essential JavaScript concepts every developer should know, inspired by [33-js-concepts](https://github.com/leonardomso/33-js-concepts)."
+source: "community"
 ---
-
 # 🧠 JavaScript Mastery
 
 > 33+ essential JavaScript concepts every developer should know, inspired by [33-js-concepts](https://github.com/leonardomso/33-js-concepts).

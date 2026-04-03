@@ -1,10 +1,17 @@
 ---
-title: Maintain Table Statistics with VACUUM and ANALYZE
-impact: MEDIUM
-impactDescription: 2-10x better query plans with accurate statistics
-tags: vacuum, analyze, statistics, maintenance, autovacuum
+name: "Maintain Table Statistics with VACUUM and ANALYZE"
+tags: ["vacuum, analyze, statistics, maintenance, autovacuum"]
+tier: 3
+risk: "medium"
+estimated_tokens: 376
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
+impact: "MEDIUM"
+impactDescription: "2-10x better query plans with accurate statistics"
+title: "Maintain Table Statistics with VACUUM and ANALYZE"
 ---
-
 ## Maintain Table Statistics with VACUUM and ANALYZE
 
 Outdated statistics cause the query planner to make poor decisions. VACUUM reclaims space, ANALYZE updates statistics.

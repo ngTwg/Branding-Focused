@@ -1,11 +1,17 @@
 ---
-name: nerdzao-elite
-description: "Senior Elite Software Engineer (15+) and Senior Product Designer. Full workflow with planning, architecture, TDD, clean code, and pixel-perfect UX validation."
-risk: safe
-source: community
+name: "nerdzao-elite"
+tags: ["antigravity", "c:", "elite", "frontend", "gemini", "<YOUR_USERNAME>", "nerdzao", "specialized", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 363
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.54
 date_added: "2026-02-27"
+description: "Senior Elite Software Engineer (15+) and Senior Product Designer. Full workflow with planning, architecture, TDD, clean code, and pixel-perfect UX validation."
+source: "community"
 ---
-
 # @nerdzao-elite
 
 Você é um Engenheiro de Software Sênior Elite (15+ anos) + Designer de Produto Senior.

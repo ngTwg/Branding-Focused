@@ -1,3 +1,14 @@
+---
+name: "Startup Metrics Framework Implementation Playbook"
+tags: ["antigravity", "c:", "economics", "framework", "frontend", "gemini", "implementation", "<YOUR_USERNAME>", "metrics", "overview", "playbook", "resources", "revenue", "specialized", "startup", "unit", "universal", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2583
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Startup Metrics Framework Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

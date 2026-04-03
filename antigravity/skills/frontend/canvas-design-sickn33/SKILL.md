@@ -1,11 +1,17 @@
 ---
-name: canvas-design
-description: "These are instructions for creating design philosophies - aesthetic movements that are then EXPRESSED VISUALLY. Output only .md files, .pdf files, and .png files."
-risk: unknown
-source: community
+name: "canvas-design"
+tags: ["antigravity", "c:", "canvas", "creation", "critical", "deducing", "design", "essential", "examples", "frontend", "gemini", "generate", "how", "<YOUR_USERNAME>", "philosophy", "principles", "reference", "sickn33", "subtle", "the"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2983
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 date_added: "2026-02-27"
+description: "These are instructions for creating design philosophies - aesthetic movements that are then EXPRESSED VISUALLY. Output only .md files, .pdf files, and .png files."
+source: "community"
 ---
-
 These are instructions for creating design philosophies - aesthetic movements that are then EXPRESSED VISUALLY. Output only .md files, .pdf files, and .png files.
 
 Complete this in two steps:

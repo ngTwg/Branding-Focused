@@ -1,12 +1,18 @@
 ---
-name: html-injection-testing
-description: "Identify and exploit HTML injection vulnerabilities that allow attackers to inject malicious HTML content into web applications. This vulnerability enables attackers to modify page appearance, create phishing pages, and steal user credentials through injected forms."
-risk: offensive
-source: community
-author: zebbern
+name: "html-injection-testing"
+tags: ["and", "antigravity", "c:", "deliverables", "frontend", "gemini", "html", "injection", "knowledge", "<YOUR_USERNAME>", "outputs", "prerequisites", "purpose", "required", "testing", "tools", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3323
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+author: "zebbern"
 date_added: "2026-02-27"
+description: "Identify and exploit HTML injection vulnerabilities that allow attackers to inject malicious HTML content into web applications. This vulnerability enables attackers to modify page appearance, create phishing pages, and steal user credentials through injected forms."
+source: "community"
 ---
-
 > AUTHORIZED USE ONLY: Use this skill only for authorized security assessments, defensive validation, or controlled educational environments.
 
 # HTML Injection Testing

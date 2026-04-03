@@ -1,3 +1,14 @@
+---
+name: "Architecture Patterns Reference"
+tags: ["access", "antigravity", "api", "architecture", "c:", "data", "distributed", "domain", "frontend", "gemini", "<YOUR_USERNAME>", "logic", "patterns", "principle", "reference", "simplicity", "specialized", "system", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 576
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.61
+---
 # Architecture Patterns Reference
 
 > Quick reference for common patterns with usage guidance.

@@ -1,3 +1,14 @@
+---
+name: "Vector Index Tuning Implementation Playbook"
+tags: ["antigravity", "c:", "concepts", "core", "frontend", "gemini", "hnsw", "implementation", "index", "<YOUR_USERNAME>", "parameters", "playbook", "quantization", "resources", "selection", "specialized", "templates", "tuning", "type", "types"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3701
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Vector Index Tuning Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

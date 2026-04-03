@@ -1,10 +1,16 @@
 ---
-name: get-audio-duration
-description: Getting the duration of an audio file in seconds with Mediabunny
-metadata:
-  tags: duration, audio, length, time, seconds, mp3, wav
+name: "get-audio-duration"
+tags: ["duration, audio, length, time, seconds, mp3, wav"]
+tier: 3
+risk: "high"
+estimated_tokens: 338
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["data", "analytics"]
+quality_score: 0.72
+description: "Getting the duration of an audio file in seconds with Mediabunny"
+metadata: ""
 ---
-
 # Getting audio duration with Mediabunny
 
 Mediabunny can extract the duration of an audio file. It works in browser, Node.js, and Bun environments.

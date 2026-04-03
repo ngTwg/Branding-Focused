@@ -1,3 +1,14 @@
+---
+name: "Trackio Alerts"
+tags: ["alert", "alerts", "antigravity", "api", "c:", "cli", "core", "face", "frontend", "gemini", "hugging", "<YOUR_USERNAME>", "levels", "references", "retrieving", "specialized", "support", "trackio", "users", "webhook"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1482
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.90
+---
 # Trackio Alerts
 
 Alerts let you flag important training events directly from code. They are the primary mechanism for LLM agents to diagnose runs and iterate autonomously on ML experiments.

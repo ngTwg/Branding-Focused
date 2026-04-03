@@ -1,3 +1,14 @@
+---
+name: "Sheets"
+tags: ["antigravity", "architecture", "c:", "core", "driven", "enum", "example", "frontend", "gemini", "intent", "item", "<YOUR_USERNAME>", "local", "modifier", "patterns", "references", "sheet", "sheetdestination", "sheets", "specialized"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1068
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.86
+---
 # Sheets
 
 ## Intent

@@ -1,3 +1,14 @@
+---
+name: "Optimizing SwiftUI Performance with Instruments (Summary)"
+tags: ["antigravity", "audit", "c:", "condensed", "example", "from", "frontend", "gemini", "instruments", "key", "<YOUR_USERNAME>", "optimizing", "patterns", "performance", "references", "session", "specialized", "suggested", "summary", "swiftui"]
+tier: 1
+risk: "medium"
+estimated_tokens: 459
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.58
+---
 # Optimizing SwiftUI Performance with Instruments (Summary)
 
 Context: WWDC session introducing the next-generation SwiftUI Instrument in Instruments 26 and how to diagnose SwiftUI-specific bottlenecks.

@@ -1,3 +1,14 @@
+---
+name: "Deep links and navigation"
+tags: ["and", "antigravity", "attach", "c:", "choices", "core", "deep", "deeplinks", "design", "entry", "example", "frontend", "gemini", "intent", "keep", "<YOUR_USERNAME>", "links", "navigation", "patterns", "points"]
+tier: 2
+risk: "medium"
+estimated_tokens: 425
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.68
+---
 # Deep links and navigation
 
 ## Intent

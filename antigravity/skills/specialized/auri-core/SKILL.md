@@ -1,4 +1,15 @@
 ---
+name: "Auri - Core Product Skill"
+tags: ["antigravity", "auri", "c:", "core", "frontend", "gemini", "how", "<YOUR_USERNAME>", "not", "overview", "product", "skill", "specialized", "this", "use", "users", "when", "works"]
+tier: 2
+risk: "medium"
+estimated_tokens: 5300
+tools_needed: ["git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.79
+---
+---
 name: auri-core
 description: "Auri: assistente de voz inteligente (Alexa + Claude claude-opus-4-20250805). Visao do produto, persona Vitoria Neural, stack AWS, modelo Free/Pro/Business/Enterprise, roadmap 4 fases, GTM, north star WAC e analise competitiva."
 risk: none

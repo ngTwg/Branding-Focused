@@ -1,0 +1,160 @@
+{
+  "timestamp": "2026-04-02T02:28:36.892984+00:00",
+  "phase": "all",
+  "dry_run": false,
+  "total": 25,
+  "ok": 25,
+  "failed": 0,
+  "steps": [
+    {
+      "step": "integration_tests",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe -m pytest antigravity/tests/integration -q",
+      "status": "ok",
+      "output": ".................................................                        [100%]\n49 passed in 17.25s"
+    },
+    {
+      "step": "targeted_regressions",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe -m pytest antigravity/tests/test_schemas.py antigravity/tests/test_failure_memory.py antigravity/tests/test_hybrid_retriever_properties.py antigravity/tests/test_hybrid_retriever_properties_v3.py antigravity/tests/test_llm_client_properties.py antigravity/tests/test_llm_client_properties_v2.py antigravity/tests/test_slm_router_properties.py antigravity/tests/test_tracing_properties.py antigravity/tests/test_tracing_properties_v2.py -q",
+      "status": "ok",
+      "output": "........................................................................ [ 98%]\n.                                                                        [100%]\n73 passed in 2.67s"
+    },
+    {
+      "step": "skillpack_convert",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe tools/skillpack/skillpack.py convert --target cline --source GEMINI.md --output antigravity/tmp/skillpack_validation/.cline/rules/CLINE.md",
+      "status": "ok",
+      "output": "Converted output written: antigravity\\tmp\\skillpack_validation\\.cline\\rules\\CLINE.md"
+    },
+    {
+      "step": "skillpack_install",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe tools/skillpack/skillpack.py install --targets cursor claude copilot --source GEMINI.md --workspace-root antigravity/tmp/skillpack_validation --report antigravity/reports/skillpack_install_report.json --force",
+      "status": "ok",
+      "output": "Skillpack install report: antigravity\\reports\\skillpack_install_report.json\nTargets processed: 3 | ok=3 skipped=0 failed=0"
+    },
+    {
+      "step": "normalize_skill_metadata_top_tier",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/normalize_skill_metadata.py --scope top-tier --apply --report antigravity/reports/skill_metadata_coverage.json --normalized-export antigravity/reports/skill_metadata_normalized_top_tiers.json",
+      "status": "ok",
+      "output": "Metadata coverage report: antigravity\\reports\\skill_metadata_coverage.json\nNormalized export: antigravity\\reports\\skill_metadata_normalized_top_tiers.json\nSkills scanned: 2749\nFiles with frontmatter: 2749\nAverage coverage ratio: 100.00%\nSelected scope coverage: 100.00% (files=13)\nUpdated files: 0"
+    },
+    {
+      "step": "build_release_bundle",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/build_release_bundle.py --version v6.5.0-SLIM --release-name phase-b-packaging",
+      "status": "ok",
+      "output": "Release root: C:\\Users\\lengo\\.gemini\\antigravity\\releases\\v6.5.0-SLIM_phase-b-packaging_20260402_022635\nRelease notes: C:\\Users\\lengo\\.gemini\\antigravity\\docs\\RELEASE_NOTES_2026-04-02.md\nRelease zip: C:\\Users\\lengo\\.gemini\\antigravity\\releases\\v6.5.0-SLIM_phase-b-packaging_20260402_022635.zip\nIncluded artifacts: 14\nMissing artifacts: 0\nRelease report: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\release_bundle_20260402_022635.json"
+    },
+    {
+      "step": "normalize_skill_metadata",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/normalize_skill_metadata.py",
+      "status": "ok",
+      "output": "Metadata coverage report: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\skill_metadata_coverage.json\nNormalized export: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\skill_metadata_normalized_top_tiers.json\nSkills scanned: 2749\nFiles with frontmatter: 2749\nAverage coverage ratio: 100.00%\nSelected scope coverage: 100.00% (files=2749)"
+    },
+    {
+      "step": "sync_community_repos",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/sync_community_repos.py",
+      "status": "ok",
+      "output": "Synced repos: 12/12 ok, 0 failed\nReport: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\community_repo_sync_report.json"
+    },
+    {
+      "step": "extract_external_patterns",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/extract_external_patterns.py",
+      "status": "ok",
+      "output": "Pattern report JSON: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\external_pattern_report.json\nPattern report MD: C:\\Users\\lengo\\.gemini\\antigravity\\docs\\EXTERNAL_PATTERN_REPORT_2026-04-01.md"
+    },
+    {
+      "step": "generate_integration_gap_report",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/generate_integration_gap_report.py --apply",
+      "status": "ok",
+      "output": "Integration gap report JSON: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\integration_gap_report.json\nIntegration gap report MD: C:\\Users\\lengo\\.gemini\\antigravity\\docs\\INTEGRATION_GAP_REPORT_2026-04-02.md\nApplied merges: none"
+    },
+    {
+      "step": "security_gate_external_skills",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/security_gate_external_skills.py",
+      "status": "ok",
+      "output": "Security gate status: WARN\nScanned markdown files: 22470 (skipped: 6)\nFindings: 281\nBlocked files: 0\nWarn files: 152\nReport: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\security_gate_external_skills.json"
+    },
+    {
+      "step": "triage_warn_files",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/triage_warn_files.py",
+      "status": "ok",
+      "output": "WARN triage report generated.\n  JSON: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\warn_triage_report.json\n  Markdown: C:\\Users\\lengo\\.gemini\\antigravity\\docs\\WARN_TRIAGE_REPORT.md"
+    },
+    {
+      "step": "generate_unified_inventory",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/generate_unified_inventory.py",
+      "status": "ok",
+      "output": "Scanning internal skills...\n  Found 2749 internal skill records\nSecurity status: WARN (fail_files=0, warn_files=152)\nScanning external skills with gate filters...\n  Imported external records: 2786\n  Blocked by FAIL gate: 0\nUnified inventory generated successfully.\n  Markdown: C:\\Users\\lengo\\.gemini\\antigravity\\external\\UNIFIED_SKILL_INVENTORY.md\n  JSON: C:\\Users\\lengo\\.gemini\\antigravity\\external\\UNIFIED_SKILL_INVENTORY.json\n  Total records: 5535"
+    },
+    {
+      "step": "generate_skill_catalog",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/generate_skill_catalog.py",
+      "status": "ok",
+      "output": "Skill catalog generated successfully.\n  Records: 5535\n  JSON: C:\\Users\\lengo\\.gemini\\antigravity\\external\\SKILL_CATALOG.json\n  Markdown: C:\\Users\\lengo\\.gemini\\antigravity\\docs\\SKILL_CATALOG_2026-04-02.md"
+    },
+    {
+      "step": "build_skill_embeddings",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/build_skill_embeddings.py",
+      "status": "ok",
+      "output": "Skill embeddings built successfully.\n  Records: 5535\n  Vocab size: 12000\n  Output: C:\\Users\\lengo\\.gemini\\antigravity\\external\\SKILL_EMBEDDINGS.json"
+    },
+    {
+      "step": "score_skill_quality",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/score_skill_quality.py --scope all --gate-min-score 35",
+      "status": "ok",
+      "output": "Skill quality scoring completed.\n  Rows: 5535\n  Mean score: 65.9335\n  Below gate (<35.0): 325\n  Report: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\skill_quality_scores.json\n  Marketplace: C:\\Users\\lengo\\.gemini\\antigravity\\external\\SKILL_MARKETPLACE.json"
+    },
+    {
+      "step": "run_benchmark_pack",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/run_benchmark_pack.py --suite quick",
+      "status": "ok",
+      "output": "[OK] integration_tests\n[OK] targeted_regressions\n[OK] security_gate_external_skills\nBenchmark report JSON: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\benchmark_pack_20260402_092835.json\nBenchmark report MD: C:\\Users\\lengo\\.gemini\\antigravity\\docs\\BENCHMARK_PACK_REPORT_20260402_092835.md\nRegression gate: ok (delta_pct=-42.3, threshold=100.0)"
+    },
+    {
+      "step": "benchmark_trend",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/benchmark_trend.py --limit 60",
+      "status": "ok",
+      "output": "Benchmark trend generated.\n  Reports: 21\n  JSON: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\benchmark_trend.json\n  Markdown: C:\\Users\\lengo\\.gemini\\antigravity\\docs\\BENCHMARK_TREND_REPORT.md"
+    },
+    {
+      "step": "skill_usage_summary",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/skill_usage_tracker.py --summary --days 30",
+      "status": "ok",
+      "output": "{\n  \"timestamp\": \"2026-04-02T02:28:36.027851+00:00\",\n  \"window_days\": 30,\n  \"total_events\": 0,\n  \"unique_skills\": 0,\n  \"total_tokens\": 0,\n  \"top_skills\": []\n}"
+    },
+    {
+      "step": "detect_cold_skills",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/detect_cold_skills.py --days 30",
+      "status": "ok",
+      "output": "Cold skill detection completed.\n  Cold skills: 5535\n  JSON: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\cold_skills_report.json\n  Markdown: C:\\Users\\lengo\\.gemini\\antigravity\\docs\\COLD_SKILLS_REPORT.md"
+    },
+    {
+      "step": "promote_hot_skills",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/promote_hot_skills.py --days 30 --min-hits 3",
+      "status": "ok",
+      "output": "Hot skill promotion report generated.\n  Suggestions: 0\n  JSON: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\hot_skills_promotion_report.json\n  Markdown: C:\\Users\\lengo\\.gemini\\antigravity\\docs\\HOT_SKILLS_PROMOTION_REPORT.md"
+    },
+    {
+      "step": "weekly_skill_digest",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/weekly_skill_digest.py --days 30",
+      "status": "ok",
+      "output": "Weekly skill digest generated.\n  JSON: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\weekly_skill_digest_latest.json\n  Markdown: C:\\Users\\lengo\\.gemini\\antigravity\\docs\\WEEKLY_SKILL_DIGEST_LATEST.md"
+    },
+    {
+      "step": "validate_skill_pr",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/validate_skill_pr.py --min-chars 200 --min-code-blocks 0 --allow-fail",
+      "status": "ok",
+      "output": "Validated files: 2787\nFailed: 36\nReport: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\skill_pr_validation.json"
+    },
+    {
+      "step": "validate_community_surface",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/validate_community_surface.py",
+      "status": "ok",
+      "output": "Community surface status: PASS\nReport JSON: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\community_surface_report.json\nReport MD: C:\\Users\\lengo\\.gemini\\antigravity\\docs\\COMMUNITY_SURFACE_REPORT_2026-04-02.md"
+    },
+    {
+      "step": "generate_execution_board",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/generate_autonomous_task_board.py",
+      "status": "ok",
+      "output": "Execution board already exists: C:\\Users\\lengo\\.gemini\\antigravity\\docs\\AUTONOMOUS_EXECUTION_BOARD_2026-04-02.md\nSkip overwrite. Use --force to regenerate."
+    }
+  ]
+}

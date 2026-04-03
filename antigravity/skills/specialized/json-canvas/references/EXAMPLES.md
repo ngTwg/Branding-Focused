@@ -1,3 +1,14 @@
+---
+name: "JSON Canvas Complete Examples"
+tags: ["and", "antigravity", "board", "c:", "canvas", "complete", "connections", "devops", "examples", "files", "flowchart", "gemini", "groups", "json", "<YOUR_USERNAME>", "links", "project", "references", "research", "simple"]
+tier: 3
+risk: "high"
+estimated_tokens: 1619
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "operations"]
+quality_score: 0.76
+---
 # JSON Canvas Complete Examples
 
 ## Simple Canvas with Text and Connections

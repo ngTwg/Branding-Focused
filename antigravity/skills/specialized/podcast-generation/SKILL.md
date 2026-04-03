@@ -1,11 +1,17 @@
 ---
-name: podcast-generation
-description: "Generate real audio narratives from text content using Azure OpenAI's Realtime API."
-risk: unknown
-source: community
+name: "podcast-generation"
+tags: ["antigravity", "audio", "backend", "c:", "configuration", "convert", "core", "endpoint", "environment", "frontend", "gemini", "generation", "gpt", "https", "<YOUR_USERNAME>", "mini", "podcast", "quick", "realtime", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 890
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.79
 date_added: "2026-02-27"
+description: "Generate real audio narratives from text content using Azure OpenAI's Realtime API."
+source: "community"
 ---
-
 # Podcast Generation with GPT Realtime Mini
 
 Generate real audio narratives from text content using Azure OpenAI's Realtime API.

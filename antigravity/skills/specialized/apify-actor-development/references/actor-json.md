@@ -1,3 +1,14 @@
+---
+name: "Actor Configuration (actor.json)"
+tags: ["actor", "antigravity", "apify", "c:", "configuration", "development", "example", "frontend", "gemini", "json", "<YOUR_USERNAME>", "properties", "references", "specialized", "structure", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 586
+tools_needed: ["docker", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.63
+---
 # Actor Configuration (actor.json)
 
 The `.actor/actor.json` file contains the Actor's configuration including metadata, schema references, and platform settings.

@@ -1,11 +1,17 @@
 ---
-name: avoid-ai-writing
-description: "Audit and rewrite content to remove 21 categories of AI writing patterns with a 43-entry replacement table"
-risk: none
-source: https://github.com/conorbronsdon/avoid-ai-writing
+name: "avoid-ai-writing"
+tags: ["ai", "antigravity", "audit", "avoid", "c:", "detects", "example", "frontend", "gemini", "<YOUR_USERNAME>", "limitations", "rewrite", "skill", "specialized", "this", "use", "users", "what", "when", "writing"]
+tier: 2
+risk: "medium"
+estimated_tokens: 683
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.67
 date_added: "2026-03-06"
+description: "Audit and rewrite content to remove 21 categories of AI writing patterns with a 43-entry replacement table"
+source: "https://github.com/conorbronsdon/avoid-ai-writing"
 ---
-
 # Avoid AI Writing — Audit & Rewrite
 
 Detects and fixes AI writing patterns ("AI-isms") that make text sound machine-generated. Covers 21 pattern categories with a 43-entry word/phrase replacement table that maps each flagged term to a specific, plainer alternative.

@@ -1,8 +1,15 @@
 ---
-name: test-driven-development
-description: Use when implementing any feature or bugfix, before writing implementation code
+name: "test-driven-development"
+tags: ["antigravity", "c:", "development", "driven", "failing", "frontend", "gemini", "green", "iron", "law", "<YOUR_USERNAME>", "overview", "red", "refactor", "specialized", "tdd", "test", "the", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2464
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.96
+description: "Use when implementing any feature or bugfix, before writing implementation code"
 ---
-
 # Test-Driven Development (TDD)
 
 ## Overview

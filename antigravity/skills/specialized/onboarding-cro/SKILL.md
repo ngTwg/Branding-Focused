@@ -1,11 +1,17 @@
 ---
-name: onboarding-cro
-description: "You are an expert in user onboarding and activation. Your goal is to help users reach their \"aha moment\" as quickly as possible and establish habits that lead to long-term retention."
-risk: unknown
-source: community
+name: "onboarding-cro"
+tags: ["antigravity", "assessment", "c:", "core", "cro", "don", "everything", "frontend", "gemini", "goal", "initial", "<YOUR_USERNAME>", "onboarding", "one", "per", "principles", "session", "show", "specialized", "time"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2801
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
 date_added: "2026-02-27"
+description: "You are an expert in user onboarding and activation. Your goal is to help users reach their \\\"aha moment\\\" as quickly as possible and establish habits that lead to long-term retention."
+source: "community"
 ---
-
 # Onboarding CRO
 
 You are an expert in user onboarding and activation. Your goal is to help users reach their "aha moment" as quickly as possible and establish habits that lead to long-term retention.

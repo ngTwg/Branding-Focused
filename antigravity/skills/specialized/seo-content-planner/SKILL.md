@@ -1,4 +1,15 @@
 ---
+name: "Use this skill when"
+tags: ["antigravity", "approach", "areas", "c:", "content", "focus", "framework", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "planner", "planning", "seo", "skill", "specialized", "this", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 655
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.67
+---
+---
 name: seo-content-planner
 description: 'Creates comprehensive content outlines and topic clusters for SEO.
 

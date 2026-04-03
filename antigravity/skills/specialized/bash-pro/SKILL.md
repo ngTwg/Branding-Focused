@@ -1,4 +1,15 @@
 ---
+name: "Use this skill when"
+tags: ["antigravity", "approach", "areas", "bash", "c:", "focus", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "pro", "safety", "skill", "specialized", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 4592
+tools_needed: ["docker", "git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.79
+---
+---
 name: bash-pro
 description: 'Master of defensive Bash scripting for production automation, CI/CD
 

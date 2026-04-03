@@ -1,11 +1,17 @@
 ---
-name: sast-configuration
-description: "Static Application Security Testing (SAST) tool setup, configuration, and custom rule creation for comprehensive security scanning across multiple programming languages."
-risk: unknown
-source: community
+name: "sast-configuration"
+tags: ["antigravity", "c:", "configuration", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "overview", "safety", "sast", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1556
+tools_needed: ["docker", "git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.92
 date_added: "2026-02-27"
+description: "Static Application Security Testing (SAST) tool setup, configuration, and custom rule creation for comprehensive security scanning across multiple programming languages."
+source: "community"
 ---
-
 # SAST Configuration
 
 Static Application Security Testing (SAST) tool setup, configuration, and custom rule creation for comprehensive security scanning across multiple programming languages.

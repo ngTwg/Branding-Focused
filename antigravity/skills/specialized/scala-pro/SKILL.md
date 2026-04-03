@@ -1,11 +1,17 @@
 ---
-name: scala-pro
-description: Master enterprise-grade Scala development with functional programming, distributed systems, and big data processing. Expert in Apache Pekko, Akka, Spark, ZIO/Cats Effect, and reactive architectures.
-risk: safe
-source: community
-date_added: '2026-02-27'
+name: "scala-pro"
+tags: ["antigravity", "c:", "computing", "core", "distributed", "excellence", "expertise", "frontend", "functional", "gemini", "instructions", "<YOUR_USERNAME>", "mastery", "not", "pro", "programming", "scala", "skill", "specialized", "this"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1385
+tools_needed: ["docker", "kubernetes", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.75
+date_added: "2026-02-27"
+description: "Master enterprise-grade Scala development with functional programming, distributed systems, and big data processing. Expert in Apache Pekko, Akka, Spark, ZIO/Cats Effect, and reactive architectures."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on scala pro tasks or workflows

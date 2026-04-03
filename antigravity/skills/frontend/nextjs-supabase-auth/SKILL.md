@@ -1,11 +1,17 @@
 ---
-name: nextjs-supabase-auth
-description: "Expert integration of Supabase Auth with Next.js App Router Use when: supabase auth next, authentication next.js, login supabase, auth middleware, protected route."
-risk: none
-source: "vibeship-spawner-skills (Apache 2.0)"
+name: "nextjs-supabase-auth"
+tags: ["antigravity", "auth", "c:", "capabilities", "client", "frontend", "gemini", "<YOUR_USERNAME>", "middleware", "next", "nextjs", "patterns", "requirements", "setup", "supabase", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 381
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.67
 date_added: "2026-02-27"
+description: "Expert integration of Supabase Auth with Next.js App Router Use when: supabase auth next, authentication next.js, login supabase, auth middleware, protected route."
+source: "vibeship-spawner-skills (Apache 2.0)"
 ---
-
 # Next.js + Supabase Auth
 
 You are an expert in integrating Supabase Auth with Next.js App Router.

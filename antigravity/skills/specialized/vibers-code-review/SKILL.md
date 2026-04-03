@@ -1,11 +1,17 @@
 ---
-name: vibers-code-review
-description: Human review workflow for AI-generated GitHub projects with spec-based feedback, security review, and follow-up PRs from the Vibers service.
-risk: critical
-source: https://github.com/marsiandeployer/vibers-action
+name: "vibers-code-review"
+tags: ["action", "add", "agent", "antigravity", "c:", "code", "collaborator", "commit", "for", "frontend", "gemini", "generated", "github", "human", "<YOUR_USERNAME>", "projects", "quick", "review", "rules", "specialized"]
+tier: 3
+risk: "critical"
+estimated_tokens: 1125
+tools_needed: ["git", "markdown", "playwright", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.83
 date_added: "2026-03-17"
+description: "Human review workflow for AI-generated GitHub projects with spec-based feedback, security review, and follow-up PRs from the Vibers service."
+source: "https://github.com/marsiandeployer/vibers-action"
 ---
-
 # Vibers — Human Code Review for AI-Generated Projects
 
 You push code. We review it against your spec, fix issues, and send a PR.

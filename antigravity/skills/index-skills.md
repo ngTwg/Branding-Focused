@@ -1,3 +1,14 @@
+---
+name: "📋 INDEX SKILLS - SIÊU HỆ THỐNG ~1,999 SKILLS"
+tags: ["999", "antigravity", "backend", "c:", "frontend", "gemini", "index", "kiến", "<YOUR_USERNAME>", "root", "security", "siêu", "skills", "thống", "trúc", "tối", "users", "workflows"]
+tier: 3
+risk: "high"
+estimated_tokens: 1918
+tools_needed: ["docker", "git", "kubernetes", "markdown", "mcp", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.78
+---
 # 📋 INDEX SKILLS - SIÊU HỆ THỐNG ~1,999 SKILLS
  
 > **Mục đích:** Danh sách TOÀN DIỆN & TỐI ƯU của hệ thống Antigravity Skills  
@@ -71,9 +82,9 @@
 
 | Resource | Type | Description |
 |----------|------|-------------|
-| [autonomous-cognition-inventory.md](file:///c:/Users/<YOUR_USERNAME>/.gemini/antigravity/skills/deep-tech/autonomous-cognition-inventory.md) | **Master** | Cognition, Memory, Evolution, Swarm, Economics |
-| [ai-agents-master-inventory.md](file:///c:/Users/<YOUR_USERNAME>/.gemini/antigravity/skills/deep-tech/ai-agents-master-inventory.md) | **Master** | AI Agents, Multi-Agent, Memory, Safety, Anthropic, Claude |
-| [deep-tech-master-inventory.md](file:///c:/Users/<YOUR_USERNAME>/.gemini/antigravity/skills/deep-tech/deep-tech-master-inventory.md) | **Master** | Agents, MCP, Identity, Beyond |
+| [autonomous-cognition-inventory.md](file:///C:/Users/<YOUR_USERNAME>/.gemini/antigravity/skills/deep-tech/autonomous-cognition-inventory.md) | **Master** | Cognition, Memory, Evolution, Swarm, Economics |
+| [ai-agents-master-inventory.md](file:///C:/Users/<YOUR_USERNAME>/.gemini/antigravity/skills/deep-tech/ai-agents-master-inventory.md) | **Master** | AI Agents, Multi-Agent, Memory, Safety, Anthropic, Claude |
+| [deep-tech-master-inventory.md](file:///C:/Users/<YOUR_USERNAME>/.gemini/antigravity/skills/deep-tech/deep-tech-master-inventory.md) | **Master** | Agents, MCP, Identity, Beyond |
 | [agent-identifier/](./deep-tech/agent-identifier/) | Folder | Nhận diện & Quản lý Agent |
 | [mcp-builder/](./deep-tech/mcp-builder/) | Folder | Xây dựng MCP Servers |
 | [subagent-driven-development/](./deep-tech/subagent-driven-development/) | Folder | Quy trình phát triển dùng Sub-agents |
@@ -92,8 +103,8 @@
 
 | Resource | Type | Description |
 |----------|------|-------------|
-| [specialized-master-inventory.md](file:///c:/Users/<YOUR_USERNAME>/.gemini/antigravity/skills/specialized/specialized-master-inventory.md) | **Master** | **Gồm 1,553+ skills:** Shopify, E-commerce, Marketing, Official Formats (PDF/XLSX), SEO, Stripe, Azure, Vercel, Docker, K8s, Flutter, Rust, Terraform, v.v. |
-| [gemini-core-rules-inventory.md](file:///c:/Users/<YOUR_USERNAME>/.gemini/antigravity/skills/specialized/gemini-core-rules-inventory.md) | **Master** | **Gồm 174+ Legacy Rules:** Trích xuất nguyên bản 100% từ file GEMINI.md cũ (Quantum, Hardware, LSM-Tree, Compliance, etc.) |
+| [specialized-master-inventory.md](file:///C:/Users/<YOUR_USERNAME>/.gemini/antigravity/skills/specialized/specialized-master-inventory.md) | **Master** | **Gồm 1,553+ skills:** Shopify, E-commerce, Marketing, Official Formats (PDF/XLSX), SEO, Stripe, Azure, Vercel, Docker, K8s, Flutter, Rust, Terraform, v.v. |
+| [gemini-core-rules-inventory.md](file:///C:/Users/<YOUR_USERNAME>/.gemini/antigravity/skills/specialized/gemini-core-rules-inventory.md) | **Master** | **Gồm 174+ Legacy Rules:** Trích xuất nguyên bản 100% từ file GEMINI.md cũ (Quantum, Hardware, LSM-Tree, Compliance, etc.) |
 | [loki-mode/](./specialized/loki-mode/) | Folder | Chế độ Loki tự hành thần tốc |
 | [shopify-development/](./specialized/shopify-development/) | Folder | Phát triển hệ sinh thái Shopify |
 | [app-builder/](./specialized/app-builder/) | Folder | Boilerplates & Templates cho mọi loại App |

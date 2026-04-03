@@ -1,10 +1,16 @@
 ---
-name: measuring-dom-nodes
-description: Measuring DOM element dimensions in Remotion
-metadata:
-  tags: measure, layout, dimensions, getBoundingClientRect, scale
+name: "measuring-dom-nodes"
+tags: ["measure, layout, dimensions, getBoundingClientRect, scale"]
+tier: 3
+risk: "medium"
+estimated_tokens: 243
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.56
+description: "Measuring DOM element dimensions in Remotion"
+metadata: ""
 ---
-
 # Measuring DOM nodes in Remotion
 
 Remotion applies a `scale()` transform to the video container, which affects values from `getBoundingClientRect()`. Use `useCurrentScale()` to get correct measurements.

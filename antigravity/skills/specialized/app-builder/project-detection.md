@@ -1,3 +1,14 @@
+---
+name: "Project Type Detection"
+tags: ["antigravity", "app", "builder", "c:", "detection", "frontend", "gemini", "keyword", "<YOUR_USERNAME>", "matrix", "process", "project", "specialized", "type", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 330
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.57
+---
 # Project Type Detection
 
 > Analyze user requests to determine project type and template.

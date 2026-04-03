@@ -1,4 +1,15 @@
 ---
+name: "Pull Request Enhancement"
+tags: ["antigravity", "c:", "changes", "comprehensive", "description", "enhance", "enhancement", "frontend", "gemini", "<YOUR_USERNAME>", "pr", "pull", "request", "review", "specialized", "summary", "template", "users", "why", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 598
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.72
+---
+---
 name: comprehensive-review-pr-enhance
 description: >
   Generate structured PR descriptions from diffs, add review checklists,

@@ -1,10 +1,17 @@
 ---
-title: Defer State Reads to Usage Point
-impact: MEDIUM
-impactDescription: avoids unnecessary subscriptions
-tags: rerender, searchParams, localStorage, optimization
+name: "Defer State Reads to Usage Point"
+tags: ["rerender, searchParams, localStorage, optimization"]
+tier: 2
+risk: "medium"
+estimated_tokens: 243
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.56
+impact: "MEDIUM"
+impactDescription: "avoids unnecessary subscriptions"
+title: "Defer State Reads to Usage Point"
 ---
-
 ## Defer State Reads to Usage Point
 
 Don't subscribe to dynamic state (searchParams, localStorage) if you only read it inside callbacks.

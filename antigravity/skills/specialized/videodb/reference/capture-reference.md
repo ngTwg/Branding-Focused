@@ -1,3 +1,14 @@
+---
+name: "Capture Reference"
+tags: ["antigravity", "c:", "capture", "channels", "event", "events", "frontend", "gemini", "<YOUR_USERNAME>", "lifecycle", "persistence", "reference", "session", "specialized", "structures", "users", "videodb", "websocket"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2674
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Capture Reference
 
 Code-level details for VideoDB capture sessions. For workflow guide, see [capture.md](capture.md).

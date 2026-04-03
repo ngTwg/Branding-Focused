@@ -1,3 +1,14 @@
+---
+name: "Academic Test: Systematic Debugging Skill"
+tags: ["academic", "antigravity", "c:", "debugging", "gemini", "<YOUR_USERNAME>", "skill", "specialized", "systematic", "test", "users", "workflows"]
+tier: 2
+risk: "medium"
+estimated_tokens: 163
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.49
+---
 # Academic Test: Systematic Debugging Skill
 
 You have access to the systematic debugging skill at skills/debugging/systematic-debugging

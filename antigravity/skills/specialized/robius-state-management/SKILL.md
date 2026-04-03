@@ -1,4 +1,15 @@
 ---
+name: "Robius State Management Skill"
+tags: ["antigravity", "appstate", "c:", "core", "definition", "dock", "frontend", "gemini", "layout", "<YOUR_USERNAME>", "management", "patterns", "persistence", "production", "robius", "skill", "specialized", "state", "structure", "triggers"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3169
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
+---
 name: robius-state-management
 description: |
   CRITICAL: Use for Robius state management patterns. Triggers on:

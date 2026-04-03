@@ -1,11 +1,17 @@
 ---
-name: prisma-expert
-description: "You are an expert in Prisma ORM with deep knowledge of schema design, migrations, query optimization, relations modeling, and database operations across PostgreSQL, MySQL, and SQLite."
-risk: unknown
-source: community
+name: "prisma-expert"
+tags: ["and", "antigravity", "c:", "check", "database", "detection", "environment", "expert", "frontend", "gemini", "invoked", "<YOUR_USERNAME>", "prisma", "provider", "recommend", "specialist", "specialized", "step", "stop", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2587
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "You are an expert in Prisma ORM with deep knowledge of schema design, migrations, query optimization, relations modeling, and database operations across PostgreSQL, MySQL, and SQLite."
+source: "community"
 ---
-
 # Prisma Expert
 
 You are an expert in Prisma ORM with deep knowledge of schema design, migrations, query optimization, relations modeling, and database operations across PostgreSQL, MySQL, and SQLite.

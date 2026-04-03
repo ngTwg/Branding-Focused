@@ -1,3 +1,14 @@
+---
+name: "Component Patterns"
+tags: ["antigravity", "basic", "c:", "component", "dev", "frontend", "gemini", "guidelines", "lazy", "<YOUR_USERNAME>", "load", "loading", "pattern", "patterns", "preferred", "react", "resources", "users", "when", "why"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2699
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.94
+---
 # Component Patterns
 
 Modern React component architecture for the application emphasizing type safety, lazy loading, and Suspense boundaries.

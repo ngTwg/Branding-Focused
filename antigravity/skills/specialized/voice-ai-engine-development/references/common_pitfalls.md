@@ -1,3 +1,14 @@
+---
+name: "Common Pitfalls and Solutions"
+tags: ["ai", "and", "antigravity", "audio", "c:", "cause", "common", "cutting", "development", "engine", "frontend", "gemini", "jumping", "<YOUR_USERNAME>", "off", "pitfalls", "problem", "references", "root", "solution"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3069
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Common Pitfalls and Solutions
 
 This document covers common issues encountered when building voice AI engines and their solutions.

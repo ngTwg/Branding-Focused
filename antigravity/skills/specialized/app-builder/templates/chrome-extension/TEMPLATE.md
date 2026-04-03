@@ -1,8 +1,15 @@
 ---
-name: chrome-extension
-description: Chrome Extension template principles. Manifest V3, React, TypeScript.
+name: "chrome-extension"
+tags: ["antigravity", "app", "builder", "c:", "chrome", "concepts", "directory", "extension", "frontend", "gemini", "<YOUR_USERNAME>", "manifest", "permissions", "setup", "specialized", "stack", "steps", "structure", "tech", "template"]
+tier: 2
+risk: "medium"
+estimated_tokens: 463
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.68
+description: "Chrome Extension template principles. Manifest V3, React, TypeScript."
 ---
-
 # Chrome Extension Template
 
 ## Tech Stack

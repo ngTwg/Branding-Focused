@@ -1,3 +1,14 @@
+---
+name: "Timeline Editing Guide"
+tags: ["antigravity", "assets", "building", "c:", "concepts", "core", "editing", "editor", "frontend", "gemini", "guide", "<YOUR_USERNAME>", "prerequisites", "reference", "specialized", "timeline", "users", "videodb"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4079
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Timeline Editing Guide
 
 VideoDB provides a non-destructive timeline editor for composing videos from multiple assets, adding text and image overlays, mixing audio tracks, and trimming clips — all server-side without re-encoding or local tools. Use this for trimming, combining clips, overlaying audio/music on video, adding subtitles, and layering text or images.

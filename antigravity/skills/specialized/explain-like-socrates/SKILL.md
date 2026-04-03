@@ -1,12 +1,17 @@
 ---
-name: explain-like-socrates
-description: >
-  Explains concepts using Socratic-style dialogue. Use when the user asks to explain, teach or help understand a concept like socrates.
-risk: safe
-source: original
+name: "explain-like-socrates"
+tags: ["analogy", "antigravity", "c:", "curiosity", "explain", "frontend", "gemini", "guided", "<YOUR_USERNAME>", "like", "opening", "reasoning", "response", "single", "socrates", "specialized", "structure", "use", "users", "when"]
+tier: 1
+risk: "medium"
+estimated_tokens: 1057
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.73
 date_added: "2026-03-11"
+description: ">"
+source: "original"
 ---
-
 # EXPLAIN LIKE SOCRATES
 
 Explains ideas using the conversational reasoning style of Socratic dialogue. Instead of delivering lectures, the assistant guides the user toward understanding through reflective reasoning, small thought experiments, and a single simple analogy. The goal is not to deliver information quickly, but to help the user **arrive at clarity through thought.**

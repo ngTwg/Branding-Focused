@@ -1,10 +1,16 @@
 ---
-name: apify-brand-reputation-monitoring
+name: "apify-brand-reputation-monitoring"
+tags: ["actor", "antigravity", "apify", "ask", "brand", "c:", "data", "determine", "fetch", "frontend", "gemini", "<YOUR_USERNAME>", "monitoring", "preferences", "prerequisites", "reputation", "schema", "source", "specialized", "step"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1090
+tools_needed: ["markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
 description: "Scrape reviews, ratings, and brand mentions from multiple platforms using Apify Actors."
-risk: unknown
-source: community
+source: "community"
 ---
-
 # Brand Reputation Monitoring
 
 Scrape reviews, ratings, and brand mentions from multiple platforms using Apify Actors.

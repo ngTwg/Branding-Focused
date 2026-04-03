@@ -1,11 +1,17 @@
 ---
-name: azure-monitor-opentelemetry-exporter-java
-description: Azure Monitor OpenTelemetry Exporter for Java. Export OpenTelemetry traces, metrics, and logs to Azure Monitor/Application Insights.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "azure-monitor-opentelemetry-exporter-java"
+tags: ["antigravity", "autoconfigure", "azure", "basic", "c:", "deprecated", "devops", "environment", "exporter", "for", "frontend", "gemini", "installation", "instead", "java", "<YOUR_USERNAME>", "monitor", "opentelemetry", "recommended", "setup"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2141
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.94
+date_added: "2026-02-27"
+description: "Azure Monitor OpenTelemetry Exporter for Java. Export OpenTelemetry traces, metrics, and logs to Azure Monitor/Application Insights."
+source: "community"
 ---
-
 # Azure Monitor OpenTelemetry Exporter for Java
 
 > **⚠️ DEPRECATION NOTICE**: This package is deprecated. Migrate to `azure-monitor-opentelemetry-autoconfigure`.

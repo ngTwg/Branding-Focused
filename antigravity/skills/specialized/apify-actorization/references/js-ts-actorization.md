@@ -1,3 +1,14 @@
+---
+name: "JavaScript/TypeScript Actorization"
+tags: ["actor", "actorization", "antigravity", "apify", "c:", "code", "crawlee", "express", "frontend", "gemini", "http", "install", "javascript", "js", "key", "<YOUR_USERNAME>", "lifecycle", "main", "points", "projects"]
+tier: 2
+risk: "medium"
+estimated_tokens: 605
+tools_needed: ["markdown", "playwright", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.78
+---
 # JavaScript/TypeScript Actorization
 
 ## Install the Apify SDK

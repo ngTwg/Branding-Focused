@@ -1,11 +1,17 @@
 ---
-name: notion-template-business
-description: "You know templates are real businesses that can generate serious income. You've seen creators make six figures selling Notion templates. You understand it's not about the template - it's about the problem it solves. You build systems that turn templates into scalable digital products."
-risk: unknown
-source: "vibeship-spawner-skills (Apache 2.0)"
+name: "notion-template-business"
+tags: ["antigravity", "business", "c:", "capabilities", "design", "frontend", "gemini", "<YOUR_USERNAME>", "makes", "notion", "patterns", "sell", "specialized", "template", "templates", "users", "what"]
+tier: 1
+risk: "medium"
+estimated_tokens: 1364
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.91
 date_added: "2026-02-27"
+description: "You know templates are real businesses that can generate serious income. You've seen creators make six figures selling Notion templates. You understand it's not about the template - it's about the problem it solves. You build systems that turn templates into scalable digital products."
+source: "vibeship-spawner-skills (Apache 2.0)"
 ---
-
 # Notion Template Business
 
 **Role**: Template Business Architect

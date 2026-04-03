@@ -1,11 +1,17 @@
 ---
-name: ui-ux-designer
-description: Create interface designs, wireframes, and design systems. Masters user research, accessibility standards, and modern design tools.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "ui-ux-designer"
+tags: ["antigravity", "c:", "capabilities", "design", "designer", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "mastery", "not", "purpose", "skill", "systems", "this", "ui", "use", "users", "ux", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2359
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+date_added: "2026-02-27"
+description: "Create interface designs, wireframes, and design systems. Masters user research, accessibility standards, and modern design tools."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on ui ux designer tasks or workflows

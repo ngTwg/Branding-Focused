@@ -1,10 +1,17 @@
 ---
-title: Use Loop for Min/Max Instead of Sort
-impact: LOW
-impactDescription: O(n) instead of O(n log n)
-tags: javascript, arrays, performance, sorting, algorithms
+name: "Use Loop for Min/Max Instead of Sort"
+tags: ["javascript, arrays, performance, sorting, algorithms"]
+tier: 2
+risk: "medium"
+estimated_tokens: 526
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.65
+impact: "LOW"
+impactDescription: "O(n) instead of O(n log n)"
+title: "Use Loop for Min/Max Instead of Sort"
 ---
-
 ## Use Loop for Min/Max Instead of Sort
 
 Finding the smallest or largest element only requires a single pass through the array. Sorting is wasteful and slower.

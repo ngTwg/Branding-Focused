@@ -1,11 +1,17 @@
 ---
-name: conductor-manage
-description: "Manage track lifecycle: archive, restore, delete, rename, and cleanup"
-risk: unknown
-source: community
+name: "conductor-manage"
+tags: ["antigravity", "c:", "conductor", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "manage", "manager", "not", "resources", "safety", "skill", "specialized", "this", "track", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 323
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.62
 date_added: "2026-02-27"
+description: "Manage track lifecycle: archive, restore, delete, rename, and cleanup"
+source: "community"
 ---
-
 # Track Manager
 
 Manage the complete track lifecycle including archiving, restoring, deleting, renaming, and cleaning up orphaned artifacts.

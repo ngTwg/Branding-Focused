@@ -1,3 +1,14 @@
+---
+name: "Context Discovery"
+tags: ["antigravity", "architecture", "ask", "c:", "classification", "context", "discovery", "first", "frontend", "gemini", "hierarchy", "<YOUR_USERNAME>", "matrix", "project", "question", "specialized", "user", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 319
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.56
+---
 # Context Discovery
 
 > Before suggesting any architecture, gather context.

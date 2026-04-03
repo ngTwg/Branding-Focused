@@ -1,11 +1,17 @@
 ---
-name: postgresql
-description: "Design a PostgreSQL-specific schema. Covers best-practices, data types, indexing, constraints, performance patterns, and advanced features"
-risk: unknown
-source: community
+name: "postgresql"
+tags: ["antigravity", "c:", "core", "design", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "postgresql", "rules", "safety", "skill", "specialized", "table", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 4230
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.90
 date_added: "2026-02-27"
+description: "Design a PostgreSQL-specific schema. Covers best-practices, data types, indexing, constraints, performance patterns, and advanced features"
+source: "community"
 ---
-
 # PostgreSQL Table Design 
 
 ## Use this skill when

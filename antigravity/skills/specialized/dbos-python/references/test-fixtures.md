@@ -1,10 +1,17 @@
 ---
-title: Use Proper Test Fixtures for DBOS
-impact: LOW-MEDIUM
-impactDescription: Ensures clean state between tests
-tags: testing, pytest, fixtures, reset
+name: "Use Proper Test Fixtures for DBOS"
+tags: ["testing, pytest, fixtures, reset"]
+tier: 2
+risk: "medium"
+estimated_tokens: 346
+tools_needed: ["markdown", "pytest"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.57
+impact: "LOW-MEDIUM"
+impactDescription: "Ensures clean state between tests"
+title: "Use Proper Test Fixtures for DBOS"
 ---
-
 ## Use Proper Test Fixtures for DBOS
 
 Use pytest fixtures to properly reset DBOS state between tests.

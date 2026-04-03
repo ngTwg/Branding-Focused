@@ -1,3 +1,14 @@
+---
+name: "Standup Notes Generator Implementation Playbook"
+tags: ["antigravity", "c:", "collaboration", "context", "data", "frontend", "gemini", "generator", "implementation", "<YOUR_USERNAME>", "note", "notes", "orchestration", "playbook", "requirements", "resources", "source", "specialized", "standup", "structure"]
+tier: 3
+risk: "medium"
+estimated_tokens: 7241
+tools_needed: ["git", "markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Standup Notes Generator Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

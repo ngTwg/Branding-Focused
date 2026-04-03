@@ -1,10 +1,17 @@
 ---
-title: Hoist Static JSX Elements
-impact: LOW
-impactDescription: avoids re-creation
-tags: rendering, jsx, static, optimization
+name: "Hoist Static JSX Elements"
+tags: ["rendering, jsx, static, optimization"]
+tier: 2
+risk: "medium"
+estimated_tokens: 259
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.56
+impact: "LOW"
+impactDescription: "avoids re-creation"
+title: "Hoist Static JSX Elements"
 ---
-
 ## Hoist Static JSX Elements
 
 Extract static JSX outside components to avoid re-creation.

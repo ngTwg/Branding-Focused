@@ -1,11 +1,17 @@
 ---
-name: systematic-debugging
-description: "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes"
-risk: unknown
-source: community
+name: "systematic-debugging"
+tags: ["antigravity", "c:", "cause", "debugging", "four", "frontend", "gemini", "investigation", "iron", "law", "<YOUR_USERNAME>", "overview", "phase", "phases", "root", "specialized", "systematic", "the", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2479
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.90
 date_added: "2026-02-27"
+description: "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes"
+source: "community"
 ---
-
 # Systematic Debugging
 
 ## Overview

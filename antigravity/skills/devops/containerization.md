@@ -1,3 +1,14 @@
+---
+name: "CONTAINERIZATION PATTERNS"
+tags: ["antigravity", "best", "build", "c:", "change", "containerization", "copy", "dependency", "devops", "dockerfile", "don", "files", "first", "frontend", "gemini", "<YOUR_USERNAME>", "patterns", "practices", "production", "rarely"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1588
+tools_needed: ["docker", "git", "kubernetes", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.88
+---
 # CONTAINERIZATION PATTERNS
 
 > **Khi nào tải skill này:** Docker, Container, Kubernetes, K8s, Pod, Deployment

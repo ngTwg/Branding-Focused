@@ -1,11 +1,17 @@
 ---
-name: api-documentation-generator
-description: "Generate comprehensive, developer-friendly API documentation from code, including endpoints, parameters, examples, and best practices"
-risk: unknown
-source: community
+name: "api-documentation-generator"
+tags: ["analyze", "antigravity", "api", "backend", "c:", "documentation", "endpoint", "frontend", "gemini", "generate", "generator", "how", "<YOUR_USERNAME>", "overview", "skill", "step", "structure", "the", "this", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2809
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.96
 date_added: "2026-02-27"
+description: "Generate comprehensive, developer-friendly API documentation from code, including endpoints, parameters, examples, and best practices"
+source: "community"
 ---
-
 # API Documentation Generator
 
 ## Overview
@@ -290,7 +296,7 @@ All API requests require authentication using Bearer tokens.
 **Response:**
 \`\`\`json
 {
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+  "token": "<YOUR_TOKEN>",
   "expiresIn": 3600,
   "refreshToken": "refresh_token_here"
 }

@@ -1,10 +1,17 @@
 ---
-title: Batch INSERT Statements for Bulk Data
-impact: MEDIUM
-impactDescription: 10-50x faster bulk inserts
-tags: batch, insert, bulk, performance, copy
+name: "Batch INSERT Statements for Bulk Data"
+tags: ["batch, insert, bulk, performance, copy"]
+tier: 2
+risk: "medium"
+estimated_tokens: 321
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.60
+impact: "MEDIUM"
+impactDescription: "10-50x faster bulk inserts"
+title: "Batch INSERT Statements for Bulk Data"
 ---
-
 ## Batch INSERT Statements for Bulk Data
 
 Individual INSERT statements have high overhead. Batch multiple rows in single statements or use COPY.

@@ -1,10 +1,16 @@
 ---
-name: baseline-ui
-description: Validates animation durations, enforces typography scale, checks component accessibility, and prevents layout anti-patterns in Tailwind CSS projects. Use when building UI components, reviewing CSS utilities, styling React views, or enforcing design consistency.
-risk: unknown
-source: community
+name: "baseline-ui"
+tags: ["animation", "antigravity", "baseline", "c:", "components", "frontend", "gemini", "how", "interaction", "<YOUR_USERNAME>", "specialized", "stack", "ui", "use", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 890
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.72
+description: "Validates animation durations, enforces typography scale, checks component accessibility, and prevents layout anti-patterns in Tailwind CSS projects. Use when building UI components, reviewing CSS utilities, styling React views, or enforcing design consistency."
+source: "community"
 ---
-
 # Baseline UI
 
 Enforces an opinionated UI baseline to prevent AI-generated interface slop.

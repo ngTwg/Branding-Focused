@@ -1,11 +1,17 @@
 ---
-name: nextjs-best-practices
-description: "Next.js App Router principles. Server Components, data fetching, routing patterns."
-risk: unknown
-source: community
+name: "nextjs-best-practices"
+tags: ["antigravity", "best", "c:", "client", "components", "data", "decision", "default", "fetch", "fetching", "frontend", "gemini", "<YOUR_USERNAME>", "next", "nextjs", "patterns", "practices", "server", "strategy", "tree"]
+tier: 2
+risk: "medium"
+estimated_tokens: 934
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.76
 date_added: "2026-02-27"
+description: "Next.js App Router principles. Server Components, data fetching, routing patterns."
+source: "community"
 ---
-
 # Next.js Best Practices
 
 > Principles for Next.js App Router development.

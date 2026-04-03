@@ -1,3 +1,14 @@
+---
+name: "System Prompt Design Patterns"
+tags: ["agent", "agents", "analysis", "antigravity", "c:", "core", "critical", "deep", "deep-tech", "design", "frontend", "gemini", "identifier", "issues", "<YOUR_USERNAME>", "major", "pattern", "patterns", "prompt", "references"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2488
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # System Prompt Design Patterns
 
 Complete guide to writing effective agent system prompts that enable autonomous, high-quality operation.

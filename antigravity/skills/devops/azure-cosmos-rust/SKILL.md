@@ -1,11 +1,17 @@
 ---
-name: azure-cosmos-rust
-description: Azure Cosmos DB SDK for Rust (NoSQL API). Use for document CRUD, queries, containers, and globally distributed data.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "azure-cosmos-rust"
+tags: ["antigravity", "authentication", "azure", "c:", "client", "core", "cosmos", "devops", "environment", "for", "frontend", "gemini", "hierarchy", "installation", "<YOUR_USERNAME>", "rust", "sdk", "users", "variables", "workflow"]
+tier: 3
+risk: "medium"
+estimated_tokens: 818
+tools_needed: ["git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.85
+date_added: "2026-02-27"
+description: "Azure Cosmos DB SDK for Rust (NoSQL API). Use for document CRUD, queries, containers, and globally distributed data."
+source: "community"
 ---
-
 # Azure Cosmos DB SDK for Rust
 
 Client library for Azure Cosmos DB NoSQL API — globally distributed, multi-model database.

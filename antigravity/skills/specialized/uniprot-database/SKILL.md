@@ -1,13 +1,19 @@
 ---
-name: uniprot-database
-description: Direct REST API access to UniProt. Protein searches, FASTA retrieval, ID mapping, Swiss-Prot/TrEMBL. For Python workflows with multiple databases, prefer bioservices (unified interface to 40+ services). Use this for direct HTTP/REST work or UniProt-specific control.
-license: Unknown
-metadata:
-    skill-author: K-Dense Inc.
-risk: safe
-source: community
+name: "uniprot-database"
+tags: ["antigravity", "c:", "capabilities", "core", "database", "for", "frontend", "gemini", "<YOUR_USERNAME>", "name", "overview", "protein", "proteins", "search", "searching", "skill", "specialized", "this", "uniprot", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1704
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.93
+description: "Direct REST API access to UniProt. Protein searches, FASTA retrieval, ID mapping, Swiss-Prot/TrEMBL. For Python workflows with multiple databases, prefer bioservices (unified interface to 40+ services). Use this for direct HTTP/REST work or UniProt-specific control."
+license: "Unknown"
+metadata: ""
+skill-author: "K-Dense Inc."
+source: "community"
 ---
-
 # UniProt Database
 
 ## Overview

@@ -1,3 +1,14 @@
+---
+name: "Code Migration Assistant Implementation Playbook"
+tags: ["antigravity", "assessment", "assistant", "c:", "code", "context", "framework", "frontend", "gemini", "implementation", "instructions", "<YOUR_USERNAME>", "migrate", "migration", "playbook", "requirements", "resources", "specialized", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 8452
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Code Migration Assistant Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

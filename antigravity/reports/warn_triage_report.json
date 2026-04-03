@@ -1,0 +1,82 @@
+{
+  "timestamp": "2026-04-02T02:28:02.892355+00:00",
+  "total_warn_findings": 281,
+  "rules": [
+    {
+      "rule_id": "system_prompt_leak_phrase",
+      "count": 138,
+      "priority": "high",
+      "recommended_action": "refine detection context"
+    },
+    {
+      "rule_id": "curl_pipe_shell",
+      "count": 70,
+      "priority": "high",
+      "recommended_action": "review snippets and patch"
+    },
+    {
+      "rule_id": "exec_usage",
+      "count": 38,
+      "priority": "medium",
+      "recommended_action": "review snippets and patch"
+    },
+    {
+      "rule_id": "eval_usage",
+      "count": 30,
+      "priority": "medium",
+      "recommended_action": "review snippets and patch"
+    },
+    {
+      "rule_id": "prompt_injection_phrase",
+      "count": 5,
+      "priority": "low",
+      "recommended_action": "refine detection context"
+    }
+  ],
+  "repos": [
+    {
+      "repo": "antigravity-ide-main",
+      "count": 132
+    },
+    {
+      "repo": "claude-skills",
+      "count": 55
+    },
+    {
+      "repo": "everything-claude-code-main",
+      "count": 34
+    },
+    {
+      "repo": "google-adk-samples",
+      "count": 30
+    },
+    {
+      "repo": "anthropic-skills",
+      "count": 18
+    },
+    {
+      "repo": "openai-agents-python",
+      "count": 4
+    },
+    {
+      "repo": "awesome-ai-agents",
+      "count": 3
+    },
+    {
+      "repo": "autogen",
+      "count": 2
+    },
+    {
+      "repo": "agno",
+      "count": 1
+    },
+    {
+      "repo": "crewai",
+      "count": 1
+    },
+    {
+      "repo": "langgraph",
+      "count": 1
+    }
+  ]
+}

@@ -1,10 +1,17 @@
 ---
-title: Cache Storage API Calls
-impact: LOW-MEDIUM
-impactDescription: reduces expensive I/O
-tags: javascript, localStorage, storage, caching, performance
+name: "Cache Storage API Calls"
+tags: ["javascript, localStorage, storage, caching, performance"]
+tier: 2
+risk: "medium"
+estimated_tokens: 412
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.63
+impact: "LOW-MEDIUM"
+impactDescription: "reduces expensive I/O"
+title: "Cache Storage API Calls"
 ---
-
 ## Cache Storage API Calls
 
 `localStorage`, `sessionStorage`, and `document.cookie` are synchronous and expensive. Cache reads in memory.

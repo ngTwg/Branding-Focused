@@ -1,14 +1,20 @@
 ---
-name: google-docs-automation
+name: "google-docs-automation"
+tags: ["antigravity", "automation", "c:", "commands", "content", "create", "docs", "document", "documents", "find", "first", "frontend", "gemini", "google", "initial", "<YOUR_USERNAME>", "new", "setup", "specialized", "time"]
+tier: 2
+risk: "critical"
+estimated_tokens: 589
+tools_needed: ["markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.80
+author: "sanjay3290"
 description: "Lightweight Google Docs integration with standalone OAuth authentication. No MCP server required."
-license: Apache-2.0
-risk: critical
-source: community
-metadata:
-  author: sanjay3290
-  version: "1.0"
+license: "Apache-2.0"
+metadata: ""
+source: "community"
+version: "1.0"
 ---
-
 # Google Docs
 
 Lightweight Google Docs integration with standalone OAuth authentication. No MCP server required.

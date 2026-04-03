@@ -1,3 +1,14 @@
+---
+name: "Benchmarks, Data & Expert Methods"
+tags: ["2024", "2025", "antigravity", "benchmarks", "c:", "cold", "core", "data", "declining", "effectiveness", "email", "expert", "frontend", "funnel", "gemini", "impact", "<YOUR_USERNAME>", "levers", "methods", "metrics"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1426
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.73
+---
 # Benchmarks, Data & Expert Methods
 
 ## Core Performance Metrics (2024–2025)

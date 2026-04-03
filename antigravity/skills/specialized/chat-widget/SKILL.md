@@ -1,10 +1,16 @@
 ---
-name: chat-widget
-description: Build a real-time support chat system with a floating widget for users and an admin dashboard for support staff. Use when the user wants live chat, customer support chat, real-time messaging, or in-app support.
-risk: unknown
-source: community
+name: "chat-widget"
+tags: ["antigravity", "api", "architecture", "c:", "chat", "data", "endpoints", "frontend", "gemini", "guide", "implementation", "<YOUR_USERNAME>", "live", "models", "overview", "skill", "specialized", "step", "support", "this"]
+tier: 3
+risk: "medium"
+estimated_tokens: 6493
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+description: "Build a real-time support chat system with a floating widget for users and an admin dashboard for support staff. Use when the user wants live chat, customer support chat, real-time messaging, or in-app support."
+source: "community"
 ---
-
 # Live Support Chat Widget
 
 Build a real-time support chat system with a floating widget for users and an admin dashboard for support staff.

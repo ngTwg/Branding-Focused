@@ -1,3 +1,14 @@
+---
+name: "CODE REVIEW PATTERNS"
+tags: ["antigravity", "c:", "checklist", "code", "correctness", "frontend", "gemini", "<YOUR_USERNAME>", "patterns", "performance", "review", "security", "users", "workflows"]
+tier: 3
+risk: "high"
+estimated_tokens: 1289
+tools_needed: ["git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.88
+---
 # CODE REVIEW PATTERNS
 
 > **Khi nào tải skill này:** Review, Code Review, PR, Quality, Feedback

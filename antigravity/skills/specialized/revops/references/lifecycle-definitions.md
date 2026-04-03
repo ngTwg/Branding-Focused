@@ -1,3 +1,14 @@
+---
+name: "Lifecycle Stage Definitions"
+tags: ["antigravity", "c:", "definitions", "frontend", "gemini", "lead", "<YOUR_USERNAME>", "lifecycle", "marketing", "mql", "qualified", "references", "revops", "sales", "specialized", "sql", "stage", "subscriber", "templates", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1753
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.76
+---
 # Lifecycle Stage Definitions
 
 Complete templates for lead lifecycle stages, MQL criteria by business type, SLAs, and rejection/recycling workflows.

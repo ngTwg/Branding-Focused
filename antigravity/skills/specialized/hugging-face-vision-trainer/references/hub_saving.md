@@ -1,3 +1,14 @@
+---
+name: "Saving Vision Models to Hugging Face Hub"
+tags: ["antigravity", "c:", "configuration", "contents", "face", "frontend", "gemini", "hub", "hugging", "job", "<YOUR_USERNAME>", "models", "push", "references", "required", "saving", "specialized", "trainer", "training", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4223
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Saving Vision Models to Hugging Face Hub
 
 ## Contents

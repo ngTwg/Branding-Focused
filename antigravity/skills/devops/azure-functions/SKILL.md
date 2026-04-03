@@ -1,11 +1,17 @@
 ---
-name: azure-functions
-description: "Modern .NET execution model with process isolation"
-risk: none
-source: "vibeship-spawner-skills (Apache 2.0)"
+name: "azure-functions"
+tags: ["anti", "antigravity", "azure", "c:", "devops", "functions", "gemini", "isolated", "<YOUR_USERNAME>", "model", "net", "node", "patterns", "programming", "python", "users", "worker", "workflows"]
+tier: 2
+risk: "medium"
+estimated_tokens: 314
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.66
 date_added: "2026-02-27"
+description: "Modern .NET execution model with process isolation"
+source: "vibeship-spawner-skills (Apache 2.0)"
 ---
-
 # Azure Functions
 
 ## Patterns

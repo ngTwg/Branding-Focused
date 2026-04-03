@@ -1,10 +1,17 @@
 ---
-title: Debounce Workflows to Prevent Wasted Work
-impact: MEDIUM
-impactDescription: Prevents redundant workflow executions during rapid triggers
-tags: pattern, debounce, delay, efficiency
+name: "Debounce Workflows to Prevent Wasted Work"
+tags: ["pattern, debounce, delay, efficiency"]
+tier: 2
+risk: "medium"
+estimated_tokens: 482
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.58
+impact: "MEDIUM"
+impactDescription: "Prevents redundant workflow executions during rapid triggers"
+title: "Debounce Workflows to Prevent Wasted Work"
 ---
-
 ## Debounce Workflows to Prevent Wasted Work
 
 Use `Debouncer` to delay workflow execution until some time has passed since the last trigger. This prevents wasted work when a workflow is triggered multiple times in quick succession.

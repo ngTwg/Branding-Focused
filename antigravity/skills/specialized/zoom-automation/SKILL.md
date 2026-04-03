@@ -1,11 +1,17 @@
 ---
-name: zoom-automation
-description: "Automate Zoom meeting creation, management, recordings, webinars, and participant tracking via Rube MCP (Composio). Always search tools first for current schemas."
-risk: critical
-source: community
+name: "zoom-automation"
+tags: ["and", "antigravity", "automation", "c:", "core", "create", "frontend", "gemini", "<YOUR_USERNAME>", "list", "manage", "mcp", "meetings", "prerequisites", "rube", "schedule", "setup", "specialized", "users", "via"]
+tier: 2
+risk: "critical"
+estimated_tokens: 2722
+tools_needed: ["git", "markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 date_added: "2026-02-27"
+description: "Automate Zoom meeting creation, management, recordings, webinars, and participant tracking via Rube MCP (Composio). Always search tools first for current schemas."
+source: "community"
 ---
-
 # Zoom Automation via Rube MCP
 
 Automate Zoom operations including meeting scheduling, webinar management, cloud recording retrieval, participant tracking, and usage reporting through Composio's Zoom toolkit.

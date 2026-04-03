@@ -1,11 +1,17 @@
 ---
-name: database-cloud-optimization-cost-optimize
-description: "You are a cloud cost optimization expert specializing in reducing infrastructure expenses while maintaining performance and reliability. Analyze cloud spending, identify savings opportunities, and implement cost-effective architectures across AWS, Azure, and GCP."
-risk: safe
-source: community
+name: "database-cloud-optimization-cost-optimize"
+tags: ["antigravity", "backend", "c:", "cloud", "context", "cost", "database", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "optimization", "optimize", "requirements", "skill", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 478
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.67
 date_added: "2026-02-27"
+description: "You are a cloud cost optimization expert specializing in reducing infrastructure expenses while maintaining performance and reliability. Analyze cloud spending, identify savings opportunities, and implement cost-effective architectures across AWS, Azure, and GCP."
+source: "community"
 ---
-
 # Cloud Cost Optimization
 
 You are a cloud cost optimization expert specializing in reducing infrastructure expenses while maintaining performance and reliability. Analyze cloud spending, identify savings opportunities, and implement cost-effective architectures across AWS, Azure, and GCP.

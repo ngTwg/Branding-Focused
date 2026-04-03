@@ -1,4 +1,15 @@
 ---
+name: "DEVOPS-DEPLOY — Da Ideia para Producao"
+tags: ["antigravity", "c:", "deploy", "devops", "dockerfile", "frontend", "gemini", "how", "ideia", "<YOUR_USERNAME>", "not", "otimizado", "overview", "para", "producao", "python", "skill", "this", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1771
+tools_needed: ["docker", "git", "markdown", "pytest", "sql", "terminal", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.91
+---
+---
 name: devops-deploy
 description: "DevOps e deploy de aplicacoes — Docker, CI/CD com GitHub Actions, AWS Lambda, SAM, Terraform, infraestrutura como codigo e monitoramento."
 risk: critical

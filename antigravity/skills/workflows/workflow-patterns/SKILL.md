@@ -1,11 +1,17 @@
 ---
-name: workflow-patterns
-description: Use this skill when implementing tasks according to Conductor's TDD workflow, handling phase checkpoints, managing git commits for tasks, or understanding the verification protocol.
-risk: safe
-source: community
-date_added: '2026-02-27'
+name: "workflow-patterns"
+tags: ["antigravity", "c:", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "patterns", "resources", "skill", "this", "use", "users", "when", "workflow", "workflows"]
+tier: 2
+risk: "medium"
+estimated_tokens: 315
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
+date_added: "2026-02-27"
+description: "Use this skill when implementing tasks according to Conductor's TDD workflow, handling phase checkpoints, managing git commits for tasks, or understanding the verification protocol."
+source: "community"
 ---
-
 # Workflow Patterns
 
 Guide for implementing tasks using Conductor's TDD workflow, managing phase checkpoints, handling git commits, and executing the verification protocol that ensures quality throughout implementation.

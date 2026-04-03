@@ -1,3 +1,14 @@
+---
+name: "Market Sizing Data Sources"
+tags: ["accessible", "analysis", "and", "antigravity", "c:", "data", "firms", "frontend", "gemini", "government", "industry", "<YOUR_USERNAME>", "market", "premium", "public", "references", "reports", "research", "sizing", "sources"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2278
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.85
+---
 # Market Sizing Data Sources
 
 Curated list of credible sources for market research and sizing analysis.

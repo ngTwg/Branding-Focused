@@ -1,3 +1,14 @@
+---
+name: "STRIDE & PASTA Threat Modeling Guide"
+tags: ["007", "antigravity", "api", "authentication", "c:", "forged", "frontend", "gemini", "guide", "identity", "jwt", "<YOUR_USERNAME>", "modeling", "pasta", "references", "secret", "specialized", "spoofing", "stride", "threat"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3152
+tools_needed: ["git", "markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # STRIDE & PASTA Threat Modeling Guide
 
 > Practical guide for threat modeling systems, APIs, and AI agents.

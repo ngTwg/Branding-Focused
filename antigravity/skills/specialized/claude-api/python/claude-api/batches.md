@@ -1,3 +1,14 @@
+---
+name: "Message Batches API — Python"
+tags: ["antigravity", "api", "batch", "batches", "c:", "cancel", "claude", "completion", "create", "facts", "for", "frontend", "gemini", "key", "<YOUR_USERNAME>", "message", "poll", "python", "results", "retrieve"]
+tier: 4
+risk: "medium"
+estimated_tokens: 1236
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.86
+---
 # Message Batches API — Python
 
 The Batches API (`POST /v1/messages/batches`) processes Messages API requests asynchronously at 50% of standard prices.

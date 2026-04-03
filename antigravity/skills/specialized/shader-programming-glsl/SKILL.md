@@ -1,11 +1,17 @@
 ---
-name: shader-programming-glsl
-description: "Expert guide for writing efficient GLSL shaders (Vertex/Fragment) for web and game engines, covering syntax, uniforms, and common effects."
-risk: safe
-source: community
+name: "shader-programming-glsl"
+tags: ["and", "antigravity", "c:", "fragment", "frontend", "gemini", "glsl", "guide", "<YOUR_USERNAME>", "overview", "programming", "shader", "skill", "specialized", "step", "structure", "this", "uniforms", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 882
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.83
 date_added: "2026-02-27"
+description: "Expert guide for writing efficient GLSL shaders (Vertex/Fragment) for web and game engines, covering syntax, uniforms, and common effects."
+source: "community"
 ---
-
 # Shader Programming GLSL
 
 ## Overview

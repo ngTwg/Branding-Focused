@@ -1,10 +1,17 @@
 ---
-title: Use Versioning for Blue-Green Deployments
-impact: LOW
-impactDescription: Enables safe deployment of new code versions alongside old ones
-tags: advanced, versioning, blue-green, deployment
+name: "Use Versioning for Blue-Green Deployments"
+tags: ["advanced, versioning, blue-green, deployment"]
+tier: 2
+risk: "medium"
+estimated_tokens: 444
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.64
+impact: "LOW"
+impactDescription: "Enables safe deployment of new code versions alongside old ones"
+title: "Use Versioning for Blue-Green Deployments"
 ---
-
 ## Use Versioning for Blue-Green Deployments
 
 Set `applicationVersion` in configuration to tag workflows with a version. DBOS only recovers workflows matching the current application version, preventing code mismatches during recovery.

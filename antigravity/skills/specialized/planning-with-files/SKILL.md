@@ -1,11 +1,17 @@
 ---
-name: planning-with-files
-description: "Work like Manus: Use persistent markdown files as your \"working memory on disk.\""
-risk: unknown
-source: community
+name: "planning-with-files"
+tags: ["antigravity", "c:", "core", "critical", "file", "files", "frontend", "gemini", "important", "<YOUR_USERNAME>", "pattern", "planning", "purposes", "quick", "rules", "specialized", "start", "the", "users", "where"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1427
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.88
 date_added: "2026-02-27"
+description: "Work like Manus: Use persistent markdown files as your \\\"working memory on disk.\\\""
+source: "community"
 ---
-
 # Planning with Files
 
 Work like Manus: Use persistent markdown files as your "working memory on disk."

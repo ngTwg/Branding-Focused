@@ -1,11 +1,17 @@
 ---
-name: agent-orchestration-improve-agent
-description: "Systematic improvement of existing agents through performance analysis, prompt engineering, and continuous iteration."
-risk: unknown
-source: community
+name: "agent-orchestration-improve-agent"
+tags: ["agent", "analysis", "and", "antigravity", "baseline", "c:", "deep", "deep-tech", "frontend", "gemini", "improve", "instructions", "<YOUR_USERNAME>", "metrics", "not", "optimization", "orchestration", "performance", "phase", "safety"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2544
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Systematic improvement of existing agents through performance analysis, prompt engineering, and continuous iteration."
+source: "community"
 ---
-
 # Agent Performance Optimization Workflow
 
 Systematic improvement of existing agents through performance analysis, prompt engineering, and continuous iteration.

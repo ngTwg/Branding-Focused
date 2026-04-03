@@ -1,11 +1,17 @@
 ---
-name: agent-manager-skill
-description: "Manage multiple local CLI agents via tmux sessions (start/stop/monitor/assign) with cron-friendly scheduling."
-risk: unknown
-source: community
+name: "agent-manager-skill"
+tags: ["agent", "antigravity", "c:", "commands", "common", "deep", "deep-tech", "frontend", "gemini", "<YOUR_USERNAME>", "manager", "notes", "prerequisites", "skill", "tech", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 278
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.66
 date_added: "2026-02-27"
+description: "Manage multiple local CLI agents via tmux sessions (start/stop/monitor/assign) with cron-friendly scheduling."
+source: "community"
 ---
-
 # Agent Manager Skill
 
 ## When to Use

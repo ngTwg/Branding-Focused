@@ -1,3 +1,14 @@
+---
+name: "Troubleshooting TRL Training Jobs"
+tags: ["antigravity", "c:", "create", "eval", "face", "frontend", "gemini", "hangs", "hub", "hugging", "job", "jobs", "<YOUR_USERNAME>", "memory", "model", "not", "oom", "out", "references", "saved"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2210
+tools_needed: ["markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Troubleshooting TRL Training Jobs
 
 Common issues and solutions when training with TRL on Hugging Face Jobs.

@@ -1,11 +1,17 @@
 ---
-name: azure-communication-chat-java
-description: "Build real-time chat applications with thread management, messaging, participants, and read receipts."
-risk: unknown
-source: community
+name: "azure-communication-chat-java"
+tags: ["antigravity", "azure", "c:", "chat", "client", "communication", "concepts", "create", "creation", "devops", "frontend", "gemini", "installation", "java", "key", "<YOUR_USERNAME>", "messages", "send", "thread", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2374
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.94
 date_added: "2026-02-27"
+description: "Build real-time chat applications with thread management, messaging, participants, and read receipts."
+source: "community"
 ---
-
 # Azure Communication Chat (Java)
 
 Build real-time chat applications with thread management, messaging, participants, and read receipts.

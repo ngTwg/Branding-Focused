@@ -1,11 +1,17 @@
 ---
-name: supabase-automation
-description: "Automate Supabase database queries, table management, project administration, storage, edge functions, and SQL execution via Rube MCP (Composio). Always search tools first for current schemas."
-risk: critical
-source: community
+name: "supabase-automation"
+tags: ["and", "antigravity", "automation", "backend", "c:", "core", "database", "frontend", "gemini", "<YOUR_USERNAME>", "manage", "mcp", "organizations", "prerequisites", "projects", "query", "rube", "setup", "supabase", "tables"]
+tier: 2
+risk: "critical"
+estimated_tokens: 3170
+tools_needed: ["markdown", "mcp", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 date_added: "2026-02-27"
+description: "Automate Supabase database queries, table management, project administration, storage, edge functions, and SQL execution via Rube MCP (Composio). Always search tools first for current schemas."
+source: "community"
 ---
-
 # Supabase Automation via Rube MCP
 
 Automate Supabase operations including database queries, table schema inspection, SQL execution, project and organization management, storage buckets, edge functions, and service health monitoring through Composio's Supabase toolkit.

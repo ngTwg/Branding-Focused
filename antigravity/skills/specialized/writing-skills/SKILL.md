@@ -1,8 +1,15 @@
 ---
-name: writing-skills
-description: Use when creating new skills, editing existing skills, or verifying skills work before deployment
+name: "writing-skills"
+tags: ["antigravity", "c:", "create", "for", "frontend", "gemini", "<YOUR_USERNAME>", "mapping", "overview", "skill", "skills", "specialized", "tdd", "types", "users", "what", "when", "writing"]
+tier: 2
+risk: "medium"
+estimated_tokens: 6078
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.96
+description: "Use when creating new skills, editing existing skills, or verifying skills work before deployment"
 ---
-
 # Writing Skills
 
 ## Overview

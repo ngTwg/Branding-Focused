@@ -1,3 +1,14 @@
+---
+name: "Condition-Based Waiting"
+tags: ["antigravity", "based", "c:", "condition", "core", "frontend", "gemini", "implementation", "<YOUR_USERNAME>", "overview", "pattern", "patterns", "quick", "use", "users", "waiting", "when", "workflows"]
+tier: 2
+risk: "medium"
+estimated_tokens: 874
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.80
+---
 # Condition-Based Waiting
 
 ## Overview

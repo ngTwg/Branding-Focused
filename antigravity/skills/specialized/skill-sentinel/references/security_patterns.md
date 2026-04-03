@@ -1,3 +1,14 @@
+---
+name: "Padroes de Seguranca"
+tags: ["ambiente", "antigravity", "bom", "bons", "c:", "como", "env", "frontend", "gemini", "instagram", "<YOUR_USERNAME>", "padroes", "para", "parametrizadas", "patterns", "placeholder", "queries", "references", "referencia", "scripts"]
+tier: 2
+risk: "medium"
+estimated_tokens: 445
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+---
 # Padroes de Seguranca
 
 ## Padroes Bons (Referencia)

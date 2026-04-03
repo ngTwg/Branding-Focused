@@ -1,13 +1,19 @@
 ---
-name: astropy
+name: "astropy"
+tags: ["and", "antigravity", "astropy", "c:", "coordinates", "frontend", "gemini", "<YOUR_USERNAME>", "overview", "quantities", "quick", "skill", "specialized", "start", "this", "units", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2810
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 description: "Astropy is the core Python package for astronomy, providing essential functionality for astronomical research and data analysis."
-license: BSD-3-Clause license
-metadata:
-    skill-author: K-Dense Inc.
-risk: unknown
+license: "BSD-3-Clause license"
+metadata: ""
+skill-author: "K-Dense Inc."
 source: "https://github.com/astropy/astropy"
 ---
-
 # Astropy
 
 ## Overview

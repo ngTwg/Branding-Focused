@@ -1,11 +1,17 @@
 ---
-name: azure-communication-callingserver-java
-description: "⚠️ DEPRECATED: This SDK has been renamed to Call Automation. For new projects, use azure-communication-callautomation instead. This skill is for maintaining legacy code only."
-risk: safe
-source: community
+name: "azure-communication-callingserver-java"
+tags: ["antigravity", "automation", "azure", "c:", "call", "callingserver", "changes", "class", "client", "communication", "creation", "deprecated", "development", "devops", "for", "frontend", "gemini", "java", "legacy", "<YOUR_USERNAME>"]
+tier: 2
+risk: "medium"
+estimated_tokens: 717
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.77
 date_added: "2026-02-27"
+description: "⚠️ DEPRECATED: This SDK has been renamed to Call Automation. For new projects, use azure-communication-callautomation instead. This skill is for maintaining legacy code only."
+source: "community"
 ---
-
 # Azure Communication CallingServer (Java) - DEPRECATED
 
 > **⚠️ DEPRECATED**: This SDK has been renamed to **Call Automation**. For new projects, use `azure-communication-callautomation` instead. This skill is for maintaining legacy code only.

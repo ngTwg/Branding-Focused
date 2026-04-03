@@ -1,11 +1,17 @@
 ---
-name: conductor-implement
-description: "Execute tasks from a track's implementation plan following TDD workflow"
-risk: critical
-source: community
+name: "conductor-implement"
+tags: ["antigravity", "c:", "checks", "conductor", "flight", "frontend", "gemini", "implement", "instructions", "<YOUR_USERNAME>", "not", "pre", "selection", "skill", "specialized", "this", "track", "use", "users", "when"]
+tier: 2
+risk: "critical"
+estimated_tokens: 2129
+tools_needed: ["git", "markdown", "pytest", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Execute tasks from a track's implementation plan following TDD workflow"
+source: "community"
 ---
-
 # Implement Track
 
 Execute tasks from a track's implementation plan, following the workflow rules defined in `conductor/workflow.md`.

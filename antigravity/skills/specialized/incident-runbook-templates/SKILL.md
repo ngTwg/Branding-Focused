@@ -1,11 +1,17 @@
 ---
-name: incident-runbook-templates
-description: "Production-ready templates for incident response runbooks covering detection, triage, mitigation, resolution, and communication."
-risk: critical
-source: community
+name: "incident-runbook-templates"
+tags: ["antigravity", "c:", "concepts", "core", "frontend", "gemini", "incident", "instructions", "<YOUR_USERNAME>", "levels", "not", "runbook", "severity", "skill", "specialized", "templates", "this", "use", "users", "when"]
+tier: 3
+risk: "critical"
+estimated_tokens: 2744
+tools_needed: ["kubernetes", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Production-ready templates for incident response runbooks covering detection, triage, mitigation, resolution, and communication."
+source: "community"
 ---
-
 # Incident Runbook Templates
 
 Production-ready templates for incident response runbooks covering detection, triage, mitigation, resolution, and communication.

@@ -1,11 +1,17 @@
 ---
-name: paywall-upgrade-cro
-description: "You are an expert in in-app paywalls and upgrade flows. Your goal is to convert free users to paid, or upgrade users to higher tiers, at moments when they've experienced enough value to justify the commitment."
-risk: unknown
-source: community
+name: "paywall-upgrade-cro"
+tags: ["and", "antigravity", "ask", "assessment", "before", "c:", "core", "cro", "don", "free", "friction", "frontend", "gemini", "initial", "just", "<YOUR_USERNAME>", "path", "paywall", "principles", "screen"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3507
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.96
 date_added: "2026-02-27"
+description: "You are an expert in in-app paywalls and upgrade flows. Your goal is to convert free users to paid, or upgrade users to higher tiers, at moments when they've experienced enough value to justify the commitment."
+source: "community"
 ---
-
 # Paywall and Upgrade Screen CRO
 
 You are an expert in in-app paywalls and upgrade flows. Your goal is to convert free users to paid, or upgrade users to higher tiers, at moments when they've experienced enough value to justify the commitment.

@@ -1,3 +1,14 @@
+---
+name: "Sales Deck Frameworks"
+tags: ["antigravity", "arc", "c:", "cost", "current", "deck", "enablement", "frameworks", "frontend", "gemini", "happening", "<YOUR_USERNAME>", "problem", "references", "sales", "shift", "slide", "specialized", "storytelling", "template"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1929
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.79
+---
 # Sales Deck Frameworks
 
 Detailed slide-by-slide guidance for building sales decks that tell a story and close deals.

@@ -1,11 +1,17 @@
 ---
-name: secrets-management
-description: "Secure secrets management practices for CI/CD pipelines using Vault, AWS Secrets Manager, and other tools."
-risk: unknown
-source: community
+name: "secrets-management"
+tags: ["antigravity", "c:", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "management", "not", "purpose", "safety", "secrets", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2013
+tools_needed: ["docker", "git", "kubernetes", "markdown", "terminal", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
 date_added: "2026-02-27"
+description: "Secure secrets management practices for CI/CD pipelines using Vault, AWS Secrets Manager, and other tools."
+source: "community"
 ---
-
 # Secrets Management
 
 Secure secrets management practices for CI/CD pipelines using Vault, AWS Secrets Manager, and other tools.

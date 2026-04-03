@@ -1,3 +1,14 @@
+---
+name: "Output Templates Reference"
+tags: ["alignment", "antigravity", "c:", "delivery", "envelope", "extraction", "format", "frontend", "gemini", "<YOUR_USERNAME>", "markdown", "output", "reference", "references", "required", "results", "rules", "scraper", "standard", "table"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3065
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Output Templates Reference
 
 Complete formatting templates for all supported output formats.

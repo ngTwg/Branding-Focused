@@ -1,3 +1,14 @@
+---
+name: "Task Plan: [Brief Description]"
+tags: ["antigravity", "brief", "c:", "current", "description", "discovery", "files", "frontend", "gemini", "goal", "<YOUR_USERNAME>", "phase", "phases", "plan", "planning", "requirements", "specialized", "structure", "task", "templates"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1150
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.71
+---
 # Task Plan: [Brief Description]
 <!-- 
   WHAT: This is your roadmap for the entire task. Think of it as your "working memory on disk."

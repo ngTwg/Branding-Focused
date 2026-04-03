@@ -1,11 +1,17 @@
 ---
-name: docusign-automation
-description: "Automate DocuSign tasks via Rube MCP (Composio): templates, envelopes, signatures, document management. Always search tools first for current schemas."
-risk: unknown
-source: community
+name: "docusign-automation"
+tags: ["and", "antigravity", "automation", "browse", "c:", "core", "create", "docusign", "envelopes", "from", "frontend", "gemini", "<YOUR_USERNAME>", "mcp", "prerequisites", "rube", "select", "send", "setup", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1973
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.91
 date_added: "2026-02-27"
+description: "Automate DocuSign tasks via Rube MCP (Composio): templates, envelopes, signatures, document management. Always search tools first for current schemas."
+source: "community"
 ---
-
 # DocuSign Automation via Rube MCP
 
 Automate DocuSign e-signature workflows through Composio's DocuSign toolkit via Rube MCP.

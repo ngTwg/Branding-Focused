@@ -1,11 +1,17 @@
 ---
-name: legal-advisor
-description: Draft privacy policies, terms of service, disclaimers, and legal notices. Creates GDPR-compliant texts, cookie policies, and data processing agreements.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "legal-advisor"
+tags: ["advisor", "antigravity", "approach", "areas", "c:", "focus", "frontend", "gemini", "instructions", "key", "legal", "<YOUR_USERNAME>", "not", "regulations", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 599
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.66
+date_added: "2026-02-27"
+description: "Draft privacy policies, terms of service, disclaimers, and legal notices. Creates GDPR-compliant texts, cookie policies, and data processing agreements."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on legal advisor tasks or workflows

@@ -1,3 +1,14 @@
+---
+name: "Key-Value Store Schema Reference"
+tags: ["actor", "and", "antigravity", "apify", "c:", "configuration", "development", "example", "examples", "frontend", "gemini", "javascript", "key", "<YOUR_USERNAME>", "python", "reference", "references", "schema", "set", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 929
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.83
+---
 # Key-Value Store Schema Reference
 
 The key-value store schema organizes keys into logical groups called collections for easier data management.

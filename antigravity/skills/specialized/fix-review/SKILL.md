@@ -1,11 +1,17 @@
 ---
-name: fix-review
-description: "Verify fix commits address audit findings without new bugs"
-risk: safe
-source: "https://github.com/trailofbits/skills/tree/main/plugins/fix-review"
+name: "fix-review"
+tags: ["antigravity", "best", "c:", "fix", "gemini", "instructions", "<YOUR_USERNAME>", "overview", "practices", "process", "review", "skill", "specialized", "this", "use", "users", "when", "workflows"]
+tier: 2
+risk: "medium"
+estimated_tokens: 457
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.66
 date_added: "2026-02-27"
+description: "Verify fix commits address audit findings without new bugs"
+source: "https://github.com/trailofbits/skills/tree/main/plugins/fix-review"
 ---
-
 # Fix Review
 
 ## Overview

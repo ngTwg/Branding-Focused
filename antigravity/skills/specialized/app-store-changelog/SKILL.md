@@ -1,11 +1,17 @@
 ---
-name: app-store-changelog
-description: Generate user-facing App Store release notes from git history since the last tag.
-risk: safe
-source: "Dimillian/Skills (MIT)"
+name: "app-store-changelog"
+tags: ["antigravity", "app", "c:", "changelog", "changes", "collect", "for", "frontend", "gemini", "impact", "<YOUR_USERNAME>", "overview", "specialized", "store", "triage", "use", "user", "users", "when", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 751
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.74
 date_added: "2026-03-25"
+description: "Generate user-facing App Store release notes from git history since the last tag."
+source: "Dimillian/Skills (MIT)"
 ---
-
 # App Store Changelog
 
 ## Overview

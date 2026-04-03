@@ -1,4 +1,15 @@
 ---
+name: "WhatsApp Cloud API - Integracao Profissional"
+tags: ["antigravity", "api", "c:", "cloud", "frontend", "gemini", "how", "integracao", "<YOUR_USERNAME>", "not", "overview", "profissional", "skill", "specialized", "this", "use", "users", "whatsapp", "when", "works"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4436
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
+---
 name: whatsapp-cloud-api
 description: Integracao com WhatsApp Business Cloud API (Meta). Mensagens, templates, webhooks HMAC-SHA256, automacao de atendimento. Boilerplates Node.js e Python.
 risk: critical

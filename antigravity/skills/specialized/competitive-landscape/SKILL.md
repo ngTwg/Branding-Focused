@@ -1,11 +1,17 @@
 ---
-name: competitive-landscape
+name: "competitive-landscape"
+tags: ["analysis", "antigravity", "c:", "competitive", "frontend", "gemini", "instructions", "landscape", "<YOUR_USERNAME>", "not", "resources", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 275
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.59
+date_added: "2026-02-27"
 description: "Comprehensive frameworks for analyzing competition, identifying differentiation opportunities, and developing winning market positioning strategies."
-risk: safe
-source: community
-date_added: '2026-02-27'
+source: "community"
 ---
-
 # Competitive Landscape Analysis
 
 Comprehensive frameworks for analyzing competition, identifying differentiation opportunities, and developing winning market positioning strategies.

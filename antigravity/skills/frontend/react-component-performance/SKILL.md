@@ -1,11 +1,17 @@
 ---
-name: react-component-performance
-description: Diagnose slow React components and suggest targeted performance fixes.
-risk: safe
-source: "Dimillian/Skills (MIT)"
+name: "react-component-performance"
+tags: ["antigravity", "c:", "checklist", "component", "frontend", "gemini", "<YOUR_USERNAME>", "optimization", "overview", "patterns", "performance", "react", "use", "users", "when", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1182
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.83
 date_added: "2026-03-25"
+description: "Diagnose slow React components and suggest targeted performance fixes."
+source: "Dimillian/Skills (MIT)"
 ---
-
 # React Component Performance
 
 ## Overview

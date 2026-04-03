@@ -1,11 +1,17 @@
 ---
-name: bitbucket-automation
-description: "Automate Bitbucket repositories, pull requests, branches, issues, and workspace management via Rube MCP (Composio). Always search tools first for current schemas."
-risk: critical
-source: community
+name: "bitbucket-automation"
+tags: ["and", "antigravity", "automation", "bitbucket", "c:", "core", "frontend", "gemini", "<YOUR_USERNAME>", "manage", "mcp", "prerequisites", "pull", "repositories", "requests", "rube", "setup", "specialized", "users", "via"]
+tier: 2
+risk: "critical"
+estimated_tokens: 3059
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 date_added: "2026-02-27"
+description: "Automate Bitbucket repositories, pull requests, branches, issues, and workspace management via Rube MCP (Composio). Always search tools first for current schemas."
+source: "community"
 ---
-
 # Bitbucket Automation via Rube MCP
 
 Automate Bitbucket operations including repository management, pull request workflows, branch operations, issue tracking, and workspace administration through Composio's Bitbucket toolkit.

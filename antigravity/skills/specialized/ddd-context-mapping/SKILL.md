@@ -1,12 +1,17 @@
 ---
-name: ddd-context-mapping
-description: "Map relationships between bounded contexts and define integration contracts using DDD context mapping patterns."
-risk: safe
-source: self
-tags: "[ddd, context-map, anti-corruption-layer, integration]"
+name: "ddd-context-mapping"
+tags: ["[ddd, context-map, anti-corruption-layer, integration]"]
+tier: 2
+risk: "medium"
+estimated_tokens: 394
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.69
 date_added: "2026-02-27"
+description: "Map relationships between bounded contexts and define integration contracts using DDD context mapping patterns."
+source: "self"
 ---
-
 # DDD Context Mapping
 
 ## Use this skill when

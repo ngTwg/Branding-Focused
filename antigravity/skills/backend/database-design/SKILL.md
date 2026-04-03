@@ -1,11 +1,17 @@
 ---
-name: database-design
-description: "Database design principles and decision-making. Schema design, indexing strategy, ORM selection, serverless databases."
-risk: safe
-source: community
+name: "database-design"
+tags: ["anti", "antigravity", "backend", "c:", "checklist", "core", "database", "decision", "design", "gemini", "<YOUR_USERNAME>", "patterns", "principle", "reading", "rule", "selective", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 406
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.63
 date_added: "2026-02-27"
+description: "Database design principles and decision-making. Schema design, indexing strategy, ORM selection, serverless databases."
+source: "community"
 ---
-
 # Database Design
 
 > **Learn to THINK, not copy SQL patterns.**

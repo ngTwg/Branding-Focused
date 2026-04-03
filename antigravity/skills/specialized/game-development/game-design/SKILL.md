@@ -1,9 +1,16 @@
 ---
-name: game-design
-description: Game design principles. GDD structure, balancing, player psychology, progression.
-allowed-tools: Read, Glob, Grep
+name: "game-design"
+tags: ["antigravity", "c:", "core", "design", "development", "document", "essential", "examples", "frontend", "game", "gdd", "gemini", "<YOUR_USERNAME>", "loop", "principles", "second", "sections", "specialized", "test", "the"]
+tier: 2
+risk: "medium"
+estimated_tokens: 649
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.73
+allowed-tools: "Read, Glob, Grep"
+description: "Game design principles. GDD structure, balancing, player psychology, progression."
 ---
-
 # Game Design Principles
 
 > Design thinking for engaging games.

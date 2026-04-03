@@ -3,11 +3,11 @@ import re
 import json
 import subprocess
 from pathlib import Path
-from core.schemas import ArtifactCheck, ErrorDelta
-from core.id_utils import new_id
-from core.ast_analyzer import ASTAnalyzer
+from antigravity.core.schemas import ArtifactCheck, ErrorDelta
+from antigravity.core.id_utils import new_id
+from antigravity.core.ast_analyzer import ASTAnalyzer
 
-PROJECT_ROOT = Path(r"c:\Users\<YOUR_USERNAME>\.gemini\antigravity").resolve()
+PROJECT_ROOT = Path(r"C:\Users\<YOUR_USERNAME>\.gemini\antigravity").resolve()
 
 class DeterministicChecker:
     """Implement Level 1 Check: Deterministic First"""

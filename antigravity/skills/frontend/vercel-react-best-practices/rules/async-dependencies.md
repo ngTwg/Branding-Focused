@@ -1,10 +1,17 @@
 ---
-title: Dependency-Based Parallelization
-impact: CRITICAL
-impactDescription: 2-10× improvement
-tags: async, parallelization, dependencies, better-all
+name: "Dependency-Based Parallelization"
+tags: ["async, parallelization, dependencies, better-all"]
+tier: 2
+risk: "medium"
+estimated_tokens: 235
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.56
+impact: "CRITICAL"
+impactDescription: "2-10× improvement"
+title: "Dependency-Based Parallelization"
 ---
-
 ## Dependency-Based Parallelization
 
 For operations with partial dependencies, use `better-all` to maximize parallelism. It automatically starts each task at the earliest possible moment.

@@ -1,12 +1,18 @@
 ---
-name: ethical-hacking-methodology
-description: "Master the complete penetration testing lifecycle from reconnaissance through reporting. This skill covers the five stages of ethical hacking methodology, essential tools, attack techniques, and professional reporting for authorized security assessments."
-risk: unknown
-source: community
-author: zebbern
+name: "ethical-hacking-methodology"
+tags: ["and", "antigravity", "c:", "deliverables", "environment", "ethical", "frontend", "gemini", "hacking", "knowledge", "<YOUR_USERNAME>", "methodology", "outputs", "prerequisites", "purpose", "required", "specialized", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2741
+tools_needed: ["git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+author: "zebbern"
 date_added: "2026-02-27"
+description: "Master the complete penetration testing lifecycle from reconnaissance through reporting. This skill covers the five stages of ethical hacking methodology, essential tools, attack techniques, and professional reporting for authorized security assessments."
+source: "community"
 ---
-
 # Ethical Hacking Methodology
 
 ## Purpose

@@ -1,4 +1,15 @@
 ---
+name: "LLM-OPS -- IA de Producao"
+tags: ["antigravity", "arquitetura", "c:", "completa", "deep", "deep-tech", "frontend", "gemini", "how", "<YOUR_USERNAME>", "llm", "not", "ops", "overview", "producao", "rag", "skill", "tech", "this", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1996
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.76
+---
+---
 name: llm-ops
 description: "LLM Operations -- RAG, embeddings, vector databases, fine-tuning, prompt engineering avancado, custos de LLM, evals de qualidade e arquiteturas de IA para producao."
 risk: safe

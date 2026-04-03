@@ -1,3 +1,14 @@
+---
+name: "Components Index"
+tags: ["adding", "antigravity", "available", "c:", "components", "create", "cross", "cutting", "entries", "files", "frontend", "gemini", "index", "<YOUR_USERNAME>", "needed", "patterns", "planned", "references", "specialized", "swiftui"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1058
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.65
+---
 # Components Index
 
 Use this file to find component and cross-cutting guidance. Each entry lists when to use it.

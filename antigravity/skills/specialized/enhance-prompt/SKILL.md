@@ -1,4 +1,15 @@
 ---
+name: "Enhance Prompt for Stitch"
+tags: ["antigravity", "assess", "c:", "check", "design", "enhance", "enhancement", "for", "frontend", "gemini", "input", "<YOUR_USERNAME>", "pipeline", "prerequisites", "prompt", "skill", "specialized", "step", "stitch", "the"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1662
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.92
+---
+---
 name: enhance-prompt
 description: Transforms vague UI ideas into polished, Stitch-optimized prompts. Enhances specificity, adds UI/UX keywords, injects design system context, and structures output for better generation results.
 allowed-tools:

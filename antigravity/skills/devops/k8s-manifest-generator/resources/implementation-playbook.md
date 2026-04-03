@@ -1,3 +1,14 @@
+---
+name: "Kubernetes Manifest Generator Implementation Playbook"
+tags: ["antigravity", "c:", "devops", "frontend", "gather", "gemini", "generator", "implementation", "k8s", "kubernetes", "<YOUR_USERNAME>", "manifest", "playbook", "purpose", "requirements", "resources", "skill", "step", "this", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3068
+tools_needed: ["git", "kubernetes", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Kubernetes Manifest Generator Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

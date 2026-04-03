@@ -1,10 +1,17 @@
 ---
-title: Use Patching for Safe Workflow Upgrades
-impact: LOW
-impactDescription: Deploy breaking changes without disrupting in-progress workflows
-tags: patching, upgrade, versioning, migration
+name: "Use Patching for Safe Workflow Upgrades"
+tags: ["patching, upgrade, versioning, migration"]
+tier: 1
+risk: "medium"
+estimated_tokens: 387
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.70
+impact: "LOW"
+impactDescription: "Deploy breaking changes without disrupting in-progress workflows"
+title: "Use Patching for Safe Workflow Upgrades"
 ---
-
 ## Use Patching for Safe Workflow Upgrades
 
 Use `DBOS.patch()` to safely deploy breaking workflow changes. Breaking changes alter what steps run or their order.

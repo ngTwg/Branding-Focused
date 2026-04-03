@@ -1,11 +1,17 @@
 ---
-name: angular
-description: Modern Angular (v20+) expert with deep knowledge of Signals, Standalone Components, Zoneless applications, SSR/Hydration, and reactive patterns.
-risk: safe
-source: self
-date_added: '2026-02-27'
+name: "angular"
+tags: ["angular", "antigravity", "c:", "expert", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "safety", "skill", "specialized", "this", "timeline", "use", "users", "version", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 5030
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+date_added: "2026-02-27"
+description: "Modern Angular (v20+) expert with deep knowledge of Signals, Standalone Components, Zoneless applications, SSR/Hydration, and reactive patterns."
+source: "self"
 ---
-
 # Angular Expert
 
 Master modern Angular development with Signals, Standalone Components, Zoneless applications, SSR/Hydration, and the latest reactive patterns.

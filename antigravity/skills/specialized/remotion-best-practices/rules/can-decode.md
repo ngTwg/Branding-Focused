@@ -1,10 +1,16 @@
 ---
-name: can-decode
-description: Check if a video can be decoded by the browser using Mediabunny
-metadata:
-  tags: decode, validation, video, audio, compatibility, browser
+name: "can-decode"
+tags: ["decode, validation, video, audio, compatibility, browser"]
+tier: 3
+risk: "high"
+estimated_tokens: 396
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["data", "analytics"]
+quality_score: 0.67
+description: "Check if a video can be decoded by the browser using Mediabunny"
+metadata: ""
 ---
-
 # Checking if a video can be decoded
 
 Use Mediabunny to check if a video can be decoded by the browser before attempting to play it.

@@ -1,11 +1,17 @@
 ---
-name: executing-plans
-description: "Use when you have a written implementation plan to execute in a separate session with review checkpoints"
-risk: unknown
-source: community
+name: "executing-plans"
+tags: ["and", "antigravity", "batch", "c:", "execute", "executing", "frontend", "gemini", "<YOUR_USERNAME>", "load", "overview", "plan", "plans", "process", "report", "review", "specialized", "step", "the", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 583
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.69
 date_added: "2026-02-27"
+description: "Use when you have a written implementation plan to execute in a separate session with review checkpoints"
+source: "community"
 ---
-
 # Executing Plans
 
 ## Overview

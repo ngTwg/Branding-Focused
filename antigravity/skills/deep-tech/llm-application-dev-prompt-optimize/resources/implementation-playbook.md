@@ -1,3 +1,14 @@
+---
+name: "Prompt Optimization Implementation Playbook"
+tags: ["analyze", "antigravity", "application", "c:", "context", "current", "deep", "deep-tech", "dev", "frontend", "gemini", "implementation", "instructions", "<YOUR_USERNAME>", "llm", "optimization", "optimize", "playbook", "prompt", "requirements"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3187
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Prompt Optimization Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

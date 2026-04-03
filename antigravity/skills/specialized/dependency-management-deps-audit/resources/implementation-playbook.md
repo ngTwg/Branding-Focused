@@ -1,3 +1,14 @@
+---
+name: "Dependency Audit and Security Analysis Implementation Playbook"
+tags: ["analysis", "and", "antigravity", "audit", "c:", "compliance", "dependency", "deps", "discovery", "frontend", "gemini", "implementation", "instructions", "<YOUR_USERNAME>", "license", "management", "playbook", "report", "resources", "scanning"]
+tier: 2
+risk: "medium"
+estimated_tokens: 6059
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Dependency Audit and Security Analysis Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

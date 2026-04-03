@@ -1,3 +1,14 @@
+---
+name: "LOGGING STANDARDS - CHUẨN MỰC GHI LOG"
+tags: ["antigravity", "c:", "checklist", "chuẩn", "each", "frontend", "gemini", "ghi", "<YOUR_USERNAME>", "level", "levels", "log", "logging", "mực", "overview", "pattern", "standard", "standards", "use", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2548
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # LOGGING STANDARDS - CHUẨN MỰC GHI LOG
 
 > **Tier:** 2-3  

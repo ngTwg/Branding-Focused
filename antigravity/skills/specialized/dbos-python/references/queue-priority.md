@@ -1,10 +1,17 @@
 ---
-title: Set Queue Priority for Workflows
-impact: HIGH
-impactDescription: Ensures important work runs first
-tags: queue, priority, ordering, scheduling
+name: "Set Queue Priority for Workflows"
+tags: ["queue, priority, ordering, scheduling"]
+tier: 1
+risk: "medium"
+estimated_tokens: 377
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.64
+impact: "HIGH"
+impactDescription: "Ensures important work runs first"
+title: "Set Queue Priority for Workflows"
 ---
-
 ## Set Queue Priority for Workflows
 
 Use priority to control which workflows run first. Lower numbers = higher priority.

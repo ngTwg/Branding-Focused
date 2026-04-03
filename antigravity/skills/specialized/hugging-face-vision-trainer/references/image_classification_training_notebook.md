@@ -1,3 +1,14 @@
+---
+name: "Image classification"
+tags: ["101", "antigravity", "c:", "classification", "contents", "dataset", "evaluate", "face", "food", "frontend", "gemini", "hugging", "image", "<YOUR_USERNAME>", "load", "notebook", "preprocess", "references", "specialized", "train"]
+tier: 4
+risk: "medium"
+estimated_tokens: 2765
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.93
+---
 # Image classification
 
 ## Contents

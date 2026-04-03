@@ -1,4 +1,15 @@
 ---
+name: "TypeScript Expert"
+tags: ["advanced", "antigravity", "backend", "c:", "checking", "diagnose", "expert", "expertise", "frontend", "gemini", "invoked", "<YOUR_USERNAME>", "level", "optimization", "patterns", "performance", "programming", "slow", "strategies", "system"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3654
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
+---
 name: typescript-expert
 description: >-
   TypeScript and JavaScript expert with deep knowledge of type-level

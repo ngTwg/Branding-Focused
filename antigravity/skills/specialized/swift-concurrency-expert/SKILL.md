@@ -1,11 +1,17 @@
 ---
-name: swift-concurrency-expert
-description: Review and fix Swift concurrency issues such as actor isolation and Sendable violations.
-risk: safe
-source: "Dimillian/Skills (MIT)"
+name: "swift-concurrency-expert"
+tags: ["antigravity", "apply", "c:", "concurrency", "expert", "fix", "frontend", "gemini", "issue", "<YOUR_USERNAME>", "overview", "safe", "smallest", "specialized", "swift", "the", "triage", "use", "users", "when"]
+tier: 1
+risk: "medium"
+estimated_tokens: 1071
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.82
 date_added: "2026-03-25"
+description: "Review and fix Swift concurrency issues such as actor isolation and Sendable violations."
+source: "Dimillian/Skills (MIT)"
 ---
-
 # Swift Concurrency Expert
 
 ## Overview

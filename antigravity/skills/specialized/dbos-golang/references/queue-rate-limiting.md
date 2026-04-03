@@ -1,10 +1,17 @@
 ---
-title: Rate Limit Queue Execution
-impact: HIGH
-impactDescription: Prevents overwhelming external APIs with too many requests
-tags: queue, rate-limit, throttle, api
+name: "Rate Limit Queue Execution"
+tags: ["queue, rate-limit, throttle, api"]
+tier: 2
+risk: "medium"
+estimated_tokens: 310
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.60
+impact: "HIGH"
+impactDescription: "Prevents overwhelming external APIs with too many requests"
+title: "Rate Limit Queue Execution"
 ---
-
 ## Rate Limit Queue Execution
 
 Set rate limits on a queue to control how many workflows start in a given period. Rate limits are global across all DBOS processes.

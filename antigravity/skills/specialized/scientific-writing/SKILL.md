@@ -1,13 +1,19 @@
 ---
-name: scientific-writing
+name: "scientific-writing"
+tags: ["abstract", "additional", "antigravity", "c:", "enhancement", "extensively", "figures", "frontend", "gemini", "generate", "graphical", "<YOUR_USERNAME>", "overview", "required", "schematics", "scientific", "skill", "specialized", "this", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 8395
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 description: "This is the core skill for the deep research and writing tool—combining AI-driven deep research with well-formatted written outputs. Every document produced is backed by comprehensive literature search and verified citations through the research-lookup skill."
-license: MIT license
-metadata:
-    skill-author: K-Dense Inc.
-risk: unknown
-source: community
+license: "MIT license"
+metadata: ""
+skill-author: "K-Dense Inc."
+source: "community"
 ---
-
 # Scientific Writing
 
 ## Overview

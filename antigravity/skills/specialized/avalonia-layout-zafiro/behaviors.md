@@ -1,3 +1,14 @@
+---
+name: "Interactions and Logic"
+tags: ["and", "antigravity", "avalonia", "avoiding", "behaviors", "c:", "converters", "frontend", "gemini", "interaction", "interactions", "layout", "<YOUR_USERNAME>", "logic", "simplified", "specialized", "use", "users", "when", "why"]
+tier: 2
+risk: "medium"
+estimated_tokens: 367
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.63
+---
 # Interactions and Logic
 
 To keep XAML clean and maintainable, minimize logic in views and avoid excessive use of converters.

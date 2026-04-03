@@ -1,11 +1,17 @@
 ---
-name: vexor
-description: "Vector-powered CLI for semantic file search with a Claude/Codex skill"
-risk: safe
-source: "https://github.com/scarletkc/vexor"
+name: "vexor"
+tags: ["antigravity", "c:", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "overview", "skill", "specialized", "this", "use", "users", "vexor", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 160
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.57
 date_added: "2026-02-27"
+description: "Vector-powered CLI for semantic file search with a Claude/Codex skill"
+source: "https://github.com/scarletkc/vexor"
 ---
-
 # Vexor
 
 ## Overview

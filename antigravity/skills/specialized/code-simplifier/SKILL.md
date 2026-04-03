@@ -1,10 +1,16 @@
 ---
-name: code-simplifier
-description: Simplifies and refines code for clarity, consistency, and maintainability while preserving all functionality. Use when asked to "simplify code", "clean up code", "refactor for clarity", "improve readability", or review recently modified code for elegance. Focuses on project-specific best practices.
-risk: unknown
-source: community
+name: "code-simplifier"
+tags: ["antigravity", "apply", "balance", "c:", "clarity", "code", "enhance", "frontend", "functionality", "gemini", "<YOUR_USERNAME>", "maintain", "preserve", "principles", "project", "refinement", "simplifier", "specialized", "standards", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 998
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.88
+description: "Simplifies and refines code for clarity, consistency, and maintainability while preserving all functionality. Use when asked to \"simplify code\", \"clean up code\", \"refactor for clarity\", \"improve readability\", or review recently modified code for elegance. Focuses on project-specific best practices."
+source: "community"
 ---
-
 <!--
 Based on Anthropic's code-simplifier agent:
 https://github.com/anthropics/claude-plugins-official/blob/main/plugins/code-simplifier/agents/code-simplifier.md

@@ -1,3 +1,14 @@
+---
+name: "Prompt Optimization Guide"
+tags: ["antigravity", "baseline", "c:", "engineering", "establishment", "framework", "frontend", "gemini", "guide", "iterative", "<YOUR_USERNAME>", "optimization", "patterns", "process", "prompt", "references", "refinement", "specialized", "strategies", "systematic"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3192
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Prompt Optimization Guide
 
 ## Systematic Refinement Process

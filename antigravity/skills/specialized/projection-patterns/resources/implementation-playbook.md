@@ -1,3 +1,14 @@
+---
+name: "Projection Patterns Implementation Playbook"
+tags: ["antigravity", "c:", "concepts", "core", "frontend", "gemini", "implementation", "instructions", "<YOUR_USERNAME>", "not", "patterns", "playbook", "projection", "resources", "skill", "specialized", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 4192
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Projection Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

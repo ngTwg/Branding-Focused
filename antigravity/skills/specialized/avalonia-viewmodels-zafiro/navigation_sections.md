@@ -1,3 +1,14 @@
+---
+name: "Navigation & Sections"
+tags: ["antigravity", "attribute", "automatic", "avalonia", "c:", "frontend", "gemini", "inavigator", "<YOUR_USERNAME>", "navigation", "registration", "section", "sections", "specialized", "switching", "the", "users", "viewmodels", "with", "zafiro"]
+tier: 2
+risk: "medium"
+estimated_tokens: 324
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.71
+---
 # Navigation & Sections
 
 Zafiro provides powerful abstractions for managing application-wide navigation and modular UI sections.

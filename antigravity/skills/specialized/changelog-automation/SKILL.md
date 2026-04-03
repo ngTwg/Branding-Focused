@@ -1,11 +1,17 @@
 ---
-name: changelog-automation
-description: "Automate changelog generation from commits, PRs, and releases following Keep a Changelog format. Use when setting up release workflows, generating release notes, or standardizing commit conventions."
-risk: unknown
-source: community
+name: "changelog-automation"
+tags: ["antigravity", "automation", "c:", "changelog", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "resources", "safety", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 333
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.62
 date_added: "2026-02-27"
+description: "Automate changelog generation from commits, PRs, and releases following Keep a Changelog format. Use when setting up release workflows, generating release notes, or standardizing commit conventions."
+source: "community"
 ---
-
 # Changelog Automation
 
 Patterns and tools for automating changelog generation, release notes, and version management following industry standards.

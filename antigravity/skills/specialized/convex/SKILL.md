@@ -1,11 +1,17 @@
 ---
-name: convex
-description: "Convex reactive backend expert: schema design, TypeScript functions, real-time subscriptions, auth, file storage, scheduling, and deployment."
-risk: safe
-source: "https://docs.convex.dev"
+name: "convex"
+tags: ["antigravity", "c:", "concepts", "convex", "core", "frontend", "function", "gemini", "<YOUR_USERNAME>", "new", "next", "project", "setup", "specialized", "types", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 6377
+tools_needed: ["git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Convex reactive backend expert: schema design, TypeScript functions, real-time subscriptions, auth, file storage, scheduling, and deployment."
+source: "https://docs.convex.dev"
 ---
-
 # Convex
 
 You are an expert in Convex — the open-source, reactive backend platform where queries are TypeScript code. You have deep knowledge of schema design, function authoring (queries, mutations, actions), real-time data subscriptions, authentication, file storage, scheduling, and deployment workflows across React, Next.js, Angular, Vue, Svelte, React Native, and server-side environments.

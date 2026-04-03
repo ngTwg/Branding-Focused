@@ -1,8 +1,15 @@
 ---
-name: astro-static
-description: Astro static site template principles. Content-focused websites, blogs, documentation.
+name: "astro-static"
+tags: ["antigravity", "app", "astro", "builder", "c:", "concepts", "deployment", "directory", "frontend", "gemini", "key", "<YOUR_USERNAME>", "setup", "site", "specialized", "stack", "static", "steps", "structure", "tech"]
+tier: 2
+risk: "medium"
+estimated_tokens: 405
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.66
+description: "Astro static site template principles. Content-focused websites, blogs, documentation."
 ---
-
 # Astro Static Site Template
 
 ## Tech Stack

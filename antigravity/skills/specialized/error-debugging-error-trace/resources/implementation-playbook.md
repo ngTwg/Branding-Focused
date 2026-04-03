@@ -1,3 +1,14 @@
+---
+name: "Error Tracking and Monitoring Implementation Playbook"
+tags: ["alerting", "analysis", "and", "antigravity", "c:", "configuration", "debugging", "error", "frontend", "gemini", "implementation", "instructions", "integration", "<YOUR_USERNAME>", "logging", "monitoring", "playbook", "resources", "service", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 10680
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Error Tracking and Monitoring Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

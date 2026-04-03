@@ -1,0 +1,68 @@
+{
+  "version": "2026-04-02",
+  "description": "Policy for external markdown security gate used by bridge import flow.",
+  "exclude_file_name_regex": [
+    "^code_of_conduct\\.md$",
+    "^license(\\.md)?$"
+  ],
+  "exclude_path_regex": [
+    "/\\.git/",
+    "/node_modules/",
+    "/dist/",
+    "/build/"
+  ],
+  "fail_patterns": [
+    {
+      "id": "destructive_delete_root",
+      "regex": "\\brm\\s+-rf\\s+/(?:\\s|$)",
+      "scan": "command"
+    },
+    {
+      "id": "powershell_downloadstring_iex",
+      "regex": "(?i)iex\\s*\\(\\s*new-object\\s+net\\.webclient\\s*\\)\\s*\\.downloadstring\\(",
+      "scan": "text"
+    },
+    {
+      "id": "disk_wipe_pattern",
+      "regex": "(?i)diskpart\\b[\\s\\S]*\\bclean\\s+all\\b",
+      "scan": "text"
+    }
+  ],
+  "warn_patterns": [
+    {
+      "id": "shell_true_subprocess",
+      "regex": "subprocess\\.Popen\\([^\\n]*shell\\s*=\\s*True",
+      "scan": "code"
+    },
+    {
+      "id": "curl_pipe_shell",
+      "regex": "\\bcurl\\s+[^\\n]*\\|\\s*(?:sh|bash)\\b",
+      "scan": "command"
+    },
+    {
+      "id": "invoke_webrequest_iex",
+      "regex": "(?i)Invoke-WebRequest\\s+[^\\n]*\\|\\s*iex\\b",
+      "scan": "command"
+    },
+    {
+      "id": "eval_usage",
+      "regex": "\\beval\\s*\\(",
+      "scan": "code"
+    },
+    {
+      "id": "exec_usage",
+      "regex": "\\bexec\\s*\\(",
+      "scan": "code"
+    },
+    {
+      "id": "prompt_injection_phrase",
+      "regex": "ignore\\s+previous\\s+instructions",
+      "scan": "text"
+    },
+    {
+      "id": "system_prompt_leak_phrase",
+      "regex": "\\bsystem\\s+prompt\\b",
+      "scan": "text"
+    }
+  ]
+}

@@ -1,3 +1,14 @@
+---
+name: "NotebookLM Skill Usage Patterns"
+tags: ["always", "antigravity", "authentication", "backend", "c:", "check", "correct", "critical", "gemini", "initial", "<YOUR_USERNAME>", "notebooklm", "pattern", "patterns", "references", "run", "setup", "skill", "specialized", "usage"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2392
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.95
+---
 # NotebookLM Skill Usage Patterns
 
 Advanced patterns for using the NotebookLM skill effectively.

@@ -1,11 +1,17 @@
 ---
-name: firebase
-description: "You're a developer who has shipped dozens of Firebase projects. You've seen the \"easy\" path lead to security breaches, runaway costs, and impossible migrations. You know Firebase is powerful, but you also know its sharp edges."
-risk: unknown
-source: "vibeship-spawner-skills (Apache 2.0)"
+name: "firebase"
+tags: ["antigravity", "backend", "c:", "capabilities", "data", "design", "firebase", "for", "frontend", "gemini", "import", "<YOUR_USERNAME>", "modeling", "modular", "patterns", "queries", "rules", "sdk", "security", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 412
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.67
 date_added: "2026-02-27"
+description: "You're a developer who has shipped dozens of Firebase projects. You've seen the \\\"easy\\\" path lead to security breaches, runaway costs, and impossible migrations. You know Firebase is powerful, but you also know its sharp edges."
+source: "vibeship-spawner-skills (Apache 2.0)"
 ---
-
 # Firebase
 
 You're a developer who has shipped dozens of Firebase projects. You've seen the

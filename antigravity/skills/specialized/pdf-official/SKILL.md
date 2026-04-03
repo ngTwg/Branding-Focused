@@ -1,11 +1,17 @@
 ---
-name: pdf-official
-description: "This guide covers essential PDF processing operations using Python libraries and command-line tools. For advanced features, JavaScript libraries, and detailed examples, see reference.md. If you need to fill out a PDF form, read forms.md and follow its instructions."
-risk: unknown
-source: community
+name: "pdf-official"
+tags: ["antigravity", "c:", "extract", "frontend", "gemini", "guide", "<YOUR_USERNAME>", "libraries", "official", "overview", "pdf", "processing", "python", "quick", "read", "specialized", "start", "text", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1799
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
 date_added: "2026-02-27"
+description: "This guide covers essential PDF processing operations using Python libraries and command-line tools. For advanced features, JavaScript libraries, and detailed examples, see reference.md. If you need to fill out a PDF form, read forms.md and follow its instructions."
+source: "community"
 ---
-
 # PDF Processing Guide
 
 ## Overview

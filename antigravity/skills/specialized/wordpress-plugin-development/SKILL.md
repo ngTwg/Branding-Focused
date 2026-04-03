@@ -1,12 +1,18 @@
 ---
-name: wordpress-plugin-development
-description: "WordPress plugin development workflow covering plugin architecture, hooks, admin interfaces, REST API, security best practices, and WordPress 7.0 features: Real-Time Collaboration, AI Connectors, Abilities API, DataViews, and PHP-only blocks."
-category: granular-workflow-bundle
-risk: safe
-source: personal
+name: "wordpress-plugin-development"
+tags: ["antigravity", "c:", "developers", "development", "features", "for", "frontend", "gemini", "key", "<YOUR_USERNAME>", "overview", "phases", "plugin", "specialized", "this", "use", "users", "when", "wordpress", "workflow"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3249
+tools_needed: ["markdown", "mcp", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+category: "granular-workflow-bundle"
 date_added: "2026-02-27"
+description: "WordPress plugin development workflow covering plugin architecture, hooks, admin interfaces, REST API, security best practices, and WordPress 7.0 features: Real-Time Collaboration, AI Connectors, Abilities API, DataViews, and PHP-only blocks."
+source: "personal"
 ---
-
 # WordPress Plugin Development Workflow
 
 ## Overview

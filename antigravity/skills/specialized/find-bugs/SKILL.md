@@ -1,10 +1,16 @@
 ---
-name: find-bugs
-description: Find bugs, security vulnerabilities, and code quality issues in local branch changes. Use when asked to review changes, find bugs, security review, or audit code on the current branch.
-risk: unknown
-source: community
+name: "find-bugs"
+tags: ["antigravity", "attack", "audit", "backend", "bugs", "c:", "check", "checklist", "complete", "conclusion", "every", "file", "find", "for", "gathering", "gemini", "input", "item", "<YOUR_USERNAME>", "mapping"]
+tier: 2
+risk: "medium"
+estimated_tokens: 715
+tools_needed: ["git", "markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.68
+description: "Find bugs, security vulnerabilities, and code quality issues in local branch changes. Use when asked to review changes, find bugs, security review, or audit code on the current branch."
+source: "community"
 ---
-
 # Find Bugs
 
 Review changes on this branch for bugs, security vulnerabilities, and code quality issues.

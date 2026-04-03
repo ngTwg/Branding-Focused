@@ -1,3 +1,14 @@
+---
+name: "Extensions Reference"
+tags: ["antigravity", "basic", "c:", "checkout", "common", "development", "example", "extension", "extensions", "frontend", "gemini", "hooks", "<YOUR_USERNAME>", "points", "reference", "references", "setup", "shopify", "specialized", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2670
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.94
+---
 # Extensions Reference
 
 Guide for building UI extensions and Shopify Functions.

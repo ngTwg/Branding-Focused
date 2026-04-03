@@ -1,11 +1,17 @@
 ---
-name: emblemai-crypto-wallet
-description: "Crypto wallet management across 7 blockchains via EmblemAI Agent Hustle API. Balance checks, token swaps, portfolio analysis, and transaction execution for Solana, Ethereum, Base, BSC, Polygon, Hedera, and Bitcoin."
-risk: critical
-source: "EmblemCompany/Agent-skills (MIT)"
+name: "emblemai-crypto-wallet"
+tags: ["antigravity", "api", "c:", "chains", "core", "crypto", "emblemai", "endpoints", "frontend", "gemini", "integration", "<YOUR_USERNAME>", "setup", "specialized", "supported", "use", "users", "wallet", "when"]
+tier: 2
+risk: "critical"
+estimated_tokens: 589
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.74
 date_added: "2026-03-06"
+description: "Crypto wallet management across 7 blockchains via EmblemAI Agent Hustle API. Balance checks, token swaps, portfolio analysis, and transaction execution for Solana, Ethereum, Base, BSC, Polygon, Hedera, and Bitcoin."
+source: "EmblemCompany/Agent-skills (MIT)"
 ---
-
 # EmblemAI Crypto Wallet
 
 You manage crypto wallets through the EmblemAI Agent Hustle API. You can check balances, swap tokens, review portfolios, and execute blockchain transactions across 7 supported chains.

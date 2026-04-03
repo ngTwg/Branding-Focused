@@ -1,3 +1,14 @@
+---
+name: "Controls (Toggle, Slider, Picker)"
+tags: ["antigravity", "c:", "controls", "core", "enums", "example", "for", "frontend", "gemini", "intent", "<YOUR_USERNAME>", "patterns", "picker", "references", "sections", "slider", "specialized", "swiftui", "text", "toggle"]
+tier: 3
+risk: "medium"
+estimated_tokens: 419
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.73
+---
 # Controls (Toggle, Slider, Picker)
 
 ## Intent

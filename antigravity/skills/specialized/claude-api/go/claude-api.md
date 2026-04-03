@@ -1,3 +1,14 @@
+---
+name: "Claude API — Go"
+tags: ["antigravity", "api", "basic", "c:", "claude", "client", "frontend", "gemini", "go", "initialization", "installation", "<YOUR_USERNAME>", "message", "request", "specialized", "streaming", "tool", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 993
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.83
+---
 # Claude API — Go
 
 > **Note:** The Go SDK supports the Claude API and beta tool use with `BetaToolRunner`. Agent SDK is not yet available for Go.

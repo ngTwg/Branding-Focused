@@ -1,11 +1,17 @@
 ---
-name: dotnet-backend-patterns
-description: "Master C#/.NET patterns for building production-grade APIs, MCP servers, and enterprise backends with modern best practices (2024/2025)."
-risk: safe
-source: community
+name: "dotnet-backend-patterns"
+tags: ["antigravity", "backend", "c:", "development", "dotnet", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "net", "not", "patterns", "resources", "skill", "specialized", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 351
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
 date_added: "2026-02-27"
+description: "Master C#/.NET patterns for building production-grade APIs, MCP servers, and enterprise backends with modern best practices (2024/2025)."
+source: "community"
 ---
-
 # .NET Backend Development Patterns
 
 Master C#/.NET patterns for building production-grade APIs, MCP servers, and enterprise backends with modern best practices (2024/2025).

@@ -1,3 +1,14 @@
+---
+name: "React / Next.js / Vue Integration"
+tags: ["3d", "antigravity", "background", "c:", "frontend", "full", "gemini", "guides", "integration", "<YOUR_USERNAME>", "next", "page", "prop", "react", "reference", "specialized", "spline", "users", "vite", "vue"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1216
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.82
+---
 # React / Next.js / Vue Integration
 
 ---

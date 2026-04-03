@@ -1,11 +1,17 @@
 ---
-name: pptx-official
-description: "A user may ask you to create, edit, or analyze the contents of a .pptx file. A .pptx file is essentially a ZIP archive containing XML files and other resources that you can read or edit. You have different tools and workflows available for different tasks."
-risk: unknown
-source: community
+name: "pptx-official"
+tags: ["access", "analysis", "analyzing", "and", "antigravity", "c:", "content", "convert", "creation", "document", "editing", "extraction", "frontend", "gemini", "<YOUR_USERNAME>", "markdown", "official", "overview", "pptx", "raw"]
+tier: 2
+risk: "medium"
+estimated_tokens: 6408
+tools_needed: ["markdown", "playwright", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "A user may ask you to create, edit, or analyze the contents of a .pptx file. A .pptx file is essentially a ZIP archive containing XML files and other resources that you can read or edit. You have different tools and workflows available for different tasks."
+source: "community"
 ---
-
 # PPTX creation, editing, and analysis
 
 ## Overview

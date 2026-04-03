@@ -1,10 +1,17 @@
 ---
-title: Use toSorted() Instead of sort() for Immutability
-impact: MEDIUM-HIGH
-impactDescription: prevents mutation bugs in React state
-tags: javascript, arrays, immutability, react, state, mutation
+name: "Use toSorted() Instead of sort() for Immutability"
+tags: ["javascript, arrays, immutability, react, state, mutation"]
+tier: 2
+risk: "medium"
+estimated_tokens: 445
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.61
+impact: "MEDIUM-HIGH"
+impactDescription: "prevents mutation bugs in React state"
+title: "Use toSorted() Instead of sort() for Immutability"
 ---
-
 ## Use toSorted() Instead of sort() for Immutability
 
 `.sort()` mutates the array in place, which can cause bugs with React state and props. Use `.toSorted()` to create a new sorted array without mutation.

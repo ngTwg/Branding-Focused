@@ -1,3 +1,14 @@
+---
+name: "Fillable fields"
+tags: ["add", "analysis", "and", "annotations", "antigravity", "bounding", "boxes", "c:", "create", "fields", "fillable", "forms", "frontend", "gemini", "images", "json", "<YOUR_USERNAME>", "non", "official", "pdf"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2331
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.91
+---
 **CRITICAL: You MUST complete these steps in order. Do not skip ahead to writing code.**
 
 If you need to fill out a PDF form, first check to see if the PDF has fillable form fields. Run this script from this file's directory:

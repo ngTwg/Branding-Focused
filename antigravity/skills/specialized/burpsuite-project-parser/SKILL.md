@@ -1,4 +1,15 @@
 ---
+name: "Burp Project Parser"
+tags: ["antigravity", "available", "burp", "burpsuite", "c:", "component", "filters", "frontend", "gemini", "<YOUR_USERNAME>", "parser", "prerequisites", "project", "quick", "reference", "specialized", "sub", "these", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3129
+tools_needed: ["git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
+---
 name: burpsuite-project-parser
 description: Searches and explores Burp Suite project files (.burp) from the command line. Use when searching response headers or bodies with regex patterns, extracting security audit findings, dumping proxy history or site map data, or analyzing HTTP traffic captured in a Burp project.
 allowed-tools:

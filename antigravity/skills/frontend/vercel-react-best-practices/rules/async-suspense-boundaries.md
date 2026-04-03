@@ -1,10 +1,17 @@
 ---
-title: Strategic Suspense Boundaries
-impact: HIGH
-impactDescription: faster initial paint
-tags: async, suspense, streaming, layout-shift
+name: "Strategic Suspense Boundaries"
+tags: ["async, suspense, streaming, layout-shift"]
+tier: 2
+risk: "medium"
+estimated_tokens: 627
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.62
+impact: "HIGH"
+impactDescription: "faster initial paint"
+title: "Strategic Suspense Boundaries"
 ---
-
 ## Strategic Suspense Boundaries
 
 Instead of awaiting data in async components before returning JSX, use Suspense boundaries to show the wrapper UI faster while data loads.

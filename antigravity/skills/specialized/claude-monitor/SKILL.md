@@ -1,4 +1,15 @@
 ---
+name: "Claude Monitor — Diagnóstico de Performance"
+tags: ["antigravity", "c:", "claude", "diagnóstico", "frontend", "gemini", "how", "<YOUR_USERNAME>", "monitor", "not", "overview", "performance", "quando", "skill", "specialized", "this", "usar", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1488
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
+---
+---
 name: claude-monitor
 description: Monitor de performance do Claude Code e sistema local. Diagnostica lentidao, mede CPU/RAM/disco, verifica API latency e gera relatorios de saude do sistema.
 risk: safe

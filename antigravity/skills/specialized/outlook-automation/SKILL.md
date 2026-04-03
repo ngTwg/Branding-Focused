@@ -1,11 +1,17 @@
 ---
-name: outlook-automation
-description: "Automate Outlook tasks via Rube MCP (Composio): emails, calendar, contacts, folders, attachments. Always search tools first for current schemas."
-risk: unknown
-source: community
+name: "outlook-automation"
+tags: ["and", "antigravity", "automation", "c:", "core", "emails", "filter", "folder", "frontend", "gemini", "<YOUR_USERNAME>", "mcp", "outlook", "prerequisites", "query", "rube", "search", "setup", "specialized", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1896
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.78
 date_added: "2026-02-27"
+description: "Automate Outlook tasks via Rube MCP (Composio): emails, calendar, contacts, folders, attachments. Always search tools first for current schemas."
+source: "community"
 ---
-
 # Outlook Automation via Rube MCP
 
 Automate Microsoft Outlook operations through Composio's Outlook toolkit via Rube MCP.

@@ -1,11 +1,17 @@
 ---
-name: go-playwright
-description: "Expert capability for robust, stealthy, and efficient browser automation using Playwright Go."
-risk: safe
-source: "https://github.com/playwright-community/playwright-go"
+name: "go-playwright"
+tags: ["antigravity", "automation", "backend", "c:", "expert", "frontend", "gemini", "go", "guidelines", "implementation", "<YOUR_USERNAME>", "limitations", "overview", "playwright", "risk", "safety", "skill", "strategic", "this", "use"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1221
+tools_needed: ["git", "markdown", "playwright", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.74
 date_added: "2026-02-27"
+description: "Expert capability for robust, stealthy, and efficient browser automation using Playwright Go."
+source: "https://github.com/playwright-community/playwright-go"
 ---
-
 # Playwright Go Automation Expert
 
 ## Overview

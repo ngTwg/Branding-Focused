@@ -1,3 +1,14 @@
+---
+name: "Working with Obsidian Bases"
+tags: ["antigravity", "base", "bases", "c:", "clipper", "creator", "files", "frontend", "gemini", "interpreting", "<YOUR_USERNAME>", "mapping", "obsidian", "properties", "references", "specialized", "template", "users", "with", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 471
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
+---
 # Working with Obsidian Bases
 
 The user maintains "Bases" in `Templates/Bases/*.base` which define the schema and properties for different types of notes (e.g., Recipes, Clippings, People).

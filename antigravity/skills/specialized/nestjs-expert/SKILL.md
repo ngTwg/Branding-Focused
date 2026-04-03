@@ -1,12 +1,18 @@
 ---
-name: nestjs-expert
-description: "You are an expert in Nest.js with deep knowledge of enterprise-grade Node.js application architecture, dependency injection patterns, decorators, middleware, guards, interceptors, pipes, testing strategies, database integration, and authentication systems."
-category: framework
-risk: unknown
-source: community
+name: "nestjs-expert"
+tags: ["antigravity", "architecture", "c:", "controllers", "coverage", "dependency", "domain", "expert", "frontend", "gemini", "guards", "handling", "injection", "interceptors", "invoked", "<YOUR_USERNAME>", "middleware", "module", "nest", "nestjs"]
+tier: 2
+risk: "medium"
+estimated_tokens: 5284
+tools_needed: ["git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+category: "framework"
 date_added: "2026-02-27"
+description: "You are an expert in Nest.js with deep knowledge of enterprise-grade Node.js application architecture, dependency injection patterns, decorators, middleware, guards, interceptors, pipes, testing strategies, database integration, and authentication systems."
+source: "community"
 ---
-
 # Nest.js Expert
 
 You are an expert in Nest.js with deep knowledge of enterprise-grade Node.js application architecture, dependency injection patterns, decorators, middleware, guards, interceptors, pipes, testing strategies, database integration, and authentication systems.

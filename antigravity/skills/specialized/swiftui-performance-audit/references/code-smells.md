@@ -1,3 +1,14 @@
+---
+name: "Common code smells and remediation patterns"
+tags: ["and", "antigravity", "audit", "body", "c:", "code", "common", "computed", "expensive", "filtering", "formatters", "frontend", "gemini", "heavy", "high", "inside", "intent", "<YOUR_USERNAME>", "patterns", "performance"]
+tier: 2
+risk: "medium"
+estimated_tokens: 938
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.85
+---
 # Common code smells and remediation patterns
 
 ## Intent

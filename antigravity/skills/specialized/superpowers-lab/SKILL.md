@@ -1,11 +1,17 @@
 ---
-name: superpowers-lab
-description: "Lab environment for Claude superpowers"
-risk: safe
-source: "https://github.com/obra/superpowers-lab"
+name: "superpowers-lab"
+tags: ["antigravity", "c:", "frontend", "gemini", "instructions", "lab", "<YOUR_USERNAME>", "overview", "skill", "specialized", "superpowers", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 137
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.56
 date_added: "2026-02-27"
+description: "Lab environment for Claude superpowers"
+source: "https://github.com/obra/superpowers-lab"
 ---
-
 # Superpowers Lab
 
 ## Overview

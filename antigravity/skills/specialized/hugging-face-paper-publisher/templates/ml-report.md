@@ -1,11 +1,18 @@
 ---
-title: {{TITLE}}
-authors: {{AUTHORS}}
-date: {{DATE}}
-type: ml-experiment-report
-tags: [machine-learning, experiment-report]
+name: "{{TITLE}}"
+tags: ["[machine-learning, experiment-report]"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1712
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.82
+authors: "{{AUTHORS}}"
+date: "{{DATE}}"
+title: "{{TITLE}}"
+type: "ml-experiment-report"
 ---
-
 # {{TITLE}}
 
 **Machine Learning Experiment Report**

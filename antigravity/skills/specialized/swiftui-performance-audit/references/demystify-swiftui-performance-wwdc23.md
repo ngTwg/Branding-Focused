@@ -1,3 +1,14 @@
+---
+name: "Demystify SwiftUI Performance (WWDC23) (Summary)"
+tags: ["and", "antigravity", "audit", "avoid", "bodies", "c:", "causes", "common", "demystify", "dependencies", "frontend", "gemini", "identity", "initialization", "<YOUR_USERNAME>", "lists", "loop", "performance", "references", "rules"]
+tier: 2
+risk: "medium"
+estimated_tokens: 452
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.65
+---
 # Demystify SwiftUI Performance (WWDC23) (Summary)
 
 Context: WWDC23 session on building a mental model for SwiftUI performance and triaging hangs/hitches.

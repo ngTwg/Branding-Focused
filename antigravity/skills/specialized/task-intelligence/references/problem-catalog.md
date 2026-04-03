@@ -1,3 +1,14 @@
+---
+name: "Catálogo de Problemas por Domínio"
+tags: ["antigravity", "apis", "arquivos", "builds", "c:", "catalog", "catálogo", "domínio", "ecossistema", "frontend", "gemini", "git", "integrações", "intelligence", "<YOUR_USERNAME>", "orchestrator", "paths", "por", "problem", "problemas"]
+tier: 2
+risk: "medium"
+estimated_tokens: 755
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.65
+---
 # Catálogo de Problemas por Domínio
 
 ## Skills e Orchestrator

@@ -1,3 +1,14 @@
+---
+name: "REST Principles"
+tags: ["antigravity", "api", "backend", "c:", "code", "gemini", "http", "<YOUR_USERNAME>", "method", "naming", "patterns", "principles", "resource", "rest", "rules", "selection", "status", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 312
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.58
+---
 # REST Principles
 
 > Resource-based API design - nouns not verbs.

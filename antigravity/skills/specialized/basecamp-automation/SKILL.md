@@ -1,11 +1,17 @@
 ---
-name: basecamp-automation
-description: "Automate Basecamp project management, to-dos, messages, people, and to-do list organization via Rube MCP (Composio). Always search tools first for current schemas."
-risk: critical
-source: community
+name: "basecamp-automation"
+tags: ["and", "antigravity", "automation", "basecamp", "c:", "core", "frontend", "gemini", "<YOUR_USERNAME>", "lists", "manage", "mcp", "messages", "post", "prerequisites", "rube", "setup", "specialized", "tasks", "users"]
+tier: 2
+risk: "critical"
+estimated_tokens: 3112
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 date_added: "2026-02-27"
+description: "Automate Basecamp project management, to-dos, messages, people, and to-do list organization via Rube MCP (Composio). Always search tools first for current schemas."
+source: "community"
 ---
-
 # Basecamp Automation via Rube MCP
 
 Automate Basecamp operations including project management, to-do list creation, task management, message board posting, people management, and to-do group organization through Composio's Basecamp toolkit.

@@ -1,3 +1,14 @@
+---
+name: "Schema do Banco SQLite — instagram.db"
+tags: ["accounts", "antigravity", "banco", "c:", "comments", "detalhadas", "diagrama", "gemini", "instagram", "<YOUR_USERNAME>", "posts", "references", "schema", "security", "specialized", "sqlite", "tabelas", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2494
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["security", "compliance"]
+quality_score: 0.91
+---
 # Schema do Banco SQLite — instagram.db
 
 Localização: `C:\Users\renat\skills\instagram\data\instagram.db`

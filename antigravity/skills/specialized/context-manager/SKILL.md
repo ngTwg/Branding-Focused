@@ -1,11 +1,17 @@
 ---
-name: context-manager
-description: Elite AI context engineering specialist mastering dynamic context management, vector databases, knowledge graphs, and intelligent memory systems.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "context-manager"
+tags: ["antigravity", "c:", "capabilities", "context", "engineering", "expert", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "manager", "not", "orchestration", "purpose", "skill", "specialized", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2064
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.80
+date_added: "2026-02-27"
+description: "Elite AI context engineering specialist mastering dynamic context management, vector databases, knowledge graphs, and intelligent memory systems."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on context manager tasks or workflows

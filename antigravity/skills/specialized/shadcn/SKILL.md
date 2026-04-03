@@ -1,12 +1,18 @@
 ---
-name: shadcn
-description: Manages shadcn/ui components and projects, providing context, documentation, and usage patterns for building modern design systems.
-user-invocable: false
-risk: safe
-source: https://github.com/shadcn-ui/ui/tree/main/skills/shadcn
+name: "shadcn"
+tags: ["antigravity", "c:", "context", "critical", "current", "frontend", "gemini", "<YOUR_USERNAME>", "principles", "project", "rules", "shadcn", "specialized", "styling", "tailwind", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4045
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.93
 date_added: "2026-03-07"
+description: "Manages shadcn/ui components and projects, providing context, documentation, and usage patterns for building modern design systems."
+source: "https://github.com/shadcn-ui/ui/tree/main/skills/shadcn"
+user-invocable: false
 ---
-
 # shadcn/ui
 
 A framework for building ui, components and design systems. Components are added as source code to the user's project via the CLI.

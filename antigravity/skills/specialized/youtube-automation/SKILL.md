@@ -1,11 +1,17 @@
 ---
-name: youtube-automation
-description: "Automate YouTube tasks via Rube MCP (Composio): upload videos, manage playlists, search content, get analytics, and handle comments. Always search tools first for current schemas."
-risk: critical
-source: community
+name: "youtube-automation"
+tags: ["and", "antigravity", "automation", "c:", "content", "core", "frontend", "gemini", "<YOUR_USERNAME>", "manage", "mcp", "prerequisites", "rube", "search", "setup", "specialized", "upload", "users", "via", "videos"]
+tier: 2
+risk: "critical"
+estimated_tokens: 2239
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
 date_added: "2026-02-27"
+description: "Automate YouTube tasks via Rube MCP (Composio): upload videos, manage playlists, search content, get analytics, and handle comments. Always search tools first for current schemas."
+source: "community"
 ---
-
 # YouTube Automation via Rube MCP
 
 Automate YouTube operations through Composio's YouTube toolkit via Rube MCP.

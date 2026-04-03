@@ -1,3 +1,14 @@
+---
+name: "Features Avancados - WhatsApp Cloud API"
+tags: ["advanced", "antigravity", "api", "avancados", "c:", "cloud", "componentes", "disponiveis", "estrutura", "features", "flow", "flows", "frontend", "gemini", "indice", "json", "<YOUR_USERNAME>", "quando", "references", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3948
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Features Avancados - WhatsApp Cloud API
 
 Guia dos recursos avancados da WhatsApp Business Platform: Flows, Commerce, Channels, Click-to-WhatsApp Ads e Status Tracking.

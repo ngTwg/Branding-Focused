@@ -1,3 +1,14 @@
+---
+name: "Architecture Examples"
+tags: ["100k", "antigravity", "architecture", "c:", "commerce", "developer", "developers", "enterprise", "example", "examples", "frontend", "gemini", "<YOUR_USERNAME>", "mvp", "product", "saas", "solo", "specialized", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 601
+tools_needed: ["kubernetes", "markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.67
+---
 # Architecture Examples
 
 > Real-world architecture decisions by project type.

@@ -1,10 +1,17 @@
 ---
-title: Index Foreign Key Columns
-impact: HIGH
-impactDescription: 10-100x faster JOINs and CASCADE operations
-tags: foreign-key, indexes, joins, schema
+name: "Index Foreign Key Columns"
+tags: ["foreign-key, indexes, joins, schema"]
+tier: 2
+risk: "medium"
+estimated_tokens: 419
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.61
+impact: "HIGH"
+impactDescription: "10-100x faster JOINs and CASCADE operations"
+title: "Index Foreign Key Columns"
 ---
-
 ## Index Foreign Key Columns
 
 Postgres does not automatically index foreign key columns. Missing indexes cause slow JOINs and CASCADE operations.

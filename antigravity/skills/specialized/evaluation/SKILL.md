@@ -1,11 +1,17 @@
 ---
-name: evaluation
-description: "Build evaluation frameworks for agent systems. Use when testing agent performance systematically, validating context engineering choices, or measuring improvements over time."
-risk: safe
-source: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/evaluation"
+name: "evaluation"
+tags: ["agent", "antigravity", "c:", "challenges", "concepts", "core", "detailed", "evaluation", "for", "frontend", "gemini", "<YOUR_USERNAME>", "methods", "skill", "specialized", "systems", "this", "topics", "use", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2679
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
 date_added: "2026-02-27"
+description: "Build evaluation frameworks for agent systems. Use when testing agent performance systematically, validating context engineering choices, or measuring improvements over time."
+source: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/evaluation"
 ---
-
 ## When to Use This Skill
 
 Build evaluation frameworks for agent systems

@@ -1,12 +1,18 @@
 ---
-name: native-data-fetching
-description: Use when implementing or debugging ANY network request, API call, or data fetching. Covers fetch API, React Query, SWR, error handling, caching, offline support, and Expo Router data loaders (useLoaderData).
-risk: unknown
-source: community
-version: 1.0.0
-license: MIT
+name: "native-data-fetching"
+tags: ["antigravity", "basic", "c:", "common", "data", "expo", "fetch", "fetching", "frontend", "gemini", "issues", "<YOUR_USERNAME>", "native", "networking", "preferences", "references", "solutions", "specialized", "usage", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2917
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+description: "Use when implementing or debugging ANY network request, API call, or data fetching. Covers fetch API, React Query, SWR, error handling, caching, offline support, and Expo Router data loaders (useLoaderData)."
+license: "MIT"
+source: "community"
+version: "1.0.0"
 ---
-
 # Expo Networking
 
 **You MUST use this skill for ANY networking work including API requests, data fetching, caching, or network debugging.**

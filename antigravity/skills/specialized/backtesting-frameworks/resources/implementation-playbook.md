@@ -1,3 +1,14 @@
+---
+name: "Backtesting Frameworks Implementation Playbook"
+tags: ["analysis", "antigravity", "backtest", "backtesting", "biases", "c:", "concepts", "core", "forward", "frameworks", "frontend", "gemini", "implementation", "<YOUR_USERNAME>", "patterns", "playbook", "proper", "resources", "specialized", "structure"]
+tier: 2
+risk: "medium"
+estimated_tokens: 5128
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Backtesting Frameworks Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

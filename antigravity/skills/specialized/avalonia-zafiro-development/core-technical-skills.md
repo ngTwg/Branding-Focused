@@ -1,3 +1,14 @@
+---
+name: "Core Technical Skills & Architecture"
+tags: ["antigravity", "architectural", "architecture", "avalonia", "c:", "core", "development", "expertise", "frontend", "gemini", "<YOUR_USERNAME>", "mandatory", "principles", "skills", "specialized", "technical", "users", "zafiro"]
+tier: 2
+risk: "medium"
+estimated_tokens: 267
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.53
+---
 # Core Technical Skills & Architecture
 
 ## Mandatory Expertise

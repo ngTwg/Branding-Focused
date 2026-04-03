@@ -1,11 +1,17 @@
 ---
-name: incident-response-incident-response
-description: "Use when working with incident response incident response"
-risk: unknown
-source: community
+name: "incident-response-incident-response"
+tags: ["antigravity", "c:", "configuration", "frontend", "gemini", "incident", "instructions", "<YOUR_USERNAME>", "levels", "not", "response", "severity", "skill", "specialized", "this", "types", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2691
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 date_added: "2026-02-27"
+description: "Use when working with incident response incident response"
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on incident response incident response tasks or workflows

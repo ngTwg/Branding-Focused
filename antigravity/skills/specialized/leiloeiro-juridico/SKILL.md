@@ -1,4 +1,15 @@
 ---
+name: "SKILL JURÍDICA — LEILÕES DE IMÓVEIS"
+tags: ["2015", "antigravity", "c:", "cpc", "frontend", "gemini", "how", "imóveis", "judicial", "juridico", "jurídica", "leiloeiro", "leilão", "leilões", "<YOUR_USERNAME>", "not", "overview", "skill", "specialized", "this"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4549
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.91
+---
+---
 name: leiloeiro-juridico
 description: 'Analise juridica de leiloes: nulidades, bem de familia, alienacao fiduciaria, CPC arts 829-903, Lei 9514/97, onus reais, embargos e jurisprudencia.'
 risk: safe

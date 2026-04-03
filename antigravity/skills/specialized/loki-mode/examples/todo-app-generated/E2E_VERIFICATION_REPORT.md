@@ -1,3 +1,14 @@
+---
+name: "End-to-End (E2E) Verification Report"
+tags: ["all", "antigravity", "app", "build", "c:", "compilation", "e2e", "end", "examples", "executive", "exist", "file", "files", "frontend", "gemini", "generated", "<YOUR_USERNAME>", "loki", "mode", "passed"]
+tier: 2
+risk: "medium"
+estimated_tokens: 5330
+tools_needed: ["markdown", "playwright", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # End-to-End (E2E) Verification Report
 **Task ID:** task-018 (eng-qa e2e-test)
 **Test Date:** 2026-01-02

@@ -1,3 +1,14 @@
+---
+name: "Energy Procurement — Edge Cases Reference"
+tags: ["after", "antigravity", "basis", "c:", "case", "cases", "charge", "congested", "contract", "demand", "during", "edge", "energy", "equipment", "ercot", "event", "extreme", "file", "filing", "frontend"]
+tier: 3
+risk: "medium"
+estimated_tokens: 16384
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.79
+---
 # Energy Procurement — Edge Cases Reference
 
 > Tier 3 reference. Load on demand when handling complex energy procurement situations that don't resolve through standard decision frameworks.

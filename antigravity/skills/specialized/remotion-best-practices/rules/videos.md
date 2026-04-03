@@ -1,10 +1,16 @@
 ---
-name: videos
-description: Embedding videos in Remotion - trimming, volume, speed, looping, pitch
-metadata:
-  tags: video, media, trim, volume, speed, loop, pitch
+name: "videos"
+tags: ["video, media, trim, volume, speed, loop, pitch"]
+tier: 2
+risk: "medium"
+estimated_tokens: 877
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
+description: "Embedding videos in Remotion - trimming, volume, speed, looping, pitch"
+metadata: ""
 ---
-
 # Using videos in Remotion
 
 ## Prerequisites

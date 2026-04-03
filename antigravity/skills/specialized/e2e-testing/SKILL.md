@@ -1,12 +1,18 @@
 ---
-name: e2e-testing
-description: "End-to-end testing workflow with Playwright for browser automation, visual regression, cross-browser testing, and CI/CD integration."
-category: granular-workflow-bundle
-risk: safe
-source: personal
+name: "e2e-testing"
+tags: ["antigravity", "c:", "design", "e2e", "frontend", "gemini", "<YOUR_USERNAME>", "overview", "phase", "phases", "setup", "specialized", "test", "testing", "this", "use", "users", "when", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 862
+tools_needed: ["git", "markdown", "playwright"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
+category: "granular-workflow-bundle"
 date_added: "2026-02-27"
+description: "End-to-end testing workflow with Playwright for browser automation, visual regression, cross-browser testing, and CI/CD integration."
+source: "personal"
 ---
-
 # E2E Testing Workflow
 
 ## Overview

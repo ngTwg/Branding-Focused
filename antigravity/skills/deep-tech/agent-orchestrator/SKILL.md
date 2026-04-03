@@ -1,4 +1,15 @@
 ---
+name: "Agent Orchestrator"
+tags: ["agent", "antigravity", "c:", "deep", "deep-tech", "frontend", "gemini", "how", "intervencao", "<YOUR_USERNAME>", "manual", "not", "orchestrator", "overview", "principio", "skill", "tech", "this", "use", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2369
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
+---
 name: agent-orchestrator
 description: Meta-skill que orquestra todos os agentes do ecossistema. Scan automatico de skills, match por capacidades, coordenacao de workflows multi-skill e registry management.
 risk: safe

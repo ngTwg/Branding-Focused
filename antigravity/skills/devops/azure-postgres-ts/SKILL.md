@@ -1,11 +1,17 @@
 ---
-name: azure-postgres-ts
-description: Connect to Azure Database for PostgreSQL Flexible Server from Node.js/TypeScript using the pg (node-postgres) package.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "azure-postgres-ts"
+tags: ["antigravity", "authentication", "azure", "c:", "devops", "entra", "environment", "for", "frontend", "gemini", "installation", "<YOUR_USERNAME>", "node", "password", "postgres", "postgresql", "required", "ts", "typescript", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3161
+tools_needed: ["git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+date_added: "2026-02-27"
+description: "Connect to Azure Database for PostgreSQL Flexible Server from Node.js/TypeScript using the pg (node-postgres) package."
+source: "community"
 ---
-
 # Azure PostgreSQL for TypeScript (node-postgres)
 
 Connect to Azure Database for PostgreSQL Flexible Server using the `pg` (node-postgres) package with support for password and Microsoft Entra ID (passwordless) authentication.

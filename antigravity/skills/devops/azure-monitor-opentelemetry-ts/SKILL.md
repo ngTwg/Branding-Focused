@@ -1,11 +1,17 @@
 ---
-name: azure-monitor-opentelemetry-ts
-description: "Auto-instrument Node.js applications with distributed tracing, metrics, and logs."
-risk: unknown
-source: community
+name: "azure-monitor-opentelemetry-ts"
+tags: ["antigravity", "auto", "azure", "c:", "custom", "devops", "distro", "environment", "exporters", "for", "frontend", "gemini", "ingestion", "installation", "instrumentation", "<YOUR_USERNAME>", "level", "logs", "low", "monitor"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2081
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.92
 date_added: "2026-02-27"
+description: "Auto-instrument Node.js applications with distributed tracing, metrics, and logs."
+source: "community"
 ---
-
 # Azure Monitor OpenTelemetry SDK for TypeScript
 
 Auto-instrument Node.js applications with distributed tracing, metrics, and logs.

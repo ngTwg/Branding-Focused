@@ -1,10 +1,17 @@
 ---
-title: Prevent Deadlocks with Consistent Lock Ordering
-impact: MEDIUM-HIGH
-impactDescription: Eliminate deadlock errors, improve reliability
-tags: deadlocks, locking, transactions, ordering
+name: "Prevent Deadlocks with Consistent Lock Ordering"
+tags: ["deadlocks, locking, transactions, ordering"]
+tier: 2
+risk: "medium"
+estimated_tokens: 463
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.64
+impact: "MEDIUM-HIGH"
+impactDescription: "Eliminate deadlock errors, improve reliability"
+title: "Prevent Deadlocks with Consistent Lock Ordering"
 ---
-
 ## Prevent Deadlocks with Consistent Lock Ordering
 
 Deadlocks occur when transactions lock resources in different orders. Always

@@ -1,11 +1,17 @@
 ---
-name: unreal-engine-cpp-pro
-description: "Expert guide for Unreal Engine 5.x C++ development, covering UObject hygiene, performance patterns, and best practices."
-risk: safe
-source: self
+name: "unreal-engine-cpp-pro"
+tags: ["antigravity", "c:", "common", "component", "conventions", "core", "cpp", "engine", "frontend", "gemini", "<YOUR_USERNAME>", "lookup", "naming", "patterns", "principles", "pro", "robust", "specialized", "strict", "unreal"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1133
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
 date_added: "2026-02-27"
+description: "Expert guide for Unreal Engine 5.x C++ development, covering UObject hygiene, performance patterns, and best practices."
+source: "self"
 ---
-
 # Unreal Engine C++ Pro
 
 This skill provides expert-level guidelines for developing with Unreal Engine 5 using C++. It focuses on writing robust, performant, and standard-compliant code.

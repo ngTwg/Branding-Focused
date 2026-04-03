@@ -1,11 +1,17 @@
 ---
-name: miro-automation
-description: "Automate Miro tasks via Rube MCP (Composio): boards, items, sticky notes, frames, sharing, connectors. Always search tools first for current schemas."
-risk: critical
-source: community
+name: "miro-automation"
+tags: ["and", "antigravity", "automation", "boards", "browse", "c:", "core", "create", "frontend", "gemini", "items", "<YOUR_USERNAME>", "list", "mcp", "miro", "prerequisites", "rube", "setup", "specialized", "users"]
+tier: 2
+risk: "critical"
+estimated_tokens: 1952
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
 date_added: "2026-02-27"
+description: "Automate Miro tasks via Rube MCP (Composio): boards, items, sticky notes, frames, sharing, connectors. Always search tools first for current schemas."
+source: "community"
 ---
-
 # Miro Automation via Rube MCP
 
 Automate Miro whiteboard operations through Composio's Miro toolkit via Rube MCP.

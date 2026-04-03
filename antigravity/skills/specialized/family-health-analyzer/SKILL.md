@@ -1,11 +1,17 @@
 ---
-name: family-health-analyzer
-description: 分析家族病史、评估遗传风险、识别家庭健康模式、提供个性化预防建议
-allowed-tools: Read, Write, Grep, Glob
-risk: unknown
-source: community
+name: "family-health-analyzer"
+tags: ["analyzer", "antigravity", "c:", "data-engineering", "family", "gemini", "health", "<YOUR_USERNAME>", "specialized", "users", "分析步骤", "家庭健康分析技能", "技能概述", "步骤1", "步骤2", "确定分析目标", "触发条件", "读取家庭数据"]
+tier: 3
+risk: "high"
+estimated_tokens: 402
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["data", "analytics"]
+quality_score: 0.75
+allowed-tools: "Read, Write, Grep, Glob"
+description: "分析家族病史、评估遗传风险、识别家庭健康模式、提供个性化预防建议"
+source: "community"
 ---
-
 # 家庭健康分析技能
 
 ## 技能概述

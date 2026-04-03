@@ -1,4 +1,15 @@
 ---
+name: "SKILL DE AVALIAÇÃO DE IMÓVEL — PERITO AVALIADOR"
+tags: ["14653", "abnt", "antigravity", "avaliacao", "avaliador", "avaliação", "c:", "frontend", "gemini", "how", "imóvel", "leiloeiro", "<YOUR_USERNAME>", "nbr", "not", "overview", "perito", "skill", "specialized", "this"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3889
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
+---
 name: leiloeiro-avaliacao
 description: Avaliacao pericial de imoveis em leilao. Valor de mercado, liquidacao forcada, ABNT NBR 14653, metodos comparativo/renda/custo, CUB e margem de seguranca.
 risk: safe

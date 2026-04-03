@@ -1,4 +1,15 @@
 ---
+name: "Moyu"
+tags: ["antigravity", "asked", "c:", "change", "first", "frontend", "gemini", "identity", "iron", "<YOUR_USERNAME>", "moyu", "only", "rule", "rules", "simplest", "solution", "specialized", "three", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2758
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.82
+---
+---
 name: moyu
 description: >
   Anti-over-engineering guardrail that activates when an AI coding agent expands

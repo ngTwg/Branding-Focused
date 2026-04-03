@@ -1,12 +1,18 @@
 ---
-name: burp-suite-testing
-description: "Execute comprehensive web application security testing using Burp Suite's integrated toolset, including HTTP traffic interception and modification, request analysis and replay, automated vulnerability scanning, and manual testing workflows."
-risk: offensive
-source: community
-author: zebbern
+name: "burp-suite-testing"
+tags: ["antigravity", "application", "burp", "c:", "comparison", "editions", "environment", "frontend", "gemini", "inputs", "<YOUR_USERNAME>", "prerequisites", "purpose", "required", "setup", "specialized", "suite", "testing", "tools", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2757
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+author: "zebbern"
 date_added: "2026-02-27"
+description: "Execute comprehensive web application security testing using Burp Suite's integrated toolset, including HTTP traffic interception and modification, request analysis and replay, automated vulnerability scanning, and manual testing workflows."
+source: "community"
 ---
-
 > AUTHORIZED USE ONLY: Use this skill only for authorized security assessments, defensive validation, or controlled educational environments.
 
 # Burp Suite Web Application Testing

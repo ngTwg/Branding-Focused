@@ -1,4 +1,15 @@
 ---
+name: "Financial Projections"
+tags: ["analyst", "antigravity", "business", "c:", "claude", "command", "does", "financial", "for", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "projections", "skill", "specialized", "startup", "this", "use"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2184
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
+---
 name: startup-business-analyst-financial-projections
 description: 'Create detailed 3-5 year financial model with revenue, costs, cash
 

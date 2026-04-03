@@ -1,11 +1,17 @@
 ---
-name: framework-migration-legacy-modernize
-description: "Orchestrate a comprehensive legacy system modernization using the strangler fig pattern, enabling gradual replacement of outdated components while maintaining continuous business operations through ex"
-risk: unknown
-source: community
+name: "framework-migration-legacy-modernize"
+tags: ["analysis", "and", "antigravity", "assessment", "c:", "code", "comprehensive", "framework", "frontend", "gemini", "instructions", "legacy", "<YOUR_USERNAME>", "migration", "modernization", "modernize", "not", "phase", "risk", "skill"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2750
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 date_added: "2026-02-27"
+description: "Orchestrate a comprehensive legacy system modernization using the strangler fig pattern, enabling gradual replacement of outdated components while maintaining continuous business operations through ex"
+source: "community"
 ---
-
 # Legacy Code Modernization Workflow
 
 Orchestrate a comprehensive legacy system modernization using the strangler fig pattern, enabling gradual replacement of outdated components while maintaining continuous business operations through expert agent coordination.

@@ -1,11 +1,17 @@
 ---
-name: defi-protocol-templates
-description: "Implement DeFi protocols with production-ready templates for staking, AMMs, governance, and lending systems. Use when building decentralized finance applications or smart contract protocols."
-risk: unknown
-source: community
+name: "defi-protocol-templates"
+tags: ["amm", "antigravity", "automated", "beyond", "c:", "contract", "defi", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "maker", "market", "not", "protocol", "skill", "staking", "templates", "this", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3685
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.93
 date_added: "2026-02-27"
+description: "Implement DeFi protocols with production-ready templates for staking, AMMs, governance, and lending systems. Use when building decentralized finance applications or smart contract protocols."
+source: "community"
 ---
-
 # DeFi Protocol Templates
 
 Production-ready templates for common DeFi protocols including staking, AMMs, governance, lending, and flash loans.

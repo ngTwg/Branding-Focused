@@ -1,12 +1,18 @@
 ---
-name: top-web-vulnerabilities
-description: "Provide a comprehensive, structured reference for the 100 most critical web application vulnerabilities organized by category. This skill enables systematic vulnerability identification, impact assessment, and remediation guidance across the full spectrum of web security threats."
-risk: unknown
-source: community
-author: zebbern
+name: "top-web-vulnerabilities"
+tags: ["100", "and", "antigravity", "assessment", "c:", "core", "deliverables", "frontend", "gemini", "injection", "<YOUR_USERNAME>", "outputs", "phase", "prerequisites", "purpose", "reference", "specialized", "top", "users", "vulnerabilities"]
+tier: 2
+risk: "medium"
+estimated_tokens: 6017
+tools_needed: ["git", "markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.84
+author: "zebbern"
 date_added: "2026-02-27"
+description: "Provide a comprehensive, structured reference for the 100 most critical web application vulnerabilities organized by category. This skill enables systematic vulnerability identification, impact assessment, and remediation guidance across the full spectrum of web security threats."
+source: "community"
 ---
-
 # Top 100 Web Vulnerabilities Reference
 
 ## Purpose

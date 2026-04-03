@@ -1,3 +1,14 @@
+---
+name: "Changelog"
+tags: ["2026", "added", "agent", "anthropic", "antigravity", "audit", "c:", "changelog", "claude", "external", "fixed", "frontend", "gemini", "harness", "<YOUR_USERNAME>", "loki", "mode", "patterns", "research", "sdk"]
+tier: 3
+risk: "medium"
+estimated_tokens: 16384
+tools_needed: ["git", "kubernetes", "markdown", "mcp", "playwright", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.91
+---
 # Changelog
 
 All notable changes to Loki Mode will be documented in this file.

@@ -1,0 +1,54 @@
+# Dev & Config
+.git/
+.github/
+.vscode/
+.idea/
+.editorconfig
+.gitignore
+.npmignore
+.eslintrc.js
+.prettierrc
+tsconfig.json
+jsconfig.json
+
+jest.config.js
+test_output.txt
+
+# Tests & Logs
+tests/
+test/
+*.test.js
+*.spec.js
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build & Temp
+dist/
+build/
+tmp/
+temp/
+coverage/
+node_modules/
+
+# DOCUMENTATION (Excluded from NPM package)
+# docs/ (Included now)
+others/
+antigravity-doc/
+.temp_ag_kit/
+test-cli-project/
+lab/
+
+# Exclude raw skills to reduce file count (use bundle instead)
+# .agent/skills/** (Restored for v4.1.29 - Critical for Copy Logic)
+# !.agent/skills/SKILL.md
+
+# Include the bundle
+!assets/skills-bundle.json
+
+# Only keep Root README + Translations
+!README.md
+!README.vi.md
+!LICENSE
+!VERSION

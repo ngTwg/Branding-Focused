@@ -1,10 +1,17 @@
 ---
-title: Deduplicate Queued Workflows
-impact: HIGH
-impactDescription: Prevents duplicate work and resource waste
-tags: queue, deduplication, duplicate, idempotent
+name: "Deduplicate Queued Workflows"
+tags: ["queue, deduplication, duplicate, idempotent"]
+tier: 1
+risk: "medium"
+estimated_tokens: 397
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.57
+impact: "HIGH"
+impactDescription: "Prevents duplicate work and resource waste"
+title: "Deduplicate Queued Workflows"
 ---
-
 ## Deduplicate Queued Workflows
 
 Use deduplication IDs to ensure only one workflow with a given ID is active in a queue at a time.

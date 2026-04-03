@@ -1,3 +1,14 @@
+---
+name: "Complete Examples"
+tags: ["antigravity", "api", "c:", "complete", "component", "dev", "example", "examples", "feature", "frontend", "gemini", "guidelines", "hook", "index", "<YOUR_USERNAME>", "modern", "resources", "service", "specialized", "structure"]
+tier: 2
+risk: "medium"
+estimated_tokens: 6131
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Complete Examples
 
 Full working examples combining all modern patterns: React.FC, lazy loading, Suspense, useSuspenseQuery, styling, routing, and error handling.

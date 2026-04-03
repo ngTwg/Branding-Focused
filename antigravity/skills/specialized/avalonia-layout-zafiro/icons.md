@@ -1,3 +1,14 @@
+---
+name: "Icon Usage"
+tags: ["antigravity", "avalonia", "c:", "common", "frontend", "gemini", "icon", "iconextension", "iconoptions", "icons", "layout", "<YOUR_USERNAME>", "properties", "resources", "shared", "specialized", "usage", "users", "zafiro"]
+tier: 2
+risk: "medium"
+estimated_tokens: 441
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.71
+---
 # Icon Usage
 
 `Zafiro.Avalonia` simplifies icon management using a specialized markup extension and styling options.

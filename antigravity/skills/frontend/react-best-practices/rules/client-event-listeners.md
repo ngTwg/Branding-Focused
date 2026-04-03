@@ -1,10 +1,17 @@
 ---
-title: Deduplicate Global Event Listeners
-impact: LOW
-impactDescription: single listener for N components
-tags: client, swr, event-listeners, subscription
+name: "Deduplicate Global Event Listeners"
+tags: ["client, swr, event-listeners, subscription"]
+tier: 2
+risk: "medium"
+estimated_tokens: 492
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.57
+impact: "LOW"
+impactDescription: "single listener for N components"
+title: "Deduplicate Global Event Listeners"
 ---
-
 ## Deduplicate Global Event Listeners
 
 Use `useSWRSubscription()` to share global event listeners across component instances.

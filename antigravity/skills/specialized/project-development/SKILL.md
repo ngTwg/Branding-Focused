@@ -1,10 +1,16 @@
 ---
-name: project-development
+name: "project-development"
+tags: ["antigravity", "architecture", "c:", "concepts", "core", "development", "fit", "frontend", "gemini", "<YOUR_USERNAME>", "manual", "methodology", "model", "pipeline", "project", "prototype", "recognition", "specialized", "step", "task"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3655
+tools_needed: ["git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.93
 description: "This skill covers the principles for identifying tasks suited to LLM processing, designing effective project architectures, and iterating rapidly using agent-assisted development."
-risk: unknown
-source: community
+source: "community"
 ---
-
 # Project Development Methodology
 
 This skill covers the principles for identifying tasks suited to LLM processing, designing effective project architectures, and iterating rapidly using agent-assisted development. The methodology applies whether building a batch processing pipeline, a multi-agent research system, or an interactive agent application.

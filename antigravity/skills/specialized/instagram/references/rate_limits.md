@@ -1,3 +1,14 @@
+---
+name: "Rate Limits — Instagram Graph API"
+tags: ["antigravity", "api", "c:", "como", "frontend", "gemini", "graph", "instagram", "<YOUR_USERNAME>", "limit", "limites", "limits", "principais", "rastreia", "rate", "references", "respostas", "skill", "sliding", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 766
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.84
+---
 # Rate Limits — Instagram Graph API
 
 ## Limites Principais

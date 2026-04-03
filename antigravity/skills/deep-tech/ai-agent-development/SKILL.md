@@ -1,12 +1,18 @@
 ---
-name: ai-agent-development
-description: "AI agent development workflow for building autonomous agents, multi-agent systems, and agent orchestration with CrewAI, LangGraph, and custom agents."
-category: granular-workflow-bundle
-risk: safe
-source: personal
+name: "ai-agent-development"
+tags: ["agent", "ai", "antigravity", "c:", "deep", "deep-tech", "design", "development", "frontend", "gemini", "implementation", "<YOUR_USERNAME>", "overview", "phase", "phases", "single", "tech", "this", "use", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 936
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
+category: "granular-workflow-bundle"
 date_added: "2026-02-27"
+description: "AI agent development workflow for building autonomous agents, multi-agent systems, and agent orchestration with CrewAI, LangGraph, and custom agents."
+source: "personal"
 ---
-
 # AI Agent Development Workflow
 
 ## Overview

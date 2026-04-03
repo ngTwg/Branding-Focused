@@ -1,11 +1,17 @@
 ---
-name: azure-ai-formrecognizer-java
-description: "Build document analysis applications using the Azure AI Document Intelligence SDK for Java."
-risk: unknown
-source: community
+name: "azure-ai-formrecognizer-java"
+tags: ["ai", "antigravity", "azure", "c:", "client", "creation", "defaultazurecredential", "devops", "document", "documentanalysisclient", "documentmodeladministrationclient", "for", "form", "formrecognizer", "frontend", "gemini", "installation", "intelligence", "java", "<YOUR_USERNAME>"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2562
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
 date_added: "2026-02-27"
+description: "Build document analysis applications using the Azure AI Document Intelligence SDK for Java."
+source: "community"
 ---
-
 # Azure Document Intelligence (Form Recognizer) SDK for Java
 
 Build document analysis applications using the Azure AI Document Intelligence SDK for Java.

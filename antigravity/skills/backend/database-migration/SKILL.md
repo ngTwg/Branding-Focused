@@ -1,11 +1,17 @@
 ---
-name: database-migration
-description: "Master database schema and data migrations across ORMs (Sequelize, TypeORM, Prisma), including rollback strategies and zero-downtime deployments."
-risk: unknown
-source: community
+name: "database-migration"
+tags: ["antigravity", "backend", "c:", "database", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "migration", "migrations", "not", "orm", "sequelize", "skill", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2767
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Master database schema and data migrations across ORMs (Sequelize, TypeORM, Prisma), including rollback strategies and zero-downtime deployments."
+source: "community"
 ---
-
 # Database Migration
 
 Master database schema and data migrations across ORMs (Sequelize, TypeORM, Prisma), including rollback strategies and zero-downtime deployments.

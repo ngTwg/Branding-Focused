@@ -1,11 +1,17 @@
 ---
-name: azure-storage-blob-rust
-description: Azure Blob Storage SDK for Rust. Use for uploading, downloading, and managing blobs and containers.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "azure-storage-blob-rust"
+tags: ["account", "antigravity", "authentication", "azure", "blob", "c:", "client", "core", "devops", "endpoint", "environment", "for", "frontend", "gemini", "https", "installation", "<YOUR_USERNAME>", "net", "rust", "sdk"]
+tier: 2
+risk: "medium"
+estimated_tokens: 814
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.85
+date_added: "2026-02-27"
+description: "Azure Blob Storage SDK for Rust. Use for uploading, downloading, and managing blobs and containers."
+source: "community"
 ---
-
 # Azure Blob Storage SDK for Rust
 
 Client library for Azure Blob Storage — Microsoft's object storage solution for the cloud.

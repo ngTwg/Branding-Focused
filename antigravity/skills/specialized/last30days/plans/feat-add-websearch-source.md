@@ -1,3 +1,14 @@
+---
+name: "feat: Add WebSearch as Third Source (Zero-Config Fallback)"
+tags: ["add", "adjusted", "antigravity", "behavior", "c:", "config", "engagement", "fallback", "feat", "frontend", "gemini", "last30days", "<YOUR_USERNAME>", "mode", "overview", "plans", "problem", "proposed", "scoring", "solution"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3413
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # feat: Add WebSearch as Third Source (Zero-Config Fallback)
 
 ## Overview

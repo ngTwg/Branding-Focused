@@ -1,3 +1,14 @@
+---
+name: "Loki Mode - Conversation Context Export"
+tags: ["antigravity", "c:", "context", "conversation", "export", "features", "file", "frontend", "gemini", "how", "key", "<YOUR_USERNAME>", "loki", "mode", "overview", "project", "quick", "recommended", "specialized", "start"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1599
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.91
+---
 # Loki Mode - Conversation Context Export
 
 **Date:** 2025-12-28

@@ -1,3 +1,14 @@
+---
+name: "Compliance e Boas Praticas - WhatsApp Cloud API"
+tags: ["antigravity", "api", "art", "base", "boas", "brasil", "c:", "cloud", "compliance", "direitos", "frontend", "gemini", "implementacao", "indice", "legal", "<YOUR_USERNAME>", "lgpd", "mensagens", "para", "praticas"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3438
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.94
+---
 # Compliance e Boas Praticas - WhatsApp Cloud API
 
 Guia completo de compliance para integracoes WhatsApp Business, cobrindo LGPD, GDPR, politicas do WhatsApp, opt-in/opt-out, quality rating e tier system.

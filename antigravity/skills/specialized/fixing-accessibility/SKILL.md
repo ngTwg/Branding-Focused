@@ -1,10 +1,16 @@
 ---
-name: fixing-accessibility
-description: Audit and fix HTML accessibility issues including ARIA labels, keyboard navigation, focus management, color contrast, and form errors. Use when adding interactive controls, forms, dialogs, or reviewing WCAG compliance.
-risk: unknown
-source: community
+name: "fixing-accessibility"
+tags: ["accessibility", "accessible", "antigravity", "c:", "categories", "critical", "fixing", "frontend", "gemini", "how", "<YOUR_USERNAME>", "names", "priority", "quick", "reference", "rule", "specialized", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1185
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.77
+description: "Audit and fix HTML accessibility issues including ARIA labels, keyboard navigation, focus management, color contrast, and form errors. Use when adding interactive controls, forms, dialogs, or reviewing WCAG compliance."
+source: "community"
 ---
-
 # fixing-accessibility
 
 Fix accessibility issues.

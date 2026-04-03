@@ -1,8 +1,15 @@
 ---
-name: python-fastapi
-description: FastAPI REST API template principles. SQLAlchemy, Pydantic, Alembic.
+name: "python-fastapi"
+tags: ["antigravity", "api", "app", "builder", "c:", "concepts", "directory", "fastapi", "frontend", "gemini", "key", "<YOUR_USERNAME>", "python", "setup", "specialized", "stack", "steps", "structure", "tech", "template"]
+tier: 2
+risk: "medium"
+estimated_tokens: 420
+tools_needed: ["markdown", "pytest", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.66
+description: "FastAPI REST API template principles. SQLAlchemy, Pydantic, Alembic."
 ---
-
 # FastAPI API Template
 
 ## Tech Stack

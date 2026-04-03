@@ -1,11 +1,18 @@
 ---
-name: Active Directory Attacks
-description: This skill should be used when the user asks to "attack Active Directory", "exploit AD", "Kerberoasting", "DCSync", "pass-the-hash", "BloodHound enumeration", "Golden Ticket", "Silver Ticket", "AS-REP roasting", "NTLM relay", or needs guidance on Windows domain penetration testing.
-metadata:
-  author: zebbern
-  version: "1.1"
+name: "Active Directory Attacks"
+tags: ["active", "antigravity", "attacks", "c:", "core", "deliverables", "directory", "essential", "frontend", "gemini", "inputs", "<YOUR_USERNAME>", "outputs", "prerequisites", "purpose", "security", "tools", "users", "workflow"]
+tier: 2
+risk: "high"
+estimated_tokens: 2375
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.96
+author: "zebbern"
+description: "This skill should be used when the user asks to \"attack Active Directory\", \"exploit AD\", \"Kerberoasting\", \"DCSync\", \"pass-the-hash\", \"BloodHound enumeration\", \"Golden Ticket\", \"Silver Ticket\", \"AS-REP roasting\", \"NTLM relay\", or needs guidance on Windows domain penetration testing."
+metadata: ""
+version: "1.1"
 ---
-
 # Active Directory Attacks
 
 ## Purpose

@@ -1,3 +1,14 @@
+---
+name: "Rule Catalog — Business Logic"
+tags: ["antigravity", "business", "c:", "can", "catalog", "code", "components", "description", "fix", "frontend", "gemini", "<YOUR_USERNAME>", "logic", "node", "references", "review", "rule", "suggested", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 154
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.55
+---
 # Rule Catalog — Business Logic
 
 ## Can't use workflowStore in Node components

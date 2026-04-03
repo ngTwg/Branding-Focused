@@ -1,10 +1,16 @@
 ---
-name: timing
-description: Interpolation curves in Remotion - linear, easing, spring animations
-metadata:
-  tags: spring, bounce, easing, interpolation
+name: "timing"
+tags: ["spring, bounce, easing, interpolation"]
+tier: 3
+risk: "medium"
+estimated_tokens: 984
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.86
+description: "Interpolation curves in Remotion - linear, easing, spring animations"
+metadata: ""
 ---
-
 A simple linear interpolation is done using the `interpolate` function.
 
 ```ts title="Going from 0 to 1 over 100 frames"

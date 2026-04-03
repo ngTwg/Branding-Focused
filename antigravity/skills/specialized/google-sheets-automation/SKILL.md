@@ -1,14 +1,20 @@
 ---
-name: google-sheets-automation
+name: "google-sheets-automation"
+tags: ["antigravity", "automation", "c:", "commands", "content", "csv", "default", "first", "frontend", "gemini", "get", "google", "json", "<YOUR_USERNAME>", "plain", "read", "setup", "sheets", "specialized", "spreadsheet"]
+tier: 2
+risk: "critical"
+estimated_tokens: 1001
+tools_needed: ["markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.88
+author: "sanjay3290"
 description: "Lightweight Google Sheets integration with standalone OAuth authentication. No MCP server required. Full read/write access."
-risk: critical
-source: community
-license: Apache-2.0
-metadata:
-  author: sanjay3290
-  version: "1.0"
+license: "Apache-2.0"
+metadata: ""
+source: "community"
+version: "1.0"
 ---
-
 # Google Sheets
 
 Lightweight Google Sheets integration with standalone OAuth authentication. No MCP server required. Full read/write access.

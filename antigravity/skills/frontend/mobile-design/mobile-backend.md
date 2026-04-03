@@ -1,3 +1,14 @@
+---
+name: "Mobile Backend Patterns"
+tags: ["anti", "antigravity", "architecture", "are", "backend", "backends", "building", "c:", "common", "design", "frontend", "gemini", "<YOUR_USERNAME>", "mindset", "mistakes", "mobile", "notifications", "patterns", "platform", "push"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3252
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Mobile Backend Patterns
 
 > **This file covers backend/API patterns SPECIFIC to mobile clients.**

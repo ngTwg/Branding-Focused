@@ -1,11 +1,17 @@
 ---
-name: k8s-manifest-generator
-description: "Step-by-step guidance for creating production-ready Kubernetes manifests including Deployments, Services, ConfigMaps, Secrets, and PersistentVolumeClaims."
-risk: unknown
-source: community
+name: "k8s-manifest-generator"
+tags: ["antigravity", "c:", "devops", "frontend", "gemini", "generator", "instructions", "k8s", "kubernetes", "<YOUR_USERNAME>", "manifest", "not", "resources", "skill", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 352
+tools_needed: ["kubernetes", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
 date_added: "2026-02-27"
+description: "Step-by-step guidance for creating production-ready Kubernetes manifests including Deployments, Services, ConfigMaps, Secrets, and PersistentVolumeClaims."
+source: "community"
 ---
-
 # Kubernetes Manifest Generator
 
 Step-by-step guidance for creating production-ready Kubernetes manifests including Deployments, Services, ConfigMaps, Secrets, and PersistentVolumeClaims.

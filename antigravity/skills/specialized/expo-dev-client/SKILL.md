@@ -1,12 +1,18 @@
 ---
-name: expo-dev-client
-description: Build and distribute Expo development clients locally or via TestFlight
-risk: unknown
-source: community
-version: 1.0.0
-license: MIT
+name: "expo-dev-client"
+tags: ["android", "antigravity", "are", "building", "c:", "client", "clients", "configuration", "dev", "development", "eas", "expo", "for", "frontend", "gemini", "important", "ios", "<YOUR_USERNAME>", "locally", "needed"]
+tier: 2
+risk: "medium"
+estimated_tokens: 886
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
+description: "Build and distribute Expo development clients locally or via TestFlight"
+license: "MIT"
+source: "community"
+version: "1.0.0"
 ---
-
 Use EAS Build to create development clients for testing native code changes on physical devices. Use this for creating custom Expo Go clients for testing branches of your app.
 
 ## Important: When Development Clients Are Needed

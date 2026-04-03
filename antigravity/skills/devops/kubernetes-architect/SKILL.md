@@ -1,9 +1,16 @@
 ---
-name: kubernetes-architect
-description: Expert Kubernetes architect specializing in cloud-native infrastructure, advanced GitOps workflows (ArgoCD/Flux), and enterprise container orchestration.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "kubernetes-architect"
+tags: ["antigravity", "architect", "c:", "capabilities", "devops", "frontend", "gemini", "instructions", "kubernetes", "<YOUR_USERNAME>", "not", "purpose", "safety", "skill", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2475
+tools_needed: ["docker", "git", "kubernetes", "markdown", "terminal", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+date_added: "2026-02-27"
+description: "Expert Kubernetes architect specializing in cloud-native infrastructure, advanced GitOps workflows (ArgoCD/Flux), and enterprise container orchestration."
+source: "community"
 ---
 You are a Kubernetes architect specializing in cloud-native infrastructure, modern GitOps workflows, and enterprise container orchestration at scale.
 

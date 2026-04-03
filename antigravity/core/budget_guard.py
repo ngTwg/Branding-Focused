@@ -9,7 +9,7 @@ from __future__ import annotations
 
 import logging
 
-from core.schemas import BudgetStatus
+from antigravity.core.schemas import BudgetStatus
 
 logger = logging.getLogger(__name__)
 
@@ -140,6 +140,20 @@ class BudgetGuard:
             self._repairs_used,
             self._max_repair_attempts,
         )
+
+    @property
+    def remaining_ratio(self) -> float:
+        """
+        Calculate remaining budget ratio (0.0 to 1.0).
+        
+        Returns the minimum remaining ratio across all dimensions.
+        Used by BudgetStrategy for zone detection.
+        
+        Requirements: 4.1, 4.2
+        """
+        if self._max_tokens == 0:
+            return 0.0
+        return max(0.0, (self._max_tokens - self._tokens_used) / self._max_tokens)
 
     # ── Internal ──────────────────────────────────────────────────────────────
 

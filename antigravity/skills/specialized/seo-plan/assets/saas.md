@@ -1,3 +1,14 @@
+---
+name: "SaaS SEO Strategy Template"
+tags: ["antigravity", "architecture", "assets", "c:", "characteristics", "content", "frontend", "gemini", "high", "industry", "<YOUR_USERNAME>", "medium", "pages", "plan", "priorities", "priority", "recommended", "saas", "seo", "site"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1039
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.72
+---
 <!-- Updated: 2026-02-07 -->
 # SaaS SEO Strategy Template
 

@@ -1,3 +1,14 @@
+---
+name: "Memory Safety Patterns Implementation Playbook"
+tags: ["antigravity", "bug", "c:", "categories", "concepts", "core", "frontend", "gemini", "implementation", "<YOUR_USERNAME>", "memory", "patterns", "playbook", "resources", "safety", "skill", "specialized", "spectrum", "this", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3332
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Memory Safety Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

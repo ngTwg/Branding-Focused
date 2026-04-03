@@ -1,10 +1,16 @@
 ---
-name: apify-trend-analysis
-description: Discover and track emerging trends across Google Trends, Instagram, Facebook, YouTube, and TikTok to inform content strategy.
-risk: unknown
-source: community
+name: "apify-trend-analysis"
+tags: ["actor", "analysis", "antigravity", "apify", "ask", "c:", "fetch", "frontend", "gemini", "identify", "<YOUR_USERNAME>", "preferences", "prerequisites", "schema", "specialized", "step", "trend", "type", "user", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1099
+tools_needed: ["markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.88
+description: "Discover and track emerging trends across Google Trends, Instagram, Facebook, YouTube, and TikTok to inform content strategy."
+source: "community"
 ---
-
 # Trend Analysis
 
 Discover and track emerging trends using Apify Actors to extract data from multiple platforms.

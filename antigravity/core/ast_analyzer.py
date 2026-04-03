@@ -15,7 +15,8 @@ import json
 from pathlib import Path
 from typing import Optional
 
-from core.schemas import ASTContract, ASTNode
+from antigravity.core.schemas import ASTContract, ASTNode
+from antigravity.core.error_prioritizer import ErrorPrioritizer, PrioritizedError, ErrorCluster
 
 # Lazy import tree_sitter — graceful degradation if not installed
 _TREE_SITTER_AVAILABLE = False
@@ -56,10 +57,20 @@ class ASTAnalyzer:
     Multi-file support via list of (file_path, error_line) tuples.
     Hard limit: serialized JSON ≤ 4096 bytes.
     Fallback to raw excerpt (≤200 tokens) when tree-sitter unavailable or fails.
+    
+    Integrates ErrorPrioritizer for intelligent error filtering and root cause detection.
     """
 
-    def __init__(self):
-        """Initialize ASTAnalyzer with lazy tree-sitter loading."""
+    def __init__(self, error_prioritizer: ErrorPrioritizer | None = None):
+        """
+        Initialize ASTAnalyzer with lazy tree-sitter loading and error prioritization.
+        
+        Args:
+            error_prioritizer: Optional ErrorPrioritizer instance for error filtering.
+                             If None, creates a default instance.
+        
+        Validates: Requirements 2.5
+        """
         self._available = _TREE_SITTER_AVAILABLE
         if not self._available:
             import logging
@@ -67,19 +78,28 @@ class ASTAnalyzer:
             logging.warning(
                 "tree-sitter not available. ASTAnalyzer will use fallback mode."
             )
+        
+        # Initialize ErrorPrioritizer (Requirement 2.5)
+        self._error_prioritizer = error_prioritizer if error_prioritizer else ErrorPrioritizer()
 
-    def analyze(self, targets: list[tuple[str, int]]) -> ASTContract:
+    def analyze(
+        self, 
+        targets: list[tuple[str, int]], 
+        errors: list[str] | None = None
+    ) -> ASTContract:
         """
-        Multi-file entry point. Extract nodes from ±10 lines of error.
+        Multi-file entry point. Extract nodes from ±10 lines of error with error prioritization.
 
         Args:
             targets: List of (file_path, error_line) tuples
+            errors: Optional list of error messages for prioritization and clustering
 
         Returns:
             ASTContract with affected_nodes or fallback excerpt.
             Serialized JSON guaranteed ≤ 4096 bytes.
+            Includes error_priority_info if errors provided.
 
-        Requirements: 2.1, 2.2, 2.9
+        Requirements: 2.1, 2.2, 2.5, 2.9
         Properties: 5, 6
         """
         if not targets:
@@ -89,6 +109,70 @@ class ASTAnalyzer:
                 is_fallback=True,
                 source_files=[],
             )
+
+        # Prioritize and filter errors if provided (Requirement 2.5)
+        error_priority_info = {}
+        if errors:
+            try:
+                # Step 1: Prioritize errors (top-3 by severity)
+                prioritized = self._error_prioritizer.prioritize_errors(errors, max_k=3)
+                
+                # Step 2: Detect error chains (identify root causes)
+                root_causes = self._error_prioritizer.detect_error_chains(prioritized)
+                
+                # Step 3: Cluster if many errors (>5)
+                clusters = []
+                if len(errors) > 5:
+                    clusters = self._error_prioritizer.cluster_errors(prioritized)
+                
+                # Step 4: Estimate total context size
+                total_context = sum(
+                    self._error_prioritizer.estimate_context_size(e) 
+                    for e in root_causes
+                )
+                
+                # Step 5: Limit context if needed (target: 1000 tokens)
+                if total_context > 1000:
+                    # Reduce to top-2 if over limit
+                    root_causes = root_causes[:2]
+                    total_context = sum(
+                        self._error_prioritizer.estimate_context_size(e) 
+                        for e in root_causes
+                    )
+                    import logging
+                    logging.info(
+                        f"[ERROR] Context limited to {total_context} tokens (target: 1000)"
+                    )
+                
+                # Build error priority info
+                error_priority_info = {
+                    "prioritized_errors": [
+                        {
+                            "error_text": e.error_text,
+                            "severity": e.severity.name,
+                            "line_number": e.line_number,
+                            "file_path": e.file_path,
+                            "is_root_cause": e.is_root_cause,
+                            "context_tokens": e.context_tokens
+                        }
+                        for e in root_causes
+                    ],
+                    "total_errors": len(errors),
+                    "root_causes": len([e for e in root_causes if e.is_root_cause]),
+                    "clusters": [
+                        {
+                            "cluster_id": c.cluster_id,
+                            "error_type": c.error_type,
+                            "error_count": c.error_count,
+                            "summary": c.summary
+                        }
+                        for c in clusters
+                    ] if clusters else [],
+                    "total_context_tokens": total_context
+                }
+            except Exception as e:
+                import logging
+                logging.warning(f"Error prioritization failed: {e}")
 
         # Try tree-sitter parsing first
         if self._available:
@@ -108,6 +192,10 @@ class ASTAnalyzer:
                     is_fallback=False,
                     source_files=source_files,
                 )
+                
+                # Add error priority info if available (Requirement 2.5)
+                if error_priority_info:
+                    contract.error_priority_info = error_priority_info
 
                 # Enforce 4KB hard limit by truncating nodes if needed
                 contract = self._enforce_size_limit(contract)
@@ -118,7 +206,10 @@ class ASTAnalyzer:
                 pass
 
         # Fallback mode: raw excerpt
-        return self._fallback_excerpt(targets[0][0], targets[0][1])
+        fallback_contract = self._fallback_excerpt(targets[0][0], targets[0][1])
+        if error_priority_info:
+            fallback_contract.error_priority_info = error_priority_info
+        return fallback_contract
 
     def _parse_file(self, file_path: str, error_line: int) -> list[ASTNode]:
         """

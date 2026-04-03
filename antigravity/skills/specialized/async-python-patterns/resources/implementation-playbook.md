@@ -1,3 +1,14 @@
+---
+name: "Async Python Patterns Implementation Playbook"
+tags: ["antigravity", "async", "c:", "concepts", "core", "coroutines", "event", "frontend", "futures", "gemini", "implementation", "<YOUR_USERNAME>", "loop", "patterns", "playbook", "python", "resources", "specialized", "tasks", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4483
+tools_needed: ["markdown", "pytest", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Async Python Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

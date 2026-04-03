@@ -1,10 +1,16 @@
 ---
+name: "hugging-face-vision-trainer"
+tags: ["account", "antigravity", "authentication", "c:", "checklist", "execution", "face", "frontend", "gemini", "hugging", "jobs", "<YOUR_USERNAME>", "local", "model", "prerequisites", "related", "script", "skill", "skills", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 7359
+tools_needed: ["git", "markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+description: "Train or fine-tune vision models on Hugging Face Jobs for detection, classification, and SAM or SAM2 segmentation."
 source: "https://github.com/huggingface/skills/tree/main/skills/huggingface-vision-trainer"
-name: hugging-face-vision-trainer
-description: Train or fine-tune vision models on Hugging Face Jobs for detection, classification, and SAM or SAM2 segmentation.
-risk: unknown
 ---
-
 # Vision Model Training on Hugging Face Jobs
 
 Train object detection, image classification, and SAM/SAM2 segmentation models on managed cloud GPUs. No local GPU setup required—results are automatically saved to the Hugging Face Hub.

@@ -1,4 +1,15 @@
 ---
+name: "Progressive Estimation"
+tags: ["antigravity", "best", "c:", "estimation", "examples", "frontend", "gemini", "how", "<YOUR_USERNAME>", "overview", "practices", "progressive", "skill", "specialized", "this", "use", "users", "when", "works"]
+tier: 2
+risk: "medium"
+estimated_tokens: 783
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.68
+---
+---
 name: progressive-estimation
 description: "Estimate AI-assisted and hybrid human+agent development work with research-backed PERT statistics and calibration feedback loops"
 category: project-management

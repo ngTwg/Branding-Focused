@@ -1,3 +1,14 @@
+---
+name: "Permissões OAuth — Scopes por Feature"
+tags: ["antigravity", "básico", "c:", "comunidade", "feature", "frontend", "gemini", "instagram", "leitura", "<YOUR_USERNAME>", "mapeamento", "necessários", "oauth", "permissions", "permissões", "por", "publicação", "references", "scopes", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 769
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.82
+---
 # Permissões OAuth — Scopes por Feature
 
 ## Scopes Necessários

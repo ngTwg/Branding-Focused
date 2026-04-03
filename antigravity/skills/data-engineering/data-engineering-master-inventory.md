@@ -1,9 +1,21 @@
+---
+name: "Data-engineering Consolidated Skills"
+tags: ["data", "data-engineering", "engineering"]
+tier: 3
+risk: "high"
+estimated_tokens: 1894
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["data"]
+quality_score: 0.55
+---
 # Data-engineering Consolidated Skills
 
 ## 📋 Table of Contents
 
 - [Cc Skill Clickhouse Io](#ccskillclickhouseio)
 - [Segment Cdp](#segmentcdp)
+- [Data Transformation Patterns](#datatransformationpatterns)
 
 ---
 
@@ -500,3 +512,28 @@ Connect to Protocols for enforcement.
 | Issue | medium | See docs |
 | Issue | high | See docs |
 
+<a id="datatransformationpatterns"></a>
+
+## Data Transformation Patterns
+
+---
+name: data-transformation
+description: "Core patterns for data transformation (ETL vs ELT), tool selection (Spark, Pandas, SQL), schema evolution, and performance optimization. Trigger: data cleaning, transformation logic, schema evolution, Spark, Pandas, SQL optimization."
+author: Antigravity System
+version: "1.0"
+tier: 2
+---
+
+### Activation Patterns
+- "How do I build a data pipeline?"
+- "ETL vs ELT for [Target]"
+- "Clean and transform [Dataset]"
+- "Optimize [SQL/Spark/Pandas] for performance"
+
+### Implementation Logic
+1. **Calibrate Paradigm**: Choose ETL (before load) or ELT (warehouse compute).
+2. **Select Tool**: Pandas (small), Spark (large), SQL (business logic).
+3. **Handle Schema**: Use Additive-only column policy and validation masks.
+4. **Optimize Thrput**: Apply partitioning and Parquet columnar storage.
+
+[View full implementation: ./data-transformation.md](./data-transformation.md)

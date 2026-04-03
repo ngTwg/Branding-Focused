@@ -1,11 +1,17 @@
 ---
-name: csharp-pro
-description: Write modern C# code with advanced features like records, pattern matching, and async/await. Optimizes .NET applications, implements enterprise patterns, and ensures comprehensive testing.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "csharp-pro"
+tags: ["antigravity", "approach", "areas", "c:", "csharp", "focus", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "output", "pro", "skill", "specialized", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 538
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.64
+date_added: "2026-02-27"
+description: "Write modern C# code with advanced features like records, pattern matching, and async/await. Optimizes .NET applications, implements enterprise patterns, and ensures comprehensive testing."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on csharp pro tasks or workflows

@@ -1,9 +1,16 @@
 ---
-name: data-engineer
-description: Build scalable data pipelines, modern data warehouses, and real-time streaming architectures. Implements Apache Spark, dbt, Airflow, and cloud-native data platforms.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "data-engineer"
+tags: ["antigravity", "c:", "capabilities", "data", "data-engineering", "engineer", "engineering", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "purpose", "safety", "skill", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2839
+tools_needed: ["docker", "git", "kubernetes", "markdown", "sql", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+date_added: "2026-02-27"
+description: "Build scalable data pipelines, modern data warehouses, and real-time streaming architectures. Implements Apache Spark, dbt, Airflow, and cloud-native data platforms."
+source: "community"
 ---
 You are a data engineer specializing in scalable data pipelines, modern data architecture, and analytics infrastructure.
 

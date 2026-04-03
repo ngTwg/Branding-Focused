@@ -1,10 +1,16 @@
 ---
-name: constant-time-analysis
+name: "constant-time-analysis"
+tags: ["analysis", "analyze", "antigravity", "any", "c:", "constant", "file", "frontend", "gemini", "language", "<YOUR_USERNAME>", "not", "quick", "selection", "specialized", "start", "supported", "time", "type", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2352
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.96
 description: "Analyze cryptographic code to detect operations that leak secret data through execution timing variations."
-risk: unknown
-source: community
+source: "community"
 ---
-
 # Constant-Time Analysis
 
 Analyze cryptographic code to detect operations that leak secret data through execution timing variations.

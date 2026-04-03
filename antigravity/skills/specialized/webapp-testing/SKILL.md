@@ -1,9 +1,16 @@
 ---
-name: webapp-testing
-description: Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.
-license: Complete terms in LICENSE.txt
+name: "webapp-testing"
+tags: ["action", "antigravity", "application", "approach", "best", "c:", "choosing", "common", "decision", "example", "frontend", "gemini", "<YOUR_USERNAME>", "pattern", "pitfall", "practices", "reconnaissance", "specialized", "testing", "then"]
+tier: 2
+risk: "medium"
+estimated_tokens: 965
+tools_needed: ["markdown", "playwright", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.83
+description: "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs."
+license: "Complete terms in LICENSE.txt"
 ---
-
 # Web Application Testing
 
 To test local web applications, write native Python Playwright scripts.

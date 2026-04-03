@@ -1,3 +1,14 @@
+---
+name: "App wiring and dependency graph"
+tags: ["and", "antigravity", "app", "c:", "dependency", "example", "frontend", "gemini", "generic", "graph", "intent", "<YOUR_USERNAME>", "modifier", "patterns", "recommended", "references", "root", "selection", "shell", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1659
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.89
+---
 # App wiring and dependency graph
 
 ## Intent

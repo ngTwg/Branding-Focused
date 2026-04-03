@@ -1,3 +1,14 @@
+---
+name: "Communication Templates — Quality & Non-Conformance Management"
+tags: ["antigravity", "c:", "communication", "conformance", "contents", "frontend", "gemini", "guidance", "internal", "<YOUR_USERNAME>", "management", "ncr", "non", "nonconformance", "notification", "quality", "reference", "references", "specialized", "table"]
+tier: 2
+risk: "medium"
+estimated_tokens: 7571
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.79
+---
 # Communication Templates — Quality & Non-Conformance Management
 
 > **Reference Type:** Tier 3 — Load on demand when composing or reviewing quality communications.

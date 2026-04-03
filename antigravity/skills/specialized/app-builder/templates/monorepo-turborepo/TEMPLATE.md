@@ -1,8 +1,15 @@
 ---
-name: monorepo-turborepo
-description: Turborepo monorepo template principles. pnpm workspaces, shared packages.
+name: "monorepo-turborepo"
+tags: ["antigravity", "app", "builder", "c:", "concepts", "directory", "frontend", "gemini", "key", "<YOUR_USERNAME>", "monorepo", "pipeline", "setup", "specialized", "stack", "steps", "structure", "tech", "template", "templates"]
+tier: 2
+risk: "medium"
+estimated_tokens: 448
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.68
+description: "Turborepo monorepo template principles. pnpm workspaces, shared packages."
 ---
-
 # Turborepo Monorepo Template
 
 ## Tech Stack

@@ -1,3 +1,14 @@
+---
+name: "Temporal Go Implementation Playbook"
+tags: ["antigravity", "c:", "commandments", "concurrency", "contents", "deterministic", "frontend", "gemini", "golang", "implementation", "iteration", "<YOUR_USERNAME>", "map", "native", "never", "non", "playbook", "pro", "resources", "specialized"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2127
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.94
+---
 # Temporal Go Implementation Playbook
 
 This playbook provides production-ready patterns and deep technical guidance for implementing durable orchestration with the Temporal Go SDK.

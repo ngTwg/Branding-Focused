@@ -1,10 +1,17 @@
 ---
-title: Early Return from Functions
-impact: LOW-MEDIUM
-impactDescription: avoids unnecessary computation
-tags: javascript, functions, optimization, early-return
+name: "Early Return from Functions"
+tags: ["javascript, functions, optimization, early-return"]
+tier: 2
+risk: "medium"
+estimated_tokens: 283
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.56
+impact: "LOW-MEDIUM"
+impactDescription: "avoids unnecessary computation"
+title: "Early Return from Functions"
 ---
-
 ## Early Return from Functions
 
 Return early when result is determined to skip unnecessary processing.

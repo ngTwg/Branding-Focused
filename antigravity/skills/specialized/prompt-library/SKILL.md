@@ -1,11 +1,17 @@
 ---
-name: prompt-library
-description: "A comprehensive collection of battle-tested prompts inspired by [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) and community best practices."
-risk: unknown
-source: community
+name: "prompt-library"
+tags: ["analysis", "antigravity", "based", "c:", "categories", "frontend", "gemini", "<YOUR_USERNAME>", "library", "prompt", "prompts", "role", "skill", "specialized", "specific", "task", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1885
+tools_needed: ["git", "markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
 date_added: "2026-02-27"
+description: "A comprehensive collection of battle-tested prompts inspired by [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) and community best practices."
+source: "community"
 ---
-
 # 📝 Prompt Library
 
 > A comprehensive collection of battle-tested prompts inspired by [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) and community best practices.

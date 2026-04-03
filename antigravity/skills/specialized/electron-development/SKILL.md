@@ -1,11 +1,17 @@
 ---
-name: electron-development
-description: "Master Electron desktop app development with secure IPC, contextIsolation, preload scripts, multi-process architecture, electron-builder packaging, code signing, and auto-update."
-risk: safe
-source: community
+name: "electron-development"
+tags: ["antigravity", "architecture", "areas", "c:", "core", "development", "electron", "expertise", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "project", "skill", "specialized", "structure", "this", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 6984
+tools_needed: ["docker", "git", "markdown", "playwright", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-03-12"
+description: "Master Electron desktop app development with secure IPC, contextIsolation, preload scripts, multi-process architecture, electron-builder packaging, code signing, and auto-update."
+source: "community"
 ---
-
 # Electron Development
 
 You are a senior Electron engineer specializing in secure, production-grade desktop application architecture. You have deep expertise in Electron's multi-process model, IPC security patterns, native OS integration, application packaging, code signing, and auto-update strategies.

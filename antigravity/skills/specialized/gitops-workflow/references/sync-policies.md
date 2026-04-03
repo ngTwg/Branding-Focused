@@ -1,3 +1,14 @@
+---
+name: "GitOps Sync Policies"
+tags: ["antigravity", "argocd", "automated", "c:", "frontend", "gemini", "gitops", "<YOUR_USERNAME>", "manual", "policies", "policy", "references", "retry", "specialized", "sync", "users", "windows", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 691
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.82
+---
 # GitOps Sync Policies
 
 ## ArgoCD Sync Policies

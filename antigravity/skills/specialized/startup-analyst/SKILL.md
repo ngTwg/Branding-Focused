@@ -1,11 +1,17 @@
 ---
-name: startup-analyst
-description: Expert startup business analyst specializing in market sizing, financial modeling, competitive analysis, and strategic planning for early-stage companies.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "startup-analyst"
+tags: ["analysis", "analyst", "antigravity", "c:", "core", "expertise", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "market", "not", "opportunity", "purpose", "sizing", "skill", "specialized", "startup", "this", "use"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2853
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+date_added: "2026-02-27"
+description: "Expert startup business analyst specializing in market sizing, financial modeling, competitive analysis, and strategic planning for early-stage companies."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on startup analyst tasks or workflows

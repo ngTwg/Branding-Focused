@@ -1,12 +1,18 @@
 ---
-name: ai-ml
-description: "AI and machine learning workflow covering LLM application development, RAG implementation, agent architecture, ML pipelines, and AI-powered features."
-category: workflow-bundle
-risk: safe
-source: personal
+name: "ai-ml"
+tags: ["ai", "antigravity", "application", "bundle", "c:", "deep", "deep-tech", "design", "frontend", "gemini", "integration", "<YOUR_USERNAME>", "llm", "ml", "overview", "phase", "phases", "tech", "this", "use"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1411
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.91
+category: "workflow-bundle"
 date_added: "2026-02-27"
+description: "AI and machine learning workflow covering LLM application development, RAG implementation, agent architecture, ML pipelines, and AI-powered features."
+source: "personal"
 ---
-
 # AI/ML Workflow Bundle
 
 ## Overview

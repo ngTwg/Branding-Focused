@@ -1,3 +1,14 @@
+---
+name: "Pull Request Enhancement Implementation Playbook"
+tags: ["analysis", "antigravity", "c:", "changed", "comprehensive", "description", "enhance", "enhancement", "frontend", "gemini", "generation", "implementation", "instructions", "<YOUR_USERNAME>", "playbook", "pr", "pull", "request", "resources", "review"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4878
+tools_needed: ["docker", "git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Pull Request Enhancement Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

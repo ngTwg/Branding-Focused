@@ -1,11 +1,17 @@
 ---
-name: binary-analysis-patterns
-description: "Comprehensive patterns and techniques for analyzing compiled binaries, understanding assembly code, and reconstructing program logic."
-risk: unknown
-source: community
+name: "binary-analysis-patterns"
+tags: ["analysis", "antigravity", "binary", "c:", "disassembly", "frontend", "fundamentals", "gemini", "instruction", "instructions", "<YOUR_USERNAME>", "not", "patterns", "skill", "specialized", "this", "use", "users", "when", "x86"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2461
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Comprehensive patterns and techniques for analyzing compiled binaries, understanding assembly code, and reconstructing program logic."
+source: "community"
 ---
-
 # Binary Analysis Patterns
 
 Comprehensive patterns and techniques for analyzing compiled binaries, understanding assembly code, and reconstructing program logic.

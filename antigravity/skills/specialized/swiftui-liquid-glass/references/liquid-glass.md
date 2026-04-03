@@ -1,3 +1,14 @@
+---
+name: "Implementing Liquid Glass Design in SwiftUI"
+tags: ["adding", "antigravity", "basic", "c:", "customizing", "design", "effects", "frontend", "gemini", "glass", "implementation", "implementing", "<YOUR_USERNAME>", "liquid", "overview", "references", "shape", "specialized", "swiftui", "the"]
+tier: 1
+risk: "medium"
+estimated_tokens: 2039
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.93
+---
 # Implementing Liquid Glass Design in SwiftUI
 
 ## Overview

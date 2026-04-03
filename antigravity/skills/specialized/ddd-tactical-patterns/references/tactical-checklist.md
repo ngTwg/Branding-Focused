@@ -1,3 +1,14 @@
+---
+name: "Tactical Pattern Checklist"
+tags: ["aggregate", "antigravity", "c:", "checklist", "ddd", "design", "domain", "events", "gemini", "<YOUR_USERNAME>", "objects", "pattern", "patterns", "references", "repositories", "specialized", "tactical", "users", "value"]
+tier: 3
+risk: "high"
+estimated_tokens: 152
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["specialized", "domain"]
+quality_score: 0.56
+---
 # Tactical Pattern Checklist
 
 ## Aggregate design

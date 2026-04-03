@@ -1,3 +1,14 @@
+---
+name: "Mobile Performance Reference"
+tags: ["antigravity", "budget", "c:", "concept", "design", "different", "for", "frontend", "gemini", "<YOUR_USERNAME>", "lists", "mindset", "mistake", "mobile", "native", "performance", "react", "reference", "scrollview", "specialized"]
+tier: 3
+risk: "medium"
+estimated_tokens: 4600
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Mobile Performance Reference
 
 > Deep dive into React Native and Flutter performance optimization, 60fps animations, memory management, and battery considerations.

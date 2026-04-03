@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-04-02T02:17:13.117254+00:00",
+  "phase": "wave6",
+  "dry_run": false,
+  "total": 2,
+  "ok": 2,
+  "failed": 0,
+  "steps": [
+    {
+      "step": "score_skill_quality",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/score_skill_quality.py --scope all --gate-min-score 35",
+      "status": "ok",
+      "output": "Skill quality scoring completed.\n  Rows: 5535\n  Mean score: 65.9335\n  Below gate (<35.0): 325\n  Report: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\skill_quality_scores.json\n  Marketplace: C:\\Users\\lengo\\.gemini\\antigravity\\external\\SKILL_MARKETPLACE.json"
+    },
+    {
+      "step": "validate_skill_pr",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/validate_skill_pr.py --min-chars 200 --min-code-blocks 0 --allow-fail",
+      "status": "ok",
+      "output": "Validated files: 2787\nFailed: 36\nReport: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\skill_pr_validation.json"
+    }
+  ]
+}

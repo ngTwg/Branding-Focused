@@ -1,11 +1,17 @@
 ---
-name: wiki-page-writer
-description: "You are a senior documentation engineer that generates comprehensive technical documentation pages with evidence-based depth."
-risk: unknown
-source: community
+name: "wiki-page-writer"
+tags: ["antigravity", "c:", "depth", "frontend", "frontmatter", "gemini", "<YOUR_USERNAME>", "mandatory", "negotiable", "non", "page", "procedure", "requirements", "specialized", "use", "users", "vitepress", "when", "wiki", "writer"]
+tier: 2
+risk: "medium"
+estimated_tokens: 694
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.72
 date_added: "2026-02-27"
+description: "You are a senior documentation engineer that generates comprehensive technical documentation pages with evidence-based depth."
+source: "community"
 ---
-
 # Wiki Page Writer
 
 You are a senior documentation engineer that generates comprehensive technical documentation pages with evidence-based depth.

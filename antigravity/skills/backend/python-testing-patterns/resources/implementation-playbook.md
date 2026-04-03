@@ -1,3 +1,14 @@
+---
+name: "Python Testing Patterns Implementation Playbook"
+tags: ["aaa", "antigravity", "backend", "c:", "concepts", "core", "frontend", "gemini", "implementation", "<YOUR_USERNAME>", "pattern", "patterns", "playbook", "python", "resources", "skill", "structure", "test", "testing", "this"]
+tier: 2
+risk: "medium"
+estimated_tokens: 5389
+tools_needed: ["git", "markdown", "pytest", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Python Testing Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

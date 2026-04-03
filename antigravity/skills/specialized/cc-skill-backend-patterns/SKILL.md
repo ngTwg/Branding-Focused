@@ -1,11 +1,17 @@
 ---
-name: cc-skill-backend-patterns
-description: "Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes."
-risk: unknown
-source: community
+name: "cc-skill-backend-patterns"
+tags: ["antigravity", "api", "backend", "c:", "cc", "design", "development", "frontend", "gemini", "layer", "<YOUR_USERNAME>", "middleware", "pattern", "patterns", "repository", "restful", "service", "specialized", "structure", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3333
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes."
+source: "community"
 ---
-
 # Backend Development Patterns
 
 Backend architecture patterns and best practices for scalable server-side applications.

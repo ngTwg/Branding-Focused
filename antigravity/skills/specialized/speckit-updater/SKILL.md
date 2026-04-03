@@ -1,10 +1,16 @@
 ---
-name: speckit-updater
-description: SpecKit Safe Update
-risk: unknown
-source: community
+name: "speckit-updater"
+tags: ["antigravity", "architecture", "c:", "commands", "features", "frontend", "gemini", "invoked", "<YOUR_USERNAME>", "safe", "skill", "specialized", "speckit", "this", "update", "updater", "users", "what", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2056
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.90
+description: "SpecKit Safe Update"
+source: "community"
 ---
-
 # SpecKit Safe Update
 
 This skill provides safe update capabilities for GitHub SpecKit installations, preserving customizations while applying template updates.

@@ -1,9 +1,16 @@
 ---
-name: geo-fundamentals
-description: Generative Engine Optimization for AI search engines (ChatGPT, Claude, Perplexity).
-allowed-tools: Read, Glob, Grep
+name: "geo-fundamentals"
+tags: ["antigravity", "c:", "cited", "content", "engine", "factors", "frontend", "fundamentals", "gemini", "geo", "gets", "landscape", "<YOUR_USERNAME>", "rag", "retrieval", "seo", "specialized", "that", "users", "what"]
+tier: 2
+risk: "medium"
+estimated_tokens: 860
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.68
+allowed-tools: "Read, Glob, Grep"
+description: "Generative Engine Optimization for AI search engines (ChatGPT, Claude, Perplexity)."
 ---
-
 # GEO Fundamentals
 
 > Optimization for AI-powered search engines.

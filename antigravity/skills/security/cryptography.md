@@ -1,3 +1,14 @@
+---
+name: "CRYPTOGRAPHY PATTERNS"
+tags: ["antigravity", "c:", "cryptography", "encryption", "frontend", "gemini", "hashing", "key", "<YOUR_USERNAME>", "management", "patterns", "random", "secure", "security", "signatures", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1660
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.89
+---
 # CRYPTOGRAPHY PATTERNS
 
 > **Khi nào tải skill này:** Encryption, Hashing, Crypto, Secret, Password, Key

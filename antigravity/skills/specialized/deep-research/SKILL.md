@@ -1,11 +1,17 @@
 ---
-name: deep-research
-description: "Run autonomous research tasks that plan, search, read, and synthesize information into comprehensive reports."
-risk: safe
-source: "https://github.com/sanjay3290/ai-skills/tree/main/skills/deep-research"
+name: "deep-research"
+tags: ["antigravity", "c:", "deep", "frontend", "gemini", "<YOUR_USERNAME>", "requirements", "research", "setup", "skill", "specialized", "start", "task", "this", "usage", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 716
+tools_needed: ["git", "kubernetes", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.85
 date_added: "2026-02-27"
+description: "Run autonomous research tasks that plan, search, read, and synthesize information into comprehensive reports."
+source: "https://github.com/sanjay3290/ai-skills/tree/main/skills/deep-research"
 ---
-
 # Gemini Deep Research Skill
 
 Run autonomous research tasks that plan, search, read, and synthesize information into comprehensive reports.

@@ -1,11 +1,17 @@
 ---
-name: coda-automation
-description: "Automate Coda tasks via Rube MCP (Composio): manage docs, pages, tables, rows, formulas, permissions, and publishing. Always search tools first for current schemas."
-risk: critical
-source: community
+name: "coda-automation"
+tags: ["and", "antigravity", "automation", "browse", "c:", "coda", "core", "data", "documents", "frontend", "gemini", "<YOUR_USERNAME>", "mcp", "prerequisites", "rube", "search", "setup", "specialized", "tables", "users"]
+tier: 2
+risk: "critical"
+estimated_tokens: 2289
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.93
 date_added: "2026-02-27"
+description: "Automate Coda tasks via Rube MCP (Composio): manage docs, pages, tables, rows, formulas, permissions, and publishing. Always search tools first for current schemas."
+source: "community"
 ---
-
 # Coda Automation via Rube MCP
 
 Automate Coda document and data operations through Composio's Coda toolkit via Rube MCP.

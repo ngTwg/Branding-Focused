@@ -1,3 +1,14 @@
+---
+name: "Threat Mitigation Mapping Implementation Playbook"
+tags: ["antigravity", "backend", "c:", "categories", "concepts", "control", "core", "gemini", "implementation", "layers", "<YOUR_USERNAME>", "mapping", "mitigation", "playbook", "resources", "skill", "specialized", "this", "threat", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 6521
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.95
+---
 # Threat Mitigation Mapping Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

@@ -1,11 +1,17 @@
 ---
-name: web3-testing
-description: "Master comprehensive testing strategies for smart contracts using Hardhat, Foundry, and advanced testing patterns."
-risk: unknown
-source: community
+name: "web3-testing"
+tags: ["antigravity", "beyond", "c:", "contract", "frontend", "gemini", "hardhat", "instructions", "<YOUR_USERNAME>", "not", "patterns", "setup", "skill", "smart", "testing", "this", "unit", "use", "users", "web3"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2766
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Master comprehensive testing strategies for smart contracts using Hardhat, Foundry, and advanced testing patterns."
+source: "community"
 ---
-
 # Web3 Smart Contract Testing
 
 Master comprehensive testing strategies for smart contracts using Hardhat, Foundry, and advanced testing patterns.

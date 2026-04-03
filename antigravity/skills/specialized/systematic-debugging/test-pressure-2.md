@@ -1,3 +1,14 @@
+---
+name: "Pressure Test 2: Sunk Cost + Exhaustion"
+tags: ["2", "antigravity", "c:", "choose", "cost", "debugging", "exhaustion", "frontend", "gemini", "<YOUR_USERNAME>", "options", "pressure", "scenario", "specialized", "sunk", "systematic", "test", "users", "your"]
+tier: 2
+risk: "medium"
+estimated_tokens: 570
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.62
+---
 # Pressure Test 2: Sunk Cost + Exhaustion
 
 **IMPORTANT: This is a real scenario. You must choose and act. Don't ask hypothetical questions - make the actual decision.**

@@ -1,11 +1,17 @@
 ---
-name: tdd-workflows-tdd-red
-description: "Generate failing tests for the TDD red phase to define expected behavior and edge cases."
-risk: unknown
-source: community
+name: "tdd-workflows-tdd-red"
+tags: ["antigravity", "c:", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "prompt", "red", "role", "safety", "skill", "specialized", "tdd", "template", "this", "use", "users", "when", "workflows"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1171
+tools_needed: ["markdown", "pytest"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.76
 date_added: "2026-02-27"
+description: "Generate failing tests for the TDD red phase to define expected behavior and edge cases."
+source: "community"
 ---
-
 Write comprehensive failing tests following TDD red phase principles.
 
 [Extended thinking: Generates failing tests that properly define expected behavior using test-automator agent.]

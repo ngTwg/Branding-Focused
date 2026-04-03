@@ -1,3 +1,14 @@
+---
+name: "Performance Optimization"
+tags: ["antigravity", "c:", "computations", "dev", "event", "expensive", "for", "frontend", "gemini", "guidelines", "handlers", "<YOUR_USERNAME>", "memoization", "optimization", "patterns", "performance", "problem", "resources", "solution", "specialized"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2397
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.93
+---
 # Performance Optimization
 
 Patterns for optimizing React component performance, preventing unnecessary re-renders, and avoiding memory leaks.

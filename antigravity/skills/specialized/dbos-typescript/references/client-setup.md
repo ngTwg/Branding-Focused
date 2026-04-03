@@ -1,10 +1,17 @@
 ---
-title: Initialize DBOSClient for External Access
-impact: MEDIUM
-impactDescription: Enables external applications to interact with DBOS workflows
-tags: client, external, setup, initialization
+name: "Initialize DBOSClient for External Access"
+tags: ["client, external, setup, initialization"]
+tier: 2
+risk: "medium"
+estimated_tokens: 466
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.58
+impact: "MEDIUM"
+impactDescription: "Enables external applications to interact with DBOS workflows"
+title: "Initialize DBOSClient for External Access"
 ---
-
 ## Initialize DBOSClient for External Access
 
 Use `DBOSClient` to interact with DBOS from external applications like API servers, CLI tools, or separate services. `DBOSClient` connects directly to the DBOS system database.

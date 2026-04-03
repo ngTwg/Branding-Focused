@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-04-01T19:19:06.562810+00:00",
+  "phase": "sync",
+  "dry_run": false,
+  "total": 5,
+  "ok": 4,
+  "failed": 1,
+  "steps": [
+    {
+      "step": "sync_community_repos",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/sync_community_repos.py",
+      "status": "failed",
+      "output": "Traceback (most recent call last):\n  File \"C:\\Users\\lengo\\.gemini\\antigravity\\scripts\\sync_community_repos.py\", line 170, in <module>\n    raise SystemExit(main())\n                     ~~~~^^\n  File \"C:\\Users\\lengo\\.gemini\\antigravity\\scripts\\sync_community_repos.py\", line 148, in main\n    results.append(sync_repo(repo, target_root, args.dry_run))\n                   ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\lengo\\.gemini\\antigravity\\scripts\\sync_community_repos.py\", line 97, in sync_repo\n    ok, message = mirror_local_directory(source, target, dry_run)\n                  ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\lengo\\.gemini\\antigravity\\scripts\\sync_community_repos.py\", line 65, in mirror_local_directory\n    shutil.rmtree(target)\n    ~~~~~~~~~~~~~^^^^^^^^\n  File \"C:\\Users\\lengo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\shutil.py\", line 790, in rmtree\n    return _rmtree_unsafe(path, onexc)\n  File \"C:\\Users\\lengo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\shutil.py\", line 621, in _rmtree_unsafe\n    onexc(os.rmdir, fullname, err)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\lengo\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\shutil.py\", line 617, in _rmtree_unsafe\n    os.rmdir(fullname)\n    ~~~~~~~~^^^^^^^^^^\nPermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\\\Users\\\\lengo\\\\.gemini\\\\antigravity\\\\external\\\\community-repos\\\\antigravity-ide-main\\\\.agent\\\\skills\\\\notebooklm'"
+    },
+    {
+      "step": "extract_external_patterns",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/extract_external_patterns.py",
+      "status": "ok",
+      "output": "Pattern report JSON: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\external_pattern_report.json\nPattern report MD: C:\\Users\\lengo\\.gemini\\antigravity\\docs\\EXTERNAL_PATTERN_REPORT_2026-04-01.md"
+    },
+    {
+      "step": "generate_integration_gap_report",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/generate_integration_gap_report.py --apply",
+      "status": "ok",
+      "output": "Integration gap report JSON: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\integration_gap_report.json\nIntegration gap report MD: C:\\Users\\lengo\\.gemini\\antigravity\\docs\\INTEGRATION_GAP_REPORT_2026-04-02.md\nApplied merges: none"
+    },
+    {
+      "step": "security_gate_external_skills",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/security_gate_external_skills.py",
+      "status": "ok",
+      "output": "Security gate status: WARN\nScanned markdown files: 16426 (skipped: 6)\nFindings: 237\nBlocked files: 0\nWarn files: 126\nReport: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\security_gate_external_skills.json"
+    },
+    {
+      "step": "generate_unified_inventory",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/generate_unified_inventory.py",
+      "status": "ok",
+      "output": "Scanning internal skills...\n  Found 2749 internal skill records\nSecurity status: WARN (fail_files=0, warn_files=126)\nScanning external skills with gate filters...\n  Imported external records: 2192\n  Blocked by FAIL gate: 0\nUnified inventory generated successfully.\n  Markdown: C:\\Users\\lengo\\.gemini\\antigravity\\external\\UNIFIED_SKILL_INVENTORY.md\n  JSON: C:\\Users\\lengo\\.gemini\\antigravity\\external\\UNIFIED_SKILL_INVENTORY.json\n  Total records: 4941"
+    }
+  ]
+}

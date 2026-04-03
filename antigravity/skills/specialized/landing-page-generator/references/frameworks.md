@@ -1,3 +1,14 @@
+---
+name: "Landing Page Copywriting Frameworks"
+tags: ["action", "aida", "antigravity", "attention", "c:", "copywriting", "desire", "framework", "frameworks", "frontend", "gemini", "generator", "interest", "landing", "<YOUR_USERNAME>", "overview", "page", "references", "specialized", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1921
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.79
+---
 # Landing Page Copywriting Frameworks
 
 ## Overview

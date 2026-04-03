@@ -1,10 +1,17 @@
 ---
-title: Integrate DBOS with Express
-impact: CRITICAL
-impactDescription: Proper integration ensures workflows survive server restarts
-tags: express, http, integration, server
+name: "Integrate DBOS with Express"
+tags: ["express, http, integration, server"]
+tier: 2
+risk: "medium"
+estimated_tokens: 372
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.57
+impact: "CRITICAL"
+impactDescription: "Proper integration ensures workflows survive server restarts"
+title: "Integrate DBOS with Express"
 ---
-
 ## Integrate DBOS with Express
 
 Configure and launch DBOS before starting your Express server. Register all workflows and steps before calling `DBOS.launch()`.

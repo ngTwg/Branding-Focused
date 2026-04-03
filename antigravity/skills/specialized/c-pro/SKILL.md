@@ -1,11 +1,17 @@
 ---
-name: c-pro
-description: "Write efficient C code with proper memory management, pointer"
-risk: unknown
-source: community
+name: "c-pro"
+tags: ["antigravity", "approach", "areas", "c", "c:", "focus", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "output", "pro", "skill", "specialized", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 382
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.63
 date_added: "2026-02-27"
+description: "Write efficient C code with proper memory management, pointer"
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on c pro tasks or workflows

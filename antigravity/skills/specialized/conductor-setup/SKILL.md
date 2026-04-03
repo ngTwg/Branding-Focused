@@ -1,15 +1,21 @@
 ---
-name: conductor-setup
-description: Configure a Rails project to work with Conductor (parallel coding agents)
-allowed-tools: Bash(chmod *), Bash(bundle *), Bash(npm *), Bash(script/server)
-context: fork
-risk: unknown
-source: community
-metadata:
-  author: Shpigford
-  version: "1.0"
+name: "conductor-setup"
+tags: ["antigravity", "backend", "bin", "c:", "conductor", "create", "dependencies", "env", "executable", "from", "gemini", "install", "json", "key", "<YOUR_USERNAME>", "live", "master", "outside", "project", "rails"]
+tier: 2
+risk: "medium"
+estimated_tokens: 850
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.87
+allowed-tools: "Bash(chmod *), Bash(bundle *), Bash(npm *), Bash(script/server)"
+author: "Shpigford"
+context: "fork"
+description: "Configure a Rails project to work with Conductor (parallel coding agents)"
+metadata: ""
+source: "community"
+version: "1.0"
 ---
-
 Set up this Rails project for Conductor, the Mac app for parallel coding agents.
 
 # What to Create

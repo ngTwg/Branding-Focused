@@ -1,3 +1,14 @@
+---
+name: "🧠 GLOBAL MEMORY & SELF-TRAINING PROTOCOL (v1.0)"
+tags: ["agent", "antigravity", "backend", "c:", "chép", "continuous", "cross", "cấp", "distillation", "diện", "gemini", "ghi", "global", "học", "hội", "knowledge", "learning", "<YOUR_USERNAME>", "linkage", "liên"]
+tier: 2
+risk: "medium"
+estimated_tokens: 582
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.60
+---
 # 🧠 GLOBAL MEMORY & SELF-TRAINING PROTOCOL (v1.0)
 *Giao thức Bắt Buộc cho mọi Agent (Copilot, Claude, Cursor, Cline, Kiro, Roo, Aider...) nhằm xây dựng Tổ kiến Trí tuệ (Hive Mind).*
 

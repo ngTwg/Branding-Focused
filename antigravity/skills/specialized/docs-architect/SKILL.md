@@ -1,11 +1,17 @@
 ---
-name: docs-architect
-description: Creates comprehensive technical documentation from existing codebases. Analyzes architecture, design patterns, and implementation details to produce long-form technical manuals and ebooks.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "docs-architect"
+tags: ["antigravity", "architect", "c:", "characteristics", "competencies", "core", "docs", "documentation", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "output", "process", "skill", "specialized", "this", "use", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1036
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.72
+date_added: "2026-02-27"
+description: "Creates comprehensive technical documentation from existing codebases. Analyzes architecture, design patterns, and implementation details to produce long-form technical manuals and ebooks."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on docs architect tasks or workflows

@@ -1,10 +1,17 @@
 ---
-title: Start Workflows in Background
-impact: CRITICAL
-impactDescription: Background workflows survive crashes and restarts
-tags: workflow, background, start_workflow, handle
+name: "Start Workflows in Background"
+tags: ["workflow, background, start_workflow, handle"]
+tier: 1
+risk: "medium"
+estimated_tokens: 327
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.72
+impact: "CRITICAL"
+impactDescription: "Background workflows survive crashes and restarts"
+title: "Start Workflows in Background"
 ---
-
 ## Start Workflows in Background
 
 Use `DBOS.start_workflow` to run workflows in the background. This returns a handle to monitor or retrieve results.

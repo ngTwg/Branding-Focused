@@ -1,10 +1,17 @@
 ---
-title: Set Queue Priority for Workflows
-impact: HIGH
-impactDescription: Prioritizes important workflows over lower-priority ones
-tags: queue, priority, ordering, importance
+name: "Set Queue Priority for Workflows"
+tags: ["queue, priority, ordering, importance"]
+tier: 1
+risk: "medium"
+estimated_tokens: 344
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.57
+impact: "HIGH"
+impactDescription: "Prioritizes important workflows over lower-priority ones"
+title: "Set Queue Priority for Workflows"
 ---
-
 ## Set Queue Priority for Workflows
 
 Enable priority on a queue to process higher-priority workflows first. Lower numbers indicate higher priority.

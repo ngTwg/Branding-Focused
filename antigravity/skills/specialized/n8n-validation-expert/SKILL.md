@@ -1,10 +1,16 @@
 ---
-name: n8n-validation-expert
+name: "n8n-validation-expert"
+tags: ["antigravity", "c:", "error", "errors", "expert", "fix", "frontend", "gemini", "<YOUR_USERNAME>", "levels", "must", "n8n", "optional", "philosophy", "severity", "should", "specialized", "suggestions", "users", "validation"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3564
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 description: "Expert guide for interpreting and fixing n8n validation errors."
-risk: unknown
-source: community
+source: "community"
 ---
-
 # n8n Validation Expert
 
 Expert guide for interpreting and fixing n8n validation errors.

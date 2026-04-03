@@ -1,11 +1,17 @@
 ---
-name: architecture-decision-records
-description: "Comprehensive patterns for creating, maintaining, and managing Architecture Decision Records (ADRs) that capture the context and rationale behind significant technical decisions."
-risk: unknown
-source: community
+name: "architecture-decision-records"
+tags: ["adr", "antigravity", "architecture", "c:", "concepts", "core", "decision", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "records", "skill", "specialized", "this", "use", "users", "what", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3232
+tools_needed: ["git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Comprehensive patterns for creating, maintaining, and managing Architecture Decision Records (ADRs) that capture the context and rationale behind significant technical decisions."
+source: "community"
 ---
-
 # Architecture Decision Records
 
 Comprehensive patterns for creating, maintaining, and managing Architecture Decision Records (ADRs) that capture the context and rationale behind significant technical decisions.

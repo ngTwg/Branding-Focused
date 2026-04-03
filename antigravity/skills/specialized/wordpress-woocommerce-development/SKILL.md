@@ -1,12 +1,18 @@
 ---
-name: wordpress-woocommerce-development
-description: "WooCommerce store development workflow covering store setup, payment integration, shipping configuration, customization, and WordPress 7.0 features: AI connectors, DataViews, and collaboration tools."
-category: granular-workflow-bundle
-risk: safe
-source: personal
+name: "wordpress-woocommerce-development"
+tags: ["antigravity", "c:", "development", "features", "frontend", "gemini", "<YOUR_USERNAME>", "overview", "phase", "phases", "setup", "specialized", "store", "this", "use", "users", "when", "woocommerce", "wordpress", "workflow"]
+tier: 3
+risk: "medium"
+estimated_tokens: 4471
+tools_needed: ["git", "markdown", "playwright"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+category: "granular-workflow-bundle"
 date_added: "2026-02-27"
+description: "WooCommerce store development workflow covering store setup, payment integration, shipping configuration, customization, and WordPress 7.0 features: AI connectors, DataViews, and collaboration tools."
+source: "personal"
 ---
-
 # WordPress WooCommerce Development Workflow
 
 ## Overview

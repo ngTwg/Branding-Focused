@@ -1,10 +1,17 @@
 ---
-title: Configure and Launch DBOS Properly
-impact: CRITICAL
-impactDescription: Application won't function without proper setup
-tags: configuration, launch, setup, initialization
+name: "Configure and Launch DBOS Properly"
+tags: ["configuration, launch, setup, initialization"]
+tier: 2
+risk: "medium"
+estimated_tokens: 297
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.56
+impact: "CRITICAL"
+impactDescription: "Application won't function without proper setup"
+title: "Configure and Launch DBOS Properly"
 ---
-
 ## Configure and Launch DBOS Properly
 
 Every DBOS application must configure and launch DBOS before running any workflows. All workflows and steps must be registered before calling `DBOS.launch()`.

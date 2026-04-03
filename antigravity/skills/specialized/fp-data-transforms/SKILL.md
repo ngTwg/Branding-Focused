@@ -1,4 +1,15 @@
 ---
+name: "Practical Data Transformations"
+tags: ["accumulate", "antigravity", "array", "c:", "contents", "data", "element", "every", "filter", "fp", "frontend", "gemini", "into", "keep", "<YOUR_USERNAME>", "map", "matches", "new", "operations", "practical"]
+tier: 2
+risk: "medium"
+estimated_tokens: 9078
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
+---
 name: fp-data-transforms
 description: Everyday data transformations using functional patterns - arrays, objects, grouping, aggregation, and null-safe access
 risk: unknown

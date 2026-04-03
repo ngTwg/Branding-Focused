@@ -1,11 +1,17 @@
 ---
-name: dotnet-architect
-description: Expert .NET backend architect specializing in C#, ASP.NET Core, Entity Framework, Dapper, and enterprise application patterns.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "dotnet-architect"
+tags: ["antigravity", "architect", "c:", "capabilities", "dotnet", "frontend", "gemini", "instructions", "language", "<YOUR_USERNAME>", "mastery", "not", "purpose", "skill", "specialized", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1783
+tools_needed: ["docker", "git", "kubernetes", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.80
+date_added: "2026-02-27"
+description: "Expert .NET backend architect specializing in C#, ASP.NET Core, Entity Framework, Dapper, and enterprise application patterns."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on dotnet architect tasks or workflows

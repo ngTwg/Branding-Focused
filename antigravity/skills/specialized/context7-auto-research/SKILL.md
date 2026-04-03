@@ -1,11 +1,17 @@
 ---
-name: context7-auto-research
-description: "Automatically fetch latest library/framework documentation for Claude Code via Context7 API. Use when you need up-to-date documentation for libraries and frameworks or asking about React, Next.js, Prisma, or any other popular library."
-risk: unknown
-source: community
+name: "context7-auto-research"
+tags: ["antigravity", "auto", "c:", "context7", "examples", "frontend", "gemini", "guide", "installation", "<YOUR_USERNAME>", "overview", "research", "specialized", "step", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 325
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.69
 date_added: "2026-02-27"
+description: "Automatically fetch latest library/framework documentation for Claude Code via Context7 API. Use when you need up-to-date documentation for libraries and frameworks or asking about React, Next.js, Prisma, or any other popular library."
+source: "community"
 ---
-
 # context7-auto-research
 
 ## Overview

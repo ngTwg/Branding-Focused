@@ -1,3 +1,14 @@
+---
+name: "Event Store Design Playbook"
+tags: ["and", "antigravity", "c:", "checklist", "design", "event", "frontend", "gemini", "guardrails", "implementation", "<YOUR_USERNAME>", "operational", "performance", "playbook", "projection", "resources", "safety", "schema", "specialized", "store"]
+tier: 2
+risk: "medium"
+estimated_tokens: 186
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.57
+---
 # Event Store Design Playbook
 
 ## Schema and stream strategy

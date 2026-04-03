@@ -1,3 +1,14 @@
+---
+name: "EDGE CASE CATALOG - DANH MỤC TRƯỜNG HỢP BIÊN"
+tags: ["antigravity", "backend", "biên", "c:", "case", "cases", "catalog", "danh", "domain", "edge", "empty", "gemini", "hợp", "<YOUR_USERNAME>", "mọi", "mục", "null", "numeric", "overview", "trường"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2848
+tools_needed: ["git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.95
+---
 # EDGE CASE CATALOG - DANH MỤC TRƯỜNG HỢP BIÊN
 
 > **Tier:** 1-4 (All projects)  

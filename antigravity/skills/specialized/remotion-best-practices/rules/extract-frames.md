@@ -1,10 +1,16 @@
 ---
-name: extract-frames
-description: Extract frames from videos at specific timestamps using Mediabunny
-metadata:
-  tags: frames, extract, video, thumbnail, filmstrip, canvas
+name: "extract-frames"
+tags: ["frames, extract, video, thumbnail, filmstrip, canvas"]
+tier: 3
+risk: "high"
+estimated_tokens: 1374
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["data", "analytics"]
+quality_score: 0.83
+description: "Extract frames from videos at specific timestamps using Mediabunny"
+metadata: ""
 ---
-
 # Extracting frames from videos
 
 Use Mediabunny to extract frames from videos at specific timestamps. This is useful for generating thumbnails, filmstrips, or processing individual frames.

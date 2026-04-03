@@ -1,4 +1,15 @@
 ---
+name: "Single Page Analysis"
+tags: ["analysis", "analyze", "antigravity", "c:", "content", "elements", "frontend", "gemini", "<YOUR_USERNAME>", "page", "quality", "seo", "single", "specialized", "technical", "use", "users", "what", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 968
+tools_needed: ["git", "markdown", "mcp", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.73
+---
+---
 name: seo-page
 description: >
   Deep single-page SEO analysis covering on-page elements, content quality,

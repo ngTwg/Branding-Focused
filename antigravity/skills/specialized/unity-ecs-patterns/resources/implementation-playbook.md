@@ -1,3 +1,14 @@
+---
+name: "Unity ECS Patterns Implementation Playbook"
+tags: ["antigravity", "c:", "components", "concepts", "core", "dots", "ecs", "frontend", "gemini", "implementation", "<YOUR_USERNAME>", "oop", "patterns", "playbook", "resources", "skill", "specialized", "this", "unity", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4096
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Unity ECS Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

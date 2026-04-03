@@ -1,12 +1,18 @@
 ---
-name: bash-scripting
-description: "Bash scripting workflow for creating production-ready shell scripts with defensive patterns, error handling, and testing."
-category: granular-workflow-bundle
-risk: safe
-source: personal
+name: "bash-scripting"
+tags: ["antigravity", "bash", "c:", "design", "frontend", "gemini", "<YOUR_USERNAME>", "overview", "phase", "phases", "script", "scripting", "specialized", "structure", "this", "use", "users", "when", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 981
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.88
+category: "granular-workflow-bundle"
 date_added: "2026-02-27"
+description: "Bash scripting workflow for creating production-ready shell scripts with defensive patterns, error handling, and testing."
+source: "personal"
 ---
-
 # Bash Scripting Workflow
 
 ## Overview

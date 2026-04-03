@@ -1,3 +1,14 @@
+---
+name: "LEX — Findings & Research"
+tags: ["agent", "antigravity", "c:", "canada", "constraints", "european", "findings", "frontend", "gemini", "legal", "<YOUR_USERNAME>", "lex", "member", "official", "references", "research", "sources", "specialized", "states", "structure"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1042
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.66
+---
 # LEX — Findings & Research
 
 ## Legal Constraints & Structure

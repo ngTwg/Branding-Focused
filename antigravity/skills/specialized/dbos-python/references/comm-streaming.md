@@ -1,10 +1,17 @@
 ---
-title: Use Streams for Real-Time Data
-impact: MEDIUM
-impactDescription: Enables real-time progress and LLM streaming
-tags: streaming, write_stream, read_stream, realtime
+name: "Use Streams for Real-Time Data"
+tags: ["streaming, write_stream, read_stream, realtime"]
+tier: 3
+risk: "medium"
+estimated_tokens: 392
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.62
+impact: "MEDIUM"
+impactDescription: "Enables real-time progress and LLM streaming"
+title: "Use Streams for Real-Time Data"
 ---
-
 ## Use Streams for Real-Time Data
 
 Workflows can stream data in real-time to clients. Useful for LLM responses, progress reporting, or long-running results.

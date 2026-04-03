@@ -1,3 +1,14 @@
+---
+name: "Context Mapping Patterns"
+tags: ["acl", "antigravity", "c:", "checklist", "common", "context", "ddd", "frontend", "gemini", "<YOUR_USERNAME>", "map", "mapping", "patterns", "references", "relationship", "specialized", "template", "users"]
+tier: 4
+risk: "medium"
+estimated_tokens: 168
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.54
+---
 # Context Mapping Patterns
 
 ## Common relationship patterns

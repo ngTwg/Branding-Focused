@@ -1,3 +1,14 @@
+---
+name: "Routing Guide"
+tags: ["antigravity", "based", "basic", "c:", "dev", "directory", "example", "folder", "from", "frontend", "gemini", "guide", "guidelines", "index", "<YOUR_USERNAME>", "overview", "pattern", "posts", "resources", "route"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1794
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.89
+---
 # Routing Guide
 
 TanStack Router implementation with folder-based routing and lazy loading patterns.

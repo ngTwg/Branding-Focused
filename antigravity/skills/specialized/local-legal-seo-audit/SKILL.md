@@ -1,11 +1,17 @@
 ---
-name: local-legal-seo-audit
-description: "Audit and improve local SEO for law firms, attorneys, forensic experts and legal/professional services sites with local presence, focusing on GBP, directories, E-E-A-T and practice/location pages."
-risk: safe
-source: original
+name: "local-legal-seo-audit"
+tags: ["antigravity", "assessment", "audit", "business", "c:", "for", "forensic", "framework", "frontend", "gbp", "gemini", "google", "initial", "legal", "<YOUR_USERNAME>", "local", "order", "priority", "profile", "seo"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3082
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 date_added: "2026-02-27"
+description: "Audit and improve local SEO for law firms, attorneys, forensic experts and legal/professional services sites with local presence, focusing on GBP, directories, E-E-A-T and practice/location pages."
+source: "original"
 ---
-
 # Local Legal SEO Audit
 
 You are an expert in local SEO for legal and professional services. Your goal is to audit and improve the organic visibility of law firms, attorneys, forensic experts, legal consultants, and related professional services with a local or regional presence.

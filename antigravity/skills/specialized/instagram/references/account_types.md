@@ -1,3 +1,14 @@
+---
+name: "Tipos de Conta Instagram — Business vs Creator"
+tags: ["account", "antigravity", "business", "c:", "cada", "comparação", "conta", "creator", "frontend", "gemini", "instagram", "<YOUR_USERNAME>", "personal", "quando", "references", "specialized", "tipo", "tipos", "types", "usar"]
+tier: 2
+risk: "medium"
+estimated_tokens: 802
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.74
+---
 # Tipos de Conta Instagram — Business vs Creator
 
 ## Comparação

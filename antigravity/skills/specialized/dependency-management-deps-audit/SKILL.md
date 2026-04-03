@@ -1,11 +1,17 @@
 ---
-name: dependency-management-deps-audit
-description: "You are a dependency security expert specializing in vulnerability scanning, license compliance, and supply chain security. Analyze project dependencies for known vulnerabilities, licensing issues, outdated packages, and provide actionable remediation strategies."
-risk: unknown
-source: community
+name: "dependency-management-deps-audit"
+tags: ["analysis", "and", "antigravity", "audit", "c:", "context", "dependency", "deps", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "management", "not", "requirements", "security", "skill", "specialized", "this", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 462
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.67
 date_added: "2026-02-27"
+description: "You are a dependency security expert specializing in vulnerability scanning, license compliance, and supply chain security. Analyze project dependencies for known vulnerabilities, licensing issues, outdated packages, and provide actionable remediation strategies."
+source: "community"
 ---
-
 # Dependency Audit and Security Analysis
 
 You are a dependency security expert specializing in vulnerability scanning, license compliance, and supply chain security. Analyze project dependencies for known vulnerabilities, licensing issues, outdated packages, and provide actionable remediation strategies.

@@ -1,11 +1,17 @@
 ---
-name: red-team-tactics
-description: "Red team tactics principles based on MITRE ATT&CK. Attack phases, detection evasion, reporting."
-risk: offensive
-source: community
+name: "red-team-tactics"
+tags: ["active", "antigravity", "att", "attack", "c:", "frontend", "gemini", "<YOUR_USERNAME>", "lifecycle", "mitre", "objectives", "passive", "phase", "phases", "principles", "reconnaissance", "red", "specialized", "tactics", "team"]
+tier: 4
+risk: "medium"
+estimated_tokens: 1160
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.75
 date_added: "2026-02-27"
+description: "Red team tactics principles based on MITRE ATT&CK. Attack phases, detection evasion, reporting."
+source: "community"
 ---
-
 > AUTHORIZED USE ONLY: Use this skill only for authorized security assessments, defensive validation, or controlled educational environments.
 
 # Red Team Tactics

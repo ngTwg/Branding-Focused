@@ -1,8 +1,15 @@
 ---
-name: git-pushing
-description: Stage, commit, and push git changes with conventional commit messages. Use when user wants to commit and push changes, mentions pushing to remote, or asks to save and push their work. Also activates when user says "push changes", "commit and push", "push this", "push to github", or similar git workflow requests.
+name: "git-pushing"
+tags: ["antigravity", "c:", "gemini", "git", "<YOUR_USERNAME>", "push", "pushing", "use", "users", "when", "workflow", "workflows"]
+tier: 2
+risk: "medium"
+estimated_tokens: 271
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.61
+description: "Stage, commit, and push git changes with conventional commit messages. Use when user wants to commit and push changes, mentions pushing to remote, or asks to save and push their work. Also activates when user says \"push changes\", \"commit and push\", \"push this\", \"push to github\", or similar git workflow requests."
 ---
-
 # Git Push Workflow
 
 Stage all changes, create a conventional commit, and push to the remote branch.

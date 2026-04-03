@@ -1,11 +1,17 @@
 ---
-name: fitness-analyzer
-description: 分析运动数据、识别运动模式、评估健身进展，并提供个性化训练建议。支持与慢性病数据的关联分析。
-allowed-tools: Read, Grep, Glob, Write
-risk: unknown
-source: community
+name: "fitness-analyzer"
+tags: ["analyzer", "antigravity", "c:", "data-engineering", "fitness", "gemini", "<YOUR_USERNAME>", "specialized", "users", "相关性分析", "运动习惯分析", "运动分析器技能", "运动趋势分析", "运动进步追踪"]
+tier: 3
+risk: "high"
+estimated_tokens: 1321
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["data", "analytics"]
+quality_score: 0.92
+allowed-tools: "Read, Grep, Glob, Write"
+description: "分析运动数据、识别运动模式、评估健身进展，并提供个性化训练建议。支持与慢性病数据的关联分析。"
+source: "community"
 ---
-
 # 运动分析器技能
 
 分析运动数据，识别运动模式，评估健身进展，并提供个性化训练建议。

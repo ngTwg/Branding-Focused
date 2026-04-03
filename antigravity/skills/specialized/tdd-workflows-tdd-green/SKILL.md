@@ -1,11 +1,17 @@
 ---
-name: tdd-workflows-tdd-green
-description: "Implement the minimal code needed to make failing tests pass in the TDD green phase."
-risk: unknown
-source: community
+name: "tdd-workflows-tdd-green"
+tags: ["antigravity", "based", "c:", "class", "express", "frontend", "function", "gemini", "generic", "green", "<YOUR_USERNAME>", "not", "patterns", "phase", "refactor", "simple", "skill", "specialized", "tdd", "this"]
+tier: 2
+risk: "medium"
+estimated_tokens: 487
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.70
 date_added: "2026-02-27"
+description: "Implement the minimal code needed to make failing tests pass in the TDD green phase."
+source: "community"
 ---
-
 # Green Phase: Simple function
 def product_list(request):
     products = Product.objects.all()

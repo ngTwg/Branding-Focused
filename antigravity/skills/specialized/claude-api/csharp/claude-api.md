@@ -1,3 +1,14 @@
+---
+name: "Claude API — C#"
+tags: ["antigravity", "api", "backend", "basic", "c:", "claude", "client", "csharp", "gemini", "initialization", "installation", "<YOUR_USERNAME>", "loop", "manual", "message", "request", "specialized", "streaming", "tool", "use"]
+tier: 2
+risk: "medium"
+estimated_tokens: 438
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.72
+---
 # Claude API — C#
 
 > **Note:** The C# SDK is the official Anthropic SDK for C#. Tool use is supported via the Messages API. A class-annotation-based tool runner is not available; use raw tool definitions with JSON schema. The SDK also supports Microsoft.Extensions.AI IChatClient integration with function invocation.

@@ -1,9 +1,16 @@
 ---
-name: terraform-aws-modules
-description: "Terraform module creation for AWS — reusable modules, state management, and HCL best practices. Use when building or reviewing Terraform AWS infrastructure."
-risk: unknown
-source: community
+name: "terraform-aws-modules"
+tags: ["antigravity", "aws", "c:", "devops", "example", "examples", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "module", "modules", "not", "reusable", "skill", "terraform", "this", "use", "users", "variables"]
+tier: 2
+risk: "medium"
+estimated_tokens: 617
+tools_needed: ["markdown", "terminal", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.75
 date_added: "2026-02-27"
+description: "Terraform module creation for AWS — reusable modules, state management, and HCL best practices. Use when building or reviewing Terraform AWS infrastructure."
+source: "community"
 ---
 You are an expert in Terraform for AWS specializing in reusable module design, state management, and production-grade HCL patterns.
 

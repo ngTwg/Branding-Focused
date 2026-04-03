@@ -1,3 +1,14 @@
+---
+name: "Zafiro Reactive Shortcuts"
+tags: ["antigravity", "avalonia", "c:", "command", "development", "extensions", "frontend", "gemini", "general", "helpers", "interaction", "<YOUR_USERNAME>", "lifecycle", "management", "maybe", "observable", "reactive", "result", "shortcuts", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 392
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.58
+---
 # Zafiro Reactive Shortcuts
 
 Use these Zafiro extension methods to replace standard, more verbose Reactive and DynamicData patterns.

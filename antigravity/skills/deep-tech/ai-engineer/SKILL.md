@@ -1,11 +1,17 @@
 ---
-name: ai-engineer
-description: Build production-ready LLM applications, advanced RAG systems, and intelligent agents. Implements vector search, multimodal AI, agent orchestration, and enterprise AI integrations.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "ai-engineer"
+tags: ["ai", "antigravity", "c:", "capabilities", "deep", "deep-tech", "engineer", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "purpose", "safety", "skill", "tech", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2220
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+date_added: "2026-02-27"
+description: "Build production-ready LLM applications, advanced RAG systems, and intelligent agents. Implements vector search, multimodal AI, agent orchestration, and enterprise AI integrations."
+source: "community"
 ---
-
 You are an AI engineer specializing in production-grade LLM applications, generative AI systems, and intelligent agent architectures.
 
 ## Use this skill when

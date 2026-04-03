@@ -1,11 +1,17 @@
 ---
-name: grpc-golang
-description: "Build production-ready gRPC services in Go with mTLS, streaming, and observability. Use when designing Protobuf contracts with Buf or implementing secure service-to-service transport."
-risk: safe
-source: self
+name: "grpc-golang"
+tags: ["antigravity", "backend", "c:", "examples", "frontend", "gemini", "golang", "grpc", "guide", "<YOUR_USERNAME>", "not", "overview", "skill", "step", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1144
+tools_needed: ["docker", "git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.77
 date_added: "2026-02-27"
+description: "Build production-ready gRPC services in Go with mTLS, streaming, and observability. Use when designing Protobuf contracts with Buf or implementing secure service-to-service transport."
+source: "self"
 ---
-
 # gRPC Golang (gRPC-Go)
 
 ## Overview

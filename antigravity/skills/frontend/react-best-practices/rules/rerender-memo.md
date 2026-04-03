@@ -1,10 +1,17 @@
 ---
-title: Extract to Memoized Components
-impact: MEDIUM
-impactDescription: enables early returns
-tags: rerender, memo, useMemo, optimization
+name: "Extract to Memoized Components"
+tags: ["rerender, memo, useMemo, optimization"]
+tier: 2
+risk: "medium"
+estimated_tokens: 287
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.56
+impact: "MEDIUM"
+impactDescription: "enables early returns"
+title: "Extract to Memoized Components"
 ---
-
 ## Extract to Memoized Components
 
 Extract expensive work into memoized components to enable early returns before computation.

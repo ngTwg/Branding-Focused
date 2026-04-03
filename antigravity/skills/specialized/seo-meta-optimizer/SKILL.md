@@ -1,11 +1,17 @@
 ---
-name: seo-meta-optimizer
-description: Creates optimized meta titles, descriptions, and URL suggestions based on character limits and best practices. Generates compelling, keyword-rich metadata. Use PROACTIVELY for new content.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "seo-meta-optimizer"
+tags: ["antigravity", "approach", "areas", "c:", "focus", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "meta", "not", "optimization", "optimizer", "rules", "seo", "skill", "specialized", "this", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 691
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.70
+date_added: "2026-02-27"
+description: "Creates optimized meta titles, descriptions, and URL suggestions based on character limits and best practices. Generates compelling, keyword-rich metadata. Use PROACTIVELY for new content."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on seo meta optimizer tasks or workflows

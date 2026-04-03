@@ -1,10 +1,17 @@
 ---
-title: Use Events for Workflow Status Publishing
-impact: MEDIUM
-impactDescription: Enables real-time workflow status monitoring
-tags: events, set_event, get_event, status
+name: "Use Events for Workflow Status Publishing"
+tags: ["events, set_event, get_event, status"]
+tier: 3
+risk: "medium"
+estimated_tokens: 387
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.64
+impact: "MEDIUM"
+impactDescription: "Enables real-time workflow status monitoring"
+title: "Use Events for Workflow Status Publishing"
 ---
-
 ## Use Events for Workflow Status Publishing
 
 Workflows can publish key-value events that clients can read. Events are persisted and useful for status updates.

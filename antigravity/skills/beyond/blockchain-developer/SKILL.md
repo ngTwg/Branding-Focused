@@ -1,11 +1,17 @@
 ---
-name: blockchain-developer
-description: Build production-ready Web3 applications, smart contracts, and decentralized systems. Implements DeFi protocols, NFT platforms, DAOs, and enterprise blockchain integrations.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "blockchain-developer"
+tags: ["antigravity", "beyond", "blockchain", "c:", "capabilities", "contract", "developer", "development", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "purpose", "security", "skill", "smart", "this", "use", "users"]
+tier: 4
+risk: "medium"
+estimated_tokens: 2443
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+date_added: "2026-02-27"
+description: "Build production-ready Web3 applications, smart contracts, and decentralized systems. Implements DeFi protocols, NFT platforms, DAOs, and enterprise blockchain integrations."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on blockchain developer tasks or workflows

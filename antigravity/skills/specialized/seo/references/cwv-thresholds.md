@@ -1,3 +1,14 @@
+---
+name: "Core Web Vitals Thresholds (February 2026)"
+tags: ["2025", "2026", "addition", "antigravity", "api", "c:", "core", "crux", "current", "cwv", "experimental", "facts", "february", "frontend", "gemini", "key", "lcp", "<YOUR_USERNAME>", "measurement", "metrics"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1286
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.76
+---
 <!-- Updated: 2026-02-07 -->
 # Core Web Vitals Thresholds (February 2026)
 

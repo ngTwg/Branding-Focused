@@ -1,3 +1,14 @@
+---
+name: "Loki Mode Test Execution Report"
+tags: ["antigravity", "app", "backend", "c:", "completed", "details", "examples", "execution", "frontend", "gemini", "generated", "implementation", "infrastructure", "<YOUR_USERNAME>", "loki", "mode", "report", "setup", "specialized", "tasks"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1475
+tools_needed: ["docker", "markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.80
+---
 # Loki Mode Test Execution Report
 
 ## Test Details

@@ -1,4 +1,15 @@
 ---
+name: "Practical Async Patterns with fp-ts"
+tags: ["and", "antigravity", "async", "c:", "catch", "cleanly", "creating", "everywhere", "explained", "failure", "fp", "frontend", "gemini", "handle", "<YOUR_USERNAME>", "once", "patterns", "practical", "problem", "promises"]
+tier: 2
+risk: "medium"
+estimated_tokens: 5956
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
+---
 name: fp-async
 description: Practical async patterns using TaskEither - clean pipelines instead of try/catch hell, with real API examples
 risk: unknown

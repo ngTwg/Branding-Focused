@@ -1,3 +1,14 @@
+---
+name: "Apache Airflow DAG Patterns Implementation Playbook"
+tags: ["airflow", "antigravity", "apache", "c:", "concepts", "core", "dag", "data", "data-engineering", "dependencies", "design", "engineering", "fan", "frontend", "gemini", "implementation", "<YOUR_USERNAME>", "linear", "out", "patterns"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3445
+tools_needed: ["docker", "markdown", "pytest"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Apache Airflow DAG Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

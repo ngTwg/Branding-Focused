@@ -1,3 +1,14 @@
+---
+name: "Subject Line Optimization"
+tags: ["antigravity", "c:", "camouflage", "capitalization", "cold", "context", "email", "frontend", "gemini", "highly", "internal", "<YOUR_USERNAME>", "length", "line", "lines", "lowercase", "name", "only", "optimization", "over"]
+tier: 2
+risk: "medium"
+estimated_tokens: 746
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.67
+---
 # Subject Line Optimization
 
 The subject line determines whether the email gets read. The data is counterintuitive: **short, boring, internal-looking subject lines win decisively.**

@@ -1,11 +1,17 @@
 ---
-name: exa-search
-description: "Semantic search, similar content discovery, and structured research using Exa API. Use when you need semantic/embeddings-based search, finding similar content, or searching by category (company, people, research papers, etc.)."
-risk: unknown
-source: community
+name: "exa-search"
+tags: ["antigravity", "c:", "exa", "examples", "frontend", "gemini", "guide", "installation", "<YOUR_USERNAME>", "overview", "search", "specialized", "step", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 283
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.69
 date_added: "2026-02-27"
+description: "Semantic search, similar content discovery, and structured research using Exa API. Use when you need semantic/embeddings-based search, finding similar content, or searching by category (company, people, research papers, etc.)."
+source: "community"
 ---
-
 # exa-search
 
 ## Overview

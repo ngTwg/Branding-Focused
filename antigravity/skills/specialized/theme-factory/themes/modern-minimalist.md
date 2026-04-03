@@ -1,3 +1,14 @@
+---
+name: "Modern Minimalist"
+tags: ["antigravity", "best", "c:", "color", "data-engineering", "factory", "for", "gemini", "<YOUR_USERNAME>", "minimalist", "modern", "palette", "specialized", "theme", "themes", "typography", "used", "users"]
+tier: 3
+risk: "high"
+estimated_tokens: 137
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["data", "analytics"]
+quality_score: 0.54
+---
 # Modern Minimalist
 
 A clean and contemporary theme with a sophisticated grayscale palette for maximum versatility.

@@ -1,12 +1,18 @@
 ---
-name: api-fuzzing-bug-bounty
-description: "Provide comprehensive techniques for testing REST, SOAP, and GraphQL APIs during bug bounty hunting and penetration testing engagements. Covers vulnerability discovery, authentication bypass, IDOR exploitation, and API-specific attack vectors."
-risk: offensive
-source: community
-author: zebbern
+name: "api-fuzzing-bug-bounty"
+tags: ["antigravity", "api", "backend", "bounty", "bug", "c:", "core", "deliverables", "for", "frontend", "fuzzing", "gemini", "inputs", "<YOUR_USERNAME>", "outputs", "overview", "prerequisites", "purpose", "types", "users"]
+tier: 4
+risk: "medium"
+estimated_tokens: 2631
+tools_needed: ["git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+author: "zebbern"
 date_added: "2026-02-27"
+description: "Provide comprehensive techniques for testing REST, SOAP, and GraphQL APIs during bug bounty hunting and penetration testing engagements. Covers vulnerability discovery, authentication bypass, IDOR exploitation, and API-specific attack vectors."
+source: "community"
 ---
-
 > AUTHORIZED USE ONLY: Use this skill only for authorized security assessments, defensive validation, or controlled educational environments.
 
 # API Fuzzing for Bug Bounty

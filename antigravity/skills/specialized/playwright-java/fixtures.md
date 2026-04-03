@@ -1,3 +1,14 @@
+---
+name: "Playwright Java – Fixtures, Hooks & Test Data"
+tags: ["allure", "antigravity", "attachment", "auth", "authenticated", "backend", "c:", "context", "custom", "data", "extension", "factory", "failure", "fixture", "fixtures", "for", "gemini", "hooks", "java", "json"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1937
+tools_needed: ["markdown", "playwright"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.90
+---
 # Playwright Java – Fixtures, Hooks & Test Data
 
 ## JUnit 5 Extension for Playwright (Custom Fixture)

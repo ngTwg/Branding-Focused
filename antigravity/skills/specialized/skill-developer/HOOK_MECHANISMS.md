@@ -1,3 +1,14 @@
+---
+name: "Hook Mechanisms - Deep Dive"
+tags: ["antigravity", "c:", "contents", "deep", "developer", "dive", "execution", "flow", "format", "frontend", "gemini", "hook", "input", "key", "<YOUR_USERNAME>", "mechanisms", "points", "sequence", "specialized", "table"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1898
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.93
+---
 # Hook Mechanisms - Deep Dive
 
 Technical deep dive into how the UserPromptSubmit and PreToolUse hooks work.

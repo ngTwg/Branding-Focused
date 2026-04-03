@@ -1,3 +1,14 @@
+---
+name: "Development Workflows"
+tags: ["advanced", "and", "antigravity", "best", "c:", "development", "frontend", "fullstack", "gemini", "guidelines", "implementation", "<YOUR_USERNAME>", "overview", "pattern", "patterns", "practice", "practices", "references", "senior", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 404
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.70
+---
 # Development Workflows
 
 ## Overview

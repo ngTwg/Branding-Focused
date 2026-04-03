@@ -1,11 +1,17 @@
 ---
-name: inventory-demand-planning
-description: Codified expertise for demand forecasting, safety stock optimisation, replenishment planning, and promotional lift estimation at multi-location retailers.
-risk: safe
-source: https://github.com/ai-evos/agent-skills
-date_added: '2026-02-27'
+name: "inventory-demand-planning"
+tags: ["accuracy", "and", "antigravity", "c:", "context", "core", "demand", "each", "forecast", "forecasting", "frontend", "gemini", "inventory", "knowledge", "<YOUR_USERNAME>", "methods", "metrics", "planning", "role", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 6435
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+date_added: "2026-02-27"
+description: "Codified expertise for demand forecasting, safety stock optimisation, replenishment planning, and promotional lift estimation at multi-location retailers."
+source: "https://github.com/ai-evos/agent-skills"
 ---
-
 ## When to Use
 Use this skill when forecasting product demand, calculating optimal safety stock levels, planning inventory replenishment cycles, estimating the impact of retail promotions, or conducting ABC/XYZ inventory segmentation.
 

@@ -1,3 +1,14 @@
+---
+name: "Clean Agile — Deep Reference"
+tags: ["agile", "antigravity", "bob", "c:", "clean", "craft", "cross", "deep", "four", "frontend", "gemini", "iron", "<YOUR_USERNAME>", "manifesto", "practices", "reference", "references", "relationship", "specialized", "supporting"]
+tier: 2
+risk: "medium"
+estimated_tokens: 522
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
+---
 # Clean Agile — Deep Reference
 
 Based on Robert C. Martin, *Clean Agile* (2019). Use this when discussing agile values, practices, and the "Iron Cross."

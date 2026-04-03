@@ -1,3 +1,14 @@
+---
+name: "Agent SDK Patterns — Python"
+tags: ["after", "agent", "antigravity", "api", "basic", "c:", "claude", "custom", "frontend", "gemini", "hook", "hooks", "<YOUR_USERNAME>", "patterns", "python", "sdk", "specialized", "subagents", "tool", "tools"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2051
+tools_needed: ["markdown", "mcp", "playwright", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.90
+---
 # Agent SDK Patterns — Python
 
 ## Basic Agent

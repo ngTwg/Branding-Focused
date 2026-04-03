@@ -1,11 +1,19 @@
 ---
-title: {{TITLE}}
-authors: {{AUTHORS}}
-date: {{DATE}}
-arxiv:
-layout: arxiv
+name: "{{TITLE}}"
+tags: ["antigravity", "art", "arxiv", "c:", "comparison", "face", "frontend", "gemini", "hugging", "introduction", "<YOUR_USERNAME>", "paper", "prior", "publisher", "related", "specialized", "subarea", "templates", "title", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1823
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+arxiv: ""
+authors: "{{AUTHORS}}"
+date: "{{DATE}}"
+layout: "arxiv"
+title: "{{TITLE}}"
 ---
-
 # {{TITLE}}
 
 <div class="arxiv-header">

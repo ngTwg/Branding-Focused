@@ -1,3 +1,14 @@
+---
+name: "Base Legal para Coleta de Dados de Leiloeiros"
+tags: ["1932", "2011", "2018", "2019", "527", "709", "981", "acesso", "antigravity", "base", "c:", "coleta", "dados", "decreto", "drei", "frontend", "fundamento", "gemini", "geral", "informação"]
+tier: 2
+risk: "medium"
+estimated_tokens: 696
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.68
+---
 # Base Legal para Coleta de Dados de Leiloeiros
 
 ## Fundamento Legal

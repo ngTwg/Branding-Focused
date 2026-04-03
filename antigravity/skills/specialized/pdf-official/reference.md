@@ -1,3 +1,14 @@
+---
+name: "PDF Processing Advanced Reference"
+tags: ["advanced", "antigravity", "apache", "bsd", "c:", "gemini", "image", "images", "<YOUR_USERNAME>", "library", "license", "load", "official", "overview", "page", "pdf", "processing", "pypdfium2", "reference", "render"]
+tier: 3
+risk: "high"
+estimated_tokens: 4173
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["specialized", "domain"]
+quality_score: 0.95
+---
 # PDF Processing Advanced Reference
 
 This document contains advanced PDF processing features, detailed examples, and additional libraries not covered in the main skill instructions.

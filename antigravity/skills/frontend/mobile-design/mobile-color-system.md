@@ -1,3 +1,14 @@
+---
+name: "Mobile Color System Reference"
+tags: ["antigravity", "c:", "color", "considerations", "design", "different", "differs", "frontend", "fundamentals", "gemini", "how", "<YOUR_USERNAME>", "mobile", "oled", "priorities", "reference", "system", "users", "why"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2330
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Mobile Color System Reference
 
 > OLED optimization, dark mode, battery-aware colors, and outdoor visibility.

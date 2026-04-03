@@ -1,11 +1,17 @@
 ---
-name: customer-support
-description: Elite AI-powered customer support specialist mastering conversational AI, automated ticketing, sentiment analysis, and omnichannel support experiences.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "customer-support"
+tags: ["antigravity", "c:", "capabilities", "conversational", "customer", "expert", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "powered", "purpose", "skill", "specialized", "support", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2149
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.80
+date_added: "2026-02-27"
+description: "Elite AI-powered customer support specialist mastering conversational AI, automated ticketing, sentiment analysis, and omnichannel support experiences."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on customer support tasks or workflows

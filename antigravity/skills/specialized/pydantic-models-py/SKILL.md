@@ -1,11 +1,17 @@
 ---
-name: pydantic-models-py
-description: "Create Pydantic models following the multi-model pattern for clean API contracts."
-risk: unknown
-source: community
+name: "pydantic-models-py"
+tags: ["aliases", "antigravity", "c:", "camelcase", "database", "document", "fields", "frontend", "gemini", "<YOUR_USERNAME>", "model", "models", "multi", "optional", "pattern", "py", "pydantic", "quick", "specialized", "start"]
+tier: 2
+risk: "medium"
+estimated_tokens: 423
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.76
 date_added: "2026-02-27"
+description: "Create Pydantic models following the multi-model pattern for clean API contracts."
+source: "community"
 ---
-
 # Pydantic Models
 
 Create Pydantic models following the multi-model pattern for clean API contracts.

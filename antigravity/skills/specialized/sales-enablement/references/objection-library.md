@@ -1,3 +1,14 @@
+---
+name: "Objection Library"
+tags: ["antigravity", "c:", "competition", "detailed", "enablement", "frontend", "gemini", "<YOUR_USERNAME>", "library", "objection", "objections", "price", "quick", "reference", "references", "responses", "sales", "specialized", "table", "timing"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3334
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.79
+---
 # Objection Library
 
 Common B2B SaaS objections with response frameworks. Organized by category for quick reference.

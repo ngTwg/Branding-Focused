@@ -1,3 +1,14 @@
+---
+name: "Mobile Testing Patterns"
+tags: ["anti", "antigravity", "c:", "comparison", "decision", "design", "frontend", "gemini", "<YOUR_USERNAME>", "mindset", "mobile", "patterns", "selection", "specialized", "testing", "tool", "tree", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2535
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Mobile Testing Patterns
 
 > **Mobile testing is NOT web testing. Different constraints, different strategies.**

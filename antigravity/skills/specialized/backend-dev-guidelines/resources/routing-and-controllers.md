@@ -1,3 +1,14 @@
+---
+name: "Routing and Controllers - Best Practices"
+tags: ["and", "antigravity", "backend", "basecontroller", "best", "c:", "clean", "contents", "controllers", "dev", "frontend", "gemini", "golden", "guidelines", "<YOUR_USERNAME>", "only", "pattern", "practices", "resources", "route"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4972
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Routing and Controllers - Best Practices
 
 Complete guide to clean route definitions and controller patterns.

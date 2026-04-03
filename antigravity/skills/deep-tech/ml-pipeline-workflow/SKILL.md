@@ -1,11 +1,17 @@
 ---
-name: ml-pipeline-workflow
-description: "Complete end-to-end MLOps pipeline orchestration from data preparation through model deployment."
-risk: unknown
-source: community
+name: "ml-pipeline-workflow"
+tags: ["antigravity", "c:", "deep", "deep-tech", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "ml", "not", "overview", "pipeline", "provides", "skill", "tech", "this", "use", "users", "what", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1829
+tools_needed: ["kubernetes", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.89
 date_added: "2026-02-27"
+description: "Complete end-to-end MLOps pipeline orchestration from data preparation through model deployment."
+source: "community"
 ---
-
 # ML Pipeline Workflow
 
 Complete end-to-end MLOps pipeline orchestration from data preparation through model deployment.

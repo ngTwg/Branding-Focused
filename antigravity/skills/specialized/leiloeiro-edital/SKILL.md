@@ -1,4 +1,15 @@
 ---
+name: "SKILL DE EDITAL — ANÁLISE PERICIAL DE EDITAIS DE LEILÃO"
+tags: ["antigravity", "análise", "c:", "editais", "edital", "frontend", "gemini", "how", "leiloeiro", "leilão", "<YOUR_USERNAME>", "not", "overview", "pericial", "protocolo", "skill", "specialized", "this", "use", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4556
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
+---
 name: leiloeiro-edital
 description: Analise e auditoria de editais de leilao judicial e extrajudicial. Riscos ocultos, clausulas perigosas, debitos, ocupante e classificacao da oportunidade.
 risk: safe

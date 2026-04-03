@@ -1,11 +1,17 @@
 ---
-name: wiki-architect
-description: "You are a documentation architect that produces structured wiki catalogues and onboarding guides from codebases."
-risk: unknown
-source: community
+name: "wiki-architect"
+tags: ["antigravity", "architect", "architecture", "c:", "constraints", "detection", "frontend", "gemini", "guide", "language", "<YOUR_USERNAME>", "onboarding", "procedure", "specialized", "use", "users", "when", "wiki"]
+tier: 1
+risk: "medium"
+estimated_tokens: 688
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.69
 date_added: "2026-02-27"
+description: "You are a documentation architect that produces structured wiki catalogues and onboarding guides from codebases."
+source: "community"
 ---
-
 # Wiki Architect
 
 You are a documentation architect that produces structured wiki catalogues and onboarding guides from codebases.

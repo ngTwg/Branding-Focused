@@ -1,10 +1,17 @@
 ---
-title: Follow Workflow Constraints
-impact: CRITICAL
-impactDescription: Violating constraints breaks recovery and durability guarantees
-tags: workflow, constraints, rules, best-practices
+name: "Follow Workflow Constraints"
+tags: ["workflow, constraints, rules, best-practices"]
+tier: 2
+risk: "medium"
+estimated_tokens: 520
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.59
+impact: "CRITICAL"
+impactDescription: "Violating constraints breaks recovery and durability guarantees"
+title: "Follow Workflow Constraints"
 ---
-
 ## Follow Workflow Constraints
 
 Workflows have specific constraints to maintain durability guarantees. Violating them can break recovery.

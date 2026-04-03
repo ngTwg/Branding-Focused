@@ -1,3 +1,14 @@
+---
+name: "AI Agent & LLM Pipeline Security Guide"
+tags: ["007", "agent", "ai", "antigravity", "attacks", "c:", "direct", "extraction", "frontend", "gemini", "goal", "guide", "hijacking", "injection", "instruction", "<YOUR_USERNAME>", "llm", "override", "pipeline", "prompt"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3733
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # AI Agent & LLM Pipeline Security Guide
 
 > Security patterns, attacks, and defenses for AI agents, LLM applications, and prompt pipelines.

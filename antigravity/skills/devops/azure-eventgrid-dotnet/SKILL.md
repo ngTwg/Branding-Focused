@@ -1,11 +1,17 @@
 ---
-name: azure-eventgrid-dotnet
-description: Azure Event Grid SDK for .NET. Client library for publishing and consuming events with Azure Event Grid. Use for event-driven architectures, pub/sub messaging, CloudEvents, and EventGridEvents.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "azure-eventgrid-dotnet"
+tags: ["and", "antigravity", "azure", "c:", "cloudevents", "cloudnative", "delivery", "devops", "domains", "dotnet", "environment", "eventgrid", "for", "frontend", "gemini", "installation", "interop", "<YOUR_USERNAME>", "messaging", "namespaces"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3290
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+date_added: "2026-02-27"
+description: "Azure Event Grid SDK for .NET. Client library for publishing and consuming events with Azure Event Grid. Use for event-driven architectures, pub/sub messaging, CloudEvents, and EventGridEvents."
+source: "community"
 ---
-
 # Azure.Messaging.EventGrid (.NET)
 
 Client library for publishing events to Azure Event Grid topics, domains, and namespaces.

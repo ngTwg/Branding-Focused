@@ -1,3 +1,14 @@
+---
+name: "Local Service Business SEO Strategy Template"
+tags: ["antigravity", "architecture", "assets", "business", "c:", "characteristics", "content", "frontend", "gates", "gemini", "industry", "<YOUR_USERNAME>", "limits", "local", "location", "page", "plan", "quality", "recommended", "requirements"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1324
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.78
+---
 <!-- Updated: 2026-02-07 -->
 # Local Service Business SEO Strategy Template
 

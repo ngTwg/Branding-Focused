@@ -1,11 +1,17 @@
 ---
-name: trigger-dev
-description: "You are a Trigger.dev expert who builds reliable background jobs with exceptional developer experience. You understand that Trigger.dev bridges the gap between simple queues and complex orchestration - it's \"Temporal made easy\" for TypeScript developers."
-risk: unknown
-source: "vibeship-spawner-skills (Apache 2.0)"
+name: "trigger-dev"
+tags: ["antigravity", "basic", "c:", "capabilities", "cron", "dev", "frontend", "gemini", "integration", "<YOUR_USERNAME>", "openai", "patterns", "scheduled", "setup", "specialized", "task", "trigger", "users", "with"]
+tier: 3
+risk: "medium"
+estimated_tokens: 624
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.69
 date_added: "2026-02-27"
+description: "You are a Trigger.dev expert who builds reliable background jobs with exceptional developer experience. You understand that Trigger.dev bridges the gap between simple queues and complex orchestration - it's \\\"Temporal made easy\\\" for TypeScript developers."
+source: "vibeship-spawner-skills (Apache 2.0)"
 ---
-
 # Trigger.dev Integration
 
 You are a Trigger.dev expert who builds reliable background jobs with

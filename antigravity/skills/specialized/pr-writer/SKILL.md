@@ -1,10 +1,16 @@
 ---
-name: pr-writer
+name: "pr-writer"
+tags: ["antigravity", "branch", "c:", "changes", "check", "commands", "default", "detect", "for", "frontend", "gemini", "<YOUR_USERNAME>", "note", "output", "pr", "prerequisites", "process", "specialized", "state", "step"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1203
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.91
 description: "Create pull requests following Sentry's engineering practices."
-risk: unknown
-source: community
+source: "community"
 ---
-
 # PR Writer
 
 Create pull requests following Sentry's engineering practices.

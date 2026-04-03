@@ -1,12 +1,17 @@
 ---
-name: fp-types-ref
-description: Quick reference for fp-ts types. Use when user asks which type to use, needs Option/Either/Task decision help, or wants fp-ts imports.
-risk: safe
-source: community
-version: 1.0.0
-tags: [fp-ts, typescript, quick-reference, option, either, task]
+name: "fp-types-ref"
+tags: ["[fp-ts, typescript, quick-reference, option, either, task]"]
+tier: 2
+risk: "medium"
+estimated_tokens: 422
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.71
+description: "Quick reference for fp-ts types. Use when user asks which type to use, needs Option/Either/Task decision help, or wants fp-ts imports."
+source: "community"
+version: "1.0.0"
 ---
-
 # fp-ts Quick Reference
 
 ## Which Type Should I Use?

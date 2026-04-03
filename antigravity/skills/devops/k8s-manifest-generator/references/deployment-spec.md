@@ -1,3 +1,14 @@
+---
+name: "Kubernetes Deployment Specification Reference"
+tags: ["antigravity", "backend", "c:", "complete", "deployment", "devops", "field", "fields", "gemini", "generator", "k8s", "kubernetes", "<YOUR_USERNAME>", "manifest", "metadata", "overview", "reference", "references", "spec", "specification"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4266
+tools_needed: ["kubernetes", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.95
+---
 # Kubernetes Deployment Specification Reference
 
 Comprehensive reference for Kubernetes Deployment resources, covering all key fields, best practices, and common patterns.

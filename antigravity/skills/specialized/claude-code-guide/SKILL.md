@@ -1,11 +1,17 @@
 ---
-name: claude-code-guide
-description: "To provide a comprehensive reference for configuring and using Claude Code (the agentic coding tool) to its full potential. This skill synthesizes best practices, configuration templates, and advanced usage patterns."
-risk: unknown
-source: community
+name: "claude-code-guide"
+tags: ["antigravity", "c:", "claude", "code", "commands", "configuration", "frontend", "gemini", "general", "guide", "guidelines", "<YOUR_USERNAME>", "project", "purpose", "specialized", "template", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 579
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.72
 date_added: "2026-02-27"
+description: "To provide a comprehensive reference for configuring and using Claude Code (the agentic coding tool) to its full potential. This skill synthesizes best practices, configuration templates, and advanced usage patterns."
+source: "community"
 ---
-
 # Claude Code Guide
 
 ## Purpose

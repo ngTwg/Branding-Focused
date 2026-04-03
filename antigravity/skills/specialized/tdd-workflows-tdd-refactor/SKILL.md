@@ -1,11 +1,17 @@
 ---
-name: tdd-workflows-tdd-refactor
-description: "Use when working with tdd workflows tdd refactor"
-risk: unknown
-source: community
+name: "tdd-workflows-tdd-refactor"
+tags: ["antigravity", "c:", "core", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "output", "process", "refactor", "requirements", "skill", "specialized", "tdd", "this", "usage", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1509
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 date_added: "2026-02-27"
+description: "Use when working with tdd workflows tdd refactor"
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on tdd workflows tdd refactor tasks or workflows

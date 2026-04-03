@@ -1,11 +1,17 @@
 ---
-name: test-automator
-description: Master AI-powered test automation with modern frameworks, self-healing tests, and comprehensive quality engineering. Build scalable testing strategies with advanced CI/CD integration.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "test-automator"
+tags: ["antigravity", "automator", "c:", "capabilities", "development", "driven", "excellence", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "purpose", "skill", "specialized", "tdd", "test", "this", "use", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2782
+tools_needed: ["docker", "git", "kubernetes", "markdown", "playwright"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+date_added: "2026-02-27"
+description: "Master AI-powered test automation with modern frameworks, self-healing tests, and comprehensive quality engineering. Build scalable testing strategies with advanced CI/CD integration."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on test automator tasks or workflows

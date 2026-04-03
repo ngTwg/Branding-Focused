@@ -1,11 +1,17 @@
 ---
-name: azure-ai-contentsafety-ts
-description: "Analyze text and images for harmful content with customizable blocklists."
-risk: unknown
-source: community
+name: "azure-ai-contentsafety-ts"
+tags: ["ai", "antigravity", "api", "authentication", "azure", "backend", "c:", "content", "contentsafety", "defaultazurecredential", "devops", "environment", "for", "gemini", "installation", "key", "<YOUR_USERNAME>", "rest", "safety", "sdk"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1906
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.92
 date_added: "2026-02-27"
+description: "Analyze text and images for harmful content with customizable blocklists."
+source: "community"
 ---
-
 # Azure AI Content Safety REST SDK for TypeScript
 
 Analyze text and images for harmful content with customizable blocklists.

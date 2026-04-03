@@ -1,11 +1,17 @@
 ---
-name: postmark-automation
-description: "Automate Postmark email delivery tasks via Rube MCP (Composio): send templated emails, manage templates, monitor delivery stats and bounces. Always search tools first for current schemas."
-risk: critical
-source: community
+name: "postmark-automation"
+tags: ["antigravity", "automation", "batch", "c:", "core", "email", "emails", "frontend", "gemini", "<YOUR_USERNAME>", "manage", "mcp", "postmark", "prerequisites", "rube", "send", "setup", "specialized", "templated", "templates"]
+tier: 2
+risk: "critical"
+estimated_tokens: 2006
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.82
 date_added: "2026-02-27"
+description: "Automate Postmark email delivery tasks via Rube MCP (Composio): send templated emails, manage templates, monitor delivery stats and bounces. Always search tools first for current schemas."
+source: "community"
 ---
-
 # Postmark Automation via Rube MCP
 
 Automate Postmark transactional email operations through Composio's Postmark toolkit via Rube MCP.

@@ -1,0 +1,106 @@
+{
+  "version": "1.0.0",
+  "description": "Wave 4 composition rules for routing intent into ordered skill chains.",
+  "rules": [
+    {
+      "id": "build-saas-mvp",
+      "keywords": [
+        "saas",
+        "mvp",
+        "auth",
+        "billing",
+        "subscription"
+      ],
+      "skill_chain": [
+        "saas-mvp-launcher",
+        "authentication",
+        "stripe-integration",
+        "database-patterns",
+        "cicd-pipelines",
+        "observability"
+      ],
+      "templates": [
+        "build-saas"
+      ]
+    },
+    {
+      "id": "security-incident-response",
+      "keywords": [
+        "security",
+        "incident",
+        "xss",
+        "sqli",
+        "owasp",
+        "pentest"
+      ],
+      "skill_chain": [
+        "attack-vectors",
+        "api-security-best-practices",
+        "debug-protocol",
+        "security-testing",
+        "incident-management"
+      ],
+      "templates": [
+        "security-pentest"
+      ]
+    },
+    {
+      "id": "ai-agent-orchestration",
+      "keywords": [
+        "agent",
+        "multi-agent",
+        "orchestrate",
+        "mcp",
+        "rag"
+      ],
+      "skill_chain": [
+        "ai-agents-master-inventory",
+        "mcp-builder",
+        "conversation-memory",
+        "workflows-master-inventory"
+      ],
+      "templates": [
+        "agent-workflow"
+      ]
+    },
+    {
+      "id": "data-platform-delivery",
+      "keywords": [
+        "etl",
+        "analytics",
+        "warehouse",
+        "pipeline",
+        "clickhouse"
+      ],
+      "skill_chain": [
+        "data-engineering-master-inventory",
+        "data-transformation",
+        "streaming-data",
+        "observability"
+      ],
+      "templates": [
+        "data-platform"
+      ]
+    },
+    {
+      "id": "frontend-product-launch",
+      "keywords": [
+        "frontend",
+        "react",
+        "next",
+        "landing page",
+        "seo"
+      ],
+      "skill_chain": [
+        "frontend-master-inventory",
+        "react-patterns",
+        "css-styling",
+        "web-performance",
+        "programmatic-seo"
+      ],
+      "templates": [
+        "frontend-launch"
+      ]
+    }
+  ]
+}

@@ -1,10 +1,17 @@
 ---
-title: Follow Workflow Constraints
-impact: CRITICAL
-impactDescription: Violating constraints causes failures or incorrect behavior
-tags: workflow, step, constraints, rules
+name: "Follow Workflow Constraints"
+tags: ["workflow, step, constraints, rules"]
+tier: 1
+risk: "medium"
+estimated_tokens: 419
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.64
+impact: "CRITICAL"
+impactDescription: "Violating constraints causes failures or incorrect behavior"
+title: "Follow Workflow Constraints"
 ---
-
 ## Follow Workflow Constraints
 
 DBOS workflows and steps have specific constraints that must be followed for correct operation.

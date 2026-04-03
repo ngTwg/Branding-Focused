@@ -1,3 +1,14 @@
+---
+name: "Performance guardrails"
+tags: ["antigravity", "body", "c:", "core", "example", "expensive", "frontend", "further", "gemini", "guardrails", "identity", "intent", "investigate", "<YOUR_USERNAME>", "move", "out", "patterns", "performance", "references", "rules"]
+tier: 2
+risk: "medium"
+estimated_tokens: 497
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.73
+---
 # Performance guardrails
 
 ## Intent

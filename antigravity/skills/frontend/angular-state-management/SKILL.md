@@ -1,11 +1,17 @@
 ---
-name: angular-state-management
-description: "Master modern Angular state management with Signals, NgRx, and RxJS. Use when setting up global state, managing component stores, choosing between state solutions, or migrating from legacy patterns."
-risk: safe
-source: self
+name: "angular-state-management"
+tags: ["angular", "antigravity", "c:", "categories", "concepts", "core", "criteria", "frontend", "gemini", "<YOUR_USERNAME>", "management", "not", "selection", "skill", "state", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3851
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Master modern Angular state management with Signals, NgRx, and RxJS. Use when setting up global state, managing component stores, choosing between state solutions, or migrating from legacy patterns."
+source: "self"
 ---
-
 # Angular State Management
 
 Comprehensive guide to modern Angular state management patterns, from Signal-based local state to global stores and server state synchronization.

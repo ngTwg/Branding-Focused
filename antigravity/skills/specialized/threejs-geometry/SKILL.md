@@ -1,10 +1,16 @@
 ---
-name: threejs-geometry
-description: Three.js geometry creation - built-in shapes, BufferGeometry, custom geometry, instancing. Use when creating 3D shapes, working with vertices, building custom meshes, or optimizing with instanced rendering.
-risk: unknown
-source: community
+name: "threejs-geometry"
+tags: ["advanced", "antigravity", "based", "basic", "built", "c:", "frontend", "gemini", "geometries", "geometry", "<YOUR_USERNAME>", "path", "quick", "shapes", "specialized", "start", "three", "threejs", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3722
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+description: "Three.js geometry creation - built-in shapes, BufferGeometry, custom geometry, instancing. Use when creating 3D shapes, working with vertices, building custom meshes, or optimizing with instanced rendering."
+source: "community"
 ---
-
 # Three.js Geometry
 
 ## Quick Start

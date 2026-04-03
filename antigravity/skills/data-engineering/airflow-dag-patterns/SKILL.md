@@ -1,11 +1,17 @@
 ---
-name: airflow-dag-patterns
-description: "Build production Apache Airflow DAGs with best practices for operators, sensors, testing, and deployment. Use when creating data pipelines, orchestrating workflows, or scheduling batch jobs."
-risk: safe
-source: community
+name: "airflow-dag-patterns"
+tags: ["airflow", "antigravity", "apache", "c:", "dag", "data", "data-engineering", "engineering", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "patterns", "resources", "safety", "skill", "this", "use", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 369
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.62
 date_added: "2026-02-27"
+description: "Build production Apache Airflow DAGs with best practices for operators, sensors, testing, and deployment. Use when creating data pipelines, orchestrating workflows, or scheduling batch jobs."
+source: "community"
 ---
-
 # Apache Airflow DAG Patterns
 
 Production-ready patterns for Apache Airflow including DAG design, operators, sensors, testing, and deployment strategies.

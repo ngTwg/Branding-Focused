@@ -1,3 +1,14 @@
+---
+name: "Golden Hour"
+tags: ["antigravity", "best", "c:", "color", "factory", "for", "gemini", "golden", "hour", "<YOUR_USERNAME>", "palette", "specialized", "theme", "themes", "typography", "used", "users"]
+tier: 3
+risk: "high"
+estimated_tokens: 132
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["specialized", "domain"]
+quality_score: 0.54
+---
 # Golden Hour
 
 A rich and warm autumnal palette that creates an inviting and sophisticated atmosphere.

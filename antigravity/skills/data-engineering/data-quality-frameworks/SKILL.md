@@ -1,11 +1,17 @@
 ---
-name: data-quality-frameworks
-description: "Implement data quality validation with Great Expectations, dbt tests, and data contracts. Use when building data quality pipelines, implementing validation rules, or establishing data contracts."
-risk: unknown
-source: community
+name: "data-quality-frameworks"
+tags: ["antigravity", "c:", "data", "data-engineering", "engineering", "frameworks", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "quality", "resources", "safety", "skill", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 366
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.62
 date_added: "2026-02-27"
+description: "Implement data quality validation with Great Expectations, dbt tests, and data contracts. Use when building data quality pipelines, implementing validation rules, or establishing data contracts."
+source: "community"
 ---
-
 # Data Quality Frameworks
 
 Production patterns for implementing data quality with Great Expectations, dbt tests, and data contracts to ensure reliable data pipelines.

@@ -1,4 +1,15 @@
 ---
+name: "Planning with Files"
+tags: ["antigravity", "c:", "core", "critical", "file", "files", "frontend", "gemini", "important", "<YOUR_USERNAME>", "pattern", "planning", "purposes", "quick", "rules", "start", "the", "users", "where", "with"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1644
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
+---
+---
 name: planning-with-files
 version: "2.1.2"
 description: Implements Manus-style file-based planning for complex tasks. Creates task_plan.md, findings.md, and progress.md. Use when starting complex multi-step tasks, research projects, or any task requiring >5 tool calls.

@@ -1,10 +1,17 @@
 ---
-title: Use Queues for Concurrent Workflows
-impact: HIGH
-impactDescription: Queues provide managed concurrency and flow control
-tags: queue, concurrency, enqueue, workflow
+name: "Use Queues for Concurrent Workflows"
+tags: ["queue, concurrency, enqueue, workflow"]
+tier: 1
+risk: "medium"
+estimated_tokens: 405
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.57
+impact: "HIGH"
+impactDescription: "Queues provide managed concurrency and flow control"
+title: "Use Queues for Concurrent Workflows"
 ---
-
 ## Use Queues for Concurrent Workflows
 
 Queues run many workflows concurrently with managed flow control. Use them when you need to control how many workflows run at once.

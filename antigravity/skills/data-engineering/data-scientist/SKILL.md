@@ -1,11 +1,17 @@
 ---
-name: data-scientist
-description: Expert data scientist for advanced analytics, machine learning, and statistical modeling. Handles complex data analysis, predictive modeling, and business intelligence.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "data-scientist"
+tags: ["analysis", "antigravity", "c:", "capabilities", "data", "data-engineering", "engineering", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "methodology", "not", "purpose", "scientist", "skill", "statistical", "this", "use", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2575
+tools_needed: ["docker", "git", "markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+date_added: "2026-02-27"
+description: "Expert data scientist for advanced analytics, machine learning, and statistical modeling. Handles complex data analysis, predictive modeling, and business intelligence."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on data scientist tasks or workflows

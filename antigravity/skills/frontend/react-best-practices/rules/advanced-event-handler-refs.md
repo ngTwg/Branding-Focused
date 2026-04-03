@@ -1,10 +1,17 @@
 ---
-title: Store Event Handlers in Refs
-impact: LOW
-impactDescription: stable subscriptions
-tags: advanced, hooks, refs, event-handlers, optimization
+name: "Store Event Handlers in Refs"
+tags: ["advanced, hooks, refs, event-handlers, optimization"]
+tier: 2
+risk: "medium"
+estimated_tokens: 369
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
+impact: "LOW"
+impactDescription: "stable subscriptions"
+title: "Store Event Handlers in Refs"
 ---
-
 ## Store Event Handlers in Refs
 
 Store callbacks in refs when used in effects that shouldn't re-subscribe on callback changes.

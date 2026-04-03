@@ -1,3 +1,14 @@
+---
+name: "Antigravity UI & Motion Design Expert"
+tags: ["animation", "antigravity", "c:", "constraints", "design", "execution", "expert", "frontend", "gemini", "<YOUR_USERNAME>", "motion", "overview", "preferred", "principles", "role", "rules", "specialized", "stack", "tech", "the"]
+tier: 2
+risk: "medium"
+estimated_tokens: 666
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.63
+---
 --- 
 name: antigravity-design-expert
 description: Core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS.

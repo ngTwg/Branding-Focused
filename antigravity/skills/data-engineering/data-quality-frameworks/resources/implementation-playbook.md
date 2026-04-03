@@ -1,3 +1,14 @@
+---
+name: "Data Quality Frameworks Implementation Playbook"
+tags: ["antigravity", "c:", "concepts", "core", "data", "data-engineering", "dimensions", "engineering", "expectations", "for", "frameworks", "frontend", "gemini", "great", "implementation", "<YOUR_USERNAME>", "playbook", "pyramid", "quality", "quick"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3829
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Data Quality Frameworks Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

@@ -1,10 +1,16 @@
 ---
-name: n8n-workflow-patterns
+name: "n8n-workflow-patterns"
+tags: ["antigravity", "c:", "common", "components", "core", "each", "frontend", "gemini", "guide", "<YOUR_USERNAME>", "n8n", "pattern", "patterns", "selection", "specialized", "the", "triggers", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2726
+tools_needed: ["git", "markdown", "mcp", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 description: "Proven architectural patterns for building n8n workflows."
-risk: unknown
-source: community
+source: "community"
 ---
-
 # n8n Workflow Patterns
 
 Proven architectural patterns for building n8n workflows.

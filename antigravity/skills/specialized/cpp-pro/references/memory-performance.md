@@ -1,3 +1,14 @@
+---
+name: "Memory Management & Performance"
+tags: ["allocators", "antigravity", "c:", "cache", "cpp", "custom", "design", "friendly", "frontend", "gemini", "<YOUR_USERNAME>", "management", "memory", "move", "optimization", "performance", "pointers", "pro", "references", "semantics"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2276
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.94
+---
 # Memory Management & Performance
 
 ## Smart Pointers

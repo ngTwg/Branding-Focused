@@ -1,3 +1,14 @@
+---
+name: "Bash Defensive Patterns Implementation Playbook"
+tags: ["and", "antigravity", "bash", "c:", "cleanup", "code", "core", "defensive", "error", "frontend", "gemini", "here", "implementation", "<YOUR_USERNAME>", "mode", "patterns", "playbook", "principles", "resources", "safety"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2756
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Bash Defensive Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

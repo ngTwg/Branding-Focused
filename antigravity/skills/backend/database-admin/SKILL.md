@@ -1,11 +1,17 @@
 ---
-name: database-admin
-description: Expert database administrator specializing in modern cloud databases, automation, and reliability engineering.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "database-admin"
+tags: ["admin", "antigravity", "backend", "c:", "capabilities", "cloud", "database", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "platforms", "purpose", "skill", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2438
+tools_needed: ["ansible", "git", "kubernetes", "markdown", "sql", "terminal", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+date_added: "2026-02-27"
+description: "Expert database administrator specializing in modern cloud databases, automation, and reliability engineering."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on database admin tasks or workflows

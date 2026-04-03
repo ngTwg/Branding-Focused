@@ -1,3 +1,14 @@
+---
+name: "Sections"
+tags: ["antigravity", "async", "best", "bundle", "c:", "client", "data", "eliminating", "fetching", "frontend", "gemini", "<YOUR_USERNAME>", "optimization", "performance", "practices", "react", "render", "rerender", "rules", "sections"]
+tier: 2
+risk: "medium"
+estimated_tokens: 388
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.64
+---
 # Sections
 
 This file defines all sections, their ordering, impact levels, and descriptions.

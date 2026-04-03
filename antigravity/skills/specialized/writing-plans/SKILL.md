@@ -1,11 +1,17 @@
 ---
-name: writing-plans
-description: "Use when you have a spec or requirements for a multi-step task, before touching code"
-risk: critical
-source: community
+name: "writing-plans"
+tags: ["antigravity", "bite", "c:", "document", "feature", "frontend", "gemini", "granularity", "header", "implementation", "<YOUR_USERNAME>", "name", "overview", "plan", "plans", "sized", "specialized", "structure", "task", "users"]
+tier: 2
+risk: "critical"
+estimated_tokens: 856
+tools_needed: ["git", "markdown", "pytest", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
 date_added: "2026-02-27"
+description: "Use when you have a spec or requirements for a multi-step task, before touching code"
+source: "community"
 ---
-
 # Writing Plans
 
 ## Overview

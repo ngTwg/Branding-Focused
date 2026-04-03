@@ -1,9 +1,16 @@
 ---
-name: 2d-games
-description: 2D game development principles. Sprites, tilemaps, physics, camera.
-allowed-tools: Read, Write, Edit, Glob, Grep
+name: "2d-games"
+tags: ["2d", "animation", "antigravity", "c:", "considerations", "design", "development", "frontend", "game", "games", "gemini", "<YOUR_USERNAME>", "organization", "principles", "specialized", "sprite", "systems", "tile", "tilemap", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 546
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.66
+allowed-tools: "Read, Write, Edit, Glob, Grep"
+description: "2D game development principles. Sprites, tilemaps, physics, camera."
 ---
-
 # 2D Game Development
 
 > Principles for 2D game systems.

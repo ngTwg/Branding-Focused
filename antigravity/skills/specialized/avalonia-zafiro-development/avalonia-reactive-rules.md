@@ -1,3 +1,14 @@
+---
+name: "Avalonia, Zafiro & Reactive Rules"
+tags: ["anti", "antigravity", "approach", "avalonia", "c:", "development", "dynamicdata", "forbidden", "frontend", "gemini", "guidelines", "<YOUR_USERNAME>", "mandatory", "patterns", "reactive", "rules", "specialized", "the", "users", "zafiro"]
+tier: 2
+risk: "medium"
+estimated_tokens: 487
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.69
+---
 # Avalonia, Zafiro & Reactive Rules
 
 ## Avalonia UI Rules

@@ -1,13 +1,19 @@
 ---
-id: 20-andruia-niche-intelligence
-name: 20-andruia-niche-intelligence
-description: "Estratega de Inteligencia de Dominio de Andru.ia. Analiza el nicho específico de un proyecto para inyectar conocimientos, regulaciones y estándares únicos del sector. Actívalo tras definir el nicho."
-category: andruia
-risk: safe
-source: personal
+name: "20-andruia-niche-intelligence"
+tags: ["20", "andru", "andruia", "antigravity", "análisis", "c:", "descripción", "dominio", "experto", "fase", "flujo", "frontend", "gemini", "generales", "instrucciones", "intelligence", "inyección", "<YOUR_USERNAME>", "niche", "protocolo"]
+tier: 2
+risk: "medium"
+estimated_tokens: 869
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.72
+category: "andruia"
 date_added: "2026-02-27"
+description: "Estratega de Inteligencia de Dominio de Andru.ia. Analiza el nicho específico de un proyecto para inyectar conocimientos, regulaciones y estándares únicos del sector. Actívalo tras definir el nicho."
+id: "20-andruia-niche-intelligence"
+source: "personal"
 ---
-
 ## When to Use
 Use this skill once the project's niche or industry has been identified. It is essential for injecting domain-specific intelligence, regulatory requirements, and industry-standard UX patterns into the project.
 

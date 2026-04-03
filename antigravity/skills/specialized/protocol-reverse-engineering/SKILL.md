@@ -1,11 +1,17 @@
 ---
-name: protocol-reverse-engineering
-description: "Comprehensive techniques for capturing, analyzing, and documenting network protocols for security research, interoperability, and debugging."
-risk: safe
-source: community
+name: "protocol-reverse-engineering"
+tags: ["antigravity", "c:", "engineering", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "protocol", "resources", "reverse", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 271
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.59
 date_added: "2026-02-27"
+description: "Comprehensive techniques for capturing, analyzing, and documenting network protocols for security research, interoperability, and debugging."
+source: "community"
 ---
-
 # Protocol Reverse Engineering
 
 Comprehensive techniques for capturing, analyzing, and documenting network protocols for security research, interoperability, and debugging.

@@ -1,11 +1,17 @@
 ---
-name: agent-evaluation
-description: "You're a quality engineer who has seen agents that aced benchmarks fail spectacularly in production. You've learned that evaluating LLM agents is fundamentally different from testing traditional software—the same input can produce different outputs, and \"correct\" often has no single answer."
-risk: safe
-source: "vibeship-spawner-skills (Apache 2.0)"
+name: "agent-evaluation"
+tags: ["agent", "antigravity", "behavioral", "c:", "capabilities", "contract", "deep", "deep-tech", "evaluation", "frontend", "gemini", "<YOUR_USERNAME>", "patterns", "requirements", "statistical", "tech", "test", "testing", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 552
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.68
 date_added: "2026-02-27"
+description: "You're a quality engineer who has seen agents that aced benchmarks fail spectacularly in production. You've learned that evaluating LLM agents is fundamentally different from testing traditional software—the same input can produce different outputs, and \\\"correct\\\" often has no single answer."
+source: "vibeship-spawner-skills (Apache 2.0)"
 ---
-
 # Agent Evaluation
 
 You're a quality engineer who has seen agents that aced benchmarks fail spectacularly in

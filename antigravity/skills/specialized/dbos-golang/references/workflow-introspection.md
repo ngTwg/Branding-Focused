@@ -1,10 +1,17 @@
 ---
-title: List and Inspect Workflows
-impact: MEDIUM
-impactDescription: Enables monitoring and debugging of workflow executions
-tags: workflow, list, inspect, status, monitoring
+name: "List and Inspect Workflows"
+tags: ["workflow, list, inspect, status, monitoring"]
+tier: 1
+risk: "medium"
+estimated_tokens: 466
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["engineering", "productivity"]
+quality_score: 0.64
+impact: "MEDIUM"
+impactDescription: "Enables monitoring and debugging of workflow executions"
+title: "List and Inspect Workflows"
 ---
-
 ## List and Inspect Workflows
 
 Use `dbos.ListWorkflows` to query workflow executions by status, name, time range, and other criteria.

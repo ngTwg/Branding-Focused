@@ -1,3 +1,14 @@
+---
+name: "The Clean Coder — Deep Reference"
+tags: ["and", "antigravity", "bob", "c:", "clean", "coder", "collaboration", "craft", "deep", "estimation", "frontend", "gemini", "<YOUR_USERNAME>", "mentoring", "pace", "professionalism", "reference", "references", "requirement", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 603
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.63
+---
 # The Clean Coder — Deep Reference
 
 Based on Robert C. Martin, *The Clean Coder* (2011). Use this when discussing professionalism, estimation, and sustainable pace.

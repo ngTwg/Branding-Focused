@@ -1,11 +1,17 @@
 ---
-name: content-marketer
-description: Elite content marketing strategist specializing in AI-powered content creation, omnichannel distribution, SEO optimization, and data-driven performance marketing.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "content-marketer"
+tags: ["antigravity", "c:", "capabilities", "content", "creation", "expert", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "marketer", "not", "powered", "purpose", "skill", "specialized", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2151
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+date_added: "2026-02-27"
+description: "Elite content marketing strategist specializing in AI-powered content creation, omnichannel distribution, SEO optimization, and data-driven performance marketing."
+source: "community"
 ---
-
 ## Use this skill when
 
 - Working on content marketer tasks or workflows

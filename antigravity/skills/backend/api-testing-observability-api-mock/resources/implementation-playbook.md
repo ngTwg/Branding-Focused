@@ -1,3 +1,14 @@
+---
+name: "API Mocking Implementation Playbook"
+tags: ["antigravity", "api", "backend", "c:", "data", "detailed", "dynamic", "example", "frontend", "gemini", "generation", "implementation", "<YOUR_USERNAME>", "mock", "mocking", "observability", "playbook", "request", "resources", "response"]
+tier: 3
+risk: "medium"
+estimated_tokens: 10542
+tools_needed: ["docker", "kubernetes", "markdown", "pytest", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # API Mocking Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

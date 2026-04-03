@@ -1,11 +1,17 @@
 ---
-name: amplitude-automation
-description: "Automate Amplitude tasks via Rube MCP (Composio): events, user activity, cohorts, user identification. Always search tools first for current schemas."
-risk: critical
-source: community
+name: "amplitude-automation"
+tags: ["activity", "amplitude", "antigravity", "automation", "c:", "core", "events", "frontend", "gemini", "get", "<YOUR_USERNAME>", "mcp", "prerequisites", "rube", "send", "setup", "specialized", "user", "users", "via"]
+tier: 2
+risk: "critical"
+estimated_tokens: 2023
+tools_needed: ["git", "markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.92
 date_added: "2026-02-27"
+description: "Automate Amplitude tasks via Rube MCP (Composio): events, user activity, cohorts, user identification. Always search tools first for current schemas."
+source: "community"
 ---
-
 # Amplitude Automation via Rube MCP
 
 Automate Amplitude product analytics through Composio's Amplitude toolkit via Rube MCP.

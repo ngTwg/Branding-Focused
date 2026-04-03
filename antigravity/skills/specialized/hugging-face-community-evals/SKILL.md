@@ -1,10 +1,16 @@
 ---
+name: "hugging-face-community-evals"
+tags: ["antigravity", "c:", "community", "core", "evals", "face", "frontend", "gemini", "hugging", "<YOUR_USERNAME>", "overview", "prerequisites", "quick", "script", "specialized", "start", "use", "users", "when", "which"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1645
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+description: "Run local evaluations for Hugging Face Hub models with inspect-ai or lighteval."
 source: "https://github.com/huggingface/skills/tree/main/skills/huggingface-community-evals"
-name: hugging-face-community-evals
-description: Run local evaluations for Hugging Face Hub models with inspect-ai or lighteval.
-risk: unknown
 ---
-
 # Overview
 
 ## When to Use

@@ -1,11 +1,17 @@
 ---
-name: segment-cdp
-description: "Client-side tracking with Analytics.js. Include track, identify, page, and group calls. Anonymous ID persists until identify merges with user."
-risk: safe
-source: "vibeship-spawner-skills (Apache 2.0)"
+name: "segment-cdp"
+tags: ["analytics", "anti", "antigravity", "browser", "c:", "cdp", "design", "frontend", "gemini", "integration", "<YOUR_USERNAME>", "node", "patterns", "plan", "segment", "server", "side", "specialized", "tracking", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 351
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.66
 date_added: "2026-02-27"
+description: "Client-side tracking with Analytics.js. Include track, identify, page, and group calls. Anonymous ID persists until identify merges with user."
+source: "vibeship-spawner-skills (Apache 2.0)"
 ---
-
 # Segment CDP
 
 ## Patterns

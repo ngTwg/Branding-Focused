@@ -1,3 +1,14 @@
+---
+name: "Wizards & Flows"
+tags: ["antigravity", "avalonia", "c:", "configuration", "defining", "flows", "frontend", "gemini", "integration", "<YOUR_USERNAME>", "navigation", "rules", "specialized", "step", "users", "viewmodels", "wizard", "wizards", "zafiro"]
+tier: 2
+risk: "medium"
+estimated_tokens: 390
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.64
+---
 # Wizards & Flows
 
 Complex multi-step processes are handled using the `SlimWizard` pattern. This provides a declarative way to define steps, navigation logic, and final results.

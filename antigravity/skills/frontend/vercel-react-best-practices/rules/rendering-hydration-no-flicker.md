@@ -1,10 +1,17 @@
 ---
-title: Prevent Hydration Mismatch Without Flickering
-impact: MEDIUM
-impactDescription: avoids visual flicker and hydration errors
-tags: rendering, ssr, hydration, localStorage, flicker
+name: "Prevent Hydration Mismatch Without Flickering"
+tags: ["rendering, ssr, hydration, localStorage, flicker"]
+tier: 2
+risk: "medium"
+estimated_tokens: 577
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.61
+impact: "MEDIUM"
+impactDescription: "avoids visual flicker and hydration errors"
+title: "Prevent Hydration Mismatch Without Flickering"
 ---
-
 ## Prevent Hydration Mismatch Without Flickering
 
 When rendering content that depends on client-side storage (localStorage, cookies), avoid both SSR breakage and post-hydration flickering by injecting a synchronous script that updates the DOM before React hydrates.

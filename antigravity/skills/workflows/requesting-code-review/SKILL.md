@@ -1,8 +1,15 @@
 ---
-name: requesting-code-review
-description: Use when completing tasks, implementing major features, or before merging to verify work meets requirements
+name: "requesting-code-review"
+tags: ["antigravity", "c:", "code", "example", "flags", "frontend", "gemini", "how", "integration", "<YOUR_USERNAME>", "red", "request", "requesting", "review", "users", "when", "with", "workflows"]
+tier: 2
+risk: "medium"
+estimated_tokens: 675
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.70
+description: "Use when completing tasks, implementing major features, or before merging to verify work meets requirements"
 ---
-
 # Requesting Code Review
 
 Dispatch superpowers:code-reviewer subagent to catch issues before they cascade.

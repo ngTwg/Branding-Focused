@@ -1,11 +1,17 @@
 ---
-name: prometheus-configuration
-description: "Complete guide to Prometheus setup, metric collection, scrape configuration, and recording rules."
-risk: unknown
-source: community
+name: "prometheus-configuration"
+tags: ["antigravity", "architecture", "c:", "configuration", "devops", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "prometheus", "purpose", "skill", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2615
+tools_needed: ["docker", "git", "kubernetes", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.96
 date_added: "2026-02-27"
+description: "Complete guide to Prometheus setup, metric collection, scrape configuration, and recording rules."
+source: "community"
 ---
-
 # Prometheus Configuration
 
 Complete guide to Prometheus setup, metric collection, scrape configuration, and recording rules.

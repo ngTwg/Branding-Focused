@@ -1,11 +1,17 @@
 ---
-name: code-review-checklist
-description: "Comprehensive checklist for conducting thorough code reviews covering functionality, security, performance, and maintainability"
-risk: unknown
-source: community
+name: "code-review-checklist"
+tags: ["antigravity", "c:", "checklist", "code", "context", "frontend", "functionality", "gemini", "how", "<YOUR_USERNAME>", "overview", "review", "skill", "step", "the", "this", "understand", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2913
+tools_needed: ["git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Comprehensive checklist for conducting thorough code reviews covering functionality, security, performance, and maintainability"
+source: "community"
 ---
-
 # Code Review Checklist
 
 ## Overview

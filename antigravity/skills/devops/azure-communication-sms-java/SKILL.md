@@ -1,11 +1,17 @@
 ---
-name: azure-communication-sms-java
-description: "Send SMS messages with Azure Communication Services SMS Java SDK. Use when implementing SMS notifications, alerts, OTP delivery, bulk messaging, or delivery reports."
-risk: safe
-source: community
+name: "azure-communication-sms-java"
+tags: ["antigravity", "azure", "c:", "client", "communication", "creation", "devops", "frontend", "gemini", "installation", "java", "<YOUR_USERNAME>", "multiple", "options", "recipient", "recipients", "send", "single", "sms", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2047
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.93
 date_added: "2026-02-27"
+description: "Send SMS messages with Azure Communication Services SMS Java SDK. Use when implementing SMS notifications, alerts, OTP delivery, bulk messaging, or delivery reports."
+source: "community"
 ---
-
 # Azure Communication SMS (Java)
 
 Send SMS messages to single or multiple recipients with delivery reporting.

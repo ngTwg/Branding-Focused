@@ -1,0 +1,569 @@
+{
+  "results": [
+    {
+      "repo": "agno",
+      "markdown_files": 547,
+      "counts": {
+        "discoverability": 152,
+        "governance": 28,
+        "persona": 39,
+        "security": 35,
+        "packaging": 100
+      },
+      "samples": {
+        "discoverability": [
+          "AGENTS.md",
+          "CLAUDE.md",
+          "CONTRIBUTING.md",
+          "README.md",
+          ".github\\pull_request_template.md"
+        ],
+        "governance": [
+          "AGENTS.md",
+          "CLAUDE.md",
+          "CODE_OF_CONDUCT.md",
+          "CONTRIBUTING.md",
+          "README.md"
+        ],
+        "persona": [
+          "CODE_OF_CONDUCT.md",
+          "README.md",
+          "cookbook\\README.md",
+          "libs\\agno_infra\\README.md",
+          "cookbook\\00_quickstart\\README.md"
+        ],
+        "security": [
+          "CODE_OF_CONDUCT.md",
+          "README.md",
+          ".github\\pull_request_template.md",
+          "cookbook\\README.md",
+          "libs\\agno_infra\\README.md"
+        ],
+        "packaging": [
+          "CONTRIBUTING.md",
+          "libs\\agno_infra\\README.md",
+          "libs\\agno\\migrations\\README.md",
+          "libs\\agno\\tests\\system\\README.md",
+          "libs\\agno\\tests\\integration\\models\\litellm_openai\\README.md"
+        ]
+      }
+    },
+    {
+      "repo": "anthropic-skills",
+      "markdown_files": 72,
+      "counts": {
+        "packaging": 34,
+        "persona": 33,
+        "discoverability": 35,
+        "governance": 24,
+        "security": 25
+      },
+      "samples": {
+        "packaging": [
+          "README.md",
+          "THIRD_PARTY_NOTICES.md",
+          "skills\\brand-guidelines\\SKILL.md",
+          "skills\\claude-api\\SKILL.md",
+          "skills\\docx\\SKILL.md"
+        ],
+        "persona": [
+          "README.md",
+          "THIRD_PARTY_NOTICES.md",
+          "skills\\algorithmic-art\\SKILL.md",
+          "skills\\claude-api\\SKILL.md",
+          "skills\\pptx\\SKILL.md"
+        ],
+        "discoverability": [
+          "README.md",
+          "skills\\canvas-design\\SKILL.md",
+          "skills\\claude-api\\SKILL.md",
+          "skills\\doc-coauthoring\\SKILL.md",
+          "skills\\docx\\SKILL.md"
+        ],
+        "governance": [
+          "THIRD_PARTY_NOTICES.md",
+          "skills\\algorithmic-art\\SKILL.md",
+          "skills\\canvas-design\\SKILL.md",
+          "skills\\claude-api\\SKILL.md",
+          "skills\\docx\\SKILL.md"
+        ],
+        "security": [
+          "skills\\claude-api\\SKILL.md",
+          "skills\\docx\\SKILL.md",
+          "skills\\mcp-builder\\SKILL.md",
+          "skills\\pdf\\forms.md",
+          "skills\\pdf\\reference.md"
+        ]
+      }
+    },
+    {
+      "repo": "antigravity-ide-main",
+      "markdown_files": 18229,
+      "counts": {
+        "persona": 1726,
+        "security": 3374,
+        "discoverability": 2784,
+        "governance": 4021,
+        "packaging": 1790
+      },
+      "samples": {
+        "persona": [
+          "AGENT_FLOW.md",
+          "README.md",
+          "SKILLS.md",
+          ".agent\\ARCHITECTURE.md",
+          ".agent\\CONCEPTS.md"
+        ],
+        "security": [
+          "AGENT_FLOW.md",
+          "CHANGELOG.md",
+          "GEMINI.md",
+          "README.md",
+          "README.vi.md"
+        ],
+        "discoverability": [
+          "AGENT_FLOW.md",
+          "CHANGELOG.md",
+          "ERRORS.md",
+          "GEMINI.md",
+          "PLAN-agent-first-integration.md"
+        ],
+        "governance": [
+          "AGENT_FLOW.md",
+          "CHANGELOG.md",
+          "README.md",
+          "README.vi.md",
+          "SKILLS.md"
+        ],
+        "packaging": [
+          "CHANGELOG.md",
+          "README.md",
+          "README.vi.md",
+          "SKILLS.md",
+          "docs\\CONTRIBUTING.vi.md"
+        ]
+      }
+    },
+    {
+      "repo": "autogen",
+      "markdown_files": 162,
+      "counts": {
+        "packaging": 102,
+        "security": 15,
+        "discoverability": 63,
+        "governance": 47,
+        "persona": 10
+      },
+      "samples": {
+        "packaging": [
+          "CONTRIBUTING.md",
+          "FAQ.md",
+          "README.md",
+          "TRANSPARENCY_FAQS.md",
+          ".github\\copilot-instructions.md"
+        ],
+        "security": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "SECURITY.md",
+          "TRANSPARENCY_FAQS.md",
+          ".github\\copilot-instructions.md"
+        ],
+        "discoverability": [
+          "CONTRIBUTING.md",
+          "FAQ.md",
+          "README.md",
+          "SUPPORT.md",
+          "TRANSPARENCY_FAQS.md"
+        ],
+        "governance": [
+          "CONTRIBUTING.md",
+          "FAQ.md",
+          "README.md",
+          "SECURITY.md",
+          "SUPPORT.md"
+        ],
+        "persona": [
+          "FAQ.md",
+          "TRANSPARENCY_FAQS.md",
+          "python\\packages\\autogen-agentchat\\README.md",
+          "python\\docs\\src\\user-guide\\agentchat-user-guide\\index.md",
+          "python\\docs\\src\\user-guide\\agentchat-user-guide\\migration-guide.md"
+        ]
+      }
+    },
+    {
+      "repo": "awesome-agent-skills",
+      "markdown_files": 7,
+      "counts": {
+        "security": 3,
+        "discoverability": 7,
+        "governance": 7,
+        "packaging": 6,
+        "persona": 2
+      },
+      "samples": {
+        "security": [
+          "CONTRIBUTING.md",
+          "README.es.md",
+          "README.md"
+        ],
+        "discoverability": [
+          "CONTRIBUTING.md",
+          "README.es.md",
+          "README.ja.md",
+          "README.ko.md",
+          "README.md"
+        ],
+        "governance": [
+          "CONTRIBUTING.md",
+          "README.es.md",
+          "README.ja.md",
+          "README.ko.md",
+          "README.md"
+        ],
+        "packaging": [
+          "README.es.md",
+          "README.ja.md",
+          "README.ko.md",
+          "README.md",
+          "README.zh-CN.md"
+        ],
+        "persona": [
+          "README.es.md",
+          "README.md"
+        ]
+      }
+    },
+    {
+      "repo": "awesome-ai-agents",
+      "markdown_files": 28,
+      "counts": {
+        "persona": 11,
+        "discoverability": 26,
+        "governance": 14,
+        "security": 17,
+        "packaging": 8
+      },
+      "samples": {
+        "persona": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "WHATS_NEW.md",
+          "catalog\\cli-agents.md",
+          "catalog\\use-cases-agno.md"
+        ],
+        "discoverability": [
+          "CONTRIBUTING.md",
+          "NAVIGATION.md",
+          "README.md",
+          "WHATS_NEW.md",
+          ".github\\PULL_REQUEST_TEMPLATE.md"
+        ],
+        "governance": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "WHATS_NEW.md",
+          ".github\\PULL_REQUEST_TEMPLATE.md",
+          "catalog\\cli-agents.md"
+        ],
+        "security": [
+          "README.md",
+          "WHATS_NEW.md",
+          "catalog\\cli-agents.md",
+          "catalog\\coding-agents-deep-dive.md",
+          "catalog\\enterprise-platforms.md"
+        ],
+        "packaging": [
+          "WHATS_NEW.md",
+          "catalog\\coding-agents-deep-dive.md",
+          "catalog\\mcp.md",
+          "evaluation\\agentbench.md",
+          "evaluation\\swebench.md"
+        ]
+      }
+    },
+    {
+      "repo": "claude-skills",
+      "markdown_files": 1531,
+      "counts": {
+        "security": 694,
+        "discoverability": 631,
+        "governance": 724,
+        "packaging": 617,
+        "persona": 713
+      },
+      "samples": {
+        "security": [
+          "AUDIT_REPORT.md",
+          "CHANGELOG.md",
+          "CLAUDE.md",
+          "CODE_OF_CONDUCT.md",
+          "CONTRIBUTING.md"
+        ],
+        "discoverability": [
+          "AUDIT_REPORT.md",
+          "CHANGELOG.md",
+          "CLAUDE.md",
+          "CONTRIBUTING.md",
+          "CONVENTIONS.md"
+        ],
+        "governance": [
+          "AUDIT_REPORT.md",
+          "CHANGELOG.md",
+          "CLAUDE.md",
+          "CODE_OF_CONDUCT.md",
+          "CONTRIBUTING.md"
+        ],
+        "packaging": [
+          "CHANGELOG.md",
+          "CLAUDE.md",
+          "CONVENTIONS.md",
+          "GEMINI.md",
+          "INSTALLATION.md"
+        ],
+        "persona": [
+          "CHANGELOG.md",
+          "CLAUDE.md",
+          "CODE_OF_CONDUCT.md",
+          "CONVENTIONS.md",
+          "GEMINI.md"
+        ]
+      }
+    },
+    {
+      "repo": "crewai",
+      "markdown_files": 92,
+      "counts": {
+        "packaging": 80,
+        "persona": 33,
+        "security": 11,
+        "discoverability": 74,
+        "governance": 12
+      },
+      "samples": {
+        "packaging": [
+          "README.md",
+          ".github\\CONTRIBUTING.md",
+          "lib\\crewai\\README.md",
+          "lib\\crewai-tools\\README.md",
+          "lib\\devtools\\README.md"
+        ],
+        "persona": [
+          "README.md",
+          "lib\\crewai\\README.md",
+          "lib\\crewai-tools\\src\\crewai_tools\\tools\\apify_actors_tool\\README.md",
+          "lib\\crewai-tools\\src\\crewai_tools\\tools\\arxiv_paper_tool\\Examples.md",
+          "lib\\crewai-tools\\src\\crewai_tools\\tools\\composio_tool\\README.md"
+        ],
+        "security": [
+          "README.md",
+          ".github\\security.md",
+          "lib\\crewai\\README.md",
+          "lib\\crewai-tools\\README.md",
+          "lib\\crewai-tools\\src\\crewai_tools\\tools\\code_interpreter_tool\\README.md"
+        ],
+        "discoverability": [
+          "README.md",
+          ".github\\CONTRIBUTING.md",
+          "lib\\crewai\\README.md",
+          "lib\\crewai-tools\\README.md",
+          "lib\\devtools\\README.md"
+        ],
+        "governance": [
+          "README.md",
+          ".github\\CONTRIBUTING.md",
+          ".github\\security.md",
+          "lib\\crewai\\README.md",
+          "lib\\devtools\\README.md"
+        ]
+      }
+    },
+    {
+      "repo": "everything-claude-code-main",
+      "markdown_files": 1345,
+      "counts": {
+        "persona": 337,
+        "security": 504,
+        "discoverability": 575,
+        "governance": 369,
+        "packaging": 439
+      },
+      "samples": {
+        "persona": [
+          "AGENTS.md",
+          "CHANGELOG.md",
+          "CODE_OF_CONDUCT.md",
+          "CONTRIBUTING.md",
+          "EVALUATION.md"
+        ],
+        "security": [
+          "AGENTS.md",
+          "CHANGELOG.md",
+          "CLAUDE.md",
+          "CODE_OF_CONDUCT.md",
+          "COMMANDS-QUICK-REF.md"
+        ],
+        "discoverability": [
+          "AGENTS.md",
+          "CHANGELOG.md",
+          "CLAUDE.md",
+          "COMMANDS-QUICK-REF.md",
+          "CONTRIBUTING.md"
+        ],
+        "governance": [
+          "AGENTS.md",
+          "CHANGELOG.md",
+          "CLAUDE.md",
+          "CODE_OF_CONDUCT.md",
+          "COMMANDS-QUICK-REF.md"
+        ],
+        "packaging": [
+          "CHANGELOG.md",
+          "CLAUDE.md",
+          "COMMANDS-QUICK-REF.md",
+          "CONTRIBUTING.md",
+          "EVALUATION.md"
+        ]
+      }
+    },
+    {
+      "repo": "google-adk-samples",
+      "markdown_files": 119,
+      "counts": {
+        "packaging": 76,
+        "persona": 45,
+        "security": 53,
+        "discoverability": 89,
+        "governance": 57
+      },
+      "samples": {
+        "packaging": [
+          "README.md",
+          "go\\README.md",
+          "java\\README.md",
+          "python\\README.md",
+          "typescript\\README.md"
+        ],
+        "persona": [
+          "README.md",
+          "typescript\\agents\\customer_service\\README.md",
+          "python\\agents\\README.md",
+          "python\\agents\\academic-research\\README.md",
+          "python\\agents\\ai-security-agent\\README.md"
+        ],
+        "security": [
+          "README.md",
+          "go\\README.md",
+          "python\\README.md",
+          "python\\agents\\README.md",
+          "python\\agents\\agent-observability-bq\\README.md"
+        ],
+        "discoverability": [
+          "README.md",
+          "go\\README.md",
+          "java\\README.md",
+          "python\\README.md",
+          "typescript\\README.md"
+        ],
+        "governance": [
+          "README.md",
+          "java\\README.md",
+          "python\\README.md",
+          "python\\agents\\README.md",
+          "python\\agents\\academic-research\\README.md"
+        ]
+      }
+    },
+    {
+      "repo": "langgraph",
+      "markdown_files": 16,
+      "counts": {
+        "packaging": 12,
+        "discoverability": 11,
+        "governance": 8,
+        "security": 1,
+        "persona": 3
+      },
+      "samples": {
+        "packaging": [
+          "AGENTS.md",
+          "CLAUDE.md",
+          "README.md",
+          ".github\\PULL_REQUEST_TEMPLATE.md",
+          ".github\\THREAT_MODEL.md"
+        ],
+        "discoverability": [
+          "AGENTS.md",
+          "CLAUDE.md",
+          "README.md",
+          ".github\\PULL_REQUEST_TEMPLATE.md",
+          ".github\\THREAT_MODEL.md"
+        ],
+        "governance": [
+          "README.md",
+          ".github\\PULL_REQUEST_TEMPLATE.md",
+          ".github\\THREAT_MODEL.md",
+          "libs\\checkpoint\\README.md",
+          "libs\\checkpoint-postgres\\README.md"
+        ],
+        "security": [
+          ".github\\THREAT_MODEL.md"
+        ],
+        "persona": [
+          "libs\\prebuilt\\README.md",
+          "libs\\sdk-py\\README.md",
+          "libs\\cli\\js-examples\\README.md"
+        ]
+      }
+    },
+    {
+      "repo": "openai-agents-python",
+      "markdown_files": 322,
+      "counts": {
+        "packaging": 64,
+        "discoverability": 149,
+        "governance": 52,
+        "security": 19,
+        "persona": 24
+      },
+      "samples": {
+        "packaging": [
+          "AGENTS.md",
+          "README.md",
+          "docs\\human_in_the_loop.md",
+          "docs\\index.md",
+          "docs\\mcp.md"
+        ],
+        "discoverability": [
+          "AGENTS.md",
+          "PLANS.md",
+          "README.md",
+          "docs\\agents.md",
+          "docs\\config.md"
+        ],
+        "governance": [
+          "AGENTS.md",
+          "README.md",
+          "docs\\agents.md",
+          "docs\\human_in_the_loop.md",
+          "docs\\mcp.md"
+        ],
+        "security": [
+          "docs\\agents.md",
+          "docs\\mcp.md",
+          "docs\\results.md",
+          "docs\\tools.md",
+          "examples\\financial_research_agent\\README.md"
+        ],
+        "persona": [
+          "docs\\release.md",
+          "docs\\running_agents.md",
+          "docs\\tools.md",
+          "examples\\research_bot\\sample_outputs\\product_recs.md",
+          "examples\\research_bot\\sample_outputs\\vacation.md"
+        ]
+      }
+    }
+  ]
+}

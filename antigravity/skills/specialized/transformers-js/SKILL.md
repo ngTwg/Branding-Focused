@@ -1,17 +1,23 @@
 ---
+name: "transformers-js"
+tags: ["antigravity", "browser", "c:", "cdn", "concepts", "core", "for", "frontend", "gemini", "installation", "javascript", "js", "learning", "<YOUR_USERNAME>", "machine", "npm", "skill", "specialized", "this", "transformers"]
+tier: 2
+risk: "medium"
+estimated_tokens: 5617
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+author: "huggingface"
+category: "machine-learning"
+compatibility: "Requires Node.js 18+ or modern browser with ES modules support. WebGPU support requires compatible browser/environment. Internet access needed for downloading models from Hugging Face Hub (optional if using local models)."
+description: "Run Hugging Face models in JavaScript or TypeScript with Transformers.js in Node.js or the browser."
+license: "Apache-2.0"
+metadata: ""
+repository: "https://github.com/huggingface/transformers.js"
 source: "https://github.com/huggingface/skills/tree/main/skills/transformers-js"
-name: transformers-js
-description: Run Hugging Face models in JavaScript or TypeScript with Transformers.js in Node.js or the browser.
-license: Apache-2.0
-risk: unknown
-metadata:
-  author: huggingface
-  version: "3.8.1"
-  category: machine-learning
-  repository: https://github.com/huggingface/transformers.js
-compatibility: Requires Node.js 18+ or modern browser with ES modules support. WebGPU support requires compatible browser/environment. Internet access needed for downloading models from Hugging Face Hub (optional if using local models).
+version: "3.8.1"
 ---
-
 # Transformers.js - Machine Learning for JavaScript
 
 Transformers.js enables running state-of-the-art machine learning models directly in JavaScript, both in browsers and Node.js environments, with no server required.

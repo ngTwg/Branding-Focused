@@ -1,11 +1,17 @@
 ---
-name: daily-news-report
-description: "Scrapes content based on a preset URL list, filters high-quality technical information, and generates daily Markdown reports."
-risk: unknown
-source: community
+name: "daily-news-report"
+tags: ["antigravity", "architecture", "backend", "c:", "configuration", "core", "daily", "details", "dispatch", "execution", "files", "gemini", "initialization", "<YOUR_USERNAME>", "news", "phase", "process", "report", "specialized", "subagents"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2829
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.97
 date_added: "2026-02-27"
+description: "Scrapes content based on a preset URL list, filters high-quality technical information, and generates daily Markdown reports."
+source: "community"
 ---
-
 # Daily News Report v3.0
 
 > **Architecture Upgrade**: Main Agent Orchestration + SubAgent Execution + Browser Scraping + Smart Caching

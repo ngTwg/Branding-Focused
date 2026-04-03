@@ -1,3 +1,14 @@
+---
+name: "Communication Templates — Carrier Relationship Management"
+tags: ["antigravity", "c:", "carrier", "communication", "contents", "counter", "frontend", "gemini", "invitation", "<YOUR_USERNAME>", "letter", "management", "negotiation", "offer", "opening", "rate", "reference", "references", "relationship", "rfp"]
+tier: 3
+risk: "medium"
+estimated_tokens: 7845
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.79
+---
 # Communication Templates — Carrier Relationship Management
 
 > **Reference Type:** Tier 3 — Load on demand when composing or reviewing carrier communications.

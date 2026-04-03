@@ -1,3 +1,14 @@
+---
+name: "Prompt Template Systems"
+tags: ["antigravity", "architecture", "basic", "c:", "conditional", "engineering", "frontend", "gemini", "<YOUR_USERNAME>", "patterns", "prompt", "references", "specialized", "structure", "systems", "template", "templates", "usage", "users"]
+tier: 1
+risk: "medium"
+estimated_tokens: 2848
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Prompt Template Systems
 
 ## Template Architecture

@@ -1,3 +1,14 @@
+---
+name: "Loading & Error States"
+tags: ["and", "antigravity", "c:", "component", "critical", "dev", "does", "early", "error", "frontend", "gemini", "guidelines", "<YOUR_USERNAME>", "loading", "never", "problem", "resources", "returns", "rule", "solutions"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2999
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Loading & Error States
 
 **CRITICAL**: Proper loading and error state handling prevents layout shift and provides better user experience.

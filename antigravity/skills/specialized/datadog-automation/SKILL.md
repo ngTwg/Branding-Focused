@@ -1,11 +1,17 @@
 ---
-name: datadog-automation
-description: "Automate Datadog tasks via Rube MCP (Composio): query metrics, search logs, manage monitors/dashboards, create events and downtimes. Always search tools first for current schemas."
-risk: critical
-source: community
+name: "datadog-automation"
+tags: ["analyze", "and", "antigravity", "automation", "c:", "core", "datadog", "explore", "frontend", "gemini", "<YOUR_USERNAME>", "logs", "mcp", "metrics", "prerequisites", "query", "rube", "search", "setup", "specialized"]
+tier: 3
+risk: "critical"
+estimated_tokens: 2339
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
 date_added: "2026-02-27"
+description: "Automate Datadog tasks via Rube MCP (Composio): query metrics, search logs, manage monitors/dashboards, create events and downtimes. Always search tools first for current schemas."
+source: "community"
 ---
-
 # Datadog Automation via Rube MCP
 
 Automate Datadog monitoring and observability operations through Composio's Datadog toolkit via Rube MCP.

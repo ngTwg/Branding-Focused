@@ -1,8 +1,15 @@
 ---
-name: frontend-code-review
+name: "frontend-code-review"
+tags: ["antigravity", "any", "c:", "checklist", "code", "findings", "frontend", "gemini", "intent", "<YOUR_USERNAME>", "output", "process", "required", "review", "template", "users", "workflows"]
+tier: 2
+risk: "medium"
+estimated_tokens: 710
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.75
 description: "Trigger when the user requests a review of frontend files (e.g., `.tsx`, `.ts`, `.js`). Support both pending-change reviews and focused file reviews while applying the checklist rules."
 ---
-
 # Frontend Code Review
 
 ## Intent

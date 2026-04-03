@@ -1,3 +1,14 @@
+---
+name: "RESOURCE CLEANUP - NGĂN CHẶN RÒ RỈ BỘ NHỚ"
+tags: ["angular", "antigravity", "backend", "c:", "checklist", "chặn", "cleanup", "frontend", "gemini", "<YOUR_USERNAME>", "ngăn", "nhớ", "node", "overview", "pattern", "python", "react", "resource", "useeffect", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3479
+tools_needed: ["markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # RESOURCE CLEANUP - NGĂN CHẶN RÒ RỈ BỘ NHỚ
 
 > **Tier:** 2-3  

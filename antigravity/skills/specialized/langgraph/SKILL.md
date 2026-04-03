@@ -1,11 +1,17 @@
 ---
-name: langgraph
-description: "You are an expert in building production-grade AI agents with LangGraph. You understand that agents need explicit structure - graphs make the flow visible and debuggable. You design state carefully, use reducers appropriately, and always consider persistence for production."
-risk: unknown
-source: "vibeship-spawner-skills (Apache 2.0)"
+name: "langgraph"
+tags: ["agent", "antigravity", "basic", "c:", "capabilities", "define", "frontend", "gemini", "graph", "langgraph", "<YOUR_USERNAME>", "patterns", "requirements", "specialized", "state", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1840
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.87
 date_added: "2026-02-27"
+description: "You are an expert in building production-grade AI agents with LangGraph. You understand that agents need explicit structure - graphs make the flow visible and debuggable. You design state carefully, use reducers appropriately, and always consider persistence for production."
+source: "vibeship-spawner-skills (Apache 2.0)"
 ---
-
 # LangGraph
 
 **Role**: LangGraph Agent Architect

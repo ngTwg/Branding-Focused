@@ -1,11 +1,17 @@
 ---
-name: klaviyo-automation
-description: "Automate Klaviyo tasks via Rube MCP (Composio): manage email/SMS campaigns, inspect campaign messages, track tags, and monitor send jobs. Always search tools first for current schemas."
-risk: safe
-source: community
+name: "klaviyo-automation"
+tags: ["and", "antigravity", "automation", "c:", "campaign", "campaigns", "core", "details", "filter", "frontend", "gemini", "get", "klaviyo", "<YOUR_USERNAME>", "list", "mcp", "prerequisites", "rube", "setup", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1844
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.88
 date_added: "2026-02-27"
+description: "Automate Klaviyo tasks via Rube MCP (Composio): manage email/SMS campaigns, inspect campaign messages, track tags, and monitor send jobs. Always search tools first for current schemas."
+source: "community"
 ---
-
 # Klaviyo Automation via Rube MCP
 
 Automate Klaviyo email and SMS marketing operations through Composio's Klaviyo toolkit via Rube MCP.

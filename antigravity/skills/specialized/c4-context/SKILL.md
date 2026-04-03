@@ -1,11 +1,17 @@
 ---
-name: c4-context
-description: Expert C4 Context-level documentation specialist. Creates high-level system context diagrams, documents personas, user journeys, system features, and external dependencies.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "c4-context"
+tags: ["antigravity", "c4", "c:", "context", "description", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "level", "not", "overview", "short", "skill", "specialized", "system", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1239
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.77
+date_added: "2026-02-27"
+description: "Expert C4 Context-level documentation specialist. Creates high-level system context diagrams, documents personas, user journeys, system features, and external dependencies."
+source: "community"
 ---
-
 # C4 Context Level: System Context
 
 ## Use this skill when

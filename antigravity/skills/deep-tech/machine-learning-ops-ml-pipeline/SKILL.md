@@ -1,11 +1,17 @@
 ---
-name: machine-learning-ops-ml-pipeline
-description: "Design and implement a complete ML pipeline for: $ARGUMENTS"
-risk: unknown
-source: community
+name: "machine-learning-ops-ml-pipeline"
+tags: ["agent", "analysis", "antigravity", "c:", "data", "deep", "deep-tech", "frontend", "gemini", "instructions", "learning", "<YOUR_USERNAME>", "machine", "ml", "mlops", "multi", "not", "ops", "orchestration", "phase"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2636
+tools_needed: ["docker", "git", "kubernetes", "markdown", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 date_added: "2026-02-27"
+description: "Design and implement a complete ML pipeline for: $ARGUMENTS"
+source: "community"
 ---
-
 # Machine Learning Pipeline - Multi-Agent MLOps Orchestration
 
 Design and implement a complete ML pipeline for: $ARGUMENTS

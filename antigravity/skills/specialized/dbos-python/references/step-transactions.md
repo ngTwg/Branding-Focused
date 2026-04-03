@@ -1,10 +1,17 @@
 ---
-title: Use Transactions for Database Operations
-impact: HIGH
-impactDescription: Transactions provide atomic database operations
-tags: transaction, database, postgres, sqlalchemy
+name: "Use Transactions for Database Operations"
+tags: ["transaction, database, postgres, sqlalchemy"]
+tier: 2
+risk: "medium"
+estimated_tokens: 435
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.61
+impact: "HIGH"
+impactDescription: "Transactions provide atomic database operations"
+title: "Use Transactions for Database Operations"
 ---
-
 ## Use Transactions for Database Operations
 
 Transactions are a special type of step optimized for database access. They execute as a single database transaction. Only use with Postgres.

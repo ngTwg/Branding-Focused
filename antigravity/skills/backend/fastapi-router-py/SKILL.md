@@ -1,11 +1,17 @@
 ---
-name: fastapi-router-py
-description: "Create FastAPI routers following established patterns with proper authentication, response models, and HTTP status codes."
-risk: unknown
-source: community
+name: "fastapi-router-py"
+tags: ["401", "antigravity", "auth", "authenticated", "authentication", "backend", "c:", "fastapi", "frontend", "gemini", "<YOUR_USERNAME>", "models", "none", "not", "optional", "patterns", "py", "quick", "raises", "required"]
+tier: 2
+risk: "medium"
+estimated_tokens: 399
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.75
 date_added: "2026-02-27"
+description: "Create FastAPI routers following established patterns with proper authentication, response models, and HTTP status codes."
+source: "community"
 ---
-
 # FastAPI Router
 
 Create FastAPI routers following established patterns with proper authentication, response models, and HTTP status codes.

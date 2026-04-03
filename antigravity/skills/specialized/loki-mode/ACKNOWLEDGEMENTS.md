@@ -1,3 +1,14 @@
+---
+name: "Acknowledgements"
+tags: ["acknowledgements", "amazon", "anthropic", "antigravity", "aws", "c:", "deepmind", "frontend", "gemini", "google", "labs", "<YOUR_USERNAME>", "loki", "mode", "openai", "research", "services", "specialized", "users", "web"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3022
+tools_needed: ["git", "markdown", "mcp", "playwright"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.79
+---
 # Acknowledgements
 
 Loki Mode stands on the shoulders of giants. This project incorporates research, patterns, and insights from the leading AI labs, academic institutions, and practitioners in the field.

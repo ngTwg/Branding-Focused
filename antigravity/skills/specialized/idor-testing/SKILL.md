@@ -1,12 +1,18 @@
 ---
-name: idor-testing
-description: "Provide systematic methodologies for identifying and exploiting Insecure Direct Object Reference (IDOR) vulnerabilities in web applications."
-risk: offensive
-source: community
-author: zebbern
+name: "idor-testing"
+tags: ["antigravity", "c:", "core", "deliverables", "frontend", "gemini", "idor", "inputs", "<YOUR_USERNAME>", "outputs", "prerequisites", "purpose", "specialized", "testing", "types", "understand", "users", "vulnerability", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3152
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+author: "zebbern"
 date_added: "2026-02-27"
+description: "Provide systematic methodologies for identifying and exploiting Insecure Direct Object Reference (IDOR) vulnerabilities in web applications."
+source: "community"
 ---
-
 > AUTHORIZED USE ONLY: Use this skill only for authorized security assessments, defensive validation, or controlled educational environments.
 
 # IDOR Vulnerability Testing

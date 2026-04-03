@@ -1,12 +1,18 @@
 ---
-name: remotion-best-practices
-description: Best practices for Remotion - Video creation in React
-author: remotion-dev
+name: "remotion-best-practices"
+tags: ["remotion, video, react, animation, composition"]
+tier: 2
+risk: "medium"
+estimated_tokens: 864
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
+author: "remotion-dev"
+description: "Best practices for Remotion - Video creation in React"
+metadata: ""
 version: "1.0"
-metadata:
-  tags: remotion, video, react, animation, composition
 ---
-
 ## When to use
 
 Use this skills whenever you are dealing with Remotion code to obtain the domain-specific knowledge.

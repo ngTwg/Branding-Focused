@@ -1,3 +1,14 @@
+---
+name: "Criterios de Analise - Skill Sentinel"
+tags: ["analise", "analysis", "antigravity", "c:", "codigo", "criteria", "criterios", "dimensao", "frontend", "gemini", "governanca", "<YOUR_USERNAME>", "performance", "por", "qualidade", "references", "scoring", "seguranca", "sentinel", "skill"]
+tier: 2
+risk: "medium"
+estimated_tokens: 583
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.69
+---
 # Criterios de Analise - Skill Sentinel
 
 ## Scoring por Dimensao

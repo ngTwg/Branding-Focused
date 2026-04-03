@@ -1,13 +1,19 @@
 ---
-name: networkx
+name: "networkx"
+tags: ["and", "antigravity", "c:", "capabilities", "core", "create", "creation", "empty", "frontend", "gemini", "graph", "<YOUR_USERNAME>", "manipulation", "networkx", "overview", "skill", "specialized", "this", "use", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3092
+tools_needed: ["git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
 description: "NetworkX is a Python package for creating, manipulating, and analyzing complex networks and graphs."
-license: 3-clause BSD license
-metadata:
-    skill-author: K-Dense Inc.
-risk: unknown
+license: "3-clause BSD license"
+metadata: ""
+skill-author: "K-Dense Inc."
 source: "https://github.com/networkx/networkx"
 ---
-
 # NetworkX
 
 ## Overview

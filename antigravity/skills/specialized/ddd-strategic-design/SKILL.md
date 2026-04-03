@@ -1,12 +1,17 @@
 ---
-name: ddd-strategic-design
-description: "Design DDD strategic artifacts including subdomains, bounded contexts, and ubiquitous language for complex business domains."
-risk: safe
-source: self
-tags: "[ddd, strategic-design, bounded-context, ubiquitous-language]"
+name: "ddd-strategic-design"
+tags: ["[ddd, strategic-design, bounded-context, ubiquitous-language]"]
+tier: 2
+risk: "medium"
+estimated_tokens: 396
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.69
 date_added: "2026-02-27"
+description: "Design DDD strategic artifacts including subdomains, bounded contexts, and ubiquitous language for complex business domains."
+source: "self"
 ---
-
 # DDD Strategic Design
 
 ## Use this skill when

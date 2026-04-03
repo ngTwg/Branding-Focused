@@ -1,0 +1,34 @@
+{
+  "timestamp": "2026-04-01T19:22:26.833421+00:00",
+  "phase": "packaging",
+  "dry_run": false,
+  "total": 4,
+  "ok": 4,
+  "failed": 0,
+  "steps": [
+    {
+      "step": "skillpack_convert",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe tools/skillpack/skillpack.py convert --target cline --source GEMINI.md --output antigravity/tmp/skillpack_validation/.cline/rules/CLINE.md",
+      "status": "ok",
+      "output": "Converted output written: antigravity\\tmp\\skillpack_validation\\.cline\\rules\\CLINE.md"
+    },
+    {
+      "step": "skillpack_install",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe tools/skillpack/skillpack.py install --targets cursor claude copilot --source GEMINI.md --workspace-root antigravity/tmp/skillpack_validation --report antigravity/reports/skillpack_install_report.json --force",
+      "status": "ok",
+      "output": "Skillpack install report: antigravity\\reports\\skillpack_install_report.json\nTargets processed: 3 | ok=3 skipped=0 failed=0"
+    },
+    {
+      "step": "normalize_skill_metadata_top_tier",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/normalize_skill_metadata.py --scope top-tier --apply --report antigravity/reports/skill_metadata_coverage.json --normalized-export antigravity/reports/skill_metadata_normalized_top_tiers.json",
+      "status": "ok",
+      "output": "Metadata coverage report: antigravity\\reports\\skill_metadata_coverage.json\nNormalized export: antigravity\\reports\\skill_metadata_normalized_top_tiers.json\nSkills scanned: 2749\nFiles with frontmatter: 1821\nAverage coverage ratio: 13.05%\nSelected scope coverage: 100.00% (files=13)\nUpdated files: 0"
+    },
+    {
+      "step": "build_release_bundle",
+      "command": "C:\\Users\\lengo\\.gemini\\.venv\\Scripts\\python.exe antigravity/scripts/build_release_bundle.py --version v6.5.0-SLIM --release-name phase-b-packaging",
+      "status": "ok",
+      "output": "Release root: C:\\Users\\lengo\\.gemini\\antigravity\\releases\\v6.5.0-SLIM_phase-b-packaging_20260401_192226\nRelease notes: C:\\Users\\lengo\\.gemini\\antigravity\\docs\\RELEASE_NOTES_2026-04-01.md\nRelease zip: C:\\Users\\lengo\\.gemini\\antigravity\\releases\\v6.5.0-SLIM_phase-b-packaging_20260401_192226.zip\nIncluded artifacts: 14\nMissing artifacts: 0\nRelease report: C:\\Users\\lengo\\.gemini\\antigravity\\reports\\release_bundle_20260401_192226.json"
+    }
+  ]
+}

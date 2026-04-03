@@ -1,3 +1,14 @@
+---
+name: "Test Generation Checklist"
+tags: ["antigravity", "assessment", "c:", "checklist", "complexity", "coverage", "critical", "file", "for", "frontend", "gemini", "generation", "incremental", "<YOUR_USERNAME>", "level", "multi", "path", "pre", "references", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1470
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.85
+---
 # Test Generation Checklist
 
 Use this checklist when generating or reviewing tests for Dify frontend components.

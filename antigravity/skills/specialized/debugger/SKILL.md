@@ -1,4 +1,15 @@
 ---
+name: "Use this skill when"
+tags: ["antigravity", "c:", "debugger", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 333
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.54
+---
+---
 name: debugger
 description: 'Debugging specialist for errors, test failures, and unexpected
 

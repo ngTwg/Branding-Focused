@@ -1,11 +1,17 @@
 ---
-name: freshdesk-automation
-description: "Automate Freshdesk helpdesk operations including tickets, contacts, companies, notes, and replies via Rube MCP (Composio). Always search tools first for current schemas."
-risk: critical
-source: community
+name: "freshdesk-automation"
+tags: ["and", "antigravity", "automation", "c:", "core", "create", "filter", "freshdesk", "frontend", "gemini", "<YOUR_USERNAME>", "manage", "mcp", "prerequisites", "rube", "search", "setup", "specialized", "tickets", "users"]
+tier: 2
+risk: "critical"
+estimated_tokens: 2878
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 date_added: "2026-02-27"
+description: "Automate Freshdesk helpdesk operations including tickets, contacts, companies, notes, and replies via Rube MCP (Composio). Always search tools first for current schemas."
+source: "community"
 ---
-
 # Freshdesk Automation via Rube MCP
 
 Automate Freshdesk customer support workflows including ticket management, contact and company operations, notes, replies, and ticket search through Composio's Freshdesk toolkit.

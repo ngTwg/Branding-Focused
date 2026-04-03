@@ -1,10 +1,17 @@
 ---
-title: Defer Non-Critical Third-Party Libraries
-impact: MEDIUM
-impactDescription: loads after hydration
-tags: bundle, third-party, analytics, defer
+name: "Defer Non-Critical Third-Party Libraries"
+tags: ["bundle, third-party, analytics, defer"]
+tier: 2
+risk: "medium"
+estimated_tokens: 230
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.56
+impact: "MEDIUM"
+impactDescription: "loads after hydration"
+title: "Defer Non-Critical Third-Party Libraries"
 ---
-
 ## Defer Non-Critical Third-Party Libraries
 
 Analytics, logging, and error tracking don't block user interaction. Load them after hydration.

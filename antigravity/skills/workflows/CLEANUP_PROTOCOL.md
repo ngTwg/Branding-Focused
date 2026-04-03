@@ -1,3 +1,14 @@
+---
+name: "CLEANUP_PROTOCOL.md"
+tags: ["agentic", "antigravity", "buộc", "bắt", "c:", "classification", "cleanliness", "cleanup", "cleanup_protocol", "dẹp", "dọn", "file", "frontend", "gemini", "<YOUR_USERNAME>", "loại", "lệnh", "phân", "points", "protocol"]
+tier: 2
+risk: "medium"
+estimated_tokens: 446
+tools_needed: ["git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.62
+---
 # CLEANUP_PROTOCOL.md
 
 > **Phiên bản:** 1.0.0

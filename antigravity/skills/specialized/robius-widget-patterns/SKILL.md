@@ -1,4 +1,15 @@
 ---
+name: "Robius Widget Patterns Skill"
+tags: ["antigravity", "apply_over", "backend", "c:", "dynamic", "gemini", "image", "<YOUR_USERNAME>", "pattern", "patterns", "production", "robius", "skill", "specialized", "standard", "structure", "styling", "text", "toggle", "triggers"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3030
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.95
+---
+---
 name: robius-widget-patterns
 description: |
   CRITICAL: Use for Robius widget patterns. Triggers on:

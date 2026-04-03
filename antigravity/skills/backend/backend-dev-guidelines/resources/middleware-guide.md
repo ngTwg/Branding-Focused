@@ -1,3 +1,14 @@
+---
+name: "Middleware Guide - Express Middleware Patterns"
+tags: ["antigravity", "api", "asynclocalstorage", "audit", "authentication", "backend", "blog", "c:", "contents", "dev", "excellent", "express", "from", "frontend", "gemini", "guide", "guidelines", "<YOUR_USERNAME>", "middleware", "pattern"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1289
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.85
+---
 # Middleware Guide - Express Middleware Patterns
 
 Complete guide to creating and using middleware in backend microservices.

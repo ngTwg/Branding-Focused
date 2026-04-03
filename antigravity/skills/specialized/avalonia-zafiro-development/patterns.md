@@ -1,3 +1,14 @@
+---
+name: "Common Patterns in Angor/Zafiro"
+tags: ["angor", "antigravity", "avalonia", "benefits", "c:", "collections", "common", "development", "error", "frontend", "gemini", "handling", "implementation", "<YOUR_USERNAME>", "mandatory", "pattern", "patterns", "pipeline", "refreshable", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 334
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.68
+---
 # Common Patterns in Angor/Zafiro
 
 ## Refreshable Collections

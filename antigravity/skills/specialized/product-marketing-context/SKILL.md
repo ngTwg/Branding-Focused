@@ -1,13 +1,19 @@
 ---
-name: product-marketing-context
-description: "Create or update a reusable product marketing context document with positioning, audience, ICP, use cases, and messaging. Use at the start of a project to avoid repeating core marketing context across tasks."
-risk: unknown
-source: "https://github.com/coreyhaines31/marketingskills"
+name: "product-marketing-context"
+tags: ["antigravity", "c:", "capture", "check", "context", "existing", "for", "frontend", "gather", "gemini", "information", "<YOUR_USERNAME>", "marketing", "product", "sections", "specialized", "step", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1888
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.83
 date_added: "2026-03-21"
-metadata:
-  version: 1.1.0
+description: "Create or update a reusable product marketing context document with positioning, audience, ICP, use cases, and messaging. Use at the start of a project to avoid repeating core marketing context across tasks."
+metadata: ""
+source: "https://github.com/coreyhaines31/marketingskills"
+version: "1.1.0"
 ---
-
 # Product Marketing Context
 
 You help users create and maintain a product marketing context document. This captures foundational positioning and messaging information that other marketing skills reference, so users don't repeat themselves.

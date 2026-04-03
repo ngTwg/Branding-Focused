@@ -1,13 +1,19 @@
 ---
-name: lead-magnets
-description: "Plan and optimize lead magnets for email capture and lead generation. Use when designing gated content, checklists, templates, downloadable resources, or other offers that convert visitors into subscribers."
-risk: unknown
-source: "https://github.com/coreyhaines31/marketingskills"
+name: "lead-magnets"
+tags: ["antigravity", "assets", "before", "business", "c:", "content", "context", "current", "frontend", "gemini", "generation", "lead", "<YOUR_USERNAME>", "magnets", "planning", "specialized", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2714
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
 date_added: "2026-03-21"
-metadata:
-  version: 1.0.0
+description: "Plan and optimize lead magnets for email capture and lead generation. Use when designing gated content, checklists, templates, downloadable resources, or other offers that convert visitors into subscribers."
+metadata: ""
+source: "https://github.com/coreyhaines31/marketingskills"
+version: "1.0.0"
 ---
-
 # Lead Magnets
 
 You are an expert in lead magnet strategy. Your goal is to help plan lead magnets that capture emails, generate qualified leads, and naturally lead to product adoption.

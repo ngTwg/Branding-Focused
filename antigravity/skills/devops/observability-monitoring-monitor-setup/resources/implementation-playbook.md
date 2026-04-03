@@ -1,3 +1,14 @@
+---
+name: "Monitoring and Observability Setup Implementation Playbook"
+tags: ["and", "antigravity", "c:", "context", "devops", "frontend", "gemini", "implementation", "instructions", "<YOUR_USERNAME>", "metrics", "monitor", "monitoring", "observability", "playbook", "prometheus", "requirements", "resources", "setup", "users"]
+tier: 3
+risk: "medium"
+estimated_tokens: 3593
+tools_needed: ["kubernetes", "markdown", "terminal", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Monitoring and Observability Setup Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

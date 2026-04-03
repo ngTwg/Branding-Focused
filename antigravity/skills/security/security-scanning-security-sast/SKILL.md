@@ -1,4 +1,15 @@
 ---
+name: "SAST Security Plugin"
+tags: ["antigravity", "c:", "capabilities", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "not", "plugin", "safety", "sast", "scanning", "security", "skill", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3599
+tools_needed: ["git", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
+---
 name: security-scanning-security-sast
 description: 'Static Application Security Testing (SAST) for code vulnerability
 

@@ -1,10 +1,17 @@
 ---
-title: Cancel, Resume, and Fork Workflows
-impact: MEDIUM
-impactDescription: Control running workflows and recover from failures
-tags: workflow, cancel, resume, fork, control
+name: "Cancel, Resume, and Fork Workflows"
+tags: ["workflow, cancel, resume, fork, control"]
+tier: 1
+risk: "medium"
+estimated_tokens: 516
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.81
+impact: "MEDIUM"
+impactDescription: "Control running workflows and recover from failures"
+title: "Cancel, Resume, and Fork Workflows"
 ---
-
 ## Cancel, Resume, and Fork Workflows
 
 Use these methods to control workflow execution: stop runaway workflows, retry failed ones, or restart from a specific step.

@@ -1,11 +1,17 @@
 ---
-name: stripe-automation
-description: "Automate Stripe tasks via Rube MCP (Composio): customers, charges, subscriptions, invoices, products, refunds. Always search tools first for current schemas."
-risk: critical
-source: community
+name: "stripe-automation"
+tags: ["and", "antigravity", "automation", "c:", "charges", "core", "customers", "frontend", "gemini", "<YOUR_USERNAME>", "manage", "mcp", "payments", "prerequisites", "rube", "setup", "specialized", "stripe", "users", "via"]
+tier: 2
+risk: "critical"
+estimated_tokens: 1858
+tools_needed: ["markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.78
 date_added: "2026-02-27"
+description: "Automate Stripe tasks via Rube MCP (Composio): customers, charges, subscriptions, invoices, products, refunds. Always search tools first for current schemas."
+source: "community"
 ---
-
 # Stripe Automation via Rube MCP
 
 Automate Stripe payment operations through Composio's Stripe toolkit via Rube MCP.

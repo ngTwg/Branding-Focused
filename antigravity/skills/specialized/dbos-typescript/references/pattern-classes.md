@@ -1,10 +1,17 @@
 ---
-title: Use DBOS with Class Instances
-impact: MEDIUM
-impactDescription: Enables configurable workflow instances with recovery support
-tags: pattern, class, instance, ConfiguredInstance
+name: "Use DBOS with Class Instances"
+tags: ["pattern, class, instance, ConfiguredInstance"]
+tier: 2
+risk: "medium"
+estimated_tokens: 510
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.58
+impact: "MEDIUM"
+impactDescription: "Enables configurable workflow instances with recovery support"
+title: "Use DBOS with Class Instances"
 ---
-
 ## Use DBOS with Class Instances
 
 Class instance methods can be workflows and steps. Classes with workflow methods must extend `ConfiguredInstance` to enable recovery.

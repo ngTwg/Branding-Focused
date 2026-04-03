@@ -1,3 +1,14 @@
+---
+name: "Uncle Bob Craft — Code Review Checklist"
+tags: ["and", "antigravity", "bob", "boundaries", "c:", "checklist", "code", "context", "craft", "dependency", "design", "examples", "frontend", "gemini", "<YOUR_USERNAME>", "patterns", "professionalism", "review", "rule", "smells"]
+tier: 1
+risk: "medium"
+estimated_tokens: 708
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.66
+---
 # Uncle Bob Craft — Code Review Checklist
 
 Copy-paste this checklist when performing a principle-based code review with the uncle-bob-craft skill. Run your project linter/formatter separately; this checklist focuses on structure and design.

@@ -1,11 +1,17 @@
 ---
-name: service-mesh-observability
-description: "Complete guide to observability patterns for Istio, Linkerd, and service mesh deployments."
-risk: critical
-source: community
+name: "service-mesh-observability"
+tags: ["antigravity", "c:", "concepts", "core", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "mesh", "not", "observability", "pillars", "service", "skill", "specialized", "this", "three", "use", "users", "when"]
+tier: 3
+risk: "critical"
+estimated_tokens: 2586
+tools_needed: ["kubernetes", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
 date_added: "2026-02-27"
+description: "Complete guide to observability patterns for Istio, Linkerd, and service mesh deployments."
+source: "community"
 ---
-
 # Service Mesh Observability
 
 Complete guide to observability patterns for Istio, Linkerd, and service mesh deployments.

@@ -1,3 +1,14 @@
+---
+name: "Extraction Patterns Reference"
+tags: ["antigravity", "c:", "contact", "css", "directory", "extraction", "frontend", "gemini", "<YOUR_USERNAME>", "listings", "patterns", "product", "reference", "references", "results", "scraper", "search", "selector", "tables", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3930
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Extraction Patterns Reference
 
 CSS selectors, JavaScript snippets, and domain-specific tips for

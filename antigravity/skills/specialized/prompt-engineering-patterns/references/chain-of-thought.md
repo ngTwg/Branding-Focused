@@ -1,3 +1,14 @@
+---
+name: "Chain-of-Thought Prompting"
+tags: ["ai-agents", "antigravity", "c:", "chain", "core", "cot", "engineering", "example", "gemini", "<YOUR_USERNAME>", "model", "of", "output", "overview", "patterns", "prompt", "prompting", "references", "shot", "specialized"]
+tier: 2
+risk: "high"
+estimated_tokens: 2345
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["ai", "automation"]
+quality_score: 0.95
+---
 # Chain-of-Thought Prompting
 
 ## Overview

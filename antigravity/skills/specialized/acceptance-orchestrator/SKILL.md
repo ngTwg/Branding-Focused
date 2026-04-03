@@ -1,11 +1,17 @@
 ---
-name: acceptance-orchestrator
-description: Use when a coding task should be driven end-to-end from issue intake through implementation, review, deployment, and acceptance verification with minimal human re-intervention.
-risk: safe
-source: community
+name: "acceptance-orchestrator"
+tags: ["acceptance", "antigravity", "c:", "frontend", "gemini", "inputs", "<YOUR_USERNAME>", "machine", "orchestrator", "overview", "required", "skills", "specialized", "state", "sub", "users", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 742
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.70
 date_added: "2026-03-12"
+description: "Use when a coding task should be driven end-to-end from issue intake through implementation, review, deployment, and acceptance verification with minimal human re-intervention."
+source: "community"
 ---
-
 # Acceptance Orchestrator
 
 ## Overview

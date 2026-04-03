@@ -1,8 +1,15 @@
 ---
-name: cli-tool
-description: Node.js CLI tool template principles. Commander.js, interactive prompts.
+name: "cli-tool"
+tags: ["antigravity", "app", "builder", "c:", "cli", "components", "design", "directory", "frontend", "gemini", "key", "<YOUR_USERNAME>", "principles", "setup", "specialized", "stack", "steps", "structure", "tech", "template"]
+tier: 2
+risk: "medium"
+estimated_tokens: 419
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.71
+description: "Node.js CLI tool template principles. Commander.js, interactive prompts."
 ---
-
 # CLI Tool Template
 
 ## Tech Stack

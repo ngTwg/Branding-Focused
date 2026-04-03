@@ -1,3 +1,14 @@
+---
+name: "Actor Logging Reference"
+tags: ["actor", "and", "antigravity", "apify", "available", "backend", "best", "c:", "development", "gemini", "javascript", "<YOUR_USERNAME>", "levels", "log", "logging", "practices", "python", "reference", "references", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 691
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.65
+---
 # Actor Logging Reference
 
 ## JavaScript and TypeScript

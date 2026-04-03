@@ -1,12 +1,18 @@
 ---
-name: postgresql-optimization
-description: "PostgreSQL database optimization workflow for query tuning, indexing strategies, performance analysis, and production database management."
-category: granular-workflow-bundle
-risk: safe
-source: personal
+name: "postgresql-optimization"
+tags: ["analysis", "antigravity", "assessment", "backend", "c:", "gemini", "<YOUR_USERNAME>", "optimization", "overview", "performance", "phase", "phases", "postgresql", "query", "specialized", "this", "use", "users", "when", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 950
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.86
+category: "granular-workflow-bundle"
 date_added: "2026-02-27"
+description: "PostgreSQL database optimization workflow for query tuning, indexing strategies, performance analysis, and production database management."
+source: "personal"
 ---
-
 # PostgreSQL Optimization Workflow
 
 ## Overview

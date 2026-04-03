@@ -8,8 +8,8 @@ from pathlib import Path
 # Muc tieu: Chuyen doi cac Agent Events thanh dataset training JSONL (SFT Format)
 # ==============================================================================
 
-EVENT_LOG = Path(r"C:\Users\<USER_NAME>\.gemini\antigravity\agent_flow_events.jsonl")
-OUTPUT_JSONL = Path(r"C:\Users\<USER_NAME>\.gemini\antigravity\scripts\antigravity_training_set.jsonl")
+EVENT_LOG = Path(r"C:\Users\<YOUR_USERNAME>\.gemini\antigravity\agent_flow_events.jsonl")
+OUTPUT_JSONL = Path(r"C:\Users\<YOUR_USERNAME>\.gemini\antigravity\scripts\antigravity_training_set.jsonl")
 
 def extract_training_pairs():
     if not EVENT_LOG.exists():

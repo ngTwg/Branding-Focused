@@ -1,3 +1,14 @@
+---
+name: "API Reference - WhatsApp Cloud API"
+tags: ["antigravity", "api", "autenticacao", "c:", "cloud", "desenvolvimento", "frontend", "gemini", "header", "indice", "<YOUR_USERNAME>", "producao", "reference", "references", "specialized", "system", "temporario", "token", "user", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3891
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # API Reference - WhatsApp Cloud API
 
 Referencia tecnica completa dos endpoints, autenticacao, codigos de erro, rate limits e pricing da WhatsApp Cloud API (Graph API v21.0).

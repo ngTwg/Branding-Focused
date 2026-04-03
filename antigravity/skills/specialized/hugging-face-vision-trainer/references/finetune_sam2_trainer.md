@@ -1,3 +1,14 @@
+---
+name: "Fine-tuning SAM2 with HF Trainer"
+tags: ["and", "antigravity", "before", "build", "c:", "collator", "dataset", "encoder", "explore", "face", "fine", "finetune", "freeze", "frontend", "gemini", "hugging", "inference", "layers", "<YOUR_USERNAME>", "load"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1608
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.90
+---
 # Fine-tuning SAM2 with HF Trainer
 
 Fine-tune SAM2.1 on a small part of the MicroMat dataset for image matting,

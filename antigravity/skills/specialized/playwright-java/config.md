@@ -1,3 +1,14 @@
+---
+name: "Playwright Java – Project Configuration"
+tags: ["antigravity", "browser", "c:", "config", "configreader", "configuration", "first", "frontend", "gemini", "installation", "java", "<YOUR_USERNAME>", "maven", "playwright", "pom", "project", "properties", "resources", "setup", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1662
+tools_needed: ["docker", "markdown", "playwright", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.89
+---
 # Playwright Java – Project Configuration
 
 ## Maven POM (`pom.xml`)

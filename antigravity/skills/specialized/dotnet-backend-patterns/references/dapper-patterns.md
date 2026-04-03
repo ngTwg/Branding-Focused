@@ -1,3 +1,14 @@
+---
+name: "Dapper Patterns and Best Practices"
+tags: ["and", "antigravity", "backend", "best", "c:", "connection", "dapper", "dotnet", "frontend", "gemini", "handling", "<YOUR_USERNAME>", "lifecycle", "management", "patterns", "practices", "proper", "query", "references", "specialized"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3812
+tools_needed: ["markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Dapper Patterns and Best Practices
 
 Advanced patterns for high-performance data access with Dapper in .NET.

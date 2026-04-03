@@ -1,12 +1,18 @@
 ---
-name: claude-api
-description: "Build apps with the Claude API or Anthropic SDK. TRIGGER when: code imports `anthropic`/`@anthropic-ai/sdk`/`claude_agent_sdk`, or user asks to use Claude API, Anthropic SDKs, or Agent SDK. DO NOT TRIGGER when: code imports `openai`/other AI SDK, general programming, or ML/data-science tasks."
-risk: unknown
-source: "https://github.com/anthropics/skills"
+name: "claude-api"
+tags: ["antigravity", "api", "applications", "building", "c:", "claude", "defaults", "detection", "feature", "frontend", "gemini", "language", "<YOUR_USERNAME>", "llm", "powered", "should", "specialized", "specific", "support", "surface"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4611
+tools_needed: ["git", "markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.84
 date_added: "2026-03-21"
-license: Complete terms in LICENSE.txt
+description: "Build apps with the Claude API or Anthropic SDK. TRIGGER when: code imports `anthropic`/`@anthropic-ai/sdk`/`claude_agent_sdk`, or user asks to use Claude API, Anthropic SDKs, or Agent SDK. DO NOT TRIGGER when: code imports `openai`/other AI SDK, general programming, or ML/data-science tasks."
+license: "Complete terms in LICENSE.txt"
+source: "https://github.com/anthropics/skills"
 ---
-
 # Building LLM-Powered Applications with Claude
 
 This skill helps you build LLM-powered applications with Claude. Choose the right surface based on your needs, detect the project language, then read the relevant language-specific documentation.

@@ -1,11 +1,17 @@
 ---
-name: azure-mgmt-fabric-dotnet
-description: Azure Resource Manager SDK for Fabric in .NET.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "azure-mgmt-fabric-dotnet"
+tags: ["antigravity", "auth", "authentication", "azure", "backend", "c:", "devops", "dotnet", "environment", "fabric", "for", "gemini", "hierarchy", "installation", "<YOUR_USERNAME>", "mgmt", "net", "optional", "principal", "resource"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2680
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.97
+date_added: "2026-02-27"
+description: "Azure Resource Manager SDK for Fabric in .NET."
+source: "community"
 ---
-
 # Azure.ResourceManager.Fabric (.NET)
 
 Management plane SDK for provisioning and managing Microsoft Fabric capacity resources via Azure Resource Manager.

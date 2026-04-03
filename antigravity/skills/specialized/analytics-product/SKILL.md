@@ -1,4 +1,15 @@
 ---
+name: "ANALYTICS-PRODUCT — Decida com Dados"
+tags: ["analytics", "antigravity", "c:", "com", "dados", "decida", "frontend", "gemini", "how", "<YOUR_USERNAME>", "not", "overview", "product", "skill", "specialized", "this", "use", "users", "when", "works"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2113
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.92
+---
+---
 name: analytics-product
 description: "Analytics de produto — PostHog, Mixpanel, eventos, funnels, cohorts, retencao, north star metric, OKRs e dashboards de produto."
 risk: none

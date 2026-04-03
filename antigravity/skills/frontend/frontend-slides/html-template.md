@@ -1,3 +1,14 @@
+---
+name: "HTML Presentation Template"
+tags: ["antigravity", "base", "c:", "editing", "features", "frontend", "gemini", "html", "image", "images", "implementation", "inline", "javascript", "<YOUR_USERNAME>", "only", "opt", "pipeline", "presentation", "processing", "required"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2667
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # HTML Presentation Template
 
 Reference architecture for generating slide presentations. Every presentation follows this structure.

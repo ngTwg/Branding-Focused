@@ -1,12 +1,18 @@
 ---
-name: ssh-penetration-testing
-description: "Conduct comprehensive SSH security assessments including enumeration, credential attacks, vulnerability exploitation, tunneling techniques, and post-exploitation activities. This skill covers the complete methodology for testing SSH service security."
-risk: offensive
-source: community
-author: zebbern
+name: "ssh-penetration-testing"
+tags: ["and", "antigravity", "c:", "deliverables", "frontend", "gemini", "knowledge", "<YOUR_USERNAME>", "outputs", "penetration", "prerequisites", "purpose", "required", "specialized", "ssh", "testing", "tools", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3042
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+author: "zebbern"
 date_added: "2026-02-27"
+description: "Conduct comprehensive SSH security assessments including enumeration, credential attacks, vulnerability exploitation, tunneling techniques, and post-exploitation activities. This skill covers the complete methodology for testing SSH service security."
+source: "community"
 ---
-
 > AUTHORIZED USE ONLY: Use this skill only for authorized security assessments, defensive validation, or controlled educational environments.
 
 # SSH Penetration Testing

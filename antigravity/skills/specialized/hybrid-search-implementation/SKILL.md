@@ -1,11 +1,17 @@
 ---
-name: hybrid-search-implementation
-description: "Combine vector and keyword search for improved retrieval. Use when implementing RAG systems, building search engines, or when neither approach alone provides sufficient recall."
-risk: safe
-source: community
+name: "hybrid-search-implementation"
+tags: ["antigravity", "c:", "frontend", "gemini", "hybrid", "implementation", "instructions", "<YOUR_USERNAME>", "not", "resources", "search", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 288
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.60
 date_added: "2026-02-27"
+description: "Combine vector and keyword search for improved retrieval. Use when implementing RAG systems, building search engines, or when neither approach alone provides sufficient recall."
+source: "community"
 ---
-
 # Hybrid Search Implementation
 
 Patterns for combining vector similarity and keyword-based search.

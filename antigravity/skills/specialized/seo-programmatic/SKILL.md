@@ -1,4 +1,15 @@
 ---
+name: "Programmatic SEO Analysis & Planning"
+tags: ["analysis", "antigravity", "assessment", "c:", "common", "data", "engine", "frontend", "gemini", "<YOUR_USERNAME>", "pattern", "patterns", "planning", "programmatic", "seo", "source", "specialized", "strategy", "template", "url"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2248
+tools_needed: ["git", "markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.79
+---
+---
 name: seo-programmatic
 description: "Plan and audit programmatic SEO pages generated at scale from structured data. Use when designing templates, URL systems, internal linking, quality gates, and index-bloat safeguards for pages at scale."
 risk: unknown

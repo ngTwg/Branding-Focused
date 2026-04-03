@@ -1,11 +1,17 @@
 ---
-name: multi-cloud-architecture
-description: "Decision framework and patterns for architecting applications across AWS, Azure, and GCP."
-risk: safe
-source: community
+name: "multi-cloud-architecture"
+tags: ["antigravity", "architecture", "c:", "cloud", "comparison", "frontend", "gemini", "instructions", "<YOUR_USERNAME>", "multi", "not", "purpose", "service", "skill", "specialized", "this", "use", "users", "when"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1284
+tools_needed: ["kubernetes", "markdown", "sql", "terraform"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.76
 date_added: "2026-02-27"
+description: "Decision framework and patterns for architecting applications across AWS, Azure, and GCP."
+source: "community"
 ---
-
 # Multi-Cloud Architecture
 
 Decision framework and patterns for architecting applications across AWS, Azure, and GCP.

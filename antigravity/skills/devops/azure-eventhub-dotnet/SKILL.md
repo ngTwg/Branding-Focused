@@ -1,11 +1,17 @@
 ---
-name: azure-eventhub-dotnet
-description: Azure Event Hubs SDK for .NET.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "azure-eventhub-dotnet"
+tags: ["and", "antigravity", "authentication", "azure", "c:", "checkpointing", "core", "devops", "dotnet", "eventhub", "eventhubs", "eventprocessorclient", "for", "frontend", "gemini", "installation", "<YOUR_USERNAME>", "messaging", "net", "package"]
+tier: 3
+risk: "medium"
+estimated_tokens: 2518
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.96
+date_added: "2026-02-27"
+description: "Azure Event Hubs SDK for .NET."
+source: "community"
 ---
-
 # Azure.Messaging.EventHubs (.NET)
 
 High-throughput event streaming SDK for sending and receiving events via Azure Event Hubs.

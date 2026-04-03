@@ -1,3 +1,14 @@
+---
+name: "Frontend Best Practices"
+tags: ["a11y", "accessibility", "antigravity", "aria", "attributes", "best", "c:", "contents", "frontend", "gemini", "html", "keyboard", "<YOUR_USERNAME>", "navigation", "practices", "references", "semantic", "senior", "specialized", "table"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4878
+tools_needed: ["markdown", "playwright"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Frontend Best Practices
 
 Modern frontend development standards for accessibility, testing, TypeScript, and Tailwind CSS.

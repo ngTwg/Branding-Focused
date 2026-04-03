@@ -1,11 +1,17 @@
 ---
-name: azure-storage-queue-ts
-description: Azure Queue Storage JavaScript/TypeScript SDK (@azure/storage-queue) for message queue operations. Use for sending, receiving, peeking, and deleting messages in queues.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+name: "azure-storage-queue-ts"
+tags: ["antigravity", "authentication", "azure", "backend", "c:", "connection", "defaultazurecredential", "devops", "environment", "gemini", "installation", "javascript", "<YOUR_USERNAME>", "queue", "recommended", "storage", "string", "ts", "typescript", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3270
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.97
+date_added: "2026-02-27"
+description: "Azure Queue Storage JavaScript/TypeScript SDK (@azure/storage-queue) for message queue operations. Use for sending, receiving, peeking, and deleting messages in queues."
+source: "community"
 ---
-
 # @azure/storage-queue (TypeScript/JavaScript)
 
 SDK for Azure Queue Storage operations — send, receive, peek, and manage messages in queues.

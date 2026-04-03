@@ -1,3 +1,14 @@
+---
+name: "Naming & Coding Standards"
+tags: ["antigravity", "avalonia", "c:", "coding", "development", "error", "gemini", "general", "handling", "<YOUR_USERNAME>", "naming", "specialized", "standards", "users", "zafiro"]
+tier: 3
+risk: "high"
+estimated_tokens: 184
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["specialized", "domain"]
+quality_score: 0.53
+---
 # Naming & Coding Standards
 
 ## General Standards

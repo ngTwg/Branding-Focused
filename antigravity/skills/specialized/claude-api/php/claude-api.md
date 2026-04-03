@@ -1,3 +1,14 @@
+---
+name: "Claude API — PHP"
+tags: ["amazon", "anthropic", "antigravity", "api", "bedrock", "c:", "claude", "client", "foundry", "frontend", "gemini", "google", "initialization", "installation", "<YOUR_USERNAME>", "php", "specialized", "users", "vertex"]
+tier: 2
+risk: "medium"
+estimated_tokens: 391
+tools_needed: ["markdown", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.80
+---
 # Claude API — PHP
 
 > **Note:** The PHP SDK is the official Anthropic SDK for PHP. Tool runner and Agent SDK are not available. Bedrock, Vertex AI, and Foundry clients are supported.

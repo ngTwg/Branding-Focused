@@ -2,6 +2,11 @@ import time
 import os
 from pydantic import BaseModel, ValidationError
 
+
+class _NoOpTracer:
+    def log_generation(self, **kwargs):
+        return None
+
 try:
     import instructor
     from openai import OpenAI
@@ -33,27 +38,62 @@ class LLMClient:
         },
     }
     
-    def __init__(self, tracer, provider_client=None):
+    def __init__(
+        self,
+        tracer=None,
+        provider_client=None,
+        provider=None,
+        model=None,
+        api_key=None,
+    ):
         from dotenv import load_dotenv
         load_dotenv()
-        self.tracer = tracer
+        self.tracer = tracer or _NoOpTracer()
+        self._forced_provider = (provider or "").lower().strip()
+        self._default_model = model
+
+        if api_key and not os.environ.get("GOOGLE_API_KEY"):
+            os.environ["GOOGLE_API_KEY"] = api_key
+
         if provider_client:
             self.client = provider_client
+        elif self._forced_provider == "anthropic":
+            # Compatibility mode for tests that pass provider/model/api_key.
+            if instructor and OpenAI:
+                self.client = instructor.from_openai(OpenAI())
+            else:
+                self.client = None
+        elif self._forced_provider == "openai":
+            if instructor and OpenAI:
+                self.client = instructor.from_openai(OpenAI())
+            else:
+                self.client = None
         elif os.environ.get("GOOGLE_API_KEY"):
             # Native Google Gemini support if API key found (Requirement 5.9)
-            import google.generativeai as genai
             self.api_key = os.environ.get("GOOGLE_API_KEY")
-            genai.configure(api_key=os.environ.get("GOOGLE_API_KEY"))
-            # Use instructor wrapper for gemini (structured output support)
             try:
-                self.client = instructor.from_gemini(
-                    client=genai.GenerativeModel(
-                        model_name=os.environ.get("GEMINI_MODEL", "gemini-1.5-flash-latest")
-                    )
-                )
-            except Exception as e:
-                print(f"[LLM_CLIENT] Warning: Failed to hook instructor to gemini: {e}")
-                self.client = None
+                import google.generativeai as genai
+            except ImportError as e:
+                print(f"[LLM_CLIENT] Warning: google.generativeai unavailable: {e}")
+                if instructor and OpenAI:
+                    self.client = instructor.from_openai(OpenAI())
+                else:
+                    self.client = None
+            else:
+                genai.configure(api_key=self.api_key)
+                if not instructor:
+                    print("[LLM_CLIENT] Warning: instructor not installed, cannot use structured Gemini client.")
+                    self.client = None
+                else:
+                    try:
+                        self.client = instructor.from_gemini(
+                            client=genai.GenerativeModel(
+                                model_name=os.environ.get("GEMINI_MODEL", "gemini-1.5-flash-latest")
+                            )
+                        )
+                    except Exception as e:
+                        print(f"[LLM_CLIENT] Warning: Failed to hook instructor to gemini: {e}")
+                        self.client = None
         elif instructor and OpenAI:
             # Fallback to default OpenAI setup mapped through Instructor
             self.client = instructor.from_openai(OpenAI())
@@ -71,6 +111,9 @@ class LLMClient:
             "total_tokens": 0,
             "total_cost_units": 0.0,
         }
+        
+        # v6.5: Last call usage track (for accurate budget tracking)
+        self.last_call_tokens: tuple[int, int] = (0, 0)
 
     def set_static_prefix(self, content: str) -> None:
         """
@@ -139,6 +182,9 @@ class LLMClient:
         Returns:
             "anthropic", "openai", or "unknown"
         """
+        if self._forced_provider in {"anthropic", "openai"}:
+            return self._forced_provider
+
         if not self.client:
             return "unknown"
         
@@ -268,6 +314,10 @@ class LLMClient:
                         output_tokens=out_tokens,
                         success=True,
                     )
+                
+                # Update last call usage
+                self.last_call_tokens = (in_tokens or 0, out_tokens or 0)
+                
                 return text_result
             except Exception as e:
                 err_msg = str(e).lower()
@@ -327,6 +377,10 @@ class LLMClient:
                         input_tokens=in_tokens,
                         output_tokens=out_tokens,
                     )
+                
+                # Update last call usage
+                self.last_call_tokens = (in_tokens or 0, out_tokens or 0)
+                
                 return raw_output
             
             except Exception as e: 

@@ -1,12 +1,18 @@
 ---
-name: wireshark-analysis
-description: "Execute comprehensive network traffic analysis using Wireshark to capture, filter, and examine network packets for security investigations, performance optimization, and troubleshooting."
-risk: unknown
-source: community
-author: zebbern
+name: "wireshark-analysis"
+tags: ["analysis", "antigravity", "c:", "cases", "frontend", "gemini", "inputs", "<YOUR_USERNAME>", "network", "prerequisites", "purpose", "required", "requirements", "specialized", "technical", "tools", "traffic", "use", "users", "wireshark"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3026
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.97
+author: "zebbern"
 date_added: "2026-02-27"
+description: "Execute comprehensive network traffic analysis using Wireshark to capture, filter, and examine network packets for security investigations, performance optimization, and troubleshooting."
+source: "community"
 ---
-
 # Wireshark Network Traffic Analysis
 
 ## Purpose

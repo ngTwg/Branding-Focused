@@ -1,11 +1,17 @@
 ---
-name: context-management-context-save
-description: "Use when working with context management context save"
-risk: unknown
-source: community
+name: "context-management-context-save"
+tags: ["and", "antigravity", "c:", "context", "frontend", "gemini", "instructions", "intelligent", "<YOUR_USERNAME>", "management", "not", "overview", "purpose", "role", "save", "skill", "specialist", "specialized", "this", "tool"]
+tier: 3
+risk: "medium"
+estimated_tokens: 1457
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.82
 date_added: "2026-02-27"
+description: "Use when working with context management context save"
+source: "community"
 ---
-
 # Context Save Tool: Intelligent Context Management Specialist
 
 ## Use this skill when

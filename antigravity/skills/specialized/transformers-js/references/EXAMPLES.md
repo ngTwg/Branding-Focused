@@ -1,3 +1,14 @@
+---
+name: "Transformers.js Code Examples"
+tags: ["antigravity", "basic", "browser", "c:", "code", "contents", "examples", "frontend", "gemini", "js", "<YOUR_USERNAME>", "node", "progress", "references", "specialized", "table", "tracking", "transformers", "usage", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3798
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Transformers.js Code Examples
 
 Working examples showing how to use Transformers.js across different runtimes and frameworks.

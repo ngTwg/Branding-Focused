@@ -1,10 +1,16 @@
 ---
-name: sred-project-organizer
-description: Take a list of projects and their related documentation, and organize them into the SRED format for submission.
-risk: unknown
-source: community
+name: "sred-project-organizer"
+tags: ["antigravity", "c:", "frontend", "gemini", "<YOUR_USERNAME>", "name", "organization", "organizer", "prerequisites", "process", "project", "projects", "specialized", "sred", "step", "users"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1548
+tools_needed: ["git", "markdown", "mcp"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.83
+description: "Take a list of projects and their related documentation, and organize them into the SRED format for submission."
+source: "community"
 ---
-
 # SRED Project Organization
 
 SRED expects projects to be presented in a particular format. Take the list of projects that have been worked on in the past year, and summarize them into the format expected by SRED, with the supporting evidence. Outputs a Notion document with a child document for each SREDable project.

@@ -1,4 +1,15 @@
 ---
+name: "ComfyUI Gateway"
+tags: ["antigravity", "architecture", "c:", "comfyui", "frontend", "gateway", "gemini", "how", "<YOUR_USERNAME>", "not", "overview", "skill", "specialized", "this", "use", "users", "when", "works"]
+tier: 2
+risk: "medium"
+estimated_tokens: 3682
+tools_needed: ["docker", "markdown", "sql", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
+---
 name: comfyui-gateway
 description: REST API gateway for ComfyUI servers. Workflow management, job queuing, webhooks, caching, auth, rate limiting, and image delivery (URL + base64).
 risk: safe

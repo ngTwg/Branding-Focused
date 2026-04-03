@@ -1,3 +1,14 @@
+---
+name: "Python Actorization"
+tags: ["actor", "actorization", "antigravity", "apify", "backend", "batch", "c:", "context", "crawlee", "function", "gemini", "install", "key", "<YOUR_USERNAME>", "main", "manager", "points", "processing", "projects", "python"]
+tier: 2
+risk: "medium"
+estimated_tokens: 616
+tools_needed: ["markdown", "playwright", "terminal"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["platform", "api"]
+quality_score: 0.73
+---
 # Python Actorization
 
 ## Install the Apify SDK

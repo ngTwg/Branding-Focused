@@ -1,4 +1,4 @@
-"""
+﻿"""
 ██████╗ ██████╗ ██╗██████╗  ██████╗ ███████╗
 ██╔══██╗██╔══██╗██║██╔══██╗██╔════╝ ██╔════╝
 ██████╔╝██████╔╝██║██║  ██║██║  ███╗█████╗  
@@ -21,7 +21,7 @@ How it works:
     4. Agent Flow watches the output .jsonl file via 'agentVisualizer.eventLogPath'
     
 Setup:
-    In VS Code settings: "agentVisualizer.eventLogPath": "C:\\Users\\<USER_NAME>\\.gemini\\antigravity\\agent_flow_events.jsonl"
+    In VS Code settings: "agentVisualizer.eventLogPath": "C:\\Users\\lengo\\.gemini\\antigravity\\agent_flow_events.jsonl"
 """
 
 import json
@@ -38,12 +38,12 @@ from typing import Optional
 
 # ─── Config ──────────────────────────────────────────────────────────────────
 
-Antigravity_DIR = Path(os.environ.get("Antigravity_DIR", r"C:\Users\<USER_NAME>\.gemini\antigravity"))
-DAEMON_DIR = Antigravity_DIR / "daemon"
+ANTIGRAVITY_DIR = Path(os.environ.get("ANTIGRAVITY_DIR", r"C:\Users\<YOUR_USERNAME>\.gemini\antigravity"))
+DAEMON_DIR = ANTIGRAVITY_DIR / "daemon"
 
 # Output path — MUST match VS Code setting "agentVisualizer.eventLogPath"
 # The extension watches this file for live events.
-OUTPUT_PATH = Antigravity_DIR / "agent_flow_events.jsonl"
+OUTPUT_PATH = ANTIGRAVITY_DIR / "agent_flow_events.jsonl"
 
 # ─── AgentEvent Helpers ───────────────────────────────────────────────────────
 
@@ -62,7 +62,7 @@ class AgentFlowEmitter:
         # Fake a Claude Code "cwd" line so the extension's SessionWatcher authenticates it
         init_event = {
             "type": "message",
-            "cwd": str(Antigravity_DIR),
+            "cwd": str(ANTIGRAVITY_DIR),
             "message": {"role": "user", "content": "Antigravity Bridge Init"}
         }
         with self._lock:
@@ -109,20 +109,108 @@ class AgentFlowEmitter:
             "task": task,
         })
 
-    def _mask_secrets(self, text: str) -> str:
-        """Loki Mode / PII Data Masking by Default: Redact sensitive information."""
-        if not text: return text
+    def _mask_token_value(self, value: str, prefix: str = "[MASKED]") -> str:
+        if not value:
+            return prefix
+        if len(value) <= 8:
+            return prefix
+        return f"{prefix}({value[:2]}...{value[-2:]})"
+
+    def _mask_structured_payload(self, payload):
+        sensitive_keys = {
+            "token", "access_token", "refresh_token", "id_token",
+            "secret", "client_secret", "api_key", "apikey", "password",
+            "authorization", "cookie", "session", "private_key", "credential",
+        }
+
+        if isinstance(payload, dict):
+            redacted = {}
+            for key, value in payload.items():
+                key_lower = str(key).lower()
+                if any(flag in key_lower for flag in sensitive_keys):
+                    if isinstance(value, str):
+                        redacted[key] = self._mask_token_value(value)
+                    else:
+                        redacted[key] = "[MASKED]"
+                else:
+                    redacted[key] = self._mask_structured_payload(value)
+            return redacted
+
+        if isinstance(payload, list):
+            return [self._mask_structured_payload(item) for item in payload]
+
+        if isinstance(payload, str):
+            return self._mask_inline_secrets(payload)
+
+        return payload
+
+    def _mask_inline_secrets(self, text: str) -> str:
+        if not text:
+            return text
+
         import re
-        # Mask Bearer tokens
-        text = re.sub(r'(Bearer\s+)[A-Za-z0-9\-\._~\+\/]+=*', r'\1[MASKED_TOKEN]', text)
-        # Mask API keys and secrets
-        text = re.sub(r'([A-Za-z0-9_]*API[A-Za-z0-9_]*[Kk]ey\s*["\']?\s*:\s*["\']?)[A-Za-z0-9\-\._]+', r'\1[MASKED_API_KEY]', text)
-        text = re.sub(r'([A-Za-z0-9_]*[Ss]ecret\s*["\']?\s*:\s*["\']?)[A-Za-z0-9\-\._]+', r'\1[MASKED_SECRET]', text)
-        return text
+
+        masked = text
+
+        # Authorization: Bearer <token>
+        masked = re.sub(
+            r"(Bearer\s+)([A-Za-z0-9\-\._~\+/]+=*)",
+            lambda m: m.group(1) + self._mask_token_value(m.group(2), "[MASKED_TOKEN]"),
+            masked,
+            flags=re.IGNORECASE,
+        )
+
+        # Common key/value patterns (token, secret, password, api key)
+        masked = re.sub(
+            r"(?i)(\b(?:api[_-]?key|token|secret|password|client[_-]?secret|authorization|cookie)\b\s*[:=]\s*[\"']?)([^\s,\"'\}\]]+)",
+            lambda m: m.group(1) + self._mask_token_value(m.group(2)),
+            masked,
+        )
+
+        # Querystring secrets: ?token=...&api_key=...
+        masked = re.sub(
+            r"([?&](?:token|api[_-]?key|secret|password)=)([^&\s]+)",
+            lambda m: m.group(1) + self._mask_token_value(m.group(2)),
+            masked,
+            flags=re.IGNORECASE,
+        )
+
+        # JWTs (three base64url segments)
+        masked = re.sub(
+            r"\b([A-Za-z0-9_-]{16,}\.[A-Za-z0-9_-]{16,}\.[A-Za-z0-9_-]{16,})\b",
+            lambda m: self._mask_token_value(m.group(1), "[MASKED_JWT]"),
+            masked,
+        )
+
+        # Provider-like token prefixes
+        masked = re.sub(
+            r"\b(?:sk-[A-Za-z0-9]{12,}|gh[pousr]_[A-Za-z0-9]{12,}|AIza[0-9A-Za-z\-_]{20,}|xox[baprs]-[A-Za-z0-9-]{10,})\b",
+            lambda m: self._mask_token_value(m.group(0), "[MASKED_KEY]"),
+            masked,
+        )
+
+        return masked
+
+    def _mask_secrets(self, text: str) -> str:
+        """Context-aware secret masking for plain text and structured payload snippets."""
+        if not text:
+            return text
+
+        stripped = text.strip()
+        if stripped.startswith("{") or stripped.startswith("["):
+            try:
+                parsed = json.loads(stripped)
+                masked = self._mask_structured_payload(parsed)
+                return json.dumps(masked, ensure_ascii=False)
+            except Exception:
+                # Fall back to inline masking for partially-truncated JSON snippets.
+                pass
+
+        return self._mask_inline_secrets(text)
 
     def tool_call_start(self, tool_name: str, args: str, agent: str = "Antigravity"):
         """Emit tool call start event with data masking."""
-        safe_args = self._mask_secrets(args[:200])
+        safe_args = self._mask_secrets(args)[:200]
         self._emit("tool_call_start", {
             "agent": agent,
             "tool": tool_name,
@@ -132,7 +220,7 @@ class AgentFlowEmitter:
 
     def tool_call_end(self, tool_name: str, result: str, agent: str = "Antigravity", token_cost: int = 0):
         """Emit tool call end event with data masking."""
-        safe_result = self._mask_secrets(result[:500])
+        safe_result = self._mask_secrets(result)[:500]
         self._emit("tool_call_end", {
             "agent": agent,
             "tool": tool_name,
@@ -376,7 +464,7 @@ def run_demo(emitter: AgentFlowEmitter):
     time.sleep(0.3)
     
     # Write bridge script
-    emitter.tool_call_start("write_to_file", "C:/Users/<USER_NAME>/.gemini/antigravity/scripts/agent_flow_bridge.py")
+    emitter.tool_call_start("write_to_file", "C:/Users/<YOUR_USERNAME>/.gemini/antigravity/scripts/agent_flow_bridge.py")
     time.sleep(1.2)
     emitter.tool_call_end("write_to_file", "Created 250-line Python bridge script", token_cost=450)
     

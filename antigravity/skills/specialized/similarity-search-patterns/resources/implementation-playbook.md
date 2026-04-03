@@ -1,3 +1,14 @@
+---
+name: "Similarity Search Patterns Implementation Playbook"
+tags: ["antigravity", "c:", "concepts", "core", "distance", "frontend", "gemini", "implementation", "index", "<YOUR_USERNAME>", "metrics", "patterns", "playbook", "resources", "search", "similarity", "skill", "specialized", "this", "types"]
+tier: 2
+risk: "medium"
+estimated_tokens: 4357
+tools_needed: ["git", "markdown", "sql"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.94
+---
 # Similarity Search Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

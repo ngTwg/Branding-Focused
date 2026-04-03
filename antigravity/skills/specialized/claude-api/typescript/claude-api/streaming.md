@@ -1,3 +1,14 @@
+---
+name: "Streaming — TypeScript"
+tags: ["antigravity", "api", "c:", "claude", "content", "different", "event", "final", "frontend", "gemini", "getting", "handling", "<YOUR_USERNAME>", "message", "quick", "runner", "specialized", "start", "stream", "streaming"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1390
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.86
+---
 # Streaming — TypeScript
 
 ## Quick Start

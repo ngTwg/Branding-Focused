@@ -1,10 +1,16 @@
 ---
-name: compositions
-description: Defining compositions, stills, folders, default props and dynamic metadata
-metadata:
-  tags: composition, still, folder, props, metadata
+name: "compositions"
+tags: ["composition, still, folder, props, metadata"]
+tier: 2
+risk: "medium"
+estimated_tokens: 861
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.76
+description: "Defining compositions, stills, folders, default props and dynamic metadata"
+metadata: ""
 ---
-
 A `<Composition>` defines the component, width, height, fps and duration of a renderable video.
 
 It normally is placed in the `src/Root.tsx` file.

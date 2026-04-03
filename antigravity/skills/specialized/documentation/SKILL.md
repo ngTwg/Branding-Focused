@@ -1,12 +1,18 @@
 ---
-name: documentation
-description: "Documentation generation workflow covering API docs, architecture docs, README files, code comments, and technical writing."
-category: workflow-bundle
-risk: safe
-source: personal
+name: "documentation"
+tags: ["antigravity", "api", "bundle", "c:", "documentation", "frontend", "gemini", "<YOUR_USERNAME>", "overview", "phase", "phases", "planning", "specialized", "this", "use", "users", "when", "workflow"]
+tier: 2
+risk: "medium"
+estimated_tokens: 1336
+tools_needed: ["git", "markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.90
+category: "workflow-bundle"
 date_added: "2026-02-27"
+description: "Documentation generation workflow covering API docs, architecture docs, README files, code comments, and technical writing."
+source: "personal"
 ---
-
 # Documentation Workflow Bundle
 
 ## Overview

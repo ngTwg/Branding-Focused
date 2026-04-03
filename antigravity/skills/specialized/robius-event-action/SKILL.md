@@ -1,4 +1,15 @@
 ---
+name: "Robius Event and Action Patterns Skill"
+tags: ["action", "actions", "and", "antigravity", "app", "c:", "centralized", "custom", "defining", "domain", "emitting", "event", "from", "frontend", "gemini", "handling", "<YOUR_USERNAME>", "pattern", "patterns", "robius"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2551
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.93
+---
+---
 name: robius-event-action
 description: |
   CRITICAL: Use for Robius event and action patterns. Triggers on:

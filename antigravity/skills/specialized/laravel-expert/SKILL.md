@@ -1,11 +1,17 @@
 ---
-name: laravel-expert
-description: "Senior Laravel Engineer role for production-grade, maintainable, and idiomatic Laravel solutions. Focuses on clean architecture, security, performance, and modern standards (Laravel 10/11+)."
-risk: safe
-source: community
+name: "laravel-expert"
+tags: ["antigravity", "c:", "engineering", "expert", "frontend", "gemini", "laravel", "<YOUR_USERNAME>", "metadata", "not", "principles", "role", "skill", "specialized", "this", "use", "users", "when"]
+tier: 2
+risk: "medium"
+estimated_tokens: 966
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.71
 date_added: "2026-02-27"
+description: "Senior Laravel Engineer role for production-grade, maintainable, and idiomatic Laravel solutions. Focuses on clean architecture, security, performance, and modern standards (Laravel 10/11+)."
+source: "community"
 ---
-
 # Laravel Expert
 
 ## Skill Metadata

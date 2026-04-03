@@ -1,3 +1,14 @@
+---
+name: "Common Problems & Debugging"
+tags: ["3d", "antigravity", "behind", "box", "break", "c:", "common", "critical", "debugging", "else", "everything", "fails", "fine", "frontend", "gemini", "gotchas", "guides", "hijacking", "integration", "intermittently"]
+tier: 2
+risk: "medium"
+estimated_tokens: 2224
+tools_needed: ["markdown"]
+applies_to_agents: ["cursor", "claude", "copilot", "cline", "continue", "kiro", "roo"]
+industry: ["web", "product"]
+quality_score: 0.95
+---
 # Common Problems & Debugging
 
 These are the real-world issues that only surface after integration. Read this before finishing any Spline implementation.
